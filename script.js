@@ -1,6 +1,7 @@
 
 let questoes = []; let indiceAtual = 0; let pontuacao = 0; let tempoRestante; let timerInterval;
-let qtdGlobal = 10; // Padrão: 10 questões
+let qtdGlobal = 10; // Padrão
+let materiaGlobal = 'all'; // Padrão: Todas
 const TEMPO_POR_QUESTAO = 180;
 
 const menuScreen = document.getElementById('menu-screen');
@@ -12,7 +13,6 @@ const progressText = document.getElementById('progress');
 const tituloProva = document.getElementById('prova-titulo');
 const scoreElem = document.getElementById('final-score');
 const feedbackElem = document.getElementById('final-feedback');
-const modeDesc = document.getElementById('mode-desc');
 
 // Gera botões de ano
 const yearsDiv = document.getElementById('year-buttons');
@@ -24,24 +24,21 @@ for (let y = 2023; y >= 2009; y--) {
     yearsDiv.appendChild(btn);
 }
 
-// --- LÓGICA DE SELEÇÃO DE MODO ---
-function selecionarModo(qtd, btn) {
+// --- FUNÇÕES DE SELEÇÃO ---
+function selecionarQtd(qtd, btn) {
     qtdGlobal = qtd;
-
-    // Atualiza visual dos botões
-    document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+    // Remove active dos irmãos na mesma div
+    btn.parentElement.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-
-    // Atualiza texto de descrição
-    let txt = "";
-    if (qtd === 10) txt = "Modo Rápido: 10 questões aleatórias (ideal para intervalos).";
-    else if (qtd === 30) txt = "Modo Treino: 30 questões aleatórias (cobre mais matérias).";
-    else if (qtd === 60) txt = "Modo Focado: 60 questões aleatórias (simulado sério).";
-    else txt = "Modo Completo: Todas as questões na ordem original da prova.";
-    modeDesc.innerText = txt;
 }
 
-// --- EMBARALHAR ---
+function selecionarMateria(mat, btn) {
+    materiaGlobal = mat;
+    btn.parentElement.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+}
+
+// --- UTILITÁRIOS ---
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -50,15 +47,26 @@ function shuffleArray(array) {
     return array;
 }
 
-// --- INICIAR ---
+const nomesMateria = {
+    'all': 'Geral',
+    'ciencias-humanas': 'Humanas',
+    'ciencias-natureza': 'Natureza',
+    'linguagens': 'Linguagens',
+    'matematica': 'Matemática'
+};
+
+// --- INICIAR QUIZ ---
 async function iniciarQuiz(ano) {
     menuScreen.style.display = 'none';
     resultScreen.style.display = 'none';
     quizActive.style.display = 'block';
 
-    let textoQtd = qtdGlobal === 'all' ? 'Completa' : qtdGlobal + ' Questões';
-    tituloProva.innerText = `ENEM ${ano} (${textoQtd})`;
-    quizContainer.innerHTML = '<p style="text-align:center">Carregando...</p>';
+    // Texto do Título
+    let txtQtd = qtdGlobal === 'all' ? 'Completa' : qtdGlobal;
+    let txtMat = nomesMateria[materiaGlobal] || 'Geral';
+    tituloProva.innerText = `ENEM ${ano} | ${txtMat} | ${txtQtd}`;
+
+    quizContainer.innerHTML = '<p style="text-align:center">Filtrando questões...</p>';
 
     try {
         const response = await fetch(`questoes/enem_${ano}.json`);
@@ -66,19 +74,35 @@ async function iniciarQuiz(ano) {
         const dados = await response.json();
 
         let listaCompleta = dados.itens;
-        if (!listaCompleta || listaCompleta.length === 0) throw new Error("Sem questões.");
+        if (!listaCompleta || listaCompleta.length === 0) throw new Error("Sem questões neste ano.");
 
+        // 1. FILTRO POR MATÉRIA
+        let listaFiltrada = listaCompleta;
+        if (materiaGlobal !== 'all') {
+            listaFiltrada = listaCompleta.filter(item => item.materia === materiaGlobal);
+        }
+
+        if (listaFiltrada.length === 0) {
+            throw new Error(`Não há questões de ${nomesMateria[materiaGlobal]} na prova de ${ano}.`);
+        }
+
+        // 2. FILTRO POR QUANTIDADE (Sorteio)
         if (qtdGlobal === 'all') {
-            questoes = listaCompleta;
+            questoes = listaFiltrada;
         } else {
-            // Clona e embaralha para não afetar original
-            questoes = shuffleArray([...listaCompleta]).slice(0, qtdGlobal);
+            // Embaralha e corta
+            questoes = shuffleArray([...listaFiltrada]).slice(0, qtdGlobal);
         }
 
         indiceAtual = 0; pontuacao = 0; carregarQuestao(indiceAtual);
     } catch (erro) {
         console.error(erro);
-        quizContainer.innerHTML = `<p style="text-align:center;color:red">Erro: ${erro.message}</p><button onclick="location.reload()">Voltar</button>`;
+        quizContainer.innerHTML = `
+            <div style="text-align:center; padding:20px;">
+                <h3 style="color:#c0392b">Ops!</h3>
+                <p>${erro.message}</p>
+                <button onclick="location.reload()" style="padding:10px; margin-top:10px;">Voltar</button>
+            </div>`;
     }
 }
 
@@ -96,7 +120,16 @@ function carregarQuestao(index) {
     });
     htmlOpts += '</div>';
 
-    quizContainer.innerHTML = `<div class="question-box">${htmlImg}<div class="question-text">${q.enunciado}</div>${htmlOpts}</div>`;
+    // Badge da matéria
+    let badgeMat = q.materia ? `<span style="font-size:0.8rem; background:#ecf0f1; padding:2px 6px; border-radius:4px; color:#7f8c8d;">${q.materia}</span>` : '';
+
+    quizContainer.innerHTML = `
+        <div class="question-box">
+            <div style="text-align:right; margin-bottom:5px;">${badgeMat}</div>
+            ${htmlImg}
+            <div class="question-text">${q.enunciado}</div>
+            ${htmlOpts}
+        </div>`;
     iniciarCronometro();
 }
 
@@ -138,11 +171,12 @@ function mostrarResultadoFinal() {
     feedbackElem.innerText = msg;
 }
 window.verificarEProxima = verificarEProxima; 
-window.selecionarModo = selecionarModo;
+window.selecionarQtd = selecionarQtd;
+window.selecionarMateria = selecionarMateria;
 window.iniciarQuiz = iniciarQuiz;
 
 // Versão de Debug
 const vDiv = document.createElement('div');
 vDiv.style.cssText = "position:fixed;bottom:5px;right:10px;font-size:0.7rem;color:#ccc;pointer-events:none;";
-vDiv.innerText = "Interface Atualizada: " + new Date().toLocaleTimeString();
+vDiv.innerText = "Frontend: " + new Date().toLocaleTimeString();
 document.body.appendChild(vDiv);
