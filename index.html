@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado Rápido ENEM - 3 Minutos</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f9; margin: 0; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        
+        /* Estilo do Cronômetro Fixo */
+        #timer-box {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #e74c3c;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 50px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+        
+        h1 { text-align: center; color: #2c3e50; }
+        .question-card { margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .question-title { font-weight: bold; font-size: 1.1rem; margin-bottom: 10px; }
+        .options label { display: block; margin: 8px 0; cursor: pointer; padding: 8px; border-radius: 5px; transition: background 0.2s; }
+        .options label:hover { background-color: #f0f0f0; }
+        
+        button#finish-btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #27ae60;
+            color: white;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button#finish-btn:hover { background-color: #219150; }
+
+        /* Classes para resultado */
+        .correct { color: #27ae60; font-weight: bold; }
+        .wrong { color: #c0392b; font-weight: bold; }
+        .feedback { margin-top: 10px; font-size: 0.9rem; background: #f9f9f9; padding: 10px; border-left: 4px solid #ccc; display: none; }
+    </style>
+</head>
+<body>
+
+    <div id="timer-box">03:00</div>
+
+    <div class="container">
+        <h1>📚 Desafio ENEM - 10 Questões</h1>
+        <p style="text-align: center;">Responda rápido! O tempo acaba em 3 minutos.</p>
+        <hr>
+
+        <form id="quiz-form">
+            <div id="questions-container"></div>
+            <button type="button" id="finish-btn" onclick="finalizarQuiz()">Enviar Respostas</button>
+        </form>
+    </div>
+
+    <script>
+        // --- DADOS DO QUIZ (Baseados na nossa conversa anterior) ---
+        const questoes = [
+            {
+                q: "1. (Matemática) Escala 1:200.000. Distância no mapa 4 cm. Qual a distância real?",
+                options: ["8 km", "80 km", "0,8 km", "800 km"],
+                correct: 0,
+                expl: "1 cm = 200.000 cm (2km). Logo, 4 cm = 8 km."
+            },
+            {
+                q: "2. (Biologia) Consequência da eutrofização após a morte das algas:",
+                options: ["Aumento do oxigênio", "Diminuição do oxigênio dissolvido", "Diminuição da temperatura", "Aumento da salinidade"],
+                correct: 1,
+                expl: "A decomposição aeróbia das algas consome o oxigênio da água."
+            },
+            {
+                q: "3. (História) Contexto da Revolta da Vacina (1904):",
+                options: ["Independência do Brasil", "Reformas urbanas e sanitárias no Rio", "Abolição da Escravatura", "Golpe Militar"],
+                correct: 1,
+                expl: "Foi uma reação à vacinação obrigatória e reformas de Pereira Passos."
+            },
+            {
+                q: "4. (Química) Método para separar água e óleo:",
+                options: ["Filtração", "Decantação", "Destilação simples", "Levigação"],
+                correct: 1,
+                expl: "Líquidos imiscíveis com densidades diferentes se separam por decantação."
+            },
+            {
+                q: "5. (Literatura) Característica do Modernismo (1922):",
+                options: ["Ruptura com academicismo e busca de identidade", "Métrica estrita", "Imitação de portugueses", "Temas exclusivamente religiosos"],
+                correct: 0,
+                expl: "Buscavam uma arte livre e genuinamente brasileira."
+            },
+            {
+                q: "6. (Física) Carro percorre 150km em 2h. Velocidade média:",
+                options: ["75 km/h", "100 km/h", "300 km/h", "50 km/h"],
+                correct: 0,
+                expl: "Vm = 150 / 2 = 75 km/h."
+            },
+            {
+                q: "7. (Geografia) Adaptação da vegetação da Caatinga:",
+                options: ["Folhas grandes", "Plantas xerófilas e espinhos", "Árvores gigantes", "Raízes aéreas"],
+                correct: 1,
+                expl: "Espinhos evitam a perda de água por transpiração."
+            },
+            {
+                q: "8. (Matemática) 20% de desconto em R$ 200,00. Valor final:",
+                options: ["R$ 160,00", "R$ 180,00", "R$ 140,00", "R$ 40,00"],
+                correct: 0,
+                expl: "20% de 200 é 40. 200 - 40 = 160."
+            },
+            {
+                q: "9. (Filosofia) Ideia central de Maquiavel em 'O Príncipe':",
+                options: ["Moral cristã", "Os fins justificam os meios", "Divisão em três poderes", "O homem é bom"],
+                correct: 1,
+                expl: "Foco na manutenção do poder e estabilidade do Estado acima da moral."
+            },
+            {
+                q: "10. (Biologia) Função da mitocôndria:",
+                options: ["Síntese proteica", "Respiração celular e energia", "Fotossíntese", "Digestão"],
+                correct: 1,
+                expl: "Responsável pela produção de ATP (energia)."
+            }
+        ];
+
+        // --- LÓGICA DE RENDERIZAÇÃO ---
+        const container = document.getElementById("questions-container");
+        
+        questoes.forEach((item, index) => {
+            let html = `<div class='question-card' id='q${index}'>
+                <div class='question-title'>${item.q}</div>
+                <div class='options'>`;
+            
+            item.options.forEach((opt, i) => {
+                html += `<label><input type='radio' name='q${index}' value='${i}'> ${opt}</label>`;
+            });
+
+            html += `</div>
+                <div class='feedback' id='resp${index}'></div>
+            </div>`;
+            container.innerHTML += html;
+        });
+
+        // --- LÓGICA DO CRONÔMETRO ---
+        let tempoRestante = 3 * 60; // 3 minutos em segundos
+        const timerDisplay = document.getElementById("timer-box");
+        let quizAtivo = true;
+
+        const timerInterval = setInterval(() => {
+            if (!quizAtivo) return;
+
+            let m = Math.floor(tempoRestante / 60);
+            let s = tempoRestante % 60;
+            
+            // Formatação 00:00
+            m = m < 10 ? "0" + m : m;
+            s = s < 10 ? "0" + s : s;
+            
+            timerDisplay.innerText = `${m}:${s}`;
+
+            // Muda cor se estiver acabando (menos de 30s)
+            if (tempoRestante < 30) timerDisplay.style.backgroundColor = "#c0392b";
+
+            if (tempoRestante <= 0) {
+                finalizarQuiz(true);
+            }
+            tempoRestante--;
+        }, 1000);
+
+        // --- FINALIZAÇÃO ---
+        function finalizarQuiz(porTempo = false) {
+            if (!quizAtivo) return;
+            quizAtivo = false;
+            clearInterval(timerInterval);
+            
+            if (porTempo) alert("TEMPO ESGOTADO! Vamos ver quantas você acertou.");
+
+            let acertos = 0;
+            
+            questoes.forEach((item, index) => {
+                const opcoes = document.getElementsByName(`q${index}`);
+                const feedbackDiv = document.getElementById(`resp${index}`);
+                let selecionado = -1;
+
+                for (let i = 0; i < opcoes.length; i++) {
+                    if (opcoes[i].checked) selecionado = i;
+                    opcoes[i].disabled = true; // Trava as opções
+                }
+
+                feedbackDiv.style.display = "block";
+                
+                if (selecionado == item.correct) {
+                    acertos++;
+                    feedbackDiv.innerHTML = `<span class='correct'>✅ Correto!</span> ${item.expl}`;
+                    feedbackDiv.style.borderLeftColor = "#27ae60";
+                } else {
+                    feedbackDiv.innerHTML = `<span class='wrong'>❌ Errado!</span> A resposta certa era: <b>${item.options[item.correct]}</b>. <br><small>${item.expl}</small>`;
+                    feedbackDiv.style.borderLeftColor = "#c0392b";
+                }
+            });
+
+            // Mostra resultado final no topo
+            window.scrollTo(0,0);
+            const header = document.querySelector("h1");
+            header.innerText = `Resultado: Você acertou ${acertos} de ${questoes.length}!`;
+            document.getElementById("finish-btn").style.display = "none";
+            document.getElementById("timer-box").innerText = "FIM";
+        }
+    </script>
+</body>
+</html>
