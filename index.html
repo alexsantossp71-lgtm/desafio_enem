@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado ENEM Completo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div id="menu-screen">
+            <h1>🎓 Simulado ENEM</h1>
+            <p>Banco de questões (2009 - 2023)</p>
+            <p class="subtitle">Escolha um ano para começar:</p>
+            <div class="year-grid" id="year-buttons">
+                </div>
+        </div>
+
+        <div id="quiz-active" style="display: none;">
+            <div class="quiz-header">
+                <div id="timer-display">03:00</div>
+                <h2 id="prova-titulo">Prova do ENEM</h2>
+            </div>
+            <p class="progress-text" id="progress">Carregando...</p>
+            <hr>
+            <div id="quiz-container"></div>
+            <button id="next-btn" onclick="verificarEProxima()">Próxima Questão ›</button>
+        </div>
+
+        <div id="result-container" style="display: none;">
+            <h1>Quiz Finalizado!</h1>
+            <p>Seu desempenho:</p>
+            <div class="score-big" id="final-score">0/0</div>
+            <p class="score-details" id="final-feedback"></p>
+            <button id="restart-btn" onclick="location.reload()">Voltar ao Menu</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
