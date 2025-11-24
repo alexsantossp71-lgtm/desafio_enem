@@ -1,130 +1,219 @@
 
-let questoes = []; let indiceAtual = 0; let pontuacao = 0; let tempoRestante; let timerInterval;
-let qtdGlobal = 10; // Padrão
-let materiaGlobal = 'all'; // Padrão
-let anoSelecionado = null; // Armazena o ano escolhido
-
+// ESTADO
+let questoesDoAno = []; // Armazena TODAS as questões do ano selecionado
+let questoesQuiz = [];  // Armazena as questões FILTRADAS para o quiz
+let indiceAtual = 0;
+let pontuacao = 0;
+let timerInterval;
+let tempoRestante;
 const TEMPO_POR_QUESTAO = 180;
 
-// Elementos
-const menuScreen = document.getElementById('menu-screen');
-const quizActive = document.getElementById('quiz-active');
-const resultScreen = document.getElementById('result-container');
-const quizContainer = document.getElementById('quiz-container');
-const timerDisplay = document.getElementById('timer-display');
-const progressText = document.getElementById('progress');
-const tituloProva = document.getElementById('prova-titulo');
-const scoreElem = document.getElementById('final-score');
-const feedbackElem = document.getElementById('final-feedback');
-const startBtn = document.getElementById('start-btn');
+// VARIÁVEIS DE SELEÇÃO
+let anoSelecionado = null;
+let materiaSelecionada = 'all';
+let qtdSelecionada = 10;
 
-// --- 1. GERAÇÃO DOS BOTÕES DE ANO ---
+// DOM ELEMENTS
+const boxMateria = document.getElementById('box-materia');
+const matContainer = document.getElementById('mat-buttons-container');
+const startBtn = document.getElementById('start-btn');
+const loadingMsg = document.getElementById('loading-msg');
+
+const nomesAmigaveis = {
+    'all': '📚 Todas',
+    'ciencias-humanas': '🌍 Humanas',
+    'ciencias-natureza': '🧬 Natureza',
+    'linguagens': '📖 Linguagens',
+    'matematica': '📐 Matemática',
+    'geral': 'Geral'
+};
+
+// --- 1. INICIALIZAÇÃO: Botões de Ano ---
 const yearsDiv = document.getElementById('year-buttons');
 for (let y = 2023; y >= 2009; y--) {
     let btn = document.createElement('button');
     btn.className = 'year-btn';
     btn.innerText = y;
-    // IMPORTANTE: Agora chama selecionarAno, não iniciarQuiz
-    btn.onclick = function() { selecionarAno(y, this); };
+    btn.onclick = function() { carregarDadosDoAno(y, this); }; // Chama a função que baixa o JSON
     yearsDiv.appendChild(btn);
 }
 
-// --- 2. FUNÇÕES DE SELEÇÃO (CORRIGIDAS) ---
-
-// Seleciona Quantidade
-window.selecionarQtd = function(qtd, btn) {
-    qtdGlobal = qtd;
-    console.log("Qtd selecionada:", qtdGlobal);
-    // Remove active dos outros botões desse grupo
-    const container = document.getElementById('qtd-selector');
-    container.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-}
-
-// Seleciona Matéria
-window.selecionarMateria = function(mat, btn) {
-    materiaGlobal = mat;
-    console.log("Matéria selecionada:", materiaGlobal);
-    const container = document.getElementById('mat-selector');
-    container.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-}
-
-// Seleciona Ano (Apenas visual + Habilitar botão Start)
-window.selecionarAno = function(ano, btn) {
-    anoSelecionado = ano;
-    console.log("Ano selecionado:", anoSelecionado);
-
-    // Remove selecionado dos outros anos
+// --- 2. LÓGICA DE CARREGAMENTO (REATIVIDADE) ---
+async function carregarDadosDoAno(ano, btn) {
+    // Visual
     document.querySelectorAll('.year-btn').forEach(b => b.classList.remove('selected'));
     btn.classList.add('selected');
 
-    // Habilita o botão Iniciar
-    startBtn.disabled = false;
-    startBtn.innerText = `INICIAR PROVA ${ano} (▶)`;
-    startBtn.style.backgroundColor = "#27ae60";
-}
+    // Reset UI
+    startBtn.disabled = true;
+    startBtn.innerText = "CARREGANDO PROVA...";
+    startBtn.style.backgroundColor = "#bdc3c7";
+    boxMateria.style.opacity = "0.5";
+    boxMateria.style.pointerEvents = "none";
+    loadingMsg.style.display = "block";
 
-// --- 3. INICIAR QUIZ (LÓGICA REAL) ---
-window.iniciarQuiz = async function() {
-    if (!anoSelecionado) return; // Segurança
-
-    menuScreen.style.display = 'none';
-    resultScreen.style.display = 'none';
-    quizActive.style.display = 'block';
-
-    const nomesMateria = {
-        'all': 'Geral',
-        'ciencias-humanas': 'Humanas',
-        'ciencias-natureza': 'Natureza',
-        'linguagens': 'Linguagens',
-        'matematica': 'Matemática'
-    };
-
-    let txtQtd = qtdGlobal === 'all' ? 'Completa' : qtdGlobal;
-    let txtMat = nomesMateria[materiaGlobal] || 'Geral';
-    tituloProva.innerText = `ENEM ${anoSelecionado} | ${txtMat}`;
-
-    quizContainer.innerHTML = '<p style="text-align:center">Filtrando questões...</p>';
+    anoSelecionado = ano;
 
     try {
-        const response = await fetch(`questoes/enem_${anoSelecionado}.json`);
-        if (!response.ok) throw new Error("Arquivo da prova não encontrado.");
+        // BAIXA O JSON AGORA
+        const response = await fetch(`questoes/enem_${ano}.json`);
+        if (!response.ok) throw new Error("Prova não encontrada");
         const dados = await response.json();
+        questoesDoAno = dados.itens; // Salva na memória
 
-        let listaCompleta = dados.itens;
-        if (!listaCompleta || listaCompleta.length === 0) throw new Error("Sem questões neste ano.");
+        if (!questoesDoAno || questoesDoAno.length === 0) throw new Error("Prova vazia");
 
-        // Filtro Matéria
-        let listaFiltrada = listaCompleta;
-        if (materiaGlobal !== 'all') {
-            listaFiltrada = listaCompleta.filter(item => item.materia === materiaGlobal);
-        }
+        console.log(`Ano ${ano} carregado. Total: ${questoesDoAno.length} questões.`);
 
-        if (listaFiltrada.length === 0) {
-            throw new Error(`Não há questões de ${nomesMateria[materiaGlobal]} em ${anoSelecionado}.`);
-        }
+        // GERA OS BOTÕES DE MATÉRIA DINAMICAMENTE
+        gerarBotoesMateria();
 
-        // Filtro Quantidade
-        if (qtdGlobal === 'all') {
-            questoes = listaFiltrada;
-        } else {
-            questoes = shuffleArray([...listaFiltrada]).slice(0, qtdGlobal);
-        }
+        // Libera a interface
+        loadingMsg.style.display = "none";
+        boxMateria.style.opacity = "1";
+        boxMateria.style.pointerEvents = "auto";
 
-        indiceAtual = 0; pontuacao = 0; carregarQuestao(indiceAtual);
+        // Prepara botão de iniciar
+        atualizarBotaoIniciar();
+
     } catch (erro) {
         console.error(erro);
-        quizContainer.innerHTML = `
-            <div style="text-align:center; padding:20px;">
-                <h3 style="color:#c0392b">Ops!</h3>
-                <p>${erro.message}</p>
-                <button onclick="location.reload()" style="padding:10px; margin-top:10px;">Voltar</button>
-            </div>`;
+        alert("Erro ao carregar prova: " + erro.message);
+        startBtn.innerText = "ERRO AO CARREGAR";
     }
 }
 
-// --- UTILITÁRIOS ---
+function gerarBotoesMateria() {
+    // Descobre quais matérias existem neste ano
+    const materiasEncontradas = new Set();
+    questoesDoAno.forEach(q => {
+        if(q.materia) materiasEncontradas.add(q.materia);
+    });
+
+    matContainer.innerHTML = ''; // Limpa botões antigos
+
+    // Botão "Todas" (Sempre existe se tiver questões)
+    criarBotaoMateria('all', nomesAmigaveis['all'], true);
+    materiaSelecionada = 'all'; // Reseta seleção para 'Todas'
+
+    // Cria botões apenas para o que existe
+    const ordemDesejada = ['ciencias-humanas', 'ciencias-natureza', 'linguagens', 'matematica'];
+
+    ordemDesejada.forEach(chave => {
+        if (materiasEncontradas.has(chave)) {
+            criarBotaoMateria(chave, nomesAmigaveis[chave] || chave, false);
+        }
+    });
+
+    // Se tiver "geral" ou outras coisas estranhas
+    materiasEncontradas.forEach(mat => {
+        if (!ordemDesejada.includes(mat) && mat !== 'all' && mat !== 'geral') {
+             criarBotaoMateria(mat, mat, false);
+        }
+    });
+}
+
+function criarBotaoMateria(valor, texto, ativo) {
+    let btn = document.createElement('button');
+    btn.className = `mode-btn ${ativo ? 'active' : ''}`;
+    btn.innerText = texto;
+    btn.onclick = function() {
+        materiaSelecionada = valor;
+        // Atualiza visual
+        matContainer.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        atualizarBotaoIniciar();
+    };
+    matContainer.appendChild(btn);
+}
+
+// --- 3. SELEÇÃO DE QUANTIDADE ---
+window.selecionarQtd = function(qtd, btn) {
+    qtdSelecionada = qtd;
+    document.getElementById('qtd-selector').querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    atualizarBotaoIniciar();
+}
+
+function atualizarBotaoIniciar() {
+    if (anoSelecionado && questoesDoAno.length > 0) {
+        let txtMat = materiaSelecionada === 'all' ? 'COMPLETA' : nomesAmigaveis[materiaSelecionada].toUpperCase();
+        startBtn.disabled = false;
+        startBtn.style.backgroundColor = "#27ae60";
+        startBtn.innerText = `INICIAR: ${anoSelecionado} | ${txtMat}`;
+    }
+}
+
+// --- 4. INICIAR O QUIZ (COM DADOS JÁ NA MEMÓRIA) ---
+window.irParaQuiz = function() {
+    // Filtra
+    let listaFiltrada = questoesDoAno;
+
+    if (materiaSelecionada !== 'all') {
+        listaFiltrada = questoesDoAno.filter(q => q.materia === materiaSelecionada);
+    }
+
+    if (qtdSelecionada !== 'all') {
+        listaFiltrada = shuffleArray([...listaFiltrada]).slice(0, qtdSelecionada);
+    } else {
+        // Se for "Todas", não embaralha para manter a ordem da prova? 
+        // Ou embaralha? Geralmente simulado completo mantém ordem. Vamos manter ordem se for ALL.
+        // Se for matéria específica, mantemos ordem também.
+        // Apenas embaralha se for quantidade reduzida (treino).
+    }
+
+    questoesQuiz = listaFiltrada;
+
+    if (questoesQuiz.length === 0) {
+        alert("Erro inesperado: 0 questões selecionadas.");
+        return;
+    }
+
+    // Troca de Tela
+    document.getElementById('menu-screen').style.display = 'none';
+    document.getElementById('result-container').style.display = 'none';
+    document.getElementById('quiz-active').style.display = 'block';
+
+    let txtQtd = qtdSelecionada === 'all' ? 'Completa' : qtdSelecionada;
+    let nomeMat = nomesAmigaveis[materiaSelecionada] || materiaSelecionada;
+    document.getElementById('prova-titulo').innerText = `${anoSelecionado} | ${nomeMat} | ${txtQtd} Questões`;
+
+    indiceAtual = 0;
+    pontuacao = 0;
+    carregarQuestaoNaTela(0);
+}
+
+// --- 5. LÓGICA DO QUIZ (CORE) ---
+function carregarQuestaoNaTela(index) {
+    clearInterval(timerInterval);
+    tempoRestante = TEMPO_POR_QUESTAO;
+    atualizarDisplayTimer();
+    document.getElementById('timer-display').classList.remove('timer-danger');
+    document.getElementById('progress').innerText = `Questão ${index + 1} de ${questoesQuiz.length}`;
+
+    const q = questoesQuiz[index];
+    const container = document.getElementById('quiz-container');
+
+    let htmlImg = q.imagem ? `<div class="img-container" style="text-align:center;margin-bottom:20px;"><img src="${q.imagem}"></div>` : '';
+
+    let htmlOpts = '<div class="options-list">';
+    q.alternativas.forEach((t, i) => {
+        let l = String.fromCharCode(65 + i);
+        htmlOpts += `<label class="option-label"><input type="radio" name="opcao" value="${i}"><span style="margin-left:8px;"><strong>${l})</strong> ${t}</span></label>`;
+    });
+    htmlOpts += '</div>';
+
+    // Badge Matéria
+    let nomeMatUI = q.materia ? (nomesAmigaveis[q.materia] || q.materia) : 'Geral';
+    let badge = `<div style="text-align:right; margin-bottom:5px;"><span style="font-size:0.75rem; background:#ecf0f1; padding:4px 8px; border-radius:4px; color:#7f8c8d;">${nomeMatUI}</span></div>`;
+
+    container.innerHTML = `<div class="question-box">${badge}${htmlImg}<div class="question-text">${q.enunciado}</div>${htmlOpts}</div>`;
+
+    iniciarCronometro();
+}
+
+// ... (Resto das funções de cronômetro e verificação iguais) ...
+
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -133,45 +222,19 @@ function shuffleArray(array) {
     return array;
 }
 
-function carregarQuestao(index) {
-    clearInterval(timerInterval); tempoRestante = TEMPO_POR_QUESTAO; atualizarDisplayTimer();
-    timerDisplay.classList.remove('timer-danger');
-    progressText.innerText = `Questão ${index + 1} de ${questoes.length}`;
-    const q = questoes[index];
-
-    let htmlImg = q.imagem ? `<div class="img-container" style="text-align:center;margin-bottom:20px;"><img src="${q.imagem}"></div>` : '';
-    let htmlOpts = '<div class="options-list">';
-    q.alternativas.forEach((t, i) => {
-        let l = String.fromCharCode(65 + i);
-        htmlOpts += `<label class="option-label"><input type="radio" name="opcao" value="${i}"><span style="margin-left:8px;"><strong>${l})</strong> ${t}</span></label>`;
-    });
-    htmlOpts += '</div>';
-
-    let badgeMat = q.materia ? `<span style="font-size:0.8rem; background:#ecf0f1; padding:2px 6px; border-radius:4px; color:#7f8c8d;">${q.materia}</span>` : '';
-
-    quizContainer.innerHTML = `
-        <div class="question-box">
-            <div style="text-align:right; margin-bottom:5px;">${badgeMat}</div>
-            ${htmlImg}
-            <div class="question-text">${q.enunciado}</div>
-            ${htmlOpts}
-        </div>`;
-    iniciarCronometro();
-}
-
 function iniciarCronometro() {
     timerInterval = setInterval(() => {
         tempoRestante--; atualizarDisplayTimer();
-        if (tempoRestante <= 30) timerDisplay.classList.add('timer-danger');
+        if (tempoRestante <= 30) document.getElementById('timer-display').classList.add('timer-danger');
         if (tempoRestante <= 0) { clearInterval(timerInterval); lidarComTimeout(); }
     }, 1000);
 }
 function atualizarDisplayTimer() {
     let m = Math.floor(tempoRestante / 60); let s = tempoRestante % 60;
-    timerDisplay.innerText = `${m.toString().padStart(2,'0')}:${s.toString().padStart(2,'0')}`;
+    document.getElementById('timer-display').innerText = `${m.toString().padStart(2,'0')}:${s.toString().padStart(2,'0')}`;
 }
 function lidarComTimeout() {
-    timerDisplay.innerText = "TEMPO!";
+    document.getElementById('timer-display').innerText = "TEMPO!";
     document.querySelectorAll('input[name="opcao"]').forEach(op => op.disabled = true);
     setTimeout(() => avancarParaProxima(false), 1500);
 }
@@ -179,26 +242,32 @@ window.verificarEProxima = function() {
     clearInterval(timerInterval);
     const sel = document.querySelector('input[name="opcao"]:checked');
     let acertou = false;
-    if (sel && parseInt(sel.value) === questoes[indiceAtual].correta) acertou = true;
+    if (sel && parseInt(sel.value) === questoesQuiz[indiceAtual].correta) acertou = true;
     avancarParaProxima(acertou);
 }
 function avancarParaProxima(ok) {
     if (ok) pontuacao++;
     indiceAtual++;
-    if (indiceAtual < questoes.length) carregarQuestao(indiceAtual);
+    if (indiceAtual < questoesQuiz.length) carregarQuestaoNaTela(indiceAtual);
     else mostrarResultadoFinal();
 }
 function mostrarResultadoFinal() {
-    quizActive.style.display = 'none'; timerDisplay.style.display = 'none'; resultScreen.style.display = 'block';
-    scoreElem.innerText = `${pontuacao}/${questoes.length}`;
-    let p = (pontuacao / questoes.length) * 100;
+    document.getElementById('quiz-active').style.display = 'none';
+    document.getElementById('timer-display').style.display = 'none';
+    document.getElementById('result-container').style.display = 'block';
+
+    const scoreElem = document.getElementById('final-score');
+    const feedbackElem = document.getElementById('final-feedback');
+
+    scoreElem.innerText = `${pontuacao}/${questoesQuiz.length}`;
+    let p = (pontuacao / questoesQuiz.length) * 100;
     let msg = p >= 80 ? "Excelente!" : p >= 60 ? "Bom trabalho!" : "Precisa estudar mais.";
     scoreElem.style.color = p >= 60 ? (p>=80?"#27ae60":"#f39c12") : "#c0392b";
     feedbackElem.innerText = msg;
 }
 
-// Versão de Debug
+// Debug Version
 const vDiv = document.createElement('div');
 vDiv.style.cssText = "position:fixed;bottom:5px;right:10px;font-size:0.7rem;color:#ccc;pointer-events:none;";
-vDiv.innerText = "Interface Corrigida: " + new Date().toLocaleTimeString();
+vDiv.innerText = "Versão Reativa: " + new Date().toLocaleTimeString();
 document.body.appendChild(vDiv);

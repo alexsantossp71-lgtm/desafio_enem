@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulado ENEM Completo</title>
+    <title>Simulado ENEM Inteligente</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,7 +13,21 @@
             <p style="text-align:center; color:#7f8c8d; margin-bottom:20px;">Banco de questões (2009 - 2023)</p>
 
             <div class="config-box">
-                <p class="section-title">1. Quantas questões?</p>
+                <p class="section-title">1. Escolha o Ano:</p>
+                <div class="year-grid" id="year-buttons">
+                    </div>
+                <p id="loading-msg" style="display:none; text-align:center; color:#e67e22; font-weight:bold;">🔄 Analisando a prova...</p>
+            </div>
+
+            <div class="config-box" id="box-materia" style="opacity: 0.5; pointer-events: none;">
+                <p class="section-title">2. Escolha a Matéria:</p>
+                <div class="mode-selector subject-selector" id="mat-buttons-container">
+                    <p style="font-size:0.9rem; color:#95a5a6;">Selecione um ano acima para ver as matérias disponíveis.</p>
+                </div>
+            </div>
+
+            <div class="config-box">
+                <p class="section-title">3. Quantas questões?</p>
                 <div class="mode-selector" id="qtd-selector">
                     <button class="mode-btn active" onclick="selecionarQtd(10, this)">🚀 10</button>
                     <button class="mode-btn" onclick="selecionarQtd(30, this)">⏱️ 30</button>
@@ -22,24 +36,7 @@
                 </div>
             </div>
 
-            <div class="config-box">
-                <p class="section-title">2. Qual matéria?</p>
-                <div class="mode-selector subject-selector" id="mat-selector">
-                    <button class="mode-btn active" onclick="selecionarMateria('all', this)">📚 Todas</button>
-                    <button class="mode-btn" onclick="selecionarMateria('ciencias-humanas', this)">🌍 Humanas</button>
-                    <button class="mode-btn" onclick="selecionarMateria('ciencias-natureza', this)">🧬 Natureza</button>
-                    <button class="mode-btn" onclick="selecionarMateria('linguagens', this)">📖 Linguagens</button>
-                    <button class="mode-btn" onclick="selecionarMateria('matematica', this)">📐 Matemática</button>
-                </div>
-            </div>
-
-            <div class="year-section">
-                <p class="section-title">3. Escolha o ano:</p>
-                <div class="year-grid" id="year-buttons">
-                    </div>
-            </div>
-
-            <button id="start-btn" class="big-start-btn" disabled onclick="iniciarQuiz()">SELECIONE UM ANO PARA INICIAR</button>
+            <button id="start-btn" class="big-start-btn" disabled onclick="irParaQuiz()">SELECIONE UM ANO</button>
         </div>
 
         <div id="quiz-active" style="display: none;">
