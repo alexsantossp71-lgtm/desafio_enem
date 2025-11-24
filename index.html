@@ -14,7 +14,7 @@
 
             <div class="config-box">
                 <p class="section-title">1. Quantas questões?</p>
-                <div class="mode-selector">
+                <div class="mode-selector" id="qtd-selector">
                     <button class="mode-btn active" onclick="selecionarQtd(10, this)">🚀 10</button>
                     <button class="mode-btn" onclick="selecionarQtd(30, this)">⏱️ 30</button>
                     <button class="mode-btn" onclick="selecionarQtd(60, this)">🧠 60</button>
@@ -24,7 +24,7 @@
 
             <div class="config-box">
                 <p class="section-title">2. Qual matéria?</p>
-                <div class="mode-selector subject-selector">
+                <div class="mode-selector subject-selector" id="mat-selector">
                     <button class="mode-btn active" onclick="selecionarMateria('all', this)">📚 Todas</button>
                     <button class="mode-btn" onclick="selecionarMateria('ciencias-humanas', this)">🌍 Humanas</button>
                     <button class="mode-btn" onclick="selecionarMateria('ciencias-natureza', this)">🧬 Natureza</button>
@@ -34,10 +34,12 @@
             </div>
 
             <div class="year-section">
-                <p class="section-title">3. Escolha o ano para iniciar:</p>
+                <p class="section-title">3. Escolha o ano:</p>
                 <div class="year-grid" id="year-buttons">
                     </div>
             </div>
+
+            <button id="start-btn" class="big-start-btn" disabled onclick="iniciarQuiz()">SELECIONE UM ANO PARA INICIAR</button>
         </div>
 
         <div id="quiz-active" style="display: none;">

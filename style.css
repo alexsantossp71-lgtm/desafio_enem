@@ -1,6 +1,6 @@
 
 body { font-family: 'Segoe UI', Roboto, sans-serif; background-color: #eef2f7; margin: 0; padding: 20px; display: flex; justify-content: center; align-items: center; min-height: 90vh; }
-.card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); width: 100%; max-width: 800px; position: relative; min-height: 500px; }
+.card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); width: 100%; max-width: 800px; position: relative; min-height: 600px; }
 h1 { text-align: center; color: #2c3e50; margin: 0; }
 
 /* Configuração (Modo) */
@@ -8,17 +8,41 @@ h1 { text-align: center; color: #2c3e50; margin: 0; }
 .section-title { font-weight: bold; color: #34495e; margin-top: 0; margin-bottom: 8px; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.5px; }
 
 .mode-selector { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
-.mode-btn { flex: 1; padding: 8px 12px; border: 2px solid #bdc3c7; background: white; color: #7f8c8d; border-radius: 8px; cursor: pointer; font-weight: bold; transition: 0.2s; min-width: 60px; font-size: 0.9rem; }
+.mode-btn { flex: 1; padding: 10px; border: 2px solid #bdc3c7; background: white; color: #7f8c8d; border-radius: 8px; cursor: pointer; font-weight: bold; transition: 0.2s; min-width: 60px; font-size: 0.9rem; }
 .mode-btn:hover { border-color: #3498db; color: #3498db; }
 .mode-btn.active { background-color: #3498db; color: white; border-color: #3498db; box-shadow: 0 2px 5px rgba(52, 152, 219, 0.3); }
 
-/* Ajuste específico para matérias que tem nomes longos */
-.subject-selector .mode-btn { min-width: 90px; }
-
 /* Grid de Anos */
-.year-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(85px, 1fr)); gap: 10px; }
-.year-btn { padding: 12px; background: #34495e; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; transition: 0.2s; }
-.year-btn:hover { background: #2980b9; transform: translateY(-2px); }
+.year-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(85px, 1fr)); gap: 10px; margin-bottom: 20px; }
+.year-btn { padding: 12px; background: #34495e; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; transition: 0.2s; opacity: 0.8; }
+.year-btn:hover { opacity: 1; transform: translateY(-2px); }
+.year-btn.selected { background-color: #27ae60; border: 2px solid #2ecc71; box-shadow: 0 0 10px rgba(46, 204, 113, 0.5); opacity: 1; transform: scale(1.05); }
+
+/* Botão START Gigante */
+.big-start-btn {
+    width: 100%;
+    padding: 18px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #27ae60;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.big-start-btn:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+    color: #7f8c8d;
+}
+.big-start-btn:hover:not(:disabled) {
+    background-color: #219150;
+    box-shadow: 0 4px 15px rgba(39, 174, 96, 0.4);
+    transform: translateY(-2px);
+}
 
 /* Quiz Styles */
 .quiz-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
