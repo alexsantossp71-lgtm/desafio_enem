@@ -1,0 +1,52 @@
+[
+  {
+    "q": "<strong>(ENEM 2022 - Humanas)</strong><br><br>A conquista do voto feminino no Brasil, em 1932, foi um marco na cidadania. Contudo, o Código Eleitoral daquele ano impunha restrições. Apenas as mulheres casadas (com autorização do marido) e as viúvas/solteiras com renda própria podiam votar.<br><br>Essa restrição revela que, na época, o direito de voto feminino estava atrelado a uma concepção:",
+    "options": [
+      "Igualitária, baseada na Declaração dos Direitos Humanos.",
+      "Patriarcal, que mantinha a tutela masculina sobre a mulher.",
+      "Anarquista, visando a dissolução do Estado.",
+      "Socialista, focada na luta de classes."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "<strong>(ENEM 2021 - Matemática)</strong><br><br>Um lava-rápido oferece dois pacotes de lavagem: <br>1. Lavagem simples: R$ 20,00.<br>2. Lavagem completa: R$ 35,00.<br><br>No mês de janeiro, foram realizadas 100 lavagens, arrecadando-se um total de R$ 2.600,00. Quantas lavagens completas foram realizadas nesse mês?",
+    "options": [
+      "30 lavagens completas",
+      "40 lavagens completas",
+      "50 lavagens completas",
+      "60 lavagens completas"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "<strong>(ENEM 2020 - Natureza)</strong><br><br>Grandes reservatórios de óleo leve de melhor qualidade e que produz petróleo mais fino foram descobertos no litoral brasileiro numa camada denominada pré-sal, formada há 150 milhões de anos.<br><br>A utilização desse recurso energético (petróleo) acarreta para o ambiente um desequilíbrio no ciclo do:",
+    "options": [
+      "Nitrogênio, devido à nitrificação ambiental.",
+      "Fósforo, devido à liberação de fosfatos.",
+      "Carbono, devido ao aumento dos gases de efeito estufa.",
+      "Enxofre, devido à chuva ácida."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "<strong>(ENEM 2023 - Linguagens)</strong><br><br>Texto: 'Avarias' (Trecho)<br><em>'Eu não tenho pernas, mas tenho a muleta do sonho. Eu não tenho mãos, mas tenho o tato da vida.'</em><br><br>Nesse trecho, o autor utiliza uma figura de linguagem para contrapor a falta física com uma capacidade abstrata. Essa figura é a:",
+    "options": [
+      "Metonímia",
+      "Antítese",
+      "Hipérbole",
+      "Eufemismo"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "<strong>(ENEM 2019 - Natureza)</strong><br><br>O gás hidrogênio é considerado um ótimo combustível — o único produto da sua combustão é o vapor de água. No entanto, sua produção industrial ainda depende majoritariamente de combustíveis fósseis.<br><br>Um método sustentável promissor para produzir hidrogênio é:",
+    "options": [
+      "A eletrólise da água utilizando energia eólica ou solar.",
+      "A queima de carvão mineral.",
+      "O refino do petróleo nas torres de destilação.",
+      "A decomposição do gás metano."
+    ],
+    "correct": 0
+  }
+]
