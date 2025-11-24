@@ -1,6 +1,8 @@
 
 let questoes = []; let indiceAtual = 0; let pontuacao = 0; let tempoRestante; let timerInterval;
+let qtdGlobal = 10; // Padrão: 10 questões
 const TEMPO_POR_QUESTAO = 180;
+
 const menuScreen = document.getElementById('menu-screen');
 const quizActive = document.getElementById('quiz-active');
 const resultScreen = document.getElementById('result-container');
@@ -10,26 +12,69 @@ const progressText = document.getElementById('progress');
 const tituloProva = document.getElementById('prova-titulo');
 const scoreElem = document.getElementById('final-score');
 const feedbackElem = document.getElementById('final-feedback');
+const modeDesc = document.getElementById('mode-desc');
 
+// Gera botões de ano
 const yearsDiv = document.getElementById('year-buttons');
 for (let y = 2023; y >= 2009; y--) {
     let btn = document.createElement('button');
     btn.className = 'year-btn';
     btn.innerText = y;
-    btn.onclick = function() { iniciarProva(y); };
+    btn.onclick = function() { iniciarQuiz(y); };
     yearsDiv.appendChild(btn);
 }
 
-async function iniciarProva(ano) {
-    menuScreen.style.display = 'none'; resultScreen.style.display = 'none'; quizActive.style.display = 'block';
-    tituloProva.innerText = `Prova do ENEM ${ano}`;
-    quizContainer.innerHTML = '<p style="text-align:center">Carregando prova...</p>';
+// --- LÓGICA DE SELEÇÃO DE MODO ---
+function selecionarModo(qtd, btn) {
+    qtdGlobal = qtd;
+
+    // Atualiza visual dos botões
+    document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    // Atualiza texto de descrição
+    let txt = "";
+    if (qtd === 10) txt = "Modo Rápido: 10 questões aleatórias (ideal para intervalos).";
+    else if (qtd === 30) txt = "Modo Treino: 30 questões aleatórias (cobre mais matérias).";
+    else if (qtd === 60) txt = "Modo Focado: 60 questões aleatórias (simulado sério).";
+    else txt = "Modo Completo: Todas as questões na ordem original da prova.";
+    modeDesc.innerText = txt;
+}
+
+// --- EMBARALHAR ---
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+// --- INICIAR ---
+async function iniciarQuiz(ano) {
+    menuScreen.style.display = 'none';
+    resultScreen.style.display = 'none';
+    quizActive.style.display = 'block';
+
+    let textoQtd = qtdGlobal === 'all' ? 'Completa' : qtdGlobal + ' Questões';
+    tituloProva.innerText = `ENEM ${ano} (${textoQtd})`;
+    quizContainer.innerHTML = '<p style="text-align:center">Carregando...</p>';
+
     try {
         const response = await fetch(`questoes/enem_${ano}.json`);
         if (!response.ok) throw new Error("Arquivo não encontrado.");
         const dados = await response.json();
-        questoes = dados.itens;
-        if (!questoes || questoes.length === 0) throw new Error("Sem questões.");
+
+        let listaCompleta = dados.itens;
+        if (!listaCompleta || listaCompleta.length === 0) throw new Error("Sem questões.");
+
+        if (qtdGlobal === 'all') {
+            questoes = listaCompleta;
+        } else {
+            // Clona e embaralha para não afetar original
+            questoes = shuffleArray([...listaCompleta]).slice(0, qtdGlobal);
+        }
+
         indiceAtual = 0; pontuacao = 0; carregarQuestao(indiceAtual);
     } catch (erro) {
         console.error(erro);
@@ -92,8 +137,12 @@ function mostrarResultadoFinal() {
     scoreElem.style.color = p >= 60 ? (p>=80?"#27ae60":"#f39c12") : "#c0392b";
     feedbackElem.innerText = msg;
 }
-window.verificarEProxima = verificarEProxima; window.iniciarProva = iniciarProva;
+window.verificarEProxima = verificarEProxima; 
+window.selecionarModo = selecionarModo;
+window.iniciarQuiz = iniciarQuiz;
+
+// Versão de Debug
 const vDiv = document.createElement('div');
 vDiv.style.cssText = "position:fixed;bottom:5px;right:10px;font-size:0.7rem;color:#ccc;pointer-events:none;";
-vDiv.innerText = "Gerado: " + new Date().toLocaleTimeString();
+vDiv.innerText = "Interface Atualizada: " + new Date().toLocaleTimeString();
 document.body.appendChild(vDiv);

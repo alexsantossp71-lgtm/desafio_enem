@@ -10,10 +10,24 @@
     <div class="card">
         <div id="menu-screen">
             <h1>🎓 Simulado ENEM</h1>
-            <p>Banco de questões (2009 - 2023)</p>
-            <p class="subtitle">Escolha um ano para começar:</p>
-            <div class="year-grid" id="year-buttons">
+            <p style="text-align:center; color:#7f8c8d; margin-bottom:30px;">Banco de questões (2009 - 2023)</p>
+
+            <div class="config-box">
+                <p class="section-title">1. Quantas questões?</p>
+                <div class="mode-selector">
+                    <button class="mode-btn active" onclick="selecionarModo(10, this)">🚀 10</button>
+                    <button class="mode-btn" onclick="selecionarModo(30, this)">⏱️ 30</button>
+                    <button class="mode-btn" onclick="selecionarModo(60, this)">🧠 60</button>
+                    <button class="mode-btn" onclick="selecionarModo('all', this)">📝 Todas</button>
                 </div>
+                <p id="mode-desc">Modo Rápido: 10 questões aleatórias.</p>
+            </div>
+
+            <div class="year-section">
+                <p class="section-title">2. Escolha o ano da prova:</p>
+                <div class="year-grid" id="year-buttons">
+                    </div>
+            </div>
         </div>
 
         <div id="quiz-active" style="display: none;">
