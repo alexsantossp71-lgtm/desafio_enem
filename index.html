@@ -3,31 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulado ENEM Inteligente</title>
+    <title>Simulado ENEM Master</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="card">
         <div id="menu-screen">
             <h1>🎓 Simulado ENEM</h1>
-            <p style="text-align:center; color:#7f8c8d; margin-bottom:20px;">Banco de questões (2009 - 2023)</p>
+            <p class="subtitle">Banco de questões (2009 - 2023)</p>
 
             <div class="config-box">
                 <p class="section-title">1. Escolha o Ano:</p>
-                <div class="year-grid" id="year-buttons">
-                    </div>
-                <p id="loading-msg" style="display:none; text-align:center; color:#e67e22; font-weight:bold;">🔄 Analisando a prova...</p>
+                <div class="year-grid" id="year-buttons"></div>
+                <p id="loading-msg" style="display:none; color:#e67e22; font-weight:bold; margin-top:10px;">🔄 Lendo prova...</p>
             </div>
 
             <div class="config-box" id="box-materia" style="opacity: 0.5; pointer-events: none;">
-                <p class="section-title">2. Escolha a Matéria:</p>
+                <p class="section-title">2. Filtre por Matéria:</p>
                 <div class="mode-selector subject-selector" id="mat-buttons-container">
-                    <p style="font-size:0.9rem; color:#95a5a6;">Selecione um ano acima para ver as matérias disponíveis.</p>
+                    <p class="hint-text">Selecione um ano acima para ver as matérias.</p>
                 </div>
             </div>
 
-            <div class="config-box">
-                <p class="section-title">3. Quantas questões?</p>
+            <div class="config-box" id="box-qtd" style="opacity: 0.5; pointer-events: none;">
+                <p class="section-title">3. Quantidade:</p>
                 <div class="mode-selector" id="qtd-selector">
                     <button class="mode-btn active" onclick="selecionarQtd(10, this)">🚀 10</button>
                     <button class="mode-btn" onclick="selecionarQtd(30, this)">⏱️ 30</button>
@@ -36,13 +35,13 @@
                 </div>
             </div>
 
-            <button id="start-btn" class="big-start-btn" disabled onclick="irParaQuiz()">SELECIONE UM ANO</button>
+            <button id="start-btn" class="big-start-btn" disabled onclick="irParaQuiz()">SELECIONE O ANO</button>
         </div>
 
         <div id="quiz-active" style="display: none;">
             <div class="quiz-header">
-                <div id="timer-display">03:00</div>
-                <h2 id="prova-titulo">Prova do ENEM</h2>
+                <div id="timer-display">00:00</div>
+                <h2 id="prova-titulo">Prova</h2>
             </div>
             <p class="progress-text" id="progress">Carregando...</p>
             <hr>
@@ -51,11 +50,10 @@
         </div>
 
         <div id="result-container" style="display: none;">
-            <h1>Quiz Finalizado!</h1>
-            <p>Seu desempenho:</p>
+            <h1>Resultado Final</h1>
             <div class="score-big" id="final-score">0/0</div>
             <p class="score-details" id="final-feedback"></p>
-            <button id="restart-btn" onclick="location.reload()">Voltar ao Menu</button>
+            <button id="restart-btn" onclick="location.reload()">Novo Simulado</button>
         </div>
     </div>
     <script src="script.js"></script>
