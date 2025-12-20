@@ -36,3 +36,12 @@ input[type="radio"] { margin-top: 4px; margin-right: 10px; flex-shrink: 0; }
 #next-btn, #restart-btn { width: 100%; padding: 12px; background-color: #27ae60; color: white; font-size: 1.1rem; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; margin-top: 15px; }
 #result-container { text-align: center; }
 .score-big { font-size: 3.5rem; font-weight: bold; margin: 15px 0; }
+
+/* Cards de Resultado */
+.questions-cards { margin: 25px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; }
+.cards-wrapper { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 15px; }
+.question-card { width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; border-radius: 8px; font-weight: bold; font-size: 1rem; color: white; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.question-card:hover { transform: scale(1.1); box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+.question-card.correct { background-color: #27ae60; }
+.question-card.incorrect { background-color: #e74c3c; }
+

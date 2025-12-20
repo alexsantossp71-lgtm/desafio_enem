@@ -8,6 +8,7 @@ let timerInterval;
 let anoAtual = null;
 let materiaAtual = 'all';
 let qtdAtual = 10;
+let respostasUsuario = []; // Armazena {questao: numero, acertou: boolean}
 
 // --- ELEMENTOS DOM ---
 const els = {
@@ -94,7 +95,7 @@ function gerarBotoesMateria() {
     // Identifica matérias únicas presentes neste ano
     const mats = new Set();
     dadosCompletosAno.forEach(q => {
-        if(q.materia) mats.add(q.materia);
+        if (q.materia) mats.add(q.materia);
     });
 
     // Sempre adiciona "Todas"
@@ -103,7 +104,7 @@ function gerarBotoesMateria() {
 
     // Ordem de preferência
     ['ciencias-humanas', 'ciencias-natureza', 'linguagens', 'matematica'].forEach(m => {
-        if(mats.has(m)) criarBtnMateria(m, nomesMateria[m] || m, false);
+        if (mats.has(m)) criarBtnMateria(m, nomesMateria[m] || m, false);
     });
 }
 
@@ -121,7 +122,7 @@ function criarBtnMateria(val, texto, ativo) {
 }
 
 // Seleção de Qtd
-window.selecionarQtd = function(q, btn) {
+window.selecionarQtd = function (q, btn) {
     qtdAtual = q;
     document.getElementById('qtd-selector').querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
@@ -129,7 +130,7 @@ window.selecionarQtd = function(q, btn) {
 }
 
 function atualizarBotaoStart() {
-    if(anoAtual && dadosCompletosAno.length > 0) {
+    if (anoAtual && dadosCompletosAno.length > 0) {
         els.startBtn.disabled = false;
         els.startBtn.style.backgroundColor = "#27ae60";
         let mName = materiaAtual === 'all' ? 'COMPLETA' : (nomesMateria[materiaAtual] || materiaAtual);
@@ -138,27 +139,28 @@ function atualizarBotaoStart() {
 }
 
 // --- 3. QUIZ ---
-window.irParaQuiz = function() {
+window.irParaQuiz = function () {
     // Filtragem
     let lista = dadosCompletosAno;
 
-    if(materiaAtual !== 'all') {
+    if (materiaAtual !== 'all') {
         lista = lista.filter(q => q.materia === materiaAtual);
     }
 
-    if(lista.length === 0) {
+    if (lista.length === 0) {
         alert("Erro: Nenhuma questão encontrada para este filtro.");
         return;
     }
 
     // Embaralhamento se não for "todas"
-    if(qtdAtual !== 'all') {
+    if (qtdAtual !== 'all') {
         lista = lista.sort(() => Math.random() - 0.5).slice(0, qtdAtual);
     }
 
     questoesFiltradas = lista;
     indiceAtual = 0;
     pontuacao = 0;
+    respostasUsuario = []; // Resetar respostas
 
     // Troca tela
     els.menu.style.display = 'none';
@@ -183,41 +185,47 @@ function carregarQuestao(idx) {
 
     let optsHTML = '<div class="options-list">';
     q.alternativas.forEach((alt, i) => {
-        let letra = String.fromCharCode(65+i);
+        let letra = String.fromCharCode(65 + i);
         optsHTML += `<label class="option-label"><input type="radio" name="resp" value="${i}"><span style="margin-left:10px;"><b>${letra})</b> ${alt}</span></label>`;
     });
     optsHTML += '</div>';
 
-    let matBadge = q.materia ? `<div style="text-align:right; margin-bottom:5px;"><span style="font-size:0.7rem; background:#eee; padding:3px 6px; border-radius:4px;">${nomesMateria[q.materia]||q.materia}</span></div>` : '';
+    let matBadge = q.materia ? `<div style="text-align:right; margin-bottom:5px;"><span style="font-size:0.7rem; background:#eee; padding:3px 6px; border-radius:4px;">${nomesMateria[q.materia] || q.materia}</span></div>` : '';
 
     els.quizContainer.innerHTML = `<div class="question-box">${matBadge}${imgHTML}<div class="question-text">${q.enunciado}</div>${optsHTML}</div>`;
 
     timerInterval = setInterval(() => {
         tempo--;
         atualizarTimer(tempo);
-        if(tempo <= 0) { clearInterval(timerInterval); avancar(false); }
+        if (tempo <= 0) { clearInterval(timerInterval); avancar(false); }
     }, 1000);
 }
 
 function atualizarTimer(s) {
-    let m = Math.floor(s/60);
-    let sec = s%60;
-    els.timer.innerText = `${m.toString().padStart(2,'0')}:${sec.toString().padStart(2,'0')}`;
+    let m = Math.floor(s / 60);
+    let sec = s % 60;
+    els.timer.innerText = `${m.toString().padStart(2, '0')}:${sec.toString().padStart(2, '0')}`;
     els.timer.style.backgroundColor = s < 30 ? '#e74c3c' : '#2c3e50';
 }
 
-window.verificarEProxima = function() {
+window.verificarEProxima = function () {
     clearInterval(timerInterval);
     const sel = document.querySelector('input[name="resp"]:checked');
     let acertou = false;
-    if(sel && parseInt(sel.value) === questoesFiltradas[indiceAtual].correta) acertou = true;
+    if (sel && parseInt(sel.value) === questoesFiltradas[indiceAtual].correta) acertou = true;
     avancar(acertou);
 }
 
 function avancar(acertou) {
-    if(acertou) pontuacao++;
+    // Registrar resposta
+    respostasUsuario.push({
+        questao: indiceAtual + 1,
+        acertou: acertou
+    });
+
+    if (acertou) pontuacao++;
     indiceAtual++;
-    if(indiceAtual < questoesFiltradas.length) {
+    if (indiceAtual < questoesFiltradas.length) {
         carregarQuestao(indiceAtual);
     } else {
         finalizar();
@@ -232,6 +240,40 @@ function finalizar() {
     let p = (pontuacao / questoesFiltradas.length) * 100;
     let msg = p >= 70 ? "Mandou bem! 👏" : "Continue treinando! 💪";
     els.feedback.innerText = msg;
+
+    // Gerar cards de questões
+    gerarCardsResultado();
+}
+
+function gerarCardsResultado() {
+    // Verificar se já existe o container, se não, criar
+    let container = document.getElementById('questions-cards');
+    if (!container) {
+        container = document.createElement('div');
+        container.id = 'questions-cards';
+        container.className = 'questions-cards';
+
+        // Inserir antes do botão de reiniciar
+        const restartBtn = document.getElementById('restart-btn');
+        restartBtn.parentNode.insertBefore(container, restartBtn);
+    }
+
+    // Limpar container
+    container.innerHTML = '<h3 style="text-align:center; margin-bottom:15px; color:#2c3e50;">Resultado por Questão</h3>';
+
+    // Criar cards
+    const cardsWrapper = document.createElement('div');
+    cardsWrapper.className = 'cards-wrapper';
+
+    respostasUsuario.forEach(resp => {
+        const card = document.createElement('div');
+        card.className = `question-card ${resp.acertou ? 'correct' : 'incorrect'}`;
+        card.innerText = resp.questao;
+        card.title = resp.acertou ? 'Questão correta ✓' : 'Questão incorreta ✗';
+        cardsWrapper.appendChild(card);
+    });
+
+    container.appendChild(cardsWrapper);
 }
 
 // Versão Debug
