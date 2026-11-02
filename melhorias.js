@@ -27,20 +27,21 @@ function subjects(){
  Object.keys(counts).forEach(m=>{const pair=names[m]||['📘',m],b=document.createElement('button');b.type='button';b.className='subject-card';const i=document.createElement('span');i.className='subject-symbol';i.textContent=pair[0];const n=document.createElement('strong');n.textContent=pair[1];const c=document.createElement('small');c.textContent=counts[m]+' questões';b.append(i,n,c);b.addEventListener('click',()=>{const target=[...document.querySelectorAll('#mat-buttons-container button')].find(x=>x.textContent.trim()===(nomesMateria[m]||m));if(target){target.click();document.getElementById('box-materia').scrollIntoView({behavior:'smooth',block:'center'})}});box.appendChild(b)});
 }
 
-const arquivosQuestoes=new Map();
+const arquivosQuestoes=new Map(), arquivosSolucoes=new Map();
 async function abrirRevisao(registro){
  const id=String(registro.id||'');
  const ano=Number(registro.year);
- if(!/^\\d{4}_\\d+$/.test(id)||!Number.isInteger(ano)){alert('Não foi possível identificar esta questão no histórico.');return}
- let questoes=arquivosQuestoes.get(ano);
+ if(!/^\d{4}_\d+$/.test(id)||!Number.isInteger(ano)){alert('Não foi possível identificar esta questão no histórico.');return}
+ let questoes=arquivosQuestoes.get(ano), solucoes=arquivosSolucoes.get(ano);
  try{
   if(!questoes){const resposta=await fetch('questoes/enem_'+ano+'.json');if(!resposta.ok)throw new Error('Arquivo da prova indisponível.');const dados=await resposta.json();questoes=Array.isArray(dados.itens)?dados.itens:[];arquivosQuestoes.set(ano,questoes)}
+  if(ano===2022&&!solucoes){const resposta=await fetch('solucoes/enem_2022.json');if(resposta.ok){const dados=await resposta.json();solucoes=new Map((dados.questoes||[]).map(item=>[item.id,item]));arquivosSolucoes.set(ano,solucoes)}}
   const q=questoes.find(item=>item.id===id);
   if(!q)throw new Error('A questão não foi encontrada no arquivo da prova.');
-  mostrarRevisao(q,registro);
+  mostrarRevisao(q,registro,solucoes?.get(id)||null);
  }catch(e){console.error('Falha ao abrir revisão:',e);alert(e.message||'Não foi possível abrir a questão.')}
 }
-function mostrarRevisao(q,registro){
+function mostrarRevisao(q,registro,solucao=null){
  document.getElementById('question-review-modal')?.remove();
  const overlay=document.createElement('div');overlay.id='question-review-modal';overlay.className='review-overlay';overlay.setAttribute('role','presentation');
  const modal=document.createElement('section');modal.className='review-modal';modal.setAttribute('role','dialog');modal.setAttribute('aria-modal','true');modal.setAttribute('aria-labelledby','review-title');
@@ -52,10 +53,10 @@ function mostrarRevisao(q,registro){
  const options=document.createElement('ol');options.className='review-options';
  (q.alternativas||[]).forEach((alt,i)=>{const li=document.createElement('li');li.textContent=String.fromCharCode(65+i)+') '+alt;if(i===q.correta)li.className='review-correct-option';options.appendChild(li)});body.appendChild(options);
  const answer=document.createElement('p');answer.className='review-answer';answer.textContent='Gabarito: '+String.fromCharCode(65+Number(q.correta));body.appendChild(answer);
- const explanation=q.resolucao||q.solucao||q.explicacao||q.comentario;
+ const explanation=solucao?.resolucao||q.resolucao||q.solucao||q.explicacao||q.comentario;
  if(explanation){const section=document.createElement('section');section.className='review-explanation';const h=document.createElement('h3');h.textContent='Resolução';const p=document.createElement('p');p.textContent=String(explanation);section.append(h,p);body.appendChild(section)}
  const actions=document.createElement('div');actions.className='review-actions';
- const videoUrl=q.youtubeUrl||q.youtube_url||q.videoSolucao||q.video_solucao||q.youtube;
+ const videoUrl=solucao?.videoUrl||q.youtubeUrl||q.youtube_url||q.videoSolucao||q.video_solucao||q.youtube;
  let videoLink=null;
  if(typeof videoUrl==='string'&&videoUrl.trim()){try{const u=new URL(videoUrl);if(u.protocol==='https:'&&['youtube.com','www.youtube.com','youtu.be','m.youtube.com'].includes(u.hostname))videoLink=u.href}catch{}}
  const video=document.createElement('a');video.className='review-video-link';video.target='_blank';video.rel='noopener noreferrer';video.href=videoLink||'https://www.youtube.com/results?search_query='+encodeURIComponent('ENEM '+registro.year+' questão '+id.split('_').pop()+' resolução');video.textContent=videoLink?'▶ Assistir à resolução em vídeo':'▶ Buscar resolução no YouTube';actions.appendChild(video);
