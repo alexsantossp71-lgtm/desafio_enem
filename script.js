@@ -68,6 +68,36 @@ function escaparHTML(valor) {
     })[caractere]);
 }
 
+function sanitizarEnunciado(html) {
+    const modelo = document.createElement('template');
+    modelo.innerHTML = String(html || '');
+
+    const permitidas = new Set(['DIV', 'P', 'BR', 'STRONG', 'B', 'EM', 'I', 'U', 'SPAN', 'BLOCKQUOTE', 'UL', 'OL', 'LI', 'SUB', 'SUP']);
+    const proibidas = new Set(['SCRIPT', 'STYLE', 'IFRAME', 'OBJECT', 'EMBED', 'FORM', 'INPUT', 'BUTTON', 'SVG', 'MATH']);
+
+    function limpar(no) {
+        [...no.childNodes].forEach(filho => {
+            if (filho.nodeType !== Node.ELEMENT_NODE) return;
+            if (proibidas.has(filho.tagName)) {
+                filho.remove();
+                return;
+            }
+            limpar(filho);
+            if (!permitidas.has(filho.tagName)) {
+                filho.replaceWith(...filho.childNodes);
+                return;
+            }
+            [...filho.attributes].forEach(attr => {
+                const classeContexto = filho.tagName === 'DIV' && attr.name === 'class' && attr.value === 'contexto';
+                if (!classeContexto) filho.removeAttribute(attr.name);
+            });
+        });
+    }
+
+    limpar(modelo.content);
+    return modelo.innerHTML;
+}
+
 function caminhoImagemSeguro(caminho) {
     if (typeof caminho !== 'string' || !caminho.trim()) return null;
     try {
@@ -291,7 +321,7 @@ function carregarQuestao(indice) {
     enunciado.className = 'question-text';
     // O banco contém HTML editorial (negrito, parágrafos e contexto).
     // As alternativas, ao contrário, são inseridas somente como texto abaixo.
-    enunciado.innerHTML = questao.enunciado;
+    enunciado.innerHTML = sanitizarEnunciado(questao.enunciado);
     caixa.appendChild(enunciado);
 
     const opcoes = document.createElement('div');
