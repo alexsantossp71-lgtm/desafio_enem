@@ -26,6 +26,49 @@ function subjects(){
  box.replaceChildren();
  Object.keys(counts).forEach(m=>{const pair=names[m]||['📘',m],b=document.createElement('button');b.type='button';b.className='subject-card';const i=document.createElement('span');i.className='subject-symbol';i.textContent=pair[0];const n=document.createElement('strong');n.textContent=pair[1];const c=document.createElement('small');c.textContent=counts[m]+' questões';b.append(i,n,c);b.addEventListener('click',()=>{const target=[...document.querySelectorAll('#mat-buttons-container button')].find(x=>x.textContent.trim()===(nomesMateria[m]||m));if(target){target.click();document.getElementById('box-materia').scrollIntoView({behavior:'smooth',block:'center'})}});box.appendChild(b)});
 }
+
+const arquivosQuestoes=new Map(), arquivosSolucoes=new Map();
+async function abrirRevisao(registro){
+ const id=String(registro.id||'');
+ const ano=Number(registro.year);
+ if(!/^\d{4}_\d+$/.test(id)||!Number.isInteger(ano)){alert('Não foi possível identificar esta questão no histórico.');return}
+ let questoes=arquivosQuestoes.get(ano), solucoes=arquivosSolucoes.get(ano);
+ try{
+  if(!questoes){const resposta=await fetch('questoes/enem_'+ano+'.json');if(!resposta.ok)throw new Error('Arquivo da prova indisponível.');const dados=await resposta.json();questoes=Array.isArray(dados.itens)?dados.itens:[];arquivosQuestoes.set(ano,questoes)}
+  if(ano===2022&&!solucoes){const resposta=await fetch('solucoes/enem_2022.json');if(resposta.ok){const dados=await resposta.json();solucoes=new Map((dados.questoes||[]).map(item=>[item.id,item]));arquivosSolucoes.set(ano,solucoes)}}
+  const q=questoes.find(item=>item.id===id);
+  if(!q)throw new Error('A questão não foi encontrada no arquivo da prova.');
+  mostrarRevisao(q,registro,solucoes?.get(id)||null);
+ }catch(e){console.error('Falha ao abrir revisão:',e);alert(e.message||'Não foi possível abrir a questão.')}
+}
+function mostrarRevisao(q,registro,solucao=null){
+ document.getElementById('question-review-modal')?.remove();
+ const overlay=document.createElement('div');overlay.id='question-review-modal';overlay.className='review-overlay';overlay.setAttribute('role','presentation');
+ const modal=document.createElement('section');modal.className='review-modal';modal.setAttribute('role','dialog');modal.setAttribute('aria-modal','true');modal.setAttribute('aria-labelledby','review-title');
+ const header=document.createElement('div');header.className='review-header';
+ const title=document.createElement('h2');title.id='review-title';title.textContent='Revisão · '+q.id;
+ const close=document.createElement('button');close.type='button';close.className='review-close';close.textContent='Fechar';close.setAttribute('aria-label','Fechar revisão');close.addEventListener('click',()=>overlay.remove());header.append(title,close);
+ const body=document.createElement('div');body.className='review-body';
+ const statement=document.createElement('div');statement.className='question-text review-question';statement.innerHTML=typeof sanitizarEnunciado==='function'?sanitizarEnunciado(q.enunciado):String(q.enunciado||'');body.appendChild(statement);
+ const options=document.createElement('ol');options.className='review-options';
+ (q.alternativas||[]).forEach((alt,i)=>{const li=document.createElement('li');li.textContent=String.fromCharCode(65+i)+') '+alt;if(i===q.correta)li.className='review-correct-option';options.appendChild(li)});body.appendChild(options);
+ const answer=document.createElement('p');answer.className='review-answer';answer.textContent='Gabarito: '+String.fromCharCode(65+Number(q.correta));body.appendChild(answer);
+ const explanation=solucao?.resolucao||q.resolucao||q.solucao||q.explicacao||q.comentario;
+ if(explanation){const section=document.createElement('section');section.className='review-explanation';const h=document.createElement('h3');h.textContent='Resolução';const p=document.createElement('p');p.textContent=String(explanation);section.append(h,p);body.appendChild(section)}
+ const actions=document.createElement('div');actions.className='review-actions';
+ const videoUrl=solucao?.videoUrl||q.youtubeUrl||q.youtube_url||q.videoSolucao||q.video_solucao||q.youtube;
+ let videoLink=null;
+ if(typeof videoUrl==='string'&&videoUrl.trim()){try{const u=new URL(videoUrl);if(u.protocol==='https:'&&['youtube.com','www.youtube.com','youtu.be','m.youtube.com'].includes(u.hostname))videoLink=u.href}catch{}}
+ const playlistUrl=typeof solucao?.playlistUrl==='string'&&solucao.playlistUrl.startsWith('https://www.youtube.com/')?solucao.playlistUrl:null;
+ const video=document.createElement('a');video.className='review-video-link';video.target='_blank';video.rel='noopener noreferrer';video.href=videoLink||playlistUrl||'https://www.youtube.com/results?search_query='+encodeURIComponent('ENEM '+registro.year+' questão '+id.split('_').pop()+' resolução');video.textContent=videoLink?'▶ Assistir à resolução em vídeo':playlistUrl?'▶ Abrir playlist de resoluções':'▶ Buscar resolução no YouTube';actions.appendChild(video);
+ if(!videoLink&&playlistUrl){const status=document.createElement('p');status.className='review-note';status.textContent='A playlist foi indicada como fonte das resoluções em vídeo. A correspondência exata deste vídeo com a questão ainda não foi conferida.';actions.prepend(status)}
+ else if(solucao?.videoStatus==='pendente_pesquisa'){const status=document.createElement('p');status.className='review-note';status.textContent='Vídeo específico ainda não validado para esta questão; o botão abre uma busca no YouTube.';actions.prepend(status)}
+ if(!explanation){const note=document.createElement('p');note.className='review-note';note.textContent='A resolução escrita ainda não foi cadastrada. Você pode consultar o gabarito e buscar uma explicação em vídeo.';body.appendChild(note)}
+ modal.append(header,body,actions);overlay.appendChild(modal);document.body.appendChild(overlay);
+ overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.remove()});
+ const esc=e=>{if(e.key==='Escape'){overlay.remove();document.removeEventListener('keydown',esc)}};document.addEventListener('keydown',esc);close.focus();
+}
+
 function refresh(){
  const $=id=>document.getElementById(id);if(!$('dashboard'))return;
  const total=history.length,correct=history.filter(x=>x.ok).length,sessions=read(SESS,[]);
@@ -33,7 +76,7 @@ function refresh(){
  const goal=read(GOAL,20),pct=Math.min(100,Math.round(total/goal*100));$('goal-input').value=goal;$('goal-progress').style.width=pct+'%';$('goal-caption').textContent=Math.min(total,goal)+' de '+goal+' questões respondidas ('+pct+'%).';
  const badges=[[1,'🌱 Primeiro passo'],[10,'🔥 10 questões'],[50,'⭐ 50 questões'],[100,'🏅 100 questões'],[250,'🚀 250 questões']];$('achievements').replaceChildren();
  badges.forEach(x=>{const s=document.createElement('span');s.className='achievement'+(total>=x[0]?' unlocked':'');s.textContent=(total>=x[0]?'✓ ':'○ ')+x[1];$('achievements').appendChild(s)});
- const list=$('history-list');list.replaceChildren();if(!history.length){const p=document.createElement('p');p.className='muted';p.textContent='Responda sua primeira questão para começar seu histórico.';list.appendChild(p)}else history.slice(-6).reverse().forEach(x=>{const row=document.createElement('div');row.className='history-item';const a=document.createElement('strong');a.textContent=x.year+' · '+x.subject;const b=document.createElement('span');b.textContent=x.id+' · '+new Date(x.date).toLocaleDateString('pt-BR');const c=document.createElement('b');c.className=x.ok?'status-correct':'status-wrong';c.textContent=x.ok?'Acertou':'Revisar';row.append(a,b,c);list.appendChild(row)});
+ const list=$('history-list');list.replaceChildren();if(!history.length){const p=document.createElement('p');p.className='muted';p.textContent='Responda sua primeira questão para começar seu histórico.';list.appendChild(p)}else history.slice(-6).reverse().forEach(x=>{const row=document.createElement('div');row.className='history-item';const info=document.createElement('div');info.className='history-info';const a=document.createElement('strong');a.textContent=x.year+' · '+x.subject;const b=document.createElement('span');b.textContent=x.id+' · '+new Date(x.date).toLocaleDateString('pt-BR');info.append(a,b);const c=document.createElement('b');c.className=x.ok?'status-correct':'status-wrong';c.textContent=x.ok?'Acertou':'Revisar';const open=document.createElement('button');open.type='button';open.className='history-open-btn';open.textContent='Abrir revisão';open.addEventListener('click',()=>abrirRevisao(x));row.append(info,c,open);list.appendChild(row)});
  subjects();
 }
 function advanced(){
