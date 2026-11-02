@@ -24,7 +24,7 @@ function subjects(){
  const names={'ciencias-humanas':['🌍','Ciências Humanas'],'ciencias-natureza':['🧬','Ciências da Natureza'],linguagens:['📖','Linguagens'],matematica:['📐','Matemática'],geral:['📚','Geral']},counts={};
  dadosCompletosAno.forEach(q=>{const m=q.materia||'geral';counts[m]=(counts[m]||0)+1});
  box.replaceChildren();
- Object.keys(counts).forEach(m=>{const pair=names[m]||['📘',m],b=document.createElement('button');b.type='button';b.className='subject-card';const i=document.createElement('span');i.className='subject-symbol';i.textContent=pair[0];const n=document.createElement('strong');n.textContent=pair[1];const c=document.createElement('small');c.textContent=counts[m]+' questões';b.append(i,n,c);b.addEventListener('click',()=>{const target=[...document.querySelectorAll('#mat-buttons-container button')].find(x=>x.textContent===(nomesMateria[m]||m)||x.textContent===m);if(target){target.click();document.getElementById('box-materia').scrollIntoView({behavior:'smooth',block:'center'})}});box.appendChild(b)});
+ Object.keys(counts).forEach(m=>{const pair=names[m]||['📘',m],b=document.createElement('button');b.type='button';b.className='subject-card';const i=document.createElement('span');i.className='subject-symbol';i.textContent=pair[0];const n=document.createElement('strong');n.textContent=pair[1];const c=document.createElement('small');c.textContent=counts[m]+' questões';b.append(i,n,c);b.addEventListener('click',()=>{const target=[...document.querySelectorAll('#mat-buttons-container button')].find(x=>x.textContent.trim()===(nomesMateria[m]||m));if(target){target.click();document.getElementById('box-materia').scrollIntoView({behavior:'smooth',block:'center'})}});box.appendChild(b)});
 }
 function refresh(){
  const $=id=>document.getElementById(id);if(!$('dashboard'))return;
@@ -41,6 +41,22 @@ function advanced(){
  const a=document.createElement('div');a.id='advanced-filters';a.className='advanced-filters';a.innerHTML='<label class="filter-check"><input id="filter-errors" type="checkbox"> Revisar somente questões que já errei</label><p class="muted filter-help">Combine com ano, matéria e quantidade para uma revisão direcionada.</p>';q.after(a);
  a.querySelector('input').addEventListener('change',e=>{reviewOnly=e.target.checked;atualizarBotaoStart()});
 }
+
+function atualizarInicioRevisao(){
+ if(!reviewOnly)return;
+ const botao=document.getElementById('start-btn');if(!botao)return;
+ const idsErrados=new Set(history.filter(item=>!item.ok).map(item=>item.id));
+ const disponiveis=dadosCompletosAno.filter(q=>idsErrados.has(q.id)&&(materiaAtual==='all'||q.materia===materiaAtual));
+ const quantidade=qtdAtual==='all'?disponiveis.length:Math.min(Number(qtdAtual),disponiveis.length);
+ botao.disabled=!anoAtual||quantidade===0;
+ botao.textContent=quantidade?('INICIAR REVISÃO — '+quantidade+' QUESTÕES'):'SEM QUESTÕES ERRADAS NESTE FILTRO';
+}
+const atualizarBotaoOriginal=window.atualizarBotaoStart;
+if(typeof atualizarBotaoOriginal==='function')window.atualizarBotaoStart=function(){
+ const resultado=atualizarBotaoOriginal.apply(this,arguments);
+ atualizarInicioRevisao();
+ return resultado;
+};
 const originalAdvance=window.avancar;
 if(typeof originalAdvance==='function')window.avancar=function(ok,timeout){
  const q=questoesFiltradas[indiceAtual];if(q){history.push({id:q.id||('Questão '+(indiceAtual+1)),year:anoAtual,subject:q.materia||'Geral',ok:!!ok,date:new Date().toISOString()});if(history.length>2000)history=history.slice(-2000);save(KEY,history)}
