@@ -396,8 +396,6 @@ function carregarQuestao(indice) {
         radio.value = indiceAlternativa;
         const texto = document.createElement('span');
         texto.style.marginLeft = '10px';
-        const letra = document.createElement('b');
-        letra.textContent = `${String.fromCharCode(65 + indiceAlternativa)}) `;
         adicionarConteudoAlternativa(texto, alternativa, indiceAlternativa);
         label.append(radio, texto);
         opcoes.appendChild(label);
