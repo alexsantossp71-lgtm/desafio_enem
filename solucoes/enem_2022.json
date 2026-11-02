@@ -233,10 +233,11 @@
     {
       "id": "2022_36",
       "resolucao": "A notícia informa sobre um projeto de vacinação gratuita de cães contra a leishmaniose e contextualiza a gravidade da doença e sua relevância para a saúde pública. Ao divulgar a proposta e explicar o problema, também procura alertar e conscientizar os leitores sobre um risco sanitário que atinge animais e seres humanos. Gabarito: C.",
-      "videoUrl": null,
-      "videoStatus": "playlist_disponivel",
+      "videoUrl": "https://www.youtube.com/watch?v=DKa4SdhrJLA&list=PLbF-o82pLqTKfmA9pkAUUQPLgO4uMnwK5&index=36",
+      "videoStatus": "verificado",
       "fonte": "Banco de questões ENEM 2022; resolução autoral elaborada a partir do enunciado e das alternativas.",
-      "playlistUrl": "https://www.youtube.com/watch?v=d0TX4nJ84as&list=PLbF-o82pLqTKfmA9pkAUUQPLgO4uMnwK5"
+      "playlistUrl": "https://www.youtube.com/watch?v=d0TX4nJ84as&list=PLbF-o82pLqTKfmA9pkAUUQPLgO4uMnwK5",
+      "fonteVideo": "https://www.youtube.com/watch?v=DKa4SdhrJLA&list=PLbF-o82pLqTKfmA9pkAUUQPLgO4uMnwK5&index=36"
     },
     {
       "id": "2022_37",
