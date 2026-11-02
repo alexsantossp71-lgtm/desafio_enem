@@ -60,6 +60,7 @@ function mostrarRevisao(q,registro,solucao=null){
  let videoLink=null;
  if(typeof videoUrl==='string'&&videoUrl.trim()){try{const u=new URL(videoUrl);if(u.protocol==='https:'&&['youtube.com','www.youtube.com','youtu.be','m.youtube.com'].includes(u.hostname))videoLink=u.href}catch{}}
  const video=document.createElement('a');video.className='review-video-link';video.target='_blank';video.rel='noopener noreferrer';video.href=videoLink||'https://www.youtube.com/results?search_query='+encodeURIComponent('ENEM '+registro.year+' questão '+id.split('_').pop()+' resolução');video.textContent=videoLink?'▶ Assistir à resolução em vídeo':'▶ Buscar resolução no YouTube';actions.appendChild(video);
+ if(solucao?.videoStatus==='pendente_pesquisa'){const status=document.createElement('p');status.className='review-note';status.textContent='Vídeo específico ainda não validado para esta questão; o botão abre uma busca no YouTube.';actions.prepend(status)}
  if(!explanation){const note=document.createElement('p');note.className='review-note';note.textContent='A resolução escrita ainda não foi cadastrada. Você pode consultar o gabarito e buscar uma explicação em vídeo.';body.appendChild(note)}
  modal.append(header,body,actions);overlay.appendChild(modal);document.body.appendChild(overlay);
  overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.remove()});
