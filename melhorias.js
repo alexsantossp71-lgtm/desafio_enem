@@ -35,7 +35,7 @@ async function abrirRevisao(registro){
  let questoes=arquivosQuestoes.get(ano), solucoes=arquivosSolucoes.get(ano);
  try{
   if(!questoes){const resposta=await fetch('questoes/enem_'+ano+'.json?v=20261102-video-links',{cache:'no-store'});if(!resposta.ok)throw new Error('Arquivo da prova indisponível.');const dados=await resposta.json();questoes=Array.isArray(dados.itens)?dados.itens:[];arquivosQuestoes.set(ano,questoes)}
-  if(ano===2022&&!solucoes){const resposta=await fetch('solucoes/enem_2022.json?v=20261102-video-links',{cache:'no-store'});if(resposta.ok){const dados=await resposta.json();solucoes=new Map((dados.questoes||[]).map(item=>[item.id,item]));arquivosSolucoes.set(ano,solucoes)}}
+  if(!solucoes){const resposta=await fetch('solucoes/enem_'+ano+'.json?v=20261102-resolucoes',{cache:'no-store'});if(resposta.ok){const dados=await resposta.json();solucoes=new Map((dados.questoes||[]).map(item=>[item.id,item]));arquivosSolucoes.set(ano,solucoes)}}
   const q=questoes.find(item=>item.id===id);
   if(!q)throw new Error('A questão não foi encontrada no arquivo da prova.');
   mostrarRevisao(q,registro,solucoes?.get(id)||null);
