@@ -49,9 +49,15 @@ function mostrarRevisao(q,registro,solucao=null){
  const title=document.createElement('h2');title.id='review-title';title.textContent='Revisão · '+q.id;
  const close=document.createElement('button');close.type='button';close.className='review-close';close.textContent='Fechar';close.setAttribute('aria-label','Fechar revisão');close.addEventListener('click',()=>overlay.remove());header.append(title,close);
  const body=document.createElement('div');body.className='review-body';
+ const imageUrl=typeof caminhoImagemSeguro==='function'?caminhoImagemSeguro(q.imagem):null;
+ if(imageUrl){const imageBox=document.createElement('div');imageBox.className='review-image';const image=document.createElement('img');image.src=imageUrl;image.alt='Imagem de apoio da questão';image.loading='lazy';image.onerror=()=>imageBox.remove();imageBox.appendChild(image);body.appendChild(imageBox)}
  const statement=document.createElement('div');statement.className='question-text review-question';statement.innerHTML=typeof sanitizarEnunciado==='function'?sanitizarEnunciado(q.enunciado):String(q.enunciado||'');body.appendChild(statement);
  const options=document.createElement('ol');options.className='review-options';
- (q.alternativas||[]).forEach((alt,i)=>{const li=document.createElement('li');li.textContent=String.fromCharCode(65+i)+') '+alt;if(i===q.correta)li.className='review-correct-option';options.appendChild(li)});body.appendChild(options);
+ const alternatives=Array.isArray(q.alternativas)?q.alternativas:[];
+ const missingAlternatives=[];
+ alternatives.forEach((alt,i)=>{if(!String(alt??'').trim()){missingAlternatives.push(String.fromCharCode(65+i));return}const li=document.createElement('li');li.textContent=String.fromCharCode(65+i)+') '+alt;if(i===q.correta)li.className='review-correct-option';options.appendChild(li)});
+ if(options.children.length)body.appendChild(options);
+ if(missingAlternatives.length){const note=document.createElement('p');note.className='review-note';note.textContent=options.children.length?'Alternativas ainda não cadastradas: '+missingAlternatives.join(', ')+'.':'As alternativas desta questão ainda não foram cadastradas no banco de dados.';body.appendChild(note)}
  const answer=document.createElement('p');answer.className='review-answer';answer.textContent='Gabarito: '+String.fromCharCode(65+Number(q.correta));body.appendChild(answer);
  const explanation=solucao?.resolucao||q.resolucao||q.solucao||q.explicacao||q.comentario;
  if(explanation){const section=document.createElement('section');section.className='review-explanation';const h=document.createElement('h3');h.textContent='Resolução';const p=document.createElement('p');p.textContent=String(explanation);section.append(h,p);body.appendChild(section)}
