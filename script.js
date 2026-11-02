@@ -62,6 +62,35 @@ function validarQuestao(q) {
         q.alternativas.every(a => typeof a === 'string');
 }
 
+function adicionarConteudoAlternativa(container, alternativa, indice) {
+    const letra = document.createElement('b');
+    letra.textContent = `${String.fromCharCode(65 + indice)}) `;
+    container.appendChild(letra);
+
+    const valor = String(alternativa ?? '');
+    const imagem = valor.match(/^<img src="(https:\/\/raw\.githubusercontent\.com\/gabriel-antonelli\/extract-enem-data\/main\/enem-data\/[A-Za-z0-9_./-]+)" alt="Alternativa ([A-E])">$/)
+        || valor.match(/^<img src="(https:\/\/s3\.amazonaws\.com\/qcon-assets-production\/images\/provas\/30082\/imagem-retificada-questao-05[1-5]\.jpg)" alt="Gráfico da alternativa ([A-E])">$/);
+
+    if (imagem) {
+        const img = document.createElement('img');
+        img.src = imagem[1];
+        img.alt = `Alternativa ${imagem[2]}`;
+        img.loading = 'lazy';
+        img.decoding = 'async';
+        img.style.display = 'block';
+        img.style.maxWidth = '100%';
+        img.style.maxHeight = '220px';
+        img.style.height = 'auto';
+        img.style.objectFit = 'contain';
+        img.style.margin = '8px 0';
+        img.onerror = () => img.remove();
+        container.appendChild(img);
+        return;
+    }
+
+    container.appendChild(document.createTextNode(valor));
+}
+
 function escaparHTML(valor) {
     return String(valor).replace(/[&<>"']/g, caractere => ({
         '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -367,9 +396,7 @@ function carregarQuestao(indice) {
         radio.value = indiceAlternativa;
         const texto = document.createElement('span');
         texto.style.marginLeft = '10px';
-        const letra = document.createElement('b');
-        letra.textContent = `${String.fromCharCode(65 + indiceAlternativa)}) `;
-        texto.append(letra, document.createTextNode(alternativa));
+        adicionarConteudoAlternativa(texto, alternativa, indiceAlternativa);
         label.append(radio, texto);
         opcoes.appendChild(label);
     });
