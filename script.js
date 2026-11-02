@@ -69,10 +69,16 @@ function escaparHTML(valor) {
 }
 
 function sanitizarEnunciado(html) {
+    // O banco do ENEM pode trazer imagens em Markdown dentro do próprio enunciado.
+    // Converte esse formato para HTML antes da sanitização.
+    const convertido = String(html || '').replace(
+        /!\[([^\]]*)\]\((https?:\/\/[^\s)]+)(?:\s+["'][^"']*["'])?\)/g,
+        (_, textoAlternativo, url) => `<img src="${escaparHTML(url)}" alt="${escaparHTML(textoAlternativo || 'Imagem de apoio da questão')}">`
+    );
     const modelo = document.createElement('template');
-    modelo.innerHTML = String(html || '');
+    modelo.innerHTML = convertido;
 
-    const permitidas = new Set(['DIV', 'P', 'BR', 'STRONG', 'B', 'EM', 'I', 'U', 'SPAN', 'BLOCKQUOTE', 'UL', 'OL', 'LI', 'SUB', 'SUP']);
+    const permitidas = new Set(['DIV', 'P', 'BR', 'STRONG', 'B', 'EM', 'I', 'U', 'SPAN', 'BLOCKQUOTE', 'UL', 'OL', 'LI', 'SUB', 'SUP', 'IMG']);
     const proibidas = new Set(['SCRIPT', 'STYLE', 'IFRAME', 'OBJECT', 'EMBED', 'FORM', 'INPUT', 'BUTTON', 'SVG', 'MATH']);
 
     function limpar(no) {
@@ -80,6 +86,29 @@ function sanitizarEnunciado(html) {
             if (filho.nodeType !== Node.ELEMENT_NODE) return;
             if (proibidas.has(filho.tagName)) {
                 filho.remove();
+                return;
+            }
+            if (filho.tagName === 'IMG') {
+                const origem = filho.getAttribute('src') || '';
+                let urlSegura = null;
+                try {
+                    const url = new URL(origem, document.baseURI);
+                    const hostPermitido = url.hostname === 'enem.dev' || url.hostname.endsWith('.enem.dev');
+                    if (url.origin === location.origin || (url.protocol === 'https:' && hostPermitido)) {
+                        urlSegura = url.href;
+                    }
+                } catch { /* URL inválida: imagem removida. */ }
+                if (!urlSegura) {
+                    filho.remove();
+                    return;
+                }
+                const alt = filho.getAttribute('alt') || 'Imagem de apoio da questão';
+                [...filho.attributes].forEach(attr => filho.removeAttribute(attr.name));
+                filho.setAttribute('src', urlSegura);
+                filho.setAttribute('alt', alt);
+                filho.setAttribute('loading', 'lazy');
+                filho.setAttribute('decoding', 'async');
+                filho.addEventListener('error', () => filho.remove(), { once: true });
                 return;
             }
             limpar(filho);
@@ -303,7 +332,10 @@ function carregarQuestao(indice) {
         caixa.appendChild(badge);
     }
 
-    const imagem = caminhoImagemSeguro(questao.imagem);
+    // Se o enunciado já contém imagem em Markdown/HTML, ela será exibida
+    // no próprio texto e não duplicaremos o campo separado "imagem".
+    const temImagemNoEnunciado = /!\[[^\]]*\]\(https?:\/\//i.test(questao.enunciado) || /<img\b/i.test(questao.enunciado);
+    const imagem = temImagemNoEnunciado ? null : caminhoImagemSeguro(questao.imagem);
     if (imagem) {
         const wrapper = document.createElement('div');
         wrapper.className = 'img-container';
