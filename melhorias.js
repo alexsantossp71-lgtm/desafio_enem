@@ -55,7 +55,7 @@ function mostrarRevisao(q,registro,solucao=null){
  const options=document.createElement('ol');options.className='review-options';
  const alternatives=Array.isArray(q.alternativas)?q.alternativas:[];
  const missingAlternatives=[];
- alternatives.forEach((alt,i)=>{if(!String(alt??'').trim()){missingAlternatives.push(String.fromCharCode(65+i));return}const li=document.createElement('li');li.textContent=String.fromCharCode(65+i)+') '+alt;if(i===q.correta)li.className='review-correct-option';options.appendChild(li)});
+ alternatives.forEach((alt,i)=>{if(!String(alt??'').trim()){missingAlternatives.push(String.fromCharCode(65+i));return}const li=document.createElement('li');if(typeof adicionarConteudoAlternativa==='function')adicionarConteudoAlternativa(li,alt,i);else li.textContent=String.fromCharCode(65+i)+') '+alt;if(i===q.correta)li.className='review-correct-option';options.appendChild(li)});
  if(options.children.length)body.appendChild(options);
  if(missingAlternatives.length){const note=document.createElement('p');note.className='review-note';note.textContent=options.children.length?'Alternativas ainda não cadastradas: '+missingAlternatives.join(', ')+'.':'As alternativas desta questão ainda não foram cadastradas no banco de dados.';body.appendChild(note)}
  const answer=document.createElement('p');answer.className='review-answer';answer.textContent='Gabarito: '+String.fromCharCode(65+Number(q.correta));body.appendChild(answer);
