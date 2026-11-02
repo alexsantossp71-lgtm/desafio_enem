@@ -64,7 +64,8 @@ function mostrarRevisao(q,registro){
  overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.remove()});
  const esc=e=>{if(e.key==='Escape'){overlay.remove();document.removeEventListener('keydown',esc)}};document.addEventListener('keydown',esc);close.focus();
 }
-\nfunction refresh(){
+
+function refresh(){
  const $=id=>document.getElementById(id);if(!$('dashboard'))return;
  const total=history.length,correct=history.filter(x=>x.ok).length,sessions=read(SESS,[]);
  $('stat-total').textContent=total;$('stat-rate').textContent=(total?Math.round(correct/total*100):0)+'%';$('stat-sessions').textContent=sessions.length;
