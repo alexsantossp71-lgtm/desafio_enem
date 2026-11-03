@@ -550,7 +550,7 @@
     },
     {
       "id": "2023_144",
-      "resolucao": "Como a cisterna é cilíndrica e sua base tem área de 3 m², o volume de água é V = 3h. A vazão constante é a variação do volume dividida pelo intervalo de tempo, isto é, 3 × (variação da altura)/(variação do tempo). Aplicando os dados da tabela, obtém-se 0,9 m³/h. Gabarito: C."
+      "resolucao": "Entre 6h e 8h, o nível sobe de 0,5 m para 1,1 m: aumento de 0,6 m em 2 h, ou 0,3 m/h. Como a base da cisterna tem área de 3 m², a vazão é área da base × aumento da altura por hora: Q = 3 × 0,3 = 0,9 m³/h. Os demais intervalos da tabela confirmam a mesma taxa. Gabarito: C."
     },
     {
       "id": "2023_145",
@@ -558,7 +558,7 @@
     },
     {
       "id": "2023_146",
-      "resolucao": "Os valores nos vértices devem formar uma progressão aritmética de razão 2. Enumerando as distribuições possíveis desses termos nos vértices e somando os três valores de cada lado, encontram-se duas configurações válidas, com as somas indicadas na alternativa E. Gabarito: E."
+      "resolucao": "Como os vértices devem formar uma PA de razão 2 e os números vão de 1 a 6, há apenas dois trios possíveis: (1, 3, 5) ou (2, 4, 6). A soma de todos os números é 21. Se cada lado soma S, ao somarmos os três lados, cada número do vértice aparece duas vezes e cada número intermediário uma vez; logo, 3S = 21 + soma dos vértices. Para (1, 3, 5), 3S = 21 + 9 = 30, então S = 10. Para (2, 4, 6), 3S = 21 + 12 = 33, então S = 11. Há duas soluções: 10 e 11. Gabarito: E."
     },
     {
       "id": "2023_147",
@@ -634,7 +634,7 @@
     },
     {
       "id": "2023_165",
-      "resolucao": "A área a revestir é a soma das faces externas especificadas: os pisos horizontais, os espelhos verticais e as duas paredes laterais. Calculando as áreas retangulares e a área do perfil lateral em degraus com as medidas da figura, o total é 1,95 m². Gabarito: E."
+      "resolucao": "Cada piso mede 1,0 m × 0,25 m; os três pisos somam 3 × 0,25 = 0,75 m². Cada espelho mede 1,0 m × 0,20 m; os três somam 3 × 0,20 = 0,60 m². Em cada parede lateral, a área em degraus é 0,25 × (0,60 + 0,40 + 0,20) = 0,30 m²; como são duas laterais, totalizam 0,60 m². Somando todas as faces revestidas: 0,75 + 0,60 + 0,60 = 1,95 m². Gabarito: E."
     },
     {
       "id": "2023_166",
