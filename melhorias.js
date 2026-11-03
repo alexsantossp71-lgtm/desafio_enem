@@ -247,6 +247,9 @@ function questoesCombinadas(){
 }
 function atualizarInicioCombinado(){
  const start=document.getElementById('start-btn');if(!start)return;
+ const qtyBox=document.getElementById('box-qtd');
+ const quantityEnabled=multiYearSelected.size>0&&multiSubjectSelected.size>0;
+ if(qtyBox){qtyBox.style.opacity=quantityEnabled?'1':'0.5';qtyBox.style.pointerEvents=quantityEnabled?'auto':'none';}
  const total=questoesCombinadas().length;
  const amount=qtdAtual==='all'?total:Math.min(Number(qtdAtual),total);
  const ready=multiYearSelected.size>0&&multiSubjectSelected.size>0&&amount>0;
