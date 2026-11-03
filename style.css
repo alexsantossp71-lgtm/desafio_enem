@@ -303,3 +303,16 @@ body{background:radial-gradient(ellipse at 12% 0%,#e8efff 0,transparent 34%),var
 :root[data-theme="dark"] .bar-track{background:#22334d}
 @media(max-width:900px){.chart-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.chart-card:nth-child(2){grid-column:span 2;grid-row:2}.chart-card:nth-child(2) .pie-chart-wrap{grid-template-columns:142px minmax(0,1fr)}}
 @media(max-width:560px){.chart-stats{grid-template-columns:1fr}.chart-card:nth-child(2){grid-column:auto;grid-row:auto}.pie-chart-wrap{grid-template-columns:110px minmax(0,1fr);gap:9px}.accuracy-pie{width:108px}.bar-chart{gap:4px}.bar-label{font-size:.59rem}}
+
+/* A meta de estudos ocupa toda a linha do dashboard. */
+.dashboard-columns { grid-template-columns: minmax(0, 1fr); }
+.dashboard-columns > .panel-card { grid-column: 1 / -1; }
+.multi-year-grid,.multi-subject-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(105px,1fr));gap:9px;margin:10px 0}
+.multi-subject-grid{grid-template-columns:repeat(auto-fill,minmax(180px,1fr))}
+.multi-check{display:flex;align-items:center;gap:8px;padding:9px 11px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--ink);font-weight:650;cursor:pointer}
+.multi-check:has(input:checked){border-color:var(--primary);background:#eff6ff;color:var(--primary-dark)}
+.multi-check input{accent-color:var(--primary);width:16px;height:16px}
+.multi-selection-help{margin:8px 0 14px;color:var(--muted);font-size:.84rem}
+.multi-subject-section{margin-top:16px}
+.multi-subject-section .section-title{margin-bottom:8px}
+@media(max-width:560px){.multi-subject-grid{grid-template-columns:1fr 1fr}.multi-check{font-size:.88rem;padding:8px}}
