@@ -34,7 +34,7 @@ const els = {
     titulo: document.getElementById('prova-titulo'),
     score: document.getElementById('final-score'),
     feedback: document.getElementById('final-feedback'),
-    timerMode: document.getElementById('timer-mode')
+    timerModeSelector: document.getElementById('timer-mode-selector')
 };
 
 const nomesMateria = {
@@ -306,8 +306,17 @@ function atualizarBotaoStart() {
     els.startBtn.textContent = `INICIAR: ${anoAtual} (${nome}) — ${disponiveis} QUESTÕES`;
 }
 
+window.selecionarModoTempo = function (modo, btn) {
+    if (modo !== 'cronometrado' && modo !== 'livre') return;
+    modoTempo = modo;
+    els.timerModeSelector.querySelectorAll('[data-timer-mode]').forEach(botao => {
+        const ativo = botao === btn;
+        botao.classList.toggle('active', ativo);
+        botao.setAttribute('aria-pressed', String(ativo));
+    });
+};
+
 window.irParaQuiz = function () {
-    modoTempo = els.timerMode?.value === 'livre' ? 'livre' : 'cronometrado';
     let lista = materiaAtual === 'all'
         ? [...dadosCompletosAno]
         : dadosCompletosAno.filter(q => q.materia === materiaAtual);
