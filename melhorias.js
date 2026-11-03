@@ -10,7 +10,7 @@ function panel(){
  const p=document.createElement('section');p.id='dashboard';p.className='dashboard';
  p.innerHTML='<div class="dashboard-heading"><div><span class="eyebrow">SEU ESPAÇO DE ESTUDOS</span><h2>Vamos evoluir hoje?</h2><p class="muted">Acompanhe seu ritmo e continue de onde parou.</p></div><button id="theme-toggle" class="theme-toggle" type="button">🌙 Modo escuro</button></div>'+
  '<div class="stats-grid chart-stats"><article class="stat-card chart-card"><div class="chart-heading"><span>Questões respondidas</span><strong id="stat-total">0</strong></div><small>Últimos 7 dias</small><div id="chart-questions" class="weekly-chart" role="img" aria-label="Questões respondidas nos últimos sete dias"></div></article><article class="stat-card chart-card"><div class="chart-heading"><span>Taxa de acertos</span><strong id="stat-rate">0%</strong></div><small>Por área de conhecimento</small><div id="chart-accuracy" class="pie-chart-wrap"></div></article><article class="stat-card chart-card"><div class="chart-heading"><span>Simulados concluídos</span><strong id="stat-sessions">0</strong></div><small>Últimos 7 dias</small><div id="chart-sessions" class="weekly-chart" role="img" aria-label="Simulados concluídos nos últimos sete dias"></div></article></div>'+
- '<section class="panel-card goal-panel"><div class="panel-title"><div><span class="eyebrow">CONSTÂNCIA</span><h3>Meta de estudos</h3></div><span class="panel-icon">◎</span></div><p class="muted">Defina quantas questões deseja responder.</p><div class="goal-row"><input id="goal-input" type="number" min="1" max="500" aria-label="Meta de questões"><button id="goal-save" class="small-primary" type="button">Salvar meta</button></div><div class="goal-track"><span id="goal-progress"></span></div><p id="goal-caption" class="muted"></p><div id="achievements" class="achievements"></div></section></div>'+
+ '<section class="panel-card goal-panel"><div class="panel-title"><div><span class="eyebrow">CONSTÂNCIA</span><h3>Meta de estudos</h3></div><span class="panel-icon">◎</span></div><p class="muted">Defina quantas questões deseja responder.</p><div class="goal-row"><input id="goal-input" type="number" min="1" max="500" aria-label="Meta de questões"><button id="goal-save" class="small-primary" type="button">Salvar meta</button></div><div class="goal-track"><span id="goal-progress"></span></div><p id="goal-caption" class="muted"></p><div id="achievements" class="achievements"></div></section>'+
  '<section class="panel-card history-panel"><div class="panel-title"><div><span class="eyebrow">SEU PROGRESSO</span><h3>Histórico de questões</h3></div><span class="muted">Salvo neste dispositivo</span></div><div id="history-list" class="history-list"></div></section>';
  menu.insertBefore(p,menu.querySelector('.config-box'));
  document.getElementById('theme-toggle').addEventListener('click',()=>theme(document.documentElement.dataset.theme==='dark'?'light':'dark'));
@@ -152,7 +152,7 @@ function refresh(){
  const badges=[[1,'🌱 Primeiro passo'],[10,'🔥 10 questões'],[50,'⭐ 50 questões'],[100,'🏅 100 questões'],[250,'🚀 250 questões']];$('achievements').replaceChildren();
  badges.forEach(x=>{const s=document.createElement('span');s.className='achievement'+(total>=x[0]?' unlocked':'');s.textContent=(total>=x[0]?'✓ ':'○ ')+x[1];$('achievements').appendChild(s)});
  const list=$('history-list');list.replaceChildren();if(!history.length){const p=document.createElement('p');p.className='muted';p.textContent='Responda sua primeira questão para começar seu histórico.';list.appendChild(p)}else history.slice().reverse().forEach(x=>{const row=document.createElement('div');row.className='history-item';const info=document.createElement('div');info.className='history-info';const a=document.createElement('strong');a.textContent=x.year+' · '+x.subject;const b=document.createElement('span');b.textContent=x.id+' · '+new Date(x.date).toLocaleDateString('pt-BR');const preview=document.createElement('span');preview.className='history-preview';preview.textContent=x.preview||'Carregando enunciado…';info.append(a,b,preview);if(!x.preview){obterTrechoHistorico(x).then(trecho=>{preview.textContent=trecho||'Trecho indisponível';if(trecho){x.preview=trecho;save(KEY,history)}})}const c=document.createElement('b');c.className=x.ok?'status-correct':'status-wrong';c.textContent=x.ok?'Acertou':'Revisar';const open=document.createElement('button');open.type='button';open.className='history-open-btn';open.textContent='Abrir revisão';open.addEventListener('click',()=>abrirRevisao(x));row.append(info,c,open);list.appendChild(row)});
- subjects();
+ 
 }
 function advanced(){
  const q=document.getElementById('box-qtd');if(!q||document.getElementById('advanced-filters'))return;
@@ -186,7 +186,7 @@ if(typeof originalFinish==='function')window.finalizar=function(){
  const result=originalFinish.apply(this,arguments);refresh();return result;
 };
 const originalLoad=window.carregarAno;
-if(typeof originalLoad==='function')window.carregarAno=async function(){const r=await originalLoad.apply(this,arguments);subjects();return r};
+if(typeof originalLoad==='function')window.carregarAno=async function(){const r=await originalLoad.apply(this,arguments);return r};
 const originalStart=window.irParaQuiz;
 if(typeof originalStart==='function')window.irParaQuiz=function(){
  sessionSaved=false;
