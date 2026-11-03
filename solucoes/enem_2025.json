@@ -394,7 +394,7 @@
     },
     {
       "id": "2025_108",
-      "resolucao": "Enquanto a caixa se desloca em cada trecho horizontal, a força de atrito cinético tem módulo μmg. No plano inclinado, a força normal diminui para mg cos θ e, consequentemente, o atrito passa a μmg cos θ, menor que no piso horizontal. Ao chegar ao segundo piso horizontal, a normal e o atrito voltam ao valor inicial. O gráfico deve mostrar uma queda no trecho inclinado e um retorno ao patamar anterior no piso final. Gabarito: C."
+      "resolucao": "No trecho sobre o plano inclinado, a caixa permanece em movimento e a rugosidade é constante. A força de atrito cinético vale f = μN. Como a inclinação do plano é constante, a força normal também é constante (N = mg cos θ); portanto, o módulo do atrito permanece constante durante a subida. A redução da força aplicada pelo trabalhador não altera o atrito cinético. O gráfico correspondente é o de uma linha horizontal. Gabarito: C."
     },
     {
       "id": "2025_109",
