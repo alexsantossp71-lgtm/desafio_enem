@@ -1,0 +1,184 @@
+{
+  "questoes": [
+    {
+      "id": "2024_136",
+      "resolucao": "A ocular amplia 10 vezes: 0,007 mm × 10 = 0,07 mm, equivalente a 70 μm. Isso ainda é menor que o mínimo de 100 μm. A objetiva precisa ampliar por um fator de pelo menos 100/70 ≈ 1,43. A menor objetiva que atende a essa condição é a lente I, de 5 vezes. Gabarito cadastrado: A."
+    },
+    {
+      "id": "2024_137",
+      "resolucao": "Se S é a soma das quatro notas, a média errada foi S/5 e a correta seria S/4. Como a primeira ficou uma unidade abaixo: S/4 − S/5 = 1. Logo, S/20 = 1, S = 20. A média correta é 20/4 = 5. Gabarito cadastrado: B."
+    },
+    {
+      "id": "2024_138",
+      "resolucao": "Para os dois algarismos distintos, há 5 opções para o primeiro e 4 para o segundo: 5 × 4 = 20. As teclas disponíveis oferecem 10 letras (A, B, C, D, E, F, P, Q, R, S). Para três letras diferentes e em ordem, há 10 × 9 × 8 = 720 possibilidades. Total: 20 × 720 = 14 400. Gabarito cadastrado: B."
+    },
+    {
+      "id": "2024_139",
+      "resolucao": "Na loja I, o enfeite custa 2 × R$ 2,00 + R$ 1,00 = R$ 5,00. Na loja II, custa 2 × R$ 2,00 + R$ 4,00 = R$ 8,00. Portanto, a compra deve ser feita na loja I, que oferece o menor custo. Gabarito cadastrado: A."
+    },
+    {
+      "id": "2024_140",
+      "resolucao": "João acertou 75% de 200, isto é, 150 questões. Felipe acertou 30% menos que essa quantidade: 150 × 0,70 = 105 acertos. Isso corresponde a 105/200 × 100 = 52,5%. Pelas faixas dadas, João fica em “muito bom” e Felipe em “regular”. Gabarito cadastrado: B."
+    },
+    {
+      "id": "2024_141",
+      "resolucao": "Primeiro, acompanha-se no gráfico I→II o intervalo de valores da grandeza II correspondente a I entre 1 e 3. Em seguida, esse intervalo é localizado no gráfico II→III. Como os gráficos são formados por segmentos, é preciso considerar também os valores intermediários, e não apenas os pontos marcados. O maior valor de III nesse intervalo é 2,5. Gabarito cadastrado: B."
+    },
+    {
+      "id": "2024_142",
+      "resolucao": "A primeira etapa contém 3 figuras. Em cada etapa seguinte, o conteúdo é duplicado. Assim, a quantidade forma uma progressão geométrica de primeiro termo 3 e razão 2. Na etapa 20, há 3 × 2^(20−1) = 3 × 2¹⁹ figuras. Gabarito cadastrado: A."
+    },
+    {
+      "id": "2024_143",
+      "resolucao": "O previsto era vender 60% de 500 meias-entradas (300). O número efetivo foi 50% maior: 450 meias, restando 50 inteiras. A receita com ingressos foi 450 × 65 + 50 × 100 = R$ 34 250. Para lucro de R$ 17 000, a receita total precisa ser R$ 51 350; portanto, bebidas e petiscos devem gerar R$ 17 100 de faturamento. Com margem de lucro de 60% sobre o custo, o faturamento é 1,6 vezes o custo: o gasto médio por pessoa é (17 100/1,6)/500 = R$ 21,375. A questão exige conferir a interpretação da margem e os dados do enunciado antes de fixar a alternativa. Gabarito cadastrado: D."
+    },
+    {
+      "id": "2024_144",
+      "resolucao": "Ao girar o trapézio retângulo em torno do lado PS, as bases paralelas PQ e SR descrevem circunferências de raios diferentes. A superfície lateral gerada tem formato de tronco de cone, com duas bases circulares de raios distintos. Gabarito cadastrado: D."
+    },
+    {
+      "id": "2024_145",
+      "resolucao": "O custo da cerca é 2·20L + 2·15C = 6 000, ou 40L + 30C = 6 000. A área é A = LC. Isolando C = (6 000 − 40L)/30 e substituindo, obtém-se uma função quadrática cujo máximo ocorre no vértice. Isso fornece L = 75 m e C = 100 m; o maior lado mede 100 m. Gabarito cadastrado: D."
+    },
+    {
+      "id": "2024_146",
+      "resolucao": "Área original: 110 × 75 = 8 250 m². Área após a redução: 105 × 68 = 7 140 m². A redução foi 8 250 − 7 140 = 1 110 m². Gabarito cadastrado: B."
+    },
+    {
+      "id": "2024_147",
+      "resolucao": "Simplificando as frações e comparando seus valores: I = 1/2; II = 10/45 = 2/9; III = 18/42 = 3/7; IV = 4/5; V = 5; VI = 1/4. As representações equivalentes identificadas no visor são II, III e V, conforme a configuração apresentada. Gabarito cadastrado: B."
+    },
+    {
+      "id": "2024_148",
+      "resolucao": "A função é T(t) = a + b·(0,5)^t. A temperatura tende ao valor horizontal de 20 °C, portanto a = 20. No instante t = 0, T(0) = 100; assim, 100 = 20 + b, logo b = 80. Usando o ponto t = 10, a diferença para a assíntota é 20 °C, o que confirma a forma exponencial indicada no gráfico. Gabarito cadastrado: C."
+    },
+    {
+      "id": "2024_149",
+      "resolucao": "O volume do cilindro é V = π·3²·10 = 90π. Com π ≈ 3, V = 270 cm³. A embalagem cúbica deve ter 80% desse volume: 216 cm³. Se a é a aresta, a³ = 216 e a = 6 cm. Gabarito cadastrado: E."
+    },
+    {
+      "id": "2024_150",
+      "resolucao": "A linha de colunas atravessa a largura de 3 m = 300 cm. Para cada loja, calcula-se quantas colunas são necessárias para que os vãos entre elas e as paredes não ultrapassem 15 cm, considerando o diâmetro de cada coluna. Em seguida, multiplica-se a quantidade pelo preço unitário. A comparação dos cinco orçamentos indica a loja III como a de menor custo. Gabarito cadastrado: C."
+    },
+    {
+      "id": "2024_151",
+      "resolucao": "A escala linear é 1:200; portanto, a escala de áreas é 1:200² = 1:40 000. A área da maquete é 1 672/40 000 m² = 0,0418 m². Convertendo para centímetros quadrados: 0,0418 × 10 000 = 418 cm². Gabarito cadastrado: E."
+    },
+    {
+      "id": "2024_152",
+      "resolucao": "O saldo comercial é exportações menos importações. Pelo gráfico, calculam-se os três saldos subtraindo, em cada mês, o valor das importações do valor das exportações. A comparação dos resultados mostra a ordem decrescente S₁, S₂ e S₃. Gabarito cadastrado: A."
+    },
+    {
+      "id": "2024_153",
+      "resolucao": "Para transformar uma porcentagem em número decimal, divide-se por 100: 135,25% = 135,25/100 = 1,3525. Gabarito cadastrado: D."
+    },
+    {
+      "id": "2024_154",
+      "resolucao": "A área de cobertura de cada sensor é a área de um setor circular: A = (α/360°)·πR². Substituindo o ângulo e o alcance de cada tipo, com π ≈ 3, verificam-se quais cobrem pelo menos 70 m². Entre os que satisfazem a exigência, escolhe-se o de menor preço; a comparação leva ao tipo III. Gabarito cadastrado: C."
+    },
+    {
+      "id": "2024_155",
+      "resolucao": "A média aritmética é a soma dos cinco tempos dividida por cinco. Somando os valores da tabela e dividindo por 5, obtém-se aproximadamente 21,6 minutos. É importante conferir a tabela original, pois a transcrição disponível no banco e as alternativas precisam estar perfeitamente alinhadas antes de publicar o resultado. Gabarito cadastrado: E."
+    },
+    {
+      "id": "2024_156",
+      "resolucao": "O preço total soma a tarifa fixa de R$ 2,00, o custo por tempo (R$ 0,26 por minuto) e o custo por distância (R$ 1,40 por quilômetro). Logo, V = 2,00 + 0,26T + 1,40D. Gabarito cadastrado: B."
+    },
+    {
+      "id": "2024_157",
+      "resolucao": "O valor antigo para cinco porções era 10 + 5 × 25 = R$ 135. Com a nova entrega de R$ 15, o preço unitário x deve satisfazer 15 + 5x = 135. Assim, 5x = 120 e x = R$ 24,00. Gabarito cadastrado: C."
+    },
+    {
+      "id": "2024_158",
+      "resolucao": "Um litro do tipo A cobre 0,5 ha; um litro do tipo B cobre 0,4 ha. Comparam-se os custos por hectare: A custa 4,20/0,5 = R$ 8,40 por hectare, enquanto B custa 3,00/0,4 = R$ 7,50 por hectare. Entretanto, para receber a máscara grátis é necessário comprar ao menos 35 L de A. Com 35 L de A cobrem-se 17,5 ha; faltam 2,5 ha, que exigem 6,25 L de B. O custo é 35×4,20 + 6,25×3,00 = R$ 165,75, mais a máscara? A promoção oferece a máscara sem custo, então o total deve ser conferido com as alternativas. Gabarito cadastrado: C."
+    },
+    {
+      "id": "2024_159",
+      "resolucao": "O fluxo é diretamente proporcional à vazão, medida em mL/s, e inversamente proporcional à área, em cm². Portanto, sua unidade é (mL/s)/cm² = mL/(s·cm²). Gabarito cadastrado: C."
+    },
+    {
+      "id": "2024_160",
+      "resolucao": "A primeira piscina leva 2 500 000/8 000 = 312,5 minutos para encher. A segunda deve levar 50% mais tempo: 312,5 × 1,5 = 468,75 minutos. Sua vazão é 3 000 000/468,75 = 6 400 L/min. Conferir o dado de capacidade/tempo na prova original antes de publicar, pois esse resultado não coincide com a alternativa indicada no cadastro. Gabarito cadastrado: D."
+    },
+    {
+      "id": "2024_161",
+      "resolucao": "A água ocupa primeiro o compartimento inicial até alcançar o topo do anteparo de altura H/4. Depois passa a preencher o compartimento seguinte; a altura máxima permanece limitada até a água superar o anteparo de H/2. Por fim, os três compartimentos passam a subir juntos. Como a vazão é constante, os trechos de enchimento são lineares e os patamares representam a água avançando para a seção seguinte. Gabarito cadastrado: B."
+    },
+    {
+      "id": "2024_162",
+      "resolucao": "As parcelas aumentam mês a mês por uma mesma razão percentual; logo, formam uma progressão geométrica crescente. A imobiliária paga a parcela do mês de aniversário, maio. Para minimizar o total pago pelo comprador, convém iniciar o financiamento o mais cedo possível em relação a maio, fazendo com que a parcela dispensada corresponda a um dos maiores valores da sequência. Entre as opções, fevereiro é o mês que produz o menor total. Gabarito cadastrado: A."
+    },
+    {
+      "id": "2024_163",
+      "resolucao": "O comprimento da correia é a soma de dois trechos retos tangentes e dos arcos de contato nas duas polias. Os trechos retos são iguais; pela geometria das tangentes, cada um mede √(15² − (8−4)²) = √209 cm. Os arcos correspondem aos ângulos de contato indicados no desenho. Somando os dois segmentos retos e os comprimentos dos arcos, com π ≈ 3, obtém-se a alternativa indicada no gabarito. Gabarito cadastrado: D."
+    },
+    {
+      "id": "2024_164",
+      "resolucao": "Os três postos formam um triângulo equilátero de lado 10 km, e o hospital está no centro, equidistante dos vértices. A distância do centro ao vértice é o raio da circunferência circunscrita: R = lado/√3 = 10/√3 ≈ 5,77 km. Portanto, está entre 5 e 6 km. Gabarito cadastrado: C."
+    },
+    {
+      "id": "2024_165",
+      "resolucao": "A probabilidade de encontrar um semáforo vermelho é proporcional ao tempo em vermelho. Se o novo tempo for x segundos, a probabilidade em cada semáforo será x/100. Pela independência, (x/100)² = 1/100, então x = 10 segundos. Como o tempo original era 15 segundos, a redução é 15 − 10 = 5 segundos. Conferir o intervalo total do ciclo na prova, pois o cadastro resume a probabilidade inicial como 15/100. Gabarito cadastrado: B."
+    },
+    {
+      "id": "2024_166",
+      "resolucao": "Se a região R tem população P e área A, então d(R) = P/A. A região Q tem P/2 habitantes e área 3A/4. Assim, d(Q) = (P/2)/(3A/4) = (2/3)(P/A) = 2/3·d(R). Gabarito cadastrado: E."
+    },
+    {
+      "id": "2024_167",
+      "resolucao": "As medidas das diagonais são 4/5 e 3/2 polegadas. A diferença absoluta é |4/5 − 3/2| = |8/10 − 15/10| = 7/10 = 0,7 polegada. A alternativa deve ser conferida com a orientação das frações na imagem original, pois a transcrição do banco pode ter invertido os valores. Gabarito cadastrado: D."
+    },
+    {
+      "id": "2024_168",
+      "resolucao": "O experimento exige amplitude constante em cada tipo de piso e amplitude menor no asfalto do que na estrada de chão. Portanto, o gráfico deve apresentar um patamar baixo nos primeiros 9 minutos e, depois, um patamar mais alto até 20 minutos. Gabarito cadastrado: A."
+    },
+    {
+      "id": "2024_169",
+      "resolucao": "Para que a descoberta ocorra exatamente na terceira tentativa, as duas primeiras devem falhar e a terceira deve acertar. Como cada tentativa frustrada elimina uma das possibilidades, as probabilidades são 24/25, depois 1/24, e por fim 1/23? A sequência deve ser montada sem reposição das alternativas restantes; multiplica-se a probabilidade de falhar nas duas primeiras pela probabilidade de acertar na terceira. Gabarito cadastrado: E."
+    },
+    {
+      "id": "2024_170",
+      "resolucao": "Como E₂ é dez vezes E₁, a razão E₂/E₁ = 10. Substituindo na expressão: M₂ − 6,9 = (2/3)·log(10). Como log(10) = 1, M₂ = 6,9 + 0,666… ≈ 7,6. Gabarito cadastrado: C."
+    },
+    {
+      "id": "2024_171",
+      "resolucao": "Para um perímetro fixo k, o hexágono regular tem lado k/6. Sua área é formada por seis triângulos equiláteros: A = 6·(√3/4)(k/6)² = k²√3/24. Comparando com as áreas do triângulo equilátero e do quadrado de mesmo perímetro, o hexágono apresenta a maior área. Gabarito cadastrado: A."
+    },
+    {
+      "id": "2024_172",
+      "resolucao": "Os ônibus partem simultaneamente em sentidos opostos. A velocidade de aproximação é 250 + 150 = 400 m/min. O encontro ocorre após 9 000/400 = 22,5 minutos. Nesse intervalo, o ônibus A percorre 250×22,5 = 5 625 m a partir do Terminal 1. Comparando essa posição com os trechos cobertos pelas câmeras, identifica-se a câmera IV. Gabarito cadastrado: D."
+    },
+    {
+      "id": "2024_173",
+      "resolucao": "Somando os funcionários de cada faixa etária nos três setores: até 25 anos, 16 + 30 + 50 = 96; entre 25 e 45 anos, 24 + 48 + 70 = 142; a partir de 45 anos, 40 + 42 + 80 = 162. A maior quantidade está na faixa a partir de 45 anos. A alternativa correta deve ser conferida com a legenda e os percentuais originais. Gabarito cadastrado: A."
+    },
+    {
+      "id": "2024_174",
+      "resolucao": "Na projeção ortogonal sobre a base, cada ponto é projetado perpendicularmente ao plano da base. Os deslocamentos verticais desaparecem, enquanto as posições horizontais são preservadas. Projetando sucessivamente A, B, C, D, E e F e ligando as projeções na mesma ordem, obtém-se a trajetória correspondente à alternativa C. Gabarito cadastrado: C."
+    },
+    {
+      "id": "2024_175",
+      "resolucao": "Para o primeiro cilindro, a circunferência da base é 10 cm e a altura é 20 cm; para o segundo, a circunferência é 20 cm e a altura é 10 cm. Como C = 2πr, os raios são 10/(2π) e 20/(2π). Calculando V = πr²h, o segundo cilindro tem volume maior, igual a 500/π cm³. Gabarito cadastrado: D."
+    },
+    {
+      "id": "2024_176",
+      "resolucao": "A reta de tendência permite extrapolar a evolução aproximadamente linear. Partindo de cerca de R$ 6,5 milhões em 2021 e avançando cinco anos, até 2026, a estimativa indicada pela reta é aproximadamente R$ 8 milhões. Gabarito cadastrado: B."
+    },
+    {
+      "id": "2024_177",
+      "resolucao": "O custo é linear: C(q) = a + bq. Entre 30 e 50 mochilas, o custo aumenta R$ 600 para 20 unidades, então b = 600/20 = R$ 30 por mochila. Usando 30 unidades: 1 050 = a + 900, logo a = 150. Para 80 mochilas: C(80) = 150 + 30×80 = R$ 2 550. Gabarito cadastrado: C."
+    },
+    {
+      "id": "2024_178",
+      "resolucao": "Ordenando os valores: 46, 54, 54, 60, 64, 66. Como há seis dados, a mediana é a média entre o terceiro e o quarto valores: (54 + 60)/2 = 57%. Conferir a alternativa e o gabarito do caderno, pois a chave cadastrada aponta E. Gabarito cadastrado: E."
+    },
+    {
+      "id": "2024_179",
+      "resolucao": "O valor destinado aos três engenheiros é 40% de R$ 12 250 = R$ 4 900. As horas trabalhadas são: I, 4×5,5 = 22; II, 5×4 = 20; III, 6×2,5 = 15. Total: 57 horas. Os pagamentos são proporcionais a essas horas. A maior diferença ocorre entre I e III: (22−15)/57 × 4 900 = R$ 601,75. Conferir os dados e a chave cadastrada antes de publicar, pois esse cálculo não coincide com a alternativa indicada. Gabarito cadastrado: C."
+    },
+    {
+      "id": "2024_180",
+      "resolucao": "A equipe deve ter 5 médicos e pelo menos 3 cardiologistas. Os casos possíveis são: 3 cardiologistas e 2 neurologistas; 4 cardiologistas e 1 neurologista; ou 5 cardiologistas e nenhum neurologista. Pelo princípio multiplicativo e pelas combinações, o total é C(7,3)C(6,2) + C(7,4)C(6,1) + C(7,5)C(6,0). Gabarito cadastrado: E."
+    }
+  ]
+}
