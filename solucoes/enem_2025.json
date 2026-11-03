@@ -378,7 +378,11 @@
     },
     {
       "id": "2025_106",
-      "resolucao": "O ácido nítrico atual é HNO₃. Na notação antiga apresentada, o nitrogênio era chamado de azoto e representado por Az; portanto, sua fórmula era HAzO³. O cloreto de cálcio é formado por Ca²⁺ e dois íons Cl⁻, sendo representado nessa notação por CaCl². A alternativa que reúne as duas fórmulas é a B. Gabarito: B."
+      "resolucao": "O ácido nítrico atual é HNO₃. Na notação antiga apresentada, o nitrogênio era chamado de azoto e representado por Az; portanto, sua fórmula era HAzO³. O cloreto de cálcio é formado por Ca²⁺ e dois íons Cl⁻, sendo representado nessa notação por CaCl². As duas fórmulas correspondem à alternativa A. Gabarito: A."
+    },
+    {
+      "id": "2025_107",
+      "resolucao": "Na figura, os parentais apresentam fenótipos diferentes: um tem quatro pintas e o outro apresenta a marca alongada. Os indivíduos da primeira geração exibem as duas características simultaneamente, indicando expressão conjunta dos alelos (codominância). No cruzamento entre indivíduos heterozigotos da primeira geração, a proporção fenotípica esperada é 1:2:1: um descendente com o primeiro fenótipo, dois com a expressão conjunta e um com o segundo fenótipo. Essa distribuição corresponde à alternativa E. Gabarito: E."
     },
     {
       "id": "2025_108",
@@ -390,7 +394,7 @@
     },
     {
       "id": "2025_110",
-      "resolucao": "A meia-vida do cobalto-60 é de 5 anos. Em 25 anos, passam-se cinco meias-vidas: 2,00 mg → 1,00 mg → 0,50 mg → 0,25 mg → 0,125 mg → 0,0625 mg. Como 26,5 anos correspondem a um pouco mais de cinco meias-vidas, a massa restante fica próxima de 0,06 mg. Gabarito: E."
+      "resolucao": "A meia-vida do cobalto-60 é de 5,3 anos. O período de 26,5 anos corresponde exatamente a cinco meias-vidas. A cada meia-vida, a massa se reduz à metade: 2,00 → 1,00 → 0,50 → 0,25 → 0,125 → 0,0625 mg. Arredondando, restam aproximadamente 0,06 mg. Gabarito: E."
     },
     {
       "id": "2025_111",
@@ -401,12 +405,16 @@
       "resolucao": "O betacaroteno é precursor da vitamina A. A deficiência dessa vitamina compromete a formação dos pigmentos visuais e pode causar dificuldade de enxergar em ambientes pouco iluminados, quadro conhecido como cegueira noturna. O arroz dourado foi desenvolvido para ajudar a reduzir essa deficiência. Gabarito: D."
     },
     {
+      "id": "2025_113",
+      "resolucao": "O campo elétrico aponta para cima, mas o feixe é formado por elétrons, que têm carga negativa. Pela relação F = qE, a força elétrica tem sentido oposto ao campo: para baixo. Assim, o feixe sofre desvio para baixo enquanto atravessa a região B e atinge o ponto inferior da tela, identificado pelo número 2. Gabarito: B."
+    },
+    {
       "id": "2025_114",
       "resolucao": "A quebra da taça ocorre quando a frequência da onda sonora coincide com uma frequência natural de vibração do cristal. Nessa condição, ocorre ressonância, que amplia a amplitude das oscilações até que a tensão mecânica possa romper o vidro. O fator decisivo é a frequência, não simplesmente a intensidade da voz. Gabarito: B."
     },
     {
       "id": "2025_115",
-      "resolucao": "O borneol é um álcool secundário. Na oxidação de um álcool secundário, o grupo –CHOH– transforma-se em grupo carbonila de cetona, com perda de dois átomos de hidrogênio. A fórmula passa de C₁₀H₁₈O para C₁₀H₁₆O, que corresponde à cânfora. Gabarito: A."
+      "resolucao": "O borneol é um álcool secundário. Na oxidação de um álcool secundário, o grupo –CHOH– transforma-se em grupo carbonila de cetona, com perda de dois átomos de hidrogênio. A fórmula passa de C₁₀H₁₈O para C₁₀H₁₆O, que corresponde à cânfora e aparece na alternativa C do caderno oficial. Gabarito: C."
     },
     {
       "id": "2025_116",
