@@ -1,6 +1,10 @@
 {
   "questoes": [
     {
+      "id": "2010_2",
+      "resolucao": "A modernização técnica do campo — com máquinas, insumos industriais e sistemas de produção integrados — permite cultivar áreas antes pouco utilizadas, inclusive solos de menor fertilidade, mediante correção e tecnologias adequadas. Isso mostra a incorporação do espaço rural ao meio técnico-científico. Gabarito: B."
+    },
+    {
       "id": "2010_3",
       "resolucao": "A modernização da agricultura introduziu máquinas e novas técnicas, reduzindo a necessidade de mão de obra no campo. Sem condições de permanecer no meio rural, parte dos trabalhadores migrou para as cidades, onde passou a enfrentar dificuldades de moradia, emprego e adaptação. O fenômeno retratado é um impacto social da modernização agrícola. Gabarito: A."
     },
@@ -27,6 +31,14 @@
     {
       "id": "2010_12",
       "resolucao": "A instalação de ferrovias, serrarias e projetos de colonização alterou profundamente a economia regional. A exploração madeireira e a ocupação empresarial destruíram recursos dos quais dependiam posseiros e trabalhadores locais, desorganizando formas tradicionais de subsistência e contribuindo para os conflitos do Contestado. Gabarito: C."
+    },
+    {
+      "id": "2010_13",
+      "resolucao": "O Acre foi incorporado ao Brasil após um processo de ocupação por brasileiros ligados à extração da borracha, que entraram em conflito com a Bolívia. A presença crescente desses trabalhadores e a disputa pelo território levaram à negociação que culminou no Tratado de Petrópolis. Gabarito: C."
+    },
+    {
+      "id": "2010_14",
+      "resolucao": "A Estrada de Ferro Carajás conecta áreas de extração mineral no Pará ao porto de exportação no Maranhão. Sua importância estratégica decorre da grande produção de minerais metálicos, especialmente minério de ferro, transportados até o litoral para serem exportados. Gabarito: C."
     }
   ]
 }
