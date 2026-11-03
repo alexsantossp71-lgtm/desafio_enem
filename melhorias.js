@@ -191,8 +191,8 @@ function prepararSelecaoCombinada(){
  const subjectBox=document.getElementById('box-materia');
  const qtyBox=document.getElementById('box-qtd');
  if(!yearBox||!yearGrid||!subjectBox||!qtyBox||document.getElementById('multi-year-selector'))return;
- yearGrid.hidden=true;
- subjectBox.hidden=true;
+ yearGrid.hidden=true;yearGrid.style.display='none';
+ subjectBox.hidden=true;subjectBox.style.display='none';
  const title=yearBox.querySelector('.section-title');
  if(title)title.textContent='1. Escolha um ou mais anos:';
  const selector=document.createElement('div');selector.id='multi-year-selector';
@@ -227,13 +227,16 @@ async function carregarAnosCombinados(){
  const available=new Set(results.flatMap(([,items])=>items.map(q=>q.materia||'geral')));
  const previous=multiSubjectSelected;
  multiSubjectSelected=new Set([...previous].filter(subject=>available.has(subject)));
- if(!multiSubjectSelected.size)multiSubjectSelected=new Set(available);
  subjectBox.replaceChildren();
  const subjects=[...available].sort((a,b)=>(AREA_LABELS[a]||a).localeCompare(AREA_LABELS[b]||b,'pt-BR'));
+ const allSubjectsButton=document.createElement('button');allSubjectsButton.type='button';allSubjectsButton.className='year-btn multi-all-btn multi-subject-all-btn';allSubjectsButton.textContent='Todas';allSubjectsButton.setAttribute('aria-pressed',String(subjects.length>0&&multiSubjectSelected.size===subjects.length));
+ const syncSubjectButtons=()=>{const all=subjects.length>0&&multiSubjectSelected.size===subjects.length;allSubjectsButton.classList.toggle('selected',all);allSubjectsButton.setAttribute('aria-pressed',String(all));subjectBox.querySelectorAll('[data-subject]').forEach(button=>{const active=multiSubjectSelected.has(button.dataset.subject);button.classList.toggle('selected',active);button.setAttribute('aria-pressed',String(active))});atualizarInicioCombinado()};
+ allSubjectsButton.addEventListener('click',()=>{multiSubjectSelected=multiSubjectSelected.size===subjects.length?new Set():new Set(subjects);syncSubjectButtons()});
+ subjectBox.appendChild(allSubjectsButton);
  subjects.forEach(subject=>{
-  const button=document.createElement('button');button.type='button';button.className='year-btn multi-subject-btn';button.textContent=AREA_LABELS[subject]||subject;button.setAttribute('aria-pressed',String(multiSubjectSelected.has(subject)));
+  const button=document.createElement('button');button.type='button';button.className='year-btn multi-subject-btn';button.textContent=AREA_LABELS[subject]||subject;button.dataset.subject=subject;button.setAttribute('aria-pressed',String(multiSubjectSelected.has(subject)));
   if(multiSubjectSelected.has(subject))button.classList.add('selected');
-  button.addEventListener('click',()=>{if(multiSubjectSelected.has(subject))multiSubjectSelected.delete(subject);else multiSubjectSelected.add(subject);const active=multiSubjectSelected.has(subject);button.classList.toggle('selected',active);button.setAttribute('aria-pressed',String(active));atualizarInicioCombinado()});
+  button.addEventListener('click',()=>{if(multiSubjectSelected.has(subject))multiSubjectSelected.delete(subject);else multiSubjectSelected.add(subject);syncSubjectButtons()});
   subjectBox.appendChild(button);
  });
  if(failed.length){const warning=document.createElement('p');warning.className='multi-selection-help';warning.textContent='Não foi possível carregar: '+failed.join(', ')+'.';subjectBox.appendChild(warning)}
