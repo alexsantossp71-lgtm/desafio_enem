@@ -1,0 +1,48 @@
+{
+  "questoes": [
+    {
+      "id": "2009_1",
+      "resolucao": "A vegetação retira gás carbônico da atmosfera durante a fotossíntese e armazena parte desse carbono na matéria orgânica. Ao reduzir o desmatamento, preservam-se as florestas e sua capacidade de atuar como sumidouros de CO₂. Por isso, a alternativa correta é a que propõe conservar a cobertura vegetal. Gabarito: C."
+    },
+    {
+      "id": "2009_3",
+      "resolucao": "Uma vacina deve estimular o sistema imunológico a reconhecer componentes do HIV e desenvolver uma resposta específica, criando proteção contra uma infecção futura. Ela não altera o genoma humano nem impede a entrada do vírus por meio de anticorpos produzidos artificialmente fora do organismo; seu princípio é induzir imunidade. Gabarito: A."
+    },
+    {
+      "id": "2009_4",
+      "resolucao": "As plantas foram obtidas por clonagem, portanto possuem o mesmo material genético. A diferença de iluminação, porém, altera a expressão das características: sem luz, a produção e a manutenção da clorofila são prejudicadas, deixando as folhas amareladas. Assim, os genótipos são iguais, mas os fenótipos diferem. Gabarito: B."
+    },
+    {
+      "id": "2009_5",
+      "resolucao": "A contribuição de Kepler foi formular que as órbitas planetárias são elípticas, substituindo a ideia de órbitas circulares. Trata-se de uma teoria científica construída a partir de observações sistemáticas e relações matemáticas, passível de teste e generalização para outros planetas. Gabarito: E."
+    },
+    {
+      "id": "2009_6",
+      "resolucao": "A queima de combustíveis fósseis transfere para a atmosfera carbono que estava armazenado no subsolo por milhões de anos. Isso aumenta a quantidade de carbono atmosférico, especialmente na forma de dióxido de carbono, intensificando o desequilíbrio do ciclo do carbono. Gabarito: D."
+    },
+    {
+      "id": "2009_7",
+      "resolucao": "A técnica de DNA recombinante permite inserir o gene humano responsável pela produção de insulina em bactérias, que passam a fabricar o hormônio. A produção em maior escala e com mais rapidez amplia a disponibilidade de insulina para o tratamento de pessoas com diabetes. Gabarito: D."
+    },
+    {
+      "id": "2009_8",
+      "resolucao": "A construção de uma barragem alaga áreas antes ocupadas por florestas e outros ambientes terrestres. Com isso, animais perdem seus habitats, podem ser deslocados e têm suas populações e relações ecológicas afetadas. Esse é um impacto ambiental possível mesmo quando a geração hidrelétrica emite menos gases que uma termelétrica. Gabarito: B."
+    },
+    {
+      "id": "2009_9",
+      "resolucao": "Nos períodos glaciais descritos, o clima da região tornou-se mais árido e as florestas pluviais recuaram, enquanto ambientes não florestais se expandiram. Plantas adaptadas à escassez de água, como as que possuem estruturas que reduzem a transpiração, tendem a ocupar áreas maiores nessas condições. Gabarito: D."
+    },
+    {
+      "id": "2009_10",
+      "resolucao": "A fotossíntese transforma energia luminosa em energia química armazenada em moléculas orgânicas. Essa energia sustenta as cadeias alimentares e, direta ou indiretamente, também está na origem dos combustíveis fósseis. Portanto, a vida terrestre depende, em última análise, da energia proveniente do Sol. Gabarito: C."
+    },
+    {
+      "id": "2009_11",
+      "resolucao": "A regulação da temperatura corporal é coordenada pelo sistema nervoso, especialmente por centros do hipotálamo. Em situações de calor, ele estimula a sudorese; a evaporação do suor retira energia térmica da pele e ajuda a resfriar o corpo. Gabarito: C."
+    },
+    {
+      "id": "2009_13",
+      "resolucao": "A construção de rodovias pode favorecer a integração de comunidades, mas também fragmentar habitats e afetar ecossistemas. Para conciliar desenvolvimento e conservação, a obra deve ser justificada por sua necessidade e precedida de estudos de impacto, que indiquem medidas para evitar, reduzir ou compensar os danos ambientais. Gabarito: D."
+    }
+  ]
+}
