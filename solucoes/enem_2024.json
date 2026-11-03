@@ -1,6 +1,522 @@
 {
   "questoes": [
     {
+      "id": "2024_6",
+      "resolucao": "As duas iniciativas registram e divulgam expressões próprias do falar amazonense: o livro documenta o vocabulário e as camisetas o transformam em expressão cultural. O ponto comum é valorizar o repertório linguístico do povo do Amazonas. Gabarito: E."
+    },
+    {
+      "id": "2024_7",
+      "resolucao": "As minibiografias apresentam Jane Karla, Elizabeth Gomes e Silvana Fernandes, destacando mudanças de modalidade, conquistas e marcos de suas carreiras. O propósito é mostrar a trajetória profissional de atletas paralímpicas brasileiras. Gabarito: C."
+    },
+    {
+      "id": "2024_8",
+      "resolucao": "O cavaquinho, o machete e o ukulele têm origens relacionadas, mas assumiram dimensões, formatos e usos próprios ao circular entre Portugal, Brasil e Havaí. Isso evidencia a adaptação dos instrumentos a diferentes culturas, com a formação de novas identidades musicais. Gabarito: B."
+    },
+    {
+      "id": "2024_9",
+      "resolucao": "O texto associa ansiedade e depressão dos atletas à rotina intensa de competições, à cobrança por resultados e à pressão da imprensa. A causa destacada não é a modalidade ou a idade, mas a pressão constante dos eventos e da mídia. Gabarito: E."
+    },
+    {
+      "id": "2024_10",
+      "resolucao": "O autor contrapõe a dispersão das redes sociais à possibilidade de concentração e aprendizado proporcionada pelos podcasts. Os exemplos de assuntos aprendidos durante tarefas cotidianas mostram que o formato divulga conhecimento aos ouvintes. Gabarito: C."
+    },
+    {
+      "id": "2024_11",
+      "resolucao": "Bechara comenta lexicologia, estrangeirismos e mecanismos da língua com vocabulário próprio da filologia e da gramática. Essas escolhas caracterizam uma variedade ocupacional, ligada à área de atuação do falante. Gabarito: E."
+    },
+    {
+      "id": "2024_12",
+      "resolucao": "A língua da Tabatinga deixou de ser vista apenas como código marginal e passou a ser reconhecida como herança afro-brasileira. O sentimento de pertencimento e identidade linguística motiva seus falantes a preservá-la e transmiti-la. Gabarito: D."
+    },
+    {
+      "id": "2024_13",
+      "resolucao": "O texto reúne dados de pesquisas e informações sobre faltas escolares e dificuldades causadas pela pobreza menstrual. Sua função referencial é informar o leitor sobre os impactos desse problema na vida das mulheres. Gabarito: D."
+    },
+    {
+      "id": "2024_14",
+      "resolucao": "O episódio dos nomes diferentes para tipos de pão mostra que as variedades regionais podem divergir sem impedir a comunicação. Elas compõem a diversidade interna do português brasileiro. Gabarito: C."
+    },
+    {
+      "id": "2024_15",
+      "resolucao": "A telemedicina reduz barreiras geográficas e permite que pessoas de regiões remotas ou sem especialistas próximos recebam atendimento. O benefício social destacado é ampliar o acesso de pacientes dessas áreas aos serviços médicos. Gabarito: B."
+    },
+    {
+      "id": "2024_16",
+      "resolucao": "Os artistas citados têm origens e experiências pessoais diferentes, mas dialogam com referências estéticas e religiosas afro-brasileiras. A produção resulta da relação complexa entre vivências individuais e matrizes culturais africanas. Gabarito: D."
+    },
+    {
+      "id": "2024_17",
+      "resolucao": "A comparação do alcance da mesma influenciadora ao publicar imagens de modelos brancas evidencia uma diferença de engajamento associada à raça. O aumento estatístico funciona como evidência do viés racial nas plataformas. Gabarito: E."
+    },
+    {
+      "id": "2024_18",
+      "resolucao": "O texto relaciona a manutenção da atividade física durante a pandemia à renda e às condições de moradia. Assim, mostra que a saúde depende também de determinantes socioeconômicos, e não apenas de escolhas individuais. Gabarito: D."
+    },
+    {
+      "id": "2024_19",
+      "resolucao": "A narradora compara sua vida confortável à rotina de Sancha, mulher negra submetida a trabalho exaustivo, sem remuneração e em condições degradantes. O contraste denuncia a exploração da força de trabalho da população negra no pós-abolição. Gabarito: D."
+    },
+    {
+      "id": "2024_20",
+      "resolucao": "A crônica retoma continuamente a palavra “coisa” e formas derivadas, explorando seus usos e sentidos em diferentes situações. Essa repetição mantém o foco temático e constitui um processo de reiteração. Gabarito: C."
+    },
+    {
+      "id": "2024_21",
+      "resolucao": "O texto explica que os adornos indígenas comunicam linhagem, prestígio, direitos e papéis sociais. Portanto, a arte plumária não pode ser separada das funções ritualísticas e da posição dos indivíduos na comunidade. Gabarito: E."
+    },
+    {
+      "id": "2024_22",
+      "resolucao": "A letra transforma a palavra em instrumento de enfrentamento: “minha palavra vale um tiro” associa a escrita e o discurso à luta contra a violência estrutural. É um procedimento metalinguístico que apresenta a palavra como forma de combate e insubordinação. Gabarito: C."
+    },
+    {
+      "id": "2024_23",
+      "resolucao": "A resenha elogia a série, mas introduz ressalvas com conectivos e expressões adversativas, como “mas” e “continua sendo uma pena”. Esses marcadores permitem apontar defeitos sem apagar a avaliação positiva. Gabarito: B."
+    },
+    {
+      "id": "2024_24",
+      "resolucao": "O diálogo contrapõe a linguagem rebuscada defendida por Gondim à fala cotidiana que o narrador considera legítima para a literatura. O debate põe em oposição o preciosismo linguístico e a coloquialidade. Gabarito: D."
+    },
+    {
+      "id": "2024_25",
+      "resolucao": "A pintura retrata uma cena cotidiana e, sobretudo, trabalha os efeitos passageiros de luz, cor e movimento no jardim e nas figuras. Essas características são próprias da estética impressionista. Gabarito: C."
+    },
+    {
+      "id": "2024_26",
+      "resolucao": "Embora a participação feminina nas lutas tenha crescido, o ambiente escolar ainda associa essa prática ao universo masculino. Essa visão de masculinização da modalidade afasta meninas das aulas de Educação Física. Gabarito: B."
+    },
+    {
+      "id": "2024_27",
+      "resolucao": "A autora demonstra empatia ao reconhecer diretamente que a experiência de ser jovem atualmente é difícil. A frase “Sinto que é mais complicado ser jovem hoje” explicita que ela compreende as pressões enfrentadas por seu público. Gabarito: C."
+    },
+    {
+      "id": "2024_28",
+      "resolucao": "O autor primeiro expõe sua leitura crítica de Dom Casmurro e a ausência de voz de Capitu; depois explica que decidiu escrever uma versão em que ela assume a própria narrativa. Assim, contextualiza subjetivamente o enredo e revela o foco narrativo que adotará. Gabarito: E."
+    },
+    {
+      "id": "2024_29",
+      "resolucao": "O narrador percebe que a expressão técnica “filho adotivo” parece produzir uma aceitação social condicionada, como se o termo carregasse estigmas sobre a parentalidade. A reflexão questiona representações sociais preconceituosas associadas à adoção. Gabarito: A."
+    },
+    {
+      "id": "2024_30",
+      "resolucao": "Graciliano Ramos e Antônio Prata apresentam a arte como algo que revela contradições e aspectos incômodos da realidade, em vez de apenas confirmar certezas agradáveis. Ambos defendem seu caráter desestabilizador. Gabarito: D."
+    },
+    {
+      "id": "2024_31",
+      "resolucao": "Flora imagina a vida da princesa imperial como contemplativa, sem perceber a crise política que ameaça a monarquia. O narrador ironiza a alienação da elite diante do fim do regime imperial. Gabarito: B."
+    },
+    {
+      "id": "2024_32",
+      "resolucao": "Apesar das limitações físicas, a narradora percebe o carinho de Marília nos pequenos gestos cotidianos. A sensibilidade do trecho está no afeto construído e fortalecido pelo convívio ao longo dos anos. Gabarito: B."
+    },
+    {
+      "id": "2024_33",
+      "resolucao": "A frase “Vou deixar que você se vá” acompanha a imagem de uma pessoa usando um casaco que pode ser doado. A despedida da roupa representa o desapego necessário para que outra pessoa aproveite o item. Gabarito: D."
+    },
+    {
+      "id": "2024_34",
+      "resolucao": "O aplicativo permite registrar por escrito línguas indígenas que não dispõem de representação gráfica adequada nos teclados comuns. Com isso, democratiza o registro escrito das línguas dos povos originários e favorece sua preservação. Gabarito: B."
+    },
+    {
+      "id": "2024_35",
+      "resolucao": "A personagem denuncia que o marido foi tratado como mercadoria e comprado por uma mulher rica. O trecho evidencia a interferência do dinheiro e da posição econômica na relação amorosa. Gabarito: D."
+    },
+    {
+      "id": "2024_36",
+      "resolucao": "As duas esculturas apresentam rostos alongados e simplificados, apesar da distância temporal e cultural entre elas. A comparação evidencia a permanência de certos padrões estéticos em diferentes épocas e culturas. Gabarito: D."
+    },
+    {
+      "id": "2024_37",
+      "resolucao": "O texto combina versos e expressões reconhecíveis de várias canções para sustentar a defesa da música como fonte de ânimo. Esse diálogo explícito com outras obras caracteriza a intertextualidade. Gabarito: C."
+    },
+    {
+      "id": "2024_38",
+      "resolucao": "As pessoas se deslocam com malas e pertences, mas o poema sugere que não conseguem chegar a um lugar onde estejam em paz consigo mesmas. O movimento simboliza uma tentativa de fugir da própria identidade. Gabarito: B."
+    },
+    {
+      "id": "2024_39",
+      "resolucao": "O “falar errado” de Adoniran Barbosa corresponde a formas populares que se afastam da norma-padrão. O texto questiona o preconceito que toma essa variedade linguística como erro, embora ela seja uma escolha artística deliberada. Gabarito: E."
+    },
+    {
+      "id": "2024_40",
+      "resolucao": "O festival de Parintins incorpora rivalidade entre torcidas, competitividade, gritos de guerra e identificação com cores, aproximando a manifestação folclórica de elementos característicos do esporte. Gabarito: D."
+    },
+    {
+      "id": "2024_41",
+      "resolucao": "Ao listar fatores genéticos, hormonais e sinais físicos, a reportagem orienta o leitor a reconhecer manifestações que podem indicar câncer de mama masculino. O alerta principal é sobre os sinais da doença. Gabarito: A."
+    },
+    {
+      "id": "2024_42",
+      "resolucao": "Embora o texto mencione interlocutor, ingredientes e preparo de uma receita, sua construção em versos e o uso expressivo da linguagem o caracterizam como poema. Gabarito: D."
+    },
+    {
+      "id": "2024_43",
+      "resolucao": "A fotografia registra por acaso, ao longo de oito anos, os trajetos aparentes do Sol. O resultado artístico não foi inteiramente planejado: evidencia que a produção artística também pode surgir do acaso. Gabarito: E."
+    },
+    {
+      "id": "2024_44",
+      "resolucao": "A inclusão de skate, surfe e break dance mostra que o programa olímpico acompanha práticas culturais e formas de lazer das novas gerações. O esporte adapta-se às demandas e aos hábitos de seu tempo. Gabarito: E."
+    },
+    {
+      "id": "2024_45",
+      "resolucao": "A reportagem defende a leitura crítica de memes e conteúdos compartilhados, destacando o risco de imagens manipuladas e notícias falsas circularem como se fossem verdade. A crítica dirige-se à divulgação de informação manipulada em postagens virtuais. Gabarito: B."
+    },
+    {
+      "id": "2024_46",
+      "resolucao": "Chile está próximo a uma zona de subducção da placa de Nazca, responsável por intensa atividade sísmica. Os tremores no interior do Brasil ocorrem em contexto tectônico diferente, pois as cidades estão afastadas desse limite de placas. Gabarito: C."
+    },
+    {
+      "id": "2024_47",
+      "resolucao": "O texto compara a organização dos serviços de saúde a um exército e afirma que profissionais graduados precisam ser apoiados por auxiliares preparados. Essa visão estabelece uma hierarquia entre funções e níveis profissionais. Gabarito: E."
+    },
+    {
+      "id": "2024_48",
+      "resolucao": "A lama da barragem destruiu lugares de moradia e obrigou famílias a abandonar espaços carregados de lembranças e relações. O desastre rompeu a ligação afetiva entre as pessoas e seu espaço vivido. Gabarito: C."
+    },
+    {
+      "id": "2024_49",
+      "resolucao": "A chegada de eletricidade, telefone, cinema e novos meios de transporte foi associada ao ideal de modernização do país após a Proclamação da República. Esses inventos foram incorporados a uma visão republicana de nação moderna. Gabarito: E."
+    },
+    {
+      "id": "2024_50",
+      "resolucao": "Las Casas denunciava a violência dos colonizadores contra os povos indígenas e defendia os explorados. Por isso, era odiado pelos colonizadores e respeitado pelos povos que procurava proteger. Gabarito: B."
+    },
+    {
+      "id": "2024_51",
+      "resolucao": "A valsa foi rejeitada por setores aristocráticos por sua associação com danças campestres e folclóricas, consideradas populares. O preconceito decorria de sua origem em segmentos sociais populares. Gabarito: E."
+    },
+    {
+      "id": "2024_52",
+      "resolucao": "O texto reivindica que o movimento Black Lives Matter inclua pessoas negras com diferentes identidades de gênero, orientações, condições e trajetórias. A reivindicação é integrar a diversidade existente dentro do próprio grupo identitário. Gabarito: B."
+    },
+    {
+      "id": "2024_53",
+      "resolucao": "Inundações bruscas apresentam grande velocidade e curta duração, enquanto as graduais avançam lentamente. Essa diferença depende principalmente da declividade do relevo: encostas mais inclinadas aceleram o escoamento. Gabarito: C."
+    },
+    {
+      "id": "2024_54",
+      "resolucao": "O preconceito de identidade faz com que o testemunho de alguém receba menos credibilidade por sua raça ou gênero. Como afeta quem é reconhecido como produtor de conhecimento e quais falas são consideradas confiáveis, trata-se de injustiça epistêmica. Gabarito: D."
+    },
+    {
+      "id": "2024_55",
+      "resolucao": "O texto separa a alma do corpo e atribui a ela permanência e superioridade em relação à matéria corporal. Essa oposição é característica do pensamento metafísico dualista. Gabarito: B."
+    },
+    {
+      "id": "2024_56",
+      "resolucao": "O rito descrito marca a passagem e a memória dos ancestrais dentro de uma comunidade religiosa. Sua realização mantém e transmite uma memória coletiva entre os adeptos. Gabarito: A."
+    },
+    {
+      "id": "2024_57",
+      "resolucao": "O espaço público é apresentado como lugar de debate, exposição de divergências e construção de acordos, sem eliminar os conflitos. Essas funções são fundamentais para a construção da democracia. Gabarito: D."
+    },
+    {
+      "id": "2024_58",
+      "resolucao": "Para Aristóteles, agir virtuosamente exige formar disposições morais e deliberar adequadamente sobre as ações. A prática das virtudes aperfeiçoa as condutas humanas e orienta a vida na pólis. Gabarito: D."
+    },
+    {
+      "id": "2024_59",
+      "resolucao": "As universidades medievais preservaram e transmitiram saberes, ao mesmo tempo que criaram instituições duradouras para o desenvolvimento intelectual. Seu legado combina tradição institucional e conhecimento científico. Gabarito: E."
+    },
+    {
+      "id": "2024_60",
+      "resolucao": "O texto valoriza experiências locais de manejo e produção que respeitam a natureza e fortalecem a vida comunitária. A nova racionalidade produtiva parte de valores e decisões construídos nos próprios territórios. Gabarito: B."
+    },
+    {
+      "id": "2024_61",
+      "resolucao": "A personagem percebe que, mesmo realizando sonhos, não consegue recuperar para sempre aquilo que viveu. A reflexão destaca a finitude humana e a impossibilidade de repetir indefinidamente experiências e momentos. Gabarito: B."
+    },
+    {
+      "id": "2024_62",
+      "resolucao": "Os textos discutem o que pode ou não ter significado e validade no discurso filosófico e científico. A divergência central está no estatuto epistemológico da linguagem e nos critérios para considerar uma proposição significativa. Gabarito: A."
+    },
+    {
+      "id": "2024_63",
+      "resolucao": "A indústria cultural promete singularidade e liberdade, mas produz consumidores padronizados e integrados a uma massa. O conceito é usado para explicar um mecanismo de controle social. Gabarito: B."
+    },
+    {
+      "id": "2024_64",
+      "resolucao": "Os poemas e a atuação intelectual de Castro Alves denunciaram a escravidão e defenderam a liberdade dos escravizados. Sua produção participou diretamente do movimento abolicionista. Gabarito: C."
+    },
+    {
+      "id": "2024_65",
+      "resolucao": "A globalização desloca identidades nacionais fixas e amplia a pluralidade de pertencimentos. Esse processo favorece a visibilidade e o fortalecimento das pautas de grupos minoritários. Gabarito: D."
+    },
+    {
+      "id": "2024_66",
+      "resolucao": "A difusão da pílula anticoncepcional ampliou as possibilidades de controle da fecundidade e colocou o planejamento familiar em debate público, articulando questões demográficas, médicas e sociais. Gabarito: C."
+    },
+    {
+      "id": "2024_67",
+      "resolucao": "Redes digitais aproximam pequenos produtores de mercados maiores e ampliam sua capacidade de comercialização. Isso pode elevar a renda ao valorizar a economia local. Gabarito: A."
+    },
+    {
+      "id": "2024_68",
+      "resolucao": "A floresta contribui para a evapotranspiração e para a formação de umidade que alimenta chuvas convectivas. O avanço do desmatamento reduz esse processo e enfraquece a intensidade das chuvas na região. Gabarito: E."
+    },
+    {
+      "id": "2024_69",
+      "resolucao": "Wollstonecraft critica a educação e as expectativas sociais que reduzem as mulheres à aparência e à sedução. Ela reivindica reconhecimento de suas capacidades e virtudes, isto é, a valorização de seu papel social. Gabarito: C."
+    },
+    {
+      "id": "2024_70",
+      "resolucao": "Portos, ferrovias, armazéns e sistemas de transporte articulam etapas da produção e da circulação. Esses objetos técnicos tornam o território mais apto a intensificar e dinamizar os fluxos de mercadorias e pessoas. Gabarito: E."
+    },
+    {
+      "id": "2024_71",
+      "resolucao": "O compromisso climático descrito decorre da pressão conjunta de organizações internacionais e atores da sociedade civil, que cobram metas mais ambiciosas dos governos. Gabarito: D."
+    },
+    {
+      "id": "2024_72",
+      "resolucao": "A vulnerabilidade de pessoas com deficiência exige relações que reconheçam sua dignidade e reduzam assimetrias de poder. A ética indicada é baseada no cuidado, na proteção e na valorização de cada indivíduo. Gabarito: A."
+    },
+    {
+      "id": "2024_73",
+      "resolucao": "A xilogravura permitiu produzir capas de cordel com imagens feitas localmente, reduzindo a dependência de clichês preparados em outras cidades. A técnica renovou a estética editorial dos folhetos. Gabarito: D."
+    },
+    {
+      "id": "2024_74",
+      "resolucao": "O Círio de Nazaré reúne práticas, saberes, símbolos e celebrações transmitidos entre gerações. Como manifestação cultural coletiva, seu reconhecimento patrimonial se apoia no registro de bens culturais imateriais. Gabarito: B."
+    },
+    {
+      "id": "2024_75",
+      "resolucao": "Os cafés eram mais acessíveis que os salões aristocráticos e permitiam a circulação de ideias entre públicos diferentes. A distinção entre os espaços também segregava grupos de pensadores, mas ampliava a circulação pública das discussões. Gabarito: A."
+    },
+    {
+      "id": "2024_76",
+      "resolucao": "O rizoma é uma estrutura descentralizada, sem hierarquia fixa e com conexões múltiplas. Na cultura contemporânea, isso se aproxima da pluralidade de interações em redes e ambientes digitais. Gabarito: E."
+    },
+    {
+      "id": "2024_77",
+      "resolucao": "As capas apresentam imagens simplificadas e exóticas de paisagens e personagens brasileiros, moldadas para o olhar estrangeiro. Elas evidenciam estereótipos usados para representar a cultura nacional. Gabarito: A."
+    },
+    {
+      "id": "2024_78",
+      "resolucao": "A regra de ouro orienta a tratar os outros como gostaríamos de ser tratados. Ela se aproxima do imperativo categórico kantiano, que exige uma máxima de ação universalizável e respeito às pessoas. Gabarito: B."
+    },
+    {
+      "id": "2024_79",
+      "resolucao": "A fronteira simbólica entre desejáveis e indesejáveis mantém refugiados em situação de exclusão e insegurança. Para superá-la, políticas públicas devem favorecer sua integração socioeconômica. Gabarito: E."
+    },
+    {
+      "id": "2024_80",
+      "resolucao": "Os textos mostram que produções televisivas estrangeiras influenciam roupas, hábitos e referências cotidianas em sociedades diferentes. A aproximação entre os casos é cultural, pela incorporação de costumes da teledramaturgia. Gabarito: A."
+    },
+    {
+      "id": "2024_81",
+      "resolucao": "A Constituição de 1988 reconheceu direitos territoriais e culturais das comunidades quilombolas. Na ação estatal, esse reconhecimento se traduz em políticas de inserção social e garantia de direitos. Gabarito: D."
+    },
+    {
+      "id": "2024_82",
+      "resolucao": "O personagem observa repetidamente situações particulares e, a partir delas, formula uma regra geral sobre o horário da alimentação. Esse raciocínio que parte de casos observados para inferir uma lei geral é indutivo. Gabarito: C."
+    },
+    {
+      "id": "2024_83",
+      "resolucao": "O texto destaca que mapas foram historicamente produzidos para servir aos interesses de grupos dominantes e orientar o controle do território. A cartografia aparece como instrumento de sustentação de hegemonias territoriais. Gabarito: E."
+    },
+    {
+      "id": "2024_84",
+      "resolucao": "Os regatões conectavam comunidades ribeirinhas, indígenas, quilombolas e pequenos produtores por meio do comércio itinerante. Essas trocas formavam redes de sociabilidade no interior amazônico. Gabarito: D."
+    },
+    {
+      "id": "2024_85",
+      "resolucao": "As Madres da Praça de Maio denunciaram o desaparecimento forçado de pessoas durante a ditadura argentina. Sua mobilização expôs internacionalmente a violação dos direitos humanos pelo Estado. Gabarito: A."
+    },
+    {
+      "id": "2024_86",
+      "resolucao": "As imagens mostram a expansão de Dubai sobre o mar, com ilhas artificiais e alteração da linha costeira. Trata-se da artificialização do espaço geográfico por grandes obras de engenharia. Gabarito: D."
+    },
+    {
+      "id": "2024_87",
+      "resolucao": "O texto define a democracia como exercício do poder público pela coletividade dos cidadãos. Seu fundamento é a soberania popular. Gabarito: A."
+    },
+    {
+      "id": "2024_88",
+      "resolucao": "Parques públicos e áreas verdes ampliam a infiltração de água, reduzem ilhas de calor e ajudam a absorver impactos de eventos climáticos. São soluções baseadas na natureza para adaptar as cidades. Gabarito: C."
+    },
+    {
+      "id": "2024_89",
+      "resolucao": "Os cinco membros permanentes do Conselho de Segurança têm poder de veto, enquanto os demais não possuem a mesma prerrogativa. Essa diferença revela assimetria política entre os países-membros. Gabarito: B."
+    },
+    {
+      "id": "2024_90",
+      "resolucao": "O capitalismo depende da iniciativa e da capacidade de trabalho dos indivíduos, embora procure submetê-los a tarefas repetitivas e desumanizadoras. Essa contradição está ligada à alienação produzida pela organização do trabalho. Gabarito: C."
+    },
+    {
+      "id": "2024_91",
+      "resolucao": "A região deformável do automóvel transforma parte da energia cinética em energia interna durante o amassamento. Assim, reduz a energia disponível para a colisão e protege os ocupantes. Gabarito: B."
+    },
+    {
+      "id": "2024_92",
+      "resolucao": "Somam-se as semirreações: a oxidação do acetato libera elétrons e a redução do oxigênio consome esses elétrons. Após cancelar elétrons, prótons e água comuns aos dois lados, obtém-se CH₃COO⁻ + H⁺ + 2 O₂ → 2 CO₂ + 2 H₂O. Gabarito: C."
+    },
+    {
+      "id": "2024_93",
+      "resolucao": "Na definição científica atual, compostos orgânicos são caracterizados pela presença de carbono como elemento estrutural principal. A definição não depende de serem produzidos por seres vivos nem de serem benéficos à saúde. Gabarito: E."
+    },
+    {
+      "id": "2024_94",
+      "resolucao": "Uma base de Brønsted-Lowry captura prótons. Na estrutura da nimesulida, o grupo sulfonamida possui hidrogênio ligado ao nitrogênio que pode ser removido, formando a espécie carregada mais solúvel. Gabarito: A."
+    },
+    {
+      "id": "2024_95",
+      "resolucao": "A transcriptase reversa converte RNA em DNA complementar. Como o RNA mensageiro é produzido a partir de genes que estão sendo utilizados pela célula, a técnica permite detectar genes expressos. Gabarito: A."
+    },
+    {
+      "id": "2024_96",
+      "resolucao": "O centro de massa indicado está deslocado para um lado da roda. Para aproximá-lo do centro geométrico, deve-se adicionar uma massa no lado oposto ao deslocamento, compensando o momento produzido pela distribuição irregular de massa. Gabarito: C."
+    },
+    {
+      "id": "2024_97",
+      "resolucao": "Em 2 L há 2 000 mL; com 1,4 mg de sódio por mL, a solução contém 2 800 mg = 2,8 g de Na. A massa equivalente de NaCl é 2,8 × 58,5/23 ≈ 7,12 g. Como foram usadas duas colheres, cada uma contém cerca de 3,56 g, ou 3,6 g. Gabarito: D."
+    },
+    {
+      "id": "2024_98",
+      "resolucao": "Nos mamíferos placentários, o desenvolvimento embrionário depende menos das reservas do vitelo, pois a nutrição ocorre pela placenta. Essa redução da vesícula vitelínica acompanha a evolução da lactação como forma de nutrição dos filhotes. Gabarito: E."
+    },
+    {
+      "id": "2024_99",
+      "resolucao": "Pelo efeito Doppler, uma fonte que se aproxima é percebida com frequência maior, portanto a sirene soa mais aguda. As ondas de radar refletidas também retornam com frequência maior que a emitida, de modo que fᵣ > f₀. Gabarito: D."
+    },
+    {
+      "id": "2024_100",
+      "resolucao": "O arranjo de dois espelhos côncavos forma uma imagem real, que pode ser projetada no espaço acima da abertura. A geometria indicada no esquema determina uma separação vertical de 3,8 + 3,8 = 7,6 cm entre cada ponto do objeto e sua imagem. Gabarito: C."
+    },
+    {
+      "id": "2024_101",
+      "resolucao": "Para que a fala seja compreendida, deve superar o ruído de 45 dB em 5 dB, chegando a pelo menos 50 dB. Partindo de 60 dB a 1 m, a leitura do gráfico indica que esse limite é atingido aproximadamente a 3 m. Gabarito: A."
+    },
+    {
+      "id": "2024_102",
+      "resolucao": "A fervura eleva a temperatura e desnatura as enzimas responsáveis por converter glicose em amido. O resfriamento rápido interrompe a ação enzimática, preservando parte da glicose e o sabor adocicado. Gabarito: A."
+    },
+    {
+      "id": "2024_103",
+      "resolucao": "A água aquecida nos coletores fica menos densa e sobe espontaneamente até o reservatório, enquanto a água fria desce para o coletor. Esse transporte de energia pelo movimento do fluido é convecção. Gabarito: E."
+    },
+    {
+      "id": "2024_104",
+      "resolucao": "A ausência de saneamento contamina a água e reduz a biodiversidade aquática. Com menos predadores naturais de larvas de mosquitos, aumenta a sobrevivência desses vetores e o risco de transmissão de arboviroses. Gabarito: D."
+    },
+    {
+      "id": "2024_105",
+      "resolucao": "Os pesticidas citados são apolares e lipossolúveis. Por terem afinidade com lipídios, acumulam-se preferencialmente no tecido adiposo dos vertebrados. Gabarito: D."
+    },
+    {
+      "id": "2024_106",
+      "resolucao": "Os componentes densos do computador absorvem ou atenuam intensamente os raios X. Por isso, dificultam a visualização de objetos que estejam atrás ou à frente do equipamento na imagem radiográfica. Gabarito: D."
+    },
+    {
+      "id": "2024_107",
+      "resolucao": "O nitrito reage com o ácido clorídrico, formando ácido nitroso, em meio fortemente ácido. Essa condição ocorre no estômago, onde o processo de formação dos compostos nitrosos pode começar. Gabarito: E."
+    },
+    {
+      "id": "2024_108",
+      "resolucao": "A substituição gradual das espécies vegetais e o aumento da diversidade ao longo do tempo reproduzem a dinâmica de sucessão ecológica, processo natural de mudança na composição de uma comunidade. Gabarito: B."
+    },
+    {
+      "id": "2024_109",
+      "resolucao": "Fibras brancas são rápidas, geram força intensa por pouco tempo e dependem menos do metabolismo aeróbio contínuo. Por isso, favorecem uma prova explosiva e breve, como o salto em altura. Gabarito: B."
+    },
+    {
+      "id": "2024_110",
+      "resolucao": "A falsa-coral apresenta coloração semelhante à de uma serpente peçonhenta. Predadores que evitam o padrão de cores das corais verdadeiras também tendem a evitar a falsa-coral, reduzindo sua predação. Gabarito: D."
+    },
+    {
+      "id": "2024_111",
+      "resolucao": "O exoesqueleto rígido não acompanha o crescimento contínuo do crustáceo. Periodicamente, o animal realiza ecdise: abandona o revestimento antigo e forma outro maior. Gabarito: D."
+    },
+    {
+      "id": "2024_112",
+      "resolucao": "A mãe é portadora (XᴺXᵈ) e o pai é não daltônico (XᴺY). As filhas recebem Xᴺ do pai e podem ser normais ou portadoras; os filhos recebem Y do pai e podem ser normais ou daltônicos. O heredograma que mostra essas possibilidades é o B. Gabarito: B."
+    },
+    {
+      "id": "2024_113",
+      "resolucao": "A nitrificação oxida compostos reduzidos de nitrogênio. No ciclo do carbono, a etapa 5 também envolve oxidação: decompositores transformam carbono orgânico em CO₂. Portanto, ela apresenta transformação redox análoga. Gabarito: E."
+    },
+    {
+      "id": "2024_114",
+      "resolucao": "Na razão ar/combustível 18 há excesso de ar. O oxigênio disponível favorece a combustão mais completa, reduzindo a emissão de CO; o gráfico também mostra CO₂ em nível elevado nessa faixa. Gabarito: C."
+    },
+    {
+      "id": "2024_115",
+      "resolucao": "A citocalasina B interfere na polimerização da actina, componente dos microfilamentos do citoesqueleto. Como os pseudópodes dependem desses filamentos, a droga altera a forma e o movimento da ameba. Gabarito: C."
+    },
+    {
+      "id": "2024_116",
+      "resolucao": "O hidróxido de magnésio é pouco solúvel e aparece como sólido precipitado, enquanto os íons cálcio permanecem dissolvidos. A separação do sólido da fase líquida é feita por filtração. Gabarito: A."
+    },
+    {
+      "id": "2024_117",
+      "resolucao": "O canto dos anuros é um sinal reprodutivo: os machos vocalizam para atrair fêmeas durante o período de acasalamento. Gabarito: E."
+    },
+    {
+      "id": "2024_118",
+      "resolucao": "A desmineralização é favorecida pelo aumento da concentração de H⁺. Entre os cremes apresentados, o pH 6,9 é o mais baixo e, portanto, o mais ácido; corresponde ao creme IV. Gabarito: D."
+    },
+    {
+      "id": "2024_119",
+      "resolucao": "Nas duas bordas longas, o nadador precisa compensar a corrente de 30 m/min. Sua componente efetiva na direção do percurso é √(50²−30²)=40 m/min, levando 20 min em cada trecho de 800 m. Nos lados curtos, as velocidades resultantes são 80 e 20 m/min, com tempos de 5 e 20 min. Total: 20+5+20+20=65 min. Gabarito: B."
+    },
+    {
+      "id": "2024_120",
+      "resolucao": "O HTLV-1 estimula a proliferação de linfócitos T. Essa multiplicação celular descontrolada pode levar ao desenvolvimento de neoplasias, como leucemia/linfoma de células T, isto é, câncer. Gabarito: B."
+    },
+    {
+      "id": "2024_121",
+      "resolucao": "No contato com o chão, a força exercida sobre Calvin combina a força normal vertical com a força de atrito horizontal, que se opõe ao deslizamento. A resultante é oblíqua, no sentido indicado pelo vetor A no caderno oficial. Gabarito: A."
+    },
+    {
+      "id": "2024_122",
+      "resolucao": "O iglu funciona como isolante térmico e mantém seu interior mais aquecido que o ambiente externo. Como a temperatura interna pode ficar acima de 0 °C, a água não congela naturalmente e a geladeira é necessária para produzir gelo. Gabarito: A."
+    },
+    {
+      "id": "2024_123",
+      "resolucao": "Os dois compostos apresentam o grupo carboxila (–COOH), característico dos ácidos carboxílicos. Os demais grupos funcionais não são comuns às duas estruturas. Gabarito: A."
+    },
+    {
+      "id": "2024_124",
+      "resolucao": "No tubo 1, as bactérias se concentram na superfície, onde há oxigênio: são aeróbias estritas. No tubo 2, ficam no fundo e evitam oxigênio: anaeróbias estritas. No tubo 3, distribuem-se por todo o meio, mas crescem mais no topo: anaeróbias facultativas. Gabarito: C."
+    },
+    {
+      "id": "2024_125",
+      "resolucao": "A luz excita elétrons do material dopado, que passam a níveis energéticos mais altos. Ao retornarem a níveis inferiores, liberam energia na forma de luz; esse fenômeno decorre de transições eletrônicas. Gabarito: C."
+    },
+    {
+      "id": "2024_126",
+      "resolucao": "A proteína spike funciona como antígeno: é reconhecida pelo sistema imunológico e estimula a produção de anticorpos específicos. Assim, o organismo pode responder mais rapidamente a uma exposição posterior ao vírus. Gabarito: A."
+    },
+    {
+      "id": "2024_127",
+      "resolucao": "Um cilindro metálico oco em equilíbrio eletrostático produz blindagem: o campo elétrico no interior do condutor é nulo. Por isso, as linhas de campo se desviam e contornam o cilindro, sem atravessar seu interior. Gabarito: E."
+    },
+    {
+      "id": "2024_128",
+      "resolucao": "A interação entre os elétrons do grafeno e os cátions presentes na água da chuva estabelece uma separação de cargas na interface. Essa separação cria uma diferença de potencial que pode ser aproveitada para gerar eletricidade. Gabarito: E."
+    },
+    {
+      "id": "2024_130",
+      "resolucao": "No ciclo de Otto, a mistura aquecida pela combustão se expande na etapa IV (3→4), empurrando o pistão e realizando trabalho mecânico. É nessa expansão adiabática que a energia térmica se converte em energia útil. Gabarito: C."
+    },
+    {
+      "id": "2024_131",
+      "resolucao": "Cada LED precisa de 3,0 V e 1,0 mA. Em cada ramo paralelo, o resistor de 1,5 kΩ recebe os 1,5 V restantes da bateria: I=1,5/1500=0,001 A. Assim, cada LED deve ficar em série com seu próprio resistor, nos dois ramos paralelos, com polaridade correta. Gabarito: B."
+    },
+    {
+      "id": "2024_132",
+      "resolucao": "As lâmpadas especificadas exigem correntes iguais de 1,5 A: P/V é 9/6 para L1 e 18/12 para L2. Em série, precisam de quedas de tensão de 6 V e 12 V, totalizando 18 V. O ponto B do fio resistivo fornece a derivação necessária para obter essa divisão de tensão. Gabarito: B."
+    },
+    {
+      "id": "2024_133",
+      "resolucao": "Dez mol de etanol têm massa 10×46=460 g e volume 460/0,78≈590 mL, ou 0,59 L. Isso equivale a 1 m³ de biogás. Como 70% desse volume é metano, há 700 L de CH₄: 700/22≈31,8 mol, cuja massa é 31,8×16≈509 g. Gabarito: C."
+    },
+    {
+      "id": "2024_134",
+      "resolucao": "O mercúrio é um elemento químico e não pode ser degradado por enzimas. Na fitoextração, as plantas absorvem o metal pelas raízes, acumulam-no na parte aérea e depois são removidas, retirando o contaminante do local. Gabarito: E."
+    },
+    {
+      "id": "2024_135",
+      "resolucao": "A reciclagem corresponde a 0,974×4,0×10⁵≈3,896×10⁵ toneladas de alumínio. Como são necessários 50 kg de bauxita para produzir 10 kg de alumínio, evita-se extrair cinco vezes essa massa: 5×3,896×10⁵≈1,95×10⁶ toneladas, aproximadamente 1,9×10⁶. Gabarito: D."
+    },
+    {
       "id": "2024_136",
       "resolucao": "A ampliação mínima necessária é 0,1/0,007 ≈ 14,29 vezes. A ocular já amplia 10 vezes, então a objetiva precisa ampliar pelo menos 1,429 vez. A lente de 1,4 vez produziria 14 vezes no total, ainda insuficiente; a lente I, de 2 vezes, produz 20 vezes. Gabarito: A."
     },
