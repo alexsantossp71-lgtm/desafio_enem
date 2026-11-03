@@ -505,8 +505,16 @@
       "resolucao": "Dos internautas, 90% acessam redes sociais. Entre esses usuários, 60% são mulheres; logo, 40% são homens. A probabilidade de escolher um internauta que seja homem e acesse redes sociais é 0,90 × 0,40 = 0,36, ou 36%. Gabarito: B."
     },
     {
+      "id": "2025_138",
+      "resolucao": "Cada distância até um plano coordenado corresponde ao módulo de uma das coordenadas do cubo: distância ao plano yz é |x|, ao plano xz é |y| e ao plano xy é |z|. O movimento descrito reduz x em 3 unidades, aumenta y em 5 e reduz z em 4. As três projeções ortogonais devem refletir, em cada plano, as alterações das duas coordenadas que o definem. Comparando esses deslocamentos com as posições iniciais indicadas no desenho, a configuração compatível é a alternativa E. Gabarito: E."
+    },
+    {
       "id": "2025_139",
       "resolucao": "O comprimento da ciclovia é a circunferência de raio 1 km: 2πr ≈ 6 km, usando π = 3. Cada policial protege um trecho de até 200 m para cada lado de sua posição, totalizando 400 m. Para cobrir 6 000 m sem deixar intervalos desprotegidos, são necessários 6 000/400 = 15 policiais. Gabarito: C."
+    },
+    {
+      "id": "2025_140",
+      "resolucao": "No enunciado oficial do Caderno 7 Azul, a substância retirada é S₁, mantendo-se a quantidade inicial de S₂. Inicialmente, S₁ corresponde a 99,95% de 10 L, portanto há 9,995 L de S₁ e 0,005 L de S₂. Após retirar x litros de S₁, a fração de S₂ deve ser 0,10%: 0,005/(10 − x) = 0,001. Daí, 10 − x = 5 e x = 5 L. Atenção: o texto que estava no banco dizia incorretamente que S₂ seria retirada; corrigi esse enunciado no arquivo de questões para coincidir com a prova oficial. Gabarito: E."
     },
     {
       "id": "2025_141",
@@ -589,8 +597,36 @@
       "resolucao": "A função tem a forma D = k + tg[p(T + m)]. Pelo gráfico, a linha média é D = 30, então k = 30. As assíntotas consecutivas estão separadas por 2π, e a função tangente tem período π/p; logo, π/p = 2π, resultando em p = 1/2. O centro do ramo está em T = 2,5, portanto T + m = 0 nesse ponto e m = −2,5. Assim, D = 30 + tg[(1/2)(T − 5/2)]. Gabarito: E."
     },
     {
+      "id": "2025_161",
+      "resolucao": "A casa do amigo está no quarteirão A, na quarta linha e terceira coluna da grade. João sai da extremidade nordeste do quarteirão onde mora, caminha para oeste, vira à direita (norte) e percorre três quarteirões; depois vira à esquerda (oeste) e anda mais dois quarteirões até A. Recuando esse trajeto, o quarteirão de partida fica na última linha e quinta coluna, identificado pela letra P. Gabarito: A."
+    },
+    {
       "id": "2025_162",
       "resolucao": "O custo de produzir uma tonelada com matéria-prima virgem é R$ 10 000, pois R$ 500 corresponde a 5% desse valor. A produção total deve permanecer em 190 toneladas. Se x toneladas forem recicladas, o custo será 10 000(190 − x) + 500x = 1 900 000 − 9 500x. O custo original era 110 × 10 000 + 80 × 500 = R$ 1 140 000; reduzir pelo menos 50% exige custo máximo de R$ 570 000. Portanto, 1 900 000 − 9 500x ≤ 570 000, de onde x ≥ 140. Gabarito: B."
+    },
+    {
+      "id": "2025_163",
+      "resolucao": "No gráfico de setores, o basquete corresponde a 80 estudantes e ocupa um setor de 80° dos 360° do círculo. Como o total é proporcional ao ângulo, N/360 = 80/80, resultando em N = 360 estudantes. Gabarito: B."
+    },
+    {
+      "id": "2025_164",
+      "resolucao": "Como a velocidade do barco é constante, os deslocamentos são proporcionais aos tempos. As duas rotas têm em comum o segundo trecho, de 2 horas na direção 90; por isso, a diferença entre o ponto planejado R e o ponto efetivo T depende apenas da diferença entre os dois primeiros trechos. A composição vetorial desses trechos, nas direções 110° e 340°, resulta em um deslocamento de direção 135°. Usando cos 50° ≈ 0,64, seu comprimento equivale a 7,25 vezes a velocidade do barco; portanto, o tempo é 7,25 h, isto é, 7 horas e 15 minutos. Gabarito: A."
+    },
+    {
+      "id": "2025_165",
+      "resolucao": "O grupo 4 tem média de 25 anos e desvio padrão de apenas 1 ano. Se alguma participante estivesse fora do intervalo de 20 a 30 anos, sua distância em relação à média seria de pelo menos 5 anos. Com 11 participantes, uma única observação a essa distância já produziria desvio padrão superior a 1 ano (mesmo desconsiderando os desvios das demais). Portanto, no grupo 4 todas as idades estão entre 20 e 30 anos, garantindo a maioria exigida. Gabarito: D."
+    },
+    {
+      "id": "2025_166",
+      "resolucao": "O pace desejado é 281 s/km. Em 5 km, o tempo total deve ser 5 × 281 = 1 405 s. Nos quatro primeiros trechos, o corredor gastou 272 + 284 + 288 + 288 = 1 132 s. Assim, o quinto trecho deve durar 1 405 − 1 132 = 273 s. Comparado ao quarto trecho, de 288 s, ele precisa ser 288 − 273 = 15 s menor. Gabarito: E."
+    },
+    {
+      "id": "2025_167",
+      "resolucao": "A viagem tem 240 km, sendo 120 km com cada combustível. Pela leitura dos gráficos a 60 km/h, o rendimento é de 10 km/m³ para GNV e 8 km/L para gasolina. O gasto com GNV é 120/10 = 12 m³, custando 12 × R$ 2 = R$ 24. O gasto com gasolina é 120/8 = 15 L, custando 15 × R$ 3 = R$ 45. A diferença é R$ 45 − R$ 24 = R$ 21. Gabarito: D."
+    },
+    {
+      "id": "2025_168",
+      "resolucao": "Calculando o custo de cada autoescola: I = 20 × 10 + 10 × 80 + 400 = R$ 1 400; II = 20 × 30 + 10 × 50 + 200 = R$ 1 300; III = 20 × 20 + 10 × 40 + 400 = R$ 1 200. O menor custo é o da autoescola III. Gabarito: E."
     },
     {
       "id": "2025_169",
@@ -601,12 +637,36 @@
       "resolucao": "O volume inicial de água é 2,5 × 1,5 × 2 = 7,5 dm³, ou 7,5 L. Para manter pelo menos 5 L disponíveis, as garrafas podem deslocar no máximo 7,5 − 5 = 2,5 L. Cada garrafa desloca 0,3 L; assim, 2,5/0,3 ≈ 8,33. O maior número inteiro de garrafas é 8. Gabarito: B."
     },
     {
+      "id": "2025_171",
+      "resolucao": "A maior torta tem raio de 16 cm, portanto diâmetro de 32 cm. Para manter pelo menos 1 cm de folga de cada lado, a base quadrada da caixa deve ter lado de 32 + 1 + 1 = 34 cm. A caixa original tem lado de 14 cm; o aumento mínimo é 34 − 14 = 20 cm. A altura de 7 cm já atende à torta de 6 cm com 1 cm de folga superior. Gabarito: E."
+    },
+    {
+      "id": "2025_172",
+      "resolucao": "A expressão é P = 4 log[K(t + 1)(19 − t)]. Para t entre 0 e 10, o produto (t + 1)(19 − t) atinge seu máximo em t = 9, valendo 100. Para que a pressão nunca ultrapasse 10 atmosferas, deve-se ter 4 log(100K) ≤ 10, ou log(100K) ≤ 2,5. Logo, 100K ≤ 10²·⁵ e K ≤ 10⁰·⁵. Esse é o maior valor possível. Gabarito: A."
+    },
+    {
+      "id": "2025_173",
+      "resolucao": "No Projeto 1, os túneis são dois semicírculos de raios 6 m e 3 m. Com π ≈ 3, a área total é (1/2) × 3 × 6² + (1/2) × 3 × 3² = 54 + 13,5 = 67,5 m². No Projeto 2, o túnel é um semicírculo de raio 9 m, com área (1/2) × 3 × 9² = 121,5 m². Como 67,5 m² é menor, deve ser escolhido o Projeto 1. Gabarito: A."
+    },
+    {
       "id": "2025_174",
       "resolucao": "Questão anulada oficialmente pelo INEP no Caderno 7 (Azul), 2º dia. Não há alternativa correta a registrar como gabarito definitivo."
     },
     {
+      "id": "2025_175",
+      "resolucao": "O filho mais velho deve receber exatamente um dos dois presentes especiais: bicicleta ou celular. Há 2 escolhas para esse presente e, em seguida, escolhem-se 2 dos outros 6 presentes para completar seu conjunto: C(6,2) = 15. Dos 5 presentes restantes, escolhem-se 3 para o filho mais novo: C(5,3) = 10. Os dois restantes vão para o filho do meio. O total é 2 × 15 × 10 = 300 distribuições. Gabarito: C."
+    },
+    {
       "id": "2025_176",
       "resolucao": "O jogador entrou no início do segundo tempo e atuou por 45 minutos até o fim do tempo regulamentar, percorrendo 4,5 km. Sua velocidade média foi 4,5/0,75 = 6 km/h. Na prorrogação de 30 minutos (0,5 h), percorreu mais 6 × 0,5 = 3 km. A distância total foi 4,5 + 3 = 7,5 km. Gabarito: C."
+    },
+    {
+      "id": "2025_177",
+      "resolucao": "O diâmetro da medalha é 6 cm, então seu raio é 3 cm. A área do círculo é 3,1 × 3² = 27,9 cm². O quadrado vazado tem diagonal 6 cm; sua área é d²/2 = 18 cm². Assim, a área de ouro por medalha é 27,9 − 18 = 9,9 cm². A espessura é 3 mm = 0,3 cm, logo o volume por medalha é 9,9 × 0,3 = 2,97 cm³. Para 100 medalhas, são necessários 297 cm³. Gabarito: B."
+    },
+    {
+      "id": "2025_178",
+      "resolucao": "Artur vence quando o maior resultado dos seus dois dados é superior ao resultado do dado de João; em caso de empate, João vence. Fixado o resultado j de João, a probabilidade de Artur vencer é 1 − (j/6)², pois ambos os dados de Artur precisam mostrar valores menores ou iguais a j para que ele não vença. Fazendo a média para j = 1, 2, ..., 6, obtém-se 1 − (1² + 2² + 3² + 4² + 5² + 6²)/216 = 1 − 91/216 = 125/216. Essa probabilidade é maior que a de João, e corresponde à alternativa E. Gabarito: E."
     },
     {
       "id": "2025_179",
