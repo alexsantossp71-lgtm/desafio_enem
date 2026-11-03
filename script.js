@@ -437,10 +437,14 @@ function avancar(acertou, tempoEsgotado) {
     if (avancando) return;
     avancando = true;
 
+    const questaoAtual = questoesFiltradas[indiceAtual];
+    const marcada = document.querySelector('input[name="resp"]:checked');
     respostasUsuario.push({
         questao: indiceAtual + 1,
         acertou,
-        tempoEsgotado
+        tempoEsgotado,
+        respostaMarcada: marcada ? Number(marcada.value) : null,
+        dadosQuestao: questaoAtual
     });
 
     if (acertou) pontuacao += 1;
@@ -470,32 +474,56 @@ function finalizar() {
 function gerarCardsResultado() {
     let container = document.getElementById('questions-cards');
     if (!container) {
-        container = document.createElement('div');
+        container = document.createElement('section');
         container.id = 'questions-cards';
-        container.className = 'questions-cards';
+        container.className = 'result-analysis';
         const botaoReiniciar = document.getElementById('restart-btn');
         botaoReiniciar.parentNode.insertBefore(container, botaoReiniciar);
     }
-
-    const titulo = document.createElement('h3');
-    titulo.textContent = 'Resultado por questão';
-    titulo.style.cssText = 'text-align:center;margin-bottom:15px;color:#2c3e50;';
-    const grade = document.createElement('div');
-    grade.className = 'cards-wrapper';
-
+    const total = respostasUsuario.length;
+    const acertos = respostasUsuario.filter(item => item.acertou).length;
+    const erros = total - acertos;
+    const percentual = total ? Math.round(acertos / total * 100) : 0;
+    const heading = document.createElement('h2');
+    heading.textContent = 'Análise do seu desempenho';
+    heading.style.cssText = 'margin:26px 0 16px;text-align:left;color:var(--text-color,#243247);';
+    const summary = document.createElement('div');
+    summary.style.cssText = 'display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px;margin-bottom:18px;';
+    [['Acertos',acertos,'#168653'],['Erros',erros,'#d94848'],['Aproveitamento',percentual+'%','#4263eb']].forEach(([label,value,color]) => {
+        const card=document.createElement('article');
+        card.style.cssText='padding:14px;border:1px solid var(--border-color,#e2e8f0);border-radius:12px;background:var(--panel-bg,#fff);text-align:center;';
+        const strong=document.createElement('strong');strong.textContent=value;strong.style.cssText='display:block;font-size:1.55rem;color:'+color+';';
+        const caption=document.createElement('span');caption.textContent=label;caption.style.cssText='font-size:.85rem;color:var(--muted-color,#64748b);';
+        card.append(strong,caption);summary.appendChild(card);
+    });
+    const chart=document.createElement('section');
+    chart.setAttribute('aria-label','Gráfico de acertos e erros');
+    chart.style.cssText='padding:16px;border:1px solid var(--border-color,#e2e8f0);border-radius:12px;margin-bottom:22px;background:var(--panel-bg,#fff);';
+    const chartTitle=document.createElement('h3');chartTitle.textContent='Acertos x erros';chartTitle.style.margin='0 0 12px';
+    const track=document.createElement('div');track.style.cssText='display:flex;height:18px;overflow:hidden;border-radius:20px;background:#e9eef5;';
+    const correctBar=document.createElement('span');correctBar.style.cssText='width:'+percentual+'%;background:#16a36a;';
+    const wrongBar=document.createElement('span');wrongBar.style.cssText='width:'+(100-percentual)+'%;background:#e05252;';
+    track.append(correctBar,wrongBar);
+    const legend=document.createElement('p');legend.textContent=acertos+' corretas ('+percentual+'%) · '+erros+' incorretas ('+(100-percentual)+'%)';legend.style.cssText='font-size:.88rem;color:var(--muted-color,#64748b);margin:10px 0 0;';
+    chart.append(chartTitle,track,legend);
+    const title=document.createElement('h3');title.textContent='Revise suas questões';title.style.cssText='text-align:left;margin:24px 0 8px;';
+    const hint=document.createElement('p');hint.textContent='Toque em qualquer questão para rever o enunciado, sua resposta, o gabarito e a resolução disponível.';hint.style.cssText='font-size:.9rem;color:var(--muted-color,#64748b);margin:0 0 14px;';
+    const grade=document.createElement('div');grade.className='cards-wrapper';grade.style.cssText='display:grid;grid-template-columns:repeat(auto-fit,minmax(52px,1fr));gap:9px;';
     respostasUsuario.forEach(resposta => {
-        const card = document.createElement('div');
-        card.className = `question-card ${resposta.acertou ? 'correct' : 'incorrect'}`;
-        card.textContent = resposta.questao;
-        card.title = resposta.tempoEsgotado
-            ? `Questão ${resposta.questao}: tempo esgotado`
-            : resposta.acertou
-                ? `Questão ${resposta.questao}: correta`
-                : `Questão ${resposta.questao}: incorreta ou não respondida`;
+        const card=document.createElement('button');card.type='button';
+        card.className='question-card '+(resposta.acertou?'correct':'incorrect');
+        card.textContent=resposta.questao;
+        card.setAttribute('aria-label','Abrir revisão da questão '+resposta.questao+(resposta.acertou?', correta':', incorreta'));
+        card.title='Questão '+resposta.questao+(resposta.acertou?': correta':': incorreta ou não respondida')+' — abrir revisão';
+        card.style.cssText='cursor:pointer;min-height:48px;font:inherit;font-weight:700;border:0;';
+        card.addEventListener('click',()=>{
+            if(typeof window.abrirRevisaoDaSessao==='function'&&resposta.dadosQuestao){
+                const q=resposta.dadosQuestao;
+                window.abrirRevisaoDaSessao(q,{id:q.id||('Questão '+resposta.questao),year:q.__ano||anoAtual,subject:q.materia||'Geral',ok:resposta.acertou,respostaMarcada:resposta.respostaMarcada});
+            }
+        });
         grade.appendChild(card);
     });
-
-    container.replaceChildren(titulo, grade);
+    container.replaceChildren(heading,summary,chart,title,hint,grade);
 }
-
 window.addEventListener('pagehide', () => clearInterval(timerInterval));
