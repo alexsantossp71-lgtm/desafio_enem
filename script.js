@@ -14,6 +14,7 @@ let respostasUsuario = [];
 let questoesOriginaisSimulado = [];
 let carregamentoId = 0;
 let avancando = false;
+let modoTempo = 'cronometrado';
 
 const TEMPO_POR_QUESTAO = 180;
 
@@ -32,7 +33,8 @@ const els = {
     progress: document.getElementById('progress'),
     titulo: document.getElementById('prova-titulo'),
     score: document.getElementById('final-score'),
-    feedback: document.getElementById('final-feedback')
+    feedback: document.getElementById('final-feedback'),
+    timerMode: document.getElementById('timer-mode')
 };
 
 const nomesMateria = {
@@ -305,6 +307,7 @@ function atualizarBotaoStart() {
 }
 
 window.irParaQuiz = function () {
+    modoTempo = els.timerMode?.value === 'livre' ? 'livre' : 'cronometrado';
     let lista = materiaAtual === 'all'
         ? [...dadosCompletosAno]
         : dadosCompletosAno.filter(q => q.materia === materiaAtual);
@@ -363,7 +366,13 @@ function carregarQuestao(indice) {
     if (!questao) return finalizar();
 
     let tempoRestante = TEMPO_POR_QUESTAO;
-    atualizarTimer(tempoRestante);
+    if (modoTempo === 'livre') {
+        els.timer.textContent = 'Tempo livre';
+        els.timer.style.backgroundColor = '#2c3e50';
+        els.timer.setAttribute('aria-label', 'Modo de tempo livre, sem contagem regressiva');
+    } else {
+        atualizarTimer(tempoRestante);
+    }
     els.progress.textContent = `Questão ${indice + 1} de ${questoesFiltradas.length}`;
 
     const caixa = document.createElement('div');
@@ -424,14 +433,16 @@ function carregarQuestao(indice) {
     const botaoProximo = document.getElementById('next-btn');
     botaoProximo.textContent = indice === questoesFiltradas.length - 1 ? 'Finalizar simulado' : 'Próxima questão ›';
 
-    timerInterval = setInterval(() => {
-        tempoRestante -= 1;
-        atualizarTimer(tempoRestante);
-        if (tempoRestante <= 0) {
-            clearInterval(timerInterval);
-            avancar(false, true);
-        }
-    }, 1000);
+    if (modoTempo === 'cronometrado') {
+        timerInterval = setInterval(() => {
+            tempoRestante -= 1;
+            atualizarTimer(tempoRestante);
+            if (tempoRestante <= 0) {
+                clearInterval(timerInterval);
+                avancar(false, true);
+            }
+        }, 1000);
+    }
 }
 
 function atualizarTimer(segundos) {
