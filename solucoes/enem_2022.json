@@ -572,7 +572,7 @@
     },
     {
       "id": "2022_119",
-      "resolucao": "Cada pilha fornece 1,5 V, mas uma delas foi invertida. Em série, sua força eletromotriz se opõe às outras duas: a tensão resultante é 1,5 V. A resistência total é 1,5 Ω da lâmpada (4,5²/4,5 = 4,5 Ω? considerando a resistência nominal) somada às resistências internas; a corrente indicada pelo circuito é 0,25 A. Gabarito: A."
+      "resolucao": "Uma pilha invertida se opõe às outras duas. Assim, a força eletromotriz resultante é 1,5 V. A resistência da lâmpada é R = V²/P = 4,5²/4,5 = 4,5 Ω; somando as resistências internas das três pilhas (3 × 0,5 = 1,5 Ω), a resistência total é 6 Ω. Pela lei de Ohm, I = 1,5/6 = 0,25 A. Gabarito: A."
     },
     {
       "id": "2022_120",
