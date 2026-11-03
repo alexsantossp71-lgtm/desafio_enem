@@ -483,6 +483,214 @@
     {
       "id": "2023_127",
       "resolucao": "O cianeto liga-se à citocromo c oxidase e bloqueia a transferência final de elétrons para o oxigênio. Com a cadeia respiratória interrompida, o NADH deixa de ser oxidado adequadamente e tende a se acumular. Gabarito: C."
+    },
+    {
+      "id": "2023_128",
+      "resolucao": "Para ocorrer interferência entre dois sinais de rádio, eles precisam ter a mesma frequência, de modo que suas ondas possam se sobrepor de forma relevante no sistema receptor. Igualdade de potência, intensidade ou velocidade não é condição suficiente. Gabarito: C."
+    },
+    {
+      "id": "2023_129",
+      "resolucao": "O aldrin é apolar e lipossolúvel. Por isso, tende a se dissolver e se acumular em materiais ricos em gordura, como o leite, em vez de permanecer preferencialmente em fluidos aquosos. Gabarito: E."
+    },
+    {
+      "id": "2023_130",
+      "resolucao": "O material do copo combina plástico não biodegradável com casca de café e tem baixa condução térmica, o que evita aquecer a superfície externa. Sua reutilização também reduz o descarte de plástico não biodegradável. Gabarito: D."
+    },
+    {
+      "id": "2023_131",
+      "resolucao": "O refrigerante comum contém grande quantidade de açúcar dissolvido, enquanto o diet utiliza adoçantes em massa muito menor. A maior quantidade de soluto aumenta a massa para um volume semelhante, elevando a densidade do refrigerante comum. Gabarito: A."
+    },
+    {
+      "id": "2023_132",
+      "resolucao": "Como o volume do pneu e a quantidade de gás permanecem constantes, aplica-se a relação entre pressão e temperatura absoluta de um gás ideal: P₁/T₁ = P₂/T₂. Ao esfriar até a temperatura ambiente, a pressão diminui proporcionalmente à temperatura em kelvin. Gabarito: E."
+    },
+    {
+      "id": "2023_133",
+      "resolucao": "Detergentes ramificados são mais resistentes à biodegradação. A substituição por uma cadeia carbônica linear facilita a ação dos microrganismos decompositores, tornando o tensoativo mais biodegradável. Gabarito: E."
+    },
+    {
+      "id": "2023_134",
+      "resolucao": "Os micronúcleos são fragmentos cromossômicos ou cromossomos inteiros que não foram incorporados ao núcleo principal durante a divisão celular. Portanto, sua origem está nos cromossomos. Gabarito: E."
+    },
+    {
+      "id": "2023_135",
+      "resolucao": "O pulso percorre a distância até a interface e retorna, formando um eco. Para a camada líquida de 450 m, o percurso de ida e volta é 900 m; divide-se essa distância pelo intervalo entre os ecos para obter a velocidade do som no líquido, que resulta em 1 500 m/s. Gabarito: D."
+    },
+    {
+      "id": "2023_136",
+      "resolucao": "Pela semelhança de cones, o cone menor tem altura 12 cm, pois seu raio (3 cm) é um terço do raio do cone original (9 cm). O tronco tem altura 24 cm. Subtraindo do volume do cone original o cone retirado e o cilindro perfurado, obtém-se 720π cm³. Multiplicando pela densidade de 0,6 g/cm³ e usando π ≈ 3, a massa é 1 296 g. Gabarito: B."
+    },
+    {
+      "id": "2023_137",
+      "resolucao": "A média salarial deve considerar a quantidade de funcionários em cada setor, e não a média simples dos dois salários. Calcula-se a média ponderada: (75 × 2 000 + 25 × 7 000)/100 = 3 250 reais. Gabarito: C."
+    },
+    {
+      "id": "2023_138",
+      "resolucao": "Na urna B, a probabilidade inicial de preta é 25% e existem 4 pretas; portanto, a urna tem 16 bolas, das quais 12 são brancas. Para que a chance conjunta seja no máximo 1%, é preciso 0,20 × 4/(16 + x) ≤ 0,01. Daí 16 + x ≥ 80, logo x ≥ 64. Devem ser adicionadas 64 bolas brancas. Gabarito: C."
+    },
+    {
+      "id": "2023_139",
+      "resolucao": "A tabela mostra uma tendência mensal para as vendas dos dois produtos. Mantendo-se a variação observada entre abril e junho, projeta-se a quantidade de cada produto nos meses seguintes; o produto I ultrapassa o II em agosto, e a decisão de interromper o II ocorre no mês seguinte, setembro. Gabarito: D."
+    },
+    {
+      "id": "2023_140",
+      "resolucao": "A distribuição do número de viagens é assimétrica à direita: poucos motoristas realizam muitas viagens e puxam a média para cima. A moda fica na classe de maior frequência, a mediana no centro da distribuição e a média é a maior medida, resultando em moda < mediana < média. Gabarito: E."
+    },
+    {
+      "id": "2023_141",
+      "resolucao": "A probabilidade é a razão entre o número de estudantes do terceiro ano e o total de participantes do sorteio. Lendo as quantidades no gráfico, essa razão é 3/8. Gabarito: E."
+    },
+    {
+      "id": "2023_142",
+      "resolucao": "A economia diária por morador deve compensar, ao longo dos dez dias, a diferença entre a água disponível e o consumo previsto. Divide-se o volume total que precisa ser poupado pelo número de moradores e pelos dez dias; o resultado é 50 litros por morador por dia. Gabarito: A."
+    },
+    {
+      "id": "2023_143",
+      "resolucao": "A lista deste ano é 400 × 1,10 = 440 nomes. Para o próximo ano, a meta é reduzir esse número em 25%, isto é, atender 110 crianças a mais do que a capacidade atual. Cada sala comporta 10 crianças; portanto, são necessárias 110/10 = 11 salas novas. Gabarito: B."
+    },
+    {
+      "id": "2023_144",
+      "resolucao": "Como a cisterna é cilíndrica e sua base tem área de 3 m², o volume de água é V = 3h. A vazão constante é a variação do volume dividida pelo intervalo de tempo, isto é, 3 × (variação da altura)/(variação do tempo). Aplicando os dados da tabela, obtém-se 0,9 m³/h. Gabarito: C."
+    },
+    {
+      "id": "2023_145",
+      "resolucao": "Os ângulos AQ₁B e AQₙB são ângulos inscritos que subtendem a mesma corda AB. Pelo teorema dos ângulos inscritos, eles têm a mesma medida quando os pontos correspondentes pertencem ao mesmo arco capaz; a posição que satisfaz essa condição é a alternativa B. Gabarito: B."
+    },
+    {
+      "id": "2023_146",
+      "resolucao": "Os valores nos vértices devem formar uma progressão aritmética de razão 2. Enumerando as distribuições possíveis desses termos nos vértices e somando os três valores de cada lado, encontram-se duas configurações válidas, com as somas indicadas na alternativa E. Gabarito: E."
+    },
+    {
+      "id": "2023_147",
+      "resolucao": "O casal precisa de 30 g por pessoa por dia, ou 60 g por dia. Em 30 dias, são 1 800 g de carboidratos. Cada fatia fornece 15 g, então são necessárias 120 fatias; como cada pacote contém 18 fatias, 120/18 = 6,67, exigindo 7 pacotes. Gabarito: D."
+    },
+    {
+      "id": "2023_148",
+      "resolucao": "O comprimento do cabo é a hipotenusa do triângulo retângulo, então L = h/sen(α). As opções fornecem: I, 11/sen30° = 22 m; II, 12/sen45° = 12√2 ≈ 16,97 m; III, 18/sen60° = 12√3 ≈ 20,78 m. O menor comprimento é o da opção II, indicada na alternativa C. Gabarito: C."
+    },
+    {
+      "id": "2023_149",
+      "resolucao": "A malha mostra a maior altitude como uma medida de 1 cm, correspondente a 5 km na realidade. Convertendo 5 km para 500 000 cm, a escala é 1 cm : 500 000 cm, ou 1:500 000. Gabarito: E."
+    },
+    {
+      "id": "2023_150",
+      "resolucao": "O enunciado informa que, ao fim da primeira hora, a concentração corresponde a 90% da quantidade ingerida. Em forma decimal, 90% = 0,9; portanto, C = 0,9q. Gabarito: A."
+    },
+    {
+      "id": "2023_151",
+      "resolucao": "Em cada um dos nove horários, comparam-se os valores das duas curvas. Contando os instantes em que a curva da criptomoeda A está acima da curva B, obtêm-se quatro ocorrências. Gabarito: B."
+    },
+    {
+      "id": "2023_152",
+      "resolucao": "O nível sonoro é calculado pela expressão logarítmica apresentada, substituindo a intensidade da nova máquina e a intensidade de referência. O resultado fica entre 48 dB e 55 dB, faixa classificada como som moderado; por isso, deve ser adotada a medida preventiva II. Gabarito: B."
+    },
+    {
+      "id": "2023_153",
+      "resolucao": "O tempo total de espera em cada fila é o número de pessoas à frente multiplicado pelo tempo médio de atendimento. Os produtos são: I, 5 × 12 = 60 min; II, 9 × 6 = 54 min; III, 6 × 5 = 30 min; IV, 2 × 15 = 30 min; V, 3 × 9 = 27 min. O menor tempo é no caixa V. Gabarito: E."
+    },
+    {
+      "id": "2023_154",
+      "resolucao": "O centro da lua coincide com o vértice do triângulo equilátero, cujo ângulo interno mede 60°. A região circular encoberta fica delimitada por dois raios e pelo arco entre eles; portanto, é um setor circular. Gabarito: B."
+    },
+    {
+      "id": "2023_155",
+      "resolucao": "A piscina é quadrada e tem área 400 m², logo seu lado mede √400 = 20 m. A calçada de 5 m em cada lado forma um quadrado externo de lado 20 + 10 = 30 m. A área da calçada é 30² − 20² = 900 − 400 = 500 m². Gabarito: D."
+    },
+    {
+      "id": "2023_156",
+      "resolucao": "No gráfico, o celular fica sem sinal nos intervalos em que a intensidade registrada é zero. Somando a duração desses trechos, obtêm-se 6 minutos sem recepção de internet. Gabarito: A."
+    },
+    {
+      "id": "2023_157",
+      "resolucao": "No diagrama de dispersão, selecionam-se os estudantes que estão simultaneamente abaixo de 80 kg e acima de 1,65 m. São 2 estudantes em um grupo de 10; portanto, 2/10 × 100 = 20%. Gabarito: B."
+    },
+    {
+      "id": "2023_158",
+      "resolucao": "Com quatro ajudantes, a pesca diária é de 600 kg: 300 kg com o primeiro e mais 100 kg para cada um dos três seguintes. A receita é R$ 3 000; descontam-se 4% (R$ 120), os pagamentos dos ajudantes (R$ 1 000) e o custo fixo (R$ 900), restando R$ 980. Com três ajudantes, o lucro fica abaixo de R$ 800; logo, o mínimo é quatro. Gabarito: D."
+    },
+    {
+      "id": "2023_159",
+      "resolucao": "A população multiplica por 10 a cada três dias: 100, 1 000, 10 000, 100 000 e 1 000 000 após 12 dias. Os 5 litros são suficientes para exatamente 1 000 000 de larvas, pois cada litro trata 200 000. Assim, o produto deve ser aplicado após 12 dias. Gabarito: D."
+    },
+    {
+      "id": "2023_160",
+      "resolucao": "A chance de acertar uma senha é o inverso do número de senhas possíveis. Pelo princípio multiplicativo: tipo I = 68 × 67 × 66 × 65 = 19 545 240; tipo II = 52 × 51 × 50 × 10 × 6 = 7 956 000; tipo III = 52 × 51 × 10 × 9 × 6 × 5 = 7 160 400. Como N₁ > N₂ > N₃, as probabilidades são p₁ < p₂ < p₃. O tipo I tem a menor probabilidade de ser descoberto. Gabarito: A."
+    },
+    {
+      "id": "2023_161",
+      "resolucao": "Cada parcela é (1 500 × 1,20)/3 = R$ 600. Igualando o preço à vista ao valor presente das parcelas: 1 500 = 600 + 600/(1+i) + 600/(1+i)². Resolvendo a equação do segundo grau, com √28 ≈ 5,29, obtém-se i ≈ 0,215, ou 21,5% ao mês. Gabarito: D."
+    },
+    {
+      "id": "2023_162",
+      "resolucao": "O preço total tem uma parte fixa de R$ 500 e uma parte variável de R$ 250 por metro cúbico. Para x metros cúbicos, soma-se a taxa fixa ao custo variável: y = 500 + 250x. Gabarito: D."
+    },
+    {
+      "id": "2023_163",
+      "resolucao": "A distância até a base varia conforme o vigilante se afasta e se aproxima dela. Cada trecho crescente ou decrescente do gráfico corresponde a um deslocamento radial; os pontos em que a distância zera indicam passagem pela base. Comparando essa sequência de distâncias com as trajetórias em planta, a representação compatível é a alternativa A. Gabarito: A."
+    },
+    {
+      "id": "2023_164",
+      "resolucao": "A categoria mais exposta é aquela que, entre os grupos ainda em imunização, apresenta a menor proporção já vacinada no gráfico. A leitura dos percentuais mostra que esse grupo é o de adultos entre 20 e 29 anos. Gabarito: D."
+    },
+    {
+      "id": "2023_165",
+      "resolucao": "A área a revestir é a soma das faces externas especificadas: os pisos horizontais, os espelhos verticais e as duas paredes laterais. Calculando as áreas retangulares e a área do perfil lateral em degraus com as medidas da figura, o total é 1,95 m². Gabarito: E."
+    },
+    {
+      "id": "2023_166",
+      "resolucao": "Para cada dia, multiplica-se o tempo dedicado a cada atividade pelo gasto calórico por hora e somam-se os resultados. A comparação dos totais da tabela mostra que a maior queima calórica ocorre na quarta-feira. Gabarito: C."
+    },
+    {
+      "id": "2023_167",
+      "resolucao": "A compra anterior corresponde a 6 000/1 200 = 5 folhas por aluno. Para 1 150 alunos, são necessárias 5 750 folhas, ou 58 pacotes de 100. O custo sem desconto é 58 × R$ 4 = R$ 232; para chegar a R$ 220, o desconto é 12/232 × 100 ≈ 5,17%, no intervalo de 5,0% a 5,5%. Gabarito: A."
+    },
+    {
+      "id": "2023_168",
+      "resolucao": "O algarismo das unidades é sorteado entre 10 possibilidades. Para o número 50, depois de sair unidade 0, as dezenas possíveis são 1 a 5: P(50) = 1/10 × 1/5 = 1/50. Para o número 02, com unidade 2, as dezenas possíveis são 0 a 5: P(02) = 1/10 × 1/6 = 1/60. Gabarito: A."
+    },
+    {
+      "id": "2023_169",
+      "resolucao": "O esquema fornece a razão constante de redução da intensidade luminosa a cada metro de profundidade. Para chegar a 6 m, aplica-se essa mesma razão sucessivamente a cada um dos seis intervalos, obtendo o valor indicado na alternativa D. Gabarito: D."
+    },
+    {
+      "id": "2023_170",
+      "resolucao": "A expressão da arrecadação deve ser avaliada para os dias inteiros de 1 a 30. Identifica-se o menor valor diário e compara-se esse mínimo com as faixas de classificação apresentadas; ele se enquadra na categoria “Ruim”. Gabarito: D."
+    },
+    {
+      "id": "2023_171",
+      "resolucao": "Cada ciclo tem 52 anos Haab, e ocorreram 20 ciclos: 20 × 52 = 1 040 anos Haab. Convertendo a duração para anos Tzolkim, mantém-se o total de dias: 1 040 × 365/260 = 1 460 anos Tzolkim. Gabarito: C."
+    },
+    {
+      "id": "2023_172",
+      "resolucao": "A área de um círculo é proporcional ao quadrado de seu diâmetro. Pelo teorema de Pitágoras, se o ângulo oposto ao lado a é reto, as áreas dos círculos satisfazem a igualdade dada. Quando esse ângulo é obtuso, o lado a² supera b² + c²; assim, a área do círculo de diâmetro a é maior que a soma das outras duas. Isso ocorre para 90° < α < 180°. Gabarito: C."
+    },
+    {
+      "id": "2023_173",
+      "resolucao": "O parâmetro é a razão entre consumo de oxigênio (mL por minuto) e massa corporal (kg). Dividindo as unidades, obtém-se mL·min⁻¹·kg⁻¹, isto é, mililitros por minuto por quilograma. Gabarito: B."
+    },
+    {
+      "id": "2023_175",
+      "resolucao": "Sejam b e r os preços unitários dos tíquetes azul e vermelho. Das duas cartelas azuis e uma vermelha: 18b + 9r = 32,40, ou 2b + r = 3,60. A condição informa b − r = r + 0,05, logo b = 2r + 0,05. Substituindo, 5r + 0,10 = 3,60, então r = R$ 0,70. Uma cartela vermelha custa 9 × 0,70 = R$ 6,30. Gabarito: B."
+    },
+    {
+      "id": "2023_176",
+      "resolucao": "Os números pentagonais seguem a fórmula Pₙ = n(3n − 1)/2. Para n = 8: P₈ = 8(24 − 1)/2 = 8 × 23/2 = 92. Gabarito: E."
+    },
+    {
+      "id": "2023_177",
+      "resolucao": "A cadeira começa no ponto mais alto, portanto a altura inicial é máxima. Com a rotação uniforme no sentido horário, a altura diminui continuamente até o ponto mais baixo e depois volta a crescer, repetindo um movimento periódico. O gráfico deve iniciar no máximo e seguir uma curva senoidal decrescente, como na alternativa A. Gabarito: A."
+    },
+    {
+      "id": "2023_178",
+      "resolucao": "O volume acumulado aumenta linearmente enquanto a torneira libera água: de 0 a 3 s e novamente de 8 a 11 s. Durante os 5 s em que a água é interrompida, o volume permanece constante. O gráfico é formado por um trecho crescente, um patamar e outro trecho crescente, correspondente à alternativa B. Gabarito: B."
+    },
+    {
+      "id": "2023_179",
+      "resolucao": "Pelo padrão do quadrinho, “okosa” representa duas unidades e “urapum” representa uma unidade. Assim, cinco é 2 + 2 + 1 (okosa, okosa, urapum) e sete é 2 + 2 + 2 + 1 (três okosa e um urapum). Gabarito: C."
+    },
+    {
+      "id": "2023_180",
+      "resolucao": "Calculam-se as médias dos pares de meses consecutivos: outubro-novembro = 200 mm; novembro-dezembro = 175 mm; dezembro-janeiro = 325 mm; janeiro-fevereiro = 275 mm; fevereiro-março = 150 mm. A maior média ocorre em dezembro e janeiro; portanto, o plantio deve começar em dezembro. Gabarito: C."
     }
   ]
 }
