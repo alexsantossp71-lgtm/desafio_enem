@@ -11,6 +11,7 @@ let anoAtual = null;
 let materiaAtual = 'all';
 let qtdAtual = 10;
 let respostasUsuario = [];
+let questoesOriginaisSimulado = [];
 let carregamentoId = 0;
 let avancando = false;
 
@@ -323,6 +324,7 @@ window.irParaQuiz = function () {
     }
 
     questoesFiltradas = lista;
+    questoesOriginaisSimulado = [...lista];
     indiceAtual = 0;
     pontuacao = 0;
     respostasUsuario = [];
@@ -334,6 +336,22 @@ window.irParaQuiz = function () {
 
     const tituloMateria = materiaAtual === 'all' ? 'Geral' : (nomesMateria[materiaAtual] || materiaAtual);
     els.titulo.textContent = `${anoAtual} | ${tituloMateria}`;
+    carregarQuestao(0);
+};
+
+
+window.repetirSimulado = function () {
+    if (!questoesOriginaisSimulado.length) return;
+    clearInterval(timerInterval);
+    questoesFiltradas = [...questoesOriginaisSimulado];
+    indiceAtual = 0;
+    pontuacao = 0;
+    respostasUsuario = [];
+    avancando = false;
+    window.dispatchEvent(new Event('simulado:repetido'));
+    els.result.style.display = 'none';
+    els.menu.style.display = 'none';
+    els.quiz.style.display = 'block';
     carregarQuestao(0);
 };
 
@@ -503,24 +521,33 @@ function gerarCardsResultado() {
     const visuals=document.createElement('div');visuals.style.cssText='display:grid;grid-template-columns:minmax(100px,140px) minmax(0,1fr);align-items:center;gap:18px;';
     const donut=document.createElement('div');donut.setAttribute('role','img');donut.setAttribute('aria-label',percentual+'% de acertos e '+(100-percentual)+'% de erros');donut.style.cssText='width: min(30vw,124px);height:min(30vw,124px);min-width:100px;min-height:100px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(#16a36a 0% '+percentual+'%,#e05252 '+percentual+'% 100%);';
     const donutCenter=document.createElement('div');donutCenter.style.cssText='width:68%;height:68%;border-radius:50%;background:var(--panel-bg,#fff);display:grid;place-content:center;text-align:center;';
-    const donutValue=document.createElement('strong');donutValue.textContent=percentual+'%';donutValue.style.cssText='font-size:1.2rem;color:var(--text-color,#243247);';
-    const donutLabel=document.createElement('small');donutLabel.textContent='acertos';donutLabel.style.cssText='color:var(--muted-color,#64748b);';
+    const donutValue=document.createElement('strong');donutValue.textContent=percentual+'%';donutValue.style.cssText='font-size:1.35rem;font-weight:800;color:#102a43;';
+    const donutLabel=document.createElement('small');donutLabel.textContent='acertos';donutLabel.style.cssText='color:#334e68;font-weight:700;';
     donutCenter.append(donutValue,donutLabel);donut.appendChild(donutCenter);
     const barWrap=document.createElement('div');
-    const barLabel=document.createElement('strong');barLabel.textContent='Acertos x erros';barLabel.style.cssText='display:block;margin-bottom:10px;';
+    const barLabel=document.createElement('strong');barLabel.textContent='Acertos x erros';barLabel.style.cssText='display:block;margin-bottom:10px;color:#102a43;font-size:1rem;font-weight:800;';
     const track=document.createElement('div');track.style.cssText='display:flex;height:18px;overflow:hidden;border-radius:20px;background:#e9eef5;';
-    const correctBar=document.createElement('span');correctBar.style.cssText='width:'+percentual+'%;background:#16a36a;';
-    const wrongBar=document.createElement('span');wrongBar.style.cssText='width:'+(100-percentual)+'%;background:#e05252;';
+    const correctBar=document.createElement('span');correctBar.style.cssText='width:'+percentual+'%;background:#087443;';
+    const wrongBar=document.createElement('span');wrongBar.style.cssText='width:'+(100-percentual)+'%;background:#b42318;';
     track.append(correctBar,wrongBar);
-    const legend=document.createElement('p');legend.textContent=acertos+' corretas ('+percentual+'%) · '+erros+' incorretas ('+(100-percentual)+'%)';legend.style.cssText='font-size:.88rem;color:var(--muted-color,#64748b);margin:10px 0 0;';
+    const legend=document.createElement('p');legend.textContent=acertos+' corretas ('+percentual+'%) · '+erros+' incorretas ('+(100-percentual)+'%)';legend.style.cssText='font-size:.9rem;line-height:1.5;color:#243b53;font-weight:600;margin:10px 0 0;';
     barWrap.append(barLabel,track,legend);visuals.append(donut,barWrap);chart.append(chartTitle,visuals);
     const title=document.createElement('h3');title.textContent='Revise suas questões';title.style.cssText='text-align:left;margin:24px 0 8px;';
-    const hint=document.createElement('p');hint.textContent='Toque em qualquer questão para rever o enunciado, sua resposta, o gabarito e a resolução disponível.';hint.style.cssText='font-size:.9rem;color:var(--muted-color,#64748b);margin:0 0 14px;';
+    const hint=document.createElement('p');hint.textContent='Clique em uma questão para rever o enunciado, sua resposta, o gabarito e a resolução. Passe o mouse sobre o número para identificar a questão pelo início do enunciado.';hint.style.cssText='font-size:.9rem;color:var(--muted-color,#64748b);margin:0 0 14px;';
     const grade=document.createElement('div');grade.className='cards-wrapper';grade.style.cssText='display:grid;grid-template-columns:repeat(auto-fit,minmax(52px,1fr));gap:9px;';
     respostasUsuario.forEach(resposta => {
         const card=document.createElement('button');card.type='button';
         card.className='question-card '+(resposta.acertou?'correct':'incorrect');
         card.textContent=resposta.questao;
+        const trecho = (() => {
+            const temp = document.createElement('div');
+            temp.innerHTML = typeof sanitizarEnunciado === 'function' ? sanitizarEnunciado(resposta.dadosQuestao?.enunciado || '') : String(resposta.dadosQuestao?.enunciado || '');
+            const texto = (temp.textContent || '').replace(/\\s+/g, ' ').trim();
+            const palavras = texto.split(' ').filter(Boolean);
+            return palavras.slice(0, 24).join(' ') + (palavras.length > 24 ? '…' : '');
+        })();
+        card.title = 'Questão ' + resposta.questao + (trecho ? ': ' + trecho : ': abrir revisão');
+        card.setAttribute('aria-label', card.title);
         card.setAttribute('aria-label','Abrir revisão da questão '+resposta.questao+(resposta.acertou?', correta':', incorreta'));
         card.title='Questão '+resposta.questao+(resposta.acertou?': correta':': incorreta ou não respondida')+' — abrir revisão';
         card.style.cssText='cursor:pointer;min-height:48px;font:inherit;font-weight:700;border:0;';
@@ -532,6 +559,18 @@ function gerarCardsResultado() {
         });
         grade.appendChild(card);
     });
-    container.replaceChildren(heading,summary,chart,title,hint,grade);
+    const actions=document.createElement('div');
+    actions.style.cssText='display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:24px 0 8px;';
+    const repeat=document.createElement('button');
+    repeat.type='button';repeat.id='repeat-simulation-btn';repeat.textContent='↻ Repetir simulado';
+    repeat.style.cssText='background:#087443;color:#fff;border:0;border-radius:10px;padding:13px 20px;font:inherit;font-weight:800;cursor:pointer;min-height:46px;';
+    repeat.addEventListener('click',()=>{if(typeof window.repetirSimulado==='function')window.repetirSimulado()});
+    actions.appendChild(repeat);
+    const restart=document.getElementById('restart-btn');
+    restart.textContent='Novo simulado';
+    restart.style.cssText='background:#24476b;color:#fff;border:0;border-radius:10px;padding:13px 20px;font:inherit;font-weight:800;cursor:pointer;min-height:46px;';
+    actions.appendChild(restart);
+    container.replaceChildren(heading,summary,chart,title,hint,grade,actions);
+
 }
 window.addEventListener('pagehide', () => clearInterval(timerInterval));
