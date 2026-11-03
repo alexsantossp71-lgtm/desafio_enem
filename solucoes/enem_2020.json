@@ -1,6 +1,62 @@
 {
   "questoes": [
     {
+      "id": "2020_5",
+      "resolucao": "A expressão espanhola “entrar con pies de plomo” significa agir com muito cuidado, cautela e prudência. No contexto, as personagens deixam de falar sobre dinheiro e passam a tratar de confidências, isto é, assuntos pessoais e delicados. Portanto, a expressão indica o cuidado necessário para abordar temas íntimos. Alternativa E."
+    },
+    {
+      "id": "2020_6",
+      "resolucao": "O autor não se limita a relatar fatos sobre Pasárgada nem apenas a expressar emoções: ele explica como surgiu a ideia do poema, como tentou escrevê-lo e como finalmente conseguiu realizá-lo. O texto fala do próprio processo de criação literária. Quando a linguagem é usada para comentar a construção da própria obra, predomina a função metalinguística. Alternativa C."
+    },
+    {
+      "id": "2020_8",
+      "resolucao": "O texto explica que, no Slam do Corpo, a poesia é apresentada por meio da voz e do corpo, em português e em Libras. Os gestos, movimentos e expressões corporais tornam a palavra perceptível visualmente e ajudam a construir ritmo e emoção na apresentação. Assim, o corpo funciona como recurso de expressão poética, imprimindo ritmo e visibilidade ao poema. Alternativa A."
+    },
+    {
+      "id": "2020_9",
+      "resolucao": "O texto reúne explicações sobre a origem e os sentidos de expressões populares, como “cabra da peste” e “nhenhe-nhém”. Ao registrar essas expressões, seus significados e suas possíveis raízes históricas e linguísticas, apresenta exemplos do vocabulário que compõe o português falado no Brasil. Trata-se, portanto, de um inventário de expressões do português brasileiro. Alternativa A."
+    },
+    {
+      "id": "2020_10",
+      "resolucao": "As expressões “ouro do século 21”, “elementos do futuro” e “vitaminas da indústria” não são denominações científicas literais. São metáforas que destacam a importância econômica e tecnológica das terras raras, comparando esses metais a algo valioso e indispensável para diversos produtos modernos. As aspas assinalam esse uso figurado para valorizar os elementos apresentados. Alternativa C."
+    },
+    {
+      "id": "2020_11",
+      "resolucao": "A paisagem é descrita por meio de imagens ameaçadoras: nuvens que rolam para o abismo, montanhas ameaçadoras, caminhos comparados a serpentes e árvores que choram. Esses elementos não são apresentados de maneira neutra; eles refletem o medo e a angústia sentidos por Maria. O estado emocional da personagem interfere na forma como a natureza é percebida. Alternativa B."
+    },
+    {
+      "id": "2020_12",
+      "resolucao": "O texto II mostra que Tom Jobim dialogou com referências distintas para compor “Águas de março”: um poema de Olavo Bilac, ligado à tradição literária erudita, e um ponto de macumba, ligado à cultura popular. A canção incorpora e transforma essas referências, aproximando manifestações culturais diferentes. Por isso, a letra estabelece diálogo com tradições diversas da cultura nacional. Alternativa A."
+    },
+    {
+      "id": "2020_13",
+      "resolucao": "O aplicativo descrito permite que pessoas organizem partidas, convidem amigos, confirmem presença e encontrem jogos próximos, inclusive quando estão de passagem por outra cidade. A tecnologia é usada para conectar praticantes e formar grupos em torno de uma atividade esportiva. O foco não é organizar grandes competições, mas facilitar encontros para jogar. Alternativa E."
+    },
+    {
+      "id": "2020_14",
+      "resolucao": "A obra apresentada utiliza um material incomum — o corpo de um animal preservado em uma instalação — e provoca o público a repensar o que pode ser considerado arte. O texto II destaca justamente a diversidade de materiais e formas empregados pelos Jovens Artistas Britânicos, que rompem com a ideia de que a obra deve ser feita apenas de materiais tradicionais. A provocação nasce desse repertório pouco convencional. Alternativa B."
+    },
+    {
+      "id": "2020_15",
+      "resolucao": "O texto compara as trajetórias de Marta e Neymar e destaca que, apesar do reconhecimento esportivo de Marta, a remuneração feminina é muito inferior à masculina no futebol. Isso revela uma desigualdade de gênero: o futebol brasileiro ainda atribui maior valor econômico e visibilidade aos homens, mesmo diante do desempenho das mulheres. Alternativa B."
+    },
+    {
+      "id": "2020_16",
+      "resolucao": "Diante da reclamação dos operários, o engenheiro tenta convencê-los a permanecer na obra. Além de mencionar o compromisso da empresa e a importância de concluir a ponte, ele apela para o orgulho coletivo, afirmando que a companhia nunca esqueceria o trabalho deles. Esse discurso procura associar a dedicação à empresa a um sentimento de honra e pertencimento, aproximando-o de um apelo patriótico. Alternativa E."
+    },
+    {
+      "id": "2020_17",
+      "resolucao": "O texto critica explicações que responsabilizam apenas cada indivíduo por sua condição de saúde. A possibilidade de manter hábitos saudáveis depende também de renda, condições de trabalho, acesso a espaços de lazer e outras estruturas sociais. Como esses recursos são distribuídos de forma desigual, nem todos têm as mesmas oportunidades de escolher um estilo de vida saudável. A questão, portanto, relaciona saúde à organização social. Alternativa D."
+    },
+    {
+      "id": "2020_18",
+      "resolucao": "O poema constrói o retrato de um homem por meio de imagens de muros, sombras, lodo, tensão, isolamento e medo. Embora a descrição pareça apresentar uma figura rígida, quase uma armadura, o verso final revela que por dentro há medo. O olhar lírico ultrapassa a aparência austera e expõe sentimentos de vazio e angústia. Alternativa A."
+    },
+    {
+      "id": "2020_19",
+      "resolucao": "O texto assume a forma de uma petição judicial, com expressões como “processo”, “autos” e “deferimento”, mas usa essa estrutura para defender um músico cujo instrumento é um violão. O contraste entre o tom jurídico e a situação apresentada produz humor e suaviza a acusação: tocar violão na rua é tratado ironicamente como se fosse um crime grave. Alternativa C."
+    },
+    {
       "id": "2020_109",
       "resolucao": "A panela de pressão cozinha os alimentos mais rapidamente porque o aumento da pressão interna eleva a temperatura de ebulição da água. Quando a panela atinge a pressão de funcionamento, o vapor excedente passa a sair pela válvula reguladora. A partir daí, uma chama muito alta não aumenta de forma relevante a temperatura de cozimento: ela apenas fornece mais energia e provoca a liberação de mais vapor. Por isso, deve-se reduzir o fogo até o mínimo necessário para manter a pressão de funcionamento. Assim, evita-se o consumo desnecessário de gás. Portanto, a alternativa correta é E."
     }
