@@ -9,7 +9,7 @@ function panel(){
  const menu=document.getElementById('menu-screen');if(!menu||document.getElementById('dashboard'))return;
  const p=document.createElement('section');p.id='dashboard';p.className='dashboard';
  p.innerHTML='<div class="dashboard-heading"><div><span class="eyebrow">SEU ESPAÇO DE ESTUDOS</span><h2>Vamos evoluir hoje?</h2><p class="muted">Acompanhe seu ritmo e continue de onde parou.</p></div><button id="theme-toggle" class="theme-toggle" type="button">🌙 Modo escuro</button></div>'+
- '<div class="stats-grid"><article class="stat-card"><span>Questões respondidas</span><strong id="stat-total">0</strong><small>no seu histórico</small></article><article class="stat-card"><span>Taxa de acertos</span><strong id="stat-rate">0%</strong><small>aproveitamento geral</small></article><article class="stat-card"><span>Simulados concluídos</span><strong id="stat-sessions">0</strong><small>sessões finalizadas</small></article></div>'+
+ '<div class="stats-grid chart-stats"><article class="stat-card chart-card"><div class="chart-heading"><span>Questões respondidas</span><strong id="stat-total">0</strong></div><small>Últimos 7 dias</small><div id="chart-questions" class="weekly-chart" role="img" aria-label="Questões respondidas nos últimos sete dias"></div></article><article class="stat-card chart-card"><div class="chart-heading"><span>Taxa de acertos</span><strong id="stat-rate">0%</strong></div><small>Por área de conhecimento</small><div id="chart-accuracy" class="pie-chart-wrap"></div></article><article class="stat-card chart-card"><div class="chart-heading"><span>Simulados concluídos</span><strong id="stat-sessions">0</strong></div><small>Últimos 7 dias</small><div id="chart-sessions" class="weekly-chart" role="img" aria-label="Simulados concluídos nos últimos sete dias"></div></article></div>'+
  '<div class="dashboard-columns"><section class="panel-card"><div class="panel-title"><div><span class="eyebrow">POR ÁREA</span><h3>Matérias</h3></div><span class="panel-icon">▦</span></div><div id="subject-cards" class="subject-cards"><p class="muted">Selecione um ano para ver as matérias disponíveis.</p></div></section>'+
  '<section class="panel-card"><div class="panel-title"><div><span class="eyebrow">CONSTÂNCIA</span><h3>Meta de estudos</h3></div><span class="panel-icon">◎</span></div><p class="muted">Defina quantas questões deseja responder.</p><div class="goal-row"><input id="goal-input" type="number" min="1" max="500" aria-label="Meta de questões"><button id="goal-save" class="small-primary" type="button">Salvar meta</button></div><div class="goal-track"><span id="goal-progress"></span></div><p id="goal-caption" class="muted"></p><div id="achievements" class="achievements"></div></section></div>'+
  '<section class="panel-card history-panel"><div class="panel-title"><div><span class="eyebrow">SEU PROGRESSO</span><h3>Histórico de questões</h3></div><span class="muted">Salvo neste dispositivo</span></div><div id="history-list" class="history-list"></div></section>';
@@ -97,10 +97,53 @@ function mostrarRevisao(q,registro,solucao=null){
  const esc=e=>{if(e.key==='Escape'){overlay.remove();document.removeEventListener('keydown',esc)}};document.addEventListener('keydown',esc);close.focus();
 }
 
+const AREA_LABELS={'ciencias-humanas':'Ciências Humanas','ciencias-natureza':'Ciências da Natureza',linguagens:'Linguagens',matematica:'Matemática',geral:'Geral'};
+const CHART_COLORS=['#4263eb','#12a594','#f59f00','#e64980','#7950f2','#0c8599'];
+function localDateKey(value){
+ const d=new Date(value);if(Number.isNaN(d.getTime()))return '';
+ return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+}
+function lastSevenDays(){
+ const today=new Date();today.setHours(0,0,0,0);
+ return Array.from({length:7},(_,i)=>{const d=new Date(today);d.setDate(today.getDate()-6+i);return {key:localDateKey(d),label:d.toLocaleDateString('pt-BR',{weekday:'short'}).replace('.',''),date:d}});
+}
+function renderWeeklyChart(id,records,dateField,emptyText){
+ const box=document.getElementById(id);if(!box)return;box.replaceChildren();
+ const days=lastSevenDays(),counts=days.map(day=>records.filter(item=>localDateKey(item[dateField])===day.key).length);
+ const max=Math.max(1,...counts);
+ if(!records.length){const empty=document.createElement('p');empty.className='chart-empty';empty.textContent=emptyText;box.appendChild(empty);return}
+ const bars=document.createElement('div');bars.className='bar-chart';
+ days.forEach((day,i)=>{
+  const col=document.createElement('div');col.className='bar-column';
+  const value=document.createElement('b');value.className='bar-value';value.textContent=counts[i];
+  const track=document.createElement('div');track.className='bar-track';
+  const fill=document.createElement('span');fill.className='bar-fill';fill.style.height=(counts[i]?Math.max(7,counts[i]/max*100):0)+'%';fill.setAttribute('aria-hidden','true');track.appendChild(fill);
+  const label=document.createElement('small');label.className='bar-label';label.textContent=day.label;
+  col.title=day.date.toLocaleDateString('pt-BR')+': '+counts[i];col.append(value,track,label);bars.appendChild(col);
+ });
+ box.appendChild(bars);
+}
+function renderAccuracyPie(){
+ const box=document.getElementById('chart-accuracy');if(!box)return;box.replaceChildren();
+ const groups=new Map();
+ history.forEach(item=>{const key=item.subject||'geral';if(!groups.has(key))groups.set(key,{total:0,correct:0});const g=groups.get(key);g.total++;if(item.ok)g.correct++});
+ const entries=[...groups.entries()].sort((a,b)=>b[1].total-a[1].total);
+ if(!entries.length){const empty=document.createElement('p');empty.className='chart-empty';empty.textContent='Responda questões para visualizar o desempenho por área.';box.appendChild(empty);return}
+ const total=entries.reduce((sum,[,v])=>sum+v.total,0);let cursor=0;
+ const stops=entries.map(([,v],i)=>{const start=cursor;cursor+=v.total/total*100;return CHART_COLORS[i%CHART_COLORS.length]+' '+start.toFixed(2)+'% '+cursor.toFixed(2)+'%'}).join(', ');
+ const pie=document.createElement('div');pie.className='accuracy-pie';pie.style.background='conic-gradient('+stops+')';pie.setAttribute('role','img');pie.setAttribute('aria-label','Distribuição das questões respondidas por área');
+ const center=document.createElement('div');center.className='pie-center';const number=document.createElement('strong');number.textContent=Math.round(history.filter(x=>x.ok).length/total*100)+'%';const caption=document.createElement('small');caption.textContent='geral';center.append(number,caption);pie.appendChild(center);
+ const legend=document.createElement('div');legend.className='pie-legend';
+ entries.forEach(([area,v],i)=>{const row=document.createElement('div');row.className='pie-legend-item';const dot=document.createElement('span');dot.className='pie-dot';dot.style.background=CHART_COLORS[i%CHART_COLORS.length];const name=document.createElement('span');name.className='pie-area';name.textContent=AREA_LABELS[area]||area;const rate=document.createElement('strong');rate.textContent=Math.round(v.correct/v.total*100)+'%';const count=document.createElement('small');count.textContent=v.correct+'/'+v.total+' acertos';row.append(dot,name,rate,count);legend.appendChild(row)});
+ box.append(pie,legend);
+}
 function refresh(){
  const $=id=>document.getElementById(id);if(!$('dashboard'))return;
  const total=history.length,correct=history.filter(x=>x.ok).length,sessions=read(SESS,[]);
  $('stat-total').textContent=total;$('stat-rate').textContent=(total?Math.round(correct/total*100):0)+'%';$('stat-sessions').textContent=sessions.length;
+ renderWeeklyChart('chart-questions',history,'date','Ainda não há questões respondidas no período.');
+ renderWeeklyChart('chart-sessions',sessions,'date','Ainda não há simulados concluídos no período.');
+ renderAccuracyPie();
  const goal=read(GOAL,20),pct=Math.min(100,Math.round(total/goal*100));$('goal-input').value=goal;$('goal-progress').style.width=pct+'%';$('goal-caption').textContent=Math.min(total,goal)+' de '+goal+' questões respondidas ('+pct+'%).';
  const badges=[[1,'🌱 Primeiro passo'],[10,'🔥 10 questões'],[50,'⭐ 50 questões'],[100,'🏅 100 questões'],[250,'🚀 250 questões']];$('achievements').replaceChildren();
  badges.forEach(x=>{const s=document.createElement('span');s.className='achievement'+(total>=x[0]?' unlocked':'');s.textContent=(total>=x[0]?'✓ ':'○ ')+x[1];$('achievements').appendChild(s)});
