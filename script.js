@@ -541,15 +541,18 @@ function gerarCardsResultado() {
         card.textContent=resposta.questao;
         const trecho = (() => {
             const temp = document.createElement('div');
-            temp.innerHTML = typeof sanitizarEnunciado === 'function' ? sanitizarEnunciado(resposta.dadosQuestao?.enunciado || '') : String(resposta.dadosQuestao?.enunciado || '');
-            const texto = (temp.textContent || '').replace(/\\s+/g, ' ').trim();
-            const palavras = texto.split(' ').filter(Boolean);
-            return palavras.slice(0, 24).join(' ') + (palavras.length > 24 ? '…' : '');
+            temp.innerHTML = typeof sanitizarEnunciado === 'function'
+                ? sanitizarEnunciado(resposta.dadosQuestao?.enunciado || '')
+                : String(resposta.dadosQuestao?.enunciado || '');
+            const texto = (temp.textContent || '').replace(/\s+/g, ' ').trim();
+            const palavras = texto.split(/\s+/).filter(Boolean);
+            return palavras.slice(0, 32).join(' ') + (palavras.length > 32 ? '…' : '');
         })();
-        card.title = 'Questão ' + resposta.questao + (trecho ? ': ' + trecho : ': abrir revisão');
-        card.setAttribute('aria-label', card.title);
-        card.setAttribute('aria-label','Abrir revisão da questão '+resposta.questao+(resposta.acertou?', correta':', incorreta'));
-        card.title='Questão '+resposta.questao+(resposta.acertou?': correta':': incorreta ou não respondida')+' — abrir revisão';
+        const identificacao = 'Questão ' + resposta.questao + (trecho ? ': ' + trecho : ': enunciado indisponível');
+        card.title = identificacao;
+        card.setAttribute('aria-label', identificacao + '. ' +
+            (resposta.acertou ? 'Resposta correta.' : 'Resposta incorreta ou não respondida.') +
+            ' Clique para abrir a revisão.');
         card.style.cssText='cursor:pointer;min-height:48px;font:inherit;font-weight:700;border:0;';
         card.addEventListener('click',()=>{
             if(typeof window.abrirRevisaoDaSessao==='function'&&resposta.dadosQuestao){
