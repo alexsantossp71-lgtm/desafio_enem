@@ -199,12 +199,13 @@ function prepararSelecaoCombinada(){
  selector.innerHTML='<div class="multi-year-grid" id="multi-year-options"></div><p class="multi-selection-help">Você pode combinar provas de anos diferentes.</p><section class="multi-subject-section"><p class="section-title">2. Escolha uma ou mais matérias:</p><div class="multi-subject-grid" id="multi-subject-options"><span class="muted">Selecione os anos para carregar as matérias.</span></div></section>';
  yearBox.appendChild(selector);
  const options=selector.querySelector('#multi-year-options');
+ const yearsButton=document.createElement('button');yearsButton.type='button';yearsButton.className='year-btn multi-all-btn';yearsButton.textContent='Todos';yearsButton.setAttribute('aria-pressed','false');
+ yearsButton.addEventListener('click',()=>{const all=[...Array(17)].map((_,i)=>2025-i);const selecting=multiYearSelected.size!==all.length;multiYearSelected=selecting?new Set(all):new Set();options.querySelectorAll('[data-year]').forEach(btn=>{const active=multiYearSelected.has(Number(btn.dataset.year));btn.classList.toggle('selected',active);btn.setAttribute('aria-pressed',String(active))});yearsButton.classList.toggle('selected',selecting);yearsButton.setAttribute('aria-pressed',String(selecting));carregarAnosCombinados()});
+ options.appendChild(yearsButton);
  for(let year=2025;year>=2009;year--){
-  const label=document.createElement('label');label.className='multi-check';
-  const input=document.createElement('input');input.type='checkbox';input.value=String(year);
-  const text=document.createElement('span');text.textContent=year;
-  input.addEventListener('change',()=>{if(input.checked)multiYearSelected.add(year);else multiYearSelected.delete(year);carregarAnosCombinados()});
-  label.append(input,text);options.appendChild(label);
+  const button=document.createElement('button');button.type='button';button.className='year-btn';button.textContent=year;button.dataset.year=String(year);button.setAttribute('aria-pressed','false');
+  button.addEventListener('click',()=>{if(multiYearSelected.has(year))multiYearSelected.delete(year);else multiYearSelected.add(year);const active=multiYearSelected.has(year);button.classList.toggle('selected',active);button.setAttribute('aria-pressed',String(active));const all=multiYearSelected.size===17;yearsButton.classList.toggle('selected',all);yearsButton.setAttribute('aria-pressed',String(all));carregarAnosCombinados()});
+  options.appendChild(button);
  }
  const start=document.getElementById('start-btn');
  if(start)start.textContent='SELECIONE ANOS E MATÉRIAS';
@@ -230,11 +231,10 @@ async function carregarAnosCombinados(){
  subjectBox.replaceChildren();
  const subjects=[...available].sort((a,b)=>(AREA_LABELS[a]||a).localeCompare(AREA_LABELS[b]||b,'pt-BR'));
  subjects.forEach(subject=>{
-  const label=document.createElement('label');label.className='multi-check';
-  const input=document.createElement('input');input.type='checkbox';input.value=subject;input.checked=multiSubjectSelected.has(subject);
-  const text=document.createElement('span');text.textContent=AREA_LABELS[subject]||subject;
-  input.addEventListener('change',()=>{if(input.checked)multiSubjectSelected.add(subject);else multiSubjectSelected.delete(subject);atualizarInicioCombinado()});
-  label.append(input,text);subjectBox.appendChild(label);
+  const button=document.createElement('button');button.type='button';button.className='year-btn multi-subject-btn';button.textContent=AREA_LABELS[subject]||subject;button.setAttribute('aria-pressed',String(multiSubjectSelected.has(subject)));
+  if(multiSubjectSelected.has(subject))button.classList.add('selected');
+  button.addEventListener('click',()=>{if(multiSubjectSelected.has(subject))multiSubjectSelected.delete(subject);else multiSubjectSelected.add(subject);const active=multiSubjectSelected.has(subject);button.classList.toggle('selected',active);button.setAttribute('aria-pressed',String(active));atualizarInicioCombinado()});
+  subjectBox.appendChild(button);
  });
  if(failed.length){const warning=document.createElement('p');warning.className='multi-selection-help';warning.textContent='Não foi possível carregar: '+failed.join(', ')+'.';subjectBox.appendChild(warning)}
  atualizarInicioCombinado();
