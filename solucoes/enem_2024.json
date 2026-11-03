@@ -1,0 +1,184 @@
+{
+  "questoes": [
+    {
+      "id": "2024_136",
+      "resolucao": "A ampliação mínima necessária é 0,1/0,007 ≈ 14,29 vezes. A ocular já amplia 10 vezes, então a objetiva precisa ampliar pelo menos 1,429 vez. A lente de 1,4 vez produziria 14 vezes no total, ainda insuficiente; a lente I, de 2 vezes, produz 20 vezes. Gabarito: A."
+    },
+    {
+      "id": "2024_137",
+      "resolucao": "Se m é a média correta, a soma das quatro notas é 4m. A média calculada por engano foi 4m/5 e ficou uma unidade abaixo: 4m/5 = m − 1. Resolvendo, m = 5. Gabarito: B."
+    },
+    {
+      "id": "2024_138",
+      "resolucao": "Para os dois algarismos distintos, há 5 × 4 = 20 possibilidades. As letras disponíveis nas teclas escolhidas são A, B, C, J, K, L, P, Q, R e S: 10 letras. Para três letras diferentes, em ordem, há 10 × 9 × 8 = 720 possibilidades. Total: 20 × 720 = 14 400. Gabarito: B."
+    },
+    {
+      "id": "2024_139",
+      "resolucao": "Na loja I, cada enfeite custa 2 × R$ 3,00 + R$ 1,00 = R$ 7,00. Na loja II, custa 2 × R$ 2,00 + R$ 4,00 = R$ 8,00. A loja I é mais econômica. Gabarito: A."
+    },
+    {
+      "id": "2024_140",
+      "resolucao": "João acertou 75% de 200 = 150 questões, ficando na faixa “muito bom”. Felipe acertou 30% menos que 150: 150 × 0,70 = 105 questões, ou 52,5%, faixa “regular”. Gabarito: B."
+    },
+    {
+      "id": "2024_141",
+      "resolucao": "Pelo primeiro gráfico, quando I varia de 1 a 3, II varia de 1,5 a 3,5. No segundo gráfico, III diminui até II = 3 e depois cresce. Nesse intervalo, o maior valor ocorre em II = 1,5: III = 2,5. Gabarito: B."
+    },
+    {
+      "id": "2024_142",
+      "resolucao": "A primeira etapa contém 3 figuras e cada etapa duplica a quantidade anterior. Da 1ª à 20ª etapa ocorrem 19 duplicações; portanto, o total é 3 × 2¹⁹ figuras. Gabarito: A."
+    },
+    {
+      "id": "2024_143",
+      "resolucao": "A previsão era de 300 meias e 200 inteiras. Foram vendidas 50% a mais de meias: 450 meias e, como o total é 500, 50 inteiras. A receita dos ingressos foi 450 × 65 + 50 × 130 = R$ 35 750. Descontado o custo de R$ 34 350, o lucro é R$ 1 400. Para chegar a R$ 17 000, bebidas e petiscos devem gerar R$ 15 600 de lucro. Como esse lucro corresponde a 60% do gasto do público, o gasto total deve ser R$ 26 000, ou R$ 52 por pessoa. Gabarito: D."
+    },
+    {
+      "id": "2024_144",
+      "resolucao": "Ao girar o trapézio em torno do lado PS, as bases paralelas PQ e SR descrevem círculos de raios diferentes. A superfície lateral gerada é, portanto, a de um tronco de cone. Gabarito: D."
+    },
+    {
+      "id": "2024_145",
+      "resolucao": "A área inicial era 110 × 75 = 8 250 m². A área final é 105 × 68 = 7 140 m². A redução foi 8 250 − 7 140 = 1 110 m². Gabarito: D."
+    },
+    {
+      "id": "2024_146",
+      "resolucao": "O custo total das telas é 40L + 30C = 6 000. Substituindo C = (6 000 − 40L)/30 na área A = LC, obtém-se uma parábola cujo máximo ocorre em L = 75 e C = 100. O maior lado mede 100 m. Gabarito: B."
+    },
+    {
+      "id": "2024_147",
+      "resolucao": "As posições II, IV e V apresentam formas diferentes de escrever o mesmo número: 4,5. A posição II representa o número misto 4 1/2; IV e V correspondem, respectivamente, às representações fracionária e decimal equivalentes. Gabarito: B."
+    },
+    {
+      "id": "2024_148",
+      "resolucao": "No instante inicial, T(0) = a + 80 = 100, logo a = 20. Pelo gráfico, em 20 minutos a temperatura é 40: 40 = 20 + 80b²⁰, então b²⁰ = 1/4 e b = (0,5)^(1/10). Gabarito: C."
+    },
+    {
+      "id": "2024_149",
+      "resolucao": "O cilindro tem volume V = π × 3² × 15. Usando π ≈ 3, V = 405 cm³. O cubo deve ter 80% desse volume: 0,8 × 405 = 324 cm³. Se x é a aresta, x³ = 324, portanto x = ∛324 = 3∛12 cm. Gabarito: E."
+    },
+    {
+      "id": "2024_150",
+      "resolucao": "A fileira ocupa 300 cm. Para cada loja, calcula-se a quantidade mínima de colunas que deixa vãos de no máximo 15 cm, incluindo os vãos nas extremidades. Com raio 5 cm são necessárias 12 colunas (R$ 720); raio 10 cm, 9 (R$ 630); raio 12 cm, 8 (R$ 600); raio 15 cm, 7 (R$ 630); raio 20 cm, 6 (R$ 720). O menor orçamento é o da loja III. Gabarito: C."
+    },
+    {
+      "id": "2024_151",
+      "resolucao": "A escala 1:200 reduz cada comprimento por 200 e cada área por 200² = 40 000. Convertendo 1 672 m² para 16 720 000 cm² e dividindo por 40 000, a área na maquete é 418 cm². Gabarito: E."
+    },
+    {
+      "id": "2024_152",
+      "resolucao": "O saldo é exportações menos importações. No gráfico, junho de 2009 apresenta o maior saldo positivo; junho de 2010 tem saldo positivo menor (cerca de 2,3 bilhões); janeiro de 2010 apresenta saldo negativo. Logo, S₁ > S₃ > S₂. Gabarito: A."
+    },
+    {
+      "id": "2024_153",
+      "resolucao": "Para converter 135,25% em número decimal, divide-se por 100: 135,25/100 = 1,3525. Gabarito: D."
+    },
+    {
+      "id": "2024_154",
+      "resolucao": "A média dos seis tempos é (36 + 17 + 27 + 13 + 13 + 13)/6 = 119/6 ≈ 19,8 minutos. Gabarito: C."
+    },
+    {
+      "id": "2024_155",
+      "resolucao": "A área de cada setor circular é (α/360) × πR², usando π ≈ 3. Os tipos I, II, III, IV e V cobrem, respectivamente, 50; 121; 48; 128; e 75 m². Para atingir pelo menos 70 m², servem II, IV e V; o menor setor entre eles é o do tipo V, que tem o menor preço. Gabarito: E."
+    },
+    {
+      "id": "2024_156",
+      "resolucao": "A tarifa fixa é R$ 2,00; o tempo acrescenta R$ 0,26 por minuto e a distância acrescenta R$ 1,40 por quilômetro. Assim, V = 2,00 + 0,26T + 1,40D. Gabarito: B."
+    },
+    {
+      "id": "2024_157",
+      "resolucao": "O total atual para cinco porções é 10 + 5 × 25 = R$ 135. Com a nova taxa, 15 + 5x = 135; então 5x = 120 e x = R$ 24,00 por porção. Gabarito: C."
+    },
+    {
+      "id": "2024_158",
+      "resolucao": "O defensivo B custa R$ 3,00 por litro e cobre 0,4 ha; para 20 ha são necessários 50 L, por R$ 150, mais a máscara de R$ 12,50: total R$ 162,50. A opção com 35 L de A libera a máscara, mas exige defensivo B adicional e custa mais; comprar apenas A também custa mais. Gabarito: C."
+    },
+    {
+      "id": "2024_159",
+      "resolucao": "O fluxo é a vazão dividida pela área. Sua unidade é (mL/s)/cm², isto é, mL/(cm²·s). Gabarito: C."
+    },
+    {
+      "id": "2024_160",
+      "resolucao": "A primeira piscina leva 2 500 000/6 000 = 416,67 minutos para encher. A segunda leva 20% a mais: 500 minutos. Sua vazão é 2 750 000/500 = 5 500 L/min. Gabarito: D."
+    },
+    {
+      "id": "2024_161",
+      "resolucao": "A água entra em um dos compartimentos. A coluna sobe até alcançar o anteparo de altura H/4; depois, a água passa ao compartimento seguinte e o nível máximo permanece em H/4 até superar o anteparo de H/2. O mesmo processo se repete antes de a água ocupar todo o tanque. A sequência corresponde ao gráfico B. Gabarito: B."
+    },
+    {
+      "id": "2024_162",
+      "resolucao": "As parcelas aumentam por um mesmo percentual, portanto as parcelas mais tardias são maiores. Como a imobiliária paga as parcelas de maio, o cliente deve escolher fevereiro: assim, as parcelas de maio correspondem a posições mais avançadas na sequência de 100 pagamentos e têm maior valor acumulado, reduzindo mais o total que ele desembolsa. Gabarito: A."
+    },
+    {
+      "id": "2024_163",
+      "resolucao": "A correia tem dois trechos retos de 15 cm. O arco da polia de raio 4 cm corresponde a 150°: seu comprimento é (150/360) × 2 × 3 × 4 = 10 cm. O arco da polia de raio 8 cm corresponde a 210°: (210/360) × 2 × 3 × 8 = 28 cm. O total é 15 + 15 + 10 + 28 = 68 cm. Gabarito: D."
+    },
+    {
+      "id": "2024_164",
+      "resolucao": "Os três postos formam um triângulo equilátero de lado 10 km. O hospital, equidistante dos três vértices, está no centro do triângulo. A distância do centro a um vértice é o raio circunscrito: R = 10/√3 ≈ 5,77 km, entre 5 e 6 km. Gabarito: C."
+    },
+    {
+      "id": "2024_165",
+      "resolucao": "Se a nova probabilidade de encontrar cada semáforo vermelho é p, a independência dá p² = 4/100. Logo, p = 0,2. Em um ciclo de 60 s, o vermelho deve durar 0,2 × 60 = 12 s. A redução em relação aos 15 s atuais é 3 s. Gabarito: B."
+    },
+    {
+      "id": "2024_166",
+      "resolucao": "A densidade é população dividida pela área. A região Q tem metade da população e três quartos da área de R; portanto, d(Q)/d(R) = (1/2)/(3/4) = 2/3. Gabarito: E."
+    },
+    {
+      "id": "2024_167",
+      "resolucao": "As medidas são 4 5/6 e 3 1/2 polegadas. A diferença é 4 5/6 − 3 1/2 = 29/6 − 21/6 = 8/6 = 4/3 ≈ 1,3 polegada. Gabarito: D."
+    },
+    {
+      "id": "2024_168",
+      "resolucao": "O amortecedor aprovado deve apresentar amplitude constante nos primeiros 9 minutos e nos 11 minutos finais, com amplitude menor no asfalto do que na estrada de chão. A alternativa A é a que representa essas condições. Gabarito: A."
+    },
+    {
+      "id": "2024_169",
+      "resolucao": "Para acertar somente na terceira tentativa, as duas primeiras devem falhar e a terceira deve acertar. Como há 25 deslocamentos possíveis, a probabilidade é (24/25) × (23/24) × (1/23). Gabarito: E."
+    },
+    {
+      "id": "2024_170",
+      "resolucao": "Como E₁ é um décimo de E₂, E₂/E₁ = 10 e log(10) = 1. Assim, M₂ − 6,9 = (2/3) × 1, logo M₂ = 7,566..., que, com uma casa decimal, é 7,6. Gabarito: C."
+    },
+    {
+      "id": "2024_171",
+      "resolucao": "Com perímetro k, as áreas são: triângulo equilátero k²√3/36; quadrado k²/16; hexágono regular k²√3/24. A maior é a do hexágono, pois √3/24 é maior que 1/16 e que √3/36. Gabarito: A."
+    },
+    {
+      "id": "2024_172",
+      "resolucao": "Os ônibus se aproximam com velocidade relativa 250 + 150 = 400 m/min. O encontro ocorre após 9 000/400 = 22,5 min. Nesse tempo, o ônibus A percorre 250 × 22,5 = 5 625 m. Essa posição fica entre 5 400 e 6 300 m, trecho coberto pela câmera IV. Gabarito: D."
+    },
+    {
+      "id": "2024_173",
+      "resolucao": "Multiplicando as porcentagens de cada setor por seu total: até 25 anos = 16 + 30 + 80 = 126; de 25 a 45 anos = 24 + 48 + 70 = 142; a partir de 45 anos = 40 + 42 + 50 = 132. A faixa de 25 a 45 anos reúne mais funcionários e, portanto, tem a maior probabilidade. Gabarito: A."
+    },
+    {
+      "id": "2024_174",
+      "resolucao": "Na projeção ortogonal sobre a base, cada ponto é levado perpendicularmente ao plano. Os deslocamentos verticais desaparecem, mas as posições horizontais relativas são preservadas. Projetando sucessivamente A, B, C, D, E e F conforme os planos indicados na figura, obtém-se o traçado da alternativa C. Gabarito: C."
+    },
+    {
+      "id": "2024_175",
+      "resolucao": "Na primeira orientação, a circunferência da base é 10 cm e a altura é 20 cm: V₁ = 500/π cm³. Na segunda, a circunferência é 20 cm e a altura é 10 cm: V₂ = 1 000/π cm³. A maior capacidade é 1 000/π cm³. Gabarito: D."
+    },
+    {
+      "id": "2024_176",
+      "resolucao": "Pela reta de tendência, a receita cresce de aproximadamente R$ 4 milhões em 2014 para R$ 6 milhões em 2020, ou cerca de 1/3 de milhão por ano. Projetando mais seis anos, até 2026, chega-se a aproximadamente R$ 8 milhões. Gabarito: B."
+    },
+    {
+      "id": "2024_177",
+      "resolucao": "Entre 30 e 50 mochilas, o custo aumenta R$ 600 para 20 unidades, ou R$ 30 por mochila. O custo fixo é 1 050 − 30 × 30 = R$ 150. Para 80 mochilas: 150 + 30 × 80 = R$ 2 550. Gabarito: C."
+    },
+    {
+      "id": "2024_178",
+      "resolucao": "Ordenando os valores: 46, 54, 60, 64, 64 e 66. Como são seis observações, a mediana é a média do terceiro e do quarto valores: (60 + 64)/2 = 62%. Gabarito: E."
+    },
+    {
+      "id": "2024_179",
+      "resolucao": "Os engenheiros trabalharam, respectivamente, 4 × 5,5 = 22 h, 5 × 4 = 20 h e 6 × 2,5 = 15 h, totalizando 57 h. Os 40% de R$ 71 250 destinados a eles somam R$ 28 500; cada hora corresponde a R$ 500. Os pagamentos são R$ 11 000, R$ 10 000 e R$ 7 500. A maior diferença é R$ 3 500. Gabarito: C."
+    },
+    {
+      "id": "2024_180",
+      "resolucao": "A equipe pode ter 3, 4 ou 5 cardiologistas. O número de equipes é C(7,3)C(6,2) + C(7,4)C(6,1) + C(7,5)C(6,0) = 35×15 + 35×6 + 21×1 = 756. A expressão correspondente é a alternativa E. Gabarito: E."
+    }
+  ]
+}
