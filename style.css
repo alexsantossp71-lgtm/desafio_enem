@@ -303,3 +303,14 @@ body{background:radial-gradient(ellipse at 12% 0%,#e8efff 0,transparent 34%),var
 :root[data-theme="dark"] .bar-track{background:#22334d}
 @media(max-width:900px){.chart-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.chart-card:nth-child(2){grid-column:span 2;grid-row:2}.chart-card:nth-child(2) .pie-chart-wrap{grid-template-columns:142px minmax(0,1fr)}}
 @media(max-width:560px){.chart-stats{grid-template-columns:1fr}.chart-card:nth-child(2){grid-column:auto;grid-row:auto}.pie-chart-wrap{grid-template-columns:110px minmax(0,1fr);gap:9px}.accuracy-pie{width:108px}.bar-chart{gap:4px}.bar-label{font-size:.59rem}}
+
+
+/* Desempenho por área: taxas independentes em barras comparáveis */
+.pie-chart-wrap{display:block;min-height:150px}
+.accuracy-list{display:grid;gap:11px;padding:3px 0}
+.accuracy-row{display:grid;gap:5px}
+.accuracy-row-heading{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:.76rem;color:var(--ink)}
+.accuracy-row-heading strong:last-child{font-size:.82rem;font-variant-numeric:tabular-nums}
+.accuracy-track{height:9px;border-radius:99px;background:var(--surface-soft);overflow:hidden}
+.accuracy-fill{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#6d8df4,#315ee8)}
+.accuracy-row small{font-size:.65rem;color:var(--muted)}
