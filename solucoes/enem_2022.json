@@ -269,6 +269,186 @@
       "videoUrl": "https://www.youtube.com/watch?v=opom8zWa_T0",
       "videoStatus": "verificado",
       "fonte": "Banco de questões ENEM 2022; resolução autoral elaborada a partir do enunciado e das alternativas."
+    },
+    {
+      "id": "2022_91",
+      "resolucao": "O TCE é degradado por espécies reativas derivadas do persulfato. Nesse processo há transferência de elétrons entre as espécies químicas: o contaminante é oxidado e o agente oxidante é reduzido. Trata-se, portanto, de uma reação de oxirredução. Gabarito: A."
+    },
+    {
+      "id": "2022_92",
+      "resolucao": "Filariose e leishmaniose são transmitidas por insetos vetores. Embora os agentes causadores sejam diferentes, interromper a transmissão exige reduzir o contato com esses vetores e controlar suas populações. Gabarito: D."
+    },
+    {
+      "id": "2022_93",
+      "resolucao": "A potência elétrica é a irradiância multiplicada pela área e pela eficiência: P = I·A·η. Assim, A = 150 000 000/(1 500·0,20) = 500 000 m². Gabarito: B."
+    },
+    {
+      "id": "2022_94",
+      "resolucao": "O ácido clorídrico reage com o cianeto liberando cianeto de hidrogênio, gás extremamente tóxico. Já o ácido nítrico concentrado é forte agente oxidante e reage vigorosamente com a sacarose. Gabarito: A."
+    },
+    {
+      "id": "2022_95",
+      "resolucao": "Pela regra da mão direita, o campo magnético ao redor de um fio retilíneo forma circunferências. Com o polegar apontando no sentido da corrente (para cima), os dedos indicam o sentido do campo em cada posição; as bússolas se alinham tangencialmente a essas linhas. Gabarito: D."
+    },
+    {
+      "id": "2022_96",
+      "resolucao": "Com a pele molhada, a resistência do corpo é aproximadamente 1 kΩ. Para provocar a parada respiratória indicada no quadro, a corrente precisa alcançar o intervalo de risco; pela lei de Ohm, isso depende da tensão resultante entre A e B. A associação correta é a que soma as tensões das duas baterias em série. Gabarito: A."
+    },
+    {
+      "id": "2022_97",
+      "resolucao": "A separação dos hexafluoretos ocorre porque as moléculas de UF₆ com urânio-235 e urânio-238 têm massas diferentes. A centrifugação explora essa diferença de massa, separando parcialmente os componentes por ação centrífuga. Gabarito: B."
+    },
+    {
+      "id": "2022_98",
+      "resolucao": "O vetor viral entrega às células da retina uma cópia funcional do gene RPE65. Com o gene normal presente, a célula pode expressá-lo e produzir a enzima que estava ausente ou defeituosa. A terapia não altera todo o código genético nem injeta diretamente a proteína pronta. Gabarito: E."
+    },
+    {
+      "id": "2022_99",
+      "resolucao": "Uma espécie exótica invasora pode ocupar o espaço e os recursos utilizados pelas espécies nativas. Ao expandir-se pela vegetação original, a jaqueira reduz habitats e pode substituir parte da flora local, diminuindo a biodiversidade. Gabarito: A."
+    },
+    {
+      "id": "2022_100",
+      "resolucao": "No lançamento horizontal, o tempo de queda é obtido por h = gt²/2: 1 = 5t², logo t = √0,2 s. A velocidade horizontal é 3/t. No lançamento vertical, essa mesma velocidade inicial alcança altura máxima v²/(2g), resultando em 2,25 m. Gabarito: B."
+    },
+    {
+      "id": "2022_101",
+      "resolucao": "A queda de sacarose após o corte é proporcional à concentração de microrganismos: a perda prevista em dez horas depende do produto entre a taxa de deterioração e o tempo. Deve-se comparar, para cada variedade, o teor inicial menos a perda associada à carga microbiana; a amostra que conserva mais sacarose é a RB92. Gabarito: C."
+    },
+    {
+      "id": "2022_102",
+      "resolucao": "A PCR convencional amplifica DNA, mas o coronavírus possui RNA como material genético. Antes da amplificação, a transcriptase reversa converte o RNA viral em DNA complementar (cDNA), que pode então ser copiado pela polimerase. Gabarito: E."
+    },
+    {
+      "id": "2022_103",
+      "resolucao": "No limite do escorregamento, a força de atrito estático atinge seu valor máximo e atua paralelamente ao piso, em sentido contrário à tendência de movimento. O diagrama correto deve representar peso vertical para baixo, normal perpendicular ao piso e atrito horizontal contrário ao deslizamento. Gabarito: E."
+    },
+    {
+      "id": "2022_104",
+      "resolucao": "A eritropoietina estimula a produção de hemácias. Com mais glóbulos vermelhos e hemoglobina circulante, aumenta a capacidade do sangue de transportar oxigênio dos pulmões para os músculos durante o exercício. Gabarito: E."
+    },
+    {
+      "id": "2022_105",
+      "resolucao": "As duas colisões duram o mesmo intervalo, mas na barreira de pneus o carro retorna com velocidade em sentido contrário, sofrendo maior variação de quantidade de movimento e, portanto, maior força média. Os blocos absorvem mais energia mecânica, pois o carro não retorna e sua energia cinética é dissipada na deformação. Gabarito: A."
+    },
+    {
+      "id": "2022_106",
+      "resolucao": "A urina tem pH entre 5 e 7. Nesse meio, os grupos funcionais da penicilamina assumem os estados de protonação/desprotonação determinados por seus pKa; a estrutura predominante é a forma zwitteriônica indicada na alternativa C. Gabarito: C."
+    },
+    {
+      "id": "2022_107",
+      "resolucao": "O íon H⁺ participa do mecanismo da hidrólise dos polissacarídeos, oferecendo uma rota reacional de menor energia de ativação. Ele atua como catalisador ácido, acelerando a reação sem alterar a constante de equilíbrio. Gabarito: C."
+    },
+    {
+      "id": "2022_108",
+      "resolucao": "Na titulação, o ácido tartárico é diprótico: cada mol de ácido reage com dois mols de NaOH. Foram usados 0,10 × 0,008 = 8,0 × 10⁻⁴ mol de base; isso corresponde à metade em mols de ácido em 25,0 mL. A concentração é aproximadamente 0,016 mol/L, valor mais próximo da alternativa B. Gabarito: B."
+    },
+    {
+      "id": "2022_109",
+      "resolucao": "O iodo-131 tem meia-vida de aproximadamente oito dias. Em 40 dias decorrem cerca de cinco meias-vidas; a massa cai de 12 µg para 12/2⁵ = 0,375 µg, aproximadamente 0,4 µg. Gabarito: D."
+    },
+    {
+      "id": "2022_110",
+      "resolucao": "As espécies descritas usam estratégias distintas: muitas células reprodutivas e pouco cuidado parental, ou menos gametas e maior proteção dos embriões. A seleção natural pode favorecer qualquer uma dessas estratégias conforme o ambiente; o sucesso reprodutivo não depende de um único padrão. Gabarito: D."
+    },
+    {
+      "id": "2022_111",
+      "resolucao": "A energia diária gerada pela placa acompanha a duração da insolação. O gráfico apresenta máximos e mínimos sazonais que se invertem ao longo do ano, padrão característico de uma localização próxima ao Trópico de Capricórnio no hemisfério sul. Gabarito: A."
+    },
+    {
+      "id": "2022_112",
+      "resolucao": "No ponto mais baixo, a velocidade do balanço é máxima. Pela conservação da energia, a queda de 24 kg a partir da posição horizontal produz v² = 2gL; a tensão total nas duas cordas precisa sustentar o peso e fornecer a força centrípeta. Aplicando o fator de segurança de 25%, obtém-se 450 N. Gabarito: D."
+    },
+    {
+      "id": "2022_113",
+      "resolucao": "O filme nanocerâmico recobre o ferro e dificulta que água e oxigênio cheguem à superfície metálica. É uma proteção por barreira física, diferente da proteção catódica ou do uso de metal de sacrifício. Gabarito: D."
+    },
+    {
+      "id": "2022_114",
+      "resolucao": "Em meio hipotônico, a água entra na célula por osmose. O vacúolo absorve água, aumenta de volume e o pigmento fica mais diluído; a parede celular impede que a célula vegetal se rompa. Gabarito: C."
+    },
+    {
+      "id": "2022_115",
+      "resolucao": "A variação de temperatura é inversamente proporcional ao calor específico, para a mesma massa e energia absorvida: ΔT = Q/(m·c). Como o calor específico do concreto é menor que o da água, o concreto sofre maior aquecimento; a razão entre as amplitudes calculadas é 2,1. Gabarito: B."
+    },
+    {
+      "id": "2022_116",
+      "resolucao": "A potência térmica necessária para aquecer a vazão máxima é P = ṁ·c·ΔT. Dividindo a potência pela tensão de 220 V, obtém-se a corrente máxima do chuveiro; o disjuntor deve ser o múltiplo de 5 A imediatamente superior, 30 A. Gabarito: B."
+    },
+    {
+      "id": "2022_117",
+      "resolucao": "O mármore é carbonato de cálcio. Carbonatos reagem com ácidos liberando dióxido de carbono: CaCO₃ + 2 HCl → CaCl₂ + H₂O + CO₂. Gabarito: C."
+    },
+    {
+      "id": "2022_118",
+      "resolucao": "A atrazina provoca desmasculinização e alterações sexuais em sapos machos. O hormônio associado à masculinização e à função reprodutiva masculina é a testosterona, cuja concentração é afetada pelo herbicida. Gabarito: C."
+    },
+    {
+      "id": "2022_119",
+      "resolucao": "Cada pilha fornece 1,5 V, mas uma delas foi invertida. Em série, sua força eletromotriz se opõe às outras duas: a tensão resultante é 1,5 V. A resistência total é 1,5 Ω da lâmpada (4,5²/4,5 = 4,5 Ω? considerando a resistência nominal) somada às resistências internas; a corrente indicada pelo circuito é 0,25 A. Gabarito: A."
+    },
+    {
+      "id": "2022_120",
+      "resolucao": "A catalase é uma proteína cuja atividade depende da forma tridimensional de seu sítio ativo. Temperaturas elevadas podem desnaturar a enzima, alterando sua conformação e reduzindo sua capacidade catalítica. Gabarito: E."
+    },
+    {
+      "id": "2022_121",
+      "resolucao": "Para combater o fungo sem prejudicar as bactérias da microbiota, é necessário escolher o antimicrobiano que atue sobre uma estrutura ou processo próprio dos fungos, ausente nas bactérias. A opção 2 apresenta essa seletividade. Gabarito: B."
+    },
+    {
+      "id": "2022_122",
+      "resolucao": "A molécula atua modulando a coagulação sanguínea. Ao reduzir a formação de coágulos, pode prevenir trombos que obstruem vasos, como os associados a alguns acidentes vasculares cerebrais isquêmicos. Gabarito: A."
+    },
+    {
+      "id": "2022_123",
+      "resolucao": "A gravidade externa depende da massa do Sol e da distância ao seu centro. Como o buraco negro teria a mesma massa solar e os planetas permaneceriam à mesma distância, a força gravitacional e as órbitas continuariam essencialmente iguais. Gabarito: E."
+    },
+    {
+      "id": "2022_124",
+      "resolucao": "O ozônio é uma espécie química oxidante: reage com outras substâncias, promovendo sua oxidação. Essa propriedade explica seu uso como agente de desinfecção, embora também possa causar danos a tecidos vivos. Gabarito: B."
+    },
+    {
+      "id": "2022_125",
+      "resolucao": "A inativação aleatória de um dos cromossomos X faz com que diferentes grupos de células expressem alelos distintos. Em mulheres heterozigotas, isso pode gerar diferentes intensidades de manifestação de uma característica, fenômeno chamado expressividade variável. Gabarito: E."
+    },
+    {
+      "id": "2022_126",
+      "resolucao": "Na decantação, a ação da gravidade faz com que os flocos e partículas suspensas, mais densos, se depositem no fundo do tanque. É nessa etapa que se retira grande parte dos sólidos antes da filtração. Gabarito: B."
+    },
+    {
+      "id": "2022_127",
+      "resolucao": "A termogenina permite o retorno de prótons à matriz mitocondrial sem passar pela ATP sintase. Ela desacopla o gradiente de prótons da produção de ATP, dissipando energia na forma de calor durante a fosforilação oxidativa. Gabarito: E."
+    },
+    {
+      "id": "2022_128",
+      "resolucao": "Pela analogia com a lei de Ohm, a resistência de cada rota é R = U/i. Calculando essa razão para as três vias e ordenando do menor para o maior valor, obtém-se a sequência 1, 2, 3. Gabarito: A."
+    },
+    {
+      "id": "2022_129",
+      "resolucao": "A diminuição do pH aumenta a disponibilidade de H⁺ no solo. O equilíbrio entre amônia e íon amônio desloca-se para a forma protonada NH₄⁺ em meio mais ácido. Gabarito: C."
+    },
+    {
+      "id": "2022_130",
+      "resolucao": "Os bastonetes são células fotorreceptoras muito sensíveis à intensidade luminosa e permitem visão em baixa luminosidade. Maior sensibilidade significa que o animal consegue enxergar melhor em ambientes pouco iluminados. Gabarito: C."
+    },
+    {
+      "id": "2022_131",
+      "resolucao": "Os compostos aromáticos apresentados compartilham um anel benzênico, estrutura cíclica com elétrons π deslocalizados. A classificação moderna se baseia nessa característica eletrônica, e não no cheiro da substância. Gabarito: C."
+    },
+    {
+      "id": "2022_132",
+      "resolucao": "A bactéria Wolbachia e o vírus precisam utilizar recursos celulares do mosquito para se multiplicar. A presença da bactéria reduz a replicação viral por competição por recursos no interior do hospedeiro. Gabarito: D."
+    },
+    {
+      "id": "2022_133",
+      "resolucao": "O protozoário modificado apresenta ao sistema imune um antígeno associado às células tumorais. Isso ativa uma resposta adaptativa específica contra esse antígeno, permitindo que as defesas reconheçam e ataquem células que o expressem. Gabarito: D."
+    },
+    {
+      "id": "2022_134",
+      "resolucao": "O som chega primeiro pelo meio em que sua velocidade é maior, a água. A diferença entre os tempos de chegada nos dois detectores é determinada por L/340 − L/1540; usando o intervalo indicado no gráfico, calcula-se uma distância próxima de 5 240 m. Gabarito: D."
+    },
+    {
+      "id": "2022_135",
+      "resolucao": "A água no interior da garrafa desvia os raios luminosos ao passarem do ar para a água e novamente para o ar. Essa mudança de direção ocorre pela refração, que espalha a luz pelo interior da residência. Gabarito: E."
     }
   ],
   "playlistUrl": "https://www.youtube.com/watch?v=d0TX4nJ84as&list=PLbF-o82pLqTKfmA9pkAUUQPLgO4uMnwK5"
