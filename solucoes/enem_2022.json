@@ -1,8 +1,8 @@
 {
   "ano": 2022,
-  "area": "linguagens",
-  "atualizadoEm": "2026-11-02",
-  "totalQuestoes": 38,
+  "area": "todas",
+  "atualizadoEm": "2026-11-03",
+  "totalQuestoes": 174,
   "questoes": [
     {
       "id": "2022_6",
@@ -10,6 +10,10 @@
       "videoUrl": "https://www.youtube.com/watch?v=R-swpjRgnBg",
       "videoStatus": "verificado",
       "fonte": "https://assinale.com.br/enem/2022/questao-6"
+    },
+    {
+      "id": "2022_7",
+      "resolucao": "O Texto I apresenta uma campanha de adoção, enquanto o Texto II narra a trajetória de um cão comunitário que viveu nas ruas e foi acolhido afetivamente pela cidade. O relato amplia a discussão para a realidade dos animais sem lar e para a necessidade de acolhimento responsável. Gabarito: A."
     },
     {
       "id": "2022_8",
@@ -122,6 +126,10 @@
       "videoUrl": "https://www.youtube.com/watch?v=fRHQMlmsN3Q",
       "videoStatus": "verificado",
       "fonte": "Banco de questões ENEM 2022; resolução autoral elaborada a partir do enunciado e das alternativas."
+    },
+    {
+      "id": "2022_24",
+      "resolucao": "O texto ironiza o uso de palavras excessivamente rebuscadas em situações cotidianas, como pedir pão em uma padaria. A escolha linguística precisa considerar interlocutores, finalidade e contexto; a linguagem adequada não é sempre a mais difícil ou formal. Gabarito: E."
     },
     {
       "id": "2022_25",
@@ -269,6 +277,542 @@
       "videoUrl": "https://www.youtube.com/watch?v=opom8zWa_T0",
       "videoStatus": "verificado",
       "fonte": "Banco de questões ENEM 2022; resolução autoral elaborada a partir do enunciado e das alternativas."
+    },
+    {
+      "id": "2022_46",
+      "resolucao": "O trecho descreve a experiência tradicional de Santa Luzia, em que sinais observados nas pedras de sal ajudam a prever as chuvas no sertão. A prática revela conhecimento construído pela convivência com as condições ambientais da Caatinga. Gabarito: D."
+    },
+    {
+      "id": "2022_47",
+      "resolucao": "Para Hannah Arendt, a fala permite que as pessoas compartilhem experiências, atribuam sentido ao mundo e participem da vida pública. O discurso, portanto, é condição da convivência e da construção da sociabilidade. Gabarito: E."
+    },
+    {
+      "id": "2022_48",
+      "resolucao": "O relato de Carolina Maria de Jesus mostra um homem negro sendo agredido por um guarda branco e tratado como bode expiatório. A cena evidencia a permanência de práticas discriminatórias mesmo após o fim legal da escravidão, característica do racismo estrutural. Gabarito: A."
+    },
+    {
+      "id": "2022_49",
+      "resolucao": "A ocupação urbana impermeabiliza o solo com construções e pavimentação, reduzindo a infiltração da água e aumentando o escoamento superficial. O efeito imediato é a alteração do ciclo hidrológico, com maior risco de enchentes e menor recarga do lençol freático. Gabarito: B."
+    },
+    {
+      "id": "2022_50",
+      "resolucao": "A construção da ferrovia é apresentada como símbolo de progresso, mas os trabalhadores que adoeceram e morreram foram tratados como vítimas invisíveis. O texto evidencia a contradição entre o desenvolvimento nacional e a falta de respeito à vida dos trabalhadores. Gabarito: E."
+    },
+    {
+      "id": "2022_51",
+      "resolucao": "A economia informacional organiza etapas produtivas em redes globais, distribuindo atividades entre diferentes países conforme custos, mercados e vantagens competitivas. Isso permite que a produção se desterritorialize, deixando de estar concentrada em um único espaço nacional. Gabarito: E."
+    },
+    {
+      "id": "2022_52",
+      "resolucao": "A letra associa o trabalho rural à produção de arroz, feijão, cacau e outros alimentos consumidos pela população urbana. O espaço rural cumpre, assim, a função essencial de promover a produção alimentar. Gabarito: D."
+    },
+    {
+      "id": "2022_53",
+      "resolucao": "A expansão dos folhetins e do público leitor feminino no século XIX revela mudanças nos hábitos de leitura e no consumo cultural. A literatura seriada ajudou a criar novas práticas culturais entre as mulheres. Gabarito: A."
+    },
+    {
+      "id": "2022_54",
+      "resolucao": "Os caixeiros organizaram associações, participaram de manifestações e reivindicaram direitos no contexto de crise do Império. A aproximação com republicanos e abolicionistas expressava a contestação dos princípios monárquicos. Gabarito: E."
+    },
+    {
+      "id": "2022_55",
+      "resolucao": "Em regiões semiáridas, a irrigação sem drenagem favorece a evaporação da água e o acúmulo de sais no solo. A salinização reduz a fertilidade e pode inviabilizar o cultivo; por isso, o manejo deve prever drenagem adequada. Gabarito: B."
+    },
+    {
+      "id": "2022_56",
+      "resolucao": "Os textos destacam que a pandemia tornou visíveis desigualdades anteriores, especialmente a falta de internet e equipamentos para acompanhar aulas. Essa barreira de acesso à educação digital é uma forma de exclusão social. Gabarito: A."
+    },
+    {
+      "id": "2022_57",
+      "resolucao": "Foucault compara o tratamento dado aos leprosos e aos pestilentos para mostrar a passagem da exclusão para a vigilância, classificação e disciplina dos indivíduos. O modelo de controle descrito contribui para a formação da sociedade disciplinar. Gabarito: A."
+    },
+    {
+      "id": "2022_58",
+      "resolucao": "Os relatos sobre as romarias e o milagre atribuído à beata Maria de Araújo mostram como Juazeiro se tornou um centro de devoção popular. O espaço adquire significado religioso e místico por meio das experiências do catolicismo popular. Gabarito: E."
+    },
+    {
+      "id": "2022_59",
+      "resolucao": "O Programa de Aquisição de Alimentos compra diretamente produtos da agricultura familiar, criando demanda institucional e reduzindo a incerteza de venda para os produtores. Seu efeito destacado é garantir a comercialização da produção. Gabarito: C."
+    },
+    {
+      "id": "2022_60",
+      "resolucao": "No experimento, a recompensa é recebida pelos conhecidos quando o participante aumenta sua atividade física. O incentivo depende das relações entre membros da comunidade e estimula reciprocidade e influência social por meios digitais. Gabarito: B."
+    },
+    {
+      "id": "2022_61",
+      "resolucao": "A inteligência artificial pode substituir parte do trabalho de dubladores e atores, reduzindo oportunidades de emprego. A automação de atividades profissionais contribui para ampliar o desemprego estrutural. Gabarito: E."
+    },
+    {
+      "id": "2022_62",
+      "resolucao": "A Tarifa Externa Comum é aplicada às importações de países que não integram o Mercosul. Sua redução negociada entre os membros é uma decisão típica do funcionamento de uma união aduaneira. Gabarito: C."
+    },
+    {
+      "id": "2022_63",
+      "resolucao": "Na monarquia cristã medieval, a assistência aos famintos era entendida como parte das responsabilidades do governante. Mesmo quando descrita como caridade pessoal, a ação tinha origem na função pública atribuída à realeza. Gabarito: B."
+    },
+    {
+      "id": "2022_64",
+      "resolucao": "O intemperismo e a erosão atuam sobre materiais gerados por processos internos da Terra. Em áreas de atividade vulcânica, a decomposição de rochas ricas em minerais pode originar solos vulcânicos férteis. Gabarito: A."
+    },
+    {
+      "id": "2022_65",
+      "resolucao": "A charge denuncia a violência extrema contra mulheres, que culmina no feminicídio. A conduta social representada é a prática de assassinato de mulheres motivado por violência de gênero. Gabarito: B."
+    },
+    {
+      "id": "2022_66",
+      "resolucao": "Os textos mostram que a educação feminina foi historicamente limitada por concepções que subordinavam os corpos e as capacidades das mulheres. A crítica contrapõe essa dominação à igualdade humana, contestando a restrição de conhecimentos com base no gênero. Gabarito: C."
+    },
+    {
+      "id": "2022_67",
+      "resolucao": "A ocupação do terreno e a reivindicação de moradia mobilizaram o poder público para efetivar um direito previsto no artigo 6º da Constituição. A estratégia do movimento social busca garantir o preceito constitucional da moradia. Gabarito: D."
+    },
+    {
+      "id": "2022_68",
+      "resolucao": "O texto e o mapa identificam regiões consideradas pouco integradas às regras da ordem econômica internacional. A preocupação dos Estados Unidos revela uma estratégia de ampliar sua influência econômica sobre esses territórios. Gabarito: D."
+    },
+    {
+      "id": "2022_69",
+      "resolucao": "Putin justificou a anexação da Crimeia recorrendo à ideia de que a população e a história da região estariam ligadas à Rússia. O argumento associa identidade linguística e cultural à defesa de uma mesma autoridade estatal. Gabarito: A."
+    },
+    {
+      "id": "2022_70",
+      "resolucao": "A interseccionalidade analisa como diferentes formas de desigualdade se cruzam. Os dados indicam que raça e gênero combinados intensificam a discriminação vivida por determinados grupos. Gabarito: A."
+    },
+    {
+      "id": "2022_71",
+      "resolucao": "O Estado de direito exige que governantes e cidadãos estejam submetidos às leis. Suprimir eleições de representantes políticos compromete a participação democrática e viola esse princípio. Gabarito: A."
+    },
+    {
+      "id": "2022_72",
+      "resolucao": "O deslocamento diário entre a residência e o local de trabalho, com retorno ao fim do expediente, é chamado movimento pendular. Não envolve mudança definitiva de domicílio. Gabarito: D."
+    },
+    {
+      "id": "2022_73",
+      "resolucao": "A comemoração do Primeiro de Maio reuniu trabalhadores em torno de reivindicações e símbolos comuns. A data ajudou a construir uma identidade coletiva para a classe operária. Gabarito: B."
+    },
+    {
+      "id": "2022_74",
+      "resolucao": "A energia solar disponível depende da quantidade de radiação que chega à superfície. Regiões com menor nebulosidade recebem mais insolação direta ao longo do ano e apresentam maior potencial fotovoltaico. Gabarito: C."
+    },
+    {
+      "id": "2022_75",
+      "resolucao": "A narrativa Kambeba associa o rio à origem, à memória e aos ensinamentos transmitidos entre gerações. O rio é apresentado como patrimônio cultural e afetivo, não apenas como recurso natural. Gabarito: E."
+    },
+    {
+      "id": "2022_76",
+      "resolucao": "A descrição do trabalho coletivo no açude mostra trabalhadores transformando o espaço para enfrentar a seca e criar condições de ocupação e sobrevivência. Eles atuam na formação de novos espaços. Gabarito: D."
+    },
+    {
+      "id": "2022_77",
+      "resolucao": "O discurso médico sobre as doenças nas colônias também atendia aos interesses dos proprietários e das elites, preocupados com a conservação da mão de obra escravizada e com a economia colonial. Gabarito: A."
+    },
+    {
+      "id": "2022_78",
+      "resolucao": "A distância real entre os pontos é de milhares de quilômetros, enquanto no mapa mede 2 cm. Convertendo a distância real para centímetros e dividindo por 2, obtém-se uma escala aproximada de 1:125 000 000. Gabarito: E."
+    },
+    {
+      "id": "2022_79",
+      "resolucao": "O objeto artesanal incorpora as experiências, técnicas e escolhas de quem o produziu e utilizou. Seu valor patrimonial inclui as habilidades artísticas e culturais dos sujeitos envolvidos em sua história. Gabarito: A."
+    },
+    {
+      "id": "2022_80",
+      "resolucao": "A filosofia grega se desenvolveu no ambiente político da pólis, onde a argumentação pública ganhou importância. Os sofistas ensinavam retórica, habilidade essencial à participação nos debates e à vida política da cidade. Gabarito: C."
+    },
+    {
+      "id": "2022_81",
+      "resolucao": "O Departamento de Imprensa e Propaganda controlava a relação entre governo e imprensa, inclusive condicionando recursos e importação de papel. Esse mecanismo permitia censurar conteúdos e cercear a liberdade de expressão. Gabarito: D."
+    },
+    {
+      "id": "2022_82",
+      "resolucao": "A distribuição geológica indicada no mapa está associada a formações antigas e estruturas favoráveis à concentração de minérios. Por isso, a região apresenta potencial para jazidas de minerais metálicos. Gabarito: B."
+    },
+    {
+      "id": "2022_83",
+      "resolucao": "As irmãs não receberam nacionalidade libanesa nem síria, pois as leis dos dois países impediam seu registro nas condições familiares descritas. Pessoas sem nacionalidade reconhecida por nenhum Estado são apátridas. Gabarito: B."
+    },
+    {
+      "id": "2022_84",
+      "resolucao": "Os autores defendem que a pintura e o cinema produzem conhecimento por meio da percepção e das imagens. O olhar, portanto, não é apenas contemplação: constitui uma experiência sensível de conhecimento. Gabarito: C."
+    },
+    {
+      "id": "2022_85",
+      "resolucao": "As regras que organizam a procissão e o auto de fé disciplinam os comportamentos do público e dos participantes. O ritual público de punição também funciona como mecanismo de produção de padrões de conduta. Gabarito: D."
+    },
+    {
+      "id": "2022_86",
+      "resolucao": "Empédocles procura explicar a origem e a transformação do mundo por meio dos quatro elementos e das forças de Amor e Ódio. A questão da arché está ligada à explicação cosmogônica da constituição do universo. Gabarito: C."
+    },
+    {
+      "id": "2022_87",
+      "resolucao": "A concentração de atividades econômicas nas metrópoles atrai população do campo em busca de trabalho e serviços. Esse êxodo rural contribui para a macrocefalia urbana e para o crescimento desordenado das cidades. Gabarito: B."
+    },
+    {
+      "id": "2022_88",
+      "resolucao": "Sêneca, ligado ao estoicismo, defende serenidade diante da morte e das adversidades. A filosofia deve moderar as paixões e permitir que a razão oriente a vida, mesmo em situações difíceis. Gabarito: E."
+    },
+    {
+      "id": "2022_89",
+      "resolucao": "O texto destaca os conhecimentos astronômicos e matemáticos dos povos indígenas americanos, como os maias. Essas realizações demonstram heranças culturais construídas por saberes próprios, anteriores à conquista europeia. Gabarito: C."
+    },
+    {
+      "id": "2022_90",
+      "resolucao": "A produção das panelas de barro mantém técnicas, conhecimentos e relações comunitárias transmitidas entre gerações. A continuidade desse fazer tradicional contribui para a manutenção dos modos de vida locais. Gabarito: A."
+    },
+    {
+      "id": "2022_91",
+      "resolucao": "O TCE é degradado por espécies reativas derivadas do persulfato. Nesse processo há transferência de elétrons entre as espécies químicas: o contaminante é oxidado e o agente oxidante é reduzido. Trata-se, portanto, de uma reação de oxirredução. Gabarito: A."
+    },
+    {
+      "id": "2022_92",
+      "resolucao": "Filariose e leishmaniose são transmitidas por insetos vetores. Embora os agentes causadores sejam diferentes, interromper a transmissão exige reduzir o contato com esses vetores e controlar suas populações. Gabarito: D."
+    },
+    {
+      "id": "2022_93",
+      "resolucao": "A potência elétrica é a irradiância multiplicada pela área e pela eficiência: P = I·A·η. Assim, A = 150 000 000/(1 500·0,20) = 500 000 m². Gabarito: B."
+    },
+    {
+      "id": "2022_94",
+      "resolucao": "O ácido clorídrico reage com o cianeto liberando cianeto de hidrogênio, gás extremamente tóxico. Já o ácido nítrico concentrado é forte agente oxidante e reage vigorosamente com a sacarose. Gabarito: A."
+    },
+    {
+      "id": "2022_95",
+      "resolucao": "Pela regra da mão direita, o campo magnético ao redor de um fio retilíneo forma circunferências. Com o polegar apontando no sentido da corrente (para cima), os dedos indicam o sentido do campo em cada posição; as bússolas se alinham tangencialmente a essas linhas. Gabarito: D."
+    },
+    {
+      "id": "2022_96",
+      "resolucao": "Com a pele molhada, a resistência do corpo é aproximadamente 1 kΩ. Para provocar a parada respiratória indicada no quadro, a corrente precisa alcançar o intervalo de risco; pela lei de Ohm, isso depende da tensão resultante entre A e B. A associação correta é a que soma as tensões das duas baterias em série. Gabarito: A."
+    },
+    {
+      "id": "2022_97",
+      "resolucao": "A separação dos hexafluoretos ocorre porque as moléculas de UF₆ com urânio-235 e urânio-238 têm massas diferentes. A centrifugação explora essa diferença de massa, separando parcialmente os componentes por ação centrífuga. Gabarito: B."
+    },
+    {
+      "id": "2022_98",
+      "resolucao": "O vetor viral entrega às células da retina uma cópia funcional do gene RPE65. Com o gene normal presente, a célula pode expressá-lo e produzir a enzima que estava ausente ou defeituosa. A terapia não altera todo o código genético nem injeta diretamente a proteína pronta. Gabarito: E."
+    },
+    {
+      "id": "2022_99",
+      "resolucao": "Uma espécie exótica invasora pode ocupar o espaço e os recursos utilizados pelas espécies nativas. Ao expandir-se pela vegetação original, a jaqueira reduz habitats e pode substituir parte da flora local, diminuindo a biodiversidade. Gabarito: A."
+    },
+    {
+      "id": "2022_100",
+      "resolucao": "No lançamento horizontal, o tempo de queda é obtido por h = gt²/2: 1 = 5t², logo t = √0,2 s. A velocidade horizontal é 3/t. No lançamento vertical, essa mesma velocidade inicial alcança altura máxima v²/(2g), resultando em 2,25 m. Gabarito: B."
+    },
+    {
+      "id": "2022_101",
+      "resolucao": "A queda de sacarose após o corte é proporcional à concentração de microrganismos: a perda prevista em dez horas depende do produto entre a taxa de deterioração e o tempo. Deve-se comparar, para cada variedade, o teor inicial menos a perda associada à carga microbiana; a amostra que conserva mais sacarose é a RB92. Gabarito: C."
+    },
+    {
+      "id": "2022_102",
+      "resolucao": "A PCR convencional amplifica DNA, mas o coronavírus possui RNA como material genético. Antes da amplificação, a transcriptase reversa converte o RNA viral em DNA complementar (cDNA), que pode então ser copiado pela polimerase. Gabarito: E."
+    },
+    {
+      "id": "2022_103",
+      "resolucao": "No limite do escorregamento, a força de atrito estático atinge seu valor máximo e atua paralelamente ao piso, em sentido contrário à tendência de movimento. O diagrama correto deve representar peso vertical para baixo, normal perpendicular ao piso e atrito horizontal contrário ao deslizamento. Gabarito: E."
+    },
+    {
+      "id": "2022_104",
+      "resolucao": "A eritropoietina estimula a produção de hemácias. Com mais glóbulos vermelhos e hemoglobina circulante, aumenta a capacidade do sangue de transportar oxigênio dos pulmões para os músculos durante o exercício. Gabarito: E."
+    },
+    {
+      "id": "2022_105",
+      "resolucao": "As duas colisões duram o mesmo intervalo, mas na barreira de pneus o carro retorna com velocidade em sentido contrário, sofrendo maior variação de quantidade de movimento e, portanto, maior força média. Os blocos absorvem mais energia mecânica, pois o carro não retorna e sua energia cinética é dissipada na deformação. Gabarito: A."
+    },
+    {
+      "id": "2022_106",
+      "resolucao": "A urina tem pH entre 5 e 7. Nesse meio, os grupos funcionais da penicilamina assumem os estados de protonação/desprotonação determinados por seus pKa; a estrutura predominante é a forma zwitteriônica indicada na alternativa C. Gabarito: C."
+    },
+    {
+      "id": "2022_107",
+      "resolucao": "O íon H⁺ participa do mecanismo da hidrólise dos polissacarídeos, oferecendo uma rota reacional de menor energia de ativação. Ele atua como catalisador ácido, acelerando a reação sem alterar a constante de equilíbrio. Gabarito: C."
+    },
+    {
+      "id": "2022_108",
+      "resolucao": "Na titulação, o ácido tartárico é diprótico: cada mol de ácido reage com dois mols de NaOH. Foram usados 0,10 × 0,008 = 8,0 × 10⁻⁴ mol de base; isso corresponde à metade em mols de ácido em 25,0 mL. A concentração é aproximadamente 0,016 mol/L, valor mais próximo da alternativa B. Gabarito: B."
+    },
+    {
+      "id": "2022_109",
+      "resolucao": "O iodo-131 tem meia-vida de aproximadamente oito dias. Em 40 dias decorrem cerca de cinco meias-vidas; a massa cai de 12 µg para 12/2⁵ = 0,375 µg, aproximadamente 0,4 µg. Gabarito: D."
+    },
+    {
+      "id": "2022_110",
+      "resolucao": "As espécies descritas usam estratégias distintas: muitas células reprodutivas e pouco cuidado parental, ou menos gametas e maior proteção dos embriões. A seleção natural pode favorecer qualquer uma dessas estratégias conforme o ambiente; o sucesso reprodutivo não depende de um único padrão. Gabarito: D."
+    },
+    {
+      "id": "2022_111",
+      "resolucao": "A energia diária gerada pela placa acompanha a duração da insolação. O gráfico apresenta máximos e mínimos sazonais que se invertem ao longo do ano, padrão característico de uma localização próxima ao Trópico de Capricórnio no hemisfério sul. Gabarito: A."
+    },
+    {
+      "id": "2022_112",
+      "resolucao": "No ponto mais baixo, a velocidade do balanço é máxima. Pela conservação da energia, a queda de 24 kg a partir da posição horizontal produz v² = 2gL; a tensão total nas duas cordas precisa sustentar o peso e fornecer a força centrípeta. Aplicando o fator de segurança de 25%, obtém-se 450 N. Gabarito: D."
+    },
+    {
+      "id": "2022_113",
+      "resolucao": "O filme nanocerâmico recobre o ferro e dificulta que água e oxigênio cheguem à superfície metálica. É uma proteção por barreira física, diferente da proteção catódica ou do uso de metal de sacrifício. Gabarito: D."
+    },
+    {
+      "id": "2022_114",
+      "resolucao": "Em meio hipotônico, a água entra na célula por osmose. O vacúolo absorve água, aumenta de volume e o pigmento fica mais diluído; a parede celular impede que a célula vegetal se rompa. Gabarito: C."
+    },
+    {
+      "id": "2022_115",
+      "resolucao": "A variação de temperatura é inversamente proporcional ao calor específico, para a mesma massa e energia absorvida: ΔT = Q/(m·c). Como o calor específico do concreto é menor que o da água, o concreto sofre maior aquecimento; a razão entre as amplitudes calculadas é 2,1. Gabarito: B."
+    },
+    {
+      "id": "2022_116",
+      "resolucao": "A potência térmica necessária para aquecer a vazão máxima é P = ṁ·c·ΔT. Dividindo a potência pela tensão de 220 V, obtém-se a corrente máxima do chuveiro; o disjuntor deve ser o múltiplo de 5 A imediatamente superior, 30 A. Gabarito: B."
+    },
+    {
+      "id": "2022_117",
+      "resolucao": "O mármore é carbonato de cálcio. Carbonatos reagem com ácidos liberando dióxido de carbono: CaCO₃ + 2 HCl → CaCl₂ + H₂O + CO₂. Gabarito: C."
+    },
+    {
+      "id": "2022_118",
+      "resolucao": "A atrazina provoca desmasculinização e alterações sexuais em sapos machos. O hormônio associado à masculinização e à função reprodutiva masculina é a testosterona, cuja concentração é afetada pelo herbicida. Gabarito: C."
+    },
+    {
+      "id": "2022_119",
+      "resolucao": "Uma pilha invertida se opõe às outras duas. Assim, a força eletromotriz resultante é 1,5 V. A resistência da lâmpada é R = V²/P = 4,5²/4,5 = 4,5 Ω; somando as resistências internas das três pilhas (3 × 0,5 = 1,5 Ω), a resistência total é 6 Ω. Pela lei de Ohm, I = 1,5/6 = 0,25 A. Gabarito: A."
+    },
+    {
+      "id": "2022_120",
+      "resolucao": "A catalase é uma proteína cuja atividade depende da forma tridimensional de seu sítio ativo. Temperaturas elevadas podem desnaturar a enzima, alterando sua conformação e reduzindo sua capacidade catalítica. Gabarito: E."
+    },
+    {
+      "id": "2022_121",
+      "resolucao": "Para combater o fungo sem prejudicar as bactérias da microbiota, é necessário escolher o antimicrobiano que atue sobre uma estrutura ou processo próprio dos fungos, ausente nas bactérias. A opção 2 apresenta essa seletividade. Gabarito: B."
+    },
+    {
+      "id": "2022_122",
+      "resolucao": "A molécula atua modulando a coagulação sanguínea. Ao reduzir a formação de coágulos, pode prevenir trombos que obstruem vasos, como os associados a alguns acidentes vasculares cerebrais isquêmicos. Gabarito: A."
+    },
+    {
+      "id": "2022_123",
+      "resolucao": "A gravidade externa depende da massa do Sol e da distância ao seu centro. Como o buraco negro teria a mesma massa solar e os planetas permaneceriam à mesma distância, a força gravitacional e as órbitas continuariam essencialmente iguais. Gabarito: E."
+    },
+    {
+      "id": "2022_124",
+      "resolucao": "O ozônio é uma espécie química oxidante: reage com outras substâncias, promovendo sua oxidação. Essa propriedade explica seu uso como agente de desinfecção, embora também possa causar danos a tecidos vivos. Gabarito: B."
+    },
+    {
+      "id": "2022_125",
+      "resolucao": "A inativação aleatória de um dos cromossomos X faz com que diferentes grupos de células expressem alelos distintos. Em mulheres heterozigotas, isso pode gerar diferentes intensidades de manifestação de uma característica, fenômeno chamado expressividade variável. Gabarito: E."
+    },
+    {
+      "id": "2022_126",
+      "resolucao": "Na decantação, a ação da gravidade faz com que os flocos e partículas suspensas, mais densos, se depositem no fundo do tanque. É nessa etapa que se retira grande parte dos sólidos antes da filtração. Gabarito: B."
+    },
+    {
+      "id": "2022_127",
+      "resolucao": "A termogenina permite o retorno de prótons à matriz mitocondrial sem passar pela ATP sintase. Ela desacopla o gradiente de prótons da produção de ATP, dissipando energia na forma de calor durante a fosforilação oxidativa. Gabarito: E."
+    },
+    {
+      "id": "2022_128",
+      "resolucao": "Pela analogia com a lei de Ohm, a resistência de cada rota é R = U/i. Calculando essa razão para as três vias e ordenando do menor para o maior valor, obtém-se a sequência 1, 2, 3. Gabarito: A."
+    },
+    {
+      "id": "2022_129",
+      "resolucao": "A diminuição do pH aumenta a disponibilidade de H⁺ no solo. O equilíbrio entre amônia e íon amônio desloca-se para a forma protonada NH₄⁺ em meio mais ácido. Gabarito: C."
+    },
+    {
+      "id": "2022_130",
+      "resolucao": "Os bastonetes são células fotorreceptoras muito sensíveis à intensidade luminosa e permitem visão em baixa luminosidade. Maior sensibilidade significa que o animal consegue enxergar melhor em ambientes pouco iluminados. Gabarito: C."
+    },
+    {
+      "id": "2022_131",
+      "resolucao": "Os compostos aromáticos apresentados compartilham um anel benzênico, estrutura cíclica com elétrons π deslocalizados. A classificação moderna se baseia nessa característica eletrônica, e não no cheiro da substância. Gabarito: C."
+    },
+    {
+      "id": "2022_132",
+      "resolucao": "A bactéria Wolbachia e o vírus precisam utilizar recursos celulares do mosquito para se multiplicar. A presença da bactéria reduz a replicação viral por competição por recursos no interior do hospedeiro. Gabarito: D."
+    },
+    {
+      "id": "2022_133",
+      "resolucao": "O protozoário modificado apresenta ao sistema imune um antígeno associado às células tumorais. Isso ativa uma resposta adaptativa específica contra esse antígeno, permitindo que as defesas reconheçam e ataquem células que o expressem. Gabarito: D."
+    },
+    {
+      "id": "2022_134",
+      "resolucao": "O som chega primeiro pelo meio em que sua velocidade é maior, a água. A diferença entre os tempos de chegada nos dois detectores é determinada por L/340 − L/1540; usando o intervalo indicado no gráfico, calcula-se uma distância próxima de 5 240 m. Gabarito: D."
+    },
+    {
+      "id": "2022_135",
+      "resolucao": "A água no interior da garrafa desvia os raios luminosos ao passarem do ar para a água e novamente para o ar. Essa mudança de direção ocorre pela refração, que espalha a luz pelo interior da residência. Gabarito: E."
+    },
+    {
+      "id": "2022_136",
+      "resolucao": "A velocidade zera quando T² − 4 = 0, isto é, quando a temperatura registrada assume T = 2 ou T = −2. No gráfico, contam-se cinco ocorrências em que a curva atinge um desses valores durante as dez horas. Gabarito: E."
+    },
+    {
+      "id": "2022_137",
+      "resolucao": "Como cada partida tem chances iguais para os dois times, a série é simétrica. A equipe que vence a primeira partida fica a uma vitória de vantagem; somando os casos em que ela consegue completar quatro vitórias antes do adversário, a probabilidade de o campeão ser justamente o vencedor do primeiro jogo é 21/32. Gabarito: C."
+    },
+    {
+      "id": "2022_138",
+      "resolucao": "Para cada mês, calcula-se o lucro subtraindo as despesas das receitas e mantêm-se apenas os valores positivos. Depois, ordenam-se os lucros e toma-se o valor central; a mediana obtida no gráfico é R$ 3,0 milhões. Gabarito: D."
+    },
+    {
+      "id": "2022_139",
+      "resolucao": "Na escala 1:50, as medidas de 3,8 cm por 1,6 cm correspondem a 190 cm por 80 cm na cozinha real. Reservando 10 cm na parte superior e 10 cm em cada lateral, o refrigerador pode ter no máximo 1,80 m de altura e 0,60 m de largura. Gabarito: A."
+    },
+    {
+      "id": "2022_140",
+      "resolucao": "A equipe que chega à final pode disputar três partidas na fase de grupos e quatro eliminatórias: sete jogos. Entre partidas consecutivas, precisa haver ao menos três dias completos de descanso; distribuindo os sete jogos com esses intervalos, o torneio exige 25 dias. Gabarito: B."
+    },
+    {
+      "id": "2022_141",
+      "resolucao": "Os quatro primeiros números já sorteados são marcados na cartela. Para cada possível sequência de novos sorteios, verifica-se quando se completa pela primeira vez uma das linhas, colunas ou diagonais vencedoras; a contagem das sequências favoráveis, respeitando que os números não retornam ao sorteio, leva à alternativa E. Gabarito: E."
+    },
+    {
+      "id": "2022_142",
+      "resolucao": "Há 7 modelos e 2 motorizações, totalizando 14 combinações. Os três opcionais podem ser escolhidos em qualquer subconjunto, inclusive nenhum, o que gera 2³ = 8 combinações. São 14 × 8 = 112 configurações sem considerar cores; 8 cores dariam 896, enquanto 9 cores geram 1 008. Gabarito: B."
+    },
+    {
+      "id": "2022_143",
+      "resolucao": "Ao planificar o cubo, as três faces pintadas precisam permanecer adjacentes em torno do mesmo vértice, e cada região cinza ocupa um quarto de sua face. Ao dobrar mentalmente as opções, somente a planificação D recompõe essa disposição espacial. Gabarito: D."
+    },
+    {
+      "id": "2022_144",
+      "resolucao": "O dígito verificador é obtido pela soma ponderada dos quatro algarismos, usando os pesos 5, 4, 3 e 2. Em seguida, calcula-se o resto da divisão por 11 e subtrai-se esse resto de 11; para o número apresentado, o resultado corresponde à alternativa C. Gabarito: C."
+    },
+    {
+      "id": "2022_145",
+      "resolucao": "A comparação deve manter constante a proporção entre gemas e moedas do pacote básico. Primeiro determina-se a quantidade total de gemas do pacote especial em relação a dois pacotes básicos; depois aplica-se a mesma razão às moedas e subtrai-se a quantidade que já estaria incluída nos dois pacotes básicos. Gabarito: E."
+    },
+    {
+      "id": "2022_146",
+      "resolucao": "Sejam x e y os comprimentos dos circuitos maior e menor. Do enunciado: 3x + 2y = 1 800 e 2x + y = 1 100, resultando em x = 400 m e y = 300 m. Para totalizar 5 000 m com o maior número de voltas, usa-se 2 voltas no circuito maior e 14 no menor: 16 voltas. Gabarito: E."
+    },
+    {
+      "id": "2022_147",
+      "resolucao": "Na rede A, 10% de 3 000 clicam e 3% desses compram: são 9 vendas por R$ 100 investidos. Na rede B, calcula-se do mesmo modo a quantidade de vendas a partir dos percentuais de cliques e conversão e compara-se o custo por venda. O desempenho enquadra-se na classificação “bom”. Gabarito: C."
+    },
+    {
+      "id": "2022_148",
+      "resolucao": "Pela lei de Stefan-Boltzmann, L é proporcional a R²T⁴. Como E tem metade do raio e o dobro da temperatura de F, LE/LF = (1/2)² × 2⁴ = 4. A luminosidade de E é quatro vezes a de F. Gabarito: D."
+    },
+    {
+      "id": "2022_149",
+      "resolucao": "A mediana é o valor que divide a distribuição em duas metades. Somam-se as frequências acumuladas até localizar as posições centrais da população; elas ficam entre famílias com uma e duas crianças, de modo que a mediana é 1,5. Gabarito: B."
+    },
+    {
+      "id": "2022_150",
+      "resolucao": "A altura máxima da bola é o valor do vértice da função quadrática que descreve a trajetória, somado à altura inicial de 1,5 m em relação ao piso. Comparando essa altura com o teto de cada ginásio, o saque ultrapassa o limite nos ginásios I, II, III e IV, mas não no V. Gabarito: D."
+    },
+    {
+      "id": "2022_151",
+      "resolucao": "A pessoa ingeriu 1,7 L, quantidade equivalente a 1,7 kg de água. Isso representa 140% da massa perdida; portanto, a perda foi 1,7/1,4 ≈ 1,214 kg. Como a perda média é 1,5 kg por hora, o exercício durou cerca de 0,81 hora, ou 49 minutos. Gabarito: C."
+    },
+    {
+      "id": "2022_152",
+      "resolucao": "A primeira fileira deve ficar a pelo menos 0,6L da tela, e a última pode ficar até 2,9L. Com espaçamento de 1 m entre encostos, calcula-se quantas fileiras cabem no intervalo permitido; o resultado é 28 fileiras. Gabarito: C."
+    },
+    {
+      "id": "2022_153",
+      "resolucao": "O volume do cone é proporcional ao quadrado do raio quando a altura permanece fixa. Reduzir o volume em 19% significa conservar 81% do volume inicial; o novo raio é √0,81 = 0,9 do anterior. Como o raio inicial é 4 cm, o novo mede 3,6 cm. Gabarito: C."
+    },
+    {
+      "id": "2022_154",
+      "resolucao": "Se 28 900 vagas representam uma queda de 75%, esse valor corresponde a 25% do total criado em janeiro de 2012. Logo, o total anterior era 28 900 ÷ 0,25 = 115 600 vagas. Gabarito: C."
+    },
+    {
+      "id": "2022_155",
+      "resolucao": "Em cada andar, contam-se os apartamentos cujos dois quartos recebem sol pela manhã, conforme o algarismo final do número. Multiplicando a quantidade correspondente por andar pelos nove andares e aplicando as condições do enunciado, obtém-se a contagem indicada na alternativa B. Gabarito: B."
+    },
+    {
+      "id": "2022_156",
+      "resolucao": "As duas dobras reduzem o papel a um quarto do quadrado original. O recorte feito no papel dobrado é reproduzido por simetria ao desdobrar: cada dobra espelha o arco em relação à linha de vinco. A alternativa C é a única que apresenta todas as cópias simétricas do recorte na posição correta. Gabarito: C."
+    },
+    {
+      "id": "2022_158",
+      "resolucao": "O modelo fornece a quantidade de infectados em cada mês. Deve-se localizar o mês em que p(t) atinge seu maior valor e escolher a proposta de divulgação cujo intervalo inclui esse mês; no gráfico, esse período é o III. Gabarito: C."
+    },
+    {
+      "id": "2022_159",
+      "resolucao": "A sequência dos treinos e repousos é periódica. Como 24 semanas correspondem a três ciclos de oito semanas, a programação recomeça no mesmo ponto do ciclo; a sequência correspondente é a alternativa B. Gabarito: B."
+    },
+    {
+      "id": "2022_160",
+      "resolucao": "O robô percorre centros de faces do cubo, alternando curvas à esquerda e à direita. Para obter a projeção ortogonal sobre a base, cada trecho é projetado verticalmente no plano inferior; a trajetória resultante corresponde à alternativa A. Gabarito: A."
+    },
+    {
+      "id": "2022_161",
+      "resolucao": "A escala 1:50 transforma cada centímetro da planta em 50 cm reais. Divide-se a varanda em dois retângulos, calcula-se a área de cada um já convertida para metros e soma-se, sem contar duas vezes a região de encontro do L. A área total é 33,40 m². Gabarito: A."
+    },
+    {
+      "id": "2022_162",
+      "resolucao": "Usa-se a tendência linear indicada no gráfico para projetar as vendas de cada setor até o trigésimo dia. Somando os valores projetados, compara-se o total com a meta de R$ 77 000; a diferença que ainda faltará será R$ 11 000. Gabarito: C."
+    },
+    {
+      "id": "2022_163",
+      "resolucao": "Após o reajuste, cada mestre recebe R$ 10 000. Para que a média de 100 docentes não ultrapasse R$ 12 240, a soma dos salários deve ser no máximo R$ 1 224 000. Assim, 60 × 10 000 + 40 × 12 000(1 + x) = 1 224 000, de onde x = 0,30, ou 30%. Gabarito: D."
+    },
+    {
+      "id": "2022_164",
+      "resolucao": "Em 60 dias há 60 × 24 × 60 minutos. Como o aparelho dispara a cada 48 minutos, ocorrem 1 800 acionamentos. Dividindo 360 mL por 1 800, cada acionamento libera 0,200 mL. Gabarito: B."
+    },
+    {
+      "id": "2022_165",
+      "resolucao": "Dois anos do planeta Z equivalem a 365 dias terrestres; portanto, um ano de Z equivale a 182,5 dias terrestres. Como cada dia de Z dura 73 dias terrestres, seu ano tem 182,5 ÷ 73 = 2,5 dias z. Gabarito: A."
+    },
+    {
+      "id": "2022_166",
+      "resolucao": "Cada ultrapassagem ocorre quando a curva de distância do carro que estava atrás cruza a curva de um concorrente e passa a ficar acima dela. Contando as interseções correspondentes ao veículo que termina em último lugar, há uma ultrapassagem. Gabarito: A."
+    },
+    {
+      "id": "2022_167",
+      "resolucao": "O preço normal é R$ 1 100,00. Com desconto de 2%, o cartão resulta em 1 100 × 0,98 = R$ 1 078,00. A cliente estimou R$ 1 080,00; portanto, o valor da loja é R$ 2,00 menor. Gabarito: A."
+    },
+    {
+      "id": "2022_168",
+      "resolucao": "Percorre-se o trajeto destacado cruzamento a cruzamento, registrando D quando há conversão à direita, E à esquerda e F quando se segue em frente. A sequência obtida é DFEFDDEEFFD. Gabarito: C."
+    },
+    {
+      "id": "2022_169",
+      "resolucao": "O volume de cada caixa cilíndrica é a área da base multiplicada pela profundidade. Comparando os fatores relativos ao modelo I, os modelos II e IV mantêm o volume, o III fica com metade e o V fica com o dobro; portanto, o modelo V tem maior capacidade. Gabarito: E."
+    },
+    {
+      "id": "2022_170",
+      "resolucao": "A rentabilidade anual é a razão entre o aluguel mensal e o valor de mercado do imóvel. Calculando essa razão para cada ano com os dados dos dois gráficos, o maior quociente ocorre em 2007. Gabarito: B."
+    },
+    {
+      "id": "2022_171",
+      "resolucao": "Para obter média de 18 pontos em cinco partidas, cada jogador precisa somar 90 pontos. Subtrai-se de 90 a pontuação acumulada nos quatro jogos de cada atleta; o jogador I é o que precisa de menos pontos na partida final. Gabarito: A."
+    },
+    {
+      "id": "2022_172",
+      "resolucao": "O volume de cada piscina deve ser 90 m³. Para cada projeto, calcula-se a área do fundo mais as quatro paredes: A = comprimento × largura + 2 × profundidade × (comprimento + largura). Comparando as áreas, o projeto II exige o menor revestimento. Gabarito: B."
+    },
+    {
+      "id": "2022_173",
+      "resolucao": "Para cada curso, multiplica-se o número de vagas pela relação de candidatos por vaga. Somando os candidatos estimados em todos os cursos, chega-se a 1 235 inscritos. Gabarito: D."
+    },
+    {
+      "id": "2022_174",
+      "resolucao": "O volume do cilindro é π × 4² × 50 = 800π cm³. Cada esfera tem raio 0,5 cm e volume (4/3)π(0,5)³ = π/6 cm³. A divisão 800π ÷ (π/6) resulta em 4 800 esferas. Gabarito: D."
+    },
+    {
+      "id": "2022_175",
+      "resolucao": "Um bilhão corresponde a 1 000 000 000. Multiplicando por 1,35, obtém-se 1 350 000 000; esse é o número escrito com todos os algarismos. Gabarito: E."
+    },
+    {
+      "id": "2022_176",
+      "resolucao": "Para cada ponto de conexão sugerido, somam-se os trechos das duas rodovias até as cidades. A escolha deve minimizar a soma das distâncias, e a comparação das alternativas indica o ponto IV. Gabarito: D."
+    },
+    {
+      "id": "2022_177",
+      "resolucao": "O custo total de cada operário é a soma do pagamento pelas horas de serviço com o gasto de transporte durante os dias necessários. Calculando os cinco totais, a menor despesa corresponde ao operário I. Gabarito: A."
+    },
+    {
+      "id": "2022_178",
+      "resolucao": "Ao dobrar o diâmetro de uma esfera, seu volume fica oito vezes maior. Cada docinho de 4 cm consome a massa de oito docinhos de 2 cm; 150 unidades grandes equivalem a 1 200 pequenas. Como cada porção produz 50 pequenas, são necessárias 1 200/50 = 24 porções. Gabarito: E."
+    },
+    {
+      "id": "2022_179",
+      "resolucao": "Se o valor de 2013 é a média entre 2012 e 2014, então 2014 = 2 × 2013 − 2012. Substituindo os valores do gráfico, obtém-se 74,51 anos. Gabarito: B."
+    },
+    {
+      "id": "2022_180",
+      "resolucao": "Na projeção ortogonal sobre um plano paralelo ao Equador, os trechos percorridos ao longo dos meridianos projetam-se radialmente em direção ao centro, enquanto os trechos sobre o Equador permanecem na circunferência. A configuração que representa as duas trajetórias é a alternativa E. Gabarito: E."
     }
   ],
   "playlistUrl": "https://www.youtube.com/watch?v=d0TX4nJ84as&list=PLbF-o82pLqTKfmA9pkAUUQPLgO4uMnwK5"
