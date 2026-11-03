@@ -122,7 +122,7 @@ function sanitizarEnunciado(html) {
                 let urlSegura = null;
                 try {
                     const url = new URL(origem, document.baseURI);
-                    const hostPermitido = url.hostname === 'enem.dev' || url.hostname.endsWith('.enem.dev');
+                    const hostPermitido = url.hostname === 'enem.dev' || url.hostname.endsWith('.enem.dev') || (url.hostname === 'enempratica.com' && url.pathname.startsWith('/provas/'));
                     if (url.origin === location.origin || (url.protocol === 'https:' && hostPermitido)) {
                         urlSegura = url.href;
                     }
@@ -168,7 +168,7 @@ function caminhoImagemSeguro(caminho) {
 }
 
 // Inicialização dos anos disponíveis.
-for (let ano = 2023; ano >= 2009; ano--) {
+for (let ano = 2025; ano >= 2009; ano--) {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'year-btn';

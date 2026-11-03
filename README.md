@@ -43,3 +43,18 @@ npx serve
 ## 📄 Licença
 
 Projeto de estudo para preparação ao ENEM.
+
+## 📚 Atualização do banco (2024–2025)
+
+- ENEM 2024: 174 questões importadas.
+- ENEM 2025: 168 questões importadas.
+- Mantidos os IDs por ano e o formato JSON consumido pelo site.
+- Excluídas as cinco questões de língua estrangeira, seguindo o padrão adotado no banco de 2023, e os itens anulados.
+- Gabaritos conferidos com os gabaritos oficiais do caderno azul do INEP; o campo de gabarito da extração estruturada não foi usado como fonte de verdade.
+- Imagens recuperadas para questões ausentes são carregadas de `enempratica.com/provas/`; os demais itens com imagem mantêm a descrição visual textual quando disponível.
+
+Fontes:
+- [INEP — Provas e gabaritos 2024](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2024)
+- [INEP — Provas e gabaritos 2025](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2025)
+- [Extração estruturada de questões ENEM](https://github.com/GustavoDMentz/Simulador-enem)
+- [Enem na Prática — banco de questões e gabaritos](https://enempratica.com/questoes-enem)
