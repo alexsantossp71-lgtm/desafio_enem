@@ -70,10 +70,11 @@ function mostrarRevisao(q,registro,solucao=null){
  const options=document.createElement('ol');options.className='review-options';
  const alternatives=Array.isArray(q.alternativas)?q.alternativas:[];
  const missingAlternatives=[];
- alternatives.forEach((alt,i)=>{if(!String(alt??'').trim()){missingAlternatives.push(String.fromCharCode(65+i));return}const li=document.createElement('li');if(typeof adicionarConteudoAlternativa==='function')adicionarConteudoAlternativa(li,alt,i);else li.textContent=String.fromCharCode(65+i)+') '+alt;if(i===q.correta)li.className='review-correct-option';options.appendChild(li)});
+ alternatives.forEach((alt,i)=>{if(!String(alt??'').trim()){missingAlternatives.push(String.fromCharCode(65+i));return}const li=document.createElement('li');if(typeof adicionarConteudoAlternativa==='function')adicionarConteudoAlternativa(li,alt,i);else li.textContent=String.fromCharCode(65+i)+') '+alt;const classes=[];if(i===q.correta)classes.push('review-correct-option');if(i===registro.respostaMarcada)classes.push('review-user-option');li.className=classes.join(' ');if(i===registro.respostaMarcada){li.style.outline='2px solid #4263eb';li.style.outlineOffset='2px'}options.appendChild(li)});
  if(options.children.length)body.appendChild(options);
  if(missingAlternatives.length){const note=document.createElement('p');note.className='review-note';note.textContent=options.children.length?'Alternativas ainda não cadastradas: '+missingAlternatives.join(', ')+'.':'As alternativas desta questão ainda não foram cadastradas no banco de dados.';body.appendChild(note)}
  const answer=document.createElement('p');answer.className='review-answer';answer.textContent='Gabarito: '+String.fromCharCode(65+Number(q.correta));body.appendChild(answer);
+  if(Number.isInteger(registro.respostaMarcada)){const chosen=document.createElement('p');chosen.className='review-note';chosen.textContent='Sua resposta: '+String.fromCharCode(65+registro.respostaMarcada)+(registro.respostaMarcada===q.correta?' · Você acertou!':' · Esta alternativa não era a correta.');body.appendChild(chosen)}else if(registro.respostaMarcada===null){const chosen=document.createElement('p');chosen.className='review-note';chosen.textContent='Você não marcou uma alternativa nesta questão.';body.appendChild(chosen)}
  const explanation=solucao?.resolucao||q.resolucao||q.solucao||q.explicacao||q.comentario;
  if(explanation){const section=document.createElement('section');section.className='review-explanation';const h=document.createElement('h3');h.textContent='Resolução';const p=document.createElement('p');p.textContent=String(explanation);section.append(h,p);body.appendChild(section)}
  const actions=document.createElement('div');actions.className='review-actions';
@@ -87,6 +88,20 @@ function mostrarRevisao(q,registro,solucao=null){
  overlay.addEventListener('click',e=>{if(e.target===overlay)overlay.remove()});
  const esc=e=>{if(e.key==='Escape'){overlay.remove();document.removeEventListener('keydown',esc)}};document.addEventListener('keydown',esc);close.focus();
 }
+
+
+window.abrirRevisaoDaSessao = async function(q, registro) {
+ const year=Number(registro.year);
+ if(!q||!Number.isInteger(year)){alert('Não foi possível identificar esta questão.');return}
+ let solucoes=arquivosSolucoes.get(year);
+ try{
+  if(!solucoes){
+   const response=await fetch('solucoes/enem_'+year+'.json?v=20261102-resolucoes',{cache:'no-store'});
+   if(response.ok){const data=await response.json();solucoes=new Map((data.questoes||[]).map(item=>[item.id,item]));arquivosSolucoes.set(year,solucoes)}
+  }
+  mostrarRevisao(q,{...registro,id:q.id||registro.id},solucoes?.get(q.id)||null);
+ }catch(error){console.warn('Não foi possível carregar a resolução:',error);mostrarRevisao(q,{...registro,id:q.id||registro.id},null)}
+};
 
 const AREA_LABELS={'ciencias-humanas':'Ciências Humanas','ciencias-natureza':'Ciências da Natureza',linguagens:'Linguagens',matematica:'Matemática',geral:'Geral'};
 const CHART_COLORS=['#4263eb','#12a594','#f59f00','#e64980','#7950f2','#0c8599'];
