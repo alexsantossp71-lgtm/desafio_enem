@@ -535,6 +535,86 @@
     {
       "id": "2025_147",
       "resolucao": "Em 2024, o total de matrículas foi 280 + 80 + 20 + 20 = 400. Para 2025, a previsão mantém esse total e repete a distribuição percentual de 2023. Como o francês correspondia a 10%, a estimativa é 0,10 × 400 = 40 matrículas. Gabarito: E."
+    },
+    {
+      "id": "2025_148",
+      "resolucao": "Para comparar os deslocamentos reais, multiplica-se o comprimento mostrado na tela pelo denominador da escala: I = 9 × 100 = 900 cm; II = 5 × 300 = 1 500 cm; III = 5 × 600 = 3 000 cm; IV = 3 × 700 = 2 100 cm; V = 2 × 1 000 = 2 000 cm. O maior deslocamento é o III. Gabarito: C."
+    },
+    {
+      "id": "2025_149",
+      "resolucao": "A cúpula pentagonal giralongada é formada pela união de uma cúpula pentagonal com um prisma decagonal, compartilhando uma face decagonal. A cúpula pentagonal tem 15 vértices e o prisma decagonal acrescenta 10 vértices novos, pois os dez vértices da base de contato já pertencem à cúpula. Assim, o sólido possui 15 + 10 = 25 vértices. Gabarito: B."
+    },
+    {
+      "id": "2025_150",
+      "resolucao": "A produção é proporcional ao total de horas de trabalho. Inicialmente, 3 funcionários × 6 horas = 18 horas-funcionário produzem 720 tijolos, ou 40 tijolos por hora-funcionário. Na nova configuração, 5 funcionários × 9 horas = 45 horas-funcionário. Portanto, a produção será 45 × 40 = 1 800 tijolos por dia. Gabarito: D."
+    },
+    {
+      "id": "2025_151",
+      "resolucao": "O código reúne, na ordem, andar, setor, funcionário e período do dia. O visitante vai ao 2º andar (2), setor 08 (08), funcionário 109 (109) e chegou pela manhã (0). Juntando os campos, obtém-se 2081090. Gabarito: D."
+    },
+    {
+      "id": "2025_152",
+      "resolucao": "Há 4! = 24 maneiras igualmente prováveis de devolver os quatro envelopes aos quatro candidatos. Apenas uma dessas distribuições entrega a cada pessoa o próprio envelope. Logo, a probabilidade é 1/24. Gabarito: D."
+    },
+    {
+      "id": "2025_153",
+      "resolucao": "O herói deve permanecer equidistante dos dois vilões. O conjunto dos pontos equidistantes de dois pontos fixos é a mediatriz do segmento que os une. A partir das coordenadas dos vilões no quadrado, a mediatriz tem inclinação −3 e passa pelo ponto médio correspondente, resultando em y = −3x + 20. Gabarito: A."
+    },
+    {
+      "id": "2025_154",
+      "resolucao": "Somando os estoques por gênero: ficção tem 80 + 120 = 200 livros para demanda de 160; autoajuda tem 50 + 80 = 130 para demanda de 135; romance tem 40 + 105 = 145 para demanda de 140; biografia tem 45 + 50 = 95 para demanda de 80. Apenas autoajuda apresenta estoque inferior à demanda, portanto é o gênero que precisa de reposição. Gabarito: C."
+    },
+    {
+      "id": "2025_155",
+      "resolucao": "Para presidente, há 20 pessoas disponíveis. Escolhida essa pessoa, o cônjuge não pode ocupar outro cargo, restando 18 opções para secretário. Depois, ficam excluídas as duas pessoas dos casais já representados, restando 16 opções para tesoureiro. Como os cargos são diferentes, a ordem importa: 20 × 18 × 16. Gabarito: B."
+    },
+    {
+      "id": "2025_156",
+      "resolucao": "A medida de 20 cm no desenho corresponde a 30 m na obra, isto é, 3 000 cm. A escala é a razão entre a medida no desenho e a medida real: 20/3 000 = 1/150. Portanto, a escala é 1:150. Gabarito: E."
+    },
+    {
+      "id": "2025_157",
+      "resolucao": "O enunciado informa que a concentração no dia de trabalho T é 1,59 vez a concentração no dia de folga F. Assim, T = 1,59F. Dividindo os dois lados por F, obtém-se T/F = 1,59. Gabarito: C."
+    },
+    {
+      "id": "2025_158",
+      "resolucao": "O seguro reajustado por veículo será 36 × 1,20 = R$ 43,20. Para 120 veículos, o custo com seguro será 120 × 43,20 = R$ 5 184,00. Somando a manutenção, as despesas totalizam 14 240 + 5 184 = R$ 19 424,00. Para obter lucro de R$ 10 000,00, a arrecadação deve ser R$ 29 424,00. Dividindo pelas 120 vagas ocupadas, a mensalidade será R$ 245,20. Gabarito: C."
+    },
+    {
+      "id": "2025_159",
+      "resolucao": "Como 1 cm³ corresponde a 1 mL, o pote contém 20 000 mL, ou 20 L. Cada taça recebe 250 mL. Portanto, a quantidade de porções é 20 000/250 = 80 taças. Gabarito: D."
+    },
+    {
+      "id": "2025_160",
+      "resolucao": "A função tem a forma D = k + tg[p(T + m)]. Pelo gráfico, a linha média é D = 30, então k = 30. As assíntotas consecutivas estão separadas por 2π, e a função tangente tem período π/p; logo, π/p = 2π, resultando em p = 1/2. O centro do ramo está em T = 2,5, portanto T + m = 0 nesse ponto e m = −2,5. Assim, D = 30 + tg[(1/2)(T − 5/2)]. Gabarito: E."
+    },
+    {
+      "id": "2025_162",
+      "resolucao": "O custo de produzir uma tonelada com matéria-prima virgem é R$ 10 000, pois R$ 500 corresponde a 5% desse valor. A produção total deve permanecer em 190 toneladas. Se x toneladas forem recicladas, o custo será 10 000(190 − x) + 500x = 1 900 000 − 9 500x. O custo original era 110 × 10 000 + 80 × 500 = R$ 1 140 000; reduzir pelo menos 50% exige custo máximo de R$ 570 000. Portanto, 1 900 000 − 9 500x ≤ 570 000, de onde x ≥ 140. Gabarito: B."
+    },
+    {
+      "id": "2025_169",
+      "resolucao": "A produção em toneladas é a área cultivada multiplicada pela produtividade em sacas por hectare e por 50 kg por saca, convertendo-se depois de quilogramas para toneladas. Os resultados são: 400 t; 330 t; 562,5 t; 562,5 t; e 500 t. O gráfico que apresenta essa sequência é o A. Gabarito: A."
+    },
+    {
+      "id": "2025_170",
+      "resolucao": "O volume inicial de água é 2,5 × 1,5 × 2 = 7,5 dm³, ou 7,5 L. Para manter pelo menos 5 L disponíveis, as garrafas podem deslocar no máximo 7,5 − 5 = 2,5 L. Cada garrafa desloca 0,3 L; assim, 2,5/0,3 ≈ 8,33. O maior número inteiro de garrafas é 8. Gabarito: B."
+    },
+    {
+      "id": "2025_174",
+      "resolucao": "Questão anulada oficialmente pelo INEP no Caderno 7 (Azul), 2º dia. Não há alternativa correta a registrar como gabarito definitivo."
+    },
+    {
+      "id": "2025_176",
+      "resolucao": "O jogador entrou no início do segundo tempo e atuou por 45 minutos até o fim do tempo regulamentar, percorrendo 4,5 km. Sua velocidade média foi 4,5/0,75 = 6 km/h. Na prorrogação de 30 minutos (0,5 h), percorreu mais 6 × 0,5 = 3 km. A distância total foi 4,5 + 3 = 7,5 km. Gabarito: C."
+    },
+    {
+      "id": "2025_179",
+      "resolucao": "A luminância é definida como intensidade luminosa dividida pelo quadrado da distância. A intensidade é medida em candela (cd) e a distância em metro (m); portanto, a unidade é cd/m². Gabarito: A."
+    },
+    {
+      "id": "2025_180",
+      "resolucao": "Em cada rodada, o jogador da posição 1 recebe 4 moedas do jogador da posição 4 e transfere 1 moeda ao jogador da posição 2. Seu saldo aumenta em 4 − 1 = 3 moedas por rodada. Partindo de 100 moedas, após n rodadas terá 100 + 3n moedas. Gabarito: D."
     }
   ]
 }
