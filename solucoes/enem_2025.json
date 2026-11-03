@@ -434,7 +434,107 @@
     },
     {
       "id": "2025_120",
-      "resolucao": "Para detectar até o invasor mais rápido, deve-se considerar a maior velocidade, 5,0 m/s. O corpo precisa atravessar completamente o feixe: a distância total é a espessura do corpo mais o diâmetro do feixe, 0,20 + 0,20 = 0,40 m. O tempo é t = 0,40/5,0 = 0,08 s, ou 80 ms. O valor mais próximo entre as opções é 70 ms. Gabarito: B."
+      "resolucao": "Para garantir a detecção, considera-se o invasor mais rápido, que se desloca a 5,0 m/s. Ele precisa atravessar completamente o feixe: a distância é a soma do diâmetro do feixe (15 cm) com a espessura do corpo (20 cm), totalizando 0,35 m. Assim, t = 0,35/5,0 = 0,07 s = 70 ms. Gabarito: B."
+    },
+    {
+      "id": "2025_121",
+      "resolucao": "A dimetilamina é uma amina, portanto apresenta caráter básico. O vinagre contém ácido acético, que reage com a dimetilamina e a transforma em um sal de amônio, menos volátil e mais facilmente retido na solução. Essa neutralização reduz a liberação do composto tóxico para o ar. Gabarito: B."
+    },
+    {
+      "id": "2025_122",
+      "resolucao": "O campo magnético variável produzido pela bobina atravessa o fundo metálico da panela e induz correntes elétricas em seu interior. Como a panela apresenta resistência elétrica, essas correntes dissipam energia por efeito Joule, aquecendo diretamente o recipiente e, em seguida, o alimento. Gabarito: D."
+    },
+    {
+      "id": "2025_123",
+      "resolucao": "Questão anulada oficialmente pelo INEP no Caderno 7 (Azul), 2º dia. Não há alternativa correta a registrar como gabarito definitivo."
+    },
+    {
+      "id": "2025_124",
+      "resolucao": "No escurecimento, a prata é oxidada e o oxigênio é reduzido. Usando os potenciais fornecidos, E° = 1,23 − (−0,69) = +1,92 V. No clareamento, o alumínio é oxidado e o sulfeto de prata é reduzido: E° = −0,69 − (−1,68) = +0,99 V. Os dois valores correspondem à alternativa B. Gabarito: B."
+    },
+    {
+      "id": "2025_125",
+      "resolucao": "Pela equação dos gases ideais, o número total de mols gasosos desejado é n = PV/RT = (1,00 × 4,00)/(0,082 × 453) ≈ 0,108 mol. Cada mol de bicarbonato de amônio produz três mols de gases; considerando rendimento de 80%, a quantidade necessária do sólido é 0,108/(3 × 0,80) ≈ 0,0448 mol. Multiplicando pela massa molar de 79 g/mol, obtém-se aproximadamente 3,5 g. Gabarito: B."
+    },
+    {
+      "id": "2025_126",
+      "resolucao": "Em 6 minutos, ou 0,1 hora, o avião deve apresentar velocidade resultante em relação ao solo de 200 km/h para Leste, 200 km/h para Norte e 10 km/h para cima. O vento tem componentes de 30 km/h para Leste, 20 km/h para Sul e 1 km/h para baixo. Portanto, a velocidade do avião em relação ao ar é a diferença vetorial: 170 km/h para Leste, 220 km/h para Norte e 11 km/h para cima. Gabarito: D."
+    },
+    {
+      "id": "2025_127",
+      "resolucao": "Uma enzima atua como catalisador biológico e reduz a energia de ativação da reação. Ela não altera a energia dos reagentes nem a dos produtos e, portanto, não modifica a variação de energia global da reação. O gráfico correto é aquele em que a curva com enzima apresenta um pico mais baixo, mantendo os mesmos níveis inicial e final. Gabarito: C."
+    },
+    {
+      "id": "2025_128",
+      "resolucao": "A sensibilidade do sensor é dada pela variação da resistência por grau de temperatura, isto é, pelo coeficiente angular da reta R(T). Quanto maior a inclinação, maior a variação de resistência para a mesma variação de temperatura. No gráfico, os sensores 2 e 5 apresentam as maiores inclinações. Gabarito: E."
+    },
+    {
+      "id": "2025_129",
+      "resolucao": "O quadro mostra que o ácido úsnico tem alta eficiência contra moluscos aquáticos adultos. Esses moluscos podem atuar como hospedeiros intermediários do parasita causador da esquistossomose. Controlar esses organismos contribui para interromper o ciclo de transmissão da doença. Gabarito: A."
+    },
+    {
+      "id": "2025_130",
+      "resolucao": "Para que o equipamento receba sua tensão nominal, o resistor de proteção deve ficar em série, provocando uma queda de tensão de 20% da tensão nominal do aparelho. Como a corrente é a mesma no resistor e no equipamento, Rₚ = 0,2V/I. Como V/I = R꜀, resulta Rₚ = 0,2R꜀. A configuração em série com esse valor corresponde à alternativa E. Gabarito: E."
+    },
+    {
+      "id": "2025_131",
+      "resolucao": "A reação indica que 10 mol de alumínio produzem 6 mol de nióbio. A massa desejada de nióbio corresponde a 9 300/93 = 100 mol. Logo, são necessários (10/6) × 100 ≈ 166,7 mol de Al, equivalentes a 166,7 × 27 ≈ 4 500 g. Com excesso de 10%, a massa passa a aproximadamente 4 950 g, ou 5,0 kg. Gabarito: E."
+    },
+    {
+      "id": "2025_132",
+      "resolucao": "Questão anulada oficialmente pelo INEP no Caderno 7 (Azul), 2º dia. Não há alternativa correta a registrar como gabarito definitivo."
+    },
+    {
+      "id": "2025_133",
+      "resolucao": "O dispositivo foi desenvolvido para separar óleo e água. O surfactante constitui a camada externa funcional do revestimento e altera a interação da superfície com o óleo, tornando-a superoleofóbica. Assim, é nessa camada que ocorre a retenção/rejeição do óleo no processo de separação descrito. Gabarito: A."
+    },
+    {
+      "id": "2025_134",
+      "resolucao": "A solubilidade em água aumenta quando a molécula apresenta grupos polares capazes de formar ligações de hidrogênio. Entre as estruturas apresentadas, o estriol possui três grupos hidroxila, oferecendo mais possibilidades de interação com a água do que os demais hormônios listados. Gabarito: B."
+    },
+    {
+      "id": "2025_135",
+      "resolucao": "A frequência da luz emitida pelo sensor aumenta durante o tratamento. Como a velocidade da luz no meio é aproximadamente constante e c = λf, o aumento da frequência implica diminuição do comprimento de onda. O pico do espectro deve, portanto, deslocar-se para a esquerda, em direção a comprimentos de onda menores, como na alternativa A. Gabarito: A."
+    },
+    {
+      "id": "2025_136",
+      "resolucao": "O carro percorre 30 × 7 = 210 km por semana. Com consumo de 1 m³ a cada 13 km, necessita de 210/13 ≈ 16,15 m³ de gás para uma semana. O menor cilindro cuja capacidade atende a essa necessidade é o de 17 m³. Gabarito: C."
+    },
+    {
+      "id": "2025_137",
+      "resolucao": "Dos internautas, 90% acessam redes sociais. Entre esses usuários, 60% são mulheres; logo, 40% são homens. A probabilidade de escolher um internauta que seja homem e acesse redes sociais é 0,90 × 0,40 = 0,36, ou 36%. Gabarito: B."
+    },
+    {
+      "id": "2025_139",
+      "resolucao": "O comprimento da ciclovia é a circunferência de raio 1 km: 2πr ≈ 6 km, usando π = 3. Cada policial protege um trecho de até 200 m para cada lado de sua posição, totalizando 400 m. Para cobrir 6 000 m sem deixar intervalos desprotegidos, são necessários 6 000/400 = 15 policiais. Gabarito: C."
+    },
+    {
+      "id": "2025_141",
+      "resolucao": "No primeiro transporte, foram enviados 10 200 L e entregues 9 900 L. Portanto, o volume descartado é constante e igual a 300 L. Para entregar 20 000 L no novo pedido, a distribuidora precisa enviar 20 000 + 300 = 20 300 L. Gabarito: C."
+    },
+    {
+      "id": "2025_142",
+      "resolucao": "Ordenando as dez velocidades: 320, 340, 350, 360, 380, 380, 390, 390, 390 e 400 MB/s. Como há dez valores, a mediana é a média entre o quinto e o sexto: (380 + 380)/2 = 380 MB/s. Gabarito: C."
+    },
+    {
+      "id": "2025_143",
+      "resolucao": "Calcula-se o sódio total multiplicando o valor por porção pelo número de porções do pacote: batata chips, 3 × 170 = 510 mg; palitos, 4 × 501 = 2 004 mg; multigrãos, 8 × 264 = 2 112 mg; polvilho, 6 × 175 = 1 050 mg; água e sal, 5 × 166 = 830 mg. O menor total é o da batata chips. Gabarito: A."
+    },
+    {
+      "id": "2025_144",
+      "resolucao": "A peça é formada por um prisma hexagonal e um tronco de pirâmide hexagonal unidos por uma base. Na superfície externa, há quatro grupos de faces congruentes: as seis faces laterais retangulares do prisma, a base hexagonal exposta do prisma, a base hexagonal menor do tronco e as seis faces laterais trapezoidais do tronco. Cada grupo recebe uma cor, totalizando quatro cores. Gabarito: D."
+    },
+    {
+      "id": "2025_145",
+      "resolucao": "O gráfico mostra que, após o início da meditação em t₁, a frequência respiratória diminui gradualmente até atingir o valor f₂ em t₂. A partir desse instante, ela se estabiliza e permanece constante durante o restante do intervalo observado. Gabarito: D."
+    },
+    {
+      "id": "2025_146",
+      "resolucao": "A diferença entre a marca de referência e o recorde é 10,00 − 9,58 = 0,42 segundo. Gabarito: B."
+    },
+    {
+      "id": "2025_147",
+      "resolucao": "Em 2024, o total de matrículas foi 280 + 80 + 20 + 20 = 400. Para 2025, a previsão mantém esse total e repete a distribuição percentual de 2023. Como o francês correspondia a 10%, a estimativa é 0,10 × 400 = 40 matrículas. Gabarito: E."
     }
   ]
 }
