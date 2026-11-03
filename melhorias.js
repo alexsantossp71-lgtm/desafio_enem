@@ -163,7 +163,7 @@ if(typeof atualizarBotaoOriginal==='function')window.atualizarBotaoStart=functio
 };
 const originalAdvance=window.avancar;
 if(typeof originalAdvance==='function')window.avancar=function(ok,timeout){
- const q=questoesFiltradas[indiceAtual];if(q){history.push({id:q.id||('Questão '+(indiceAtual+1)),year:anoAtual,subject:q.materia||'Geral',preview:primeirasCincoPalavras(q.enunciado),ok:!!ok,date:new Date().toISOString()});if(history.length>2000)history=history.slice(-2000);save(KEY,history)}
+ const q=questoesFiltradas[indiceAtual];if(q){history.push({id:q.id||('Questão '+(indiceAtual+1)),year:q.__ano||anoAtual,subject:q.materia||'Geral',preview:primeirasCincoPalavras(q.enunciado),ok:!!ok,date:new Date().toISOString()});if(history.length>2000)history=history.slice(-2000);save(KEY,history)}
  const result=originalAdvance.call(this,ok,timeout);refresh();return result;
 };
 const originalFinish=window.finalizar;
@@ -181,6 +181,87 @@ if(typeof originalStart==='function')window.irParaQuiz=function(){
  let bar=document.getElementById('quiz-progress-track');if(!bar){bar=document.createElement('div');bar.id='quiz-progress-track';bar.className='quiz-progress-track';bar.innerHTML='<span id="quiz-progress-fill"></span>';document.querySelector('.quiz-header').after(bar)}
  return r;
 };
+
+/* Seleção combinada: permite reunir anos e matérias em um único simulado. */
+const multiYearData=new Map();
+let multiYearSelected=new Set(), multiSubjectSelected=new Set(), multiLoadToken=0;
+function prepararSelecaoCombinada(){
+ const yearBox=document.querySelector('#menu-screen .config-box');
+ const yearGrid=document.getElementById('year-buttons');
+ const subjectBox=document.getElementById('box-materia');
+ const qtyBox=document.getElementById('box-qtd');
+ if(!yearBox||!yearGrid||!subjectBox||!qtyBox||document.getElementById('multi-year-selector'))return;
+ yearGrid.hidden=true;
+ subjectBox.hidden=true;
+ const title=yearBox.querySelector('.section-title');
+ if(title)title.textContent='1. Escolha um ou mais anos:';
+ const selector=document.createElement('div');selector.id='multi-year-selector';
+ selector.innerHTML='<div class="multi-year-grid" id="multi-year-options"></div><p class="multi-selection-help">Você pode combinar provas de anos diferentes.</p><section class="multi-subject-section"><p class="section-title">2. Escolha uma ou mais matérias:</p><div class="multi-subject-grid" id="multi-subject-options"><span class="muted">Selecione os anos para carregar as matérias.</span></div></section>';
+ yearBox.appendChild(selector);
+ const options=selector.querySelector('#multi-year-options');
+ for(let year=2025;year>=2009;year--){
+  const label=document.createElement('label');label.className='multi-check';
+  const input=document.createElement('input');input.type='checkbox';input.value=String(year);
+  const text=document.createElement('span');text.textContent=year;
+  input.addEventListener('change',()=>{if(input.checked)multiYearSelected.add(year);else multiYearSelected.delete(year);carregarAnosCombinados()});
+  label.append(input,text);options.appendChild(label);
+ }
+ const start=document.getElementById('start-btn');
+ if(start)start.textContent='SELECIONE ANOS E MATÉRIAS';
+}
+async function carregarAnosCombinados(){
+ const token=++multiLoadToken, selected=[...multiYearSelected].sort((a,b)=>b-a);
+ const subjectBox=document.getElementById('multi-subject-options');
+ const start=document.getElementById('start-btn');
+ if(!selected.length){multiSubjectSelected.clear();subjectBox.innerHTML='<span class="muted">Selecione os anos para carregar as matérias.</span>';atualizarInicioCombinado();return}
+ subjectBox.innerHTML='<span class="muted">Carregando matérias dos anos selecionados…</span>';
+ if(start){start.disabled=true;start.textContent='CARREGANDO PROVAS…'}
+ const results=await Promise.all(selected.map(async year=>{
+  if(multiYearData.has(year))return [year,multiYearData.get(year)];
+  try{const response=await fetch('questoes/enem_'+year+'.json',{headers:{Accept:'application/json'},cache:'default'});if(!response.ok)throw new Error('HTTP '+response.status);const json=await response.json();const items=Array.isArray(json.itens)?json.itens.filter(q=>typeof validarQuestao!=='undefined'?validarQuestao(q):q&&Array.isArray(q.alternativas)):[];multiYearData.set(year,items);return [year,items]}
+  catch(error){console.warn('Falha ao carregar '+year,error);return [year,[]]}
+ }));
+ if(token!==multiLoadToken)return;
+ const failed=results.filter(([,items])=>!items.length).map(([year])=>year);
+ const available=new Set(results.flatMap(([,items])=>items.map(q=>q.materia||'geral')));
+ const previous=multiSubjectSelected;
+ multiSubjectSelected=new Set([...previous].filter(subject=>available.has(subject)));
+ if(!multiSubjectSelected.size)multiSubjectSelected=new Set(available);
+ subjectBox.replaceChildren();
+ const subjects=[...available].sort((a,b)=>(AREA_LABELS[a]||a).localeCompare(AREA_LABELS[b]||b,'pt-BR'));
+ subjects.forEach(subject=>{
+  const label=document.createElement('label');label.className='multi-check';
+  const input=document.createElement('input');input.type='checkbox';input.value=subject;input.checked=multiSubjectSelected.has(subject);
+  const text=document.createElement('span');text.textContent=AREA_LABELS[subject]||subject;
+  input.addEventListener('change',()=>{if(input.checked)multiSubjectSelected.add(subject);else multiSubjectSelected.delete(subject);atualizarInicioCombinado()});
+  label.append(input,text);subjectBox.appendChild(label);
+ });
+ if(failed.length){const warning=document.createElement('p');warning.className='multi-selection-help';warning.textContent='Não foi possível carregar: '+failed.join(', ')+'.';subjectBox.appendChild(warning)}
+ atualizarInicioCombinado();
+}
+function questoesCombinadas(){
+ return [...multiYearSelected].sort((a,b)=>a-b).flatMap(year=>(multiYearData.get(year)||[]).filter(q=>multiSubjectSelected.has(q.materia||'geral')).map(q=>({...q,__ano:year})));
+}
+function atualizarInicioCombinado(){
+ const start=document.getElementById('start-btn');if(!start)return;
+ const total=questoesCombinadas().length;
+ const amount=qtdAtual==='all'?total:Math.min(Number(qtdAtual),total);
+ const ready=multiYearSelected.size>0&&multiSubjectSelected.size>0&&amount>0;
+ start.disabled=!ready;
+ start.textContent=ready?'INICIAR SIMULADO — '+amount+' QUESTÕES':(multiYearSelected.size?'SELECIONE AO MENOS UMA MATÉRIA':'SELECIONE UM OU MAIS ANOS');
+}
+const selecionarQtdOriginal=window.selecionarQtd;
+window.selecionarQtd=function(quantidade,btn){selecionarQtdOriginal(quantidade,btn);atualizarInicioCombinado()};
+window.irParaQuiz=function(){
+ let lista=questoesCombinadas();
+ if(reviewOnly){const wrong=new Set(history.filter(x=>!x.ok).map(x=>x.id));lista=lista.filter(q=>wrong.has(q.id))}
+ if(!lista.length){alert(reviewOnly?'Não há questões erradas nos anos e matérias selecionados.':'Não há questões para os filtros selecionados.');return}
+ dadosCompletosAno=lista;anoAtual='Múltiplos anos';materiaAtual='all';
+ originalStart.apply(this,arguments);
+ const heading=document.getElementById('prova-titulo');
+ if(heading)heading.textContent=[...multiYearSelected].sort((a,b)=>a-b).join(', ')+' | '+[...multiSubjectSelected].map(x=>AREA_LABELS[x]||x).join(', ');
+};
+
 const originalQuestion=window.carregarQuestao;
 if(typeof originalQuestion==='function')window.carregarQuestao=function(){
  const r=originalQuestion.apply(this,arguments);
@@ -188,7 +269,7 @@ if(typeof originalQuestion==='function')window.carregarQuestao=function(){
  document.querySelectorAll('.option-label input').forEach(input=>input.addEventListener('change',()=>{document.querySelectorAll('.option-label').forEach(x=>x.classList.remove('is-selected'));input.closest('.option-label').classList.add('is-selected')}));
  return r;
 };
-panel();advanced();refresh();
-document.addEventListener('DOMContentLoaded',()=>{panel();advanced();refresh()});
+panel();advanced();prepararSelecaoCombinada();refresh();
+document.addEventListener('DOMContentLoaded',()=>{panel();advanced();prepararSelecaoCombinada();refresh()});
 window.addEventListener('storage',e=>{if(e.key===KEY){history=read(KEY,[]);refresh()}});
 })();
