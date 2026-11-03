@@ -538,11 +538,11 @@
     },
     {
       "id": "2023_141",
-      "resolucao": "A probabilidade é a razão entre o número de estudantes do terceiro ano e o total de participantes do sorteio. Lendo as quantidades no gráfico, essa razão é 3/8. Gabarito: E."
+      "resolucao": "Cada estudante do primeiro ano recebe 1 cartão: 200 cartões. Cada estudante do segundo ano recebe 2: 150 × 2 = 300 cartões. Cada estudante do terceiro ano recebe 3: 100 × 3 = 300 cartões. O total é 200 + 300 + 300 = 800 cartões. Assim, a probabilidade de sair um cartão de estudante do terceiro ano é 300/800 = 3/8. Gabarito: E."
     },
     {
       "id": "2023_142",
-      "resolucao": "A economia diária por morador deve compensar, ao longo dos dez dias, a diferença entre a água disponível e o consumo previsto. Divide-se o volume total que precisa ser poupado pelo número de moradores e pelos dez dias; o resultado é 50 litros por morador por dia. Gabarito: A."
+      "resolucao": "O volume de água restante no cilindro é V = πr²h = 3 × 5² × 1,5 = 112,5 m³ = 112 500 L. Nos próximos 10 dias, o consumo normal seria 75 × 200 × 10 = 150 000 L. A diferença é 150 000 − 112 500 = 37 500 L, que deve ser economizada por todos. Dividindo por 75 moradores e 10 dias: 37 500/(75 × 10) = 50 L por morador por dia. Gabarito: A."
     },
     {
       "id": "2023_143",
