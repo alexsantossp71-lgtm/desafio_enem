@@ -4,6 +4,7 @@ const KEY='desafioEnemHistoricoV1', THEME='desafioEnemTemaV1', GOAL='desafioEnem
 const read=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch{return d}};
 const save=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){console.warn(e)}};
 let history=read(KEY,[]), reviewOnly=false, sessionSaved=false;
+window.addEventListener('simulado:repetido',()=>{sessionSaved=false});
 function theme(t){document.documentElement.dataset.theme=t;const b=document.getElementById('theme-toggle');if(b){b.textContent=t==='dark'?'☀️ Modo claro':'🌙 Modo escuro';b.setAttribute('aria-pressed',String(t==='dark'))}save(THEME,t)}
 function panel(){
  const menu=document.getElementById('menu-screen');if(!menu||document.getElementById('dashboard'))return;
