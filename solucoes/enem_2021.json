@@ -485,6 +485,10 @@
       "resolucao": "É preciso comparar o custo mínimo de sachês de cada tipo que atenda simultaneamente às três quantidades mínimas. O suplemento IV fornece 600 mg de A, 500 mg de B e 1 000 mg de C por sachê. Com dois sachês, fornece 1 200 mg de A, 1 000 mg de B e 2 000 mg de C, atendendo às necessidades de 800 mg, 1 000 mg e 1 200 mg, por R$ 12,00. As demais opções exigem gasto maior para suprir todos os minerais. Portanto, a escolha é o suplemento IV. Gabarito: D."
     },
     {
+      "id": "2021_161",
+      "resolucao": "Se o desconto no ingresso é d reais, o preço passa a ser (20 − d) e o público aumenta para 200 + 40d pessoas. A arrecadação é R(d) = (20 − d)(200 + 40d) = 4 000 + 600d − 40d². Como o coeficiente de d² é negativo, o gráfico é uma parábola com concavidade voltada para baixo. Além disso, como o desconto e o preço devem ser inteiros, os valores possíveis são pontos discretos, não uma curva contínua. A arrecadação cresce inicialmente, atinge um máximo e depois diminui. Gabarito: E."
+    },
+    {
       "id": "2021_163",
       "resolucao": "O módulo volumétrico é proporcional ao produto da densidade pelo quadrado da velocidade do som. A densidade tem unidade kg/m³ e a velocidade ao quadrado tem unidade m²/s². Multiplicando: (kg/m³) × (m²/s²) = kg/(m·s²), que equivale a N/m², ou pascal (Pa). Gabarito: B."
     },
