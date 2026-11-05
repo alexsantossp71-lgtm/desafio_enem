@@ -1851,7 +1851,7 @@
     {
       "id": "2024_139",
       "materia": "matematica",
-      "enunciado": "<div class='contexto'>Um artesão utiliza dois tipos de componentes, X e Y, nos enfeites que produz. Ele compra todos os componentes em uma mesma loja. O quadro apresenta os preços dos dois tipos de componentes nas lojas I e II.LojasPreços dos componentes (R$)XYI2,001,00II2,004,00</div><div class='contexto'>Descrição da imagem: Uma tabela com duas colunas 'Lojas' e 'Preços dos componentes (R$)' e duas linhas para as lojas I e II. A coluna 'Preços dos componentes (R$)' é subdividida em 'X' e 'Y'. Para a Loja I, o preço de X é 2,00 e de Y é 1,00. Para a Loja II, o preço de X é 2,00 e de Y é 4,00.</div><strong>Ela confeccionará enfeites formados por duas unidades do componente X e uma unidade do componente Y e efetuará a compra na loja que oferecer o menor valor total para a confecção de um enfeite.O artesão efetuará a compra na loja</strong>",
+      "enunciado": "<div class='contexto'>Um artesão utiliza dois tipos de componentes, X e Y, nos enfeites que produz. Ele compra todos os componentes em uma mesma loja. O quadro apresenta os preços dos dois tipos de componentes nas lojas I e II.LojasPreços dos componentes (R$)XYI3,001,00II2,004,00</div><div class='contexto'>Descrição da imagem: Uma tabela com duas colunas 'Lojas' e 'Preços dos componentes (R$)' e duas linhas para as lojas I e II. A coluna 'Preços dos componentes (R$)' é subdividida em 'X' e 'Y'. Para a Loja I, o preço de X é 3,00 e de Y é 1,00. Para a Loja II, o preço de X é 2,00 e de Y é 4,00.</div><strong>Ela confeccionará enfeites formados por duas unidades do componente X e uma unidade do componente Y e efetuará a compra na loja que oferecer o menor valor total para a confecção de um enfeite.O artesão efetuará a compra na loja</strong>",
       "imagem": null,
       "alternativas": [
         "I, pois o valor é R$ 7,00.",
@@ -1935,20 +1935,6 @@
     {
       "id": "2024_145",
       "materia": "matematica",
-      "enunciado": "<div class='contexto'>Um fazendeiro pretende construir um galinheiro ocupando uma região plana de formato retangular, com lados de comprimentos L metro e C metro. Os lados serão cercados por telas de tipos diferentes. Nos lados de comprimento L metro, será utilizada uma tela cujo metro linear custa R$ 20,00. Enquanto, nos outros dois lados, uma que custa R$ 15,00. O fazendeiro quer gastar, no máximo, R$ 6 000,00 na compra de toda a tela necessária para o galinheiro, e deseja que o galinheiro tenha a maior área possível.</div><strong>Qual será a medida, em metro, do maior lado do galinheiro?</strong>",
-      "imagem": null,
-      "alternativas": [
-        "85",
-        "100",
-        "175",
-        "200",
-        "350"
-      ],
-      "correta": 3
-    },
-    {
-      "id": "2024_146",
-      "materia": "matematica",
       "enunciado": "<strong>O estádio do Maracanã passou por algumas modificações estruturais para a realização da Copa do Mundo de 2014, como, por exemplo, as dimensões do campo retangular. Para se adaptar aos padrões da Fifa, as dimensões do campo foram reduzidas de 110 m × 75 m para 105 m × 68 m.Disponível em: http://virgula.uol.com.br.Acesso em: 14 ago. 2013 (adaptado).Em quantos metros quadrados a área do campo do Maracanã foi reduzida?</strong>",
       "imagem": null,
       "alternativas": [
@@ -1959,6 +1945,20 @@
         "1 145"
       ],
       "correta": 1
+    },
+    {
+      "id": "2024_146",
+      "materia": "matematica",
+      "enunciado": "<div class='contexto'>Um fazendeiro pretende construir um galinheiro ocupando uma região plana de formato retangular, com lados de comprimentos L metro e C metro. Os lados serão cercados por telas de tipos diferentes. Nos lados de comprimento L metro, será utilizada uma tela cujo metro linear custa R$ 20,00. Enquanto, nos outros dois lados, uma que custa R$ 15,00. O fazendeiro quer gastar, no máximo, R$ 6 000,00 na compra de toda a tela necessária para o galinheiro, e deseja que o galinheiro tenha a maior área possível.</div><strong>Qual será a medida, em metro, do maior lado do galinheiro?</strong>",
+      "imagem": null,
+      "alternativas": [
+        "85",
+        "100",
+        "175",
+        "200",
+        "350"
+      ],
+      "correta": 3
     },
     {
       "id": "2024_147",
@@ -1991,7 +1991,7 @@
     {
       "id": "2024_149",
       "materia": "matematica",
-      "enunciado": "<div class='contexto'>Em uma empresa é comercializado um produto em embalagens em formato de cilindro circular reto, com raio medindo 3 cm, e altura medindo 10 cm. Essa empresa planeja comercializar o mesmo produto em embalagens em formato de cubo, com capacidade igual a 80% da capacidade da embalagem cilíndrica utilizada atualmente.Use 3 como valor aproximado para π.</div><strong>A medida da aresta da nova embalagem, em centímetro quadrado, é</strong>",
+      "enunciado": "<div class='contexto'>Em uma empresa é comercializado um produto em embalagens em formato de cilindro circular reto, com raio medindo 3 cm, e altura medindo 15 cm. Essa empresa planeja comercializar o mesmo produto em embalagens em formato de cubo, com capacidade igual a 80% da capacidade da embalagem cilíndrica utilizada atualmente.Use 3 como valor aproximado para π.</div><strong>A medida da aresta da nova embalagem, em centímetro quadrado, é</strong>",
       "imagem": null,
       "alternativas": [
         "6",
