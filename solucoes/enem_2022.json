@@ -756,7 +756,7 @@
     },
     {
       "id": "2022_166",
-      "resolucao": "Cada ultrapassagem ocorre quando a curva de distância do carro que estava atrás cruza a curva de um concorrente e passa a ficar acima dela. Contando as interseções correspondentes ao veículo que termina em último lugar, há uma ultrapassagem. Gabarito: A."
+      "resolucao": "O veículo que chega em último lugar é representado pela trajetória que alcança os 100 m no maior tempo. Para contar as ultrapassagens efetuadas por ele, observamos se sua curva cruza outra trajetória passando de uma posição inferior para uma superior. Isso não ocorre: os outros veículos é que o ultrapassam. Portanto, ele realiza zero ultrapassagens. Gabarito: A."
     },
     {
       "id": "2022_167",
