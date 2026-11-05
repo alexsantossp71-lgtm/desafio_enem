@@ -1686,11 +1686,11 @@
       "enunciado": "<div class='contexto'>Nos processos de transformação e reciclagem de recursos naturais, as velocidades das reações químicas são moduladas pela cinética química. Uma reação A → B é realizada na presença e na ausência de uma enzima, com todas as demais condições permanecendo inalteradas. Considere que, no gráfico de variação de energia ao longo dessa reação, a linha contínua representa o avanço da reação na ausência da enzima, e a linha pontilhada, na presença da enzima.</div><div class='contexto'>Descrição da imagem: A questão apresenta cinco gráficos (A, B, C, D, E) que mostram a variação de energia em função do progresso da reação. Em cada gráfico, o eixo y é 'Energia' e o eixo x é 'Progresso da reação'. Há duas curvas em cada gráfico: uma linha contínua e uma linha pontilhada. Ambas as curvas começam no mesmo nível de energia (reagente A) e terminam no mesmo nível de energia (produto B). A diferença entre as curvas é a altura da 'barreira' de energia (energia de ativação). A linha pontilhada (com enzima) sempre tem uma barreira de energia menor do que a linha contínua (sem enzima). Os gráficos diferem na forma das curvas e na relação entre a energia dos reagentes e produtos (exotérmica ou endotérmica).</div><strong>O gráfico que representa a situação descrita é:</strong>",
       "imagem": null,
       "alternativas": [
-        "EnergiaProgresso da reaçãoAB",
-        "EnergiaProgresso da reaçãoAB",
-        "EnergiaProgresso da reaçãoAB",
-        "EnergiaProgresso da reaçãoAB",
-        "EnergiaProgresso da reaçãoAB"
+        "A — As curvas começam em níveis diferentes para os reagentes; ambas atingem o mesmo pico e terminam no mesmo nível de energia dos produtos.",
+        "B — As curvas começam no mesmo nível para os reagentes e atingem o mesmo pico, mas a curva pontilhada termina em nível de energia maior que a contínua.",
+        "C — As curvas começam e terminam nos mesmos níveis de energia; a curva contínua apresenta pico mais alto que a pontilhada.",
+        "D — As curvas começam e terminam nos mesmos níveis de energia; a curva pontilhada apresenta pico mais alto que a contínua.",
+        "E — As curvas contínua e pontilhada começam e terminam em níveis de energia diferentes."
       ],
       "correta": 2
     },
@@ -1728,11 +1728,11 @@
       "enunciado": "<div class='contexto'>Em sua maioria, os equipamentos eletrônicos domésticos demandam baixa potência elétrica em corrente contínua. Para alimentá-los, uma fonte externa ou embutida transforma a corrente alternada em corrente contínua de baixa tensão. Entretanto, cada equipamento tem suas especificidades, e muitas vezes não é possível simplesmente trocar essa fonte sem levar em conta a tensão, a corrente ou a potência elétrica de saída.Considere um equipamento de resistência elétrica R_E que funciona corretamente apenas em um dado valor de tensão. Porém, a única fonte de alimentação disponível fornece uma tensão 20% superior à tensão recomendada. Para adaptar essa fonte ao aparelho, a associação de um resistor de proteção R_P, de potência adequada, se faz necessária.</div><div class='contexto'>Descrição da imagem: Cinco diagramas de circuito elétrico são apresentados como alternativas. Cada diagrama mostra uma fonte de tensão, um resistor de proteção (Rp) e um resistor de equipamento (Re) conectados em série. A diferença entre as alternativas é o valor da resistência do resistor de proteção em relação ao resistor do equipamento. Alternativa A: Circuito com Rp = 0,2 Re. Alternativa B: Circuito com Rp = 1,2 Re. Alternativa C: Circuito com Rp = 1,2 Re. Alternativa D: Circuito com Rp = 2,2 Re. Alternativa E: Circuito com Rp = 0,4 Re.</div><strong>O circuito da condição do valor do resistor de proteção, em relação ao valor da resistência do equipamento, são:</strong>",
       "imagem": null,
       "alternativas": [
-        "R_P = 0,2 R_E",
-        "R_P = 1,2 R_E",
-        "R_P = 1,2 R_E",
-        "R_P = 2,2 R_E",
-        "R_P = 0,4 R_E"
+        "A — Resistor de proteção em paralelo com o equipamento, com R_P = 0,2 R_E.",
+        "B — Resistor de proteção em paralelo com o equipamento, com R_P = 1,2 R_E.",
+        "C — Resistor de proteção em série com o equipamento, com R_P = 1,2 R_E.",
+        "D — Resistor de proteção em série com o equipamento, com R_P = 2,2 R_E.",
+        "E — Resistor de proteção em série com o equipamento, com R_P = 0,2 R_E."
       ],
       "correta": 4
     },
@@ -1784,11 +1784,11 @@
       "enunciado": "<div class='contexto'>A icterícia é uma doença que acomete recém-nascidos e pode ser tratada com luminoterapia de fototerapia conhecida como banho de luz, que consiste na exposição do recém-nascido a uma fonte luminosa equipada com LEDs azuis. Para o monitoramento da dosagem dessa radiação, é utilizada a resposta óptica de um sensor constituído de materiais orgânicos que luminescem quando expostos à luz azul. Com o passar do tempo, essa radiação oxida os materiais do sensor, alterando sua coloração de vermelho-laranja para verde, o que indica o final do tratamento.O gráfico apresenta o espectro de fotoluminescência do sensor em função do comprimento de onda da luz emitida no início do tratamento, quando o sensor é usado na fralda do bebê (Figura 1), luminesce na região do vermelho-laranja (≈ 600 nm). A Figura 2 apresenta a evolução da coloração do sensor, mostrando que a frequência da luz emitida por ele aumenta em função do tempo de exposição à luz azul.</div><div class='contexto'>Descrição da imagem: A questão apresenta várias imagens. As alternativas A, B, C, D e E são idênticas e cada uma mostra um gráfico de Fotoluminescência (u.a.) no eixo Y versus Comprimento de onda (nm) no eixo X, variando de 500 a 800 nm. Cada gráfico contém duas curvas: uma linha sólida rotulada &quot;No início do tratamento&quot;, com um pico em aproximadamente 600 nm e intensidade máxima de 1,0 u.a.; e uma linha tracejada rotulada &quot;No final do tratamento&quot;, com um pico em aproximadamente 550 nm e intensidade máxima de cerca de 0,8 u.a.Além das alternativas, há duas figuras no texto base: Figura 1: Um gráfico de Fotoluminescência (u.a.) no eixo Y versus Comprimento de onda (nm) no eixo X, variando de 500 a 700 nm. A curva mostra um único pico em aproximadamente 600 nm, com intensidade máxima de 1,0 u.a. Figura 2: Uma escala vertical que representa a &quot;Frequência&quot; e o &quot;Tempo de exposição&quot;. A escala é dividida em segmentos coloridos que mudam de vermelho-laranja para verde. As marcações de tempo de exposição são 0h (vermelho-laranja), 3h, 6h, 9h e 12h (verde).</div><strong>Os espectros de fotoluminescência do sensor no início e no final do tratamento estão esboçados no gráfico:</strong>",
       "imagem": null,
       "alternativas": [
-        "Gráfico de Fotoluminescência (u.a.) versus Comprimento de onda (nm).",
-        "Gráfico de Fotoluminescência (u.a.) versus Comprimento de onda (nm).",
-        "Gráfico de Fotoluminescência (u.a.) versus Comprimento de onda (nm).",
-        "Gráfico de Fotoluminescência (u.a.) versus Comprimento de onda (nm).",
-        "Gráfico de Fotoluminescência (u.a.) versus Comprimento de onda (nm)."
+        "A — Curva do início com pico próximo de 600 nm e curva do final deslocada para comprimentos de onda menores, com pico próximo de 555 nm.",
+        "B — Curva do início com pico próximo de 600 nm e curva do final deslocada para comprimentos de onda maiores, com pico próximo de 635 nm.",
+        "C — As duas curvas têm pico próximo de 600 nm, mas a curva do final apresenta menor intensidade.",
+        "D — As duas curvas praticamente coincidem em torno de 600 nm, com a curva do final ligeiramente mais intensa.",
+        "E — As duas curvas coincidem, mantendo o pico próximo de 600 nm."
       ],
       "correta": 0
     },
