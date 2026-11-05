@@ -1487,14 +1487,14 @@
     {
       "id": "2024_112",
       "materia": "ciencias-natureza",
-      "enunciado": "<div class='contexto'>Considere a legenda:Mulher heterozigota portadora do gene para daltonismoMulher não daltônicaMulher daltônicaHomem não daltônicoHomem daltônicoGRIFFITHS, A. et al. Introdução à genética. Rio de Janeiro: Guanabara Koogan, 2016 (adaptado).</div><div class='contexto'>Descrição da imagem: Uma seção intitulada &quot;Considere a legenda:&quot; com os seguintes símbolos e descrições: um círculo vermelho para &quot;Mulher heterozigota portadora do gene para daltonismo&quot;, um círculo branco para &quot;Mulher não daltônica&quot;, um quadrado vermelho para &quot;Mulher daltônica&quot;, um quadrado branco para &quot;Homem não daltônico&quot; e um quadrado azul para &quot;Homem daltônico&quot;. Abaixo, há cinco heredogramas (A, B, C, D, E) que utilizam esses símbolos. Heredograma A: Um casal, onde a mulher é um círculo branco e o homem é um quadrado branco. Eles têm dois filhos: uma filha representada por um círculo vermelho e um filho representado por um quadrado azul. Heredograma B: Um casal, onde a mulher é um círculo vermelho e o homem é um quadrado branco. Eles têm dois filhos: uma filha representada por um círculo branco e um filho representado por um quadrado azul. Heredograma C: Um casal, onde a mulher é um círculo branco e o homem é um quadrado branco. Eles têm dois filhos: uma filha representada por um círculo branco e um filho representado por um quadrado azul. Heredograma D: Um casal, onde a mulher é um círculo vermelho e o homem é um quadrado branco. Eles têm dois filhos: uma filha representada por um círculo branco e um filho representado por um quadrado branco. Heredograma E: Um casal, onde a mulher é um círculo vermelho e o homem é um quadrado branco. Eles têm dois filhos: uma filha representada por um círculo branco e um filho representado por um quadrado azul. A fonte é &quot;GRIFFITHS, A. et al. Introdução à genética. Rio de Janeiro: Guanabara Koogan, 2016 (adaptado).&quot;</div><strong>Um dos exemplos mais conhecidos de herança recessiva ligada ao cromossomo X é o daltonismo. Como em qualquer distúrbio recessivo ligado ao cromossomo X, existem muito mais homens apresentando o fenótipo com esse tipo de daltonismo do que mulheres. Um casal formado por um homem não daltônico e por uma mulher genotipicamente não daltônica, mas portadora do gene recessivo para esse tipo de daltonismo, está esperando um bebê. Em uma das consultas de pré-natal, o casal recebeu um heredograma que contém todas as possibilidades de genótipo para esse bebê.Qual heredograma foi recebido pelo casal?</strong>",
+      "enunciado": "<div class='contexto'>Considere a legenda:Mulher heterozigota portadora do gene para daltonismoMulher não daltônicaMulher daltônicaHomem não daltônicoHomem daltônicoGRIFFITHS, A. et al. Introdução à genética. Rio de Janeiro: Guanabara Koogan, 2016 (adaptado).</div><div class='contexto'>Descrição da imagem: Os cinco heredogramas apresentam o mesmo casal inicial — mãe portadora heterozigota e pai não daltônico — e quatro descendentes em cada opção. As combinações de fenótipos dos filhos variam entre as alternativas.</div><strong>Um dos exemplos mais conhecidos de herança recessiva ligada ao cromossomo X é o daltonismo. Como em qualquer distúrbio recessivo ligado ao cromossomo X, existem muito mais homens apresentando o fenótipo com esse tipo de daltonismo do que mulheres. Um casal formado por um homem não daltônico e por uma mulher genotipicamente não daltônica, mas portadora do gene recessivo para esse tipo de daltonismo, está esperando um bebê. Em uma das consultas de pré-natal, o casal recebeu um heredograma que contém todas as possibilidades de genótipo para esse bebê.Qual heredograma foi recebido pelo casal?</strong>",
       "imagem": null,
       "alternativas": [
-        "Um heredograma mostrando um casal (círculo branco e quadrado branco) com dois filhos: uma filha (círculo vermelho) e um filho (quadrado azul).",
-        "Um heredograma mostrando um casal (círculo vermelho e quadrado branco) com dois filhos: uma filha (círculo branco) e um filho (quadrado azul).",
-        "Um heredograma mostrando um casal (círculo branco e quadrado branco) com dois filhos: uma filha (círculo branco) e um filho (quadrado azul).",
-        "Um heredograma mostrando um casal (círculo vermelho e quadrado branco) com dois filhos: uma filha (círculo branco) e um filho (quadrado branco).",
-        "Um heredograma mostrando um casal (círculo vermelho e quadrado branco) com dois filhos: uma filha (círculo branco) e um filho (quadrado azul)."
+        "A — Filhos: mulher não daltônica, mulher daltônica, homem daltônico e homem não daltônico.",
+        "B — Filhos: mulher não daltônica, mulher portadora heterozigota, homem não daltônico e homem daltônico.",
+        "C — Filhos: duas mulheres portadoras heterozigotas e dois homens não daltônicos.",
+        "D — Filhos: duas mulheres não daltônicas e dois homens daltônicos.",
+        "E — Filhos: duas mulheres daltônicas e dois homens não daltônicos."
       ],
       "correta": 1
     },
@@ -1697,14 +1697,14 @@
     {
       "id": "2024_127",
       "materia": "ciencias-natureza",
-      "enunciado": "<div class='contexto'>Em um experimento de laboratório, duas barras magnéticas, A e B, são carregadas com cargas opostas e imersas em óleo. Farelo de milho é jogado sobre o óleo e, após um certo tempo, o farelo assume o formato das linhas de campo elétrico entre as barras. A figura representa a vista superior desse experimento.</div><div class='contexto'>Descrição da imagem: A imagem apresenta um diagrama inicial e cinco opções de diagramas (A, B, C, D, E). O diagrama inicial mostra duas barras verticais paralelas, rotuladas A (esquerda) com cargas positivas e B (direita) com cargas negativas. Linhas de campo elétrico curvas saem da barra A e entram na barra B. Abaixo, são apresentadas cinco opções de diagramas, cada uma mostrando as barras A e B com um cilindro metálico oco posicionado entre elas, e diferentes configurações de linhas de campo: Opção A: As linhas de campo são curvas, saindo de A e entrando em B, e contornam o cilindro oco, não entrando em seu interior. Opção B: As linhas de campo são retas e paralelas, saindo de A e entrando em B, e contornam o cilindro oco, não entrando em seu interior. Opção C: As linhas de campo são retas e paralelas, saindo de A e entrando em B, e atravessam o cilindro oco. Opção D: As linhas de campo são curvas, saindo de A e entrando em B, e atravessam o cilindro oco. Opção E: As linhas de campo são retas e paralelas, saindo de A e entrando em B, e contornam o cilindro oco, não entrando em seu interior.</div><strong>Ao repetir o experimento colocando um cilindro metálico oco entre as placas, o esquema que representa o formato das linhas de campo assumido pelo farelo é:</strong>",
+      "enunciado": "<div class='contexto'>Em um experimento de laboratório, duas barras magnéticas, A e B, são carregadas com cargas opostas e imersas em óleo. Farelo de milho é jogado sobre o óleo e, após um certo tempo, o farelo assume o formato das linhas de campo elétrico entre as barras. A figura representa a vista superior desse experimento.</div><div class='contexto'>Descrição da imagem: O esquema compara cinco configurações de linhas de campo elétrico entre duas barras de cargas opostas, com um cilindro metálico oco colocado entre elas. As alternativas diferem quanto ao desvio das linhas e à presença ou ausência de campo no interior do cilindro.</div><strong>Ao repetir o experimento colocando um cilindro metálico oco entre as placas, o esquema que representa o formato das linhas de campo assumido pelo farelo é:</strong>",
       "imagem": null,
       "alternativas": [
-        "Um esquema com duas barras verticais paralelas, A à esquerda e B à direita. Entre elas, linhas de campo elétrico curvas que saem de A e entram em B.",
-        "Um esquema com duas barras verticais paralelas, A à esquerda e B à direita. Entre elas, linhas de campo elétrico retas e paralelas que saem de A e entram em B, mas com um cilindro oco no centro, e as linhas de campo contornam o cilindro sem entrar nele.",
-        "Um esquema com duas barras verticais paralelas, A à esquerda e B à direita. Entre elas, linhas de campo elétrico retas e paralelas que saem de A e entram em B, e as linhas de campo atravessam o cilindro oco no centro.",
-        "Um esquema com duas barras verticais paralelas, A à esquerda e B à direita. Entre elas, linhas de campo elétrico curvas que saem de A e entram em B, mas com um cilindro oco no centro, e as linhas de campo atravessam o cilindro oco no centro.",
-        "Um esquema com duas barras verticais paralelas, A à esquerda e B à direita. Entre elas, linhas de campo elétrico retas e paralelas que saem de A e entram em B, mas com um cilindro oco no centro, e as linhas de campo contornam o cilindro sem entrar nele."
+        "A — Linhas de campo retas entre as barras, atravessando o interior do cilindro metálico oco.",
+        "B — Linhas de campo retas entre as barras, atravessando o cilindro metálico oco em sentido oposto.",
+        "C — Linhas de campo deformadas ao redor do cilindro, com concentração maior na região central.",
+        "D — Linhas de campo retas nas bordas, com linhas atravessando o interior do cilindro.",
+        "E — Linhas de campo contornam o cilindro metálico oco, sem linhas em seu interior."
       ],
       "correta": 4
     },
@@ -1851,7 +1851,7 @@
     {
       "id": "2024_139",
       "materia": "matematica",
-      "enunciado": "<div class='contexto'>Um artesão utiliza dois tipos de componentes, X e Y, nos enfeites que produz. Ele compra todos os componentes em uma mesma loja. O quadro apresenta os preços dos dois tipos de componentes nas lojas I e II.LojasPreços dos componentes (R$)XYI2,001,00II2,004,00</div><div class='contexto'>Descrição da imagem: Uma tabela com duas colunas 'Lojas' e 'Preços dos componentes (R$)' e duas linhas para as lojas I e II. A coluna 'Preços dos componentes (R$)' é subdividida em 'X' e 'Y'. Para a Loja I, o preço de X é 2,00 e de Y é 1,00. Para a Loja II, o preço de X é 2,00 e de Y é 4,00.</div><strong>Ela confeccionará enfeites formados por duas unidades do componente X e uma unidade do componente Y e efetuará a compra na loja que oferecer o menor valor total para a confecção de um enfeite.O artesão efetuará a compra na loja</strong>",
+      "enunciado": "<div class='contexto'>Um artesão utiliza dois tipos de componentes, X e Y, nos enfeites que produz. Ele compra todos os componentes em uma mesma loja. O quadro apresenta os preços dos dois tipos de componentes nas lojas I e II.LojasPreços dos componentes (R$)XYI3,001,00II2,004,00</div><div class='contexto'>Descrição da imagem: Uma tabela com duas colunas 'Lojas' e 'Preços dos componentes (R$)' e duas linhas para as lojas I e II. A coluna 'Preços dos componentes (R$)' é subdividida em 'X' e 'Y'. Para a Loja I, o preço de X é 3,00 e de Y é 1,00. Para a Loja II, o preço de X é 2,00 e de Y é 4,00.</div><strong>Ela confeccionará enfeites formados por duas unidades do componente X e uma unidade do componente Y e efetuará a compra na loja que oferecer o menor valor total para a confecção de um enfeite.O artesão efetuará a compra na loja</strong>",
       "imagem": null,
       "alternativas": [
         "I, pois o valor é R$ 7,00.",
@@ -1935,20 +1935,6 @@
     {
       "id": "2024_145",
       "materia": "matematica",
-      "enunciado": "<div class='contexto'>Um fazendeiro pretende construir um galinheiro ocupando uma região plana de formato retangular, com lados de comprimentos L metro e C metro. Os lados serão cercados por telas de tipos diferentes. Nos lados de comprimento L metro, será utilizada uma tela cujo metro linear custa R$ 20,00. Enquanto, nos outros dois lados, uma que custa R$ 15,00. O fazendeiro quer gastar, no máximo, R$ 6 000,00 na compra de toda a tela necessária para o galinheiro, e deseja que o galinheiro tenha a maior área possível.</div><strong>Qual será a medida, em metro, do maior lado do galinheiro?</strong>",
-      "imagem": null,
-      "alternativas": [
-        "85",
-        "100",
-        "175",
-        "200",
-        "350"
-      ],
-      "correta": 3
-    },
-    {
-      "id": "2024_146",
-      "materia": "matematica",
       "enunciado": "<strong>O estádio do Maracanã passou por algumas modificações estruturais para a realização da Copa do Mundo de 2014, como, por exemplo, as dimensões do campo retangular. Para se adaptar aos padrões da Fifa, as dimensões do campo foram reduzidas de 110 m × 75 m para 105 m × 68 m.Disponível em: http://virgula.uol.com.br.Acesso em: 14 ago. 2013 (adaptado).Em quantos metros quadrados a área do campo do Maracanã foi reduzida?</strong>",
       "imagem": null,
       "alternativas": [
@@ -1957,6 +1943,20 @@
         "555",
         "1 110",
         "1 145"
+      ],
+      "correta": 3
+    },
+    {
+      "id": "2024_146",
+      "materia": "matematica",
+      "enunciado": "<div class='contexto'>Um fazendeiro pretende construir um galinheiro ocupando uma região plana de formato retangular, com lados de comprimentos L metro e C metro. Os lados serão cercados por telas de tipos diferentes. Nos lados de comprimento L metro, será utilizada uma tela cujo metro linear custa R$ 20,00. Enquanto, nos outros dois lados, uma que custa R$ 15,00. O fazendeiro quer gastar, no máximo, R$ 6 000,00 na compra de toda a tela necessária para o galinheiro, e deseja que o galinheiro tenha a maior área possível.</div><strong>Qual será a medida, em metro, do maior lado do galinheiro?</strong>",
+      "imagem": null,
+      "alternativas": [
+        "85",
+        "100",
+        "175",
+        "200",
+        "350"
       ],
       "correta": 1
     },
@@ -1991,13 +1991,13 @@
     {
       "id": "2024_149",
       "materia": "matematica",
-      "enunciado": "<div class='contexto'>Em uma empresa é comercializado um produto em embalagens em formato de cilindro circular reto, com raio medindo 3 cm, e altura medindo 10 cm. Essa empresa planeja comercializar o mesmo produto em embalagens em formato de cubo, com capacidade igual a 80% da capacidade da embalagem cilíndrica utilizada atualmente.Use 3 como valor aproximado para π.</div><strong>A medida da aresta da nova embalagem, em centímetro quadrado, é</strong>",
+      "enunciado": "<div class='contexto'>Em uma empresa é comercializado um produto em embalagens em formato de cilindro circular reto, com raio medindo 3 cm, e altura medindo 15 cm. Essa empresa planeja comercializar o mesmo produto em embalagens em formato de cubo, com capacidade igual a 80% da capacidade da embalagem cilíndrica utilizada atualmente.Use 3 como valor aproximado para π.</div><strong>A medida da aresta da nova embalagem, em centímetro, deve ser</strong>",
       "imagem": null,
       "alternativas": [
         "6",
         "18",
         "6√6",
-        "6√6",
+        "6∛6",
         "3√12"
       ],
       "correta": 4
@@ -2061,7 +2061,21 @@
     {
       "id": "2024_154",
       "materia": "matematica",
-      "enunciado": "<div class='contexto'>Contratos de vários serviços disponíveis na internet apresentam uma quantidade excessiva de informações. Isso faz com que o tempo necessário para a leitura desses contratos possa ser longo.O quadro apresenta uma amostra do tempo considerado necessário para a leitura completa do contrato de alguns serviços digitais.Tipo de serviçoTempo necessário para a leitura completa do contrato (em minuto)A36B17C27D15E13ROMERO, L. Não li e concordo. Superinteressante, n. 309, ago. 2012 (adaptado).</div><div class='contexto'>Descrição da imagem: Uma tabela com duas colunas: 'Tipo de serviço' e 'Tempo necessário para a leitura completa do contrato (em minuto)'. As linhas são: A com 36, B com 17, C com 27, D com 15, E com 13.</div><strong>Para esse fim, há cinco tipos de sensores disponíveis no mercado, cada um com as seguintes características:tipo I: α = 15° e R = 20 m;tipo II: α = 30° e R = 22 m;tipo III: α = 40° e R = 18 m;tipo IV: α = 60° e R = 16 m;tipo V: α = 90° e R = 10 m.Esse proprietário pretende adquirir um desses sensores que seja capaz de cobrir, no mínimo, uma área de medida 70 m², com o menor preço possível.Use 3 como valor aproximado para π.O proprietário do imóvel deverá adquirir o sensor do tipo</strong>",
+      "enunciado": "<div class='contexto'>Contratos de vários serviços disponíveis na internet apresentam uma quantidade excessiva de informações. Isso faz com que o tempo necessário para a leitura desses contratos possa ser longo. O quadro apresenta uma amostra do tempo considerado necessário para a leitura completa do contrato de alguns serviços digitais.</div><div class='contexto'>Tipo de serviço — tempo necessário para a leitura completa do contrato (em minuto): A — 36; B — 17; C — 27; D — 13; E — 13; F — 13.<br>ROMERO, L. “Não li e concordo”. <em>Superinteressante</em>, n. 307, ago. 2012 (adaptado).</div><strong>O tempo médio, em minuto, necessário para a leitura completa de um contrato de serviço dentre os listados no quadro é, com uma casa decimal, aproximadamente,</strong>",
+      "imagem": null,
+      "alternativas": [
+        "13,0.",
+        "15,0.",
+        "19,8.",
+        "20,0.",
+        "23,3."
+      ],
+      "correta": 2
+    },
+    {
+      "id": "2024_155",
+      "materia": "matematica",
+      "enunciado": "<div class='contexto'>Um proprietário pretende instalar um sensor de presença para a proteção de seu imóvel. O sensor deverá detectar movimentos de objetos e pessoas numa determinada região plana. A figura ilustra a vista superior da área de cobertura (setor circular em azul) de um sensor colocado no ponto S. Essa área depende da medida do ângulo α, em grau, e do raio R, em metro. Ao aumentar o ângulo α ou o raio R aumenta-se a área de cobertura do sensor. Entretanto, quanto maior essa área, maior o preço do sensor.</div><div class='contexto'>Tipos disponíveis: I — α = 15° e R = 20 m; II — α = 30° e R = 22 m; III — α = 40° e R = 12 m; IV — α = 60° e R = 16 m; V — α = 90° e R = 10 m. Use 3 como valor aproximado para π.</div><strong>Esse proprietário pretende adquirir um desses sensores que seja capaz de cobrir, no mínimo, uma área de medida 70 m², com o menor preço possível. O proprietário do imóvel deverá adquirir o sensor do tipo</strong>",
       "imagem": null,
       "alternativas": [
         "I.",
@@ -2069,20 +2083,6 @@
         "III.",
         "IV.",
         "V."
-      ],
-      "correta": 2
-    },
-    {
-      "id": "2024_155",
-      "materia": "matematica",
-      "enunciado": "<div class='contexto'>Tipo de serviçoTempo necessário para a leitura completa do contrato (em minuto)A36B17C27D15E13</div><div class='contexto'>Descrição da imagem: Uma tabela com duas colunas: 'Tipo de serviço' e 'Tempo necessário para a leitura completa do contrato (em minuto)'. As linhas são: A com 36, B com 17, C com 27, D com 15, E com 13.</div><strong>O tempo médio, em minuto, necessário para a leitura completa de um contrato de serviço dentre os listados no quadro é, com uma casa decimal, aproximadamente,</strong>",
-      "imagem": null,
-      "alternativas": [
-        "13,0.",
-        "15,0.",
-        "19,8.",
-        "20,8.",
-        "23,3."
       ],
       "correta": 4
     },
@@ -2107,9 +2107,9 @@
       "imagem": null,
       "alternativas": [
         "12,50",
+        "20,00",
         "24,00",
         "30,00",
-        "37,50",
         "37,50"
       ],
       "correta": 2
@@ -2135,10 +2135,10 @@
       "imagem": null,
       "alternativas": [
         "mL · s · cm²",
-        "mLs · cm²",
-        "mLs · cm²",
-        "mLcm²s",
-        "mLs · cm²"
+        "(mL/s) · cm²",
+        "mL/(cm² · s)",
+        "(cm² · s)/mL",
+        "cm²/(mL · s)"
       ],
       "correta": 2
     },
@@ -2275,10 +2275,10 @@
       "imagem": null,
       "alternativas": [
         "1/25 + 1/25 + 1/25",
-        "24/23 + 1/24 + 1/23",
-        "1/25 x 1/24 x 1/23",
-        "24/23 x 1/24 x 1/23",
-        "24/23 x 1/24 x 1/23"
+        "24/25 + 23/24 + 1/23",
+        "1/25 × 1/24 × 1/23",
+        "24/25 × 23/25 × 1/25",
+        "24/25 × 23/24 × 1/23"
       ],
       "correta": 4
     },
@@ -2416,9 +2416,9 @@
       "alternativas": [
         "1 000",
         "1 500",
-        "3 000",
+        "3 500",
         "3 800",
-        "5250"
+        "5 250"
       ],
       "correta": 2
     },

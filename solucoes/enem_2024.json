@@ -586,11 +586,11 @@
     },
     {
       "id": "2024_153",
-      "resolucao": "Para converter 135,25% em número decimal, divide-se por 100: 135,25/100 = 1,3525. Gabarito: D."
+      "resolucao": "O símbolo % significa “por cento”, isto é, uma divisão por 100. Para escrever 135,25% na forma decimal, calculamos 135,25 ÷ 100 = 1,3525, deslocando a vírgula duas casas para a esquerda. Como a taxa supera 100%, o resultado decimal deve ser maior que 1; isso também confirma que 0,13525 não pode ser correto. Gabarito: D."
     },
     {
       "id": "2024_154",
-      "resolucao": "A média dos seis tempos é (36 + 17 + 27 + 13 + 13 + 13)/6 = 119/6 ≈ 19,8 minutos. Gabarito: C."
+      "resolucao": "Somamos os seis tempos da tabela: 36 + 17 + 27 + 13 + 13 + 13 = 119 minutos. Como são seis serviços, a média é 119 ÷ 6 = 19,833… minutos. Arredondando para uma casa decimal, obtemos 19,8 minutos. Gabarito: C."
     },
     {
       "id": "2024_155",
@@ -610,7 +610,7 @@
     },
     {
       "id": "2024_159",
-      "resolucao": "O fluxo é a vazão dividida pela área. Sua unidade é (mL/s)/cm², isto é, mL/(cm²·s). Gabarito: C."
+      "resolucao": "O fluxo é diretamente proporcional à vazão e inversamente proporcional à área. Portanto, sua unidade é a unidade da vazão dividida pela unidade da área: (mL/s)/cm². Reescrevendo a fração, temos mL/(cm²·s), ou seja, mililitros que atravessam cada centímetro quadrado da membrana a cada segundo. Gabarito: C."
     },
     {
       "id": "2024_160",
