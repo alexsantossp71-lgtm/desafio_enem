@@ -411,6 +411,26 @@
     {
       "id": "2021_146",
       "resolucao": "O coeficiente de variação da ração atual é CV = 1/10 = 0,10. Para a nova ração, CV = 1,5/x, em que x é a média de massa dos coelhos. A substituição ocorre se 1,5/x < 0,10. Multiplicando por x e dividindo por 0,10, obtemos x > 15. Portanto, a média deve ser superior a 15 kg. Gabarito: E."
+    },
+    {
+      "id": "2021_153",
+      "resolucao": "Para determinar a escala, comparamos medidas correspondentes na mesma unidade. A ponte original mede 38,4 m, ou 3 840 cm, e a réplica mede 160 cm. A razão réplica/original é 160 ÷ 3 840 = 1/24. Portanto, a escala utilizada é 1 : 24. Gabarito: C."
+    },
+    {
+      "id": "2021_158",
+      "resolucao": "A aeronave B transporta 10% mais passageiros, ou seja, 1,1 vez a lotação da aeronave A. Porém, consome 10% menos combustível por passageiro e por quilômetro, isto é, 0,9 vez o consumo individual. O consumo total relativo é 1,1 × 0,9 = 0,99. Assim, o modelo B consome 99% do combustível do modelo A, uma redução de 1%. Gabarito: B."
+    },
+    {
+      "id": "2021_159",
+      "resolucao": "Com três pessoas, um grupo troca um pneu em 4 segundos. Como o tempo é inversamente proporcional ao número de trabalhadores, com duas pessoas o grupo reduzido levará 4 × 3/2 = 6 segundos. Os outros três grupos continuam trabalhando em 4 segundos, mas a troca completa só termina quando o grupo mais lento conclui sua tarefa. Logo, o tempo total é 6 segundos. Gabarito: A."
+    },
+    {
+      "id": "2021_160",
+      "resolucao": "É preciso comparar o custo mínimo de sachês de cada tipo que atenda simultaneamente às três quantidades mínimas. O suplemento IV fornece 600 mg de A, 500 mg de B e 1 000 mg de C por sachê. Com dois sachês, fornece 1 200 mg de A, 1 000 mg de B e 2 000 mg de C, atendendo às necessidades de 800 mg, 1 000 mg e 1 200 mg, por R$ 12,00. As demais opções exigem gasto maior para suprir todos os minerais. Portanto, a escolha é o suplemento IV. Gabarito: D."
+    },
+    {
+      "id": "2021_163",
+      "resolucao": "O módulo volumétrico é proporcional ao produto da densidade pelo quadrado da velocidade do som. A densidade tem unidade kg/m³ e a velocidade ao quadrado tem unidade m²/s². Multiplicando: (kg/m³) × (m²/s²) = kg/(m·s²), que equivale a N/m², ou pascal (Pa). Gabarito: B."
     }
   ]
 }
