@@ -535,7 +535,7 @@
     {
       "id": "2023_44",
       "materia": "linguagens",
-      "enunciado": "<div class='contexto'>![](https://enem.dev/broken-image.svg)</div><strong>Essa campanha publicitária do Ministério da Saúde visa</strong>",
+      "enunciado": "<div class='contexto'>Descrição da peça publicitária: cartaz do Ministério da Saúde com o título “Por que é tão importante amamentar?” e uma lista ilustrada de benefícios para a saúde e o desenvolvimento do bebê, incluindo proteção contra doenças, menor risco de algumas condições e estímulos ao desenvolvimento da face, da fala e da respiração.</div><strong>Essa campanha publicitária do Ministério da Saúde visa</strong>",
       "imagem": null,
       "alternativas": [
         "Divulgar um conjunto de benefícios proporcionados pela amamentação.",
@@ -703,7 +703,7 @@
     {
       "id": "2023_56",
       "materia": "ciencias-humanas",
-      "enunciado": "<div class='contexto'>![](https://enem.dev/broken-image.svg)<br><br>LAERTE. Disponível em: www.laerte.art.br. Acesso em: 23 nov. 2021 (adaptado)</div><strong>A charge ilustra um anseio presente na sociedade contemporânea, que se caracteriza pela</strong>",
+      "enunciado": "<div class='contexto'>Descrição da charge: em três quadros, uma personagem diz que gostaria de ter “poder”. Ao ouvir sugestões de habilidades extraordinárias, como força, visão de raio X, telecinese e telepatia, esclarece que deseja “poder político”.<br><br>LAERTE. Disponível em: www.laerte.art.br. Acesso em: 23 nov. 2021 (adaptado)</div><strong>A charge ilustra um anseio presente na sociedade contemporânea, que se caracteriza pela</strong>",
       "imagem": null,
       "alternativas": [
         "Situação de revolta individual.",
@@ -829,10 +829,10 @@
     {
       "id": "2023_65",
       "materia": "ciencias-humanas",
-      "enunciado": "<div class='contexto'>![](https://enem.dev/broken-image.svg)<br><br>Nas reportagens publicadas sobre a inauguração de Museu de Arte de São Paulo, em 1947, quando ele ainda ocupava um edifício na rua Sete de Abril, Lina Bo Bardi não foi mencionada nenhuma vez. A arquiteta era responsável pelo projeto do museu que mudaria para sempre a posição de São Paulo no circuito mundial das artes. Mas não houve nenhum registro disso. O louvor se concentrou em seu marido e parceiro profissional, o respeitado crítico de arte Pietro Maria Bardi. Passados 75 anos, a mulher então ignorada recebeu um Leão de Ouro póstumo, a maior homenagem da Bienal de Arquitetura de Veneza, e tem agora sua história contada em duas biografias de peso, que procuram destrinchar uma carreira marcada pela ousadia e pela contradição.<br><br>PORTO, W. L**ina Bo Bardi tem sua arquitetura contraditória destrinchada em biografias**. Disponível em: www1.folha.uol.com.br. Acesso em: 10 nov. 2021 (adaptado).</div><strong>As transformações pelas quais passaram as sociedades ocidentais e que possibilitaram o reconhecimento recente do trabalho da arquiteta mencionada no texto foram resultado das mobilizações sociais pela</strong>",
+      "enunciado": "<div class='contexto'>Nas reportagens publicadas sobre a inauguração de Museu de Arte de São Paulo, em 1947, quando ele ainda ocupava um edifício na rua Sete de Abril, Lina Bo Bardi não foi mencionada nenhuma vez. A arquiteta era responsável pelo projeto do museu que mudaria para sempre a posição de São Paulo no circuito mundial das artes. Mas não houve nenhum registro disso. O louvor se concentrou em seu marido e parceiro profissional, o respeitado crítico de arte Pietro Maria Bardi. Passados 75 anos, a mulher então ignorada recebeu um Leão de Ouro póstumo, a maior homenagem da Bienal de Arquitetura de Veneza, e tem agora sua história contada em duas biografias de peso, que procuram destrinchar uma carreira marcada pela ousadia e pela contradição.<br><br>PORTO, W. **Lina Bo Bardi tem sua arquitetura contraditória destrinchada em biografias**. Disponível em: www1.folha.uol.com.br. Acesso em: 10 nov. 2021 (adaptado).</div><strong>As transformações pelas quais passaram as sociedades ocidentais e que possibilitaram o reconhecimento recente do trabalho da arquiteta mencionada no texto foram resultado das mobilizações sociais pela</strong>",
       "imagem": null,
       "alternativas": [
-        "Equidade de genêro.",
+        "Equidade de gênero.",
         "Liberdade de expressão.",
         "Admissibilidade de voto.",
         "Igualdade de oportunidade.",
@@ -1515,7 +1515,7 @@
     {
       "id": "2023_114",
       "materia": "ciencias-natureza",
-      "enunciado": "<div class='contexto'>Uma equipe de segurança do transporte de uma empresa avalia o comportamento das tensões que aparecem em duas cordas, 1 e 2, usadas para prender uma carga de massa M = 200 kg na carroceria, conforme a ilustração. Quando o caminhão parte do repouso, sua aceleração é constante e igual a 3 m/s2 e, quando ele é freado bruscamente, sua frenagem é constante e igual a 5 m/s2. Em ambas as situações, a carga encontra-se na iminência de movimento, e o sentido do movimento do caminhão está indicado na figura. O coeficiente de atrito estático entre a caixa e c assoalho da carroceria é igual a 0,2. Considere a aceleração da gravidade igual a 10 m/s2, as tensões iniciais nas cordas iguais a zero e as duas cordas ideais.<br><br>![](https://enem.dev/2023/questions/114/e245e16d-8a95-4b2e-ab33-6dd299ff9474.png)</div><strong>Nas situações de aceleração e frenagem do caminhão, as tensões nas cordas 1 e 2, em newton, serão</strong>",
+      "enunciado": "<div class='contexto'>Uma equipe de segurança do transporte de uma empresa avalia o comportamento das tensões que aparecem em duas cordas, 1 e 2, usadas para prender uma carga de massa M = 200 kg na carroceria, conforme a ilustração. Quando o caminhão parte do repouso, sua aceleração é constante e igual a 3 m/s2 e, quando ele é freado bruscamente, sua frenagem é constante e igual a 5 m/s2. Em ambas as situações, a carga encontra-se na iminência de movimento, e o sentido do movimento do caminhão está indicado na figura. O coeficiente de atrito estático entre a caixa e o assoalho da carroceria é igual a 0,2. Considere a aceleração da gravidade igual a 10 m/s2, as tensões iniciais nas cordas iguais a zero e as duas cordas ideais.<br><br>![](https://enem.dev/2023/questions/114/e245e16d-8a95-4b2e-ab33-6dd299ff9474.png)</div><strong>Nas situações de aceleração e frenagem do caminhão, as tensões nas cordas 1 e 2, em newton, serão</strong>",
       "imagem": "imagens/2023/2023_114_e245e16d-8a95-4b2e-ab33-6dd299ff9474.png",
       "alternativas": [
         "Aceleração: T1 = 0 e T2 = 200; frenagem: T1 = 600 e T2 = 0.",
@@ -1725,13 +1725,13 @@
     {
       "id": "2023_129",
       "materia": "ciencias-natureza",
-      "enunciado": "<div class='contexto'>O Aldrin é um inseticida agrícola organoclorado sintético de baixa polaridade, cuja estrutura molecular simétrica, de fórmula ![](https://enem.dev/broken-image.svg), está representada na figura. Introduzido na agricultura a partir da década de 1950, esse composto apresenta alta persistência no meio ambiente e acumulação nos organismos, sendo danoso para a saúde.<br><br>![](https://enem.dev/broken-image.svg)<br><br>VIEGAS JÚNIOR, C. Terpenos com atividade inseticida: uma alternativa para o controle químico de insetos. **Química Nova**, v. 26, n. 3, 2003 (adaptado).<br><br>Um pesquisador coletou fluidos biológicos de indivíduos de uma população contaminada por esse inseticida agrícola. Ele analisou amostras de saliva, sangue, lágrima, urina e leite quanto à presença dessa substância.</div><strong>Em qual dos fluidos o pesquisador provavelmente encontrou a maior concentração dessa substância?</strong>",
+      "enunciado": "<div class='contexto'>O Aldrin é um inseticida agrícola organoclorado sintético de baixa polaridade, cuja estrutura molecular simétrica, de fórmula C₁₂H₈Cl₆, está representada na figura. Introduzido na agricultura a partir da década de 1950, esse composto apresenta alta persistência no meio ambiente e acumulação nos organismos, sendo danoso para a saúde.<br><br>Descrição da estrutura: molécula orgânica policíclica do aldrin, com átomos de carbono e hidrogênio e seis átomos de cloro ligados à estrutura, compatível com a fórmula C₁₂H₈Cl₆.<br><br>VIEGAS JÚNIOR, C. Terpenos com atividade inseticida: uma alternativa para o controle químico de insetos. **Química Nova**, v. 26, n. 3, 2003 (adaptado).<br><br>Um pesquisador coletou fluidos biológicos de indivíduos de uma população contaminada por esse inseticida agrícola. Ele analisou amostras de saliva, sangue, lágrima, urina e leite quanto à presença dessa substância.</div><strong>Em qual dos fluidos o pesquisador provavelmente encontrou a maior concentração dessa substância?</strong>",
       "imagem": null,
       "alternativas": [
         "Saliva, por consequência da atividade de enzimas.",
         "Sangue, em função das hemácias e leucócitos.",
         "Lágrima, em razão da concentração de sais.",
-        "Urina, pela presenca de moléculas de ureia.",
+        "Urina, pela presença de moléculas de ureia.",
         "Leite, por causa do alto teor de gorduras."
       ],
       "correta": 4
