@@ -399,6 +399,18 @@
     {
       "id": "2021_136",
       "resolucao": "Usamos a relação ρ² = ρ + 1 para reduzir as potências. Primeiro, ρ³ = ρ(ρ²) = ρ(ρ + 1) = 2ρ + 1. Prosseguindo: ρ⁴ = 3ρ + 2; ρ⁵ = 5ρ + 3; ρ⁶ = 8ρ + 5; e ρ⁷ = 13ρ + 8. Portanto, a forma pedida é 13ρ + 8. Gabarito: E."
+    },
+    {
+      "id": "2021_141",
+      "resolucao": "O custo das diárias é d × n. A taxa de limpeza L é fixa, independentemente do número de noites. Já a taxa de serviço corresponde a uma fração s do valor das diárias, isto é, d × n × s. Somando os três componentes, o preço total é P = d·n + L + d·n·s. Gabarito: A."
+    },
+    {
+      "id": "2021_142",
+      "resolucao": "A probabilidade de acertar um dardo é 1/2; logo, a probabilidade de errar é também 1/2. Para n lançamentos independentes, a chance de errar todos é (1/2)ⁿ. Assim, a probabilidade de acertar pelo menos um é 1 − (1/2)ⁿ. Para atingir pelo menos 0,9: (1/2)ⁿ ≤ 0,1. Com quatro dardos, a chance de pontuar é 1 − 1/16 = 15/16 = 0,9375, enquanto com três seria 0,875. Portanto, o mínimo é 4 dardos. Gabarito: B."
+    },
+    {
+      "id": "2021_146",
+      "resolucao": "O coeficiente de variação da ração atual é CV = 1/10 = 0,10. Para a nova ração, CV = 1,5/x, em que x é a média de massa dos coelhos. A substituição ocorre se 1,5/x < 0,10. Multiplicando por x e dividindo por 0,10, obtemos x > 15. Portanto, a média deve ser superior a 15 kg. Gabarito: E."
     }
   ]
 }
