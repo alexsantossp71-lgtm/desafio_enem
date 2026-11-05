@@ -1487,14 +1487,14 @@
     {
       "id": "2024_112",
       "materia": "ciencias-natureza",
-      "enunciado": "<div class='contexto'>Considere a legenda:Mulher heterozigota portadora do gene para daltonismoMulher não daltônicaMulher daltônicaHomem não daltônicoHomem daltônicoGRIFFITHS, A. et al. Introdução à genética. Rio de Janeiro: Guanabara Koogan, 2016 (adaptado).</div><div class='contexto'>Descrição da imagem: Uma seção intitulada &quot;Considere a legenda:&quot; com os seguintes símbolos e descrições: um círculo vermelho para &quot;Mulher heterozigota portadora do gene para daltonismo&quot;, um círculo branco para &quot;Mulher não daltônica&quot;, um quadrado vermelho para &quot;Mulher daltônica&quot;, um quadrado branco para &quot;Homem não daltônico&quot; e um quadrado azul para &quot;Homem daltônico&quot;. Abaixo, há cinco heredogramas (A, B, C, D, E) que utilizam esses símbolos. Heredograma A: Um casal, onde a mulher é um círculo branco e o homem é um quadrado branco. Eles têm dois filhos: uma filha representada por um círculo vermelho e um filho representado por um quadrado azul. Heredograma B: Um casal, onde a mulher é um círculo vermelho e o homem é um quadrado branco. Eles têm dois filhos: uma filha representada por um círculo branco e um filho representado por um quadrado azul. Heredograma C: Um casal, onde a mulher é um círculo branco e o homem é um quadrado branco. Eles têm dois filhos: uma filha representada por um círculo branco e um filho representado por um quadrado azul. Heredograma D: Um casal, onde a mulher é um círculo vermelho e o homem é um quadrado branco. Eles têm dois filhos: uma filha representada por um círculo branco e um filho representado por um quadrado branco. Heredograma E: Um casal, onde a mulher é um círculo vermelho e o homem é um quadrado branco. Eles têm dois filhos: uma filha representada por um círculo branco e um filho representado por um quadrado azul. A fonte é &quot;GRIFFITHS, A. et al. Introdução à genética. Rio de Janeiro: Guanabara Koogan, 2016 (adaptado).&quot;</div><strong>Um dos exemplos mais conhecidos de herança recessiva ligada ao cromossomo X é o daltonismo. Como em qualquer distúrbio recessivo ligado ao cromossomo X, existem muito mais homens apresentando o fenótipo com esse tipo de daltonismo do que mulheres. Um casal formado por um homem não daltônico e por uma mulher genotipicamente não daltônica, mas portadora do gene recessivo para esse tipo de daltonismo, está esperando um bebê. Em uma das consultas de pré-natal, o casal recebeu um heredograma que contém todas as possibilidades de genótipo para esse bebê.Qual heredograma foi recebido pelo casal?</strong>",
+      "enunciado": "<div class='contexto'>Considere a legenda:Mulher heterozigota portadora do gene para daltonismoMulher não daltônicaMulher daltônicaHomem não daltônicoHomem daltônicoGRIFFITHS, A. et al. Introdução à genética. Rio de Janeiro: Guanabara Koogan, 2016 (adaptado).</div><div class='contexto'>Descrição da imagem: Os cinco heredogramas apresentam o mesmo casal inicial — mãe portadora heterozigota e pai não daltônico — e quatro descendentes em cada opção. As combinações de fenótipos dos filhos variam entre as alternativas.</div><strong>Um dos exemplos mais conhecidos de herança recessiva ligada ao cromossomo X é o daltonismo. Como em qualquer distúrbio recessivo ligado ao cromossomo X, existem muito mais homens apresentando o fenótipo com esse tipo de daltonismo do que mulheres. Um casal formado por um homem não daltônico e por uma mulher genotipicamente não daltônica, mas portadora do gene recessivo para esse tipo de daltonismo, está esperando um bebê. Em uma das consultas de pré-natal, o casal recebeu um heredograma que contém todas as possibilidades de genótipo para esse bebê.Qual heredograma foi recebido pelo casal?</strong>",
       "imagem": null,
       "alternativas": [
-        "Um heredograma mostrando um casal (círculo branco e quadrado branco) com dois filhos: uma filha (círculo vermelho) e um filho (quadrado azul).",
-        "Um heredograma mostrando um casal (círculo vermelho e quadrado branco) com dois filhos: uma filha (círculo branco) e um filho (quadrado azul).",
-        "Um heredograma mostrando um casal (círculo branco e quadrado branco) com dois filhos: uma filha (círculo branco) e um filho (quadrado azul).",
-        "Um heredograma mostrando um casal (círculo vermelho e quadrado branco) com dois filhos: uma filha (círculo branco) e um filho (quadrado branco).",
-        "Um heredograma mostrando um casal (círculo vermelho e quadrado branco) com dois filhos: uma filha (círculo branco) e um filho (quadrado azul)."
+        "A — Filhos: mulher não daltônica, mulher daltônica, homem daltônico e homem não daltônico.",
+        "B — Filhos: mulher não daltônica, mulher portadora heterozigota, homem não daltônico e homem daltônico.",
+        "C — Filhos: duas mulheres portadoras heterozigotas e dois homens não daltônicos.",
+        "D — Filhos: duas mulheres não daltônicas e dois homens daltônicos.",
+        "E — Filhos: duas mulheres daltônicas e dois homens não daltônicos."
       ],
       "correta": 1
     },
@@ -1697,14 +1697,14 @@
     {
       "id": "2024_127",
       "materia": "ciencias-natureza",
-      "enunciado": "<div class='contexto'>Em um experimento de laboratório, duas barras magnéticas, A e B, são carregadas com cargas opostas e imersas em óleo. Farelo de milho é jogado sobre o óleo e, após um certo tempo, o farelo assume o formato das linhas de campo elétrico entre as barras. A figura representa a vista superior desse experimento.</div><div class='contexto'>Descrição da imagem: A imagem apresenta um diagrama inicial e cinco opções de diagramas (A, B, C, D, E). O diagrama inicial mostra duas barras verticais paralelas, rotuladas A (esquerda) com cargas positivas e B (direita) com cargas negativas. Linhas de campo elétrico curvas saem da barra A e entram na barra B. Abaixo, são apresentadas cinco opções de diagramas, cada uma mostrando as barras A e B com um cilindro metálico oco posicionado entre elas, e diferentes configurações de linhas de campo: Opção A: As linhas de campo são curvas, saindo de A e entrando em B, e contornam o cilindro oco, não entrando em seu interior. Opção B: As linhas de campo são retas e paralelas, saindo de A e entrando em B, e contornam o cilindro oco, não entrando em seu interior. Opção C: As linhas de campo são retas e paralelas, saindo de A e entrando em B, e atravessam o cilindro oco. Opção D: As linhas de campo são curvas, saindo de A e entrando em B, e atravessam o cilindro oco. Opção E: As linhas de campo são retas e paralelas, saindo de A e entrando em B, e contornam o cilindro oco, não entrando em seu interior.</div><strong>Ao repetir o experimento colocando um cilindro metálico oco entre as placas, o esquema que representa o formato das linhas de campo assumido pelo farelo é:</strong>",
+      "enunciado": "<div class='contexto'>Em um experimento de laboratório, duas barras magnéticas, A e B, são carregadas com cargas opostas e imersas em óleo. Farelo de milho é jogado sobre o óleo e, após um certo tempo, o farelo assume o formato das linhas de campo elétrico entre as barras. A figura representa a vista superior desse experimento.</div><div class='contexto'>Descrição da imagem: O esquema compara cinco configurações de linhas de campo elétrico entre duas barras de cargas opostas, com um cilindro metálico oco colocado entre elas. As alternativas diferem quanto ao desvio das linhas e à presença ou ausência de campo no interior do cilindro.</div><strong>Ao repetir o experimento colocando um cilindro metálico oco entre as placas, o esquema que representa o formato das linhas de campo assumido pelo farelo é:</strong>",
       "imagem": null,
       "alternativas": [
-        "Um esquema com duas barras verticais paralelas, A à esquerda e B à direita. Entre elas, linhas de campo elétrico curvas que saem de A e entram em B.",
-        "Um esquema com duas barras verticais paralelas, A à esquerda e B à direita. Entre elas, linhas de campo elétrico retas e paralelas que saem de A e entram em B, mas com um cilindro oco no centro, e as linhas de campo contornam o cilindro sem entrar nele.",
-        "Um esquema com duas barras verticais paralelas, A à esquerda e B à direita. Entre elas, linhas de campo elétrico retas e paralelas que saem de A e entram em B, e as linhas de campo atravessam o cilindro oco no centro.",
-        "Um esquema com duas barras verticais paralelas, A à esquerda e B à direita. Entre elas, linhas de campo elétrico curvas que saem de A e entram em B, mas com um cilindro oco no centro, e as linhas de campo atravessam o cilindro oco no centro.",
-        "Um esquema com duas barras verticais paralelas, A à esquerda e B à direita. Entre elas, linhas de campo elétrico retas e paralelas que saem de A e entram em B, mas com um cilindro oco no centro, e as linhas de campo contornam o cilindro sem entrar nele."
+        "A — Linhas de campo retas entre as barras, atravessando o interior do cilindro metálico oco.",
+        "B — Linhas de campo retas entre as barras, atravessando o cilindro metálico oco em sentido oposto.",
+        "C — Linhas de campo deformadas ao redor do cilindro, com concentração maior na região central.",
+        "D — Linhas de campo retas nas bordas, com linhas atravessando o interior do cilindro.",
+        "E — Linhas de campo contornam o cilindro metálico oco, sem linhas em seu interior."
       ],
       "correta": 4
     },
@@ -2275,10 +2275,10 @@
       "imagem": null,
       "alternativas": [
         "1/25 + 1/25 + 1/25",
-        "24/23 + 1/24 + 1/23",
-        "1/25 x 1/24 x 1/23",
-        "24/23 x 1/24 x 1/23",
-        "24/23 x 1/24 x 1/23"
+        "24/25 + 23/24 + 1/23",
+        "1/25 × 1/24 × 1/23",
+        "24/25 × 23/25 × 1/25",
+        "24/25 × 23/24 × 1/23"
       ],
       "correta": 4
     },
