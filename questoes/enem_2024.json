@@ -1991,13 +1991,13 @@
     {
       "id": "2024_149",
       "materia": "matematica",
-      "enunciado": "<div class='contexto'>Em uma empresa é comercializado um produto em embalagens em formato de cilindro circular reto, com raio medindo 3 cm, e altura medindo 15 cm. Essa empresa planeja comercializar o mesmo produto em embalagens em formato de cubo, com capacidade igual a 80% da capacidade da embalagem cilíndrica utilizada atualmente.Use 3 como valor aproximado para π.</div><strong>A medida da aresta da nova embalagem, em centímetro quadrado, é</strong>",
+      "enunciado": "<div class='contexto'>Em uma empresa é comercializado um produto em embalagens em formato de cilindro circular reto, com raio medindo 3 cm, e altura medindo 15 cm. Essa empresa planeja comercializar o mesmo produto em embalagens em formato de cubo, com capacidade igual a 80% da capacidade da embalagem cilíndrica utilizada atualmente.Use 3 como valor aproximado para π.</div><strong>A medida da aresta da nova embalagem, em centímetro, deve ser</strong>",
       "imagem": null,
       "alternativas": [
         "6",
         "18",
         "6√6",
-        "6√6",
+        "6∛6",
         "3√12"
       ],
       "correta": 4
@@ -2107,9 +2107,9 @@
       "imagem": null,
       "alternativas": [
         "12,50",
+        "20,00",
         "24,00",
         "30,00",
-        "37,50",
         "37,50"
       ],
       "correta": 2
@@ -2416,9 +2416,9 @@
       "alternativas": [
         "1 000",
         "1 500",
-        "3 000",
+        "3 500",
         "3 800",
-        "5250"
+        "5 250"
       ],
       "correta": 2
     },
