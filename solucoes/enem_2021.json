@@ -295,6 +295,42 @@
     {
       "id": "2021_92",
       "resolucao": "As barras são do mesmo material e estão no mesmo meio, mas têm comprimentos diferentes. A barra menor vibra com frequência fundamental maior que a barra mais comprida. Já a velocidade de propagação do som depende das propriedades do meio em que ele se propaga, não do comprimento da barra que o produziu; no mesmo ar, as velocidades são iguais. Logo, f₁ é maior que f₂ e v₁ = v₂. Gabarito: D."
+    },
+    {
+      "id": "2021_93",
+      "resolucao": "O polvo mimético assume aparência e postura de outros animais, o que pode confundir predadores e reduzir o risco de ser capturado. Ao longo das gerações, indivíduos com características e comportamentos que aumentavam a chance de sobrevivência tiveram maior possibilidade de deixar descendentes. A capacidade foi favorecida pela seleção natural sob pressões seletivas do ambiente. Gabarito: E."
+    },
+    {
+      "id": "2021_95",
+      "resolucao": "A meia-vida é de 5 anos. Em 35 anos decorrem 35 ÷ 5 = 7 meias-vidas. A massa é reduzida à metade sete vezes: 500 ÷ 2⁷ = 500 ÷ 128 ≈ 3,9 g. Portanto, a massa restante é aproximadamente 3,9 gramas. Gabarito: A."
+    },
+    {
+      "id": "2021_97",
+      "resolucao": "O óleo vegetal é formado principalmente por triglicerídeos. Na fabricação do sabão, esses compostos reagem com uma base forte, como a soda cáustica (NaOH), produzindo glicerol e sais de ácidos graxos, que constituem o sabão. Essa reação é chamada saponificação. Gabarito: E."
+    },
+    {
+      "id": "2021_98",
+      "resolucao": "Durante a vida fetal, os pulmões ainda não realizam as trocas gasosas; o oxigênio chega pelo sangue materno através da placenta. Por isso, a circulação fetal apresenta desvios que permitem que o sangue contorne os pulmões, como o forame oval. Essa organização se assemelha à circulação dos peixes, que é simples e apresenta uma única passagem pelo coração em cada circuito. Gabarito: D."
+    },
+    {
+      "id": "2021_99",
+      "resolucao": "A energia do Sol chega à superfície terrestre por ondas eletromagnéticas, sem necessidade de contato material, caracterizando a irradiação. Depois, o ar aquecido sobre a ilha de calor sobe e transfere energia à brisa marítima por movimento de massas de ar, processo de convecção. Logo, os mecanismos são, respectivamente, irradiação e convecção. Gabarito: A."
+    },
+    {
+      "id": "2021_100",
+      "resolucao": "A pedra e a rolha não chegam ao solo ao mesmo tempo porque o ar exerce uma força de resistência que afeta os corpos de maneira diferente. A folha aberta sofre maior resistência do ar do que a mesma folha amassada, por apresentar maior área de contato. No vácuo, desprezando essa resistência, corpos em queda livre têm a mesma aceleração gravitacional. Gabarito: B."
+    },
+    {
+      "id": "2021_101",
+      "resolucao": "A fermentação produz aproximadamente 50 g de etanol para cada 100 g de glicose. Para 50 kg de glicose, a produção teórica é 25 kg de etanol. Com rendimento de 80%, obtêm-se 25 × 0,8 = 20 kg. Como a densidade é 0,80 kg/L, o volume é 20 ÷ 0,80 = 25 L. Gabarito: C."
+    },
+    {
+      "id": "2021_103",
+      "resolucao": "A titulação com solução de NaOH permite determinar a quantidade de ácido acetilsalicílico presente no comprimido. Como esse princípio ativo é um ácido, reage com a base em proporção conhecida; medindo o volume de base necessário para neutralizá-lo, calcula-se sua quantidade. Por isso, o teste que identifica a concentração abaixo do especificado é o de número 5. Gabarito: E."
+    },
+    {
+      "id": "2021_104",
+      "resolucao": "Os compostos tóxicos podem entrar na cadeia alimentar e se acumular nos organismos. Quando um predador consome muitas presas contaminadas, a concentração dessas substâncias tende a aumentar nos níveis tróficos mais elevados, fenômeno chamado biomagnificação. Como os golfinhos ocupam posição de predadores no ecossistema marinho, apresentam as maiores concentrações. Gabarito: B."
     }
   ]
 }
