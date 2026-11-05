@@ -2061,7 +2061,21 @@
     {
       "id": "2024_154",
       "materia": "matematica",
-      "enunciado": "<div class='contexto'>Contratos de vários serviços disponíveis na internet apresentam uma quantidade excessiva de informações. Isso faz com que o tempo necessário para a leitura desses contratos possa ser longo.O quadro apresenta uma amostra do tempo considerado necessário para a leitura completa do contrato de alguns serviços digitais.Tipo de serviçoTempo necessário para a leitura completa do contrato (em minuto)A36B17C27D15E13ROMERO, L. Não li e concordo. Superinteressante, n. 309, ago. 2012 (adaptado).</div><div class='contexto'>Descrição da imagem: Uma tabela com duas colunas: 'Tipo de serviço' e 'Tempo necessário para a leitura completa do contrato (em minuto)'. As linhas são: A com 36, B com 17, C com 27, D com 15, E com 13.</div><strong>Para esse fim, há cinco tipos de sensores disponíveis no mercado, cada um com as seguintes características:tipo I: α = 15° e R = 20 m;tipo II: α = 30° e R = 22 m;tipo III: α = 40° e R = 18 m;tipo IV: α = 60° e R = 16 m;tipo V: α = 90° e R = 10 m.Esse proprietário pretende adquirir um desses sensores que seja capaz de cobrir, no mínimo, uma área de medida 70 m², com o menor preço possível.Use 3 como valor aproximado para π.O proprietário do imóvel deverá adquirir o sensor do tipo</strong>",
+      "enunciado": "<div class='contexto'>Contratos de vários serviços disponíveis na internet apresentam uma quantidade excessiva de informações. Isso faz com que o tempo necessário para a leitura desses contratos possa ser longo. O quadro apresenta uma amostra do tempo considerado necessário para a leitura completa do contrato de alguns serviços digitais.</div><div class='contexto'>Tipo de serviço — tempo necessário para a leitura completa do contrato (em minuto): A — 36; B — 17; C — 27; D — 13; E — 13; F — 13.<br>ROMERO, L. “Não li e concordo”. <em>Superinteressante</em>, n. 307, ago. 2012 (adaptado).</div><strong>O tempo médio, em minuto, necessário para a leitura completa de um contrato de serviço dentre os listados no quadro é, com uma casa decimal, aproximadamente,</strong>",
+      "imagem": null,
+      "alternativas": [
+        "13,0.",
+        "15,0.",
+        "19,8.",
+        "20,0.",
+        "23,3."
+      ],
+      "correta": 2
+    },
+    {
+      "id": "2024_155",
+      "materia": "matematica",
+      "enunciado": "<div class='contexto'>Um proprietário pretende instalar um sensor de presença para a proteção de seu imóvel. O sensor deverá detectar movimentos de objetos e pessoas numa determinada região plana. A figura ilustra a vista superior da área de cobertura (setor circular em azul) de um sensor colocado no ponto S. Essa área depende da medida do ângulo α, em grau, e do raio R, em metro. Ao aumentar o ângulo α ou o raio R aumenta-se a área de cobertura do sensor. Entretanto, quanto maior essa área, maior o preço do sensor.</div><div class='contexto'>Tipos disponíveis: I — α = 15° e R = 20 m; II — α = 30° e R = 22 m; III — α = 40° e R = 12 m; IV — α = 60° e R = 16 m; V — α = 90° e R = 10 m. Use 3 como valor aproximado para π.</div><strong>Esse proprietário pretende adquirir um desses sensores que seja capaz de cobrir, no mínimo, uma área de medida 70 m², com o menor preço possível. O proprietário do imóvel deverá adquirir o sensor do tipo</strong>",
       "imagem": null,
       "alternativas": [
         "I.",
@@ -2069,20 +2083,6 @@
         "III.",
         "IV.",
         "V."
-      ],
-      "correta": 2
-    },
-    {
-      "id": "2024_155",
-      "materia": "matematica",
-      "enunciado": "<div class='contexto'>Tipo de serviçoTempo necessário para a leitura completa do contrato (em minuto)A36B17C27D15E13</div><div class='contexto'>Descrição da imagem: Uma tabela com duas colunas: 'Tipo de serviço' e 'Tempo necessário para a leitura completa do contrato (em minuto)'. As linhas são: A com 36, B com 17, C com 27, D com 15, E com 13.</div><strong>O tempo médio, em minuto, necessário para a leitura completa de um contrato de serviço dentre os listados no quadro é, com uma casa decimal, aproximadamente,</strong>",
-      "imagem": null,
-      "alternativas": [
-        "13,0.",
-        "15,0.",
-        "19,8.",
-        "20,8.",
-        "23,3."
       ],
       "correta": 4
     },
@@ -2135,10 +2135,10 @@
       "imagem": null,
       "alternativas": [
         "mL · s · cm²",
-        "mLs · cm²",
-        "mLs · cm²",
-        "mLcm²s",
-        "mLs · cm²"
+        "(mL/s) · cm²",
+        "mL/(cm² · s)",
+        "(cm² · s)/mL",
+        "cm²/(mL · s)"
       ],
       "correta": 2
     },
