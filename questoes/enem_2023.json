@@ -1520,7 +1520,7 @@
       "alternativas": [
         "Aceleração: T1 = 0 e T2 = 200; frenagem: T1 = 600 e T2 = 0.",
         "Aceleração: T1 = 0 e T2 = 200; frenagem: T1 = 1 400 e T2 = 0.",
-        "Aceleração: T1 = 0 e T2 = 200; frenagem: T1 = 600 e T2 = 0.",
+        "Aceleração: T1 = 0 e T2 = 600; frenagem: T1 = 600 e T2 = 0.",
         "Aceleração: T1 = 560 e T2 = 0; frenagem: T1 = 0 e T2 = 960.",
         "Aceleração: T1 = 640 e T2 = 0; frenagem: T1 = 0 e T2 = 1 040."
       ],
