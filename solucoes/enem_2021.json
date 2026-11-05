@@ -383,6 +383,22 @@
     {
       "id": "2021_128",
       "resolucao": "O carro percorreu 110 km com rendimento de 5,0 km/kWh, consumindo 110 ÷ 5 = 22 kWh. A potência do carregador é P = U × i = 220 × 20 = 4 400 W, ou 4,4 kW. O tempo necessário é energia dividida pela potência: 22 ÷ 4,4 = 5 horas. Gabarito: D."
+    },
+    {
+      "id": "2021_129",
+      "resolucao": "Nas angiospermas ocorre dupla fecundação: um gameta masculino fecunda a oosfera e forma o zigoto, enquanto o outro se une aos núcleos polares da célula central. Essa segunda fecundação origina o endosperma, tecido geralmente triploide que acumula nutrientes e serve de reserva para o embrião durante seu desenvolvimento. Gabarito: B."
+    },
+    {
+      "id": "2021_132",
+      "resolucao": "Se dois pais sem manifestação da doença podem ter um filho afetado, e a probabilidade indicada é de um em quatro, o padrão é compatível com herança autossômica recessiva. Cada progenitor é portador de uma cópia do alelo recessivo; no cruzamento entre dois heterozigotos, 25% dos descendentes podem receber as duas cópias recessivas e manifestar a doença. Gabarito: A."
+    },
+    {
+      "id": "2021_134",
+      "resolucao": "O alcoolômetro funciona pela flutuabilidade, que depende da densidade da solução. Quando a temperatura aumenta, os líquidos sofrem dilatação: o volume cresce e, para a mesma massa, a densidade diminui. Como a escala do instrumento foi calibrada a 20 °C, a alteração de volume exige correção da leitura. Gabarito: C."
+    },
+    {
+      "id": "2021_136",
+      "resolucao": "Usamos a relação ρ² = ρ + 1 para reduzir as potências. Primeiro, ρ³ = ρ(ρ²) = ρ(ρ + 1) = 2ρ + 1. Prosseguindo: ρ⁴ = 3ρ + 2; ρ⁵ = 5ρ + 3; ρ⁶ = 8ρ + 5; e ρ⁷ = 13ρ + 8. Portanto, a forma pedida é 13ρ + 8. Gabarito: E."
     }
   ]
 }
