@@ -531,6 +531,34 @@
     {
       "id": "2020_154",
       "resolucao": "Um micrômetro equivale a 10⁻⁶ m. Portanto, 100 micrômetros = 100 × 10⁻⁶ m = 10² × 10⁻⁶ m = 10⁻⁴ m. Em notação científica, 1,0 × 10⁻⁴ m. Alternativa C."
+    },
+    {
+      "id": "2020_160",
+      "resolucao": "A viagem até o posto Estrela exige 420 km, pois ele fica a 80 km do destino. A moto consome 5 L a cada 100 km; portanto, gasta 21 L até o posto e chega com 1 L no tanque. Depois do abastecimento, precisa percorrer 80 km até o destino, mais 200 km no destino e 80 km de volta ao posto: 360 km, que exigem 18 L. Como já resta 1 L, deve abastecer no mínimo 17 L. Alternativa C."
+    },
+    {
+      "id": "2020_163",
+      "resolucao": "A frase tem 4 vogais distintas (I, A, O, E) e 5 consoantes (M, P, T, T, R), com a letra T repetida. Para intercalar as letras, a única estrutura possível é consoante-vogal-consoante-vogal-consoante-vogal-consoante-vogal-consoante. As vogais podem ser permutadas de 4! maneiras; as consoantes, de 5!/2! maneiras, pois os dois T são iguais. Total: 4! × 5!/2. Alternativa E."
+    },
+    {
+      "id": "2020_165",
+      "resolucao": "A soma das alturas atuais é 15 × 1,93 = 28,95 m. A soma dos quatro jogadores substituídos é 1,78 + 1,82 + 1,84 + 1,86 = 7,30 m; os 11 que permanecem somam 21,65 m. Para média final de 1,99 m, a equipe deve somar 15 × 1,99 = 29,85 m. Os quatro novos devem somar pelo menos 29,85 − 21,65 = 8,20 m. Como um deles mede 2,02 m, os outros três precisam somar 6,18 m, média mínima 6,18/3 = 2,06 m. Alternativa D."
+    },
+    {
+      "id": "2020_169",
+      "resolucao": "Das 200 pessoas, 20 não têm nenhum dos antígenos; portanto, 180 têm A ou B. Pela inclusão-exclusão, o número com os dois antígenos é 100 + 110 − 180 = 30 (tipo AB). O tipo A possui apenas o antígeno A: 100 − 30 = 70 pessoas. Alternativa C."
+    },
+    {
+      "id": "2020_170",
+      "resolucao": "As participações estão na razão 4:6:6, totalizando 16 partes. Para que os três terminem com participações iguais, cada um deve ter 16/3 partes. Antônio precisa passar de 4 para 16/3, adquirindo 4/3 partes ao todo. Como compra quantidades iguais de Joaquim e José, adquire 2/3 parte de cada um. Isso representa (2/3)/6 = 1/9 da participação de cada um dos outros sócios. Alternativa C."
+    },
+    {
+      "id": "2020_172",
+      "resolucao": "As 20 mangueiras têm o mesmo comprimento e somam 100 m; cada uma mede 100/20 = 5 m. Cada mangueira forma a geratriz de um cone, com altura vertical de 3 m e raio da circunferência no chão como incógnita. Pelo teorema de Pitágoras, r² + 3² = 5², então r² = 16 e r = 4 m. Alternativa A."
+    },
+    {
+      "id": "2020_178",
+      "resolucao": "O coeficiente de rendimento é a média ponderada dos desempenhos: CRC = 0,7·EC(com chuva) + 0,3·EC(sem chuva). Para o pneu I: 0,7×6 + 0,3×3 = 5,1. Para II: 3,7; III: 1,6; IV: 3,8; V: −2,1. O maior valor é 5,1, do pneu I. Alternativa A."
     }
   ]
 }
