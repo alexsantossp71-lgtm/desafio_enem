@@ -529,6 +529,10 @@
       "resolucao": "Como a diagonal do cubo é perpendicular ao solo, os dois vértices extremos dessa diagonal e o centro do cubo projetam-se no centro da figura. Os outros seis vértices projetam-se nos vértices de um hexágono regular. As arestas e diagonais do cubo, projetadas no plano do solo, formam os seis lados do hexágono e os seis segmentos que ligam seu centro aos vértices. Essa representação corresponde à alternativa E. Fonte: https://mthedu.com.br/questoes/enem-2021-137/ ."
     },
     {
+      "id": "2021_138",
+      "resolucao": "A questão foi oficialmente anulada. A contagem por linha leva a fatores de arranjo com repetição: gaúchos (7 títulos, com 5 do Grêmio), cariocas (5, com 3 do Flamengo), mineiros (7, com 6 do Cruzeiro), paulistas (9, com 3 do Corinthians e 3 do Palmeiras) e as 10 placas restantes sem restrição. A expressão correta seria (7!/5!) × (5!/3!) × (7!/6!) × (9!/(3!·3!)) × 10!, mas essa expressão não corresponde corretamente ao arranjo das placas repetidas, razão pela qual o item foi anulado pelo INEP. Não há alternativa válida a registrar como gabarito. Fonte: https://www.matebasica.com.br/questoes/questao-138-enem-2021-azul ."
+    },
+    {
       "id": "2021_139",
       "resolucao": "Como todas as franquias funcionaram pelo mesmo período e são três para cada tipo, basta comparar as somas das vendas por coluna. Os totais são: I = 1 245; II = 1 230; III = 1 220; IV = 1 233; V = 1 280. O lanche V apresenta a maior soma e, portanto, também a maior média por franquia. Resposta: alternativa E. Fonte: https://alvoenem.com/questao-enem/uma-rede-de-hamburgueria-tem-tres-franquias-em-cidades-enem-2021 ."
     },
@@ -631,6 +635,10 @@
     {
       "id": "2021_164",
       "resolucao": "Sejam c, p e s as massas de uma camiseta, uma calça e um sapato. As duas viagens fornecem: 12c + 4p + 3s = 10 e 18c + 3p + 2s = 10 (a massa da mala é a mesma e se cancela). Fazendo duas vezes a segunda equação menos a primeira, obtemos 24c + 2p + s = 10. Portanto, duas calças, um sapato e 24 camisetas totalizam 10 kg. Resposta: alternativa B. Fonte: https://mthedu.com.br/questoes/enem-2021-164/ ."
+    },
+    {
+      "id": "2021_165",
+      "resolucao": "A questão oficial informa economia de 0,1 L a cada 20 km. O consumo antigo em 20 km era 20/16 = 1,25 L. Com a economia, o novo consumo é 1,25 − 0,1 = 1,15 L. Assim, o novo desempenho é 20/1,15 ≈ 17,39 km/L, que arredondado para uma casa decimal resulta em 17,4 km/L. Resposta: alternativa D. Fonte: https://www.simuladle.com/questoes/enem-2021-dia-2/165 ."
     },
     {
       "id": "2021_166",
