@@ -423,6 +423,54 @@
     {
       "id": "2020_110",
       "resolucao": "Nanopartículas apresentam grande área superficial em relação ao volume. Isso amplia a superfície de contato e oferece mais sítios ativos para a catálise, aumentando a velocidade da reação sem exigir maior temperatura ou excesso de reagentes. Alternativa correta: D. Fonte: https://nogabarito.com.br/questao/enem-2020-questao-110-a-nanotecnologia-pode-ser-caracterizada-quando-os-compostos-estao-na"
+    },
+    {
+      "id": "2020_111",
+      "resolucao": "A tecnologia CR emite uma onda sonora com frequência e amplitude ajustadas para se opor ao ruído externo. Quando as ondas se superpõem em oposição de fase, ocorre interferência destrutiva: as amplitudes se cancelam parcialmente, reduzindo o som percebido. Portanto, o fenômeno é a interferência (alternativa B)."
+    },
+    {
+      "id": "2020_112",
+      "resolucao": "A coloração rosa indica que o sal de cobalto está na forma hidratada, ou seja, incorporou água. Para reutilizar o cartão rapidamente, é necessário retirar essa água. O aquecimento favorece a desidratação e a recuperação da coloração correspondente à forma anidra. Um secador de cabelos fornece calor, portanto a alternativa correta é D."
+    },
+    {
+      "id": "2020_113",
+      "resolucao": "Ao deixar a borda da mesa, a bolinha mantém a componente horizontal da velocidade, enquanto a gravidade produz aceleração vertical para baixo. A combinação desses movimentos independentes gera uma trajetória parabólica, com velocidade horizontal constante e queda vertical acelerada. A representação correspondente é a alternativa D."
+    },
+    {
+      "id": "2020_114",
+      "resolucao": "Em um tubo fechado em uma extremidade, as frequências de ressonância consecutivas diferem por Δf = v/(2L). Com profundidade L = 30 m e velocidade do som v = 360 m/s, Δf = 360/(2 × 30) = 6 Hz. A próxima frequência após 135 Hz é 135 + 6 = 141 Hz. Alternativa C."
+    },
+    {
+      "id": "2020_115",
+      "resolucao": "A soja recebe um gene de outro organismo para passar a produzir a proteína cianovirina-N, que apresenta ação contra o vírus. A introdução de um gene exógeno no genoma de um organismo caracteriza a transgenia. Portanto, alternativa B."
+    },
+    {
+      "id": "2020_117",
+      "resolucao": "A técnica combina anticorpos específicos, que reconhecem células cancerosas, com uma molécula ativada pela luz infravermelha. A iluminação ativa o composto ligado ao anticorpo, que então provoca a destruição da célula-alvo. Como envolve simultaneamente reconhecimento imunológico e ativação por luz, recebe o nome de fotoimunoterapia. Alternativa D."
+    },
+    {
+      "id": "2020_118",
+      "resolucao": "A vida terrestre exige proteção contra a perda excessiva de água. Nos aracnídeos, o exoesqueleto de quitina forma uma cobertura relativamente impermeável, reduzindo a desidratação e favorecendo a ocupação de ambientes secos. Logo, a alternativa correta é C."
+    },
+    {
+      "id": "2020_120",
+      "resolucao": "Em 1 000 km, o carro a etanol emite 2 600 mol de CO₂, enquanto o elétrico corresponde a 450 mol. A diferença é 2 150 mol de CO₂. Pela reação, 1 mol de etanol produz 2 mol de CO₂; assim, deixam de ser necessários 1 075 mol de etanol. A massa economizada é 1 075 × 46 g = 49 450 g, aproximadamente 50 kg. Alternativa A."
+    },
+    {
+      "id": "2020_121",
+      "resolucao": "No experimento de Engelmann, bactérias aeróbias se concentram nas regiões em que a alga libera mais oxigênio, indicando maior atividade fotossintética. A clorofila absorve principalmente luz nas faixas azul-violeta e vermelha, refletindo mais a luz verde. Na figura da questão, a faixa de maior concentração de bactérias indicada corresponde ao vermelho. Alternativa E."
+    },
+    {
+      "id": "2020_123",
+      "resolucao": "Água e acetato de etila formam fases líquidas distintas, permitindo a separação por diferença de densidade. Em um funil de separação (funil de decantação), as fases são deixadas em repouso e escoadas separadamente, recuperando o acetato de etila. Portanto, alternativa E."
+    },
+    {
+      "id": "2020_124",
+      "resolucao": "O petróleo é formado majoritariamente por substâncias apolares, que não se misturam com a água (caráter hidrofóbico), e apresenta densidade geralmente menor que a da água do mar. Por isso, tende a formar uma película na superfície, dificultando as trocas gasosas entre a água e a atmosfera e prejudicando os organismos aquáticos. Alternativa D."
+    },
+    {
+      "id": "2020_125",
+      "resolucao": "Pelo equilíbrio de Hardy-Weinberg, a frequência do grupo O (ii) é r² = 0,25, portanto r = 0,5. A frequência de indivíduos A homozigotos é p² = 0,16, logo p = 0,4. Como p + q + r = 1, temos q = 0,1. Para um receptor do grupo B, são compatíveis doadores B e O: frequência B = q² + 2qr = 0,01 + 0,10 = 0,11; frequência O = r² = 0,25. Total = 0,36, ou 36%. Alternativa D."
     }
   ]
 }
