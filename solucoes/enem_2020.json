@@ -517,6 +517,10 @@
       "resolucao": "A carroceria metálica de um automóvel funciona como uma gaiola de Faraday. Em uma descarga elétrica, as cargas se distribuem pela superfície externa do condutor, mantendo o campo elétrico no interior aproximadamente nulo. Por isso, a proteção decorre da blindagem pela carcaça metálica. Alternativa C."
     },
     {
+      "id": "2020_134",
+      "resolucao": "O volume de cada moeda é dado pelo aumento do nível da água na proveta. Inicialmente havia 5 mL; após A, 7 mL; após B, 10 mL; após C, 12 mL; e após D, 16 mL. Assim, os volumes são A = 2 cm³, B = 3 cm³, C = 2 cm³ e D = 4 cm³. Calculando d = m/V: A = 26/2 = 13 g/cm³; B = 27/3 = 9 g/cm³; C = 10/2 = 5 g/cm³; D = 36/4 = 9 g/cm³. As moedas compatíveis com cobre são B e D. Alternativa D."
+    },
+    {
       "id": "2020_135",
       "resolucao": "As duas espécies parentais são diploides e possuem 22 cromossomos. A formação de gametas não reduzidos em uma das linhagens pode produzir um gameta com 22 cromossomos; sua união com um gameta normal da outra espécie, também com 22, origina um híbrido com 44 cromossomos. Isso pode ser explicado pela duplicação cromossômica antes do cruzamento, alternativa A."
     },
@@ -525,8 +529,16 @@
       "resolucao": "A bandeira deve manter a proporção de 20 módulos de comprimento para 14 de largura. Para aproveitar o tecido de 180 cm × 150 cm, o comprimento máximo será 180 cm, e a largura correspondente será 180 × 14/20 = 126 cm. Assim, cada módulo mede 126/14 = 9 cm. O raio do círculo azul é 3,5 × 9 = 31,5 cm; seu diâmetro é 63 cm. O menor quadrado que contém o círculo deve ter lado igual ao diâmetro: 63 cm. Alternativa D."
     },
     {
+      "id": "2020_137",
+      "resolucao": "A figura apresenta 42 assentos no total, dos quais 16 estão vendidos (marcados em tom mais escuro). A razão pedida é número de assentos vendidos dividido pelo total: 16/42. Não se deve inverter a razão nem dividir pelos assentos disponíveis. Alternativa A."
+    },
+    {
       "id": "2020_138",
       "resolucao": "O volume real é 28 080 L = 28 080 000 cm³. O volume da maquete é 2 × 3,51 × 4 = 28,08 cm³. A razão entre os volumes é 28 080 000/28,08 = 1 000 000. Como volumes variam com o cubo da escala linear, a escala é a raiz cúbica de 1 000 000, isto é, 100. Portanto, 1:100 (alternativa B)."
+    },
+    {
+      "id": "2020_139",
+      "resolucao": "A eficiência é a quantidade de peças produzidas por hora trabalhada. Calculando para cada dia: dia 1, 800/4 = 200; dia 2, 1 000/8 = 125; dia 3, 1 100/5 = 220; dia 4, 1 800/9 = 200; dia 5, 1 400/10 = 140 peças por hora. O maior valor é 220, no terceiro dia. Alternativa C."
     },
     {
       "id": "2020_140",
@@ -535,6 +547,10 @@
     {
       "id": "2020_141",
       "resolucao": "Os quartos vão de 100 a 399. O algarismo 2 aparece 100 vezes na casa das centenas (200 a 299), 30 vezes na casa das dezenas (120, 121… em cada centena) e 30 vezes na casa das unidades. Como as ocorrências são contadas por posição, o total é 100 + 30 + 30 = 160 peças. Alternativa A."
+    },
+    {
+      "id": "2020_142",
+      "resolucao": "Seis idosos têm mais de 75 anos e, portanto, ocupam as seis primeiras posições. João tem 75 anos, assim como Heloisa, Marisa e Pedro. Os quatro empatados ocupam aleatoriamente as posições 7 a 10. Como cada um tem a mesma chance de ocupar qualquer uma dessas quatro posições, a probabilidade de João ser o sétimo é 1/4. Alternativa E."
     },
     {
       "id": "2020_143",
@@ -609,12 +625,28 @@
       "resolucao": "O volume de um cilindro é V = πr²h. As duas caixas têm o mesmo volume e a altura de B é 25% da altura de A, ou hB = hA/4. Igualando os volumes: πR²hA = πrB²(hA/4). Logo, rB² = 4R² e rB = 2R. O raio da caixa B é o dobro do raio da caixa A. Alternativa B."
     },
     {
+      "id": "2020_162",
+      "resolucao": "Cada lote mede 200 m², e a área construída permitida deve ficar entre 40% e 50%, isto é, entre 80 m² e 100 m². Além disso, a casa deve respeitar afastamento mínimo de 4 m da rua e 1 m das divisas com outros lotes. Nas cinco plantas, somente a planta 5 atende simultaneamente aos afastamentos e apresenta área de 90 m² (45% do lote). Alternativa E."
+    },
+    {
       "id": "2020_163",
       "resolucao": "A frase tem 4 vogais distintas (I, A, O, E) e 5 consoantes (M, P, T, T, R), com a letra T repetida. Para intercalar as letras, a única estrutura possível é consoante-vogal-consoante-vogal-consoante-vogal-consoante-vogal-consoante. As vogais podem ser permutadas de 4! maneiras; as consoantes, de 5!/2! maneiras, pois os dois T são iguais. Total: 4! × 5!/2. Alternativa E."
     },
     {
+      "id": "2020_164",
+      "resolucao": "O gráfico deve ser lido em relação à linha horizontal de 55 dB. Somam-se apenas os intervalos em que a curva está acima desse limite: de 2 h a 5 h (3 h), de 6 h a 9 h (3 h), de 11 h a 14 h (3 h), de 16 h a 17 h (1 h) e de 19 h a 22 h (3 h). Total: 3 + 3 + 3 + 1 + 3 = 13 horas. Alternativa E."
+    },
+    {
       "id": "2020_165",
       "resolucao": "A soma das alturas atuais é 15 × 1,93 = 28,95 m. A soma dos quatro jogadores substituídos é 1,78 + 1,82 + 1,84 + 1,86 = 7,30 m; os 11 que permanecem somam 21,65 m. Para média final de 1,99 m, a equipe deve somar 15 × 1,99 = 29,85 m. Os quatro novos devem somar pelo menos 29,85 − 21,65 = 8,20 m. Como um deles mede 2,02 m, os outros três precisam somar 6,18 m, média mínima 6,18/3 = 2,06 m. Alternativa D."
+    },
+    {
+      "id": "2020_166",
+      "resolucao": "A vazão é constante, portanto entra o mesmo volume de líquido em intervalos iguais. Na parte inferior cilíndrica, a área da seção transversal é constante e a altura cresce linearmente. Quando o líquido alcança o ombro e o gargalo, a seção diminui; o mesmo volume provoca um aumento cada vez maior da altura, e o gráfico fica curvado para cima, com inclinação crescente. Alternativa B."
+    },
+    {
+      "id": "2020_167",
+      "resolucao": "Os gastos originais são R$ 120 de internet, R$ 700 de mensalidade e R$ 400 de mesada. O aumento da internet é 20% de 120 = R$ 24; o da mensalidade é 10% de 700 = R$ 70. Para manter o gasto total, a mesada deve diminuir R$ 94: passa de R$ 400 para R$ 306. A redução percentual é 94/400 × 100 = 23,5%. Alternativa B."
     },
     {
       "id": "2020_169",
@@ -625,12 +657,20 @@
       "resolucao": "As participações estão na razão 4:6:6, totalizando 16 partes. Para que os três terminem com participações iguais, cada um deve ter 16/3 partes. Antônio precisa passar de 4 para 16/3, adquirindo 4/3 partes ao todo. Como compra quantidades iguais de Joaquim e José, adquire 2/3 parte de cada um. Isso representa (2/3)/6 = 1/9 da participação de cada um dos outros sócios. Alternativa C."
     },
     {
+      "id": "2020_171",
+      "resolucao": "O ângulo interno de um octógono regular é [(8−2)×180°]/8 = 135°. Nos espaços entre quatro octógonos, o ângulo restante é 360° − 2×135° = 90°, formando quadrados. Nas bordas, os espaços correspondem a metades desses quadrados, isto é, triângulos retângulos isósceles. Portanto, são necessários os formatos 1 e 3. Alternativa D."
+    },
+    {
       "id": "2020_172",
       "resolucao": "As 20 mangueiras têm o mesmo comprimento e somam 100 m; cada uma mede 100/20 = 5 m. Cada mangueira forma a geratriz de um cone, com altura vertical de 3 m e raio da circunferência no chão como incógnita. Pelo teorema de Pitágoras, r² + 3² = 5², então r² = 16 e r = 4 m. Alternativa A."
     },
     {
       "id": "2020_173",
       "resolucao": "Ao meio-dia, os raios solares incidem verticalmente e a abertura entre vigas deixa passar a faixa de 30 cm. À tarde, os raios formam 30° com a vertical; a sombra projetada pela altura h da viga avança horizontalmente h·tan(30°). Para que apenas metade da abertura (15 cm) permaneça iluminada, h·tan(30°) = 15. Assim, h = 15/tan(30°) ≈ 25,98 cm, aproximadamente 26 cm. Alternativa C."
+    },
+    {
+      "id": "2020_174",
+      "resolucao": "Calcule a área e multiplique pela densidade de cada trecho: MN: 100×30 = 3 000 m², com 4 pessoas/m² = 12 000; NO: 300×30 = 9 000 m², com 6 pessoas/m² = 54 000; OP: 200×30 = 6 000 m², com 5 pessoas/m² = 30 000; QR: 100×30 = 3 000 m², com 4 pessoas/m² = 12 000. Total bruto: 108 000 pessoas. A figura mostra quatro carros de som, então subtraem-se 4 000 pessoas. Estimativa final: 104 000. Alternativa B."
     },
     {
       "id": "2020_175",
