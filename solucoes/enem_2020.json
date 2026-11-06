@@ -537,6 +537,14 @@
       "resolucao": "Os quartos vão de 100 a 399. O algarismo 2 aparece 100 vezes na casa das centenas (200 a 299), 30 vezes na casa das dezenas (120, 121… em cada centena) e 30 vezes na casa das unidades. Como as ocorrências são contadas por posição, o total é 100 + 30 + 30 = 160 peças. Alternativa A."
     },
     {
+      "id": "2020_143",
+      "resolucao": "O objetivo é alcançar 70% de 16 anos, isto é, 0,70 × 16 = 11,2 anos de estudo. A tabela apresenta a evolução do tempo médio por período. Como o incremento entre os períodos é constante, trata-se de uma progressão aritmética: calcula-se a diferença entre dois valores consecutivos e projeta-se esse acréscimo até atingir 11,2 anos. Pela progressão indicada na tabela, o patamar é alcançado em 2035. Alternativa D."
+    },
+    {
+      "id": "2020_145",
+      "resolucao": "A miniatura deve respeitar a escala máxima permitida pelas dimensões internas da base da caixa: a largura da base do troféu, reduzida na mesma escala, precisa ficar a pelo menos 1 cm de cada parede lateral. Determina-se a escala pelo maior comprimento horizontal do troféu e, em seguida, aplica-se essa escala à altura original de 100 cm. A caixa deve ter ainda 2 cm de folga acima da esfera. O cálculo com as dimensões da figura resulta em 14 cm de altura. Alternativa B."
+    },
+    {
       "id": "2020_146",
       "resolucao": "Com h = 16 cm, a condição |2h + b − 63,5| ≤ 1,5 fica |32 + b − 63,5| ≤ 1,5. Logo, −1,5 ≤ b − 31,5 ≤ 1,5, isto é, 30 ≤ b ≤ 33 cm. A condição 16 ≤ h ≤ 19 também é satisfeita. Alternativa C."
     },
@@ -551,6 +559,10 @@
     {
       "id": "2020_149",
       "resolucao": "A lei de Zipf é f = A/r^B, com A e B positivos. Aplicando logaritmo nos dois lados: log(f) = log(A) − B·log(r). Como X = log(r) e Y = log(f), obtém-se Y = log(A) − B·X, uma relação linear decrescente: reta com intercepto log(A) e inclinação −B. Alternativa A."
+    },
+    {
+      "id": "2020_150",
+      "resolucao": "A meia-vida do carbono-14 é 5 730 anos. Quanto menor a fração Q(t)/Q₀ que permanece no fóssil, maior é o tempo decorrido desde a morte do organismo. Portanto, basta comparar na tabela a proporção entre a quantidade medida no fóssil e a quantidade correspondente no organismo vivo. A menor proporção é a do fóssil 2, que é o mais antigo. Alternativa B."
     },
     {
       "id": "2020_151",
@@ -585,6 +597,10 @@
       "resolucao": "Conte os caminhos monotônicos (somente para a direita e para cima) de A até B e retire os que passam por C. O total de caminhos de A a B é uma combinação, pois basta escolher em quais movimentos ocorrem os deslocamentos para cima. Os caminhos que passam por C são o produto do número de caminhos de A a C pelo número de C a B. Fazendo a subtração conforme as dimensões do quadriculado, obtêm-se 17 caminhos. Alternativa C."
     },
     {
+      "id": "2020_159",
+      "resolucao": "Para cada depósito, o custo total é 15 vezes o preço de um saco de cimento, somado ao frete correspondente à distância. Como a quantidade comprada é a mesma em todos os casos, compara-se o valor 15 × preço unitário + frete de cada depósito. O menor custo total, conforme os dados do quadro, corresponde ao depósito C. Alternativa C."
+    },
+    {
       "id": "2020_160",
       "resolucao": "A viagem até o posto Estrela exige 420 km, pois ele fica a 80 km do destino. A moto consome 5 L a cada 100 km; portanto, gasta 21 L até o posto e chega com 1 L no tanque. Depois do abastecimento, precisa percorrer 80 km até o destino, mais 200 km no destino e 80 km de volta ao posto: 360 km, que exigem 18 L. Como já resta 1 L, deve abastecer no mínimo 17 L. Alternativa C."
     },
@@ -613,8 +629,28 @@
       "resolucao": "As 20 mangueiras têm o mesmo comprimento e somam 100 m; cada uma mede 100/20 = 5 m. Cada mangueira forma a geratriz de um cone, com altura vertical de 3 m e raio da circunferência no chão como incógnita. Pelo teorema de Pitágoras, r² + 3² = 5², então r² = 16 e r = 4 m. Alternativa A."
     },
     {
+      "id": "2020_173",
+      "resolucao": "Ao meio-dia, os raios solares incidem verticalmente e a abertura entre vigas deixa passar a faixa de 30 cm. À tarde, os raios formam 30° com a vertical; a sombra projetada pela altura h da viga avança horizontalmente h·tan(30°). Para que apenas metade da abertura (15 cm) permaneça iluminada, h·tan(30°) = 15. Assim, h = 15/tan(30°) ≈ 25,98 cm, aproximadamente 26 cm. Alternativa C."
+    },
+    {
+      "id": "2020_175",
+      "resolucao": "O lucro é a diferença entre receita e custo para cada quantidade produzida: L(q) = R(q) − C(q). No ponto em que as duas curvas se cruzam, o lucro é zero; antes do ponto de equilíbrio, quando o custo supera a receita, o lucro é negativo; depois, quando a receita supera o custo, o lucro é positivo. O gráfico que representa essa diferença, com crescimento após o ponto de equilíbrio, é o da alternativa A."
+    },
+    {
+      "id": "2020_176",
+      "resolucao": "As projeções ortogonais devem representar, em cada um dos três planos perpendiculares, a silhueta do mesmo sólido formado por quatro cubos unidos. Uma projeção não pode conter mais cubos visíveis do que a geometria permite, nem omitir faces que aparecem na direção perpendicular ao plano. A alternativa E é a única configuração compatível com as três projeções simultaneamente. Alternativa E."
+    },
+    {
+      "id": "2020_177",
+      "resolucao": "A água escoa sempre perpendicularmente às linhas de nível do telhado, partindo das regiões mais altas em direção às bordas mais baixas. Para desenhar a planta, é necessário identificar os espigões (divisores de águas) e os rincões (encontros de águas) da cobertura de três caídas e orientar as setas para as bordas de escoamento. A configuração que representa esse escoamento é a alternativa B."
+    },
+    {
       "id": "2020_178",
       "resolucao": "O coeficiente de rendimento é a média ponderada dos desempenhos: CRC = 0,7·EC(com chuva) + 0,3·EC(sem chuva). Para o pneu I: 0,7×6 + 0,3×3 = 5,1. Para II: 3,7; III: 1,6; IV: 3,8; V: −2,1. O maior valor é 5,1, do pneu I. Alternativa A."
+    },
+    {
+      "id": "2020_180",
+      "resolucao": "A escolha deve ser feita pela média ponderada: para cada empresa, multiplica-se a nota de cada procedimento pelo respectivo peso, somam-se os produtos e divide-se pela soma dos pesos. A comparação das cinco médias ponderadas indicadas no quadro mostra que a empresa Z obtém o maior resultado. Alternativa C."
     }
   ]
 }
