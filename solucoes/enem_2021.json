@@ -465,6 +465,10 @@
       "resolucao": "A probabilidade de acertar um dardo é 1/2; logo, a probabilidade de errar é também 1/2. Para n lançamentos independentes, a chance de errar todos é (1/2)ⁿ. Assim, a probabilidade de acertar pelo menos um é 1 − (1/2)ⁿ. Para atingir pelo menos 0,9: (1/2)ⁿ ≤ 0,1. Com quatro dardos, a chance de pontuar é 1 − 1/16 = 15/16 = 0,9375, enquanto com três seria 0,875. Portanto, o mínimo é 4 dardos. Gabarito: B."
     },
     {
+      "id": "2021_144",
+      "resolucao": "A resolução publicada pelo professor Rafael Teixeira identifica as frequências do gráfico: 6 alunos com 9 anos, 12 alunos com 18 anos e 9 alunos com 27 anos. Como as frequências são diferentes, calcula-se a média ponderada. Primeiro, soma-se o total de alunos: 6 + 12 + 9 = 27. Depois, multiplica-se cada idade por sua frequência: 9 × 6 + 18 × 12 + 27 × 9 = 54 + 216 + 243 = 513. Por fim, divide-se a soma ponderada pelo total: 513 ÷ 27 = 19. Portanto, a média é 19 anos, alternativa D. Fonte da resolução consultada: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2021/questao-144/ . O enunciado e os dados foram conferidos com a questão oficial do INEP."
+    },
+    {
       "id": "2021_146",
       "resolucao": "O coeficiente de variação da ração atual é CV = 1/10 = 0,10. Para a nova ração, CV = 1,5/x, em que x é a média de massa dos coelhos. A substituição ocorre se 1,5/x < 0,10. Multiplicando por x e dividindo por 0,10, obtemos x > 15. Portanto, a média deve ser superior a 15 kg. Gabarito: E."
     },
