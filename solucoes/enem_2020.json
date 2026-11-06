@@ -570,7 +570,7 @@
     },
     {
       "id": "2020_148",
-      "resolucao": "O gráfico indica que 58,8% dos jovens entrevistados trabalham. Assim, 0,588 × 363 000 = 213 444 jovens. Alternativa C."
+      "resolucao": "O gráfico apresenta quatro grupos de jovens: somente estudam (21,6%), trabalham e estudam (13,6%), somente trabalham (45,2%) e não trabalham nem estudam (19,6%). A pergunta solicita todos os jovens que trabalham, portanto é necessário somar os dois grupos que exercem atividade profissional: 13,6% + 45,2% = 58,8%.\n\nO total de entrevistados foi de 363 mil, ou seja, 363 000 jovens. Calculando 58,8% desse total:\n\n58,8% × 363 000 = 0,588 × 363 000 = 213 444.\n\nLogo, 213 444 jovens trabalham, estejam estudando ou não. Alternativa C.\n\nFonte de apoio: https://espacodafisica.com.br/blog/enem/2020/questao-148-pnad-jovens-que-trabalham-porcentagem"
     },
     {
       "id": "2020_149",
@@ -594,7 +594,7 @@
     },
     {
       "id": "2020_154",
-      "resolucao": "Um micrômetro equivale a 10⁻⁶ m. Portanto, 100 micrômetros = 100 × 10⁻⁶ m = 10² × 10⁻⁶ m = 10⁻⁴ m. Em notação científica, 1,0 × 10⁻⁴ m. Alternativa C."
+      "resolucao": "A questão informa que 1 micrômetro corresponde à milionésima parte do metro:\n\n1 μm = 10⁻⁶ m.\n\nA miniatura mede 100 micrômetros. Como 100 = 10², convertemos a medida multiplicando:\n\n100 μm = 100 × 10⁻⁶ m\n= 10² × 10⁻⁶ m\n= 10²⁻⁶ m\n= 10⁻⁴ m.\n\nEm notação científica, o comprimento é 1,0 × 10⁻⁴ metro. É importante não confundir a medida de 100 micrômetros com a de apenas 1 micrômetro, que seria 10⁻⁶ m. Alternativa C.\n\nFonte de apoio: https://espacodafisica.com.br/blog/enem/2020/questao-154-miniatura-formula-1-micrometro-notacao-cientifica"
     },
     {
       "id": "2020_155",
