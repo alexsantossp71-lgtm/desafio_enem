@@ -530,7 +530,7 @@
     },
     {
       "id": "2021_138",
-      "resolucao": "A questão foi oficialmente anulada. A contagem por linha leva a fatores de arranjo com repetição: gaúchos (7 títulos, com 5 do Grêmio), cariocas (5, com 3 do Flamengo), mineiros (7, com 6 do Cruzeiro), paulistas (9, com 3 do Corinthians e 3 do Palmeiras) e as 10 placas restantes sem restrição. A expressão correta seria (7!/5!) × (5!/3!) × (7!/6!) × (9!/(3!·3!)) × 10!, mas essa expressão não corresponde corretamente ao arranjo das placas repetidas, razão pela qual o item foi anulado pelo INEP. Não há alternativa válida a registrar como gabarito. Fonte: https://www.matebasica.com.br/questoes/questao-138-enem-2021-azul ."
+      "resolucao": "A questão foi oficialmente anulada pelo INEP porque a expressão que representa a contagem correta não aparece entre as alternativas. Como os títulos de cada edição correspondem a placas distintas, a primeira linha pode ser preenchida de 7!/2! maneiras (escolhem-se e ordenam-se 5 dos 7 títulos gaúchos); a segunda, de 5! maneiras; a terceira, de 7!/2! maneiras; a quarta, de 9!/4! maneiras; e as duas últimas linhas, com as 10 placas restantes, de 10! maneiras. A expressão correta seria (7!/2!) × 5! × (7!/2!) × (9!/4!) × 10!, que não consta nas opções. Portanto, não há alternativa válida e a questão deve ser tratada como anulada. Fonte: https://matebasica.com.br/questoes/questao-138-enem-2021-azul ."
     },
     {
       "id": "2021_139",
