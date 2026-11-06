@@ -385,6 +385,10 @@
       "resolucao": "A fermentação produz aproximadamente 50 g de etanol para cada 100 g de glicose. Para 50 kg de glicose, a produção teórica é 25 kg de etanol. Com rendimento de 80%, obtêm-se 25 × 0,8 = 20 kg. Como a densidade é 0,80 kg/L, o volume é 20 ÷ 0,80 = 25 L. Gabarito: C."
     },
     {
+      "id": "2021_102",
+      "resolucao": "A montagem contém duas pilhas de Daniell ligadas em série: o zinco da primeira está conectado ao cobre da segunda, de modo que as tensões se somam. O cronômetro e o voltímetro estão ligados aos mesmos dois terminais do conjunto, portanto ficam em paralelo com a bateria. O circuito equivalente é o da alternativa B. Fonte: https://mthedu.com.br/questoes/enem-2021-102/ ."
+    },
+    {
       "id": "2021_103",
       "resolucao": "A titulação com solução de NaOH permite determinar a quantidade de ácido acetilsalicílico presente no comprimido. Como esse princípio ativo é um ácido, reage com a base em proporção conhecida; medindo o volume de base necessário para neutralizá-lo, calcula-se sua quantidade. Por isso, o teste que identifica a concentração abaixo do especificado é o de número 5. Gabarito: E."
     },
@@ -505,6 +509,10 @@
       "resolucao": "Se dois pais sem manifestação da doença podem ter um filho afetado, e a probabilidade indicada é de um em quatro, o padrão é compatível com herança autossômica recessiva. Cada progenitor é portador de uma cópia do alelo recessivo; no cruzamento entre dois heterozigotos, 25% dos descendentes podem receber as duas cópias recessivas e manifestar a doença. Gabarito: A."
     },
     {
+      "id": "2021_133",
+      "resolucao": "O iodo tem maior potencial de redução (+0,54 V) e funciona como cátodo; o lítio é oxidado, pois seu potencial de redução é −3,05 V. A força eletromotriz de uma pilha é 0,54 − (−3,05) = 3,59 V. Como são três pilhas em série, a tensão total é 3 × 3,59 = 10,77 V. Essa tensão corresponde ao dispositivo IV. Resposta: alternativa D. Fonte: https://mthedu.com.br/questoes/enem-2021-133/ ."
+    },
+    {
       "id": "2021_134",
       "resolucao": "O alcoolômetro funciona pela flutuabilidade, que depende da densidade da solução. Quando a temperatura aumenta, os líquidos sofrem dilatação: o volume cresce e, para a mesma massa, a densidade diminui. Como a escala do instrumento foi calibrada a 20 °C, a alteração de volume exige correção da leitura. Gabarito: C."
     },
@@ -515,6 +523,10 @@
     {
       "id": "2021_136",
       "resolucao": "Usamos a relação ρ² = ρ + 1 para reduzir as potências. Primeiro, ρ³ = ρ(ρ²) = ρ(ρ + 1) = 2ρ + 1. Prosseguindo: ρ⁴ = 3ρ + 2; ρ⁵ = 5ρ + 3; ρ⁶ = 8ρ + 5; e ρ⁷ = 13ρ + 8. Portanto, a forma pedida é 13ρ + 8. Gabarito: E."
+    },
+    {
+      "id": "2021_137",
+      "resolucao": "Como a diagonal do cubo é perpendicular ao solo, os dois vértices extremos dessa diagonal e o centro do cubo projetam-se no centro da figura. Os outros seis vértices projetam-se nos vértices de um hexágono regular. As arestas e diagonais do cubo, projetadas no plano do solo, formam os seis lados do hexágono e os seis segmentos que ligam seu centro aos vértices. Essa representação corresponde à alternativa E. Fonte: https://mthedu.com.br/questoes/enem-2021-137/ ."
     },
     {
       "id": "2021_139",
@@ -631,6 +643,10 @@
     {
       "id": "2021_168",
       "resolucao": "Ao reconstruir a planificação do octaedro, a face oposta à cinza é aquela que não compartilha com ela nenhuma aresta nem vértice. A análise da montagem mostra que essa face é a numerada 4. Resposta: alternativa E. Fonte: https://mthedu.com.br/questoes/enem-2021-168/ ."
+    },
+    {
+      "id": "2021_169",
+      "resolucao": "A figura informa altura h = 8 cm para o triângulo equilátero. Para um triângulo equilátero, h = (√3/2)·l; assim, l = 2h/√3 = 16/1,7 ≈ 9,41 cm. O comprimento da barra corresponde ao perímetro: 3l ≈ 3 × 9,41 = 28,24 cm. Entre as opções, o valor mais próximo é 27,18 cm. Resposta: alternativa D. Fonte: https://quantaaulas.com/enem/questoes/2021-q169/ ."
     },
     {
       "id": "2021_170",
