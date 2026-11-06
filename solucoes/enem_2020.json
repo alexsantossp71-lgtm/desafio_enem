@@ -507,6 +507,30 @@
     {
       "id": "2020_138",
       "resolucao": "O volume real é 28 080 L = 28 080 000 cm³. O volume da maquete é 2 × 3,51 × 4 = 28,08 cm³. A razão entre os volumes é 28 080 000/28,08 = 1 000 000. Como volumes variam com o cubo da escala linear, a escala é a raiz cúbica de 1 000 000, isto é, 100. Portanto, 1:100 (alternativa B)."
+    },
+    {
+      "id": "2020_141",
+      "resolucao": "Os quartos vão de 100 a 399. O algarismo 2 aparece 100 vezes na casa das centenas (200 a 299), 30 vezes na casa das dezenas (120, 121… em cada centena) e 30 vezes na casa das unidades. Como as ocorrências são contadas por posição, o total é 100 + 30 + 30 = 160 peças. Alternativa A."
+    },
+    {
+      "id": "2020_146",
+      "resolucao": "Com h = 16 cm, a condição |2h + b − 63,5| ≤ 1,5 fica |32 + b − 63,5| ≤ 1,5. Logo, −1,5 ≤ b − 31,5 ≤ 1,5, isto é, 30 ≤ b ≤ 33 cm. A condição 16 ≤ h ≤ 19 também é satisfeita. Alternativa C."
+    },
+    {
+      "id": "2020_149",
+      "resolucao": "A lei de Zipf é f = A/r^B, com A e B positivos. Aplicando logaritmo nos dois lados: log(f) = log(A) − B·log(r). Como X = log(r) e Y = log(f), obtém-se Y = log(A) − B·X, uma relação linear decrescente: reta com intercepto log(A) e inclinação −B. Alternativa A."
+    },
+    {
+      "id": "2020_151",
+      "resolucao": "Um tronco reto de pirâmide de base quadrada tem duas bases quadradas (a inferior e a superior) e quatro faces laterais trapezoidais. Como o tronco é regular, esses quatro trapézios são isósceles. Portanto, são 2 quadrados e 4 trapézios isósceles. Alternativa C."
+    },
+    {
+      "id": "2020_152",
+      "resolucao": "O volume aumenta sucessivamente em 15% e depois em 10%. Os fatores de aumento devem ser multiplicados: 1,15 × 1,10 = 1,265. Assim, o volume que chega a T2 é 1,265 vezes o volume que saiu de T1. Considerando as áreas das bases indicadas no enunciado, a relação entre as alturas é y = 1,265x. Alternativa A."
+    },
+    {
+      "id": "2020_154",
+      "resolucao": "Um micrômetro equivale a 10⁻⁶ m. Portanto, 100 micrômetros = 100 × 10⁻⁶ m = 10² × 10⁻⁶ m = 10⁻⁴ m. Em notação científica, 1,0 × 10⁻⁴ m. Alternativa C."
     }
   ]
 }
