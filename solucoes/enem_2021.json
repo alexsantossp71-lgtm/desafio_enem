@@ -449,6 +449,10 @@
       "resolucao": "A curcumina é ingerida pelas larvas do mosquito junto com a água. Quando recebe luz, provoca a formação de espécies reativas de oxigênio que danificam o tecido do tubo digestório. Como o efeito ocorre durante a fase larval, o organismo não consegue completar seu desenvolvimento. Portanto, a ação impede o desenvolvimento da larva. Gabarito: D."
     },
     {
+      "id": "2021_119",
+      "resolucao": "Para obter madeira adequada à construção, é preciso combinar resistência mecânica e resistência à degradação. A resistência mecânica está associada ao esclerênquima, tecido de sustentação com paredes espessas; a resistência à degradação é favorecida pelo cerne, que contém substâncias que dificultam o ataque de fungos e insetos. A espécie 1 reúne esclerênquima e grande quantidade de cerne, sendo a mais indicada. Resposta: alternativa A. Fonte: https://nogabarito.com.br/questao/enem-2021-questao-119-com-o-objetivo-de-identificar-a-melhor-especie-produtora-de-madeira ."
+    },
+    {
       "id": "2021_120",
       "resolucao": "Os carotenos apresentam coloração amarelo-alaranjada porque refletem principalmente essa faixa de luz. Um pigmento é visto na cor que reflete; portanto, absorve majoritariamente as cores complementares. A faixa complementar do amarelo-alaranjado está entre o violeta e o azul. Gabarito: A."
     },
@@ -493,6 +497,10 @@
       "resolucao": "O éster derivado do ácido etanoico deve apresentar o grupo acetato (CH₃COO–). Entre as estruturas do quadro, o acetato de isoamila tem cadeia carbônica saturada e é associado ao aroma de banana. Resposta: alternativa B. Fonte: https://www.simuladle.com/questoes/enem-2021-dia-2/130 ."
     },
     {
+      "id": "2021_131",
+      "resolucao": "O intervalo entre picos consecutivos do eletrocardiograma corresponde a um batimento. No gráfico, esse intervalo é de 1 segundo (cinco divisões de 0,2 s), portanto ocorre um batimento por segundo. Convertendo para minuto: 1 × 60 = 60 batimentos por minuto. Resposta: alternativa B. Fonte: https://quantaaulas.com/enem/questoes/2021-q131/ ."
+    },
+    {
       "id": "2021_132",
       "resolucao": "Se dois pais sem manifestação da doença podem ter um filho afetado, e a probabilidade indicada é de um em quatro, o padrão é compatível com herança autossômica recessiva. Cada progenitor é portador de uma cópia do alelo recessivo; no cruzamento entre dois heterozigotos, 25% dos descendentes podem receber as duas cópias recessivas e manifestar a doença. Gabarito: A."
     },
@@ -511,6 +519,10 @@
     {
       "id": "2021_139",
       "resolucao": "Como todas as franquias funcionaram pelo mesmo período e são três para cada tipo, basta comparar as somas das vendas por coluna. Os totais são: I = 1 245; II = 1 230; III = 1 220; IV = 1 233; V = 1 280. O lanche V apresenta a maior soma e, portanto, também a maior média por franquia. Resposta: alternativa E. Fonte: https://alvoenem.com/questao-enem/uma-rede-de-hamburgueria-tem-tres-franquias-em-cidades-enem-2021 ."
+    },
+    {
+      "id": "2021_140",
+      "resolucao": "Calcula-se a média ponderada dos faturamentos pelos meses: (3×3,5 + 2×2,5 + 2×5 + 4×3 + 1×7,5) ÷ 12 = 42,5 ÷ 12 ≈ 3,54 milhões. Esse valor está no intervalo 2 ≤ M < 4, correspondente à comissão do tipo II. Resposta: alternativa B. Fonte: https://quantaaulas.com/enem/questoes/2021-q140/ ."
     },
     {
       "id": "2021_141",
@@ -555,6 +567,10 @@
     {
       "id": "2021_151",
       "resolucao": "A resolução do professor Rafael Teixeira orienta a somar as frequências do histograma da esquerda para a direita. As quantidades por faixa são 5, 10, 5, 15, 20, 15, 15, 10, 5 e 5, totalizando 105 apartamentos. Metade de 105 é 52,5. As frequências acumuladas são: até 400 mil, 5; até 500 mil, 15; até 600 mil, 20; até 700 mil, 35; até 800 mil, 55. O primeiro limite em que a quantidade acumulada alcança pelo menos metade é R$ 800 mil. Resposta: alternativa C. Fonte: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2021/questao-151/ ."
+    },
+    {
+      "id": "2021_152",
+      "resolucao": "Com b = 1, temos aΔ1 = a² + a − 1 e 1Δa = 1 + a − a². Pela definição da operação estrela, x*y = x(y+1); assim, a equação se fatoriza em (a²+a−1)(2+a−a²)=0. As raízes são (−1±√5)/2, 2 e −1. As duas maiores são 2 e (−1+√5)/2; a soma é (3+√5)/2. Resposta: alternativa E. Fonte: https://www.simuladle.com/questoes/enem-2021-dia-2/152 ."
     },
     {
       "id": "2021_153",
@@ -613,6 +629,10 @@
       "resolucao": "O consumo total para sete dias é 100 habitantes × 120 L por dia × 7 dias = 84 000 L, ou 84 m³. O reservatório é cilíndrico, com diâmetro de 5 m e raio de 2,5 m. Usando π ≈ 3, a área da base é 3 × 2,5² = 18,75 m². A altura é volume dividido pela área da base: 84 ÷ 18,75 = 4,48 m. Gabarito: D."
     },
     {
+      "id": "2021_168",
+      "resolucao": "Ao reconstruir a planificação do octaedro, a face oposta à cinza é aquela que não compartilha com ela nenhuma aresta nem vértice. A análise da montagem mostra que essa face é a numerada 4. Resposta: alternativa E. Fonte: https://mthedu.com.br/questoes/enem-2021-168/ ."
+    },
+    {
       "id": "2021_170",
       "resolucao": "A caneca tem formato de tronco de cone. O raio superior é 5 cm, o raio inferior é 4 cm e a altura é 12 cm. O volume é V = (πh/3)(R² + Rr + r²). Com π ≈ 3: V = (3 × 12/3)(25 + 20 + 16) = 12 × 61 = 732 cm³. Como 1 cm³ equivale a 1 mL, a capacidade é 732 mL. Gabarito: C."
     },
@@ -621,8 +641,20 @@
       "resolucao": "O custo é de R$ 0,01 por cm² e o limite é R$ 0,80; portanto, a área máxima permitida é 80 cm². As áreas são: triângulo equilátero ≈ 61,2 cm²; quadrado = 64 cm²; retângulo = 88 cm²; hexágono ≈ 91,8 cm²; círculo de raio 5 cm = 3 × 25 = 75 cm². Retângulo e hexágono ultrapassam o orçamento. Entre as opções restantes, o círculo tem a maior área. Gabarito: E."
     },
     {
+      "id": "2021_172",
+      "resolucao": "A frequência cardíaca máxima estimada é 220 − 61 = 159 bpm. A faixa aeróbica corresponde a 65%–85% desse valor: de 103,35 a 135,15 bpm. Das medições (90, 120, 130 e 140 bpm), apenas 120 e 130 ficam nesse intervalo, correspondendo aos trechos forte no plano e subida moderada. Resposta: alternativa D. Fonte: https://www.simuladle.com/questoes/enem-2021-dia-2/172 ."
+    },
+    {
       "id": "2021_173",
       "resolucao": "Para evitar prejuízo, a receita precisa ser de pelo menos R$ 300,00. A lavagem completa custa R$ 35,00, então nove lavagens completas geram 9 × 35 = R$ 315,00. Com oito lavagens, mesmo todas completas, a receita seria 8 × 35 = R$ 280,00, abaixo do mínimo. Logo, o menor número de lavagens é 9. Gabarito: C."
+    },
+    {
+      "id": "2021_174",
+      "resolucao": "Na Farmácia 2, X e Y juntos recebem 20% de desconto: (50 + 50) × 0,8 = R$ 80. O medicamento Z custa R$ 35 na Farmácia 3, sem desconto isolado. O total é R$ 115. As demais combinações custam mais (a compra dos três na Farmácia 3, mesmo com desconto, totaliza R$ 116). Portanto, X e Y devem ser comprados na Farmácia 2 e Z na Farmácia 3. Resposta: alternativa C. Fonte: https://mthedu.com.br/questoes/enem-2021-174/ ."
+    },
+    {
+      "id": "2021_175",
+      "resolucao": "A estrutura corresponde a um cubo menor ligado a um cubo maior por hastes entre vértices correspondentes. As faces dos dois cubos formam 6 + 6 = 12 quadrados. Cada uma das 12 arestas do cubo externo, junto à aresta correspondente do cubo interno e às duas hastes de ligação, forma um trapézio isósceles. Portanto, são 12 trapézios isósceles e 12 quadrados. Resposta: alternativa A. Fonte: https://mthedu.com.br/questoes/enem-2021-175/ ."
     },
     {
       "id": "2021_176",
