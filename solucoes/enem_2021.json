@@ -393,6 +393,10 @@
       "resolucao": "Os compostos tóxicos podem entrar na cadeia alimentar e se acumular nos organismos. Quando um predador consome muitas presas contaminadas, a concentração dessas substâncias tende a aumentar nos níveis tróficos mais elevados, fenômeno chamado biomagnificação. Como os golfinhos ocupam posição de predadores no ecossistema marinho, apresentam as maiores concentrações. Gabarito: B."
     },
     {
+      "id": "2021_105",
+      "resolucao": "A força magnética sobre uma carga em movimento é dada por F⃗ = q(v⃗ × B⃗). Como as esferas têm cargas de sinais opostos e a mesma velocidade, as forças magnéticas têm sentidos opostos. Aplicando a regra da mão direita à carga positiva, a força aponta para baixo no desenho; na carga negativa, aponta para cima. O diagrama correspondente é o da alternativa A. Fonte: https://mthedu.com.br/questoes/enem-2021-105/ ."
+    },
+    {
       "id": "2021_106",
       "resolucao": "A alternativa correta é C — isômero de cadeia. Na fototerapia, a luz transforma a bilirrubina em lumirrubina, uma molécula mais solúvel em água e, portanto, mais facilmente eliminada. A classificação cobrada é a de isomeria constitucional: a transformação envolve mudança no arranjo da cadeia carbônica, mantendo a mesma fórmula molecular."
     },
@@ -469,6 +473,10 @@
       "resolucao": "O corpo perde calor, entre outros mecanismos, pela evaporação do suor. Em dias úmidos, o ar já contém grande quantidade de vapor de água, diminuindo a facilidade com que o suor evapora. Com menor evaporação, menos calor é retirado da pele, aumentando a sensação de desconforto. Gabarito: B."
     },
     {
+      "id": "2021_126",
+      "resolucao": "O interruptor de três pontos alterna a ligação entre seus contatos A–B e B–C. Para acender uma lâmpada por vez, o circuito deve encaminhar a corrente para uma única lâmpada em cada posição dos dois interruptores, sem alimentar as demais. A configuração que realiza essa comutação é a alternativa D. Fonte: https://www.fisica.net/questoes/index.php?anos%5B0%5D=2021&id=203 ."
+    },
+    {
       "id": "2021_127",
       "resolucao": "As preguiças-gigantes consumiam frutos e sementes e participavam da dispersão das sementes pelo ambiente. Com sua extinção, diminuiu a quantidade de animais capazes de transportar e espalhar sementes por diferentes áreas. Isso reduziu a expansão e a abundância de várias plantas. O impacto ocorreu pela redução dos fatores de disseminação das sementes. Gabarito: C."
     },
@@ -499,6 +507,10 @@
     {
       "id": "2021_136",
       "resolucao": "Usamos a relação ρ² = ρ + 1 para reduzir as potências. Primeiro, ρ³ = ρ(ρ²) = ρ(ρ + 1) = 2ρ + 1. Prosseguindo: ρ⁴ = 3ρ + 2; ρ⁵ = 5ρ + 3; ρ⁶ = 8ρ + 5; e ρ⁷ = 13ρ + 8. Portanto, a forma pedida é 13ρ + 8. Gabarito: E."
+    },
+    {
+      "id": "2021_139",
+      "resolucao": "Como todas as franquias funcionaram pelo mesmo período e são três para cada tipo, basta comparar as somas das vendas por coluna. Os totais são: I = 1 245; II = 1 230; III = 1 220; IV = 1 233; V = 1 280. O lanche V apresenta a maior soma e, portanto, também a maior média por franquia. Resposta: alternativa E. Fonte: https://alvoenem.com/questao-enem/uma-rede-de-hamburgueria-tem-tres-franquias-em-cidades-enem-2021 ."
     },
     {
       "id": "2021_141",
@@ -581,8 +593,16 @@
       "resolucao": "Se o desconto no ingresso é d reais, o preço passa a ser (20 − d) e o público aumenta para 200 + 40d pessoas. A arrecadação é R(d) = (20 − d)(200 + 40d) = 4 000 + 600d − 40d². Como o coeficiente de d² é negativo, o gráfico é uma parábola com concavidade voltada para baixo. Além disso, como o desconto e o preço devem ser inteiros, os valores possíveis são pontos discretos, não uma curva contínua. A arrecadação cresce inicialmente, atinge um máximo e depois diminui. Gabarito: E."
     },
     {
+      "id": "2021_162",
+      "resolucao": "O imposto é zero até R$ 5 000. Na faixa seguinte, cresce 10% sobre o excedente: em R$ 10 000, chega a R$ 500. Na última faixa, parte de R$ 500 e aumenta 30% sobre o excedente de R$ 10 000; em R$ 15 000, chega a R$ 2 000. O gráfico deve ter três trechos lineares: horizontal em zero, depois uma subida mais suave e, por fim, uma subida mais inclinada. Resposta: alternativa A. Fonte: https://espacodafisica.com.br/blog/enem/2021/questao-162-imposto-faixas-grafico-funcao-por-partes ."
+    },
+    {
       "id": "2021_163",
       "resolucao": "O módulo volumétrico é proporcional ao produto da densidade pelo quadrado da velocidade do som. A densidade tem unidade kg/m³ e a velocidade ao quadrado tem unidade m²/s². Multiplicando: (kg/m³) × (m²/s²) = kg/(m·s²), que equivale a N/m², ou pascal (Pa). Gabarito: B."
+    },
+    {
+      "id": "2021_164",
+      "resolucao": "Sejam c, p e s as massas de uma camiseta, uma calça e um sapato. As duas viagens fornecem: 12c + 4p + 3s = 10 e 18c + 3p + 2s = 10 (a massa da mala é a mesma e se cancela). Fazendo duas vezes a segunda equação menos a primeira, obtemos 24c + 2p + s = 10. Portanto, duas calças, um sapato e 24 camisetas totalizam 10 kg. Resposta: alternativa B. Fonte: https://mthedu.com.br/questoes/enem-2021-164/ ."
     },
     {
       "id": "2021_166",
