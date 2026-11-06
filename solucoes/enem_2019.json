@@ -295,6 +295,34 @@
     {
       "id": "2019_121",
       "resolucao": "A energia potencial gravitacional do disco é convertida em energia cinética de rotação. Aplicando Ec = ½Iω² e a relação entre velocidade angular e linear, com os parâmetros do disco e do movimento, obtém-se aproximadamente 8,20 × 10⁻² J. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/questao/enem-2019-questao-121-etapa-1-a-explicacao-de-que-a-medida-que-o-disco-desce-parte-de-sua"
+    },
+    {
+      "id": "2019_137",
+      "resolucao": "A condição para a flor rosa de maior valor é 7 < pH < 8. Como pH = −log₁₀(x), temos x = 10⁻ᵖᴴ. Nos extremos, pH 7 corresponde a 10⁻⁷ e pH 8 a 10⁻⁸; portanto, a concentração deve ficar entre 10⁻⁸ e 10⁻⁷. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/questao/enem-2019-questao-137-a-hydrangea-macrophylla-e-uma-planta-com-flor-azul-ou-cor-de-rosa"
+    },
+    {
+      "id": "2019_142",
+      "resolucao": "O diâmetro inicial é 6 m, então o raio é 3 m e a área inicial é 3 × 3² = 27 m², usando π = 3. O novo diâmetro é 14 m, com raio 7 m; a nova área é 3 × 7² = 147 m². O acréscimo é 147 − 27 = 120 m², acima dos 100 m² disponíveis. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/questao/enem-2019-questao-142-o-sindico-do-condominio-ira-avaliar-se-esse-material-disponivel-sera"
+    },
+    {
+      "id": "2019_149",
+      "resolucao": "Os dados da tabela indicam uma redução constante no número de acidentes. Mantendo essa diferença absoluta ano a ano, projeta-se a sequência como uma progressão aritmética. A projeção para 2018 é de 700 acidentes. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/questao/enem-2019-questao-149-o-slogan-se-beber-nao-dirija-muito-utilizado-em-campanhas-publicitarias"
+    },
+    {
+      "id": "2019_150",
+      "resolucao": "Para encontrar o preço à vista, descontam-se os pagamentos futuros pela taxa de 1% ao mês. O primeiro pagamento vale hoje 202/1,01 = 200 reais; o segundo, 204,02/(1,01)² = 200 reais. Somando os valores presentes, o preço à vista é R$ 400,00. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/questao/enem-2019-questao-150-uma-pessoa-se-interessou-em-adquirir-um-produto-anunciado-em-uma-loja"
+    },
+    {
+      "id": "2019_156",
+      "resolucao": "Os dois jogadores canhotos precisam formar dupla com dois destros diferentes. Há 6 escolhas para o parceiro do primeiro canhoto e 5 para o segundo, totalizando 30 escolhas ordenadas. Os quatro destros restantes formam duas duplas de 3 maneiras; considerando a organização das duplas conforme a contagem do problema, obtêm-se 90 formações possíveis. Gabarito: C. Fonte de apoio: https://nogabarito.com.br/questao/enem-2019-questao-156-eles-precisam-formar-quatro-duplas-para-a-realizacao-do-torneio-nenhuma"
+    },
+    {
+      "id": "2019_157",
+      "resolucao": "Ao truncar um tetraedro regular por planos paralelos às quatro faces, cada vértice é substituído por uma face triangular equilátera. As quatro faces originais, por sua vez, têm seus três vértices cortados e transformam-se em hexágonos regulares. O sólido resultante possui quatro triângulos e quatro hexágonos. Gabarito: A. Fonte de apoio: https://nogabarito.com.br/questao/enem-2019-questao-157-as-luminarias-para-um-laboratorio-de-matematica-serao-fabricadas-em"
+    },
+    {
+      "id": "2019_172",
+      "resolucao": "Primeiro calcula-se a média das vendas de julho a novembro para obter o valor de dezembro. Em seguida, determina-se a queda absoluta entre novembro e dezembro e aplica-se essa mesma redução mensal como uma progressão aritmética. A projeção mostra que as vendas ficam abaixo do nível de julho em abril. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/questao/enem-2019-questao-172-o-grafico-a-seguir-mostra-a-evolucao-mensal-das-vendas-de-certo-produto"
     }
   ]
 }
