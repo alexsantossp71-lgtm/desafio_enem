@@ -1849,7 +1849,7 @@
     },
     {
       "id": "2021_138",
-      "materia": "ciencias-humanas",
+      "materia": "matematica",
       "enunciado": "<div class='contexto'>A Copa do Brasil teve, até a edição de 2018, 15 times diferentes como campeões da competição, conforme  <br>apresentado na imagem. Suponha que, como homenagem aos times campeões, a Confederação Brasileira de Futebol  <br>(CBF) pretenda colocar um painel na sua sede. Esse painel teria 6 linhas e, em cada uma delas, 5 placas, referentes  <br>a cada edição da competição, com o nome do time vencedor, o brasão e o ano do título. © painel deve ser fabricado  <br>de modo que a primeira linha só tenha clubes gaúchos (Internacional, Grêmio e Juventude); a segunda, apenas times  <br>cariocas (Flamengo, Vasco e Fluminense); a terceira, somente times mineiros (Cruzeiro e Atlético Mineiro);, a quarta,  <br>exclusivamente clubes paulistas (Corinthians, Palmeiras, Santos, Paulista FC, Santo André), e as duas últimas sem  <br>nenhuma restrição.<br><br>![](https://enem.dev/2021/questions/138/d0a6a844-fff4-400b-9b0c-d1afbc285b3c.png)</div><strong>Qual a expressão determina a quantidade de painéis diferentes que a CBF poderá montar</strong>",
       "imagem": "imagens/2021/2021_138_1df14680-6d8b-4e0a-8421-afd3b0db18a3.png",
       "alternativas": [
@@ -1859,7 +1859,7 @@
         "<img src=\"https://raw.githubusercontent.com/gabriel-antonelli/extract-enem-data/main/enem-data/enem-2021/178-images/alt_img_3.png\" alt=\"Alternativa D\">",
         "<img src=\"https://raw.githubusercontent.com/gabriel-antonelli/extract-enem-data/main/enem-data/enem-2021/178-images/alt_img_4.png\" alt=\"Alternativa E\">"
       ],
-      "correta": 0
+      "correta": null
     },
     {
       "id": "2021_139",
