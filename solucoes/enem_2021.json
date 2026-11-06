@@ -465,12 +465,24 @@
       "resolucao": "A probabilidade de acertar um dardo é 1/2; logo, a probabilidade de errar é também 1/2. Para n lançamentos independentes, a chance de errar todos é (1/2)ⁿ. Assim, a probabilidade de acertar pelo menos um é 1 − (1/2)ⁿ. Para atingir pelo menos 0,9: (1/2)ⁿ ≤ 0,1. Com quatro dardos, a chance de pontuar é 1 − 1/16 = 15/16 = 0,9375, enquanto com três seria 0,875. Portanto, o mínimo é 4 dardos. Gabarito: B."
     },
     {
+      "id": "2021_143",
+      "resolucao": "A resolução consultada no Alvo ENEM informa que é necessário calcular o volume efetivo de cada reservatório, multiplicando sua capacidade pela porcentagem ocupada. I: 105 × 0,20 = 21 bilhões de litros; II: 100 × 0,30 = 30; III: 20 × 0,50 = 10; IV: 80 × 0,40 = 32; V: 40 × 0,60 = 24. O maior volume é 32 bilhões de litros, no reservatório IV. Resposta: alternativa D. Fonte: https://alvoenem.com/questao-enem/o-grafico-apresenta-o-nivel-de-ocupacao-dos-cinco-enem-2021 . Enunciado, valores e alternativa conferidos com a questão do ENEM 2021."
+    },
+    {
       "id": "2021_144",
       "resolucao": "A resolução publicada pelo professor Rafael Teixeira identifica as frequências do gráfico: 6 alunos com 9 anos, 12 alunos com 18 anos e 9 alunos com 27 anos. Como as frequências são diferentes, calcula-se a média ponderada. Primeiro, soma-se o total de alunos: 6 + 12 + 9 = 27. Depois, multiplica-se cada idade por sua frequência: 9 × 6 + 18 × 12 + 27 × 9 = 54 + 216 + 243 = 513. Por fim, divide-se a soma ponderada pelo total: 513 ÷ 27 = 19. Portanto, a média é 19 anos, alternativa D. Fonte da resolução consultada: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2021/questao-144/ . O enunciado e os dados foram conferidos com a questão oficial do INEP."
     },
     {
       "id": "2021_146",
       "resolucao": "O coeficiente de variação da ração atual é CV = 1/10 = 0,10. Para a nova ração, CV = 1,5/x, em que x é a média de massa dos coelhos. A substituição ocorre se 1,5/x < 0,10. Multiplicando por x e dividindo por 0,10, obtemos x > 15. Portanto, a média deve ser superior a 15 kg. Gabarito: E."
+    },
+    {
+      "id": "2021_149",
+      "resolucao": "A resolução do professor Rafael Teixeira calcula o lucro mensal pela diferença entre receita e despesa (L = R − D). Pelo gráfico: janeiro, 10 − 5 = 5; fevereiro, 20 − 10 = 10; março, 15 − 10 = 5; abril, 20 − 15 = 5; maio, 28 − 25 = 3 (valores em milhões de reais). O maior lucro foi de R$ 10 milhões, em fevereiro. Portanto, o lucro dos meses seguintes deve ser pelo menos igual ao de fevereiro. Resposta: alternativa B. Fonte: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2021/questao-149/ ."
+    },
+    {
+      "id": "2021_150",
+      "resolucao": "A resolução do professor Rafael Teixeira utiliza os valores do gráfico: em 2005, 236 milhões; em 2009, 519,2 milhões. Primeiro calcula-se o aumento absoluto: 519,2 − 236 = 283,2. Em seguida, divide-se esse aumento pelo valor inicial: 283,2 ÷ 236 = 1,2. Convertendo para porcentagem, 1,2 = 120%. Portanto, o aumento percentual foi de 120%, alternativa C. Fonte: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2021/questao-150/ ."
     },
     {
       "id": "2021_153",
