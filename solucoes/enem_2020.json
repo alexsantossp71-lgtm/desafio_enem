@@ -517,6 +517,10 @@
       "resolucao": "Com h = 16 cm, a condição |2h + b − 63,5| ≤ 1,5 fica |32 + b − 63,5| ≤ 1,5. Logo, −1,5 ≤ b − 31,5 ≤ 1,5, isto é, 30 ≤ b ≤ 33 cm. A condição 16 ≤ h ≤ 19 também é satisfeita. Alternativa C."
     },
     {
+      "id": "2020_147",
+      "resolucao": "O computador do tipo A informa X litros consumidos em 100 km. Para obter a distância percorrida por litro, basta inverter a razão: 100 km divididos por X litros, isto é, 100/X km/L. A operação corresponde à alternativa C."
+    },
+    {
       "id": "2020_149",
       "resolucao": "A lei de Zipf é f = A/r^B, com A e B positivos. Aplicando logaritmo nos dois lados: log(f) = log(A) − B·log(r). Como X = log(r) e Y = log(f), obtém-se Y = log(A) − B·X, uma relação linear decrescente: reta com intercepto log(A) e inclinação −B. Alternativa A."
     },
@@ -533,8 +537,16 @@
       "resolucao": "Um micrômetro equivale a 10⁻⁶ m. Portanto, 100 micrômetros = 100 × 10⁻⁶ m = 10² × 10⁻⁶ m = 10⁻⁴ m. Em notação científica, 1,0 × 10⁻⁴ m. Alternativa C."
     },
     {
+      "id": "2020_155",
+      "resolucao": "O primeiro quadrado tem lado 1. A cada etapa, o lado do novo quadrado é metade do anterior; assim, os lados formam uma progressão geométrica de primeiro termo 1 e razão 1/2. O lado do centésimo quadrado é 1 × (1/2)⁹⁹ = 2⁻⁹⁹. Alternativa B."
+    },
+    {
       "id": "2020_160",
       "resolucao": "A viagem até o posto Estrela exige 420 km, pois ele fica a 80 km do destino. A moto consome 5 L a cada 100 km; portanto, gasta 21 L até o posto e chega com 1 L no tanque. Depois do abastecimento, precisa percorrer 80 km até o destino, mais 200 km no destino e 80 km de volta ao posto: 360 km, que exigem 18 L. Como já resta 1 L, deve abastecer no mínimo 17 L. Alternativa C."
+    },
+    {
+      "id": "2020_161",
+      "resolucao": "O volume de um cilindro é V = πr²h. As duas caixas têm o mesmo volume e a altura de B é 25% da altura de A, ou hB = hA/4. Igualando os volumes: πR²hA = πrB²(hA/4). Logo, rB² = 4R² e rB = 2R. O raio da caixa B é o dobro do raio da caixa A. Alternativa B."
     },
     {
       "id": "2020_163",
