@@ -485,8 +485,28 @@
       "resolucao": "A resolução do professor Rafael Teixeira utiliza os valores do gráfico: em 2005, 236 milhões; em 2009, 519,2 milhões. Primeiro calcula-se o aumento absoluto: 519,2 − 236 = 283,2. Em seguida, divide-se esse aumento pelo valor inicial: 283,2 ÷ 236 = 1,2. Convertendo para porcentagem, 1,2 = 120%. Portanto, o aumento percentual foi de 120%, alternativa C. Fonte: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2021/questao-150/ ."
     },
     {
+      "id": "2021_151",
+      "resolucao": "A resolução do professor Rafael Teixeira orienta a somar as frequências do histograma da esquerda para a direita. As quantidades por faixa são 5, 10, 5, 15, 20, 15, 15, 10, 5 e 5, totalizando 105 apartamentos. Metade de 105 é 52,5. As frequências acumuladas são: até 400 mil, 5; até 500 mil, 15; até 600 mil, 20; até 700 mil, 35; até 800 mil, 55. O primeiro limite em que a quantidade acumulada alcança pelo menos metade é R$ 800 mil. Resposta: alternativa C. Fonte: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2021/questao-151/ ."
+    },
+    {
       "id": "2021_153",
       "resolucao": "Para determinar a escala, comparamos medidas correspondentes na mesma unidade. A ponte original mede 38,4 m, ou 3 840 cm, e a réplica mede 160 cm. A razão réplica/original é 160 ÷ 3 840 = 1/24. Portanto, a escala utilizada é 1 : 24. Gabarito: C."
+    },
+    {
+      "id": "2021_154",
+      "resolucao": "A resolução do professor Rafael Teixeira projeta separadamente o número de médicos e a população, usando a média das variações das duas décadas anteriores. Médicos: as variações foram 73 000 e 73 000; a média é 73 000, resultando em 438 000 médicos em 2020. População (em milhar): as variações foram 23 000 e 21 000; a média é 22 000, resultando em 213 000 (mil habitantes). A razão 438 000 ÷ 213 000 é aproximadamente 2,06 médicos por mil habitantes. Resposta: alternativa D. Fonte: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2021/questao-154/ ."
+    },
+    {
+      "id": "2021_155",
+      "resolucao": "A resolução do professor Rafael Teixeira mantém o custo total em R$ 10,00. O frango custa inicialmente 0,4 kg × R$ 12,50 = R$ 5,00; a batata-doce custa 0,6 kg × R$ 5,00 = R$ 3,00; e a hortaliça custa R$ 2,00. Com o aumento de 50%, o quilo da batata passa a R$ 7,50, então 600 g custam R$ 4,50. Sobram R$ 3,50 para o frango. A nova quantidade é R$ 3,50 ÷ R$ 12,50 = 0,28 kg. A redução foi de 0,40 − 0,28 = 0,12 kg; em relação aos 0,40 kg iniciais, isso representa 0,12 ÷ 0,40 = 30%. Resposta: alternativa C. Fonte: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2021/questao-155/ ."
+    },
+    {
+      "id": "2021_156",
+      "resolucao": "A resolução do professor Rafael Teixeira identifica no gráfico o valor inicial P(0) = −3, o máximo 3 e o mínimo −3. Assim, a amplitude é 3. Como o gráfico começa no mínimo, a função é um cosseno com sinal negativo. Os mínimos se repetem em t = 0 e t = π, portanto o período é T = π e ω = 2π/T = 2. Logo, P(t) = −3 cos(2t). Resposta: alternativa A. Fonte: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2021/questao-156/ ."
+    },
+    {
+      "id": "2021_157",
+      "resolucao": "A resolução do professor Rafael Teixeira explica que o índice i da matriz representa a região de origem e o índice j representa a região de destino. Como a pergunta procura a região que recebeu o maior fluxo de famílias, devem ser somados os elementos de cada coluna. As somas são: coluna 1 = 4; coluna 2 = 8; coluna 3 = 10; coluna 4 = 11; coluna 5 = 12. A maior soma é a da quinta coluna, portanto a região escolhida é a 5. Resposta: alternativa E. Fonte: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2021/questao-157/ ."
     },
     {
       "id": "2021_158",
