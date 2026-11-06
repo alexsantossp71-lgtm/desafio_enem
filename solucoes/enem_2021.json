@@ -341,6 +341,10 @@
       "resolucao": "A alternativa correta é B. O texto descreve que o transporte de lixo e dejetos era imposto principalmente a pessoas escravizadas, inclusive àquelas consideradas de menor status dentro da família. A prática revela a divisão desigual das tarefas urbanas e a reprodução das hierarquias sociais: atividades consideradas degradantes eram atribuídas aos escravizados, enquanto os grupos livres se beneficiavam desse trabalho compulsório."
     },
     {
+      "id": "2021_91",
+      "resolucao": "A solução preparada está com pH 4,3, abaixo da faixa adequada de 5,5 a 6,5; portanto, é necessário elevar o pH com uma base. Entre as opções, o hidróxido de potássio (KOH) fornece íons OH⁻ e corrige a acidez sem acrescentar um elemento inadequado à solução nutritiva. Resposta: alternativa E. Fonte: https://www.simuladle.com/questoes/enem-2021-dia-2/91 ."
+    },
+    {
       "id": "2021_92",
       "resolucao": "As barras são do mesmo material e estão no mesmo meio, mas têm comprimentos diferentes. A barra menor vibra com frequência fundamental maior que a barra mais comprida. Já a velocidade de propagação do som depende das propriedades do meio em que ele se propaga, não do comprimento da barra que o produziu; no mesmo ar, as velocidades são iguais. Logo, f₁ é maior que f₂ e v₁ = v₂. Gabarito: D."
     },
@@ -349,8 +353,16 @@
       "resolucao": "O polvo mimético assume aparência e postura de outros animais, o que pode confundir predadores e reduzir o risco de ser capturado. Ao longo das gerações, indivíduos com características e comportamentos que aumentavam a chance de sobrevivência tiveram maior possibilidade de deixar descendentes. A capacidade foi favorecida pela seleção natural sob pressões seletivas do ambiente. Gabarito: E."
     },
     {
+      "id": "2021_94",
+      "resolucao": "O movimento é um lançamento oblíquo. Na horizontal, 120 = 0,6v₀t; na vertical, 35 = 0,8v₀t − 5t². Da primeira relação, v₀t = 200. Substituindo na segunda: 35 = 160 − 5t², então t = 5 s. Logo, v₀ = 200/5 = 40 m/s. Resposta: alternativa C. Fonte: https://www.simuladle.com/questoes/enem-2021-dia-2/94 ."
+    },
+    {
       "id": "2021_95",
       "resolucao": "A meia-vida é de 5 anos. Em 35 anos decorrem 35 ÷ 5 = 7 meias-vidas. A massa é reduzida à metade sete vezes: 500 ÷ 2⁷ = 500 ÷ 128 ≈ 3,9 g. Portanto, a massa restante é aproximadamente 3,9 gramas. Gabarito: A."
+    },
+    {
+      "id": "2021_96",
+      "resolucao": "A sequência original termina no códon 7. A substituição de C por U no códon 4 transforma o códon CAA em UAA, que é um sinal de parada da tradução. Como a interrupção ocorre antes das demais mutações propostas, essa alteração produz a menor proteína. Resposta: alternativa B. Fonte: https://mthedu.com.br/questoes/enem-2021-96/ ."
     },
     {
       "id": "2021_97",
@@ -385,8 +397,16 @@
       "resolucao": "A alternativa correta é C — isômero de cadeia. Na fototerapia, a luz transforma a bilirrubina em lumirrubina, uma molécula mais solúvel em água e, portanto, mais facilmente eliminada. A classificação cobrada é a de isomeria constitucional: a transformação envolve mudança no arranjo da cadeia carbônica, mantendo a mesma fórmula molecular."
     },
     {
+      "id": "2021_107",
+      "resolucao": "A potência média corresponde à variação da energia cinética dividida pelo intervalo de tempo. Como o automóvel e a velocidade final são os mesmos, a variação da energia cinética é igual nas duas versões. A versão a álcool atinge 100 km/h em menos tempo (12,9 s contra 13,4 s), portanto apresenta maior taxa de variação da energia cinética e maior potência média. Resposta: alternativa C. Fonte: https://www.simuladle.com/questoes/enem-2021-dia-2/107 ."
+    },
+    {
       "id": "2021_108",
       "resolucao": "O cordel descreve um planeta que possui anéis, está a uma distância do Sol um pouco menor que a indicada no verso e tem densidade média inferior à da água. Essas características identificam Saturno, conhecido por seu sistema de anéis e por apresentar densidade média menor que 1 g/cm³. Gabarito: D."
+    },
+    {
+      "id": "2021_109",
+      "resolucao": "Como a resistividade é a mesma para todos os fios, a resistência é proporcional à razão entre comprimento e área da seção reta: R = ρL/A. As razões são: fio 1: 312/9 ≈ 34,67; fio 2: 47/4 = 11,75; fio 3: 54/2 = 27; fio 4: 106/1 = 106. Em ordem crescente: R₂ < R₃ < R₁ < R₄. Resposta: alternativa C. Fonte: https://www.simuladle.com/questoes/enem-2021-dia-2/109 ."
     },
     {
       "id": "2021_110",
@@ -401,8 +421,20 @@
       "resolucao": "A consanguinidade aumenta a chance de que descendentes recebam duas cópias de variantes genéticas recessivas associadas a doenças. O mapeamento genético permite identificar parentesco e variantes hereditárias relevantes, orientando o controle dos cruzamentos e reduzindo o risco de reprodução entre animais aparentados. Gabarito: E."
     },
     {
+      "id": "2021_113",
+      "resolucao": "Na etapa I, o cobre metálico é oxidado, passando de número de oxidação 0 para +2. Nas etapas intermediárias, permanece como Cu²⁺. Na etapa V, o zinco desloca o cobre do sulfato de cobre, formando cobre metálico novamente; o Cu²⁺ ganha elétrons e sofre redução. Resposta: alternativa E. Fonte: https://www.simuladle.com/questoes/enem-2021-dia-2/113 ."
+    },
+    {
       "id": "2021_114",
       "resolucao": "O reflexo patelar é um reflexo medular: o estímulo sensorial chega à medula espinhal, onde ocorre a integração rápida da resposta motora que contrai o músculo e eleva a perna. Por isso, a resposta pode ocorrer sem depender de uma decisão consciente do cérebro. A região que coordena esse reflexo é a medula espinhal. Gabarito: B."
+    },
+    {
+      "id": "2021_115",
+      "resolucao": "A taxa de condução é maior quando a resistência térmica equivalente é menor. Para a panela de ferro, o parâmetro é proporcional a 1/8; para alumínio, a 1/20. Na composição cobre-aço com metades iguais de espessura, a resistência térmica é proporcional a 1/40 + 1/5, ponderada por metade para cada camada: (1/2)/40 + (1/2)/5 = 0,1125, equivalente a uma condutividade efetiva de aproximadamente 8,89. Assim, a condução fica em ordem decrescente: alumínio, cobre-aço e ferro. Resposta: alternativa B. Fonte: https://www.simuladle.com/questoes/enem-2021-dia-2/115 ."
+    },
+    {
+      "id": "2021_116",
+      "resolucao": "O hidróxido de sódio é uma base e reage com substâncias capazes de doar prótons. A estrutura III contém grupos fenólicos (–OH ligados diretamente ao anel aromático), cujos hidrogênios apresentam caráter ácido. O NaOH desprotona esses grupos, formando fenóxido e água. Resposta: alternativa C (III). Fonte: https://mthedu.com.br/questoes/enem-2021-116/ ."
     },
     {
       "id": "2021_117",
@@ -419,6 +451,10 @@
     {
       "id": "2021_121",
       "resolucao": "Em relações evolutivas entre patógenos e hospedeiros, a convivência prolongada tende a favorecer formas de parasitismo menos letais, pois o patógeno que mata rapidamente o hospedeiro pode reduzir suas próprias oportunidades de transmissão. A baixa letalidade da dengue, comparada à do ebola, é compatível com um processo mais longo de coevolução com seres humanos. Gabarito: E."
+    },
+    {
+      "id": "2021_122",
+      "resolucao": "A decantação ocorre quando o esgoto permanece em repouso e os sólidos mais densos se depositam no fundo. No esquema da estação individual, essa separação do lodo acontece no tanque séptico, identificado como etapa 3. Resposta: alternativa C. Fonte: https://www.simuladle.com/questoes/enem-2021-dia-2/122 ."
     },
     {
       "id": "2021_123",
@@ -445,12 +481,20 @@
       "resolucao": "Nas angiospermas ocorre dupla fecundação: um gameta masculino fecunda a oosfera e forma o zigoto, enquanto o outro se une aos núcleos polares da célula central. Essa segunda fecundação origina o endosperma, tecido geralmente triploide que acumula nutrientes e serve de reserva para o embrião durante seu desenvolvimento. Gabarito: B."
     },
     {
+      "id": "2021_130",
+      "resolucao": "O éster derivado do ácido etanoico deve apresentar o grupo acetato (CH₃COO–). Entre as estruturas do quadro, o acetato de isoamila tem cadeia carbônica saturada e é associado ao aroma de banana. Resposta: alternativa B. Fonte: https://www.simuladle.com/questoes/enem-2021-dia-2/130 ."
+    },
+    {
       "id": "2021_132",
       "resolucao": "Se dois pais sem manifestação da doença podem ter um filho afetado, e a probabilidade indicada é de um em quatro, o padrão é compatível com herança autossômica recessiva. Cada progenitor é portador de uma cópia do alelo recessivo; no cruzamento entre dois heterozigotos, 25% dos descendentes podem receber as duas cópias recessivas e manifestar a doença. Gabarito: A."
     },
     {
       "id": "2021_134",
       "resolucao": "O alcoolômetro funciona pela flutuabilidade, que depende da densidade da solução. Quando a temperatura aumenta, os líquidos sofrem dilatação: o volume cresce e, para a mesma massa, a densidade diminui. Como a escala do instrumento foi calibrada a 20 °C, a alteração de volume exige correção da leitura. Gabarito: C."
+    },
+    {
+      "id": "2021_135",
+      "resolucao": "Polímeros condutores precisam apresentar ligações duplas conjugadas ao longo da cadeia principal, isto é, ligações simples e duplas alternadas, permitindo a deslocalização dos elétrons. Entre as estruturas apresentadas, a alternativa D representa essa característica com a unidade repetitiva –CH=CH–. Resposta: alternativa D. Fonte: https://www.simuladle.com/questoes/enem-2021-dia-2/135 ."
     },
     {
       "id": "2021_136",
@@ -473,8 +517,20 @@
       "resolucao": "A resolução publicada pelo professor Rafael Teixeira identifica as frequências do gráfico: 6 alunos com 9 anos, 12 alunos com 18 anos e 9 alunos com 27 anos. Como as frequências são diferentes, calcula-se a média ponderada. Primeiro, soma-se o total de alunos: 6 + 12 + 9 = 27. Depois, multiplica-se cada idade por sua frequência: 9 × 6 + 18 × 12 + 27 × 9 = 54 + 216 + 243 = 513. Por fim, divide-se a soma ponderada pelo total: 513 ÷ 27 = 19. Portanto, a média é 19 anos, alternativa D. Fonte da resolução consultada: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2021/questao-144/ . O enunciado e os dados foram conferidos com a questão oficial do INEP."
     },
     {
+      "id": "2021_145",
+      "resolucao": "A distribuição percentual das três faixas etárias é x, y e x, então 2x + y = 100. Pela média ponderada dos tempos de leitura: (3x + 5y + 12x)/100 = 6. Substituindo y = 100 − 2x: 3x + 5(100 − 2x) + 12x = 600; daí 5x = 100, x = 20 e y = 60. Resposta: alternativa C. Fonte: https://www.simuladle.com/questoes/enem-2021-dia-2/145 ."
+    },
+    {
       "id": "2021_146",
       "resolucao": "O coeficiente de variação da ração atual é CV = 1/10 = 0,10. Para a nova ração, CV = 1,5/x, em que x é a média de massa dos coelhos. A substituição ocorre se 1,5/x < 0,10. Multiplicando por x e dividindo por 0,10, obtemos x > 15. Portanto, a média deve ser superior a 15 kg. Gabarito: E."
+    },
+    {
+      "id": "2021_147",
+      "resolucao": "A cifra substitui cada letra pela que está três posições adiante. Pelo gráfico, as quatro letras mais frequentes no texto original são A, E, O e S. Aplicando o deslocamento: A→D, E→H, O→R e S→V. Portanto, no texto codificado, as mais frequentes são D, H, R e V. Resposta: alternativa C. Fonte: https://www.simuladle.com/questoes/enem-2021-dia-2/147 ."
+    },
+    {
+      "id": "2021_148",
+      "resolucao": "Os 12 valores anuais são 15, 16, 13, 15, 16, 11, 11, 18, 12, 17, 24 e 20. Em ordem crescente: 11, 11, 12, 13, 15, 15, 16, 16, 17, 18, 20, 24. Como há 12 dados, a mediana é a média entre o 6º e o 7º valores: (15 + 16)/2 = 15,5. Resposta: alternativa C. Fonte: https://www.simuladle.com/questoes/enem-2021-dia-2/148 ."
     },
     {
       "id": "2021_149",
