@@ -539,6 +539,42 @@
     {
       "id": "2019_139",
       "resolucao": "A tarifa é acumulativa por faixas. Até 6 m³, o preço permanece fixo em R$ 12. Entre 6 e 10 m³, cresce R$ 3 por metro cúbico adicional; acima de 10 m³, passa a crescer R$ 6 por metro cúbico adicional. O gráfico correto deve, portanto, começar horizontal, depois subir com inclinação menor e, após 10 m³, subir com inclinação maior, sem saltos nos pontos de mudança. Gabarito: A. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_140",
+      "resolucao": "Para escrever 0,00011 em notação científica, desloca-se a vírgula quatro casas para a direita, obtendo 1,1. Como a vírgula foi deslocada para a direita, o expoente é negativo: 1,1 × 10⁻⁴ mm. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_141",
+      "resolucao": "A força de ataque é proporcional à experiência multiplicada pelo quadrado do nível, com constante 2, pois no início (nível 1 e experiência 1) o ataque vale 2. Assim, J1 tem ataque 2 × 5 × 4² = 160. A defesa é nível × experiência²; para J2, vale 2 × 6² = 72. A diferença é 160 − 72 = 88. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_145",
+      "resolucao": "A cada volta dos pedais, a corrente percorre o mesmo comprimento e a rotação da roda traseira é inversamente proporcional ao diâmetro da catraca. Para a bicicleta avançar 50% a mais, a nova catraca deve ter diâmetro igual a 7/1,5 ≈ 4,67 cm. Arredondando para uma casa decimal, 4,7 cm. Gabarito: C. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_146",
+      "resolucao": "O alerta cinza do dia 1 exige simultaneamente temperatura abaixo de 10 °C e umidade abaixo de 40%; a leitura do gráfico confirma essas duas condições. Já os alertas dos dias 12 e 13 não atendem conjuntamente aos limites de temperatura e umidade definidos para os alertas laranja e vermelho. Portanto, somente o aviso do dia 1 foi emitido corretamente. Gabarito: A. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_148",
+      "resolucao": "A banheira comporta 0,3 m³ = 300 litros. Como será preenchida até 80% da capacidade, serão necessários 300 × 0,8 = 240 litros de solução. Cada embalagem rende 2,7 litros; 240/2,7 ≈ 88,89. Como não é possível comprar uma fração de embalagem, são necessárias 89 embalagens. Gabarito: C. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_151",
+      "resolucao": "Os três sócios iniciais são considerados responsáveis, cada um, por um terço do primeiro investimento de R$ 1 milhão: R$ 333.333,33. Depois, cada um dos quatro sócios investe R$ 200 mil. Assim, cada sócio inicial totaliza aproximadamente R$ 533.333,33, enquanto o quarto investe R$ 200 mil. Sobre R$ 1,8 milhão, as participações são cerca de 29,6% para cada fundador e 11,1% para o quarto sócio. Gabarito: A. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_152",
+      "resolucao": "Como os pagamentos são inversamente proporcionais às idades das máquinas, os pesos são 1/2, 1/3 e 1/5. Multiplicando por 30, a razão fica 15:10:6, totalizando 31 partes. A máquina mais antiga corresponde a 6 partes; cada parte vale 31.000/31 = R$ 1.000. Portanto, essa empresa recebe R$ 6.000. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_153",
+      "resolucao": "O rendimento de 2010 é o de 2000 acrescido de 7,2%: 1.250 × 1,072 = R$ 1.340. Para 2020, acrescenta-se mais 10% sobre o valor de 2010: 1.340 × 1,10 = R$ 1.474. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_154",
+      "resolucao": "Substituindo os dados na fórmula, A·f = 2.000 × 0,2 = 400. Como 400 = 4 × 100, log(400) = log(4) + 2 = 2 log(2) + 2 ≈ 0,6 + 2 = 2,6. Logo, Ms = 3,30 + 2,6 = 5,9, valor classificado como terremoto moderado na escala apresentada. Gabarito: C. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
     }
   ]
 }
