@@ -595,6 +595,106 @@
     {
       "id": "2018_155",
       "resolucao": "A alternativa correta é E. Os dois remos têm o mesmo comprimento, logo AB=AC e o triângulo é isósceles. O ângulo entre eles mede 170°, maior que 90°, portanto é obtusângulo. A classificação correta é triângulo obtusângulo isósceles. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_156",
+      "resolucao": "A alternativa correta é D (7/21). Como são 21 dias, a mediana é o 11º horário em ordem e vale 6h22; portanto, no máximo 10 registros podem ser 6h21 ou anteriores. Como 6h21 é a moda única, sua frequência deve superar a de cada um dos seis horários anteriores possíveis (6h15 a 6h20). Se houver 7 horários anteriores, podem ser distribuídos com frequência máxima 2 em cada horário, enquanto 6h21 aparece 3 vezes. Com 8 anteriores, seriam necessários ao menos 2 registros em algum horário anterior e 2 em 6h21, o que impediria que 6h21 fosse a moda única. Logo, o máximo é 7 dias, e a probabilidade é 7/21. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_157",
+      "resolucao": "A alternativa correta é A (4 408 km). A escala 1:58 000 000 significa que 1 cm no mapa corresponde a 58 000 000 cm na realidade. Para 7,6 cm: 7,6×58 000 000=440 800 000 cm. Convertendo centímetros em quilômetros (dividindo por 100 000), obtemos 4 408 km. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_158",
+      "resolucao": "A alternativa correta é B (33 hectares). Seja p a produtividade menor, em toneladas por hectare. A produção atual é 40×2,5p + 120×p = 220p. O aumento de 15% corresponde a 0,15×220p=33p. Como cada hectare comprado produz p toneladas, são necessários 33 hectares adicionais. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_159",
+      "resolucao": "A alternativa correta é A. O cubo completo possui 4³=64 cubinhos, distribuídos em quatro camadas de 16. As duas camadas inferiores estão completas; na terceira faltam dois cubos, e na camada superior faltam os cubos que formam um grande L. A peça precisa preencher exatamente esses espaços, sem sobrepor os cubos já colocados. A única forma compatível com a disposição tridimensional é a alternativa A. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_160",
+      "resolucao": "A alternativa correta é D (320 carros por ano). No gráfico, as barras de 2014, 2015 e 2016 correspondem a 1, 2 e 5 unidades gráficas. A diferença entre 2016 e 2015 é de 3 unidades e equivale a 360 carros; logo, cada unidade representa 120 carros. As vendas foram 120, 240 e 600. A média é (120+240+600)/3=320 carros. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_161",
+      "resolucao": "A alternativa correta é B (40 m). O lugar geométrico dos pontos cuja distância ao foco A é o dobro da distância ao foco B é uma circunferência de Apolônio. Com A e B separados por 30 m, essa circunferência tem raio 20 m. A maior distância possível entre dois bombeiros posicionados sobre ela é seu diâmetro: 2×20=40 m. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_162",
+      "resolucao": "A alternativa correta é E. Em uma eliminatória simples, cada partida elimina exatamente um competidor. Para começar com 128 participantes e terminar com um campeão, é preciso eliminar 127 jogadores, portanto são necessárias 127 partidas. A soma 64+32+16+8+4+2+1 corresponde às partidas de cada fase e totaliza 127. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_163",
+      "resolucao": "Questão oficialmente anulada pelo INEP. O cálculo do intervalo de pena reduzida, considerando a redução máxima de dois terços sobre 5 anos e a redução mínima de um sexto sobre 15 anos, produz 1 ano e 8 meses a 12 anos e 6 meses (intervalo apresentado na alternativa A). Entretanto, como o item foi anulado, não deve ser tratado como questão com gabarito válido nem pontuado como acerto de uma alternativa. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_164",
+      "resolucao": "A alternativa correta é C (23º andar). O deslocamento líquido do elevador é +7−10−13+9−4=−11 andares. Como a criança termina no 5º andar, começou no 16º. Durante o percurso, o elevador primeiro sobe sete andares, chegando ao 23º, e depois só desce até terminar. Como parou uma vez no último andar, esse último andar é o 23º. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_165",
+      "resolucao": "A alternativa correta é C. Para o estande da entrada e o estande central, devem ser escolhidos dois compactos distintos entre quatro (4×3 possibilidades) e duas caminhonetes distintas entre seis (6×5 possibilidades). Como a posição dos veículos dentro de cada estande não importa, o total de composições é 4×3×6×5=360, expressão representada pela alternativa C. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_166",
+      "resolucao": "A alternativa correta é C (74,5 pontos). A média ponderada precisa ser pelo menos 60: 0,2×46 + 0,1×60 + 0,3×50 + 0,4x = 60. As três primeiras avaliações somam 9,2+6+15=30,2 pontos ponderados. Assim, 0,4x=29,8 e x=29,8/0,4=74,5. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_167",
+      "resolucao": "A alternativa correta é D (40 perguntas). Inicialmente há 20 perguntas, das quais 25% são fáceis: 5. Acrescentando x perguntas fáceis, a fração de fáceis deve ser 75%: (5+x)/(20+x)=0,75. Então 5+x=15+0,75x, logo 0,25x=10 e x=40. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_168",
+      "resolucao": "A alternativa correta é B (63,0%). O enunciado informa que a cobertura variou linearmente entre 2013 e 2015. Assim, o valor de 2014 é a média aritmética das coberturas dos dois anos extremos. Lendo o gráfico, a interpolação fornece 63,0% para 2014. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_169",
+      "resolucao": "A alternativa correta é C (1 500 < X < 2 250). O guindaste mede 15 m, ou 1 500 cm; sua representação deve ficar entre 0,5 e 1 cm, o que exige 1 500 < X < 3 000. A esteira mede 90 m, ou 9 000 cm, e deve aparecer com mais de 4 cm: 9 000/X>4, portanto X<2 250. Combinando as condições, resulta 1 500<X<2 250. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_170",
+      "resolucao": "A alternativa correta é A: f(t)=80 sen(t)+88. A roda tem raio de 80 m, que corresponde à amplitude da variação vertical da cadeira. O centro está a 88 m do solo, valor que desloca a função para cima. Como a posição inicial do raio OA é horizontal e a rotação ocorre no sentido anti-horário, a altura começa na linha média e aumenta segundo o seno: f(t)=80 sen(t)+88. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_171",
+      "resolucao": "A alternativa correta é E (165° no sentido horário). Considerando os sentidos como ângulos orientados, a câmera parte do Oeste (270°). Após as mudanças de 135° anti-horários, 60° horários e 45° anti-horários, sua direção fica em 150°. Para chegar ao Noroeste (315°) pelo menor giro, deve avançar 165° no sentido horário. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_172",
+      "resolucao": "A alternativa correta é E (Ana). No Método de Borda, com cinco concorrentes, o primeiro lugar recebe 5 pontos, o segundo 4, até o último, que recebe 1. Multiplicando os pontos de cada posição pela frequência dos quatro rankings (4, 9, 7 e 5 juízes) e somando, obtêm-se: Ana 86; Bia 70; Caio 74; Dani 75; Edu 70. Ana alcança a maior pontuação e vence. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_173",
+      "resolucao": "A alternativa correta é A. A viga mantém comprimento fixo e forma um triângulo retângulo com o solo e a extremidade que sobe verticalmente a partir de O. O ponto M é o ponto médio da viga, que corresponde à hipotenusa desse triângulo. Em um triângulo retângulo, o ponto médio da hipotenusa fica à mesma distância dos três vértices; portanto, OM permanece constante durante o içamento. O gráfico é uma linha horizontal. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_174",
+      "resolucao": "A alternativa correta é C (2022). Em 1986, a densidade era 100 000/0,25=400 000 transistores por cm². Para chegar a 100 bilhões, é necessário multiplicar essa densidade por 250 000. Como a densidade dobra a cada dois anos e 2¹⁸=262 144, são necessárias 18 duplicações, equivalentes a 36 anos. Assim, 1986+36=2022. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_175",
+      "resolucao": "A alternativa correta é B (24 parcelas). Seja p o valor da parcela inicial. O preço do carro é Np. Com cinco parcelas a mais, Np=(N+5)(p−200), o que resulta em p=40N+200. Com quatro a menos, Np=(N−4)(p+232), resultando em p=58N−232. Igualando: 40N+200=58N−232; então 18N=432 e N=24. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_176",
+      "resolucao": "A alternativa correta é C (salto T3). O atleta 10 tem 687,5 pontos, enquanto o líder tem 829,0; precisa, portanto, superar 141,5 pontos no último salto. A nota estimada de cada salto é o grau de dificuldade multiplicado pela soma estimada dos juízes: T1=125,4; T2=139,2; T3=143,0; T4=140,0; T5=159,0. Apenas T3 e T5 permitem alcançar o primeiro lugar. Entre eles, T3 tem maior probabilidade de obter a nota estimada (91,88%, contra 87,34% de T5). Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_177",
+      "resolucao": "A alternativa correta é D (40%). Somando as populações dos cinco grupos, temos 4,5+2,0+2,5+0,5+20,5=30 milhões. O total de vacinados é 0,9+1,0+1,5+0,4+8,2=12 milhões. A porcentagem geral é 12/30×100=40%. Não se deve calcular a média simples das porcentagens, pois os grupos têm tamanhos diferentes. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_178",
+      "resolucao": "A alternativa correta é D (48 alunos). Seja x o número de alunos que comprou um bilhete e y o número que comprou três. O total de alunos da escola é x+y+45+80=x+y+125. O total de bilhetes é x+90+3y e supera o total de alunos em 33; portanto, x+90+3y=x+y+158, de onde y=34. Como x corresponde a 20% do total de bilhetes, x=0,2(x+90+3×34)=0,2(x+192). Logo, 0,8x=38,4 e x=48. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_179",
+      "resolucao": "A alternativa correta é A (14 cm). Em um triângulo retângulo isósceles, a hipotenusa mede o cateto multiplicado por √2. Partindo do menor triângulo, com catetos de 2 cm, a sequência de peças permite determinar os comprimentos compartilhados: 2√2, 4, 4√2 e 8 cm. Somando os trechos que compõem a lateral do quadrado, 8+4+2=14 cm. A base também confirma o resultado: 12+2=14 cm. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_180",
+      "resolucao": "A alternativa correta é B. Ao desenrolar a faixa, a hélice corresponde à diagonal de um retângulo cuja base é uma volta completa do cilindro. Com raio 6/π cm, a circunferência da base mede 2π×(6/π)=12 cm. A diagonal faz 30° com a base; portanto, a altura é o cateto oposto: h=12×tan(30°)=12/√3=4√3 cm. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
     }
   ]
 }
