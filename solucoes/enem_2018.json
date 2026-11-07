@@ -515,6 +515,86 @@
     {
       "id": "2018_135",
       "resolucao": "A alternativa correta é D. O texto explica que, com a industrialização, a produção agrícola passou a ser transportada para centros consumidores distantes. Os nutrientes retirados do solo pelas colheitas deixam de retornar às áreas de cultivo, rompendo o balanço do nitrogênio e exigindo a produção industrial de compostos nitrogenados para fertilização. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_136",
+      "resolucao": "A alternativa correta é A (banco 1). Cada linha da matriz representa o total enviado por um banco aos demais. Para descobrir qual transferiu mais, somam-se os elementos de cada linha, desconsiderando a diagonal principal, que é zero porque não há TED para o próprio banco. A maior soma corresponde ao banco 1. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_137",
+      "resolucao": "A alternativa correta é C (52ª parcela). O desconto para antecipar uma parcela deve superar 25%, portanto seu valor presente precisa ser menor que 75% de R$ 820,00: P < 615. Pela fórmula dos juros compostos, 820/(1,0132)^n < 615, ou (1,0132)^n > 4/3. Aplicando logaritmos: n > ln(4/3)/ln(1,0132) ≈ 21,96. A parcela deve estar pelo menos 22 meses à frente da 30ª; a primeira possível é a 52ª. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_138",
+      "resolucao": "A alternativa correta é E. A circunferência de centro (2,2) e raio √8, dada por (x−2)²+(y−2)²=8, passa por A(0,4), B(4,4) e C(4,0). Cada ponto atingido por uma circunferência vale 2 pontos, totalizando 6. As retas que passam pela origem e por A atingem menos pontos ou valem apenas 1 ponto por ponto; por isso, a equação da alternativa E maximiza a pontuação. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_139",
+      "resolucao": "A alternativa correta é A. Os pontos B e A estão em raios 4 e 6, separados por 120° (2π/3 rad). O percurso pode descer por uma semirreta até uma circunferência de raio r, percorrer o arco e subir até A. A distância é (4−r)+(6−r)+2πr/3. Como 2π/3 é aproximadamente 2,09, o menor valor ocorre no menor raio permitido, r=1: d=8+2π/3. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_140",
+      "resolucao": "A alternativa correta é D (modelo IV). Cada pote ocupa 4 cm × 4 cm na base e 6 cm de altura. Contando apenas unidades inteiras, os modelos comportam: I, 24 potes; II, 20; III, 20; IV, 30; V, 24. No modelo IV cabem 5 × 3 potes por camada e 2 camadas: 5 × 3 × 2 = 30. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_141",
+      "resolucao": "A alternativa correta é C (R$ 528 000,00). As posições dos postes formam uma progressão aritmética de 80 m a 1 380 m, com razão de 20 m. O número de postes é n=(1380−80)/20+1=66. Como cada instalação custa no máximo R$ 8 000,00, o gasto máximo é 66×8 000=R$ 528 000,00. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_142",
+      "resolucao": "A alternativa correta é E. A força gravitacional é proporcional a m/r². Para comparar os satélites, não basta observar apenas a massa ou o raio: deve-se avaliar a razão entre a massa e o quadrado do raio de cada ponto no gráfico. A relação entre as três forças indicada na alternativa E é a que respeita essa proporcionalidade. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_143",
+      "resolucao": "A alternativa correta é B (28,75 g de prata e 1,25 g de cobre). Os 10 g de prata 925 contêm 9,25 g de prata pura e 0,75 g de cobre. Para obter 40 g de prata 950, são necessários 38 g de prata pura e 2 g de cobre. Portanto, devem ser acrescentados 38−9,25=28,75 g de prata e 2−0,75=1,25 g de cobre. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_144",
+      "resolucao": "A alternativa correta é B (máquina 2). O tempo de espera depende tanto do número de pessoas na fila quanto do tempo de atendimento por bagagem. Multiplicando esses valores: máquina 1, 175 s; máquina 2, 150 s; máquina 3, 154 s; máquina 4, 160 s; máquina 5, 160 s. A menor espera é de 150 segundos, na máquina 2. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_145",
+      "resolucao": "A alternativa correta é D (1,11 acidente por funcionário). A média é calculada somando o produto de cada quantidade de acidentes pelo número de funcionários naquela categoria e dividindo pelo total de 100 funcionários. A soma ponderada apresentada na tabela resulta em 111 acidentes; assim, 111/100=1,11 acidente por funcionário. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_146",
+      "resolucao": "A alternativa correta é A. A distância é velocidade média multiplicada pelo tempo. Alpha: 6,0 km/h × 1,5 h = 9 km; Beta: 5,0 × 1,5 = 7,5 km; Gama: 6,5 × 1 = 6,5 km. Portanto, a ordem das distâncias é Alpha > Beta > Gama, representada na alternativa A. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_147",
+      "resolucao": "A alternativa correta é D (alta). A taxa inicial de LDL é 280 mg/dL. Após redução de 25%, fica 280×0,75=210 mg/dL. No mês seguinte, uma redução adicional de 20% resulta em 210×0,80=168 mg/dL. Pela tabela de classificação, 168 mg/dL está na faixa alta. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_148",
+      "resolucao": "A alternativa correta é A. Cada anúncio de rádio custa R$ 120 e alcança 1 500 pessoas, isto é, 1 500/120=12,5 pessoas por real investido. Panfletos custam R$ 180 por mil unidades, ou 1 000/180 pessoas por real. Assim, o total alcançado é 12,5X+(1000/180)Y, expressão equivalente à alternativa A. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_149",
+      "resolucao": "A alternativa correta é A (elevar a garagem em 40 cm). A rampa projetada vence 2 m de desnível em 8 m na horizontal, o que representa inclinação de 2/8=25%. Para cumprir o limite de 20%, o desnível máximo deve ser 0,20×8=1,6 m. A garagem precisa subir de 2,0 m para 1,6 m, ou seja, 0,4 m (40 cm). Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_150",
+      "resolucao": "A alternativa correta é E (opção 5). A probabilidade de retirar duas bolas pretas depende da composição da urna depois da transferência. Na opção 5, uma bola da urna C é transferida para a urna D. Se for preta (probabilidade 1/2), D passa a ter 4 pretas em 7 bolas; se for verde (1/2), permanece com 3 pretas em 7. A probabilidade total é 1/2×(4/7×3/6)+1/2×(3/7×2/6)=3/14, aproximadamente 21,4%, maior que a das outras opções. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_151",
+      "resolucao": "A alternativa correta é B (48). A área pintada varia com o quadrado da escala linear. Para reduzir a área a 1/16 da original, o fator de redução do tamanho da letra deve ser √(1/16)=1/4. Como a fonte começa no tamanho 192, o novo tamanho é 192×1/4=48. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_152",
+      "resolucao": "A alternativa correta é B. A região triangular do gráfico está no primeiro quadrante, limitada por y=0, pela reta y=x e pela vertical x=10. Assim, os pontos naturais que pertencem à região satisfazem simultaneamente 0≤y≤x≤10. Essa condição descreve exatamente o triângulo mostrado. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_153",
+      "resolucao": "A alternativa correta é D (64π m²). A trena forma uma corda de 16 m tangente ao círculo menor. A metade da corda mede 8 m e, com os raios externo R e interno r, forma um triângulo retângulo: R²−r²=8²=64. A área do passeio é a diferença entre as áreas dos círculos, π(R²−r²)=64π m². Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_154",
+      "resolucao": "A alternativa correta é D (10 × 10). Em um tabuleiro n×n, a zona de combate de uma peça ocupa 2n−1 casas: sua linha e sua coluna, contando a casa de interseção uma única vez. Entre as n²−1 casas restantes, 2n−2 pertencem à zona. A probabilidade é (2n−2)/(n²−1)=2/(n+1). Para ficar abaixo do limite indicado no enunciado, a menor dimensão inteira possível é n=10. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
+    },
+    {
+      "id": "2018_155",
+      "resolucao": "A alternativa correta é E. Os dois remos têm o mesmo comprimento, logo AB=AC e o triângulo é isósceles. O ângulo entre eles mede 170°, maior que 90°, portanto é obtusângulo. A classificação correta é triângulo obtusângulo isósceles. Fonte de conferência: https://nogabarito.com.br/provas/enem-2018/gabarito"
     }
   ]
 }
