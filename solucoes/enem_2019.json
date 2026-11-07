@@ -623,6 +623,42 @@
     {
       "id": "2019_176",
       "resolucao": "O orçamento inicial é 10.000 + 40.000 + 2.500×40 = R$ 150.000. O novo projeto custa R$ 5.000 e a construção passa a custar 2.500×1,25×40 = R$ 125.000. Para que o total seja 10% menor, o novo orçamento deve ser R$ 135.000; assim, os custos fixos precisam cair para R$ 5.000. A redução de R$ 40.000 para R$ 5.000 é de 87,5%. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_125",
+      "resolucao": "A alternativa correta é C (3). A conquista definitiva do ambiente terrestre pelas plantas ocorreu quando a reprodução deixou de depender de água líquida no ambiente. O tubo polínico, formado a partir do grão de pólen nas gimnospermas e angiospermas, conduz o gameta masculino até a oosfera. Embriões protegidos e tecidos condutores foram aquisições importantes, mas não eliminaram a necessidade de água para a fecundação nas briófitas e pteridófitas. Portanto, a característica indicada pelo número 3 é a decisiva. Fonte de conferência: https://www.simuladle.com/questoes/enem-2019-dia-2/125"
+    },
+    {
+      "id": "2019_136",
+      "resolucao": "A alternativa correta é E. Com o Sol a pino, a projeção ortogonal corresponde à vista de cima da escultura. Como as letras estão em pé e têm espessura igual, cada uma projeta uma faixa correspondente à sua largura; os vazios entre letras também permanecem na projeção. A sequência das larguras é: P larga, I estreita, N larga e E média, com três espaços iguais entre as faixas. A única opção que representa essa ordem e mantém os espaçamentos iguais é E. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2019/questao-136/"
+    },
+    {
+      "id": "2019_143",
+      "resolucao": "A alternativa correta é B (atividade II). Para comparar o gasto por minuto, calcula-se a razão entre as quilocalorias e o tempo de cada atividade: I: 20/10 = 2 kcal/min; II: 100/15 ≈ 6,7 kcal/min; III: 120/20 = 6 kcal/min; IV: 100/25 = 4 kcal/min; V: 80/30 ≈ 2,7 kcal/min. A atividade II apresenta a maior taxa, embora a atividade III tenha o maior gasto total. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2019/questao-143/"
+    },
+    {
+      "id": "2019_144",
+      "resolucao": "A alternativa correta é A (segunda-feira). Cada coluna representa um dia, portanto é necessário somar verticalmente os acertos dos cinco alunos. Segunda: 3 + 3 + 2 + 3 + 0 = 11; terça: 2 + 2 + 2 + 2 + 2 = 10; quarta: 0 + 4 + 2 + 4 + 0 = 10; quinta: 1 + 1 + 3 + 1 + 4 = 10; sexta: 2 + 2 + 2 + 0 + 4 = 10. A maior soma é 11, na segunda-feira. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2019/questao-144/"
+    },
+    {
+      "id": "2019_147",
+      "resolucao": "A alternativa correta é B (22 280 cm²). A placa pode ser decomposta em um retângulo de 40 cm de largura e 40 cm de altura, mais um semicírculo superior de raio 20 cm. A área do retângulo é 40 × 40 = 1 600 cm². A área do semicírculo é (3,14 × 20²)/2 = 628 cm². Assim, cada placa tem 1 600 + 628 = 2 228 cm². Para dez placas: 10 × 2 228 = 22 280 cm². Não se deve somar o círculo inteiro, pois sua metade inferior já está contida no retângulo. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2019/questao-147/"
+    },
+    {
+      "id": "2019_164",
+      "resolucao": "A alternativa correta é C (um caminhão de 5 m³). Dividindo a planta em três retângulos, obtemos áreas de 8 × 8 = 64 m², 3 × 7 = 21 m² e 3 × 5 = 15 m². A área total é 64 + 21 + 15 = 100 m². A espessura de 5 cm equivale a 0,05 m; logo, o volume de concreto é 100 × 0,05 = 5 m³. Portanto, basta um caminhão com capacidade máxima de 5 m³. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2019/questao-164/"
+    },
+    {
+      "id": "2019_166",
+      "resolucao": "A alternativa correta é D (6√5 cm). Antes da dobra, o canto inferior esquerdo forma com A e E um triângulo retângulo. A folha mede 18 cm por 12 cm e, pela figura, o trecho horizontal entre o canto original e E mede 18 − 12 = 6 cm. A altura é 12 cm. Pelo teorema de Pitágoras, AE² = 12² + 6² = 144 + 36 = 180; portanto, AE = √180 = 6√5 cm. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2019/questao-166-origami-dobradura-pitagoras-segmento"
+    },
+    {
+      "id": "2019_167",
+      "resolucao": "A alternativa correta é C (futebol, futebol, basquete, basquete). O grupo de basquete reúne os alunos mais altos e tem uma pessoa a mais que o grupo de futebol. Assim, a turma tem quantidade ímpar de alunos e a mediana corresponde exatamente à altura do aluno mais baixo do grupo de basquete. A mediana é 1,67 m; portanto, F, que mede 1,67 m, é o mais baixo do basquete. M, com 1,68 m, também joga basquete. P (1,65 m) e J (1,66 m), abaixo da mediana, jogam futebol. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2019/questao-167/"
+    },
+    {
+      "id": "2019_169",
+      "resolucao": "A alternativa correta é A (bar I). Para haver match simultâneo, a distância do bar a Q deve ser de no máximo 3 km, a R de no máximo 2 km e a S de no máximo 3 km (o menor entre o raio de P, 3 km, e o de S, 5 km). O bar I está em (5,6), enquanto Q=(3,7), R=(6,7) e S=(5,3). As distâncias são: até Q, √[(5−3)²+(6−7)²] = √5 ≈ 2,24 km; até R, √[(5−6)²+(6−7)²] = √2 ≈ 1,41 km; até S, √[(5−5)²+(6−3)²] = 3 km. As três respeitam os limites. Os demais bares não atendem ao limite de 2 km até R. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2019/questao-169/"
     }
   ]
 }
