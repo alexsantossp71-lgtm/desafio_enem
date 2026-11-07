@@ -575,6 +575,38 @@
     {
       "id": "2019_154",
       "resolucao": "Substituindo os dados na fórmula, A·f = 2.000 × 0,2 = 400. Como 400 = 4 × 100, log(400) = log(4) + 2 = 2 log(2) + 2 ≈ 0,6 + 2 = 2,6. Logo, Ms = 3,30 + 2,6 = 5,9, valor classificado como terremoto moderado na escala apresentada. Gabarito: C. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_155",
+      "resolucao": "A sequência repete um bloco de oito termos: 5, 4, 3, 2, 1, 2, 3, 4. Dividindo 2.015 por 8, o resto é 7; portanto, o item ocupa a sétima posição do bloco, que corresponde ao código 3. Pela legenda, o código 3 identifica a caixa de direção. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_158",
+      "resolucao": "A escala 1:200 é linear; para volumes, o fator de ampliação é 200³ = 8.000.000. Assim, os 45 cm³ da maquete representam 45 × 8.000.000 = 360.000.000 cm³, ou 360.000 litros. Com consumo diário de 30.000 litros, o reservatório abastece o condomínio por 360.000/30.000 = 12 dias. Gabarito: C. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_159",
+      "resolucao": "A chance de não perceber uma placa é 1/2. Para n placas independentes, a probabilidade de não perceber nenhuma é (1/2)ⁿ. É necessário que 1 − (1/2)ⁿ seja maior que 0,99, ou seja, 2ⁿ > 100. O menor inteiro que satisfaz isso é n = 7 placas no total. Como já existe uma placa instalada, devem ser acrescentadas 6. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_160",
+      "resolucao": "A soma das alturas dos 20 jogadores é 20 × 1,80 = 36 m. O novo jogador é 0,20 m mais baixo que o jogador substituído, então a soma diminui 0,20 m e passa a 35,80 m. A nova média é 35,80/20 = 1,79 m. Gabarito: C. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_162",
+      "resolucao": "Um pé corresponde a 30,48 cm, enquanto uma polegada corresponde a 2,54 cm. Dividindo 30,48 por 2,54, obtém-se 12. Portanto, um pé equivale a 12 polegadas. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_165",
+      "resolucao": "O volume de sangue considerado é 8% da massa corporal: 0,08m litros. A concentração é a razão entre a quantidade de álcool q e esse volume. Para que seja prejudicial, q/(0,08m) deve ser superior a 0,4. Multiplicando os dois lados por 0,08m, resulta q > 0,032m. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_168",
+      "resolucao": "O gerente recebe R$ 1.000 por semana. Os demais funcionários, em número X − 1, trabalham dois dias e recebem R$ 80 por dia, ou seja, R$ 160 por semana cada um. O gasto total é Y = 1.000 + 160(X − 1) = 160X + 840. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_170",
+      "resolucao": "A dose diária máxima é 500 mg por quilograma. Para uma criança de 20 kg, isso corresponde a 500 × 20 = 10.000 mg, ou 10 g por dia. Durante cinco dias, serão necessários 50 g. Como 1 g ocupa 1 cm³, o volume é 50 cm³ = 50 mL. Portanto, o frasco adequado é o de 50 mL. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
     }
   ]
 }
