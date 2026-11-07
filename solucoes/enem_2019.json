@@ -607,6 +607,22 @@
     {
       "id": "2019_170",
       "resolucao": "A dose diária máxima é 500 mg por quilograma. Para uma criança de 20 kg, isso corresponde a 500 × 20 = 10.000 mg, ou 10 g por dia. Durante cinco dias, serão necessários 50 g. Como 1 g ocupa 1 cm³, o volume é 50 cm³ = 50 mL. Portanto, o frasco adequado é o de 50 mL. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_171",
+      "resolucao": "Como os vagões são numerados e permanecem em ordem crescente, a escolha das cores equivale a distribuir as posições entre quatro vagões vermelhos, três azuis, três verdes e dois amarelos. Escolhem-se 4 posições entre 12 para o vermelho; das 8 restantes, 3 para o azul; das 5 restantes, 3 para o verde; as 2 últimas ficam amarelas. A contagem é C(12,4) × C(8,3) × C(5,3) × C(2,2). Gabarito: E. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_173",
+      "resolucao": "Entre todas as declarações, 20% são inconsistentes e, dessas, 25% são fraudulentas: 0,20 × 0,25 = 0,05, ou 5% do total. As declarações sem inconsistência representam 80%; 6,25% delas são fraudulentas: 0,80 × 0,0625 = 0,05. Logo, 10% de todas as declarações são fraudulentas, e metade delas é inconsistente. A probabilidade pedida é 0,05/0,10 = 0,5. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_175",
+      "resolucao": "O volume inicial de água no reservatório central é π × 2² × 3,30 = 13,2π m³. Após a equalização, a água ocupa o reservatório central e os quatro auxiliares à mesma altura. A área total das bases é π×2² + 4×π×1,5² = 4π + 9π = 13π m². Portanto, a altura comum é 13,2π/13π ≈ 1,015 m, que corresponde a 1,00 m na alternativa apresentada. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_176",
+      "resolucao": "O orçamento inicial é 10.000 + 40.000 + 2.500×40 = R$ 150.000. O novo projeto custa R$ 5.000 e a construção passa a custar 2.500×1,25×40 = R$ 125.000. Para que o total seja 10% menor, o novo orçamento deve ser R$ 135.000; assim, os custos fixos precisam cair para R$ 5.000. A redução de R$ 40.000 para R$ 5.000 é de 87,5%. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
     }
   ]
 }
