@@ -491,6 +491,54 @@
     {
       "id": "2019_123",
       "resolucao": "O estrôncio apresenta comportamento químico semelhante ao cálcio e pode substituí-lo em processos biológicos. Como o cálcio é componente importante da matriz mineral dos ossos, o estrôncio-90 tende a se acumular predominantemente no tecido ósseo. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_124",
+      "resolucao": "A reciclagem do PET por transesterificação utiliza metanol para quebrar as ligações éster do polímero. A reação produz tereftalato de metila e etanodiol; portanto, o composto A que fornece os grupos metila é o metanol. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_126",
+      "resolucao": "As cinco lâmpadas estão em paralelo entre si e com a televisão, enquanto a resistência do cabo fica em série com o conjunto. Para a televisão receber pelo menos 90 V de uma rede de 120 V, a resistência equivalente da carga deve ser de pelo menos 30 Ω. Com n lâmpadas de 200 Ω em paralelo com a TV de 50 Ω, R = 200/(4+n); a condição permite n ≤ 2,66. Assim, o máximo é duas lâmpadas. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_127",
+      "resolucao": "O DNP transporta prótons de volta à matriz mitocondrial sem que atravessem a ATP sintase. Isso desacopla a cadeia respiratória da produção de ATP e reduz o rendimento energético da respiração. Para manter suas atividades, as células passam a consumir mais nutrientes, dissipando parte da energia. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_129",
+      "resolucao": "A titulação permite calcular a quantidade de ácido cítrico pela estequiometria da neutralização. Como o ácido é triprótico, cada mol reage com três mols de NaOH. O volume e a concentração do titulante fornecem os mols de base; dividindo por três, obtêm-se os mols de ácido, que são convertidos em massa e comparados aos limites da tabela. O resultado é compatível com caju ou graviola. Gabarito: C. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_130",
+      "resolucao": "O sal dissolvido no caldo passa para o interior das batatas devido à diferença de concentração. Esse deslocamento de soluto ocorre a favor do gradiente de concentração e é chamado difusão. Não é osmose, pois esse processo se refere ao movimento do solvente através de uma membrana semipermeável. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_131",
+      "resolucao": "A câmera, com abertura de 90°, registra no solo uma faixa de largura 2H·tg(45°) = 2 000 m. Com sobreposição frontal de 20%, o deslocamento entre fotos deve corresponder a 80% dessa faixa: 1 600 m. A 50 m/s, o intervalo é 1 600/50 = 32 s. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_132",
+      "resolucao": "A redução da pupila limita a passagem dos raios periféricos, fazendo com que os raios atravessem regiões mais centrais do sistema óptico do olho. Isso diminui as aberrações associadas à refração e melhora a nitidez da imagem formada na retina. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_133",
+      "resolucao": "O rim filtra o sangue e remove resíduos do metabolismo, entre eles a ureia, que é eliminada na urina. Assim, a função diretamente reproduzida pelo rim biônico descrito é a remoção de ureia. Gabarito: A. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_134",
+      "resolucao": "O etanol se desloca pelos pequenos espaços entre as fibras do papel. A adesão do líquido às paredes desses poros e a tensão superficial promovem a subida capilar, que pode vencer a ação da gravidade em distâncias pequenas. Esse fenômeno é a capilaridade. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_135",
+      "resolucao": "Huygens argumenta que feixes luminosos podem atravessar-se sem se perturbar, contestando a ideia de que a luz seja formada por partículas materiais que se deslocam como projéteis. Essa descrição se opõe ao modelo corpuscular defendido por Newton. Gabarito: C. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_138",
+      "resolucao": "O transporte custa um quinto do valor do objeto, ou seja, 20%. Como o gasto total não pode ultrapassar 100% do valor, sobra 100% − 20% = 80% para a recompensa. Portanto, o maior percentual que pode ser oferecido é 80%. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_139",
+      "resolucao": "A tarifa é acumulativa por faixas. Até 6 m³, o preço permanece fixo em R$ 12. Entre 6 e 10 m³, cresce R$ 3 por metro cúbico adicional; acima de 10 m³, passa a crescer R$ 6 por metro cúbico adicional. O gráfico correto deve, portanto, começar horizontal, depois subir com inclinação menor e, após 10 m³, subir com inclinação maior, sem saltos nos pontos de mudança. Gabarito: A. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
     }
   ]
 }
