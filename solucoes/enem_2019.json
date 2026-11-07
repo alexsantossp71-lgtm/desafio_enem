@@ -435,6 +435,62 @@
     {
       "id": "2019_104",
       "resolucao": "Medicamentos descartados e excretados podem atravessar o esgoto e persistir na água. Para reduzir esses resíduos, é necessário aperfeiçoar os processos das estações de tratamento de efluentes, de modo que os compostos farmacêuticos sejam removidos ou degradados antes do lançamento da água tratada no ambiente. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_106",
+      "resolucao": "A atleta está no meio da fita, então as duas trações têm componentes verticais iguais que sustentam seu peso. Pela simetria, 2T sen(10°) = mg = 80 × 10 = 800 N. Logo, T = 800/(2 × 0,17) ≈ 2,35 × 10³ N, aproximadamente 2,4 × 10³ N em cada extremidade. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_107",
+      "resolucao": "As larvas sobem em direção à lâmpada porque respondem ao estímulo luminoso, deslocando-se em direção à fonte de luz. Esse movimento orientado pela luz é denominado fototropismo positivo. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_109",
+      "resolucao": "Se a reentrada alguns minutos depois mudaria o ponto de queda do oceano para a cidade, o foguete avançava angularmente em relação à superfície terrestre. Para que sua posição relativa ao solo se deslocasse no sentido observado, sua velocidade angular precisava ser maior que a da rotação da Terra e no mesmo sentido. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_110",
+      "resolucao": "A segunda lei de Mendel não se aplica de forma independente quando dois genes estão fisicamente próximos no mesmo cromossomo. Como estão ligados, tendem a permanecer juntos durante a meiose e a ser transmitidos em conjunto, salvo ocorrência de recombinação. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_111",
+      "resolucao": "A velocidade do tijolo antes do impacto é obtida por v² = 2gh: v = √(2 × 10 × 5) = 10 m/s. Sua quantidade de movimento é 2,5 × 10 = 25 kg·m/s. Parando em 0,5 s, a força média é 25/0,5 = 50 N. Como o peso de cada tijolo é 2,5 × 10 = 25 N, a força equivale ao peso de dois tijolos. Gabarito: A. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_112",
+      "resolucao": "Na destilação fracionada, os compostos com maiores cadeias carbônicas tendem a apresentar forças de dispersão intermoleculares mais intensas. Por isso, é necessário fornecer mais energia para separá-los por vaporização, elevando suas temperaturas de ebulição. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_113",
+      "resolucao": "O íon realiza movimento circular sob ação do campo magnético, com frequência angular ω = qB/m. Em N voltas durante o intervalo t, sua frequência angular também é ω = 2πN/t. Igualando as expressões, obtém-se m = qBt/(2πN). Gabarito: A. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_115",
+      "resolucao": "O concreto reciclado moído substitui a brita, que é obtida pela fragmentação de rochas. Ao reaproveitar o material de construções demolidas, diminui-se a necessidade de extrair novos agregados rochosos do ambiente. Gabarito: A. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_117",
+      "resolucao": "A energia efetivamente transferida à água corresponde a 50% da energia alimentar da castanha indicada na tabela. Aplica-se Q = m c ΔT, com m = 350 g e c = 1 cal/(g °C); usando a energia aproveitada, obtém-se uma elevação de temperatura próxima de 25 °C. Partindo de 20 °C, a temperatura final é aproximadamente 45 °C. Gabarito: C. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_118",
+      "resolucao": "No ânodo ocorre oxidação. Na bateria zinco-ar, o zinco metálico reage em meio alcalino e forma o complexo zincato, Zn(OH)₄²⁻, liberando elétrons para o circuito externo. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_119",
+      "resolucao": "O pneu mais estreito apresenta menor área de contato. Para suportar os mesmos esforços e deformar menos, precisa operar com pressão maior. Como o volume do pneu estreito também é menor e a massa de ar é proporcional ao volume, ele contém menos ar. Portanto, pA > pB e mA < mB. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_120",
+      "resolucao": "As estruturas dos corantes apresentam sistemas de ligações duplas conjugadas, com elétrons deslocalizados. Essa conjugação permite a absorção de determinadas faixas da luz visível, fazendo com que os compostos apresentem cor. Gabarito: A. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_122",
+      "resolucao": "O aço inoxidável favorece a transformação química da alicina responsável pelo odor, mas não é consumido no processo. Uma substância que acelera uma reação sem ser consumida é um catalisador. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
+    },
+    {
+      "id": "2019_123",
+      "resolucao": "O estrôncio apresenta comportamento químico semelhante ao cálcio e pode substituí-lo em processos biológicos. Como o cálcio é componente importante da matriz mineral dos ossos, o estrôncio-90 tende a se acumular predominantemente no tecido ósseo. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/provas/enem-2019/gabarito"
     }
   ]
 }
