@@ -259,6 +259,66 @@
     {
       "id": "2016_65",
       "resolucao": "Mosquitos hematófagos alimentam-se de sangue e precisam impedir que ele coagule enquanto realizam a sucção. Sua saliva contém substâncias anticoagulantes, que interferem no processo de coagulação. Por isso, esses animais são fontes adequadas para pesquisar toxinas com ação anticoagulante. Gabarito: E."
+    },
+    {
+      "id": "2016_66",
+      "resolucao": "Nas engrenagens em contato, a velocidade tangencial é a mesma, então a frequência é inversamente proporcional ao número de dentes. De A para B: fB=18×24/72=6 RPM. B e C estão no mesmo eixo, logo fC=6 RPM. De C para D: fD=6×36/108=2 RPM. O ponteiro gira a 2 RPM. Gabarito: B. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2016/questao-66-engrenagens-cronometro-frequencia-ponteiro."
+    },
+    {
+      "id": "2016_67",
+      "resolucao": "Nas mudanças entre sólido, líquido e gás, a substância mantém sua composição química; o que muda é a organização e a distância entre suas partículas. A fusão, a vaporização e a condensação envolvem alterações na estrutura espacial dos constituintes, não transformação dos elementos químicos. Gabarito: D."
+    },
+    {
+      "id": "2016_68",
+      "resolucao": "Para 27 000 L de etanol, são gerados 27 000×18=486 000 L de vinhaça. A concentração de fósforo é 60 mg/L, então a massa disponível é 486 000×60=29 160 000 mg. Convertendo: 29 160 000 mg=29,16 kg, aproximadamente 29 kg. Gabarito: B."
+    },
+    {
+      "id": "2016_69",
+      "resolucao": "O nitrato absorvido pelas plantas fornece nitrogênio para a síntese de aminoácidos, que formam as proteínas. Se a concentração elevada de CO₂ reduz a absorção de nitrato, a produção de proteínas no grão de trigo é uma das primeiras características nutricionais afetadas. Gabarito: E."
+    },
+    {
+      "id": "2016_70",
+      "resolucao": "Enquanto o organismo está vivo, ele troca carbono com o ambiente e mantém uma proporção de carbono-14 em relação ao carbono-12 semelhante à da atmosfera. Após a morte, essa troca cessa e o carbono-14 radioativo decai, enquanto o carbono-12 permanece praticamente estável. Comparar as proporções permite estimar a idade do fóssil. Gabarito: A."
+    },
+    {
+      "id": "2016_71",
+      "resolucao": "As plantas descritas possuem raízes adaptadas ao substrato lamacento e pobre em oxigênio, além de glândulas que eliminam o excesso de sal e cutícula espessa para reduzir a perda de água. Essas são adaptações típicas de espécies do manguezal, ambiente costeiro sujeito à salinidade e ao alagamento. Gabarito: D."
+    },
+    {
+      "id": "2016_72",
+      "resolucao": "O vapor atravessa as folhas e carrega seus compostos voláteis, como os óleos essenciais do capim-cidreira e do eucalipto. Esse processo é a extração por arraste de vapor, técnica usada para separar substâncias aromáticas que seriam pouco solúveis em água e podem ser transportadas com o vapor. Gabarito: C."
+    },
+    {
+      "id": "2016_73",
+      "resolucao": "Os sistemas agroflorestais combinam árvores e cultivos agrícolas. A presença de árvores e restos vegetais aumenta a matéria orgânica, oferece abrigo a diferentes organismos e favorece a diversidade biológica do solo, contribuindo para recuperar a estabilidade do ecossistema sem interromper a produção. Gabarito: C."
+    },
+    {
+      "id": "2016_74",
+      "resolucao": "As três lâmpadas estão em paralelo e são idênticas, portanto cada uma conduz uma corrente i. O fio de retorno após a reunião dos três ramos conduz 3i, assim como o trecho de entrada antes da divisão: IA=IE. Os ramos individuais de duas lâmpadas conduzem i cada, logo IC=ID. O trecho B conduz a soma de duas correntes, 2i, e não é igual aos demais. Gabarito: A. Fonte de conferência: https://nogabarito.com.br/questao/enem-2016-questao-74-tres-lampadas-identicas-foram-ligadas-no-circuito-esquematizado-a."
+    },
+    {
+      "id": "2016_75",
+      "resolucao": "A seiva bruta sobe pelo xilema mesmo quando o formato da copa muda porque o transporte é impulsionado principalmente pela transpiração nas folhas. A evaporação de água cria uma tensão que puxa a coluna contínua de água pelos vasos, mecanismo de coesão-tensão. Gabarito: E."
+    },
+    {
+      "id": "2016_76",
+      "resolucao": "O íon metóxido (CH₃O⁻) atua como nucleófilo e substitui o brometo no brometo de metila. O produto é CH₃–O–CH₃, que apresenta um átomo de oxigênio ligado a dois grupos orgânicos: trata-se de um éter. Gabarito: A."
+    },
+    {
+      "id": "2016_77",
+      "resolucao": "Antes da colisão, o carrinho 1 percorre de 15 a 30 cm em 1 s, logo v₁=15 cm/s. Após a colisão, os dois juntos percorrem de 75 a 90 cm em 3 s, então v=5 cm/s. Pela conservação da quantidade de movimento: 150×15=(150+m₂)×5. Assim, 450=150+m₂ e m₂=300 g. Gabarito: C. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2016/questao-77-trilho-ar-colisao-inelastica-massa-carrinho."
+    },
+    {
+      "id": "2016_78",
+      "resolucao": "A combustão da borracha vulcanizada libera óxidos ácidos, como SO₂, que devem ser neutralizados por uma substância básica. Entre as opções, o íon hidrogenofosfato (HPO₄²⁻) apresenta caráter básico e constante de equilíbrio maior que as outras bases listadas, favorecendo a captura dos gases ácidos. Gabarito: D. Fonte de conferência: https://esmer.com.br/questoes/enem/2016/fisico-quimica-78-1366."
+    },
+    {
+      "id": "2016_79",
+      "resolucao": "As vacinas estimulam o sistema imunológico a produzir anticorpos específicos e desenvolver memória imunológica. Na figura, o mecanismo 4 dos probióticos estimula a produção de imunoglobulinas, ativando a resposta imune do hospedeiro; por isso, é o mecanismo com efeito semelhante ao da vacinação. Gabarito: B. Fonte de conferência: https://www.simuladle.com/questoes/enem-2016-dia-1/79."
+    },
+    {
+      "id": "2016_80",
+      "resolucao": "Mitigação atua sobre as causas das mudanças climáticas, reduzindo emissões de gases de efeito estufa. Adaptação prepara a população e a infraestrutura para lidar com os efeitos já esperados. A construção de diques em regiões costeiras protege contra elevação do nível do mar e inundações, sendo uma medida de adaptação. Gabarito: E."
     }
   ]
 }
