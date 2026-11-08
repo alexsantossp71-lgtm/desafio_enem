@@ -386,7 +386,7 @@
     },
     {
       "id": "2021_102",
-      "resolucao": "A montagem contém duas pilhas de Daniell ligadas em série: o zinco da primeira está conectado ao cobre da segunda, de modo que as tensões se somam. O cronômetro e o voltímetro estão ligados aos mesmos dois terminais do conjunto, portanto ficam em paralelo com a bateria. O circuito equivalente é o da alternativa B. Fonte: https://mthedu.com.br/questoes/enem-2021-102/ ."
+      "resolucao": "A montagem contém duas pilhas de Daniell ligadas em série: o zinco da primeira está conectado ao cobre da segunda, de modo que as tensões se somam. O cronômetro e o voltímetro estão ligados aos mesmos dois terminais do conjunto, portanto ficam em paralelo com a bateria. O circuito equivalente é o da alternativa B. Fonte: https://mthedu.com.br/questoes/enem-2021-102/ . Gabarito: B."
     },
     {
       "id": "2021_103",
@@ -398,7 +398,7 @@
     },
     {
       "id": "2021_105",
-      "resolucao": "A força magnética sobre uma carga em movimento é dada por F⃗ = q(v⃗ × B⃗). Como as esferas têm cargas de sinais opostos e a mesma velocidade, as forças magnéticas têm sentidos opostos. Aplicando a regra da mão direita à carga positiva, a força aponta para baixo no desenho; na carga negativa, aponta para cima. O diagrama correspondente é o da alternativa A. Fonte: https://mthedu.com.br/questoes/enem-2021-105/ ."
+      "resolucao": "A força magnética sobre uma carga em movimento é dada por F⃗ = q(v⃗ × B⃗). Como as esferas têm cargas de sinais opostos e a mesma velocidade, as forças magnéticas têm sentidos opostos. Aplicando a regra da mão direita à carga positiva, a força aponta para baixo no desenho; na carga negativa, aponta para cima. O diagrama correspondente é o da alternativa A. Fonte: https://mthedu.com.br/questoes/enem-2021-105/ . Gabarito: A."
     },
     {
       "id": "2021_106",
@@ -482,7 +482,7 @@
     },
     {
       "id": "2021_126",
-      "resolucao": "O interruptor de três pontos alterna a ligação entre seus contatos A–B e B–C. Para acender uma lâmpada por vez, o circuito deve encaminhar a corrente para uma única lâmpada em cada posição dos dois interruptores, sem alimentar as demais. A configuração que realiza essa comutação é a alternativa D. Fonte: https://www.fisica.net/questoes/index.php?anos%5B0%5D=2021&id=203 ."
+      "resolucao": "O interruptor de três pontos alterna a ligação entre seus contatos A–B e B–C. Para acender uma lâmpada por vez, o circuito deve encaminhar a corrente para uma única lâmpada em cada posição dos dois interruptores, sem alimentar as demais. A configuração que realiza essa comutação é a alternativa D. Fonte: https://www.fisica.net/questoes/index.php?anos%5B0%5D=2021&id=203 . Gabarito: D."
     },
     {
       "id": "2021_127",
@@ -526,7 +526,7 @@
     },
     {
       "id": "2021_137",
-      "resolucao": "Como a diagonal do cubo é perpendicular ao solo, os dois vértices extremos dessa diagonal e o centro do cubo projetam-se no centro da figura. Os outros seis vértices projetam-se nos vértices de um hexágono regular. As arestas e diagonais do cubo, projetadas no plano do solo, formam os seis lados do hexágono e os seis segmentos que ligam seu centro aos vértices. Essa representação corresponde à alternativa E. Fonte: https://mthedu.com.br/questoes/enem-2021-137/ ."
+      "resolucao": "Como a diagonal do cubo é perpendicular ao solo, os dois vértices extremos dessa diagonal e o centro do cubo projetam-se no centro da figura. Os outros seis vértices projetam-se nos vértices de um hexágono regular. As arestas e diagonais do cubo, projetadas no plano do solo, formam os seis lados do hexágono e os seis segmentos que ligam seu centro aos vértices. Essa representação corresponde à alternativa E. Fonte: https://mthedu.com.br/questoes/enem-2021-137/ . Gabarito: E."
     },
     {
       "id": "2021_138",
@@ -554,7 +554,7 @@
     },
     {
       "id": "2021_144",
-      "resolucao": "A resolução publicada pelo professor Rafael Teixeira identifica as frequências do gráfico: 6 alunos com 9 anos, 12 alunos com 18 anos e 9 alunos com 27 anos. Como as frequências são diferentes, calcula-se a média ponderada. Primeiro, soma-se o total de alunos: 6 + 12 + 9 = 27. Depois, multiplica-se cada idade por sua frequência: 9 × 6 + 18 × 12 + 27 × 9 = 54 + 216 + 243 = 513. Por fim, divide-se a soma ponderada pelo total: 513 ÷ 27 = 19. Portanto, a média é 19 anos, alternativa D. Fonte da resolução consultada: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2021/questao-144/ . O enunciado e os dados foram conferidos com a questão oficial do INEP."
+      "resolucao": "A resolução publicada pelo professor Rafael Teixeira identifica as frequências do gráfico: 6 alunos com 9 anos, 12 alunos com 18 anos e 9 alunos com 27 anos. Como as frequências são diferentes, calcula-se a média ponderada. Primeiro, soma-se o total de alunos: 6 + 12 + 9 = 27. Depois, multiplica-se cada idade por sua frequência: 9 × 6 + 18 × 12 + 27 × 9 = 54 + 216 + 243 = 513. Por fim, divide-se a soma ponderada pelo total: 513 ÷ 27 = 19. Portanto, a média é 19 anos, alternativa D. Fonte da resolução consultada: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2021/questao-144/ . O enunciado e os dados foram conferidos com a questão oficial do INEP. Gabarito: D."
     },
     {
       "id": "2021_145",
@@ -578,7 +578,7 @@
     },
     {
       "id": "2021_150",
-      "resolucao": "A resolução do professor Rafael Teixeira utiliza os valores do gráfico: em 2005, 236 milhões; em 2009, 519,2 milhões. Primeiro calcula-se o aumento absoluto: 519,2 − 236 = 283,2. Em seguida, divide-se esse aumento pelo valor inicial: 283,2 ÷ 236 = 1,2. Convertendo para porcentagem, 1,2 = 120%. Portanto, o aumento percentual foi de 120%, alternativa C. Fonte: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2021/questao-150/ ."
+      "resolucao": "A resolução do professor Rafael Teixeira utiliza os valores do gráfico: em 2005, 236 milhões; em 2009, 519,2 milhões. Primeiro calcula-se o aumento absoluto: 519,2 − 236 = 283,2. Em seguida, divide-se esse aumento pelo valor inicial: 283,2 ÷ 236 = 1,2. Convertendo para porcentagem, 1,2 = 120%. Portanto, o aumento percentual foi de 120%, alternativa C. Fonte: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2021/questao-150/ . Gabarito: C."
     },
     {
       "id": "2021_151",
