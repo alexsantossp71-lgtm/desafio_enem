@@ -639,6 +639,66 @@
     {
       "id": "2017_165",
       "resolucao": "No Gráfico 1, o eixo começa em zero: a razão entre as alturas é 30/70=3/7. No Gráfico 2, o eixo começa em 20, então as alturas desenhadas passam a ser 30−20=10 e 70−20=50; a razão é 10/50=1/5. A diferença é 3/7−1/5=(15−7)/35=8/35. Gabarito: E. Fonte de conferência: https://esmer.com.br/questoes/enem/2017/estatistica-e-probabilidade-165-1643."
+    },
+    {
+      "id": "2017_166",
+      "resolucao": "A pressão média da função é a média entre os extremos: A=(120+78)/2=99. A amplitude é metade da diferença: B=(120−78)/2=21. Como há 90 batimentos por minuto, o período entre máximos é T=60/90=2/3 s. Para o cosseno, T=2π/k, então k=3π. Logo, P(t)=99+21cos(3πt). Gabarito: A. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2017/questao-166-pressao-arterial-funcao-cosseno-periodo."
+    },
+    {
+      "id": "2017_167",
+      "resolucao": "O melão tem raio R=5 cm. Para que a base de apoio tenha raio mínimo de 3 cm, usa-se a seção circular de corte com r=3 cm, que é o menor valor permitido e deixa a maior área esférica disponível para os doces. Pela relação entre o raio da esfera, o raio do corte e a altura h da calota retirada: r²=2Rh−h². Assim, 9=10h−h², ou h²−10h+9=0. As soluções são h=1 ou h=9; como a calota inferior tem altura menor que o raio da esfera, h=1 cm. Gabarito: C."
+    },
+    {
+      "id": "2017_168",
+      "resolucao": "A abóbada é uma parábola. Tomando a linha de base como y=0, sua largura é 5 m; na altura de 3 m, a largura indicada é 4 m. Para uma parábola com vértice na altura H, a largura ao quadrado é proporcional a H−y. Assim, (4/5)²=(H−3)/H. Logo, 16/25=1−3/H, então 3/H=9/25 e H=75/9=25/3 m. Gabarito: D."
+    },
+    {
+      "id": "2017_169",
+      "resolucao": "A taxa percentual de aumento é calculada por (sábado−sexta)/sexta. Site X: (21−12)/12=75%; Y: (51−30)/30=70%; Z: (11−10)/10=10%; W: (57−38)/38=50%; U: (56−40)/40=40%. A maior taxa é a do site X. Gabarito: A."
+    },
+    {
+      "id": "2017_170",
+      "resolucao": "A temperatura máxima é indicada pelo nível inferior do filete preto na coluna da direita, cuja escala cresce de baixo para cima. Fazendo a leitura aproximada da posição desse filete na escala do termômetro, obtém-se cerca de 19 °C. Gabarito: E."
+    },
+    {
+      "id": "2017_171",
+      "resolucao": "As torres percorrem circunferências de raios diferentes: T1 está a 50 m da base, T2 a 100 m e T3 a 150 m. Como todas completam uma volta em 25 h, a velocidade linear é v=2πr/25. Usando π≈3: T1=6×50/25=12 m/h; T2=6×100/25=24 m/h; T3=6×150/25=36 m/h. Gabarito: A."
+    },
+    {
+      "id": "2017_172",
+      "resolucao": "É preciso comparar os volumes indicados nos dois eixos verticais do gráfico, pois cada reservatório tem uma escala própria. A igualdade ocorre quando as curvas representam o mesmo volume num instante comum; lendo os valores e convertendo as escalas, isso acontece em 1 hora. Gabarito: A."
+    },
+    {
+      "id": "2017_173",
+      "resolucao": "O tanque começa com 100 kg. O carro consumiu 4/10, ou 40 kg, restando 60 kg. O reabastecimento corresponde a um terço do que restou: 60/3=20 kg. A densidade é 750 g/L=0,75 kg/L. Portanto, o volume necessário é V=m/d=20/0,75≈26,67 L, expressão indicada na alternativa B. Gabarito: B."
+    },
+    {
+      "id": "2017_174",
+      "resolucao": "Para encontrar a mediana, ordenam-se os 14 valores: 6,8; 7,5; 7,6; 7,6; 7,7; 7,9; 7,9; 8,1; 8,2; 8,5; 8,5; 8,6; 8,9; 9,0. Como há quantidade par de dados, a mediana é a média entre o 7º e o 8º valores: (7,9+8,1)/2=8,0%. Gabarito: B."
+    },
+    {
+      "id": "2017_175",
+      "resolucao": "Cada semáforo apresenta verde com probabilidade 2/3 e vermelho com probabilidade 1/3, independentemente dos demais. Para observar exatamente um verde entre dez, escolhe-se qual dos dez será verde (10 possibilidades); esse sinal tem probabilidade 2/3 e os outros nove devem ser vermelhos, com probabilidade (1/3)^9. O produto é 10·(2/3)·(1/3)^9=10·2/3^10. Gabarito: A."
+    },
+    {
+      "id": "2017_176",
+      "resolucao": "Na primeira fase, os painéis elétricos somam 100+100=200 m², economizando 200 kWh/dia; os térmicos somam 200 m², economizando 200×0,7=140 kWh/dia. Total: 340 kWh/dia. Na segunda fase, a área elétrica aumenta 75%: 200×1,75=350 m², gerando economia de 350 kWh/dia. Para dobrar a economia total, é preciso chegar a 680 kWh/dia; faltam 680−350=330 kWh/dia. Como cada m² térmico economiza 0,7 kWh/dia, a área necessária é 330/0,7≈471,4 m², aproximadamente 472 m². Gabarito: C."
+    },
+    {
+      "id": "2017_177",
+      "resolucao": "Calcula-se o número de senhas de cada formato pelo princípio multiplicativo, considerando 26 possibilidades para cada letra e 10 para cada dígito. A opção V (LLLDD) permite 26³×10²=1 757 600 senhas, número maior que 1 milhão e não superior a 2 milhões. As demais opções ficam abaixo de 1 milhão ou ultrapassam 2 milhões. Gabarito: E."
+    },
+    {
+      "id": "2017_178",
+      "resolucao": "Cada partida reúne um par diferente de jogadores. Portanto, o número de partidas é o número de combinações de 8 jogadores tomados 2 a 2: C(8,2)=8×7/2=28. Gabarito: E."
+    },
+    {
+      "id": "2017_179",
+      "resolucao": "Atrasar-se pode ocorrer em dois cenários: com chuva ou sem chuva. Pela probabilidade total, P(atraso)=P(atraso|chuva)·P(chuva)+P(atraso|sem chuva)·P(sem chuva). Substituindo: 0,50×0,30+0,25×0,70=0,15+0,175=0,325. Gabarito: C."
+    },
+    {
+      "id": "2017_180",
+      "resolucao": "Entre 17h15 e 18h, a chuva enche a piscina de 0 a 20 cm em 45 min, então a taxa de entrada é 20/45=4/9 cm/min. Das 18h às 18h40, com entrada e saída simultâneas, o nível cai de 20 para 15 cm: a taxa resultante é −5/40=−1/8 cm/min. Logo, a vazão do ralo é 4/9+1/8=41/72 cm/min. Depois que a chuva para, restam 15 cm; o tempo para esvaziar é 15÷(41/72)=1080/41≈26,3 min. A piscina esvazia por volta de 19h06, entre 19h e 19h10. Gabarito: D."
     }
   ]
 }
