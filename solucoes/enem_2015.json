@@ -199,6 +199,66 @@
     {
       "id": "2015_50",
       "resolucao": "A faixa UV-B corresponde aproximadamente aos comprimentos de onda entre 280 e 320 nm. Deve-se escolher o filtro cuja curva apresenta maior absorção nessa região do espectro. No gráfico, o filtro IV tem a absorção mais intensa na faixa UV-B. Gabarito: B."
+    },
+    {
+      "id": "2015_51",
+      "resolucao": "O líquido da castanha-de-caju agrega-se ao petróleo por afinidade química, formando flocos ou agregados maiores: isso é floculação. Como esses agregados são misturados a nanopartículas magnéticas, podem ser retirados da água com um campo magnético, caracterizando separação magnética. Gabarito: C."
+    },
+    {
+      "id": "2015_52",
+      "resolucao": "O hidróxido de sódio é higroscópico e também deliquescente: absorve vapor de água do ar até formar uma solução aquosa na superfície. Por isso o sólido parece derreter, embora não tenha ocorrido fusão provocada pelo aquecimento. Gabarito: A."
+    },
+    {
+      "id": "2015_53",
+      "resolucao": "Na reflexão na interface ar/óleo, um dos raios sofre inversão de fase, equivalente a uma defasagem de λ/2. O outro percorre um caminho adicional de ida e volta dentro da película, igual a 2E. Para a interferência construtiva mínima, 2E=λ/2, então E=λ/4. Gabarito: A. Fonte de conferência: https://www.simuladle.com/questoes/enem-2015-dia-1/53."
+    },
+    {
+      "id": "2015_54",
+      "resolucao": "O microquimerismo mostra que células fetais podem atravessar a placenta e permanecer no organismo materno. Assim, nem todas as células de uma pessoa descendem exclusivamente do zigoto que originou seu corpo; há células geneticamente distintas provenientes de outro organismo. Gabarito: E."
+    },
+    {
+      "id": "2015_55",
+      "resolucao": "A concentração desejada exige 0,009×5 000=45 mol de íons nitrato. Cada mol de Ca(NO₃)₂ fornece dois mols de NO₃⁻, portanto são necessários 22,5 mol do sal. Sua massa molar é 40+2(14+3×16)=164 g/mol; a massa necessária é 22,5×164=3 690 g. Com solução de 90 g/L, o volume é 3 690/90=41 L. Gabarito: B. Fonte de conferência: https://fisicaflavio.com.br/enem/2015/questao-55-hidroponia-nitrato-calcio-volume-solucao."
+    },
+    {
+      "id": "2015_56",
+      "resolucao": "Mesmo que cães de raças diferentes tenham dificuldades físicas para copular, eles pertencem à mesma espécie e podem cruzar por intermédio de indivíduos de outras raças. A manutenção do fluxo gênico entre as populações impede o isolamento reprodutivo completo e, portanto, a formação de novas espécies. Gabarito: E."
+    },
+    {
+      "id": "2015_57",
+      "resolucao": "Para liquefazer o nitrogênio, o sistema utiliza energia elétrica para comprimir e resfriar o gás, realizando trabalho sobre ele e aumentando sua energia potencial de armazenamento. Na etapa inversa, a vaporização e a expansão permitem recuperar parte dessa energia e movimentar turbinas. Gabarito: C."
+    },
+    {
+      "id": "2015_58",
+      "resolucao": "A lata é feita de aço revestido por estanho, que protege o ferro contra a corrosão. Um amassado pode romper essa camada protetora e expor o aço ao alimento e à umidade, permitindo a oxidação do ferro e a alteração do conteúdo. Gabarito: B."
+    },
+    {
+      "id": "2015_59",
+      "resolucao": "A estrutura do feromônio de trilha apresenta grupo hidroxila (−OH), que caracteriza a função álcool. O feromônio de alarme contém o grupo −COO− entre cadeias carbônicas, característico de éster. Gabarito: A."
+    },
+    {
+      "id": "2015_60",
+      "resolucao": "A oxidação enérgica do alceno com KMnO₄ em meio aquoso rompe a ligação dupla e transforma cada carbono da dupla em grupo carboxila quando há hidrogênio ligado a ele. A estrutura aromática origina ácido benzoico, enquanto a outra extremidade forma ácido etanoico. Gabarito: A."
+    },
+    {
+      "id": "2015_61",
+      "resolucao": "Os animais não conseguem fixar diretamente o nitrogênio atmosférico (N₂). Eles obtêm o nitrogênio necessário à produção de proteínas e ácidos nucleicos ao consumir plantas ou outros animais, incorporando a matéria orgânica ao longo das cadeias tróficas. Gabarito: D."
+    },
+    {
+      "id": "2015_62",
+      "resolucao": "A combustão do fósforo do palito produz óxidos que, ao se dissolverem na água, formam soluções de caráter ácido. A diminuição do pH faz a fenolftaleína perder a cor rosa e ficar incolor. Gabarito: A."
+    },
+    {
+      "id": "2015_63",
+      "resolucao": "Depois que a porta é fechada, o ar interno esfria. Como a pressão do gás diminui com a temperatura, a pressão dentro da geladeira fica momentaneamente menor que a pressão atmosférica externa. A diferença de pressão mantém a porta pressionada contra a vedação e exige mais força para abri-la. Gabarito: D."
+    },
+    {
+      "id": "2015_64",
+      "resolucao": "O trabalho realizado sobre o corredor corresponde à variação de sua energia cinética. Partindo do repouso e atingindo 12 m/s, ΔEc=(1/2)mv²=(1/2)×90×12²=6 480 J, aproximadamente 6,5×10³ J. Gabarito: B."
+    },
+    {
+      "id": "2015_65",
+      "resolucao": "A temperatura inicial de equilíbrio da mistura é a média ponderada: (1/3)×10+(2/3)×40=30 °C. Após seis horas, a água está a 16 °C, uma variação de 30−16=14 °C. Percentualmente, 14/30×100≈46,7%, que fica entre 40% e 55%, faixa do selo D. Gabarito: D. Fonte de conferência: https://fisicaflavio.com.br/enem/2015/questao-65-garrafa-termica-selo-variacao-temperatura."
     }
   ]
 }
