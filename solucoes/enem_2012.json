@@ -563,6 +563,66 @@
     {
       "id": "2012_145",
       "resolucao": "A altura real de cada árvore é obtida pela semelhança entre os triângulos formados pela árvore e sua sombra, usando a mesma altura de referência e a mesma incidência solar. Comparando as razões altura/sombra, a árvore IV apresenta a maior altura real. Gabarito: D."
+    },
+    {
+      "id": "2012_146",
+      "resolucao": "A probabilidade de cada cor depende da quantidade de bolas dessa cor na urna 2 após a transferência aleatória de uma bola da urna 1. Calculando a probabilidade total — somando os casos em que a bola transferida e a bola sorteada têm a cor escolhida — a cor vermelha apresenta o maior valor. Gabarito: E."
+    },
+    {
+      "id": "2012_147",
+      "resolucao": "O hidrômetro possui mostradores para milhares, centenas, dezenas e unidades de metros cúbicos, além das casas decimais em litros. Lendo os ponteiros e combinando as ordens, o consumo registrado é 3 534 859,35 litros. Gabarito: D."
+    },
+    {
+      "id": "2012_148",
+      "resolucao": "Para encontrar os extremos absolutos, compara-se a altura de cada coluna do gráfico, sem considerar apenas a variação percentual. A maior venda ocorreu em junho e a menor em agosto. Gabarito: E."
+    },
+    {
+      "id": "2012_149",
+      "resolucao": "A primeira planificação é formada por um retângulo e dois círculos, portanto origina um cilindro. A segunda possui cinco retângulos e dois pentágonos, formando um prisma de base pentagonal. A terceira é composta por uma base poligonal e faces triangulares, formando uma pirâmide. Gabarito: A."
+    },
+    {
+      "id": "2012_150",
+      "resolucao": "As sete colunas utilizam 1+2+3+4+5+6+7=28 cartas. Como o baralho possui 52 cartas, o monte fica com 52−28=24 cartas. Gabarito: B."
+    },
+    {
+      "id": "2012_151",
+      "resolucao": "O maior aquecimento global corresponde ao maior valor da anomalia de temperatura no gráfico, e não necessariamente ao ano mais recente. O pico da série ocorre em 2007. Gabarito: E."
+    },
+    {
+      "id": "2012_152",
+      "resolucao": "A base quadrada tem diagonal L√2. Para que fique totalmente apoiada sobre a plataforma circular, o diâmetro do círculo deve ser pelo menos igual à diagonal do quadrado. Logo, 2R≥L√2 e R≥(L√2)/2. Gabarito: A."
+    },
+    {
+      "id": "2012_153",
+      "resolucao": "O trajeto do motoqueiro é uma circunferência contida em um plano vertical que passa pelo ponto A e pelo ponto B, alinhados verticalmente. Ao projetar ortogonalmente todos os pontos dessa circunferência no plano horizontal do chão, a coordenada vertical desaparece e resta um segmento de reta. Gabarito: E."
+    },
+    {
+      "id": "2012_154",
+      "resolucao": "As alturas das tomadas e dos interruptores devem atender às faixas de acessibilidade indicadas no desenho, considerando o alcance manual de uma pessoa em cadeira de rodas. A combinação que atende simultaneamente aos limites é 0,45 m para a tomada e 1,20 m para o interruptor. Gabarito: E."
+    },
+    {
+      "id": "2012_155",
+      "resolucao": "Somando as horas de atividades escolares de segunda a domingo no gráfico, obtém-se 27 horas semanais. Gabarito: E."
+    },
+    {
+      "id": "2012_156",
+      "resolucao": "O salário possui uma parte fixa de R$750 e uma comissão que passa a crescer conforme o número de produtos vendidos. O gráfico deve começar em R$750, manter o trecho inicial sem comissão e depois subir conforme a quantidade de vendas, chegando ao valor indicado para 200 produtos. Essa configuração é a alternativa E. Gabarito: E."
+    },
+    {
+      "id": "2012_157",
+      "resolucao": "O maquinista realiza uma viagem a cada quatro dias, totalizando aproximadamente 365/4=91 viagens no ano. Durante as férias de 1º a 10 de junho, três viagens previstas são canceladas. Portanto, ele realiza 91−3=88 viagens. Gabarito: C."
+    },
+    {
+      "id": "2012_158",
+      "resolucao": "O objeto desloca um volume de água igual ao seu próprio volume, 2 400 cm³. A base do tanque tem área de 1 200 cm²; assim, a elevação do nível é Δh=V/A=2 400/1 200=2 cm. A água passa de 20 cm para 22 cm. Gabarito: C."
+    },
+    {
+      "id": "2012_159",
+      "resolucao": "Somam-se as contribuições de cada unidade para atender às necessidades mínimas de nutrientes e às quantidades máximas permitidas. A combinação de duas unidades do tipo A e duas do tipo B é a única que satisfaz simultaneamente todas as restrições do quadro. Gabarito: C."
+    },
+    {
+      "id": "2012_160",
+      "resolucao": "O quadrado tem área total de 1 m². As regiões claras ABPDA e BCDQB ocupam, juntas, metade da área; logo, a região sombreada também ocupa 0,5 m². O custo é 0,5×30+0,5×50=R$40,00. Gabarito: B."
     }
   ]
 }
