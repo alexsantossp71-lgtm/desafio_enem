@@ -199,6 +199,66 @@
     {
       "id": "2014_50",
       "resolucao": "A lâmpada fluorescente emite excesso de luz verde. Para reduzir essa componente, deve-se usar um filtro que a absorva. A cor magenta é complementar ao verde e é composta por vermelho e azul; portanto, o filtro magenta absorve a luz verde e permite a passagem das outras duas componentes. Gabarito: D."
+    },
+    {
+      "id": "2014_51",
+      "resolucao": "O clorofórmio e outras moléculas orgânicas cloradas são compostos que podem ser adsorvidos na superfície porosa do carvão ativado. A filtração com esse material retém as moléculas orgânicas e reduz sua concentração na água tratada. Gabarito: A."
+    },
+    {
+      "id": "2014_52",
+      "resolucao": "Os enantiômeros possuem a mesma fórmula e os mesmos grupos funcionais, mas apresentam arranjos espaciais que são imagens especulares não sobreponíveis. Como enzimas e receptores biológicos também são estruturas tridimensionais, cada enantiômero pode interagir de maneira diferente com o organismo; no caso da talidomida, um deles provoca malformações. Gabarito: D."
+    },
+    {
+      "id": "2014_53",
+      "resolucao": "A evolução biológica não representa uma escala de progresso rumo a organismos mais complexos ou perfeitos. Ela consiste em mudanças nas características hereditárias das populações ao longo das gerações, influenciadas por mutações, seleção natural, deriva genética e outros processos. Gabarito: A."
+    },
+    {
+      "id": "2014_54",
+      "resolucao": "A resistência à oxidação aumenta quando o óleo possui maior proporção de ácidos graxos saturados, que não apresentam ligações duplas suscetíveis à oxidação. Entre as fontes apresentadas, o óleo de palma tem maior teor relativo de gorduras saturadas e, por isso, maior estabilidade oxidativa. Gabarito: B."
+    },
+    {
+      "id": "2014_55",
+      "resolucao": "Pelo gráfico, a pressão de 6 mca corresponde à vazão máxima de 12 L/min. São quatro pessoas, cada uma com um banho de 8 minutos por dia, durante 30 dias: 4×8×30=960 minutos de uso. O volume é 960×12=11 520 litros. Gabarito: C."
+    },
+    {
+      "id": "2014_56",
+      "resolucao": "A concentração de enxofre caiu de 13 000 ppm para 50 ppm. A redução percentual é [(13 000−50)/13 000]×100=(12 950/13 000)×100≈99,615%, aproximadamente 99,6%. Gabarito: D."
+    },
+    {
+      "id": "2014_57",
+      "resolucao": "Na posição A, a chave coloca a lâmpada em uma configuração com menor resistência equivalente do circuito. Pela relação P=V²/R, mantendo-se a tensão da fonte, uma resistência equivalente menor permite maior corrente e maior potência dissipada na lâmpada 1, que brilha mais. Gabarito: C."
+    },
+    {
+      "id": "2014_58",
+      "resolucao": "O sabão precisa ter uma parte apolar, que interage com óleos e gorduras, e uma parte polar ou iônica, que interage com a água. O composto C₁₇H₃₃COONa possui uma longa cadeia carbônica hidrofóbica e uma cabeça carboxilato iônica hidrofílica, formando micelas estáveis. Gabarito: B."
+    },
+    {
+      "id": "2014_59",
+      "resolucao": "Para recuperar o metal dissolvido, é necessário utilizar um agente redutor que se oxide mais facilmente do que o metal presente na solução. O estanho metálico (Sn) doa elétrons, reduz os íons metálicos a metal sólido e pode ser separado do material recuperado. Gabarito: D."
+    },
+    {
+      "id": "2014_60",
+      "resolucao": "As bactérias e o fungo disputam o ferro disponível no meio. Ao consumir esse nutriente e reduzir sua concentração, as bactérias limitam o crescimento do fungo por competição interespecífica, pois ambos necessitam do mesmo recurso. Gabarito: C."
+    },
+    {
+      "id": "2014_61",
+      "resolucao": "Para reflorestar o Cerrado, deve-se escolher uma espécie com raízes profundas, capazes de alcançar o lençol freático, e adaptações à estação seca, à alta insolação e aos incêndios naturais. A espécie 2 reúne essas características e tem maior chance de sobreviver às condições locais. Gabarito: B."
+    },
+    {
+      "id": "2014_62",
+      "resolucao": "O gás M apresenta menor capacidade calorífica que o gás V. Assim, para a mesma quantidade de calor fornecida, sua temperatura aumenta mais rapidamente, explicando a diferença observada no experimento. Gabarito: E."
+    },
+    {
+      "id": "2014_63",
+      "resolucao": "A desnitrificação é a redução do nitrato (NO₃⁻), forma mais oxidada do nitrogênio, a gases como N₂, que retornam à atmosfera. No esquema do ciclo do nitrogênio, essa transformação corresponde à etapa V. Gabarito: E."
+    },
+    {
+      "id": "2014_64",
+      "resolucao": "Na colisão entre pêndulos de massas iguais, em uma colisão aproximadamente elástica, a quantidade de movimento e a energia cinética são conservadas. O pêndulo que vinha em movimento transfere sua velocidade ao que estava parado; assim, o primeiro praticamente para e o segundo passa a oscilar. O esquema que representa essa transferência é C. Gabarito: C."
+    },
+    {
+      "id": "2014_65",
+      "resolucao": "O grupo bioativo do fármaco é o anel ciclohexânico saturado de seis membros com um substituinte alquila. Essa parte da molécula é a estrutura responsável pela interação farmacológica indicada no enunciado. Gabarito: A."
     }
   ]
 }
