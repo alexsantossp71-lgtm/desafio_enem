@@ -599,6 +599,66 @@
     {
       "id": "2015_155",
       "resolucao": "Cada antena antiga cobria um círculo de raio 2 km; a área total anterior era 2×π×2²=8π km². O novo círculo, centrado no ponto de tangência O, tem raio 4 km, pois vai de O até a extremidade oposta de um dos círculos menores. Sua área é 16π km². O aumento é 16π−8π=8π km². Gabarito: A. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2015/questao-155-antenas-circulos-tangentes-area-ampliada."
+    },
+    {
+      "id": "2015_156",
+      "resolucao": "A amortização mensal é constante e igual a 180 000/360=R$500. Após nove pagamentos, o saldo devedor é 180 000−9×500=R$175 500. A décima prestação soma a amortização de R$500 aos juros de 1% sobre esse saldo: 500+0,01×175 500=500+1 755=R$2 255. Gabarito: D. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2015/questao-156/."
+    },
+    {
+      "id": "2015_157",
+      "resolucao": "Uma tonelada equivale a 10³ kg. Como 4,129 milhões de toneladas correspondem a 4,129×10⁶ toneladas, em quilogramas temos 4,129×10⁶×10³=4,129×10⁹ kg. Gabarito: C."
+    },
+    {
+      "id": "2015_158",
+      "resolucao": "A dose de 14 mg do medicamento Y corresponde a 14/42=1/3 da dose adulta. Como a dose de X também é proporcional à dose adulta, a criança deve receber 1/3 de 60 mg: 60/3=20 mg. Gabarito: B."
+    },
+    {
+      "id": "2015_159",
+      "resolucao": "A renda média geral é R$1 202. Os 10% mais pobres recebem 1,1% da renda total; sua renda média é (1,1/10)×1 202=R$132,22. Os 10% mais ricos recebem 44,5%; sua média é (44,5/10)×1 202=R$5 348,90. A diferença é 5 348,90−132,22=R$5 216,68. Gabarito: E."
+    },
+    {
+      "id": "2015_160",
+      "resolucao": "A caneta mede 16,8 cm na realidade e 1,4 cm na fotografia, então o fator de ampliação é 16,8/1,4=12. A pegada mede 2,2 cm de largura e 3,4 cm de comprimento na foto. No tamanho real: 2,2×12=26,4 cm e 3,4×12=40,8 cm. Gabarito: D. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2015/questao-160/."
+    },
+    {
+      "id": "2015_161",
+      "resolucao": "Considere uma célula quadrada da malha, de lado d. O espaço livre é um quadrado de lado d−1, então a fração sem cobertura é (d−1)²/d². Se 75% é coberto, 25% fica livre: (d−1)²/d²=0,25. Como d>1, (d−1)/d=0,5; assim, 2d−2=d e d=2 mm. Gabarito: A. Fonte de conferência: https://esmer.com.br/questoes/enem/2015/aritmetica-e-numeros-161-1269."
+    },
+    {
+      "id": "2015_162",
+      "resolucao": "O comprimento deve dividir 540, 810 e 1 080 cm. O MDC é 270 cm, mas ultrapassa o limite de 200 cm. O maior divisor comum menor que 200 é 135 cm. Cada tábua rende: 540/135=4 peças; 810/135=6; 1 080/135=8. Total: 40×4+30×6+10×8=160+180+80=420 peças. Gabarito: E. Fonte de conferência: https://assinale.com.br/enem/2015/questao-162."
+    },
+    {
+      "id": "2015_163",
+      "resolucao": "O refil contém 3 mL, e cada unidade corresponde a 0,01 mL; portanto, há 300 unidades. Cada aplicação prescrita utiliza 10 unidades, mas é preciso descartar mais 2 para retirar bolhas: 12 unidades por aplicação. O máximo é 300/12=25 aplicações. Gabarito: A."
+    },
+    {
+      "id": "2015_164",
+      "resolucao": "Há nove poltronas livres e sete pessoas diferentes. A primeira pessoa pode ocupar qualquer uma das 9; a segunda, 8; e assim sucessivamente até a sétima, com 3 opções. O total de arranjos é 9×8×7×6×5×4×3=9!/2!. Gabarito: A. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2015/questao-164-aviao-poltronas-livres-arranjo-familia."
+    },
+    {
+      "id": "2015_165",
+      "resolucao": "A nova piscina é formada por três setores de 60°, totalizando 180°, ou seja, meia circunferência. Sua área é (1/2)πR²=1,5R², usando π=3. A piscina existente tem área 50×24=1 200 m². Exige-se 1,5R²<1 200, então R²<800 e R<√800≈28,28. Como R é natural, o maior valor possível é 28 m. Gabarito: B. Fonte de conferência: https://www.simuladle.com/questoes/enem-2015-dia-2/165."
+    },
+    {
+      "id": "2015_166",
+      "resolucao": "A paciente deve beber um copo de 150 mL a cada meia hora durante 10 horas: são 20 copos, totalizando 20×150=3 000 mL=3 L. Como comprará duas garrafas iguais e consumirá todo o volume, cada uma deve conter 3/2=1,5 L. É a garrafa IV. Gabarito: D. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2015/questao-166/."
+    },
+    {
+      "id": "2015_167",
+      "resolucao": "Ao dobrar a folha, a linha FG é a dobra. Ao abrir, os cortes se refletem em torno dessa linha: o ponto O, que está na dobra, forma o bico central do recorte; M aparece nas duas laterais a um quarto da altura; e N forma as duas pontas inferiores. A bandeirinha resultante tem recorte central até a metade da altura e cortes laterais iniciados a um quarto da altura, como na alternativa E. Gabarito: E. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2015/questao-167/."
+    },
+    {
+      "id": "2015_168",
+      "resolucao": "A probabilidade de um aluno não compreender e falar inglês é 1−0,30=0,70. Para que ninguém responda, os três precisam falhar: 0,70³=0,343. A probabilidade de pelo menos um entender e responder é o complementar: 1−0,343=0,657=65,7%. Gabarito: D. Fonte de conferência: https://www.simuladle.com/questoes/enem-2015-dia-2/168."
+    },
+    {
+      "id": "2015_169",
+      "resolucao": "Do total de 282 kton de PET reciclado, 37,8% é destinado a fibras têxteis: 282×0,378=106,596 kton. Desse volume, 30% vai para tecidos e malhas: 106,596×0,30=31,9788 kton, aproximadamente 32,0 kton. Gabarito: C. Fonte de conferência: https://www.simuladle.com/questoes/enem-2015-dia-2/169."
+    },
+    {
+      "id": "2015_170",
+      "resolucao": "A média final considera cinco etapas: a média das quatro primeiras deve ser multiplicada por 4, somada à nota da quinta e dividida por 5. A=(4×90+60)/5=84; B=(4×85+85)/5=85; C=(4×80+95)/5=83; D=(4×60+90)/5=66; E=(4×60+100)/5=68. Em ordem decrescente: B, A, C, E, D. Não há empate, então o critério da quinta etapa não precisa ser usado. Gabarito: B. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2015/questao-170/."
     }
   ]
 }
