@@ -259,6 +259,66 @@
     {
       "id": "2011_65",
       "resolucao": "Alterações epigenéticas não modificam a sequência de bases do DNA; elas alteram a atividade dos genes por modificações químicas, como a metilação de bases nitrogenadas. A inativação de genes por essas modificações pode contribuir para o desenvolvimento de alguns cânceres. Gabarito: E."
+    },
+    {
+      "id": "2011_66",
+      "resolucao": "O texto descreve a segunda lei da Termodinâmica: em uma máquina térmica, nem todo o calor recebido pode ser convertido em trabalho. Parte da energia é necessariamente transferida para o ambiente como calor, limitando o rendimento do motor. Gabarito: C."
+    },
+    {
+      "id": "2011_67",
+      "resolucao": "A melhor discriminação ocorre na faixa em que as curvas de assinatura espectral dos alvos apresentam maior separação. No gráfico, essa diferença é mais evidente entre 0,8 e 0,9 µm, permitindo distinguir melhor os materiais observados. Gabarito: E."
+    },
+    {
+      "id": "2011_68",
+      "resolucao": "A inovação demonstra que um genoma sintetizado quimicamente pode controlar uma célula receptora. Isso abre a possibilidade de programar microrganismos para produzir medicamentos, vacinas, combustíveis e outras substâncias de interesse científico e industrial. Gabarito: D."
+    },
+    {
+      "id": "2011_69",
+      "resolucao": "A vacina apresenta antígenos do vírus ou partes deles ao sistema imunológico, estimulando a produção de anticorpos específicos e células de memória. Assim, em um contato posterior com o H1N1, o organismo responde com maior rapidez e eficiência. Gabarito: E."
+    },
+    {
+      "id": "2011_70",
+      "resolucao": "A lâmpada acende quando o circuito se fecha: os dois terminais da pilha precisam estar ligados aos terminais da lâmpada por materiais condutores, formando um caminho contínuo. Nos esquemas apresentados, isso ocorre nas montagens 1, 3 e 7. Gabarito: D."
+    },
+    {
+      "id": "2011_71",
+      "resolucao": "Os biocombustíveis podem reduzir a poluição e gerar empregos, mas a produção de segunda geração depende de tecnologias eficientes para degradar a celulose. Sem essa eficiência, o processo pode ter custo elevado e dificultar a oferta do combustível a preços competitivos. Gabarito: A."
+    },
+    {
+      "id": "2011_72",
+      "resolucao": "A função amida se forma pela reação entre o grupo amina da glicina ou da taurina e o grupo carboxila do ácido cólico, com eliminação de água. Gabarito: A."
+    },
+    {
+      "id": "2011_73",
+      "resolucao": "A pressão hidrostática é P=ρgh. Isolando a densidade: ρ=P/(gh). Substituindo a pressão indicada no gráfico, a profundidade e g=10 m/s², obtém-se ρ=1,2 g/cm³. Gabarito: B."
+    },
+    {
+      "id": "2011_74",
+      "resolucao": "A luz é fortemente atenuada pela água e pelos sedimentos, enquanto as ondas sonoras conseguem propagar-se e refletir em camadas profundas. Por isso, o sonar é mais adequado para mapear o Titanic sob quatro quilômetros de água: a atenuação da luz nos materiais é distinta da atenuação do som. Gabarito: D."
+    },
+    {
+      "id": "2011_75",
+      "resolucao": "Os refrigerantes aumentam a concentração de íons H⁺ na boca. Esses íons reagem com OH⁻ do equilíbrio de dissolução do esmalte dental, deslocando-o para a direita e favorecendo a liberação de íons cálcio e fosfato, o que provoca desmineralização. Gabarito: B."
+    },
+    {
+      "id": "2011_76",
+      "resolucao": "As lagartas da família Ithomiinae não se alimentam indiscriminadamente de todas as plantas. Atualmente apresentam especificidade por plantas da família Solanaceae, que se tornaram uma fonte abundante de alimento na Mata Atlântica e na Amazônia. Gabarito: E."
+    },
+    {
+      "id": "2011_77",
+      "resolucao": "A régua cai sob a ação de uma força peso aproximadamente constante, produzindo aceleração gravitacional constante. Como o movimento é acelerado, a distância percorrida cresce proporcionalmente ao quadrado do tempo de reação. Gabarito: D."
+    },
+    {
+      "id": "2011_78",
+      "resolucao": "A descarga econômica utiliza menor volume de água porque o tanque armazena e libera uma quantidade menor a cada acionamento. A economia depende diretamente do volume de água armazenado no tanque. Gabarito: B."
+    },
+    {
+      "id": "2011_79",
+      "resolucao": "O metano é produzido pela decomposição anaeróbia da matéria orgânica presente no lixo. Na ausência de oxigênio, bactérias metanogênicas transformam compostos orgânicos e liberam CH₄, que pode se acumular em aterros e lixões. Gabarito: B."
+    },
+    {
+      "id": "2011_80",
+      "resolucao": "As hidrelétricas não são totalmente limpas quanto às emissões de gases de efeito estufa. A decomposição de matéria orgânica submersa nos reservatórios pode liberar metano em quantidades comparáveis às emissões de CO₂ de termelétricas, tornando-as fontes poluidoras nesse aspecto. Gabarito: D."
     }
   ]
 }
