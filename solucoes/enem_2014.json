@@ -539,6 +539,66 @@
     {
       "id": "2014_140",
       "resolucao": "Somam-se as quantidades de água usadas nas atividades diárias do quadro e subtraem-se os valores correspondentes ao consumo proposto. A economia média diária por pessoa é de 100,4 litros, resultado da diferença entre o consumo habitual e o consumo reduzido indicado. Gabarito: C."
+    },
+    {
+      "id": "2014_141",
+      "resolucao": "Para cada candidato, ordenam-se as quatro notas e calcula-se a mediana pela média dos dois valores centrais. Comparando as medianas obtidas, o candidato N apresenta o maior valor e, portanto, atende ao critério do edital. Gabarito: D."
+    },
+    {
+      "id": "2014_142",
+      "resolucao": "A largura do fundo é 6−0,5×2=5 m. A seção transversal é um trapézio de bases 6 e 5 m e altura 2 m: A=(6+5)×2/2=11 m². O volume é 11×20=220 m³. Como cada tonelada ocupa 2 m³, cabem 220/2=110 toneladas. Gabarito: A."
+    },
+    {
+      "id": "2014_143",
+      "resolucao": "A água entra com vazão constante, mas a área da seção transversal da escultura muda com a altura. Onde a escultura é mais estreita, a altura sobe mais rapidamente; onde é mais larga, sobe mais lentamente. O gráfico D representa essa variação da inclinação conforme o formato do recipiente. Gabarito: D."
+    },
+    {
+      "id": "2014_144",
+      "resolucao": "A lateral de um tronco de cone, quando planificada, forma uma faixa curva limitada por dois arcos de circunferência e dois segmentos radiais. Portanto, o adesivo deve ter formato de setor anular. Gabarito: E."
+    },
+    {
+      "id": "2014_145",
+      "resolucao": "A trajetória é uma parábola que parte do solo em x=0 e retorna ao solo em x=35. A função deve ter raízes 0 e 35 e coeficiente de x² negativo: y=a·x(x−35). Usando o ponto indicado no gráfico, obtém-se a=−1/25, logo y=−(1/25)x²+(7/5)x. Gabarito: A."
+    },
+    {
+      "id": "2014_146",
+      "resolucao": "Se N=pˣqʸ, com p e q primos distintos, qualquer divisor é formado por pⁱqʲ, em que i pode assumir x+1 valores (0 até x) e j pode assumir y+1 valores (0 até y). O total de divisores é (x+1)(y+1). Excluindo o próprio N, restam (x+1)(y+1)−1. Gabarito: E."
+    },
+    {
+      "id": "2014_147",
+      "resolucao": "Um triângulo pode ser formado quando a soma dos comprimentos de dois lados é maior que o terceiro. Testando as combinações possíveis entre as três medidas disponíveis, apenas três conjuntos satisfazem simultaneamente as desigualdades triangulares. Gabarito: A."
+    },
+    {
+      "id": "2014_148",
+      "resolucao": "O assento do balanço permanece a uma distância fixa do ponto de suspensão, portanto sua trajetória é um arco de circunferência centrado na origem do plano, que foi colocada no topo do suporte. Como o assento fica abaixo do ponto de suspensão, a curva está na parte inferior da circunferência; a opção D representa esse arco. Gabarito: D."
+    },
+    {
+      "id": "2014_149",
+      "resolucao": "A capacidade conjunta das catracas é de 800 pessoas por hora. Para 1 000 pessoas, o tempo é 1 000/800=1,25 hora, ou 1 hora e 15 minutos. Gabarito: B."
+    },
+    {
+      "id": "2014_150",
+      "resolucao": "A bagagem deve respeitar simultaneamente os limites de comprimento, largura e altura estabelecidos pela Anac. Substituindo as medidas fixas da caixa nas desigualdades e isolando x, o maior valor que ainda mantém a caixa dentro do padrão é 49 cm. Gabarito: E."
+    },
+    {
+      "id": "2014_151",
+      "resolucao": "As dimensões da base aumentam 25%, então cada lado é multiplicado por 1,25 e a área da base por 1,25²=1,5625. Como o volume permanece constante, a nova altura deve ser dividida por 1,5625: hnova=0,64h. A redução é 1−0,64=0,36, ou 36%. Gabarito: D."
+    },
+    {
+      "id": "2014_152",
+      "resolucao": "A campanha prevê elevar a parcela de esgoto tratado, mantendo constante o volume total gerado. A nova proporção é a soma do volume já tratado com o volume adicional previsto, dividida pelo total de esgoto. Aplicando os valores do gráfico, o percentual tratado passa a 68%. Gabarito: B."
+    },
+    {
+      "id": "2014_153",
+      "resolucao": "O lucro é receita menos custos. Para que o lucro de 2014 iguale o de 2013, calcula-se a diferença entre o lucro desejado e o lucro atual, considerando os custos previstos para 2014. A receita precisa aumentar em R$130 000,00. Gabarito: B."
+    },
+    {
+      "id": "2014_154",
+      "resolucao": "O desempenho deve ser comparado pela proporção de acertos em relação ao total de tentativas, e não apenas pelo número absoluto de acertos. Calculando a taxa de sucesso de cada jogador a partir dos dados da tabela, o maior percentual é o do jogador IV. Gabarito: D."
+    },
+    {
+      "id": "2014_155",
+      "resolucao": "A nota final é a soma ponderada das provas anteriores com a prova final de Química. Para que o candidato II ultrapasse o melhor concorrente, substitui-se a nota desconhecida na expressão da média e resolve-se a desigualdade. O menor valor inteiro que garante a vitória é 18 pontos. Gabarito: A."
     }
   ]
 }
