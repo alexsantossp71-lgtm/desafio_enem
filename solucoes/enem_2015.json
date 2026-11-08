@@ -319,6 +319,50 @@
     {
       "id": "2015_80",
       "resolucao": "Os pesticidas organoclorados acumulam-se nos tecidos lipídicos dos peixes porque são pouco polares e apresentam afinidade com gorduras, que também são apolares. A baixa polaridade favorece sua passagem pelas membranas e sua bioacumulação nos tecidos. Gabarito: A."
+    },
+    {
+      "id": "2015_81",
+      "resolucao": "A mancha avermelhada corresponde à deposição de cobre metálico sobre o ferro. O ferro é oxidado de Fe⁰ a Fe³⁺, liberando elétrons, enquanto Cu²⁺ recebe esses elétrons e é reduzido a Cu⁰. Balanceando as semirreações: 2Fe→2Fe³⁺+6e⁻ e 3Cu²⁺+6e⁻→3Cu. A reação global é 3Cu²⁺+2Fe→3Cu+2Fe³⁺. Gabarito: E."
+    },
+    {
+      "id": "2015_82",
+      "resolucao": "A barra é homogênea, então seu peso atua no centro, a quatro partes do apoio. O saco de arroz de 5 kg está a três partes do apoio, conforme a figura. Pelo equilíbrio dos torques: 5g×3x=m·g×1x. Cancelando g e x, m=15 kg. Gabarito: E. Fonte de conferência: https://quantaaulas.com/enem/questoes/2015-q082/."
+    },
+    {
+      "id": "2015_83",
+      "resolucao": "Os anfíbios possuem pele fina, úmida e muito permeável, por meio da qual realizam parte importante das trocas gasosas e da absorção de água. Essa característica os torna dependentes de ambientes úmidos ou aquáticos, mesmo após a conquista do ambiente terrestre. Gabarito: D."
+    },
+    {
+      "id": "2015_84",
+      "resolucao": "A queima de 1 g do bio-óleo até formar água líquida libera 18,8 kJ, mas a água gasosa está 2,4 kJ/g acima da líquida. Para formar vapor, a variação é −18,8−(−2,4)=−16,4 kJ/g. Para 5 g: 5×(−16,4)=−82,0 kJ. Gabarito: C. Fonte de conferência: https://www.simuladle.com/questoes/enem-2015-dia-1/84."
+    },
+    {
+      "id": "2015_85",
+      "resolucao": "Na analogia, o tecido funciona como a superfície sensível que recebe a imagem formada pela luz. No olho humano, essa função é desempenhada pela retina, que contém os fotorreceptores responsáveis por converter a luz em impulsos nervosos. Gabarito: B."
+    },
+    {
+      "id": "2015_86",
+      "resolucao": "Mesmo quando flauta e piano emitem a mesma nota, as ondas sonoras apresentam combinações diferentes de harmônicos e amplitudes. Essa composição determina o timbre, característica que permite reconhecer o instrumento sem alterar a frequência fundamental da nota. Gabarito: D."
+    },
+    {
+      "id": "2015_87",
+      "resolucao": "As células de um organismo geralmente possuem o mesmo DNA e o mesmo conjunto de genes, mas não utilizam todos os genes ao mesmo tempo. Cada tipo celular expressa porções diferentes do genoma, produzindo proteínas específicas que determinam sua forma e função. Gabarito: D."
+    },
+    {
+      "id": "2015_88",
+      "resolucao": "Cada torre permite determinar que o celular está a uma distância específica dela, formando uma circunferência de posições possíveis. Com duas torres, restam geralmente duas interseções; uma terceira circunferência permite identificar a posição única do aparelho. Portanto, são necessárias três torres. Gabarito: C."
+    },
+    {
+      "id": "2015_89",
+      "resolucao": "A coroa-de-cristo libera uma substância moluscicida que mata caramujos do gênero Biomphalaria, hospedeiros intermediários do Schistosoma mansoni. Ao reduzir a população desses moluscos, diminui-se a transmissão da esquistossomose. Gabarito: E."
+    },
+    {
+      "id": "2015_90",
+      "resolucao": "A rota verde utiliza uma etapa única para sintetizar o ácido adípico, enquanto a rota convencional envolve mais etapas e separações. Reduzir o número de etapas diminui o consumo de reagentes e energia e também a geração de resíduos, tornando o processo ambientalmente mais adequado. Gabarito: A."
+    },
+    {
+      "id": "2015_95",
+      "resolucao": "O aviso da TSA informa ao passageiro que sua bagagem foi aberta e inspecionada por agentes de segurança. O objetivo é comunicar que a mala passou por uma revista, inclusive para explicar a possível reorganização dos objetos após a inspeção. Gabarito: C."
     }
   ]
 }
