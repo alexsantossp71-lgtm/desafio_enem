@@ -199,6 +199,66 @@
     {
       "id": "2011_50",
       "resolucao": "A urbanização acelerada sem planejamento provoca ocupação de áreas frágeis, déficit de infraestrutura e desigualdade no acesso a serviços. O crescimento das cidades precisa ser acompanhado por políticas de habitação, saneamento e mobilidade. Gabarito: D."
+    },
+    {
+      "id": "2011_51",
+      "resolucao": "A produção de farinha pode aproveitar resíduos orgânicos da mandioca e de outras atividades locais em biodigestores. A decomposição anaeróbia gera biogás, que pode substituir a lenha sem desmatar a Mata Atlântica nem elevar o custo da produção. Gabarito: D."
+    },
+    {
+      "id": "2011_52",
+      "resolucao": "A cloração é o procedimento adequado para desinfetar a água, pois o cloro elimina ou inativa muitos microrganismos patogênicos. A filtração e a decantação removem partículas, mas não garantem a desinfecção microbiológica. Gabarito: B."
+    },
+    {
+      "id": "2011_53",
+      "resolucao": "A vacina estimula o sistema imunológico a produzir células de memória específicas contra o HPV. Em um contato posterior com o vírus, essas células desencadeiam uma resposta secundária mais rápida e intensa, reduzindo o risco de infecção persistente e verrugas. Gabarito: E."
+    },
+    {
+      "id": "2011_54",
+      "resolucao": "A densidade de uma liga é calculada pela razão entre a massa total e o volume total. Como os volumes dos metais se somam, usa-se ρ=1/(wSn/7,3+wPb/11,3), em que w representa a fração em massa. Aplicando as composições do quadro, apenas as amostras II e IV ficam entre 8,74 e 8,82 g/mL. Gabarito: C."
+    },
+    {
+      "id": "2011_55",
+      "resolucao": "As substâncias tóxicas e alergênicas da torta de mamona são hidrofílicas, isto é, apresentam afinidade com a água e não se dissolvem na fase oleosa, que é predominantemente apolar. Gabarito: B."
+    },
+    {
+      "id": "2011_56",
+      "resolucao": "O captador da guitarra depende da interação entre o ímã e a corda para variar o fluxo magnético na bobina. O aço é ferromagnético e se magnetiza sob a ação do ímã; o náilon não apresenta magnetização significativa, por isso não induz corrente elétrica no captador. Gabarito: C."
+    },
+    {
+      "id": "2011_57",
+      "resolucao": "A microvespa deposita seus ovos dentro dos ovos das borboletas. As larvas da vespa alimentam-se do conteúdo e impedem o desenvolvimento da praga. Trata-se de controle biológico por introdução de um parasitoide no ambiente da espécie que se deseja combater. Gabarito: A."
+    },
+    {
+      "id": "2011_58",
+      "resolucao": "Os grupos hidroxila (−OH) dos agentes umectantes interagem com as moléculas de água por ligações de hidrogênio. Essas interações atraem e retêm água na superfície da pele, contribuindo para a hidratação. Gabarito: E."
+    },
+    {
+      "id": "2011_59",
+      "resolucao": "O óxido de cálcio forma uma suspensão fortemente básica em água. A alta concentração de solutos provoca saída de água das células dos microrganismos por osmose, desidratando-os e destruindo o microambiente do tronco. Gabarito: B."
+    },
+    {
+      "id": "2011_60",
+      "resolucao": "À mesma potência, P=RI² e I=√(P/R). O disjuntor do modelo B tem corrente nominal 40% menor, então IB/IA=0,6. Como R é inversamente proporcional a I², RA/RB=(IB/IA)²=0,36, aproximadamente 0,3. Gabarito: A."
+    },
+    {
+      "id": "2011_61",
+      "resolucao": "Meselson e Stahl demonstraram que a replicação do DNA é semiconservativa: cada molécula filha contém uma fita da molécula parental e uma fita recém-sintetizada. O rompimento das pontes de hidrogênio separa as fitas, que servem de molde para a formação das novas cadeias complementares. Gabarito: C."
+    },
+    {
+      "id": "2011_62",
+      "resolucao": "A proporção de referência para o crescimento de algas é C:N:P=106:16:1. Dividindo cada concentração pela proporção correspondente: C=21,2/106=0,2; N=1,2/16=0,075; P=0,2/1=0,2. O menor valor relativo é o do nitrogênio, portanto ele é o nutriente limitante. Gabarito: B."
+    },
+    {
+      "id": "2011_63",
+      "resolucao": "O espectro apresenta maior intensidade na região de comprimentos de onda longos, próxima à extremidade vermelha do espectro visível. Portanto, a luz que deu origem ao espectro é vermelha. Gabarito: E."
+    },
+    {
+      "id": "2011_64",
+      "resolucao": "A malária apresenta transmissão persistente em uma região geográfica específica da América do Sul, especialmente na Amazônia. Por manter ocorrência habitual e localizada, é classificada como endemia. Gabarito: A."
+    },
+    {
+      "id": "2011_65",
+      "resolucao": "Alterações epigenéticas não modificam a sequência de bases do DNA; elas alteram a atividade dos genes por modificações químicas, como a metilação de bases nitrogenadas. A inativação de genes por essas modificações pode contribuir para o desenvolvimento de alguns cânceres. Gabarito: E."
     }
   ]
 }
