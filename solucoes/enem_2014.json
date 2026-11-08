@@ -659,6 +659,46 @@
     {
       "id": "2014_170",
       "resolucao": "O papel é enrolado cinco voltas ao redor do cilindro de diâmetro d. Cada volta acrescenta um comprimento igual à circunferência πd; para cinco voltas, o lado da folha deve medir 5πd. Gabarito: D."
+    },
+    {
+      "id": "2014_171",
+      "resolucao": "A carga máxima é 12 t. O apoio central recebe 60%: 0,60×12=7,2 t. Sobram 12−7,2=4,8 t, divididas igualmente entre os dois apoios externos: 4,8/2=2,4 t para cada um. As cargas são 2,4 t; 7,2 t; 2,4 t. Gabarito: C. Fonte de conferência: https://www.simuladle.com/questoes/enem-2014-dia-2/171."
+    },
+    {
+      "id": "2014_172",
+      "resolucao": "No quipu, cada posição corresponde a uma ordem decimal. Na Figura 2 há 3 nós nos milhares, nenhum nas centenas, 6 nas dezenas e 4 nas unidades. O espaço sem nós representa zero; portanto, o número é 3 064. Gabarito: C. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2014/questao-172-quipus-incas-sistema-decimal-posicional."
+    },
+    {
+      "id": "2014_173",
+      "resolucao": "Um hectare equivale a um hectômetro quadrado: 1 ha=1 hm². Como 1 hm=100 m, então 1 hm²=100×100=10 000 m². Para 8 hectares: 8×10 000=80 000 m². Gabarito: E. Fonte de conferência: https://www.simuladle.com/questoes/enem-2014-dia-2/173."
+    },
+    {
+      "id": "2014_174",
+      "resolucao": "O volume total de álcool em gel é 16×4=64 litros. Serão instalados 20 recipientes em cada uma das 10 escolas, totalizando 200 recipientes. Cada um deve receber 64/200=0,320 litro. Essa capacidade corresponde ao recipiente III. Gabarito: C. Fonte de conferência: https://www.simuladle.com/questoes/enem-2014-dia-2/174."
+    },
+    {
+      "id": "2014_175",
+      "resolucao": "A transparência total é o produto das transparências do vidro e da película, pois a luz atravessa as duas camadas em sequência. O mínimo é 70%×50%=35%; o máximo é 90%×70%=63%. Logo, P varia no intervalo [35%; 63%]. Gabarito: A. Fonte de conferência: https://www.simuladle.com/questoes/enem-2014-dia-2/175."
+    },
+    {
+      "id": "2014_176",
+      "resolucao": "Somam-se as quantidades das duas espécies em cada dia: segunda 350+1 250=1 600; terça 800+1 100=1 900; quarta 1 450+300=1 750; quinta 650+850=1 500; sexta 300+1 400=1 700; sábado 290+1 000=1 290; domingo 0+1 350=1 350. O maior total ocorre na terça-feira. Gabarito: A. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2014/questao-176/."
+    },
+    {
+      "id": "2014_177",
+      "resolucao": "A parte inferior é um cubo de aresta 2a e a superior um cubo de aresta a; portanto, seus volumes estão na razão 8:1. Em 8 minutos, a torneira enche metade do cubo inferior, volume 4 unidades. O restante é a outra metade inferior (4 unidades) mais o cubo superior (1 unidade), totalizando 5 unidades. Como 4 unidades levam 8 minutos, 5 unidades levam 10 minutos. Gabarito: B. Fonte de conferência: https://www.simuladle.com/questoes/enem-2014-dia-2/177."
+    },
+    {
+      "id": "2014_178",
+      "resolucao": "A diagonal de cada célula mede √(6²+8²)=10 cm. Cada célula produz 24×10=240 Wh por dia. Para atender ao consumo de 20 160 Wh, são necessárias 20 160/240=84 células. Como a residência possui 100, deve retirar 100−84=16 células. Gabarito: A. Fonte de conferência: https://dequestoes.com.br/enem/2014/questao-178-diariamente-uma-residencia-consome-20160wh-essa-residencia/."
+    },
+    {
+      "id": "2014_179",
+      "resolucao": "Se q é a quantidade comprada normalmente, a quantia levada é 10q+6. Após o aumento de 20%, o preço passa a R$12 e a pessoa compra q−2 unidades com todo o dinheiro: 12(q−2)=10q+6. Resolvendo, 12q−24=10q+6, então 2q=30 e q=15. A quantia levada é 10×15+6=R$156. Gabarito: B. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2014/questao-179/."
+    },
+    {
+      "id": "2014_180",
+      "resolucao": "O voo de A para B dura 6 horas: sai às 15h em A e chega às 18h em B. Portanto, B está 3 horas atrasada em relação a A. Para chegar a A até 13h, o executivo precisa chegar a B no horário local de 10h. Como o voo dura 6 horas, deve sair de B às 4h, no máximo. Gabarito: D. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2014/questao-180/."
     }
   ]
 }
