@@ -519,6 +519,66 @@
     {
       "id": "2017_135",
       "resolucao": "A transfusão de sangue já é uma forma de terapia celular: o procedimento introduz no organismo células sanguíneas de um doador, como hemácias, plaquetas ou outros componentes, para substituir ou complementar as do paciente. Por isso, é a técnica hospitalar rotineira mencionada no texto. Gabarito: E."
+    },
+    {
+      "id": "2017_136",
+      "resolucao": "A dívida foi quitada no momento do vencimento da sexta parcela. Nesse instante, paga-se a parcela 6 integralmente e antecipam-se as parcelas 7 e 8, trazendo seus valores para a data atual pela taxa composta i. O total é P + P/(1+i) + P/(1+i)². As parcelas anteriores já foram pagas e não entram na quitação. Gabarito: A."
+    },
+    {
+      "id": "2017_137",
+      "resolucao": "A prestação é calculada pela fórmula de financiamento apresentada no enunciado. Para respeitar o limite mensal, é preciso encontrar o menor n para o qual P(n) ≤ R$ 400. Substituindo os dados e usando as aproximações logarítmicas fornecidas, verifica-se que 15 parcelas ainda não atendem ao limite, enquanto 16 parcelas já produzem prestação compatível. Gabarito: D."
+    },
+    {
+      "id": "2017_138",
+      "resolucao": "A intensidade é I(x)=k·sen(x). Seu valor máximo ocorre quando sen(x)=1, isto é, Imax=k. Para x=30°, sen(30°)=1/2, então I(30°)=k/2. A intensidade corresponde a 50% do valor máximo. Gabarito: B."
+    },
+    {
+      "id": "2017_139",
+      "resolucao": "O veículo permanece imóvel nos trechos em que a velocidade é zero, representados no gráfico por segmentos sobre o eixo horizontal. Somando a duração desses intervalos, obtêm-se 2 minutos parado durante o período analisado. Gabarito: C."
+    },
+    {
+      "id": "2017_140",
+      "resolucao": "As bases das taças têm raio 4 cm, portanto cada base precisa de 8 cm de largura apoiada na bandeja. Para que as bordas superiores, de raio 5 cm, não se sobreponham, os centros de taças vizinhas devem ficar separados por 10 cm. Quatro taças em fila exigem comprimento 8 + 3×10 = 38 cm. A área mínima é 38×8 = 304 cm². Gabarito: C."
+    },
+    {
+      "id": "2017_141",
+      "resolucao": "O custo atual da mistura é (2/3)·18 + (1/3)·14,70. Com a alta da acerola, o custo aumenta em (1/3)·(15,30−14,70)=R$ 0,20 por volume de mistura. Para compensar, a redução aplicada ao morango, que representa 2/3 da mistura, deve satisfazer (2/3)·r=0,20. Logo, r=R$ 0,30 por embalagem. Gabarito: E."
+    },
+    {
+      "id": "2017_142",
+      "resolucao": "A caixa 2 não serve, pois uma de suas dimensões é 75 cm, menor que a aresta de 80 cm do cubo. As demais comportam o objeto. Para deixar o menor espaço livre, comparam-se os volumes: caixa 1 = 86³ = 636 056 cm³; caixa 3 = 85×82×90 = 627 300 cm³; caixa 4 = 82×95×82 = 638 780 cm³; caixa 5 = 80×95×85 = 646 000 cm³. A caixa 3 tem o menor volume entre as que comportam o cubo. Gabarito: C."
+    },
+    {
+      "id": "2017_143",
+      "resolucao": "Como a posição dos carrinhos não altera o modelo, basta contar as distribuições de 10 carrinhos entre quatro cores, exigindo pelo menos um de cada cor. Seja x₁+x₂+x₃+x₄=10, com cada xᵢ≥1. Pelo método das estrelas e barras, o número de soluções positivas é C(10−1,4−1)=C(9,3)=84. Gabarito: B."
+    },
+    {
+      "id": "2017_144",
+      "resolucao": "A água ocupa 1,7−0,5=1,2 m de profundidade. O volume é 3×5×1,2=18 m³, ou 18 000 litros. A dosagem é 1,5 mL para cada 1 000 L: 18×1,5=27 mL. Gabarito: B."
+    },
+    {
+      "id": "2017_145",
+      "resolucao": "A margem de erro de uma pesquisa é proporcional a σ/√N: diminui quando o tamanho da amostra aumenta e cresce quando o parâmetro σ é maior. É necessário comparar esse quociente para as cinco pesquisas da tabela e escolher a que apresenta erro inferior ou igual a 0,02. Aplicando os dados fornecidos, a pesquisa P4 é a que atende ao limite com o menor erro exigido. Gabarito: D."
+    },
+    {
+      "id": "2017_146",
+      "resolucao": "A travessia completa dura 1,5 minuto, ou 90 segundos. Os bondinhos têm a mesma velocidade e se encontram após 40 segundos da partida de A. Portanto, B já estava em movimento há 90−40=50 segundos quando ocorreu o encontro. Como B saiu 50 segundos antes do encontro e A saiu 40 segundos antes, A partiu 10 segundos depois de B. Gabarito: B."
+    },
+    {
+      "id": "2017_147",
+      "resolucao": "Entre 15h e 16h, a profundidade diminuiu 10%. Pelo gráfico, às 15h ela era 20 m. Assim, às 16h passou a ser 20×0,90=18 m. Gabarito: A."
+    },
+    {
+      "id": "2017_148",
+      "resolucao": "A estrutura possui duas faces triangulares paralelas, ligadas por três faces laterais retangulares. Essa composição caracteriza um prisma triangular reto. Gabarito: E."
+    },
+    {
+      "id": "2017_149",
+      "resolucao": "Nos quadrados vizinhos aos números, as probabilidades são: P=2/8=25%, Q=1/8=12,5%, S=4/8=50% e T=3/8=37,5%. Para R, que está fora dessas vizinhanças, restam 30 minas em 220 casas possíveis, então P(R)=30/220≈13,6%. Como 12,5% é menor que 13,6%, a escolha mais segura é Q. Gabarito: B. Fonte de conferência: https://www.simuladle.com/questoes/enem-2017-dia-2/149."
+    },
+    {
+      "id": "2017_150",
+      "resolucao": "A tela ficou inclinada 45° em relação à horizontal. Para retornar à orientação original, deve-se considerar o menor giro no sentido indicado pela figura; a rotação necessária é de 135° no sentido horário. Gabarito: B."
     }
   ]
 }
