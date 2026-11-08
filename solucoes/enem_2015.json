@@ -543,6 +543,62 @@
     {
       "id": "2015_140",
       "resolucao": "Para as classes A/B, a maior participação é pela internet, com 40%. Para as classes C/D, o maior percentual é dos Correios, com 33%. A empresa deve, portanto, escolher internet para A/B e Correios para C/D. Gabarito: B. Fonte de conferência: https://dequestoes.com.br/enem/2015/questao-140-uma-pesquisa-de-mercado-foi-realizada-entre-os-consumidores/."
+    },
+    {
+      "id": "2015_141",
+      "resolucao": "A embalagem comporta 20×10×10=2 000 cm³. A mistura de chocolate, com 1 000 cm³, aumenta 25% ao congelar e ocupa 1 250 cm³. Restam 2 000−1 250=750 cm³ para o morango já congelado. Como a mistura de morango também aumenta 25%, seu volume líquido inicial deve ser 750/1,25=600 cm³. Gabarito: C. Fonte de conferência: https://www.simuladle.com/questoes/enem-2015-dia-2/141."
+    },
+    {
+      "id": "2015_142",
+      "resolucao": "Há 100 senhas igualmente prováveis, numeradas de 1 a 100. Os casos favoráveis são as 20 senhas de 1 a 20, incluindo os dois extremos. A probabilidade é 20/100. Gabarito: C. Fonte de conferência: https://www.simuladle.com/questoes/enem-2015-dia-2/142."
+    },
+    {
+      "id": "2015_143",
+      "resolucao": "Ordenando os tempos: 20,50; 20,60; 20,60; 20,80; 20,90; 20,90; 20,90; 20,96. Como há oito valores, a mediana é a média entre o 4º e o 5º: (20,80+20,90)/2=20,85 segundos. Gabarito: D. Fonte de conferência: https://www.simuladle.com/questoes/enem-2015-dia-2/143."
+    },
+    {
+      "id": "2015_144",
+      "resolucao": "A área antiga é um trapézio de bases 600 e 360 cm e altura 580 cm: A=(600+360)×580/2=278 400 cm². A nova área é um retângulo de 490×580=284 200 cm². A diferença é 284 200−278 400=5 800 cm², portanto houve aumento. Gabarito: A. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2015/questao-144-garrafao-basquete-area-trapezio-retangulo."
+    },
+    {
+      "id": "2015_146",
+      "resolucao": "A cisterna nova deve ter volume 81 m³ e altura 3 m. Usando V=πr²h e π=3: 81=3×r²×3, então 9r²=81 e r=3 m. A cisterna atual tem diâmetro 2 m, logo raio 1 m. O aumento necessário é 3−1=2 m. Gabarito: C. Fonte de conferência: https://www.simuladle.com/questoes/enem-2015-dia-2/146."
+    },
+    {
+      "id": "2015_147",
+      "resolucao": "A Escola II tem 66 pontos e a IV tem 68; as demais não conseguem ultrapassar a II mesmo com nota 10. Se x é a nota da II e y a da IV, a II vence quando 66+x≥68+y, pois o desempate favorece a II (20 pontos em Enredo e Harmonia contra 19 da IV). Há seis pares possíveis (x,y): (8,6), (9,6), (9,7), (10,6), (10,7), (10,8). As escolas I, III e V têm cinco notas possíveis cada, então o total é 6×5³=750 configurações. Gabarito: C. Fonte de conferência: https://mthedu.com.br/questoes/enem-2015-147/."
+    },
+    {
+      "id": "2015_148",
+      "resolucao": "Cada contêiner mede 6,4 m por 2,5 m na base e 2,5 m de altura. Na área de 32×10 m cabem 32/6,4=5 contêineres no comprimento e 10/2,5=4 na largura: 20 por camada. Para empilhar 100 contêineres são necessárias 100/20=5 camadas. A altura mínima é 5×2,5=12,5 m. Gabarito: A. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2015/questao-148-conteineres-empilhamento-altura-minima."
+    },
+    {
+      "id": "2015_149",
+      "resolucao": "O cubo mantém suas seis faces originais, embora os cantos sejam cortados. Cada um dos oito vértices cortados gera uma nova face triangular. Portanto, o poliedro tem 6+8=14 faces. Como cada face recebe uma cor distinta, serão usadas 14 cores. Gabarito: C. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2015/questao-149/."
+    },
+    {
+      "id": "2015_150",
+      "resolucao": "A arrecadação diária é R(p)=p(400−100p). No preço atual de R$3,00, a quantidade é 100 pães e a arrecadação é R$300. Para não reduzir essa média, exige-se p(400−100p)≥300, o que resulta em p²−4p+3≤0 e, portanto, 1≤p≤3. Como a quantidade vendida diminui quando o preço aumenta, deve-se escolher o menor preço possível, R$1,00, que pertence ao intervalo 0,50≤p<1,50. Gabarito: A."
+    },
+    {
+      "id": "2015_151",
+      "resolucao": "Se x é a fração do público vacinado, a probabilidade de adoecer é 50%×[2%·x+(1−x)], pois 98% dos vacinados ficam protegidos e 50% dos não vacinados contraem a doença. Exigindo no máximo 5,9%: 0,5(0,02x+1−x)≤0,059, então 0,49x≥0,441 e x≥0,90. As propostas que atendem são I (90%) e V (95,9%); para vacinar menos pessoas, escolhe-se I. Gabarito: A. Fonte de conferência: https://www1.curso-objetivo.br/vestibular/resolucao-comentada/enem/2015/enem2015_2dia.pdf."
+    },
+    {
+      "id": "2015_152",
+      "resolucao": "A produção inicial é 8 000 unidades no ano 1. Como cresce 50% a cada ano, cada termo é 1,5 vezes o anterior. A sequência é uma progressão geométrica de primeiro termo 8 000 e razão 1,5; portanto, P(t)=8 000·(1,5)^(t−1). Gabarito: E. Fonte de conferência: https://www.simuladle.com/questoes/enem-2015-dia-2/152."
+    },
+    {
+      "id": "2015_153",
+      "resolucao": "As proporções 60%, 10% e 30% podem ser representadas por dez partes de mesma área: seis para carboidratos, uma para proteínas e três para gorduras. Ao ligar o centro de um polígono regular aos vértices e aos pontos médios dos lados, obtêm-se 2n triângulos iguais. Para formar dez partes, 2n=10, então n=5: o polígono é um pentágono. Gabarito: C. Fonte de conferência: https://mthedu.com.br/questoes/enem-2015-153/."
+    },
+    {
+      "id": "2015_154",
+      "resolucao": "Se a base do vidro mede n, os extremos da base estão nos pontos da curva y=log(x) cujas ordenadas são −h/2 e h/2. Chamando as abscissas de a e b, temos log(a)=−h/2 e log(b)=h/2, portanto ab=1, além de b−a=n. Substituindo a=1/b: b−1/b=n, então b²−nb−1=0. A raiz positiva é b=(n+√(n²+4))/2. Como h/2=log(b), resulta h=2log[(n+√(n²+4))/2]. Gabarito: E. Fonte de conferência: https://mthedu.com.br/questoes/enem-2015-154/."
+    },
+    {
+      "id": "2015_155",
+      "resolucao": "Cada antena antiga cobria um círculo de raio 2 km; a área total anterior era 2×π×2²=8π km². O novo círculo, centrado no ponto de tangência O, tem raio 4 km, pois vai de O até a extremidade oposta de um dos círculos menores. Sua área é 16π km². O aumento é 16π−8π=8π km². Gabarito: A. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2015/questao-155-antenas-circulos-tangentes-area-ampliada."
     }
   ]
 }
