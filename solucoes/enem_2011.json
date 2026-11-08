@@ -619,6 +619,86 @@
     {
       "id": "2011_155",
       "resolucao": "O triângulo formado pelo deslocamento do barco e pelo ponto fixo é retângulo. Com AB=2 000 m e ângulo de 30°, a menor distância corresponde ao cateto adjacente: d=2 000×cos30°=2 000×(√3/2)=1 000√3 m. Gabarito: B."
+    },
+    {
+      "id": "2011_156",
+      "resolucao": "Em fevereiro, x=2 e y=880 605. Como o aumento é de 4 300 vagas por mês, janeiro tinha 880 605−4 300=876 305 trabalhadores. A função linear é y=876 305+4 300(x−1)=872 005+4 300x. Gabarito: C."
+    },
+    {
+      "id": "2011_157",
+      "resolucao": "Para R$500 aplicados no CDB, o montante após um mês é calculado com a taxa mensal indicada no quadro. Aplicando a taxa de 0,842%: 500×1,00842=R$504,21. Esse valor supera o rendimento da poupança. Gabarito: D."
+    },
+    {
+      "id": "2011_158",
+      "resolucao": "Para cada faixa de consumo, calcula-se o valor total da conta após a redução tarifária e divide-se pelo consumo em kWh, obtendo o custo médio por unidade. A diferença entre o custo médio dos dois consumidores é aproximadamente R$0,29 por kWh. Gabarito: B."
+    },
+    {
+      "id": "2011_159",
+      "resolucao": "Os custos são iguais quando 100 000n+350 000=120 000n+150 000. Simplificando em milhares: 100n+350=120n+150. Então 200=20n e n=10 km. Gabarito: A."
+    },
+    {
+      "id": "2011_160",
+      "resolucao": "Após perder 30%, resta 0,70x. No segundo mês, recupera 20% do que perdeu, isto é, 0,20×0,30x=0,06x. O saldo final é 0,76x=3 800; logo, x=3 800/0,76=R$5 000. Gabarito: C."
+    },
+    {
+      "id": "2011_161",
+      "resolucao": "A densidade demográfica é a população dividida pela área: 20 000 000/800 000=25 habitantes por km². Gabarito: B."
+    },
+    {
+      "id": "2011_162",
+      "resolucao": "As vendas formam uma progressão aritmética: 33 000 em janeiro, 34 500 em fevereiro e 36 000 em março. A razão é 1 500 passagens por mês. Julho é o sétimo termo: 33 000+6×1 500=42 000 passagens. Gabarito: D."
+    },
+    {
+      "id": "2011_163",
+      "resolucao": "As regiões que atendem às recomendações médicas são aquelas cujos valores estão na faixa indicada no gráfico. Contando as regiões adequadas e dividindo pelo total de regiões possíveis, obtém-se a probabilidade 3/4. Gabarito: E."
+    },
+    {
+      "id": "2011_164",
+      "resolucao": "O chuveiro tem potência de 4,8 kW. Duas duchas de 10 minutos por dia correspondem a 20 minutos=1/3 de hora. Em sete dias, o consumo é 4,8×(1/3)×7=11,2 kWh. Gabarito: D."
+    },
+    {
+      "id": "2011_165",
+      "resolucao": "Se todos largam na mesma linha, o corredor da raia interna percorre a menor distância em uma volta, pois a circunferência é menor quanto menor o raio. Portanto, a raia 1 oferece vantagem. Gabarito: A."
+    },
+    {
+      "id": "2011_166",
+      "resolucao": "O aumento das internações femininas é 8 000/32 000=25%. Aplicando a mesma proporção aos homens: 28 000×1,25=35 000 internações. Gabarito: D."
+    },
+    {
+      "id": "2011_167",
+      "resolucao": "O volume do copo cilíndrico é V=πr²h=3×2²×10=120 mL. A mistura deve conter uma parte de açúcar e cinco de água, totalizando seis partes. A água corresponde a 5/6 do volume: 120×5/6=100 mL. Gabarito: C."
+    },
+    {
+      "id": "2011_168",
+      "resolucao": "Para somar 12, Arthur tem cinco pares possíveis; para somar 17, Bernardo tem sete pares; para somar 22, Caio tem quatro pares. Como todos os pares são igualmente prováveis, Bernardo tem a maior probabilidade de vencer. Gabarito: C."
+    },
+    {
+      "id": "2011_169",
+      "resolucao": "O IMC é massa/altura². Substituindo os dados biométricos, obtêm-se 27,3 para Duílio e 29,1 para Sandra. Ambos estão na faixa de sobrepeso indicada na escala. Gabarito: B."
+    },
+    {
+      "id": "2011_170",
+      "resolucao": "A probabilidade é o número de pessoas com doença crônica dividido pelo total de pessoas atendidas. Pela tabela, essa proporção é 11%. Gabarito: C."
+    },
+    {
+      "id": "2011_171",
+      "resolucao": "A chance de conexão de pelo menos 1 Mbps é a soma das categorias com velocidade igual ou superior a 1 Mbps dividida pelo total de domicílios pesquisados. Pelo gráfico, o resultado é 0,22. Gabarito: D."
+    },
+    {
+      "id": "2011_172",
+      "resolucao": "Para percorrer o trajeto sem repetir pontos, é necessário seguir as ligações do grafo respeitando cada vértice uma única vez. O caminho que começa em K e termina em F, passando por todos os pontos indicados sem repetição, é K–L–G–I–J–H–F. Gabarito: C."
+    },
+    {
+      "id": "2011_173",
+      "resolucao": "O gráfico mostra que a participação do agronegócio no PIB cai de 2003 até 2006 e depois volta a crescer. Portanto, o período de queda ocorreu entre 2003 e 2006. Gabarito: C."
+    },
+    {
+      "id": "2011_174",
+      "resolucao": "Os algarismos disponíveis são 1, 3, 5, 7 e 9. Antes de 75 913, há 3×4!=72 números que começam com 1, 3 ou 5; 2×3!=12 que começam com 7 e têm segundo algarismo menor que 5; e 2×2!=4 que começam com 75 e têm terceiro algarismo menor que 9. São 88 números anteriores, então 75 913 ocupa a 89ª posição. Gabarito: E."
+    },
+    {
+      "id": "2011_175",
+      "resolucao": "Pelo gráfico, a quantidade de internautas que respondeu “não” corresponde a um valor entre 50 e 75 pessoas. Gabarito: C."
     }
   ]
 }
