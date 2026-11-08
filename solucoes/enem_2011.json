@@ -559,6 +559,66 @@
     {
       "id": "2011_140",
       "resolucao": "Para atender às restrições da prefeitura, o terreno precisa respeitar os recuos e a área mínima de construção. Comparando as dimensões e a área útil de cada opção, o terreno 3 é o único que oferece a maior área dentro das condições exigidas. Gabarito: C."
+    },
+    {
+      "id": "2011_141",
+      "resolucao": "Para gastar 200 calorias em cada atividade: telefone, 40 min (20 min a mais); supermercado, 60 min (30 a mais); jardinagem, 30 min (sem acréscimo); passeio com o cachorro, 30 min (sem acréscimo); tirar o pó, 40 min (10 a mais); lavar roupas, 30 min (sem acréscimo). O tempo adicional total é 20+30+10=60 minutos. Gabarito: B."
+    },
+    {
+      "id": "2011_142",
+      "resolucao": "A média é a soma das temperaturas dividida pelo número de observações, resultando em 17 °C. Ordenando os valores, a mediana é 18 °C. O valor que mais se repete é 13,5 °C, portanto a moda é 13,5 °C. Gabarito: B."
+    },
+    {
+      "id": "2011_143",
+      "resolucao": "Na escala 1:250, cada medida real deve ser dividida por 250. O comprimento de 28 m corresponde a 2 800/250=11,2 cm; a largura de 12 m corresponde a 1 200/250=4,8 cm. Gabarito: C."
+    },
+    {
+      "id": "2011_144",
+      "resolucao": "Os quatro cortes partem do centro da face superior e seguem em direção às arestas do cubo. Como os cortes opostos têm a mesma posição e dimensões, os sólidos retirados formam dois pares congruentes, isto é, são iguais dois a dois. Gabarito: E."
+    },
+    {
+      "id": "2011_145",
+      "resolucao": "O consumo inicial é 331 bilhões de xícaras×120 mL=39,72 bilhões de litros. O aumento previsto é de 1/5, então o consumo será 39,72×1,2=47,664 bilhões de litros, aproximadamente 48 bilhões. Gabarito: E."
+    },
+    {
+      "id": "2011_146",
+      "resolucao": "A distância real é 2 000 km=200 000 000 cm. No mapa, ela mede 8 cm. A escala é 8:200 000 000, que simplifica para 1:25 000 000. Gabarito: E."
+    },
+    {
+      "id": "2011_147",
+      "resolucao": "A superfície de revolução é gerada pela rotação de um segmento de reta em torno de um eixo, formando uma base circular e um vértice. A figura corresponde a um cone. Gabarito: E."
+    },
+    {
+      "id": "2011_148",
+      "resolucao": "A altitude de 6 000 m equivale a 6 000×3,3=19 800 pés. Na Finlândia, a liberação ocorre acima de 31 000 pés. A diferença é 31 000−19 800=11 200 pés. Gabarito: C."
+    },
+    {
+      "id": "2011_149",
+      "resolucao": "O índice de adiposidade corporal é IAC=circunferência do quadril/altura^(3/2)−18. Pela massa e pelo IMC, a altura é √(60/20)=√3≈1,7 m. Assim, IAC≈100/(1,7×1,3)−18≈27,2%. Esse valor fica cerca de 1 ponto percentual acima do limite de normalidade indicado, então a jovem deve reduzir o excesso de gordura em aproximadamente 1%. Gabarito: A."
+    },
+    {
+      "id": "2011_150",
+      "resolucao": "A estação precisa estar sobre a reta y=x+4 e a até 5 km do hospital P=(−5,5). O ponto (−3,1) pertence à reta, pois 1=−3+4. Sua distância a P é √[(−3+5)²+(1−5)²]=√20≈4,47 km, menor que 5 km. Gabarito: B."
+    },
+    {
+      "id": "2011_151",
+      "resolucao": "O polígono tem simetria rotacional de ordem 3: ao girá-lo 120°, cada vértice ocupa a posição de outro vértice equivalente e a figura permanece inalterada. Gabarito: D."
+    },
+    {
+      "id": "2011_152",
+      "resolucao": "O preço é diretamente proporcional à quantidade: m=1,75n. O gráfico deve ser uma reta que passa pela origem e tem inclinação positiva de 1,75 real por quilograma. A alternativa E apresenta esse comportamento. Gabarito: E."
+    },
+    {
+      "id": "2011_153",
+      "resolucao": "Para 30 convidados: carne 30×250 g=7,5 kg; arroz 30/4=7,5 copos; farofa 30×4=120 colheres; vinho 30/6=5 garrafas; cerveja 30/2=15 garrafas; espumante 30/3=10 garrafas. Gabarito: E."
+    },
+    {
+      "id": "2011_154",
+      "resolucao": "Calcula-se, para cada edição, a proporção de medalhistas de ouro do Nordeste em relação ao total de medalhistas. A média aritmética dos percentuais de 2005 a 2009 é 18,4%. Gabarito: C."
+    },
+    {
+      "id": "2011_155",
+      "resolucao": "O triângulo formado pelo deslocamento do barco e pelo ponto fixo é retângulo. Com AB=2 000 m e ângulo de 30°, a menor distância corresponde ao cateto adjacente: d=2 000×cos30°=2 000×(√3/2)=1 000√3 m. Gabarito: B."
     }
   ]
 }
