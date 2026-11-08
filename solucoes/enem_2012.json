@@ -199,6 +199,66 @@
     {
       "id": "2012_50",
       "resolucao": "Ao puxar o carrinho para trás, a criança armazena energia potencial elástica na mola comprimida. Quando solta, a mola retorna à forma inicial e transforma essa energia em energia cinética, assim como ocorre em um estilingue tensionado. Gabarito: E."
+    },
+    {
+      "id": "2012_51",
+      "resolucao": "Na biorremediação, os microrganismos precisam utilizar o pesticida como substrato e transformá-lo por reações metabólicas. O objetivo é converter o contaminante em substâncias menos tóxicas ou atóxicas, reduzindo seu impacto ambiental. Gabarito: E."
+    },
+    {
+      "id": "2012_52",
+      "resolucao": "O contato com água de enchente e a ausência de saneamento favorecem a exposição à urina de animais infectados pela bactéria Leptospira. Febre, dor de cabeça e dores musculares após esse contato são sinais compatíveis com leptospirose. Gabarito: D."
+    },
+    {
+      "id": "2012_53",
+      "resolucao": "Isobutano, butano e propano são hidrocarbonetos que podem ser utilizados como gases propelentes em aerossóis. Eles substituem os CFCs porque não liberam cloro na estratosfera e, assim, não participam do ciclo catalítico de destruição do ozônio. Gabarito: A."
+    },
+    {
+      "id": "2012_54",
+      "resolucao": "A frequência das gotas diminui de duas para uma por segundo, mas a velocidade de propagação da onda depende das propriedades do meio e permanece em 1,0 m/s. Pela relação v=λf, ao reduzir a frequência à metade, o comprimento de onda dobra, passando de 25 cm para 50 cm. Gabarito: B."
+    },
+    {
+      "id": "2012_55",
+      "resolucao": "A porta está em equilíbrio estático. O peso atua para baixo, e as dobradiças precisam exercer forças cuja soma vertical equilibre esse peso e cuja resultante de torques seja nula. O diagrama correto apresenta forças opostas nas dobradiças, formando um binário que impede a rotação da porta: alternativa D. Gabarito: D."
+    },
+    {
+      "id": "2012_56",
+      "resolucao": "As plantas P1 alimentam o herbívoro P2, e ambos podem servir de alimento ao onívoro P3. A interação I representa a fração de energia ou matéria de P1 ou P2 que é transferida a P3 pela alimentação. Gabarito: D."
+    },
+    {
+      "id": "2012_57",
+      "resolucao": "As gemas apicais são pontos de crescimento que precisam resistir às queimadas e à perda de água. A densa pilosidade ao redor dessas gemas funciona como proteção térmica, favorecendo a sobrevivência e a rebrota das plantas do Cerrado. Gabarito: D."
+    },
+    {
+      "id": "2012_58",
+      "resolucao": "O éster C₆H₅CO₂CH₂CH₃ é o benzoato de etila. Na esterificação, a parte C₆H₅COO− vem do ácido benzoico e a parte −CH₂CH₃ vem do etanol. Portanto, os reagentes são ácido benzoico e etanol. Gabarito: A."
+    },
+    {
+      "id": "2012_59",
+      "resolucao": "A combustão completa do butano é C₄H₁₀+6,5O₂→4CO₂+5H₂O. Um mol de butano (58 g) produz quatro mols de CO₂ (4×44=176 g). Para evitar a emissão de 1 000 g de CO₂, basta deixar de queimar 1 000×58/176≈329,5 g, ou 0,33 kg de butano. Gabarito: B."
+    },
+    {
+      "id": "2012_60",
+      "resolucao": "O trem parte do repouso, acelera, mantém velocidade aproximadamente constante e depois desacelera até parar. No gráfico posição-tempo, a inclinação representa a velocidade: começa aumentando, torna-se constante e depois diminui até zero. A curva correspondente é a alternativa C. Gabarito: C."
+    },
+    {
+      "id": "2012_61",
+      "resolucao": "A eficiência luminosa é o fluxo luminoso dividido pela potência. Para a incandescente: 600/40=15 lm/W. A fluorescente de 8 W produz a mesma quantidade de luz com potência menor, portanto sua eficiência é maior. A lâmpada incandescente tem eficiência menor que a fluorescente de 8 W. Gabarito: C."
+    },
+    {
+      "id": "2012_62",
+      "resolucao": "Peixes híbridos podem competir com espécies nativas por alimento e espaço e, se conseguirem se reproduzir, podem substituir geneticamente as populações naturais. A introdução sem controle ameaça a composição genética e a biodiversidade dos ecossistemas aquáticos. Gabarito: B."
+    },
+    {
+      "id": "2012_63",
+      "resolucao": "As leveduras realizam fermentação alcoólica, convertendo açúcares em etanol e gás carbônico. O CO₂ fica retido na massa, formando bolhas que aumentam seu volume e deixam o pão leve e macio. Gabarito: A."
+    },
+    {
+      "id": "2012_64",
+      "resolucao": "Os raios de luz mudam de direção ao passar da água para o ar, pois a velocidade da luz é diferente nos dois meios. Essa refração faz o peixe parecer estar em uma posição mais próxima da superfície do que sua posição real; por isso, o pescador deve mirar abaixo da imagem aparente. Gabarito: E."
+    },
+    {
+      "id": "2012_65",
+      "resolucao": "O DNA de cada célula permanece essencialmente o mesmo, mas diferentes genes são ativados ou silenciados conforme o estágio de desenvolvimento e as condições ambientais. A produção variável de substâncias ocorre porque os genes são transcritos de maneira diferente de acordo com cada necessidade. Gabarito: E."
     }
   ]
 }
