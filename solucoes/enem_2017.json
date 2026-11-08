@@ -339,6 +339,66 @@
     {
       "id": "2017_90",
       "resolucao": "A releitura artística transforma referências culturais brasileiras e populares em uma linguagem visual de contestação. Em vez de reproduzir de forma passiva uma tradição folclórica, a obra a ressignifica e utiliza seus símbolos para construir uma estética própria de resistência. Gabarito: E."
+    },
+    {
+      "id": "2017_91",
+      "resolucao": "Cada rato ingeriu 3 mg/g × 100 g = 300 mg de pesticida. Como sua massa é 0,2 kg, a dose recebida foi 300/0,2 = 1 500 mg/kg. Comparando esse valor com as DL50 da tabela, diazinon e malation apresentam doses letais medianas inferiores à quantidade ingerida; são, portanto, os grupos com mortalidade mínima de 50%, isto é, pelo menos 10 dos 20 ratos. Gabarito: D."
+    },
+    {
+      "id": "2017_92",
+      "resolucao": "Antibióticos atuam sobre estruturas ou processos próprios das bactérias, como parede celular, ribossomos e síntese de ácidos nucleicos. Ao danificar ou bloquear essas estruturas específicas, impedem a multiplicação ou provocam a morte bacteriana, sem ter como alvo principal as células humanas. Gabarito: E."
+    },
+    {
+      "id": "2017_93",
+      "resolucao": "Pelo gráfico, a resistência nominal da polianilina sem amônia é 5,0 × 10⁵ Ω. O enunciado informa que, em alta concentração de amônia, esse valor fica quatro vezes maior. Assim, R = 4 × 5,0 × 10⁵ = 2,0 × 10⁶ Ω. Gabarito: E. Fonte de conferência: https://fisicaflavio.com.br/enem/2017."
+    },
+    {
+      "id": "2017_94",
+      "resolucao": "Os nanotubos atuam como antenas capazes de absorver comprimentos de onda que os pigmentos naturais dos cloroplastos não aproveitam tão bem. Ao captar essa energia luminosa adicional, aumentam a quantidade de fótons absorvidos e estimulam o transporte de elétrons da fotossíntese. Gabarito: B."
+    },
+    {
+      "id": "2017_95",
+      "resolucao": "Na eletrólise aquosa do cloreto de sódio, os íons cloreto são oxidados no ânodo, formando cloro, enquanto a água é reduzida no cátodo, produzindo hidrogênio. O hidróxido de sódio permanece na solução; o produto gasoso secundário é o hidrogênio molecular (H₂). Gabarito: D."
+    },
+    {
+      "id": "2017_96",
+      "resolucao": "No ciclo do nitrogênio, a nitrificação transforma amônia/amônio em nitrito e, depois, nitrato. A etapa final, chamada nitratação, converte nitrito (NO₂⁻) em nitrato (NO₃⁻), forma química que corresponde ao principal componente nitrogenado dos fertilizantes citados. Gabarito: A."
+    },
+    {
+      "id": "2017_97",
+      "resolucao": "O sal de cozinha contém sódio. Quando os átomos de sódio são aquecidos pela chama, seus elétrons são excitados para níveis de energia mais altos. Ao retornarem a níveis inferiores, emitem fótons com energia característica da luz amarela, alterando a cor observada na chama. Gabarito: B."
+    },
+    {
+      "id": "2017_98",
+      "resolucao": "Whittaker organizou os seres vivos em cinco reinos com base, entre outros critérios, no tipo de célula e na forma de nutrição. Woese comparou sequências de RNA ribossômico para reconstruir relações de parentesco evolutivo e propôs três domínios. A classificação mais recente se fundamenta principalmente em relações filogenéticas. Gabarito: C."
+    },
+    {
+      "id": "2017_99",
+      "resolucao": "Em uma colisão, a variação total da quantidade de movimento é a mesma para os cinco testes. Para reduzir lesões, o cinto deve distribuir essa variação por mais tempo, diminuindo o pico de desaceleração e, consequentemente, a força máxima exercida sobre o corpo. O gráfico indica que o modelo 2 apresenta o menor pico entre os modelos comparados. Gabarito: B."
+    },
+    {
+      "id": "2017_100",
+      "resolucao": "As plaquetas artificiais aceleram a coagulação e ajudam a formar uma rede no local do sangramento. Pacientes com hemofilia têm deficiência de fatores de coagulação e apresentam dificuldade para estancar hemorragias; por isso, um material que favorece a formação do coágulo pode melhorar seu quadro. Gabarito: B."
+    },
+    {
+      "id": "2017_101",
+      "resolucao": "A lâmpada desejada deve concentrar sua emissão na faixa visível, que é percebida pelo olho, e liberar pouca energia no infravermelho, associada ao aquecimento. O LED apresenta emissão mais concentrada na região visível e menor parcela de energia convertida em calor, atendendo melhor ao objetivo. Gabarito: E."
+    },
+    {
+      "id": "2017_102",
+      "resolucao": "Os sais de amônio formados nos núcleos de condensação se dissociam em íons. As moléculas de água são polares e interagem com esses íons por atração entre cargas e dipolos permanentes, formando interações íon-dipolo que favorecem a agregação de água ao núcleo. Gabarito: D."
+    },
+    {
+      "id": "2017_103",
+      "resolucao": "A intensidade do sinal deve permanecer entre 10 dB e 100 dB. Portanto, a perda máxima admissível ao longo da fibra é 100 − 10 = 90 dB. No gráfico, identifica-se a menor atenuação por quilômetro e calcula-se a distância correspondente a essa perda de 90 dB; a leitura resulta em 90 km. Gabarito: D."
+    },
+    {
+      "id": "2017_104",
+      "resolucao": "Em vida, a atividade era 15 emissões/min por grama. Para 30 g, isso corresponde a 15 × 30 × 60 = 27 000 emissões por hora. O fóssil apresenta 6 750 emissões/h, ou seja, um quarto da atividade inicial: ocorreram duas meias-vidas. Como cada meia-vida do carbono-14 dura 5 730 anos, a idade é 2 × 5 730 = 11 460 anos. Gabarito: C."
+    },
+    {
+      "id": "2017_105",
+      "resolucao": "Quando o vento diminui, a estação híbrida não depende exclusivamente das turbinas eólicas. A energia excedente pode ser armazenada na forma de hidrogênio, e o sistema também dispõe de biogás para manter a geração. O hidrogênio armazenado pode alimentar células a combustível, permitindo continuar fornecendo eletricidade à rede durante períodos sem vento. Gabarito: B."
     }
   ]
 }
