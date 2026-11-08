@@ -622,7 +622,7 @@
     },
     {
       "id": "2012_160",
-      "resolucao": "O quadrado tem área total de 1 m². As regiões claras ABPDA e BCDQB ocupam, juntas, metade da área; logo, a região sombreada também ocupa 0,5 m². O custo é 0,5×30+0,5×50=R$40,00. Gabarito: B."
+      "resolucao": "A área total do quadrado é 1 m². Pelas posições dos pontos médios A, B, C e D e dos pontos P e Q, as regiões claras ABPDA e BCDQB somam 1/4 da área, ou 0,25 m²; a região sombreada ocupa os 0,75 m² restantes. O custo é 0,75×30+0,25×50=22,50+12,50=R$35,00. Gabarito: B."
     }
   ]
 }
