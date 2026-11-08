@@ -503,6 +503,66 @@
     {
       "id": "2012_130",
       "resolucao": "A autora mostra que formas como “ter” existencial, hoje comuns no português brasileiro, já aparecem em registros históricos. A condenação dessas formas por purismo ignora a mudança linguística e prejudica a compreensão de como a língua se constitui e se transforma. Gabarito: E."
+    },
+    {
+      "id": "2012_131",
+      "resolucao": "A escultura de Aleijadinho apresenta feições populares e individualizadas nas figuras sagradas, conferindo personalidade às imagens religiosas. O artista não reproduz apenas modelos idealizados, mas cria figuras com traços expressivos e humanos. Gabarito: D."
+    },
+    {
+      "id": "2012_132",
+      "resolucao": "O enunciado “Lugar de mulher também é na oficina” contrapõe-se ao ditado tradicional que restringia a mulher ao espaço doméstico. Os dados de crescimento das matrículas mostram que as mulheres estão conquistando profissões antes associadas aos homens, defendendo sua participação na sociedade atual. Gabarito: A."
+    },
+    {
+      "id": "2012_133",
+      "resolucao": "A publicidade relaciona sustentabilidade a escolhas cotidianas e ao consumo responsável. O leitor é convidado a adotar práticas de consumo que reduzam impactos ambientais e considerem a origem, o uso e o descarte dos produtos. Gabarito: E."
+    },
+    {
+      "id": "2012_134",
+      "resolucao": "O personagem promete abandonar apenas o consumo de álcool, mas continua “bebendo” paisagens, músicas e obras de arte. O verbo “beber” é utilizado metaforicamente para indicar apreciação intensa dessas experiências culturais, o que torna irônica a causa de sua morte por “etilismo abstrato”. Gabarito: A."
+    },
+    {
+      "id": "2012_135",
+      "resolucao": "O verso “Sou um tupi tangendo um alaúde” aproxima a origem indígena brasileira de um instrumento musical europeu. A combinação de elementos culturais distintos expressa a síntese entre raízes indígenas e influências europeias na construção da identidade nacional. Gabarito: D."
+    },
+    {
+      "id": "2012_136",
+      "resolucao": "O atleta percorreu 42×10=420 km. A pista desenhada tem 60 cm, enquanto o percurso real corresponde a 420 km=42 000 000 cm. A escala é 60:42 000 000, que simplifica para 1:700 000. Gabarito: D."
+    },
+    {
+      "id": "2012_137",
+      "resolucao": "O raio de duas circunferências opostas dobra, mas a configuração de tangência permanece. Isso aumenta cada lado do losango em 50%, e o perímetro, que é quatro vezes o lado, também cresce 50%. Gabarito: E."
+    },
+    {
+      "id": "2012_138",
+      "resolucao": "As quantidades transportadas mantêm a proporção 2:2:1. Como uma das pessoas levou 50 laranjas a mais na segunda parte, a distribuição que conserva essa razão é 300, 300 e 150 laranjas. Gabarito: B."
+    },
+    {
+      "id": "2012_139",
+      "resolucao": "Pelo gráfico, aproximadamente 15% dos visitantes classificaram o conto como “Chato”. A probabilidade de sortear alguém dessa categoria é a razão entre o número de votos “Chato” e o total de votos, aproximadamente 0,15. Gabarito: D."
+    },
+    {
+      "id": "2012_140",
+      "resolucao": "Calcula-se o valor futuro do dinheiro aplicado a 10% por semestre e compara-se com cada prestação. Na opção 4, Arthur paga R$15 000 agora e investe os R$40 000 restantes: após dois semestres, o montante é 40 000×1,1²=R$48 400. Pagando R$39 000, ainda restam R$9 400, tornando essa alternativa a mais vantajosa. Gabarito: D."
+    },
+    {
+      "id": "2012_141",
+      "resolucao": "O forro original tem área 5×3=15. Após a lavagem, as faixas encolhem x e y nas dimensões indicadas; a área perdida é a área original menos a área restante: 15−(5−x)(3−y)=15−(15−5y−3x+xy)=5y+3x−xy. Gabarito: E."
+    },
+    {
+      "id": "2012_142",
+      "resolucao": "A sala tem 4×5=20 m². Para até duas pessoas, são 600×20=12 000 BTU/h. Como há duas pessoas adicionais, acrescentam-se 2×600=1 200 BTU/h; a televisão acrescenta mais 600. Total: 12 000+1 200+600=13 800 BTU/h. Gabarito: D."
+    },
+    {
+      "id": "2012_143",
+      "resolucao": "A resistência de uma viga retangular submetida à flexão é proporcional à largura da seção e ao quadrado de sua altura: S=k·x·y², em que k é uma constante do material e do vão. A alternativa A representa essa relação. Gabarito: A."
+    },
+    {
+      "id": "2012_144",
+      "resolucao": "Há 5 objetos, 6 personagens e 9 cômodos. O número de respostas possíveis é 5×6×9=270. Como 280 alunos participam e as respostas não se repetem, há 280−270=10 alunos a mais do que combinações possíveis; algum aluno necessariamente acertará. Gabarito: A."
+    },
+    {
+      "id": "2012_145",
+      "resolucao": "A altura real de cada árvore é obtida pela semelhança entre os triângulos formados pela árvore e sua sombra, usando a mesma altura de referência e a mesma incidência solar. Comparando as razões altura/sombra, a árvore IV apresenta a maior altura real. Gabarito: D."
     }
   ]
 }
