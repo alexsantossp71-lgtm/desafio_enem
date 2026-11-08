@@ -319,6 +319,46 @@
     {
       "id": "2013_80",
       "resolucao": "A retirada de uma espécie de uma cadeia alimentar altera as relações entre predadores e presas. O efeito pode se propagar por diferentes níveis tróficos, modificando a abundância de outras populações e causando desequilíbrio na comunidade. Gabarito: A."
+    },
+    {
+      "id": "2013_81",
+      "resolucao": "O sulfato de alumínio forma flocos com as impurezas suspensas na água. Esses flocos são menos densos que a água e podem ser carregados para a superfície com bolhas de ar, sendo removidos por flotação. Gabarito: A."
+    },
+    {
+      "id": "2013_82",
+      "resolucao": "A frequência de uma nota musical dobra quando se passa para a mesma nota uma oitava acima. O Dó maior está uma oitava acima do Dó central; portanto, a razão entre a frequência do Dó central e a do Dó maior é 1/2. Gabarito: A."
+    },
+    {
+      "id": "2013_83",
+      "resolucao": "O circuito funciona como uma ponte de Wheatstone. Substituindo Rs=100 Ω nos ramos e aplicando a lei de Ohm e as regras de associação de resistores, obtém-se uma diferença de potencial negativa no voltímetro, de −0,3 V. O sinal negativo indica a polaridade relativa dos terminais do instrumento. Gabarito: D."
+    },
+    {
+      "id": "2013_84",
+      "resolucao": "As espécies invasoras chegam a um ambiente sem seus predadores, parasitas e competidores naturais de origem. A ausência desses controles biológicos permite que suas populações cresçam rapidamente e disputem recursos com as espécies nativas. Gabarito: B."
+    },
+    {
+      "id": "2013_85",
+      "resolucao": "A força magnética sobre um condutor percorrido por corrente é F=B·i·L·senθ. Para o dispositivo funcionar, a força deve equilibrar a força peso indicada no esquema. Substituindo os valores da corrente, do comprimento do fio e da massa, encontra-se B=0,5 T. Gabarito: A."
+    },
+    {
+      "id": "2013_86",
+      "resolucao": "O poliacrilato possui grupos iônicos que atraem moléculas polares de água por interações íon-dipolo. Essas interações são mais intensas que as ligações de hidrogênio entre a celulose do tecido e a água, permitindo que o polímero absorva e retenha maior quantidade de líquido. Gabarito: E."
+    },
+    {
+      "id": "2013_87",
+      "resolucao": "Antes da abertura do paraquedas, o paraquedista atinge velocidade terminal e a força resultante é nula. Ao abrir o paraquedas, a resistência do ar aumenta bruscamente e supera o peso, produzindo força resultante para cima enquanto a velocidade diminui. Depois, a nova velocidade terminal é alcançada e a resultante volta a zero. O gráfico correspondente é B. Gabarito: B."
+    },
+    {
+      "id": "2013_88",
+      "resolucao": "O DNA mitocondrial é herdado quase exclusivamente da mãe, pois as mitocôndrias do zigoto vêm do óvulo. Assim, o DNA mitocondrial do rapaz deve apresentar homologia com o da avó materna, que transmitiu suas mitocôndrias à mãe dele. Gabarito: D."
+    },
+    {
+      "id": "2013_89",
+      "resolucao": "No equilíbrio térmico, o calor perdido pela água quente é igual ao calor recebido pela água fria: mₕ·(70−30)=m𝒻·(30−25). Logo, mₕ/m𝒻=5/40=0,125. Gabarito: B."
+    },
+    {
+      "id": "2013_90",
+      "resolucao": "Um carbono quaternário está ligado diretamente a quatro outros átomos de carbono. Na estrutura do NanoKid, esse tipo de carbono aparece na região das mãos, onde o carbono central está ligado a quatro grupos carbônicos. Gabarito: A."
     }
   ]
 }
