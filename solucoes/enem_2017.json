@@ -399,6 +399,66 @@
     {
       "id": "2017_105",
       "resolucao": "Quando o vento diminui, a estação híbrida não depende exclusivamente das turbinas eólicas. A energia excedente pode ser armazenada na forma de hidrogênio, e o sistema também dispõe de biogás para manter a geração. O hidrogênio armazenado pode alimentar células a combustível, permitindo continuar fornecendo eletricidade à rede durante períodos sem vento. Gabarito: B."
+    },
+    {
+      "id": "2017_106",
+      "resolucao": "Os óleos essenciais são misturas de substâncias voláteis. Com temperaturas mais baixas, como as do início da manhã, ocorre menor evaporação desses compostos, reduzindo sua perda para o ambiente durante a coleta. A prática, portanto, se explica pela volatilização das substâncias de interesse quando a planta é aquecida. Gabarito: A."
+    },
+    {
+      "id": "2017_107",
+      "resolucao": "O comprimento de onda ideal deve ser bastante absorvido pela melanina dos pelos e pouco absorvido pela oxi-hemoglobina e pela água dos tecidos, para concentrar o aquecimento no folículo capilar e evitar danos às estruturas vizinhas. Pela comparação das curvas do gráfico, 700 nm oferece essa condição. Gabarito: B."
+    },
+    {
+      "id": "2017_108",
+      "resolucao": "Desprezando perdas, a energia mecânica da criança se conserva. Nos pontos mais alto e mais baixo, a velocidade instantânea é zero e, portanto, a energia cinética também é zero. Ao passar pela posição de equilíbrio, a velocidade e a energia cinética são máximas. O gráfico deve ter um máximo em h = 0 e zerar nos extremos do movimento. Gabarito: C."
+    },
+    {
+      "id": "2017_109",
+      "resolucao": "A piracema exige que os peixes se desloquem rio acima até áreas adequadas à reprodução. Barragens interrompem ou dificultam esse deslocamento, reduzindo o percurso migratório disponível e impedindo que parte dos indivíduos alcance os locais de desova. Gabarito: A."
+    },
+    {
+      "id": "2017_110",
+      "resolucao": "O fusível suporta no máximo 0,5 A. No ramo inferior, o resistor de 120 Ω está em paralelo com o de 60 Ω; no limite, a corrente de 0,5 A pelo ramo de 120 Ω produz queda de tensão de 60 V. Essa tensão também faz passar 1 A pelo resistor de 60 Ω, totalizando 1,5 A no resistor de 40 Ω, cuja queda também é 60 V. Assim, a fonte deve fornecer 60 + 60 = 120 V. Gabarito: D. Fonte de conferência: https://dequestoes.com.br/enem/2017/questao-110-fusivel-e-um-dispositivo-de-protecao-contra-sobrecorrente/."
+    },
+    {
+      "id": "2017_111",
+      "resolucao": "O mercúrio é um contaminante persistente que se acumula nos organismos. Ao longo da cadeia alimentar, sua concentração aumenta por biomagnificação: predadores consomem muitos organismos contaminados e acumulam o poluente em seus tecidos. Como os botos estão no topo da cadeia alimentar, apresentam concentrações mais elevadas. Gabarito: E."
+    },
+    {
+      "id": "2017_112",
+      "resolucao": "Com os dois caminhos iguais, as ondas chegam em fase. O deslocamento aumenta o percurso ADC em 20 cm em relação a AEC; no primeiro mínimo de interferência, essa diferença corresponde a metade do comprimento de onda. Logo, λ/2 = 0,20 m, então λ = 0,40 m. Pela relação v = λf, f = 320/0,40 = 800 Hz. Gabarito: C. Fonte de conferência: https://fisicaflavio.com.br/enem/2017/questao-112-trombone-quincke-interferencia-frequencia."
+    },
+    {
+      "id": "2017_113",
+      "resolucao": "O óleo de linhaça é formado por substâncias de elevada massa molecular e caráter lipossolúvel, enquanto fibras e outros componentes insolúveis ficam retidos em etapas de filtração. Seguindo o esquema de separação, a fração que reúne o óleo após as etapas indicadas é o resíduo 4. Gabarito: E."
+    },
+    {
+      "id": "2017_114",
+      "resolucao": "Na produção do biodiesel, triglicerídeos reagem com metanol ou etanol por transesterificação. Os produtos principais são ésteres de ácidos graxos e glicerol. Assim, a função orgânica que caracteriza o biodiesel é o éster. Gabarito: B."
+    },
+    {
+      "id": "2017_115",
+      "resolucao": "A centrifugação acelera a separação porque componentes de densidades diferentes respondem de modo distinto à rotação. Os mais densos tendem a se deslocar para regiões mais afastadas do eixo, enquanto os menos densos permanecem relativamente mais próximos. O critério de separação é a diferença de densidade. Gabarito: A."
+    },
+    {
+      "id": "2017_116",
+      "resolucao": "A membrana plasmática segue o modelo do mosaico fluido. Seus fosfolipídios e muitas proteínas podem se deslocar lateralmente no plano da bicamada. Após a fusão das células, as proteínas inicialmente separadas se misturam ao longo da membrana, evidenciando essa mobilidade. Gabarito: A."
+    },
+    {
+      "id": "2017_117",
+      "resolucao": "A distrofia muscular de Duchenne é recessiva e ligada ao cromossomo X. Mesmo em gêmeas monozigóticas heterozigotas, a inativação aleatória de um dos cromossomos X pode ocorrer em proporções diferentes nos tecidos. Se o X com o alelo normal for inativado em muitas células, o fenótipo da doença pode se manifestar em uma das gêmeas. Gabarito: D."
+    },
+    {
+      "id": "2017_118",
+      "resolucao": "O concregrama possui espaços preenchidos por solo e grama entre as peças de concreto. Esses vazios permitem que a água da chuva infiltre no terreno, ao contrário de uma superfície totalmente pavimentada. Assim, o piso reduz a impermeabilização do solo e favorece a recarga subterrânea. Gabarito: A."
+    },
+    {
+      "id": "2017_119",
+      "resolucao": "O lapachol possui uma hidroxila ácida (pKa 6). Uma solução básica de carbonato de sódio remove esse próton e transforma o composto em um sal iônico, mais solúvel na fase aquosa. Isso facilita sua separação da serragem por extração e filtração. Gabarito: A."
+    },
+    {
+      "id": "2017_120",
+      "resolucao": "Na osmose reversa, a pressão mecânica aplicada à água salgada deve vencer a pressão osmótica natural, que tenderia a levar água para o lado mais concentrado. As duas pressões atuam em sentidos opostos, e a pressão mecânica precisa ser maior para forçar a passagem de água pela membrana. Gabarito: E."
     }
   ]
 }
