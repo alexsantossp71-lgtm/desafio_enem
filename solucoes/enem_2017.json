@@ -459,6 +459,66 @@
     {
       "id": "2017_120",
       "resolucao": "Na osmose reversa, a pressão mecânica aplicada à água salgada deve vencer a pressão osmótica natural, que tenderia a levar água para o lado mais concentrado. As duas pressões atuam em sentidos opostos, e a pressão mecânica precisa ser maior para forçar a passagem de água pela membrana. Gabarito: E."
+    },
+    {
+      "id": "2017_121",
+      "resolucao": "Para acender o LED, a associação precisa fornecer pelo menos 3,6 V. Em pilhas ligadas em série, as forças eletromotrizes se somam quando a ligação é feita com os polos em orientação adequada; se uma pilha for invertida, sua tensão será subtraída. Entre os esquemas, a alternativa C apresenta a combinação de semirreações que fornece a diferença de potencial necessária. Gabarito: C."
+    },
+    {
+      "id": "2017_122",
+      "resolucao": "São necessários 900 000 × 0,500 g = 450 000 g de AAS. Como o rendimento é de 50%, a quantidade teórica correspondente deve ser o dobro: 900 000 g. Isso equivale a 900 000/180 = 5 000 mol de AAS. A reação ocorre na proporção 1:1, então são necessários 5 000 mol de ácido salicílico: 5 000 × 138 = 690 000 g = 690 kg. Gabarito: D."
+    },
+    {
+      "id": "2017_123",
+      "resolucao": "Bromélias são epífitas: usam outras plantas apenas como suporte, sem retirar delas a água ou os nutrientes. Suas folhas formam uma roseta que retém água da chuva e detritos, permitindo captar umidade e nutrientes mesmo sem contato com o solo. Gabarito: C."
+    },
+    {
+      "id": "2017_124",
+      "resolucao": "Aplicando a lei de Hess, combinam-se as três equações fornecidas para obter FeO(s) + CO(g) → Fe(s) + CO₂(g). A inversão e a multiplicação das equações intermediárias devem respeitar a estequiometria e os sinais das entalpias; o resultado para a reação por mol de FeO é aproximadamente −17 kJ/mol. Gabarito: B."
+    },
+    {
+      "id": "2017_125",
+      "resolucao": "A dupla hélice é mantida por duas ligações de hidrogênio entre A–T e três entre G–C. Regiões ricas em adenina e timina exigem menos energia para separar as fitas e desnaturam primeiro quando a temperatura aumenta. Entre as sequências apresentadas, a alternativa C tem menor estabilidade térmica. Gabarito: C."
+    },
+    {
+      "id": "2017_126",
+      "resolucao": "O flúor é o elemento mais eletronegativo da tabela periódica. Sua forte tendência de atrair elétrons permite que reaja até com gases nobres, como o xenônio, em condições adequadas. Essa propriedade explica sua escolha como reagente capaz de formar compostos com o xenônio. Gabarito: C."
+    },
+    {
+      "id": "2017_127",
+      "resolucao": "A potência térmica transferida à água é P = ṁ·c·ΔT. Como o calor específico e a densidade da água são constantes, a potência é proporcional ao produto da vazão pela variação de temperatura. Usando os valores correspondentes às condições morno e superquente no gráfico, obtém-se a razão Pmorno/Psuperquente = 3/8. Gabarito: D."
+    },
+    {
+      "id": "2017_128",
+      "resolucao": "Os cones da retina são fotorreceptores responsáveis pela percepção das cores, pois respondem a diferentes faixas de comprimento de onda da luz visível. Sua degeneração compromete a discriminação cromática, embora não impeça necessariamente a formação de imagens ou o ajuste da pupila. Gabarito: A."
+    },
+    {
+      "id": "2017_129",
+      "resolucao": "Pela lei de Ohm, para limitar a corrente a 0,01 A sob 10 000 V, a resistência total deve ser pelo menos R = U/I = 10 000/0,01 = 1 000 000 Ω. Como a resistência do corpo é cerca de 1 000 Ω, a resistência interna do gerador deve ser da ordem de mil vezes maior que a do corpo, limitando a corrente. Gabarito: C."
+    },
+    {
+      "id": "2017_130",
+      "resolucao": "Na cromatografia, a substância que interage mais fortemente com a fase estacionária permanece mais tempo retida e percorre menor distância. A capsorubina possui grupos polares capazes de formar interações mais intensas com a água retida na celulose; por isso, migra mais lentamente que os carotenoides menos polares. Gabarito: D."
+    },
+    {
+      "id": "2017_131",
+      "resolucao": "O motorista desatento demora 1 s a mais para frear. Nesse intervalo, percorre 14,5 m, pois parte de 14 m/s e continua acelerando a 1 m/s². Sua velocidade passa a 15 m/s; a distância de frenagem é 15²/(2×5) = 22,5 m. O motorista atento freia a 14 m/s e percorre 14²/(2×5) = 19,6 m. A diferença total é (14,5 + 22,5) − 19,6 = 17,4 m. Gabarito: E."
+    },
+    {
+      "id": "2017_132",
+      "resolucao": "O salgamento torna o meio externo às células muito concentrado em solutos, criando um ambiente hipertônico. Por osmose, a água atravessa a membrana e sai das células em direção ao meio mais concentrado, reduzindo a água disponível para microrganismos e ajudando a conservar o alimento. Gabarito: E."
+    },
+    {
+      "id": "2017_133",
+      "resolucao": "A tensão máxima induzida em um gerador depende do número de espiras, da área, do campo magnético e da velocidade angular: Vmáx = N·B·A·ω. A corrente de curto-circuito depende também da resistência do fio; ao dobrar N, a tensão e a resistência do enrolamento dobram na mesma proporção, mantendo a corrente de curto constante. Gabarito: A."
+    },
+    {
+      "id": "2017_134",
+      "resolucao": "Na ozonólise, a ligação dupla do alceno é rompida e cada carbono da dupla origina um composto carbonílico. No 1-fenil-2-metilprop-1-eno, um dos carbonos da dupla está ligado a um hidrogênio e a um grupo fenil, formando benzaldeído; o outro está ligado a dois grupos metil, formando propanona. Gabarito: A."
+    },
+    {
+      "id": "2017_135",
+      "resolucao": "A transfusão de sangue já é uma forma de terapia celular: o procedimento introduz no organismo células sanguíneas de um doador, como hemácias, plaquetas ou outros componentes, para substituir ou complementar as do paciente. Por isso, é a técnica hospitalar rotineira mencionada no texto. Gabarito: E."
     }
   ]
 }
