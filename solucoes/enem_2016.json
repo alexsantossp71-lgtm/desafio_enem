@@ -523,6 +523,66 @@
     {
       "id": "2016_135",
       "resolucao": "As reticências aparecem no momento em que a fala do policial é interrompida: “O PM pensou que…”. O leitor não recebe a explicação completa, mas é levado a inferir o que ficou subentendido a partir do contexto dos tiros e da situação narrada. O sinal marca uma informação implícita. Gabarito: B."
+    },
+    {
+      "id": "2016_136",
+      "resolucao": "O silo é formado por um cilindro e um cone com a mesma base, raio 3 m, altura do cilindro 12 m e altura do cone 3 m. Usando π=3: Vcil=3×3²×12=324 m³; Vcone=(1/3)×3×3²×3=27 m³. O volume total é 351 m³. Como cada caminhão transporta 20 m³, 351/20=17,55; é necessário arredondar para cima, totalizando 18 viagens. Gabarito: D. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2016/questao-136-silo-cilindro-cone-volume-viagens."
+    },
+    {
+      "id": "2016_137",
+      "resolucao": "Primeiro, aplica-se a escala 1:8 às dimensões reais: 220/8=27,5 cm; 120/8=15 cm; 50/8=6,25 cm. Depois, a impressora reduz o desenho em 20%, portanto cada medida é multiplicada por 0,8: altura 22 cm, largura 12 cm e profundidade 5 cm. Gabarito: A. Fonte de conferência: https://esmer.com.br/questoes/enem/2016/geometria-espacial-137-1430."
+    },
+    {
+      "id": "2016_138",
+      "resolucao": "Um pé equivale a 12 polegadas, e cada polegada equivale a 2,54 cm. Assim, 1 pé=12×2,54=30,48 cm. Para 443 pés: 443×30,48=13 502,64 cm. Convertendo para metros, 13 502,64/100=135,0264 m, aproximadamente 135 m. Gabarito: D. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2016/questao-138-london-eye-pes-polegadas-metros."
+    },
+    {
+      "id": "2016_139",
+      "resolucao": "Na primeira hora, a cisterna passa de 6 000 L para 5 000 L, então a primeira bomba retira 1 000 L/h. Nas duas horas seguintes, as duas bombas juntas retiram 5 000 L, vazão total de 2 500 L/h. A segunda bomba, sozinha, tem vazão 2 500−1 000=1 500 L/h. Gabarito: C. Fonte de conferência: https://www.simuladle.com/questoes/enem-2016-dia-2/139."
+    },
+    {
+      "id": "2016_140",
+      "resolucao": "O atleta mais regular é o que tem menor desvio padrão, e o menos regular é o que tem maior desvio padrão. Pela tabela, o atleta III tem o menor desvio (4,08) e o atleta II tem o maior (8,49). Portanto, eles se enfrentam na primeira luta. Gabarito: C. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2016/questao-140-pesagens-atletas-desvio-padrao-regularidade."
+    },
+    {
+      "id": "2016_141",
+      "resolucao": "A altura lateral de cada pneu é a porcentagem da largura indicada no código. Calculando: 175/65 → 175×0,65=113,75 mm; 175/75 →131,25 mm; 175/80 →140 mm; 185/60 →111 mm; 205/55 →112,75 mm. A menor altura é 111 mm, correspondente ao pneu 185/60R15. Gabarito: E."
+    },
+    {
+      "id": "2016_142",
+      "resolucao": "Como só é possível caminhar na horizontal e na vertical, a distância é a soma dos quarteirões percorridos em cada direção. Para ficar à mesma distância dos endereços na rua E, o imóvel deve estar na rua 4, no ponto médio entre as ruas 2 e 6. Na interseção 4 com D, a distância até os dois primeiros locais é de 3 quarteirões; até a escola, também é de 3. Gabarito: C. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2016/questao-142/."
+    },
+    {
+      "id": "2016_143",
+      "resolucao": "A área do terreno irregular é a soma de dois triângulos retângulos: (15×15)/2+(3×21)/2=112,5+31,5=144 m². O retângulo deve ter a mesma área. Se a largura é x e o comprimento x+7, então x(x+7)=144, ou x²+7x−144=0. A solução positiva é x=9; o comprimento é 16 m. Gabarito: B. Fonte de conferência: https://www.simuladle.com/questoes/enem-2016-dia-2/143."
+    },
+    {
+      "id": "2016_144",
+      "resolucao": "Somando os lucros: 37+33+35+22+30+35+25=217 milhões. A média é 217/7=31 milhões. O lucro mais próximo dessa média é 30 milhões, registrado no mês V, com diferença de apenas 1 milhão. Gabarito: D. Fonte de conferência: https://dequestoes.com.br/enem/2016/questao-144-preocupada-com-seus-resultados-uma-empresa-fez-um-balanco/."
+    },
+    {
+      "id": "2016_145",
+      "resolucao": "Com 1 200 funcionários, a cota exigida é 5%. Se x pessoas elegíveis forem contratadas, o total de funcionários será 1 200+x e o número de pessoas da cota será 10+x. A condição é 10+x≥0,05(1 200+x). Resolvendo: 10+x≥60+0,05x; 0,95x≥50; x≥52,63. O menor número inteiro é 53 contratações. Gabarito: E. Fonte de conferência: https://www.simuladle.com/questoes/enem-2016-dia-2/145."
+    },
+    {
+      "id": "2016_146",
+      "resolucao": "O custo das quatro caixas é 4×R$16=R$64, e o total de picolés é 4×20=80. O lucro do primeiro dia foi R$40; para obter lucro 20% maior, precisa alcançar R$48. Assim, a receita necessária no segundo dia é 64+48=R$112. Dividindo por 80 picolés, o preço unitário é R$1,40. Gabarito: C. Fonte de conferência: https://www.simuladle.com/questoes/enem-2016-dia-2/146."
+    },
+    {
+      "id": "2016_147",
+      "resolucao": "Sem restrições, o número de duplas escolhidas entre 10 tenistas é C(10,2)=45. Devem ser excluídas as duplas formadas pelos quatro tenistas que não podem jogar juntos: C(4,2)=6. Portanto, restam 45−6=39 possibilidades, representadas pela expressão C(10,2)−C(4,2). Gabarito: A."
+    },
+    {
+      "id": "2016_148",
+      "resolucao": "No ábaco, cada haste representa uma ordem decimal. A leitura dos pinos fornece 4 centenas de milhar, 6 dezenas de milhar, 0 unidades de milhar, 1 centena, 7 dezenas e 1 unidade. O zero na ordem dos milhares deve ser mantido como posição, formando o número 460 171. Gabarito: D. Fonte de conferência: https://mthedu.com.br/questoes/enem-2016-148/."
+    },
+    {
+      "id": "2016_149",
+      "resolucao": "A trajetória parabólica de A atinge altura máxima de 16 m no instante 4 s. Para que B a intercepte nesse ponto, a reta de B deve passar por (0,0) e (4,16), com coeficiente angular m=16/4=4. A inclinação atual é 2, então deve aumentar em 2 unidades. Gabarito: C. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2016/questao-149/."
+    },
+    {
+      "id": "2016_150",
+      "resolucao": "A espessura do revestimento é inversamente proporcional ao quadrado da distância: e=k/D². O custo é proporcional ao volume, que é área vezes espessura; portanto C=K·A/D². Usando o caso conhecido (A=9 m², D=3 m, C=R$500), temos 500=K×9/9, logo K=500. Assim, C=500A/D². Gabarito: B. Fonte de conferência: https://www2.curso-objetivo.br/vestibular/resolucao-comentada/enem/2016/enem2016_2dia.pdf."
     }
   ]
 }
