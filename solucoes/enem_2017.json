@@ -579,6 +579,66 @@
     {
       "id": "2017_150",
       "resolucao": "A tela ficou inclinada 45° em relação à horizontal. Para retornar à orientação original, deve-se considerar o menor giro no sentido indicado pela figura; a rotação necessária é de 135° no sentido horário. Gabarito: B."
+    },
+    {
+      "id": "2017_151",
+      "resolucao": "A avaliação “Bom” começa em média ponderada 7. Seja x a nota da disciplina I, que vale 12 créditos. A média deve satisfazer (12x + 8·4 + 6·8 + 5·8 + 7,5·10)/(12+4+8+8+10) ≥ 7. Simplificando: (12x+195)/42 ≥ 7, então 12x ≥ 99 e x ≥ 8,25. Gabarito: D."
+    },
+    {
+      "id": "2017_152",
+      "resolucao": "No início, apenas o Reservatório 1 recebe água, então sua altura cresce linearmente com o volume total. Ao atingir o nível do cano de ligação, a água começa a preencher o Reservatório 2 e o nível do primeiro fica temporariamente constante. Quando os dois atingem a mesma altura, passam a encher juntos; como têm bases iguais, a altura no Reservatório 1 volta a crescer, mas com metade da inclinação inicial. O gráfico é uma reta crescente, um trecho horizontal e uma reta menos inclinada: D. Gabarito: D. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2017/questao-152-reservatorios-ligados-altura-volume-grafico."
+    },
+    {
+      "id": "2017_153",
+      "resolucao": "Os centros dos três canos formam um triângulo equilátero de lado 1,20 m. Sua altura é (1,20·√3)/2 = 0,60·1,7 = 1,02 m. Do topo da carroceria ao ponto mais alto da carga: 0,60 + 1,02 + 0,60 = 2,22 m. Somando a carroceria, a altura do caminhão é 1,30 + 2,22 = 3,52 m. Com a margem de segurança de 0,50 m, o vão deve ter pelo menos 4,02 m. Gabarito: D. Fonte de conferência: https://www.simuladle.com/questoes/enem-2017-dia-2/153."
+    },
+    {
+      "id": "2017_154",
+      "resolucao": "A partir de X, o trajeto é: caminhar para oeste, virar à direita na primeira rua (direção norte), seguir em frente e virar à esquerda na rua seguinte (direção oeste). Seguindo essa sequência no mapa, chega-se ao ponto 1, que identifica a padaria. Gabarito: A."
+    },
+    {
+      "id": "2017_155",
+      "resolucao": "A aprovação exige média maior ou igual a 6, equivalente a somar pelo menos 30 pontos nas cinco provas. X soma 31 pontos e tem média 6,2; Y soma 30 e tem média 6,0; Z soma 29 e tem média 5,8. Como a igualdade também aprova, apenas Z fica reprovado. Gabarito: B."
+    },
+    {
+      "id": "2017_156",
+      "resolucao": "As duas hastes do compasso medem 10 cm e formam um ângulo de 120°. O raio da tampa é a distância entre as pontas B e C. Pela lei dos cossenos, R²=10²+10²−2·10·10·cos(120°)=200+100=300. Logo, R=10√3≈17 cm. Esse valor está no intervalo 15<R≤21, correspondente ao material IV. Gabarito: D. Fonte de conferência: https://mthedu.com.br/questoes/enem-2017-156/."
+    },
+    {
+      "id": "2017_157",
+      "resolucao": "O diâmetro original é 4,000 mm. Comparando as diferenças absolutas: |4,025−4,000|=0,025; |4,100−4,000|=0,100; |3,970−4,000|=0,030; |4,080−4,000|=0,080; |3,099−4,000|=0,901. A menor diferença é 0,025 mm, portanto a pérola escolhida mede 4,025 mm. Gabarito: C."
+    },
+    {
+      "id": "2017_158",
+      "resolucao": "A escala 1:400 é linear. Para volumes, o fator de ampliação deve ser elevado ao cubo: 400³. Assim, o volume real é 25×400³ = 1 600 000 000 cm³. Como 1 m³ equivale a 1 000 000 cm³, o volume do monumento é 1 600 m³. Gabarito: C."
+    },
+    {
+      "id": "2017_159",
+      "resolucao": "A roda traseira dá, a cada pedalada, um número de voltas igual à razão entre os dentes da coroa e os da catraca. Para andar mais devagar, essa razão deve ser a menor possível. Na combinação IV, a coroa tem 26 dentes e a catraca 24, resultando em 26/24≈1,08 volta por pedalada, menor que as demais combinações. Gabarito: D. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2017/questao-159/."
+    },
+    {
+      "id": "2017_160",
+      "resolucao": "A logomarca é dividida em seis regiões. Para a primeira região, há quatro cores disponíveis. Em cada região seguinte, a cor não pode repetir a de sua região vizinha, restando três possibilidades. Pelo princípio multiplicativo, o total é 4×3×3×3×3×3 = 4×3⁵ = 972 maneiras. O enunciado não exige que todas as quatro cores apareçam em cada pintura. Gabarito: E. Fonte de conferência: https://www.curso-objetivo.br/vestibular/resolucao-comentada/enem/2017/2dia/enem2017_2dia.pdf."
+    },
+    {
+      "id": "2017_161",
+      "resolucao": "A tela usada nas laterais totaliza 100 m, que correspondem ao perímetro da base retangular: 2x+2y=100, portanto x+y=50. A área é A=xy. Para uma soma fixa, o produto é máximo quando os lados são iguais; assim, x=y=25 m. Gabarito: D."
+    },
+    {
+      "id": "2017_162",
+      "resolucao": "Da equação (p+a)(v+b)=K, isolando v, obtém-se v=K/(p+a)−b. Essa é uma função recíproca transladada, cujo gráfico é um ramo de hipérbole. Gabarito: E."
+    },
+    {
+      "id": "2017_163",
+      "resolucao": "É possível visitar os dois topos sem usar o teleférico: subir e descer o mirante 1 custa 0,15+0,10=R$ 0,25; subir e descer o mirante 2 custa 1,80+2,30=R$ 4,10. Caminhar entre eles não tem custo. Total: 0,25+4,10=R$ 4,35, menor que os trajetos com teleférico (R$ 4,40 e R$ 4,45). Gabarito: C. Fonte de conferência: https://matrix.chapeudomago.com.br/enem/2017/regular/matematica/questao-163."
+    },
+    {
+      "id": "2017_164",
+      "resolucao": "A distância percorrida às cegas é proporcional ao tempo olhando para o celular. Como os dois motoristas dirigem à mesma velocidade e X gasta 25% do tempo de Y, a razão entre as distâncias é a mesma razão entre os tempos: dX/dY=0,25=1/4. Gabarito: B."
+    },
+    {
+      "id": "2017_165",
+      "resolucao": "No Gráfico 1, o eixo começa em zero: a razão entre as alturas é 30/70=3/7. No Gráfico 2, o eixo começa em 20, então as alturas desenhadas passam a ser 30−20=10 e 70−20=50; a razão é 10/50=1/5. A diferença é 3/7−1/5=(15−7)/35=8/35. Gabarito: E. Fonte de conferência: https://esmer.com.br/questoes/enem/2017/estatistica-e-probabilidade-165-1643."
     }
   ]
 }
