@@ -643,6 +643,66 @@
     {
       "id": "2016_165",
       "resolucao": "Os andares de João formam a sequência 1,3,5,7,..., de razão 2; os de Pedro, 1,4,7,10,..., de razão 3. Os andares em comum são 1,7,13,19,..., uma progressão aritmética de razão 6. Como houve exatamente 20 andares em comum e ambos terminaram no último andar, esse último é o 20º termo: a20=1+(20−1)×6=115. Gabarito: D. Fonte de conferência: https://www.simuladle.com/questoes/enem-2016-dia-2/165."
+    },
+    {
+      "id": "2016_166",
+      "resolucao": "Os pontos F(−1,1) e B(1,−1) estão a uma distância de √[(2)²+(−2)²]=2√2≈2,8 km. Pela reta, são 2 800 m e o tempo é 2 800×1=2 800 h. Na semicircunferência, o raio é √2 km e o comprimento é π√2≈3×1,4=4,2 km, ou 4 200 m. Como cada metro leva 0,6 h, o tempo é 4 200×0,6=2 520 h. A semicircunferência, embora mais longa, é a opção mais rápida. Gabarito: B. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2016/questao-166-galeria-reta-semicircunferencia-menor-tempo."
+    },
+    {
+      "id": "2016_167",
+      "resolucao": "A parábola y=9−x² intercepta o chão (y=0) quando x=±3, então a base da entrada mede 6 m. A altura máxima ocorre em x=0 e vale 9 m. O retângulo de base 6 e altura 9 tem área 54 m². A área sob a parábola corresponde a 2/3 dessa área: (2/3)×54=36 m². Gabarito: C."
+    },
+    {
+      "id": "2016_168",
+      "resolucao": "Há quatro posições e duas devem ser ocupadas por algarismos: escolhem-se as posições de 4!/(2!·2!)=6 maneiras. Cada algarismo tem 10 opções e cada letra pode ser maiúscula ou minúscula, totalizando 52 opções por posição. O total é 6×10²×52²=10²×52²×4!/(2!·2!), alternativa E. Gabarito: E. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2016/questao-168-senha-dois-digitos-duas-letras-posicoes."
+    },
+    {
+      "id": "2016_169",
+      "resolucao": "O Índice de Gini é 0,3, logo a área sob a curva de Lorenz corresponde a 70% da área do triângulo de referência, isto é, 3 500 unidades de área. Se p é o percentual da massa salarial acumulada pelos 90% de menor salário, a área sob os dois segmentos é 50p+500. Igualando: 50p+500=3 500, então p=60%. Assim, os 10% de maiores salários recebem 100−60=40% da massa salarial. Gabarito: A. Fonte de conferência: https://assinale.com.br/enem/2016/questao-169."
+    },
+    {
+      "id": "2016_170",
+      "resolucao": "Começando com quatro pessoas no térreo, atualiza-se a lotação em cada andar: 1º: 4+4−3=5; 2º: 5+1−1=5; 3º: 5+2−2=5; 4º: 5+2−0=7; 5º: 7+2−6=3. A sequência é 4, 5, 5, 5, 7, 3. O número que mais se repete é 5, portanto essa é a moda. Gabarito: D. Fonte de conferência: https://www.simuladle.com/questoes/enem-2016-dia-2/170."
+    },
+    {
+      "id": "2016_171",
+      "resolucao": "Na Região Nordeste, a população das capitais passou de 1 270 729 em 1940 para 10 162 346 em 2000. O aumento percentual é [(10 162 346−1 270 729)/1 270 729]×100≈700%. Gabarito: D."
+    },
+    {
+      "id": "2016_172",
+      "resolucao": "A serra copo deve abrir um furo circular que permita encaixar todas as peças. O diâmetro precisa ser pelo menos igual ao maior diâmetro de uma circunferência que circunscreva as bases: quadrado de lado 4 cm → diagonal 4√2≈5,6 cm; retângulo 3×4 → diagonal 5 cm; triângulo equilátero de lado 6,8 cm → diâmetro circunscrito 2×6,8/√3≈8 cm. A serra II tem diâmetro suficiente para a maior peça. Gabarito: B."
+    },
+    {
+      "id": "2016_173",
+      "resolucao": "O gráfico mostra que as curvas das substâncias A e B se cruzam duas vezes por dia em níveis superiores ao mínimo da substância A. Como o padrão se repete por sete dias, o parâmetro semanal é 2×7=14 ocorrências. Gabarito: E."
+    },
+    {
+      "id": "2016_174",
+      "resolucao": "O volume total é 5×800=4 000 mL. Nas primeiras quatro horas são administrados 40%, ou 1 600 mL; restam 2 400 mL para as 20 horas seguintes. Como cada mL corresponde a 12 gotas, faltam 2 400×12=28 800 gotas. Em 20×60=1 200 minutos, a vazão é 28 800/1 200=24 gotas por minuto. Gabarito: C. Fonte de conferência: https://quantaaulas.com/enem/questoes/2016-q174/."
+    },
+    {
+      "id": "2016_175",
+      "resolucao": "Uma seção plana de uma pirâmide regular de base quadrada pode cortar apenas a base, produzindo um quadrado; pode cortar três faces laterais, formando um triângulo; pode cortar a base e duas faces laterais, formando um trapézio ou outro quadrilátero; e pode cortar as quatro faces laterais sem atingir a base, formando um pentágono. Portanto, todos os polígonos listados — triângulos, quadrados, trapézios, quadriláteros irregulares e pentágonos — são possíveis. Gabarito: E."
+    },
+    {
+      "id": "2016_176",
+      "resolucao": "A vazão de enchimento é a diferença entre a vazão que entra pela torneira e a que sai pelo ralo. Entre 5 e 10 minutos, a torneira mantém 20 L/min e o ralo mantém 5 L/min; a vazão resultante é constante e igual a 15 L/min. Nos demais intervalos, pelo menos uma das vazões varia. Gabarito: B."
+    },
+    {
+      "id": "2016_177",
+      "resolucao": "Calculam-se os índices de infestação: I=14/400=3,5%; II=6/500=1,2%; III=13/520=2,5%; IV=9/360=2,5%; V=15/500=3,0%. O maior percentual é o do bairro I, portanto as ações devem começar nele. Gabarito: A."
+    },
+    {
+      "id": "2016_178",
+      "resolucao": "O trecho AB acompanha um paralelo terrestre, que é uma circunferência paralela ao plano α; sua projeção ortogonal continua sendo um arco de circunferência. O trecho BC acompanha um meridiano, que se projeta como um segmento de reta em direção ao eixo da Terra. A alternativa E mostra o arco seguido de um pequeno segmento inclinado em direção ao centro. Gabarito: E. Fonte de conferência: https://mthedu.com.br/questoes/enem-2016-178/."
+    },
+    {
+      "id": "2016_179",
+      "resolucao": "Calcula-se a massa de contaminantes não capturados por dia: F1=18/6=3 mg/dia; F2=15/3=5 mg/dia; F3=18/4=4,5 mg/dia; F4=6/3=2 mg/dia; F5=3/2=1,5 mg/dia. O pior desempenho é o do filtro que deixa passar mais contaminantes por dia, F2. Gabarito: B."
+    },
+    {
+      "id": "2016_180",
+      "resolucao": "Pela escala Richter, M=(2/3)log(E/E₀). Subtraindo as magnitudes: 9−7=(2/3)log(E₁/E₂). Logo, log(E₁/E₂)=3 e E₁/E₂=10³. A energia do terremoto no Japão foi mil vezes a energia do terremoto na China. Gabarito: C."
     }
   ]
 }
