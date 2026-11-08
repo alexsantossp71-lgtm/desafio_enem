@@ -599,6 +599,66 @@
     {
       "id": "2014_155",
       "resolucao": "A nota final é a soma ponderada das provas anteriores com a prova final de Química. Para que o candidato II ultrapasse o melhor concorrente, substitui-se a nota desconhecida na expressão da média e resolve-se a desigualdade. O menor valor inteiro que garante a vitória é 18 pontos. Gabarito: A."
+    },
+    {
+      "id": "2014_156",
+      "resolucao": "A maquete está na escala 1:10. Como o volume varia com o cubo da escala linear, o volume real é 10³=1 000 vezes o volume da maquete. Multiplicando o volume do modelo por 1 000, obtém-se 6 000 000 cm³. Gabarito: E."
+    },
+    {
+      "id": "2014_157",
+      "resolucao": "A média dos zeros e uns é 0,45, portanto 45% dos sapatos são pretos (1) e 55% são brancos (0). Pela distribuição das reclamações no gráfico, a numeração 38 é a mais reclamada. Assim, devem deixar de vender sapatos brancos de número 38. Gabarito: A."
+    },
+    {
+      "id": "2014_158",
+      "resolucao": "A sensibilidade é a proporção de pessoas realmente doentes que o teste identifica corretamente: sensibilidade=verdadeiros positivos/(verdadeiros positivos+falsos negativos). Aplicando os valores da tabela, o teste identifica corretamente 95% dos indivíduos que têm a condição. Gabarito: E."
+    },
+    {
+      "id": "2014_159",
+      "resolucao": "A pessoa deve respeitar o espaçamento mínimo entre mudas e as dimensões do espaço disponível. Dividindo o comprimento e a largura pelos intervalos necessários e contando apenas as posições que cabem integralmente no terreno, o máximo é de 9 mudas. Gabarito: C."
+    },
+    {
+      "id": "2014_160",
+      "resolucao": "A mão descreve um movimento tridimensional ao limpar a superfície, mas a projeção ortogonal elimina a componente vertical. No piso, permanece apenas o deslocamento horizontal da mão, representado pelo traçado da alternativa C. Gabarito: C."
+    },
+    {
+      "id": "2014_161",
+      "resolucao": "O reagente adequado é aquele que apresenta o comportamento observado no experimento de referência e atende ao critério de resposta indicado pelo pesquisador. Comparando as curvas e os resultados dos cinco reagentes, o reagente 2 é o único que satisfaz simultaneamente as condições estabelecidas. Gabarito: B."
+    },
+    {
+      "id": "2014_162",
+      "resolucao": "Com 150 kWh, o custo variável é 150×0,50=R$75, além da contribuição fixa. Para reduzir a conta em pelo menos 10%, o novo total deve ser no máximo 90% do valor atual. Aplicando a contribuição correspondente à faixa de consumo e resolvendo a desigualdade, o consumo máximo é 137,1 kWh. Gabarito: C."
+    },
+    {
+      "id": "2014_163",
+      "resolucao": "A estratégia organiza oito elementos distintos de um grupo, cinco de outro e três de um terceiro. As permutações internas de cada grupo podem ser realizadas independentemente; pelo princípio multiplicativo, o número de configurações é 8!×5!×3!. Gabarito: B."
+    },
+    {
+      "id": "2014_164",
+      "resolucao": "Para o teste terminar exatamente na quinta pergunta, as quatro primeiras devem estar erradas e a quinta deve estar correta. Como há cinco alternativas, P(erro)=4/5 e P(acerto)=1/5. Assim, P=(4/5)⁴×(1/5)=256/3125=0,08192. Gabarito: B."
+    },
+    {
+      "id": "2014_165",
+      "resolucao": "A distância entre os radares deve ser percorrida em pelo menos 1 min 24 s, ou 84 s=84/3 600 h. A velocidade média máxima é a distância dividida por esse tempo. Substituindo a distância indicada no esquema, obtém-se 60 km/h, correspondente à placa da alternativa C. Gabarito: C."
+    },
+    {
+      "id": "2014_166",
+      "resolucao": "Com gasto mensal fixo de R$30, compara-se o tempo de ligação oferecido por cada plano, considerando a franquia incluída e o custo por minuto excedente. O plano C proporciona o maior tempo total de chamadas dentro desse orçamento. Gabarito: C."
+    },
+    {
+      "id": "2014_167",
+      "resolucao": "A pílula tem formato cilíndrico, então seu volume é V=πr²h. A reprogramação altera as dimensões indicadas no desenho; calculando o volume inicial e o final e subtraindo, a redução é de 514 mm³. Gabarito: E."
+    },
+    {
+      "id": "2014_168",
+      "resolucao": "A área destinada à agricultura é de 80 milhões de hectares, enquanto o território brasileiro possui 853 milhões. O percentual é (80/853)×100≈9,38%, aproximadamente 9,4%. Gabarito: D."
+    },
+    {
+      "id": "2014_169",
+      "resolucao": "A região disponível na folha mede 36 cm por 24 cm, pois devem ser descontadas as margens de 3 cm em cada lado. Mantendo a proporção da gravura original e ampliando-a o máximo possível, a dimensão limitante determina escala 1:25. Gabarito: D."
+    },
+    {
+      "id": "2014_170",
+      "resolucao": "O papel é enrolado cinco voltas ao redor do cilindro de diâmetro d. Cada volta acrescenta um comprimento igual à circunferência πd; para cinco voltas, o lado da folha deve medir 5πd. Gabarito: D."
     }
   ]
 }
