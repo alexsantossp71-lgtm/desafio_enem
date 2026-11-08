@@ -519,6 +519,66 @@
     {
       "id": "2013_135",
       "resolucao": "Os gráficos apresentam, de forma conjunta, a evolução do número de casamentos e da ocupação no mercado de trabalho. A linguagem verbal e não verbal sintetiza o crescimento desses dois indicadores ao longo do período analisado. Gabarito: E."
+    },
+    {
+      "id": "2013_136",
+      "resolucao": "A torre tem altura de 114 m e inclinação de 15° em relação à vertical. Pela tangente: tan(15°)=L/114. Usando 0,26, L=0,26×114=29,64 m. A base é quadrada, então sua área é L²=29,64²≈878,53 m², maior que 700 m². Gabarito: E. Fonte de conferência: https://educacao.globo.com/provas/enem-2013/questoes/136.html."
+    },
+    {
+      "id": "2013_137",
+      "resolucao": "As dez notas somam 140, então a média inicial é 140/10=14. Retirando a maior nota (19) e a menor (1), a soma restante é 120, dividida por oito notas: 120/8=15. A nova média é 1 ponto maior que a anterior. Gabarito: B. Fonte de conferência: https://educacao.globo.com/provas/enem-2013/questoes/137.html."
+    },
+    {
+      "id": "2013_138",
+      "resolucao": "Antes da alteração, cada uma das seis posições da senha tinha 10 possibilidades, totalizando 10⁶ senhas. Depois, cada posição admite 10 algarismos e 52 letras (26 maiúsculas e 26 minúsculas), totalizando 62⁶. O coeficiente de melhora é a razão entre o número novo e o antigo: 62⁶/10⁶. Gabarito: A. Fonte de conferência: https://educacao.globo.com/provas/enem-2013/questoes/138.html."
+    },
+    {
+      "id": "2013_139",
+      "resolucao": "De meia-noite às 6h são 6×3 600=21 600 segundos. Pingando uma gota a cada 3 segundos, caem 21 600/3=7 200 gotas. Cada gota tem 0,2 mL, então o volume é 7 200×0,2=1 440 mL=1,44 L, aproximadamente 1,4 L. Gabarito: C. Fonte de conferência: https://educacao.globo.com/provas/enem-2013/questoes/139.html."
+    },
+    {
+      "id": "2013_140",
+      "resolucao": "Para cada tipo de grão, compara-se o teor de nutrientes e o preço dos dois fornecedores, identificando o que oferece melhor relação entre qualidade e custo. Aplicando os critérios do quadro, as escolhas são: arroz B, feijão A, soja A e milho B. Gabarito: D."
+    },
+    {
+      "id": "2013_141",
+      "resolucao": "Os centros dos três canos menores formam um triângulo equilátero de lado 60 cm. Sua altura é h=(60√3)/2=30×1,7=51 cm. A distância do centro do cano maior ao centro de um menor é 2/3 da altura: d=34 cm. Somando o raio menor (30 cm) e a folga de 10 cm: R=34+30+10=74 cm. Gabarito: C. Fonte de conferência: https://educacao.globo.com/provas/enem-2013/questoes/141.html."
+    },
+    {
+      "id": "2013_142",
+      "resolucao": "O índice de eficiência é (dias de lactação×produção diária)/intervalo entre partos. Malhada: 360×12/15=288; Mamona: 310×11/12≈284,2; Maravilha: 260×14/12≈303,3; Mateira: 310×13/13=310; Mimosa: 270×12/11≈294,5. O maior índice é o da Mateira. Gabarito: D. Fonte de conferência: https://educacao.globo.com/provas/enem-2013/questoes/142.html."
+    },
+    {
+      "id": "2013_143",
+      "resolucao": "No mapa, o trajeto percorre 16 lados de quadradinhos, totalizando 16 cm. Na escala 1:25 000, isso representa 16×25 000=400 000 cm=4 km em um sentido. Como o aluno vai e volta, percorre 8 km por dia; em cinco dias, 5×8=40 km. Gabarito: E. Fonte de conferência: https://educacao.globo.com/provas/enem-2013/questoes/143.html."
+    },
+    {
+      "id": "2013_144",
+      "resolucao": "No gráfico, o maior crescimento industrial é o de Guarulhos, 60,52%, e o menor é o da cidade de São Paulo, 3,57%. A diferença é 60,52−3,57=56,95 pontos percentuais. Gabarito: C. Fonte de conferência: https://educacao.globo.com/provas/enem-2013/questoes/144.html."
+    },
+    {
+      "id": "2013_145",
+      "resolucao": "O setor 3 tem 7 linhas e 10 colunas, totalizando 70 cadeiras. Dessas, 17 estão reservadas. A razão entre cadeiras reservadas e o total é 17/70. A alternativa foi corrigida no banco, pois a fração 17/70 estava ausente da lista de opções. Gabarito: A. Fonte de conferência: https://educacao.globo.com/provas/enem-2013/questoes/145.html."
+    },
+    {
+      "id": "2013_146",
+      "resolucao": "No produto A, 30 de 100 compradores fizeram a compra em fevereiro, então P(A)=30/100. No produto B, 20 de 120 compraram em fevereiro, então P(B)=20/120. Como os sorteios são independentes, a probabilidade conjunta é (30/100)×(20/120)=1/20. Gabarito: A. Fonte de conferência: https://educacao.globo.com/provas/enem-2013/questoes/146.html."
+    },
+    {
+      "id": "2013_147",
+      "resolucao": "O lado junto ao rio não precisa de tela. Os outros três lados medem 81+190+81=352 m. Cada rolo contém 48 m: 352/48≈7,33. Como não é possível comprar fração de rolo, são necessários 8 rolos. Gabarito: C. Fonte de conferência: https://educacao.globo.com/provas/enem-2013/questoes/147.html."
+    },
+    {
+      "id": "2013_148",
+      "resolucao": "O caminhão suporta 1 500 telhas ou 1 200 tijolos. As 900 telhas ocupam 900/1 500=3/5 da capacidade, restando 2/5. Em equivalência de tijolos, a carga restante é (2/5)×1 200=480 tijolos. Gabarito: D. Fonte de conferência: https://educacao.globo.com/provas/enem-2013/questoes/148.html."
+    },
+    {
+      "id": "2013_149",
+      "resolucao": "A produção forma uma progressão aritmética: primeiro termo 50,25 t e razão 1,25 t. O décimo termo é 50,25+9×1,25=61,5 t. A soma dos dez anos é S₁₀=(50,25+61,5)×10/2=558,75 toneladas. Gabarito: D. Fonte de conferência: https://educacao.globo.com/provas/enem-2013/questoes/149.html."
+    },
+    {
+      "id": "2013_150",
+      "resolucao": "Dos 1 200 alunos, 600 não falam inglês. Como 300 não falam nenhuma língua, e 200 falam as duas, 300 falam somente espanhol. Entre os 600 que não falam inglês, 300 falam espanhol. A probabilidade condicional é 300/600=1/2. Gabarito: A. Fonte de conferência: https://educacao.globo.com/provas/enem-2013/questoes/150.html."
     }
   ]
 }
