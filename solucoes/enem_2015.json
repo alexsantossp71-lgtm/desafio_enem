@@ -659,6 +659,46 @@
     {
       "id": "2015_170",
       "resolucao": "A média final considera cinco etapas: a média das quatro primeiras deve ser multiplicada por 4, somada à nota da quinta e dividida por 5. A=(4×90+60)/5=84; B=(4×85+85)/5=85; C=(4×80+95)/5=83; D=(4×60+90)/5=66; E=(4×60+100)/5=68. Em ordem decrescente: B, A, C, E, D. Não há empate, então o critério da quinta etapa não precisa ser usado. Gabarito: B. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2015/questao-170/."
+    },
+    {
+      "id": "2015_171",
+      "resolucao": "A lata está preenchida com um terço de sua capacidade. O volume de água é V=(1/3)πr²h=(1/3)×3×300²×1 200=108 000 000 mm³. Esse volume se espalha sobre 1 m², que corresponde a 1 000 000 mm². A altura de água é 108 000 000/1 000 000=108 mm, que é o índice pluviométrico. Gabarito: D. Fonte de conferência: https://profrafaelteixeira.com.br/desafio-900/2015-q171/."
+    },
+    {
+      "id": "2015_172",
+      "resolucao": "O ônibus percorre 520 unidades na horizontal, de x=30 até x=550, e 300 na vertical, de y=20 até y=320. O percurso total é 820; a metade é 410. Partindo de P=(30,20), avançam-se 410 unidades pela Rua A, chegando a T=(30+410,20)=(440,20). Gabarito: E. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2015/questao-172-onibus-percurso-ponto-medio-coordenadas."
+    },
+    {
+      "id": "2015_173",
+      "resolucao": "Compara-se a distância de cada espessura até 3,000 mm: 3,100 está a 0,100; 3,021 está a 0,021; 2,960 está a 0,040; 2,099 está a 0,901; e 3,070 está a 0,070. A menor diferença é 0,021 mm, correspondente à lente de 3,021 mm. Gabarito: C. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2015/questao-173/."
+    },
+    {
+      "id": "2015_174",
+      "resolucao": "A curva de crescimento bacteriano atinge seu maior valor na faixa de temperatura indicada como alta. É nessa faixa que as condições favorecem a reprodução da bactéria analisada; temperaturas muito baixas ou muito altas reduzem a atividade e o crescimento. Gabarito: D."
+    },
+    {
+      "id": "2015_175",
+      "resolucao": "O comprimento horizontal da bola é 2a e o vertical é 2b. A diferença entre eles é metade do comprimento vertical: 2a−2b=(1/2)·2b=b. Logo, 2a=3b e a=3b/2. Substituindo em V=4ab²: V=4·(3b/2)·b²=6b³. Gabarito: B. Fonte de conferência: https://www.simuladle.com/questoes/enem-2015-dia-2/175."
+    },
+    {
+      "id": "2015_176",
+      "resolucao": "Até 100 ligações, o valor é fixo em R$12. Entre 101 e 300, acrescenta-se R$0,10 por ligação acima de 100; em 300 ligações, o valor chega a 12+200×0,10=R$32. De 300 a 500 ligações, permanece fixo em R$32. O gráfico correto tem trecho horizontal em 12, depois uma reta crescente até 32 e, por fim, outro trecho horizontal em 32: alternativa B. Gabarito: B. Fonte de conferência: https://esmer.com.br/questoes/enem/2015/funcoes-176-1284."
+    },
+    {
+      "id": "2015_177",
+      "resolucao": "Para um felino de 3,0 kg, a tabela indica área corporal de 0,208 m². A dose é 250 mg por metro quadrado. Portanto, a dose diária é 250×0,208=52,0 mg. Gabarito: B. Fonte de conferência: https://profrafaelteixeira.com.br/banco-de-questoes/enem/2015/questao-177/."
+    },
+    {
+      "id": "2015_178",
+      "resolucao": "Cada pessoa consome 0,08 m³ por dia. Para 10 pessoas durante 20 dias: V=10×20×0,08=16 m³. Como 1 m³ equivale a 1 000 litros, a capacidade mínima é 16×1 000=16 000 litros. Gabarito: E. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2015/questao-178-reservatorio-agua-familia-metros-cubicos-litros."
+    },
+    {
+      "id": "2015_179",
+      "resolucao": "Há 200 atletas no total. No modo I, a chance de o atleta ser escolhido entre três é 3/200. No modo II, a chance é (1/20)×(3/10)=3/200. No modo III, é (3/20)×(1/10)=3/200. Como as três probabilidades são iguais, P(I)=P(II)=P(III). Gabarito: E. Fonte de conferência: https://www.simuladle.com/questoes/enem-2015-dia-2/179."
+    },
+    {
+      "id": "2015_180",
+      "resolucao": "Na safra, a produção é máxima quando a oferta é maior e o preço é mínimo. A função P(x)=8+5cos[(πx−π)/6] atinge o mínimo quando o cosseno vale −1. Assim, (πx−π)/6=π, resultando em πx−π=6π e x=7. O sétimo mês é julho. Gabarito: D. Fonte de conferência: https://www.simuladle.com/questoes/enem-2015-dia-2/180."
     }
   ]
 }
