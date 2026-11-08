@@ -687,6 +687,22 @@
     {
       "id": "2012_176",
       "resolucao": "O desvio padrão é 90 kg por talhão de 30 000 m², equivalente a 3 hectares. Por hectare, o desvio padrão é 90/3=30 kg. Em sacas de 60 kg, isso corresponde a 30/60=0,5 saca/ha. A variância é o quadrado do desvio padrão: 0,5²=0,25 (sacas/ha)². Gabarito: E."
+    },
+    {
+      "id": "2012_177",
+      "resolucao": "Há três cores primárias: azul, amarelo e vermelho. As combinações de duas primárias geram três cores secundárias: verde, laranja e violeta. Cada uma das seis cores pode ser apresentada em versão clara ou escura, acrescentando 12 possibilidades; somam-se ainda preto e branco. Total: 6+12+2=20 cores. Gabarito: C."
+    },
+    {
+      "id": "2012_178",
+      "resolucao": "Com dois dados, há 36 resultados igualmente prováveis. A soma 7 pode ocorrer em 6 combinações; a soma 4, em 3; e a soma 8, em 5. Como José escolheu a soma 7, tem a maior probabilidade de acertar. Gabarito: D."
+    },
+    {
+      "id": "2012_179",
+      "resolucao": "Os dez valores do gráfico, em ordem crescente, são: 181 419; 181 796; 204 804; 209 425; 212 952; 246 875; 266 415; 298 041; 299 415; 305 068. Como há dez dados, a mediana é a média do 5º e do 6º: (212 952+246 875)/2=229 913,5. A parte inteira é 229 913. Gabarito: B. Fonte de conferência: https://educacao.globo.com/provas/enem-2012/questoes/179.html."
+    },
+    {
+      "id": "2012_180",
+      "resolucao": "A contração linear de 20% faz cada aresta passar a 80% do valor original: 0,8a. O novo volume é (0,8a)³=0,512a³, ou 51,2% do volume inicial. Portanto, a redução é 100%−51,2%=48,8%. Gabarito: C."
     }
   ]
 }
