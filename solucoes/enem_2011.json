@@ -699,6 +699,26 @@
     {
       "id": "2011_175",
       "resolucao": "Pelo gráfico, a quantidade de internautas que respondeu “não” corresponde a um valor entre 50 e 75 pessoas. Gabarito: C."
+    },
+    {
+      "id": "2011_176",
+      "resolucao": "A luminosidade de uma estrela é proporcional a R²T⁴, em que R é o raio e T a temperatura superficial. Substituindo a razão entre o raio da estrela e o raio solar indicada na figura e T=5T☉, obtém-se uma luminosidade da ordem de 2×10⁴ vezes a luminosidade do Sol. Gabarito: A."
+    },
+    {
+      "id": "2011_177",
+      "resolucao": "O investimento A rende 3% ao mês, portanto em um ano rende (1,03)¹²−1=1,426−1=42,6%. O investimento B rende 36% ao ano. O C rende (1,18)²−1=39,24% ao ano. A maior rentabilidade anual é a do investimento A. Gabarito: C."
+    },
+    {
+      "id": "2011_178",
+      "resolucao": "A resistência da viga é diretamente proporcional à largura b e ao quadrado da altura d. Introduzindo a constante de proporcionalidade k, a expressão é S=k·b·d². Gabarito: C."
+    },
+    {
+      "id": "2011_179",
+      "resolucao": "No plano K, o valor fica constante em R$29,90 até 200 minutos e depois cresce R$0,20 por minuto excedente. No plano Z, fica constante em R$49,90 até 300 minutos e depois cresce R$0,10 por minuto excedente. O gráfico D apresenta esses dois patamares e as inclinações corretas. Gabarito: D."
+    },
+    {
+      "id": "2011_180",
+      "resolucao": "O lucro é LT(q)=FT(q)−CT(q)=5q−(2q+12)=3q−12. Para não ter prejuízo, LT(q)≥0: 3q−12≥0, então q≥4. A quantidade mínima é 4 produtos. Gabarito: D."
     }
   ]
 }
