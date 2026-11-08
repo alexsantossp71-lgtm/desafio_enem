@@ -623,6 +623,70 @@
     {
       "id": "2012_160",
       "resolucao": "A área total do quadrado é 1 m². Pelas posições dos pontos médios A, B, C e D e dos pontos P e Q, as regiões claras ABPDA e BCDQB somam 1/4 da área, ou 0,25 m²; a região sombreada ocupa os 0,75 m² restantes. O custo é 0,75×30+0,25×50=22,50+12,50=R$35,00. Gabarito: B."
+    },
+    {
+      "id": "2012_161",
+      "resolucao": "O número 13_98207 possui oito algarismos. Contando da direita para a esquerda, as posições são unidade, dezena, centena, unidade de milhar, dezena de milhar, centena de milhar, unidade de milhão e dezena de milhão. O algarismo ausente está na sexta posição da direita, correspondente à centena de milhar. Gabarito: C."
+    },
+    {
+      "id": "2012_162",
+      "resolucao": "O investidor deve comparar o preço de compra e o de venda das mesmas quantidades de ações, considerando o momento em que cada operação foi realizada. O investidor 1 comprou ao menor preço e vendeu ao maior preço entre os cinco, obtendo o maior ganho de capital. Gabarito: A."
+    },
+    {
+      "id": "2012_163",
+      "resolucao": "A eficiência é muito boa quando as reclamações resolvidas superam as recebidas. No gráfico, isso ocorre na terça-feira e na quarta-feira, quando a curva de resolvidas fica acima da curva de recebidas. Gabarito: B."
+    },
+    {
+      "id": "2012_164",
+      "resolucao": "A bula recomenda 5 gotas para cada 2 kg. Se a criança recebeu 30 gotas, isso corresponde a 30/5=6 grupos de dosagem. A massa é 6×2=12 kg. Gabarito: A."
+    },
+    {
+      "id": "2012_165",
+      "resolucao": "O percurso A–E–M–C atravessa faces diferentes da pirâmide. Ao planificar a superfície, cada trecho deve ser desenhado como segmento reto na face correspondente, mantendo a continuidade nos pontos de passagem entre faces. A alternativa E é a única que reproduz corretamente esse caminho. Gabarito: E."
+    },
+    {
+      "id": "2012_166",
+      "resolucao": "O preço de equilíbrio ocorre quando a quantidade ofertada é igual à quantidade demandada. Igualando as duas funções apresentadas no gráfico e resolvendo a equação, obtém-se P=11. Gabarito: B."
+    },
+    {
+      "id": "2012_167",
+      "resolucao": "A bicicleta custa 9 200 tíquetes. Como a criança recebe 20 tíquetes por período, precisa jogar 9 200/20=460 períodos. Cada período custa R$3,00, então o gasto é 460×3=R$1 380. Gabarito: D."
+    },
+    {
+      "id": "2012_168",
+      "resolucao": "A área superficial é A=k·m^(2/3). Se a massa é multiplicada por 8, a área é multiplicada por 8^(2/3)=(∛8)²=2²=4. Gabarito: B."
+    },
+    {
+      "id": "2012_169",
+      "resolucao": "Para calcular as médias de cada aluno, multiplica-se o vetor das notas pelos pesos correspondentes às provas, somando os produtos e dividindo pela soma dos pesos. A matriz de pesos que reproduz as médias informadas é a alternativa E. Gabarito: E."
+    },
+    {
+      "id": "2012_170",
+      "resolucao": "A potência é P=R·i². Como a energia consumida é proporcional à potência para um mesmo intervalo de tempo, E=k·i². O gráfico é uma parábola crescente que parte da origem, correspondente à alternativa D. Gabarito: D."
+    },
+    {
+      "id": "2012_171",
+      "resolucao": "A longitude é 124°3'. Como 1°=60', 3'=3/60=0,05°. Logo, 124°3'=124+0,05=124,05°. Gabarito: B."
+    },
+    {
+      "id": "2012_172",
+      "resolucao": "A distância indicada no gráfico é 3,25×10⁵ km. Para converter a escala do desenho em distância real, utiliza-se a proporção entre o diâmetro aparente e a distância ao observador, resultando em 325 000 km. Gabarito: D."
+    },
+    {
+      "id": "2012_173",
+      "resolucao": "A bacia convencional gasta 15 L por descarga e a ecológica 6 L, economizando 9 L por descarga. Como 60 L por dia correspondem a quatro descargas convencionais, a economia diária é 4×9=36 litros. Gabarito: B."
+    },
+    {
+      "id": "2012_174",
+      "resolucao": "Calcula-se a média das receitas de 2009, 2010 e 2011 para cada empresa. As duas maiores médias são as da Pizzaria Y e da Chocolates X, portanto essas são as empresas escolhidas pelo investidor. Gabarito: D."
+    },
+    {
+      "id": "2012_175",
+      "resolucao": "A taxa inicial é 300 mg/dL. Após redução de 30%, fica 300×0,70=210 mg/dL. A segunda redução de 10% incide sobre o novo valor: 210×0,90=189 mg/dL. Esse resultado está na faixa de diabetes melito. Gabarito: D."
+    },
+    {
+      "id": "2012_176",
+      "resolucao": "O desvio padrão é 90 kg por talhão de 30 000 m², equivalente a 3 hectares. Por hectare, o desvio padrão é 90/3=30 kg. Em sacas de 60 kg, isso corresponde a 30/60=0,5 saca/ha. A variância é o quadrado do desvio padrão: 0,5²=0,25 (sacas/ha)². Gabarito: E."
     }
   ]
 }
