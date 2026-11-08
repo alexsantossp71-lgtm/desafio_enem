@@ -199,6 +199,66 @@
     {
       "id": "2016_50",
       "resolucao": "Pela lei de Hess, multiplica-se a combustão do acetileno por 3 e inverte-se a combustão do benzeno. A variação da trimerização é ΔH=3×(−310)−(−780)=−930+780=−150 kcal por mol de benzeno formado. Gabarito: B. Fonte de conferência: https://www.simuladle.com/questoes/enem-2016-dia-1/50."
+    },
+    {
+      "id": "2016_51",
+      "resolucao": "Após tratar a amostra com HCl e filtrar, o carbonato de bário contaminante terá se dissolvido, liberando íons Ba²⁺ no filtrado. Ao adicionar ácido sulfúrico, esses íons reagem com SO₄²⁻ e formam sulfato de bário, BaSO₄, que é pouco solúvel e aparece como precipitado branco. Gabarito: C."
+    },
+    {
+      "id": "2016_52",
+      "resolucao": "O bombicol apresenta ligações duplas C=C internas com substituintes diferentes, permitindo isomeria geométrica (cis-trans ou E/Z). Entre as estruturas do quadro, o feromônio de Scrobipalpuloides absoluta também possui duplas internas com essa característica. As demais estruturas apresentam centros quirais, duplas sem substituintes distintos ou não apresentam a ligação dupla necessária. Gabarito: E. Fonte de conferência: https://www.simuladle.com/questoes/enem-2016-dia-1/52."
+    },
+    {
+      "id": "2016_53",
+      "resolucao": "O milho armazena grande parte de sua energia na forma de amido, um polissacarídeo. A hidrólise quebra as ligações entre as unidades de glicose e libera açúcares menores, principalmente glicose, que podem ser utilizados pelas leveduras na fermentação alcoólica para produzir etanol. Gabarito: D."
+    },
+    {
+      "id": "2016_54",
+      "resolucao": "A usina dissipa em calor o dobro da potência elétrica: 2,0 MW=2,0×10⁶ J/s. Pela relação P=ṁ·c·ΔT, com c=4 000 J/(kg·°C) e aumento máximo de 3 °C, a vazão mássica mínima é ṁ=2,0×10⁶/(4 000×3)≈166,7 kg/s. O valor mais próximo é 167 kg/s. Gabarito: C. Fonte de conferência: https://www.simuladle.com/questoes/enem-2016-dia-1/54."
+    },
+    {
+      "id": "2016_55",
+      "resolucao": "As figuras mostram que o aumento da distância entre o alto-falante e o microfone reduz a intensidade sonora percebida, mas essa redução não é igual em todas as frequências. Comparando as curvas, a diminuição mais destacada ocorre na faixa das frequências graves. Gabarito: C."
+    },
+    {
+      "id": "2016_56",
+      "resolucao": "O ciclo de Krebs ocorre na matriz mitocondrial, onde são realizadas etapas centrais da respiração celular e da produção de moléculas transportadoras de elétrons. Para bloquear esse ciclo dentro da célula cancerosa, a proteína precisa ser direcionada à mitocôndria. Gabarito: B."
+    },
+    {
+      "id": "2016_57",
+      "resolucao": "À medida que o morcego se aproxima da mariposa, a distância diminui e o eco retorna em menos tempo. A intensidade do som refletido aumenta porque o animal está mais próximo, e o efeito Doppler faz a frequência percebida aumentar quando a fonte e o alvo se aproximam. Gabarito: A."
+    },
+    {
+      "id": "2016_58",
+      "resolucao": "A reação entre brometo de metila e hidróxido de sódio ocorre na proporção molar 1:1. O brometo de metila tem massa molar 95 g/mol; 142,5 g correspondem a 1,5 mol. O hidróxido de sódio tem massa molar 40 g/mol; 80 g correspondem a 2 mol, portanto está em excesso. A produção teórica é 1,5 mol de metanol, ou 1,5×32=48 g. Como foram obtidos 32 g, o rendimento é 32/48×100≈66,7%, ou 67%. Gabarito: D."
+    },
+    {
+      "id": "2016_59",
+      "resolucao": "Entre A e B, os resistores de 5 kΩ e 20 kΩ estão em paralelo, equivalendo a 4 kΩ; esse conjunto fica em paralelo com o caminho A–C–B, de 10+10=20 kΩ. Assim, RAB=4×20/(4+20)=10/3 kΩ. Entre B e C, há o resistor direto de 10 kΩ em paralelo com o caminho B–A–C, de 4+10=14 kΩ: RBC=10×14/(10+14)=35/6 kΩ. A razão é (10/3)/(35/6)=4/7. Gabarito: B. Fonte de conferência: https://fisicaflavio.com.br/enem/2016/questao-59-resistores-grafite-sorvete-razao-rab-rbc."
+    },
+    {
+      "id": "2016_60",
+      "resolucao": "O carvão ativado e o benzeno são predominantemente apolares. Entre superfícies apolares, a atração intermolecular predominante é a força de dispersão de London, também chamada interação dipolo induzido–dipolo induzido. Gabarito: D. Fonte de conferência: https://questoesenem.app/provas/enem-2016/questao-60/."
+    },
+    {
+      "id": "2016_61",
+      "resolucao": "Os peixes atuam como predadores na comunidade estudada e reduzem a população de mexilhões, especialmente dos indivíduos menores, que são mais vulneráveis à predação. Assim, controlam a densidade dessa população e interferem na estrutura da comunidade aquática. Gabarito: C."
+    },
+    {
+      "id": "2016_62",
+      "resolucao": "A passagem do carbono inorgânico (CO₂ dissolvido na água) para a forma orgânica ocorre na fotossíntese. Na cadeia alimentar apresentada, o fitoplâncton é o grupo autotrófico que incorpora carbono à matéria orgânica; os demais organismos obtêm esse carbono pela alimentação. Gabarito: A. Fonte de conferência: https://quantaaulas.com/enem/questoes/2016-q062/."
+    },
+    {
+      "id": "2016_63",
+      "resolucao": "Antes de acionar os freios, o motorista percorre a distância de reação com velocidade constante, portanto o gráfico começa com um trecho horizontal. Depois, durante a frenagem com desaceleração constante, vale v²=v₀²−2aΔs; a velocidade diminui de forma não linear até chegar a zero. O gráfico correto apresenta trecho constante seguido de curva decrescente. Gabarito: D."
+    },
+    {
+      "id": "2016_64",
+      "resolucao": "Na célula, o acetato é oxidado no ânodo e o oxigênio é reduzido no cátodo. O potencial da célula é E°=0,8−(−0,3)=1,1 V. Para alcançar 4,4 V, as células devem ser ligadas em série, somando seus potenciais: 4,4/1,1=4 células. Gabarito: B."
+    },
+    {
+      "id": "2016_65",
+      "resolucao": "Mosquitos hematófagos alimentam-se de sangue e precisam impedir que ele coagule enquanto realizam a sucção. Sua saliva contém substâncias anticoagulantes, que interferem no processo de coagulação. Por isso, esses animais são fontes adequadas para pesquisar toxinas com ação anticoagulante. Gabarito: E."
     }
   ]
 }
