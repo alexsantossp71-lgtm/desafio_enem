@@ -639,6 +639,66 @@
     {
       "id": "2013_165",
       "resolucao": "As pedras ocupam os quatro vértices de um losango, e vértices consecutivos não podem ter a mesma cor. Contando as combinações possíveis com três cores e considerando iguais as joias que diferem apenas por rotação ou reflexão do losango, obtêm-se 12 configurações distintas. Gabarito: B. Fonte de conferência: https://educacao.globo.com/provas/enem-2013/questoes/165.html."
+    },
+    {
+      "id": "2013_166",
+      "resolucao": "O césio-137 tem meia-vida de 30 anos. Para reduzir 1 000 mg a 10% da massa inicial, é necessário que reste 100 mg. Como 10% corresponde a aproximadamente 1/10, e (1/2)³≈1/8, o tempo é um pouco maior que três meias-vidas; usando a aproximação log 2≈0,3, t=30×log(0,1)/log(0,5)≈100 anos. Gabarito: D."
+    },
+    {
+      "id": "2013_167",
+      "resolucao": "Se o comprimento e a largura de um retângulo diminuem 20%, cada dimensão passa a ser 80% da original. A nova área é 0,8×0,8=0,64 da área inicial. Portanto, a redução é 1−0,64=0,36, ou 36%. Gabarito: B."
+    },
+    {
+      "id": "2013_168",
+      "resolucao": "A máquina A custa R$2 000 e produz 100 unidades por mês; a B custa R$3 000 e produz 200; a C custa R$4 000 e produz 300; a D custa R$5 000 e produz 400. A máquina B oferece a maior produção por real investido, com 200/3 000≈0,0667 unidade por real. Gabarito: B."
+    },
+    {
+      "id": "2013_169",
+      "resolucao": "Para uma aposta com seis números, há C(60,6) combinações possíveis. A aposta de sete números equivale a C(7,6)=7 apostas simples; a de oito equivale a C(8,6)=28; a de nove, C(9,6)=84; e a de dez, C(10,6)=210. Multiplicando cada quantidade pelo número de bilhetes comprados, Caio e Eduardo são os que cobrem mais combinações. Gabarito: C."
+    },
+    {
+      "id": "2013_170",
+      "resolucao": "355 mL equivalem a 35,5 cL. Como cada copo comporta 2,95 cL, o número de copos é 35,5/2,95≈12,03. Portanto, a lata enche 12 copos completos. Gabarito: D."
+    },
+    {
+      "id": "2013_171",
+      "resolucao": "A reta passa pelos pontos indicados no gráfico. Usando dois pontos, calcula-se o coeficiente angular e substitui-se um deles na forma y=mx+b. A equação obtida é 5x−2y+10=0. Gabarito: B."
+    },
+    {
+      "id": "2013_172",
+      "resolucao": "A temperatura do forno é T(t)=−t²/4+400. A trava libera a porta quando T=39: −t²/4+400=39. Então t²/4=361, t²=1 444 e t=38 minutos. O valor negativo é descartado porque tempo não pode ser negativo. Gabarito: D. Fonte de conferência: https://www.simuladle.com/questoes/enem-2013-dia-2/172."
+    },
+    {
+      "id": "2013_173",
+      "resolucao": "O ciclo de atividade solar dura aproximadamente 11 anos. De 1755 a 2101 decorrem 346 anos. Dividindo: 346/11=31,45; portanto, passaram-se 31 ciclos completos e o ano 2101 está no 32º ciclo. Gabarito: C."
+    },
+    {
+      "id": "2013_174",
+      "resolucao": "A escala linear entre a figura do mapa e a representação ampliada é de aproximadamente 6 vezes. Como a área varia com o quadrado da escala, a razão entre as áreas é 6²=36. O resultado está no intervalo de 30 a 40. Gabarito: D."
+    },
+    {
+      "id": "2013_175",
+      "resolucao": "A transparência total é o produto da transparência do vidro e da película. O mínimo é 70%×50%=35%; o máximo é 90%×70%=63%. Logo, P varia no intervalo [35%;63%]. Gabarito: A."
+    },
+    {
+      "id": "2013_176",
+      "resolucao": "A população é reduzida à metade a cada hora. Uma função que multiplica o valor anterior por uma razão constante menor que 1 é exponencial decrescente: N(t)=N₀(1/2)^t. Gabarito: E."
+    },
+    {
+      "id": "2013_177",
+      "resolucao": "O número de fichas cresce conforme a sequência de números triangulares. Para a 15ª figura, somam-se 1+2+3+...+15=15×16/2=120 fichas. Gabarito: C."
+    },
+    {
+      "id": "2013_178",
+      "resolucao": "Para acomodar quatro copos em arranjo 2×2, as bases precisam caber dentro da bandeja e as partes mais largas não podem se tocar. O lado mínimo é dois raios da base mais o diâmetro da parte larga: l=2BD+2AC. Como AC=(7/5)BD, l/BD=2+14/5=24/5. Gabarito: D. Fonte de conferência: https://www.simuladle.com/questoes/enem-2013-dia-2/178."
+    },
+    {
+      "id": "2013_179",
+      "resolucao": "Os triângulos FEB e ACB são semelhantes, assim EF/AC=FB/AB. Os triângulos FEA e BDA também são semelhantes, então EF/BD=FA/AB. Somando as relações, EF/4+EF/6=(FA+FB)/AB=1. Logo, (5/12)EF=1 e EF=12/5=2,4 m. Gabarito: C. Fonte de conferência: https://educacao.globo.com/provas/enem-2013/questoes/179.html."
+    },
+    {
+      "id": "2013_180",
+      "resolucao": "O voo de A para B dura 6 horas. Sai às 15h em A e chega às 18h em B; nesse intervalo, o horário de A passa para 21h. Portanto, B está 3 horas atrasada em relação a A. Quando forem 13h em A, serão 10h em B. Para chegar a A nesse horário, o voo de 6 horas deve sair de B às 4h. Gabarito: D. Fonte de conferência: https://www.curso-objetivo.br/vestibular/resolucao-comentada/enem/2013/enem2013_2dia.pdf."
     }
   ]
 }
