@@ -259,6 +259,66 @@
     {
       "id": "2015_65",
       "resolucao": "A temperatura inicial de equilíbrio da mistura é a média ponderada: (1/3)×10+(2/3)×40=30 °C. Após seis horas, a água está a 16 °C, uma variação de 30−16=14 °C. Percentualmente, 14/30×100≈46,7%, que fica entre 40% e 55%, faixa do selo D. Gabarito: D. Fonte de conferência: https://fisicaflavio.com.br/enem/2015/questao-65-garrafa-termica-selo-variacao-temperatura."
+    },
+    {
+      "id": "2015_66",
+      "resolucao": "A fórmula 47,XY,+18 indica um indivíduo do sexo masculino com 47 cromossomos, devido à presença de uma cópia extra do cromossomo 18. O número total de cromossomos está alterado, sem que haja necessariamente alteração estrutural de um cromossomo. Trata-se de aneuploidia, especificamente uma trissomia. Gabarito: E."
+    },
+    {
+      "id": "2015_67",
+      "resolucao": "A perda de água pelo suor e pela respiração aumenta a osmolaridade do sangue e estimula a liberação de ADH. Esse hormônio intensifica a reabsorção de água nos rins, reduzindo o volume de urina e aumentando sua concentração de sais. Gabarito: D."
+    },
+    {
+      "id": "2015_68",
+      "resolucao": "As tomadas devem ser ligadas em paralelo à rede para que cada uma receba a tensão nominal, independentemente do funcionamento dos outros aparelhos. A lâmpada também deve estar em paralelo, mas com o interruptor em série apenas no seu próprio ramo, permitindo ligá-la ou desligá-la sem interromper as tomadas. O esquema que atende a essas condições é o E. Gabarito: E."
+    },
+    {
+      "id": "2015_69",
+      "resolucao": "Em condição anaeróbica, cada molécula de glicose rende apenas 2 ATP; com mais oxigênio, a respiração aeróbica passa a render cerca de 38 ATP por molécula. Para manter a mesma produção de energia, a célula precisa consumir menos glicose à medida que o oxigênio aumenta. A curva decrescente é a 5. Gabarito: E. Fonte de conferência: https://quantaaulas.com/enem/questoes/2015-q069/."
+    },
+    {
+      "id": "2015_70",
+      "resolucao": "Com a mesma força aplicada, a deformação da borracha é x=F/k. A energia elástica armazenada é E=F²/(2k), portanto dobrar k reduz essa energia à metade. Como o alcance horizontal, para o mesmo ângulo, é proporcional à energia cinética de lançamento, o estilingue duro alcança metade da distância: Dd/Dm=1/2. Gabarito: B. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2015/questao-70-estilingue-borracha-dura-mole-alcance."
+    },
+    {
+      "id": "2015_71",
+      "resolucao": "A reação I é obtida somando as reações III e IV e invertendo a reação II. Ao inverter uma reação, sua constante passa a ser o inverso; ao somar reações, as constantes são multiplicadas. Assim, K_I=(K_III×K_IV)/K_II=(6,0×10⁻⁹×2,5×10⁻⁷)/(3,0×10⁻¹¹)=5,0×10⁻⁵. Gabarito: B. Fonte de conferência: https://esmer.com.br/questoes/enem/2015/fisico-quimica-71-1175."
+    },
+    {
+      "id": "2015_72",
+      "resolucao": "O vírus da dengue apresenta quatro sorotipos e elevada variabilidade antigênica. Uma vacina precisa induzir proteção contra as diferentes variantes; a diversidade de antígenos dificulta obter uma resposta imunológica ampla e duradoura, ao contrário do vírus da febre amarela, para o qual existe uma vacina eficaz. Gabarito: B."
+    },
+    {
+      "id": "2015_73",
+      "resolucao": "Na fissão de um núcleo de urânio-235, são liberados energia e nêutrons. Esses nêutrons podem atingir outros núcleos de U-235 e provocar novas fissões, que liberam mais nêutrons. A repetição desse processo caracteriza a reação em cadeia. Gabarito: C."
+    },
+    {
+      "id": "2015_74",
+      "resolucao": "A bactéria recebeu um gene humano, isto é, uma sequência de DNA que contém a informação para produzir insulina. Ao incorporar esse DNA recombinante e expressar o gene, a bactéria passa a sintetizar a proteína humana. Gabarito: A."
+    },
+    {
+      "id": "2015_75",
+      "resolucao": "A luz atravessa camadas de ar com temperaturas e índices de refração diferentes. Ao passar de uma camada para outra, sua velocidade e direção mudam, curvando os raios luminosos e criando a imagem aparente de uma parede de água no horizonte. Esse fenômeno é a refração. Gabarito: B."
+    },
+    {
+      "id": "2015_76",
+      "resolucao": "A esfalerita contém 75% de ZnS, então 100 kg de minério fornecem 75 kg de sulfeto de zinco. A proporção estequiométrica global é 1 mol de ZnS para 1 mol de Zn. Assim, a massa teórica de zinco é 75×65/97≈50,3 kg. Considerando o rendimento de 80%, obtém-se 50,3×0,8≈40,2 kg, aproximadamente 40 kg. Gabarito: C. Fonte de conferência: https://espacodafisica.com.br/blog/enem/2015/questao-76-zinco-esfalerita-pureza-rendimento."
+    },
+    {
+      "id": "2015_77",
+      "resolucao": "Na eletrólise de Kolbe, o ânion carboxilato perde CO₂ e forma um radical alquila. Dois radicais iguais se unem, formando um alcano com o dobro do esqueleto carbônico remanescente. A partir do ácido 3,3-dimetilbutanoico, o acoplamento gera 2,2,5,5-tetrametil-hexano. Gabarito: C."
+    },
+    {
+      "id": "2015_78",
+      "resolucao": "Uma queimadura com bolha não deve ser perfurada nem receber gelo, manteiga ou creme dental, pois essas medidas podem agravar a lesão e favorecer infecções. A conduta indicada é proteger a flictena com gaze úmida e encaminhar a pessoa para atendimento médico. Gabarito: E."
+    },
+    {
+      "id": "2015_79",
+      "resolucao": "O fluido de arrefecimento deve absorver grande quantidade de calor sem sofrer grande elevação de temperatura. Um alto calor específico permite que o líquido receba mais energia térmica por grau de aumento de temperatura, transportando calor do motor até o radiador com maior eficiência. Gabarito: A."
+    },
+    {
+      "id": "2015_80",
+      "resolucao": "Os pesticidas organoclorados acumulam-se nos tecidos lipídicos dos peixes porque são pouco polares e apresentam afinidade com gorduras, que também são apolares. A baixa polaridade favorece sua passagem pelas membranas e sua bioacumulação nos tecidos. Gabarito: A."
     }
   ]
 }
