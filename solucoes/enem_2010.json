@@ -599,6 +599,46 @@
     {
       "id": "2010_155",
       "resolucao": "Cada folheto do segundo tipo custa R$ 1,45 em selos. Para 500 folhetos, são gastos R$ 725, incluindo 500 selos de R$ 0,65. Restam R$ 275, suficientes para mais 423 selos de R$ 0,65. Total: 500 + 423 = 923 selos. Gabarito: C. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-155-uma-escola-recebeu-do-governo-uma-verba-de-r-1000-00-para-enviar-dois"
+    },
+    {
+      "id": "2010_156",
+      "resolucao": "Partindo de (20; 60), somam-se os deslocamentos leste/oeste e norte/sul: o ponto final é (20,9; 60,8). Pela escala de tons do mapa, essa posição está na faixa de altitude de até 200 m. Gabarito: A. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-156-a-figura-a-seguir-e-a-representacao-de-uma-regiao-por-meio-de-curvas-de"
+    },
+    {
+      "id": "2010_157",
+      "resolucao": "A manilha é uma casca cilíndrica com raio interno de 1 m, raio externo de 1,2 m e altura de 4 m. O volume de concreto é V = π(1,2² − 1²) × 4 = 3,1 × 0,44 × 4 = 5,456 m³. A R$ 10 por metro cúbico, o custo é R$ 54,56. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-157-supondo-que-cada-metro-cubico-de-concreto-custe-r-10-00-e-tomando-3-1"
+    },
+    {
+      "id": "2010_158",
+      "resolucao": "Para a espécie I: volume por tora = 3² × 12 × 0,06 = 6,48 m³; três toras totalizam 19,44 m³ e massa aproximada de 14,97 t. Para a espécie II: volume por tora = 4² × 10 × 0,06 = 9,6 m³; duas toras totalizam 19,2 m³ e massa de 14,98 t. A carga total é aproximadamente 29,9 toneladas. Gabarito: A. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-158-no-manejo-sustentavel-de-florestas-e-preciso-muitas-vezes-obter-o"
+    },
+    {
+      "id": "2010_159",
+      "resolucao": "Pelo IMC: 25 = 64/h², então h² = 2,56 e h = 1,6 m = 160 cm. O RIP é altura dividida pela raiz cúbica da massa: 160/∛64 = 160/4 = 40 cm/kg^(1/3). Gabarito: E. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-159-embora-o-indice-de-massa-corporal-imc-seja-amplamente-utilizado-existem"
+    },
+    {
+      "id": "2010_160",
+      "resolucao": "Usando a pessoa que está a 1,8 km do ponto diretamente abaixo do balão e observa um ângulo de 60°, temos tan 60° = h/1,8. Logo, h = 1,8√3 ≈ 3,1 km. Gabarito: C. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-160-na-data-do-acontecido-duas-pessoas-avistaram-o-balao-uma-estava-a-1-8"
+    },
+    {
+      "id": "2010_161",
+      "resolucao": "Como M e N são pontos médios dos lados do triângulo ABC, o triângulo MNC é semelhante ao original com razão linear 1/2 e razão de áreas 1/4. A região ABMN ocupa o restante, isto é, 3/4 da área total, equivalente a três vezes a área de MNC. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-161-em-canteiros-de-obras-de-construcao-civil-e-comum-perceber"
+    },
+    {
+      "id": "2010_162",
+      "resolucao": "A página inteira mede 260 × 400 = 104.000 mm². Quatro por cento correspondem a 4.160 mm². Como o retângulo menor tem largura de 26 mm, sua altura deve ser 4.160/26 = 160 mm. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-162-o-jornal-de-certa-cidade-publicou-em-uma-pagina-inteira-a-seguinte"
+    },
+    {
+      "id": "2010_163",
+      "resolucao": "Em uma volta completa, o rolo avança em relação ao chão uma circunferência, 2πR. Como o bloco também avança 2πR em relação ao rolo, seu deslocamento total é a soma dos dois movimentos: y = 4πR. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-163-a-ideia-de-usar-rolos-circulares-para-deslocar-objetos-pesados"
+    },
+    {
+      "id": "2010_164",
+      "resolucao": "A base triangular tem lados 6, 8 e 10 cm, formando um triângulo retângulo. O raio do círculo inscrito, que corresponde ao raio do furo tangente às três faces, é r = (6 + 8 − 10)/2 = 2 cm. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-164-o-raio-da-perfuracao-da-peca-e-igual-a"
+    },
+    {
+      "id": "2010_165",
+      "resolucao": "Para atingir 48 °C no primeiro trecho, resolve-se (7/5)t + 20 = 48, obtendo t = 20 min. Para 200 °C no segundo trecho, a equação fornece t = 150 min (a outra raiz não pertence ao intervalo). O tempo de permanência é 150 − 20 = 130 minutos. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-165-t-t-7-5-t-20-para-0-t-100"
     }
   ]
 }
