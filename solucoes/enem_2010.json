@@ -639,6 +639,66 @@
     {
       "id": "2010_165",
       "resolucao": "Para atingir 48 °C no primeiro trecho, resolve-se (7/5)t + 20 = 48, obtendo t = 20 min. Para 200 °C no segundo trecho, a equação fornece t = 150 min (a outra raiz não pertence ao intervalo). O tempo de permanência é 150 − 20 = 130 minutos. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-165-t-t-7-5-t-20-para-0-t-100"
+    },
+    {
+      "id": "2010_166",
+      "resolucao": "O número de favelas passou de 750 em 2004 para 968 em 2010, aumento de 218 em seis anos. Mantida a mesma variação até 2016, o total será 968 + 218 = 1.186, entre 1.150 e 1.200. Gabarito: C. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-166-o-grafico-mostra-o-numero-de-favelas-no-municipio-do-rio-de-janeiro"
+    },
+    {
+      "id": "2010_167",
+      "resolucao": "Ordenando os 18 valores do gráfico, os dois valores centrais são 6 e 7. Como há quantidade par de observações, a mediana é a média desses termos: (6 + 7)/2 = 6,5 gols. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-167-o-grafico-apresenta-a-quantidade-de-gols-marcados-pelos-artilheiros-das"
+    },
+    {
+      "id": "2010_168",
+      "resolucao": "O volume do hemisfério de raio 3 cm é metade do volume da esfera: (1/2) × (4/3)π × 3³ = 18π cm³. Para o cone de raio 3 cm, V = (1/3)π × 3² × h = 3πh. Igualando os volumes, 3πh = 18π, então h = 6 cm. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-168-considere-v-esfera-4-3-r-e-v-cone-1-3-r-h-sabendo-que-a-taca-com-o"
+    },
+    {
+      "id": "2010_169",
+      "resolucao": "Se o primeiro salto mede x, o segundo mede x − 1,2 e o terceiro x − 2,7. A soma deve ser 17,4 m: x + (x − 1,2) + (x − 2,7) = 17,4. Assim, 3x = 21,3 e x = 7,1 m, entre 7 e 8 m. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-169-o-salto-triplo-e-uma-modalidade-do-atletismo-em-que-o-atleta-da-um"
+    },
+    {
+      "id": "2010_170",
+      "resolucao": "As médias de Marco e Paulo são iguais, mas a pontuação mais regular é a que apresenta menor dispersão. O desvio padrão de Marco é 0,32, enquanto o de Paulo é 4,97; portanto, Marco teve a pontuação mais regular. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-170-marco-e-paulo-foram-classificados-em-um-concurso-para-classificacao-no"
+    },
+    {
+      "id": "2010_171",
+      "resolucao": "Dos pacientes, 60% não foram curados inicialmente e foram divididos em dois grupos de 30%. No primeiro, 35% foram curados (10,5% do total); no segundo, 45% foram curados (13,5%). Somando os dois resultados, 24% do total foi curado. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-171-um-grupo-de-pacientes-com-hepatite-c-foi-submetido-a-um-tratamento"
+    },
+    {
+      "id": "2010_172",
+      "resolucao": "Em 2006, Brasil produziu 43% de 40 bilhões = 17,2 bilhões de litros, e os EUA 45% = 18 bilhões. Com a produção norte-americana reduzida à metade, os EUA fariam 9 bilhões. Para Brasil e EUA somarem 88% de 40 bilhões (35,2 bilhões), o Brasil precisaria produzir 26,2 bilhões. O aumento relativo é (26,2 − 17,2)/17,2 ≈ 52,3%. Gabarito: C. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-172-em-2006-a-producao-mundial-de-etanol-foi-de-40-bilhoes-de-litros-e-a-de"
+    },
+    {
+      "id": "2010_173",
+      "resolucao": "Há 5! = 120 ordens possíveis para visitar os cinco clientes. Como cada trajeto e seu inverso têm o mesmo custo, basta analisar metade: 120/2 = 60 sequências. Cada análise leva 1,5 minuto; logo, 60 × 1,5 = 90 minutos. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-173-como-joao-quer-economizar-ele-precisa-determinar-qual-o-trajeto-de"
+    },
+    {
+      "id": "2010_174",
+      "resolucao": "Sabendo que o calçado é maior que 36, consideram-se 14 funcionárias: 3 usam tamanho 37, 10 usam 38 e 1 usa 39. Destas, 10 calçam 38. A probabilidade é 10/14 = 5/7. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-174-o-diretor-de-um-colegio-leu-numa-revista-que-os-pes-das-mulheres"
+    },
+    {
+      "id": "2010_175",
+      "resolucao": "Há 20 partidas e 45 gols, portanto a média é 45/20 = 2,25. Em ordem, os valores centrais são 2 e 2, logo a mediana é 2. A moda é 0, pois ocorreu em cinco jogos. Assim, Z = 0, Y = 2 e X = 2,25, resultando em Z < Y < X. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-175-o-quadro-seguinte-mostra-o-desempenho-de-um-time-de-futebol-no-ultimo"
+    },
+    {
+      "id": "2010_176",
+      "resolucao": "O enunciado informa que em cada Netuno cabem 58 Terras e em Júpiter cabem 23 Netunos. Portanto, a quantidade de Terras em Júpiter é 23 × 58 = 1.334. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-176-a-disparidade-de-volume-entre-os-planetas-e-tao-grande-que-seria"
+    },
+    {
+      "id": "2010_177",
+      "resolucao": "Se 10 litros de óleo contaminam 10⁷ litros de água, 1.000 litros correspondem a 100 vezes essa quantidade. Logo, o volume de água contaminada é 100 × 10⁷ = 10⁹ litros. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-177-um-dos-grandes-problemas-da-poluicao-dos-mananciais-rios-corregos-e"
+    },
+    {
+      "id": "2010_178",
+      "resolucao": "O objeto é formado por um cubo externo de aresta 12 cm e um vazio interno cúbico de aresta 8 cm. O volume de madeira é a diferença entre os volumes: 12³ − 8³ = 1.728 − 512 = 1.216 cm³. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-178-o-volume-de-madeira-utilizado-na-confeccao-desse-objeto-foi-de"
+    },
+    {
+      "id": "2010_179",
+      "resolucao": "As somas das primeiras linhas seguem o padrão 1, 4, 9, 16, ou seja, quadrados perfeitos. A soma da linha n é n²; para a nona linha, 9² = 81. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-179-ronaldo-e-um-garoto-que-adora-brincar-com-numeros-numa-dessas"
+    },
+    {
+      "id": "2010_180",
+      "resolucao": "Somando a produção de ovos de Páscoa de cada biênio: 2005–2006 = 184 milhões; 2006–2007 = 193 milhões; 2007–2008 = 206 milhões; 2008–2009 = 220 milhões. O maior acumulado ocorreu em 2008–2009. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-180-de-acordo-com-o-grafico-o-bienio-que-apresentou-maior-producao"
     }
   ]
 }
