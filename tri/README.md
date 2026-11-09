@@ -78,3 +78,28 @@ Um arquivo por ano, por exemplo `tri/enem_2020.json`:
 ```
 
 Os números são apenas ilustrativos. Ausência de parâmetro deve ser `null`, nunca zero. Os valores originais serão preservados; arredondamento será apenas na apresentação. A classificação “fácil/médio/difícil” será uma camada didática separada, com faixas documentadas, não um campo oficial do Inep.
+
+## Inventário do banco do projeto — edição 2020
+
+Inspeção direta de `questoes/enem_2020.json` na branch de trabalho:
+
+| Área no banco | Questões cadastradas |
+|---|---:|
+| Ciências Humanas (`ciencias-humanas`) | 49 |
+| Ciências da Natureza (`ciencias-natureza`) | 45 |
+| Linguagens (`linguagens`) | 39 |
+| Matemática (`matematica`) | 40 |
+| **Total** | **173** |
+
+Todas as questões inspecionadas possuem cinco alternativas e gabarito interno. Esses totais descrevem o conteúdo atual do projeto; não representam a quantidade de itens calibrados pelo Inep e não autorizam associação automática.
+
+### Cuidados específicos de 2020
+
+- A edição tem cadernos impressos e digitais. O código da prova/caderno precisa ser preservado no cruzamento.
+- A tabela oficial de itens contém posição, área, código do item, código da prova, cor, língua e parâmetros. Em Linguagens, a língua (`TP_LINGUA`) é relevante para distinguir os blocos de questões.
+- Há uma particularidade nos cadernos digitais de Linguagens: os códigos de prova 691, 692, 693 e 694 podem conter dois conjuntos de itens sob o mesmo código, separados por `TP_VERSAO_DIGITAL`. Um cruzamento que ignore essa variável pode gerar mais de um candidato para a mesma chave.
+- Uma análise independente do arquivo oficial de 2020 documenta os códigos de prova regulares e a necessidade de relacionar cada posição ao caderno efetivamente aplicado. Isso reforça que o sufixo do ID interno não é chave oficial.
+
+**Situação desta etapa:** o inventário do banco foi concluído, mas ainda não há parâmetros A/B/C associados às 173 questões. O mapeamento explícito continua vazio até que cada ID seja ligado, sem ambiguidade, ao item oficial e ao caderno correspondente. Nenhum valor TRI foi estimado ou copiado de outra questão.
+
+Fonte oficial dos microdados: https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
