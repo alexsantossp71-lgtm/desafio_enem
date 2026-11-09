@@ -559,6 +559,46 @@
     {
       "id": "2010_145",
       "resolucao": "A taxa de desemprego em Porto Alegre era 9,8%. Aplicando esse percentual ao total de 250.000 pessoas pesquisadas: 0,098 × 250.000 = 24.500 desempregados. Gabarito: A. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-145-os-dados-do-grafico-seguinte-foram-gerados-a-partir-de-dados-colhidos"
+    },
+    {
+      "id": "2010_146",
+      "resolucao": "O produto comprimento × largura × altura corresponde ao volume de um paralelepípedo. Como as três dimensões são multiplicadas, a unidade resultante é m³. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-146-a-siderurgica-metal-nobre-produz-diversos-objetos-macicos-utilizando-o"
+    },
+    {
+      "id": "2010_147",
+      "resolucao": "Para cada rota, calcula-se a probabilidade de não haver engarrafamento multiplicando as probabilidades de cada trecho livre. A rota E2E5 tem 0,3 × 0,6 = 0,18, maior que as demais opções possíveis; portanto, oferece a maior chance de viagem sem congestionamento. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-147-a-figura-i-abaixo-mostra-um-esquema-das-principais-vias-que-interligam"
+    },
+    {
+      "id": "2010_148",
+      "resolucao": "O gráfico informa os gastos em bilhões de dólares. Em 2003, ano do início da guerra no Iraque, o valor indicado é 417,4 bilhões. Convertendo para dólares: US$ 417.400.000.000. Gabarito: E. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-148-o-grafico-a-seguir-apresenta-o-gasto-militar-dos-estados-unidos-no"
+    },
+    {
+      "id": "2010_149",
+      "resolucao": "Um quadrado utiliza quatro canudos. Cada novo quadrado acrescentado ao lado compartilha um lado com o anterior, exigindo apenas mais três canudos. Assim, para Q quadrados, a expressão é C = 4 + 3(Q − 1) = 3Q + 1. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-149-que-expressao-fornece-a-quantidade-de-canudos-em-funcao-da-quantidade"
+    },
+    {
+      "id": "2010_150",
+      "resolucao": "Na primeira encomenda, os oito quadros de 25 × 50 cm exigem 1 m² de tela e 12 m de moldura; na segunda, com dimensões dobradas, são 4 m² de tela e 24 m de moldura. Como a área quadruplica e o perímetro dobra, o custo aumenta mais que o dobro. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-150-a-loja-telas-molduras-cobra-20-reais-por-metro-quadrado-de-tela-15"
+    },
+    {
+      "id": "2010_151",
+      "resolucao": "O volume da leiteira é π × 4² × 20 = 320π cm³. Cada copinho comporta π × 2² × 4 = 16π cm³; vinte copos pela metade exigem 160π cm³, exatamente metade da leiteira. Gabarito: A. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-151-com-o-objetivo-de-nao-desperdicar-cafe-a-diarista-deseja-colocar-a"
+    },
+    {
+      "id": "2010_152",
+      "resolucao": "O apogeu ocorre quando o cosseno vale −1: r = 5.865/0,85 = 6.900 km. O perigeu ocorre quando o cosseno vale 1: r = 5.865/1,15 = 5.100 km. A soma é 6.900 + 5.100 = 12.000 km. Gabarito: B. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-152-r-t-5-865-1-0-15-cos-0-06t"
+    },
+    {
+      "id": "2010_153",
+      "resolucao": "Para um cilindro, a razão entre área lateral e volume é (2πrh)/(πr²h) = 2/r. Nos tanques I e II, o raio é 2 m e a razão vale 1; no tanque III, o raio é 3 m e a razão vale 2/3. O tanque III oferece menor custo por volume armazenado. Gabarito: D. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-153-qual-dos-tanques-devera-ser-escolhido-pelo-dono-do-posto-considere-3"
+    },
+    {
+      "id": "2010_154",
+      "resolucao": "O lucro aumentou de R$ 132.000 para R$ 145.000, uma diferença de R$ 13.000. A taxa de crescimento é 13.000/132.000 ≈ 9,85%, valor entre 5% e 10%, classificado como desempenho bom. Gabarito: C. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-154-de-acordo-com-esse-sistema-de-controle-de-qualidade-o-desempenho"
+    },
+    {
+      "id": "2010_155",
+      "resolucao": "Cada folheto do segundo tipo custa R$ 1,45 em selos. Para 500 folhetos, são gastos R$ 725, incluindo 500 selos de R$ 0,65. Restam R$ 275, suficientes para mais 423 selos de R$ 0,65. Total: 500 + 423 = 923 selos. Gabarito: C. Fonte de apoio: https://nogabarito.com.br/questao/enem-2010-questao-155-uma-escola-recebeu-do-governo-uma-verba-de-r-1000-00-para-enviar-dois"
     }
   ]
 }
