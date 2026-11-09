@@ -123,6 +123,46 @@
     {
       "id": "2009_31",
       "resolucao": "O enunciado considera iguais a intensidade de transmissão e o nível de recepção para os dois sistemas. Sob essa condição, a intensidade diminui com a distância segundo a mesma relação, independentemente da frequência; portanto, o número de antenas necessário para a mesma cobertura é equivalente. Gabarito: E."
+    },
+    {
+      "id": "2009_32",
+      "resolucao": "A imagem é uma radiografia obtida com raios X. Os ossos contêm cálcio, cujo número atômico é maior que o dos elementos predominantes nos tecidos moles; por isso, absorvem mais radiação e produzem o contraste que permite visualizar a estrutura óssea. Gabarito: B."
+    },
+    {
+      "id": "2009_33",
+      "resolucao": "As populações de roedores apresentam pelagens semelhantes à cor do solo local. Indivíduos mais camuflados ficam menos expostos aos predadores, sobrevivem e se reproduzem mais. A seleção natural favorece, ao longo das gerações, a coloração adaptada a cada ambiente. Gabarito: C."
+    },
+    {
+      "id": "2009_34",
+      "resolucao": "A compostagem depende da atividade de bactérias e fungos decompositores, que precisam de umidade para realizar seu metabolismo. Sem o umedecimento periódico, esses organismos não conseguem atuar adequadamente e a decomposição da matéria orgânica fica impedida. Gabarito: C."
+    },
+    {
+      "id": "2009_35",
+      "resolucao": "A água precisa receber Q = mcΔT = 1.000 × 4.200 × 80 = 336 milhões de joules. Em uma hora, isso exige potência de aproximadamente 93.333 W. Com insolação de 800 W/m², a área coletora é 116,7 m²; dividindo pela largura de 6 m, o comprimento é cerca de 19,4 m. Gabarito: A."
+    },
+    {
+      "id": "2009_36",
+      "resolucao": "A molécula deve reunir três características: anel aromático, sistema conjugado com grupo carbonila para absorver radiação ultravioleta e uma extremidade apolar para reduzir a solubilidade em água. A alternativa E apresenta essa combinação. Gabarito: E."
+    },
+    {
+      "id": "2009_37",
+      "resolucao": "Os cones permitem distinguir cores, enquanto os bastonetes detectam apenas a intensidade luminosa. Sem a informação dos cones, a pessoa não identifica o vermelho: percebe somente a luminosidade refletida pelo objeto, como um tom de cinza. Gabarito: D."
+    },
+    {
+      "id": "2009_38",
+      "resolucao": "O aquecimento de 5 °C para 35 °C provoca dilatação de ΔV = V₀γΔT = 20.000 × 0,001 × 30 = 600 litros por dia. Esses 600 litros adicionais são vendidos a R$ 1,60 por litro, gerando R$ 960 extras por dia. Em sete dias: 960 × 7 = R$ 6.720, valor entre R$ 6.000 e R$ 6.900. Gabarito: D."
+    },
+    {
+      "id": "2009_39",
+      "resolucao": "A geladeira transfere calor do interior frio para o ambiente externo mais quente. Esse fluxo não é espontâneo e exige trabalho realizado pelo compressor, conforme a Segunda Lei da Termodinâmica. Além disso, o calor liberado fora é a soma do calor retirado de dentro com o trabalho fornecido. Gabarito: B."
+    },
+    {
+      "id": "2009_40",
+      "resolucao": "As nanopartículas têm dimensões muito pequenas e podem atravessar membranas e barreiras celulares. Como seus efeitos nos organismos e nos ecossistemas ainda podem ser desconhecidos, seu uso na indústria e na medicina exige estudos de segurança mais detalhados. Gabarito: D."
+    },
+    {
+      "id": "2009_41",
+      "resolucao": "O DNA mitocondrial é a melhor opção para identificar parentesco em material muito degradado pelo calor. Cada célula contém muitas cópias dessa molécula, aumentando a chance de recuperar material analisável, e sua herança ocorre pela linhagem materna. Gabarito: A."
     }
   ]
 }
