@@ -559,6 +559,46 @@
     {
       "id": "2009_141",
       "resolucao": "Se 925 milhões de litros correspondem a 4% da mistura final, o volume total é 925 ÷ 0,04 = 23.125 milhões de litros. Com a proporção de 3%, o consumo de biodiesel seria 0,03 × 23.125 = 693,75 milhões de litros. Gabarito: D."
+    },
+    {
+      "id": "2009_142",
+      "resolucao": "O gráfico mostra que o número de casos de câncer pulmonar aumenta conforme cresce o consumo diário de cigarros, mas não em proporção constante: há intervalos em que os valores permanecem estáveis e depois saltam. Portanto, existe relação entre as grandezas, mas sem proporcionalidade. Gabarito: E."
+    },
+    {
+      "id": "2009_143",
+      "resolucao": "Em maio de 2009, a população economicamente ativa era de 23.020 mil pessoas. Com crescimento de 4%: 23.020 × 1,04 = 23.940,8 mil. Convertendo milhares para pessoas, o resultado é 23.940.800. Gabarito: D."
+    },
+    {
+      "id": "2009_144",
+      "resolucao": "Oito compassos com fórmula 3/4 totalizam 8 × 3/4 = 6 unidades de semibreve. A alternativa D soma 24 colcheias (24 × 1/8 = 3) e 12 semínimas (12 × 1/4 = 3), totalizando 6. Gabarito: D."
+    },
+    {
+      "id": "2009_145",
+      "resolucao": "Para obter exatamente dois aparelhos defeituosos entre quatro, escolhem-se duas posições entre as quatro: C(4,2) = 6. Multiplica-se essa quantidade pela probabilidade de dois defeituosos e dois sem defeito: 6 × (0,2%)² × (99,8%)². Gabarito: C."
+    },
+    {
+      "id": "2009_146",
+      "resolucao": "Fora da promoção, sete diárias custariam 7 × R$ 150 = R$ 1.050. No pacote de oito dias, as diárias são R$ 150, R$ 150, R$ 150, R$ 130, R$ 110, R$ 90, R$ 90 e R$ 90, totalizando R$ 960. A economia é R$ 1.050 − R$ 960 = R$ 90. Gabarito: A."
+    },
+    {
+      "id": "2009_147",
+      "resolucao": "Para completar a figura, os desenhos nas bordas da peça devem coincidir com os padrões das peças vizinhas. A peça 2, girada 90° no sentido anti-horário, apresenta o encaixe correto. Gabarito: C."
+    },
+    {
+      "id": "2009_148",
+      "resolucao": "A taxa média de variação é a diferença das emissões dividida pela diferença da produção: (4,00 − 2,14) ÷ (2,0 − 1,1) = 1,86/0,9 ≈ 2,07 ppm por tonelada. O valor fica entre 1,50 e 2,80. Gabarito: D."
+    },
+    {
+      "id": "2009_149",
+      "resolucao": "Os anéis de Borromeo ficam presos como conjunto, mas nenhum par isolado permanece enlaçado: se um anel for retirado, os outros dois se soltam. O esboço que representa esse padrão cíclico de cruzamentos é a alternativa E. Gabarito: E."
+    },
+    {
+      "id": "2009_150",
+      "resolucao": "A média dos investimentos da França no Brasil é (825 + 485 + 1.458 + 744 + 1.214)/5 = 945,2 milhões de dólares. A média do Brasil na França é (367 + 357 + 354 + 539 + 280)/5 = 379,4 milhões. A diferença é 565,8 milhões, entre 500 e 600 milhões. Gabarito: D."
+    },
+    {
+      "id": "2009_151",
+      "resolucao": "Se c é a cota inicial, a despesa total é 50c + 510. No acerto, cada pessoa paga c + 7, e as 55 pessoas dividem o total: 55(c + 7) = 50c + 510. Resolvendo, c = 25 e a cota final é R$ 32,00. Gabarito: D."
     }
   ]
 }
