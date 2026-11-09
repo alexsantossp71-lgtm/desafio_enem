@@ -43,6 +43,46 @@
     {
       "id": "2009_13",
       "resolucao": "A construção de rodovias pode favorecer a integração de comunidades, mas também fragmentar habitats e afetar ecossistemas. Para conciliar desenvolvimento e conservação, a obra deve ser justificada por sua necessidade e precedida de estudos de impacto, que indiquem medidas para evitar, reduzir ou compensar os danos ambientais. Gabarito: D."
+    },
+    {
+      "id": "2009_2",
+      "resolucao": "O gráfico apresenta a concentração de álcool no sangue ao longo do tempo para diferentes quantidades ingeridas. Cada curva sobe, atinge um pico e depois retorna a zero; doses maiores levam mais tempo para serem metabolizadas. Portanto, o título adequado é “Estimativa de tempo necessário para metabolizar diferentes quantidades de álcool”. Gabarito: D."
+    },
+    {
+      "id": "2009_12",
+      "resolucao": "A hidrólise do ânion do sabão forma o ácido carboxílico, que é pouco solúvel em água e menos eficiente na remoção de gorduras. Para evitar esse deslocamento do equilíbrio para a direita, deve-se aumentar a concentração de OH⁻, mantendo o ânion do sabão em solução. Isso ocorre em meio básico. Gabarito: A."
+    },
+    {
+      "id": "2009_14",
+      "resolucao": "A eficiência global aumenta quando se reduzem as perdas nas etapas de geração, transmissão e consumo. Cabos com melhor condutividade diminuem a resistência e as perdas por efeito Joule; lâmpadas fluorescentes convertem melhor a energia elétrica em luz do que as incandescentes. Gabarito: E."
+    },
+    {
+      "id": "2009_15",
+      "resolucao": "Na refinação eletrolítica do cobre, os metais mais nobres que o cobre não se oxidam facilmente no ânodo e se acumulam como lodo anódico. Pela série eletroquímica, ouro (Au), platina (Pt) e prata (Ag) são mais nobres que o cobre. Gabarito: B."
+    },
+    {
+      "id": "2009_16",
+      "resolucao": "O modelo mostra que um mesmo RNA produzido na transcrição pode originar três formas proteicas diferentes (a, b e c). Assim, um único produto de transcrição pode dar origem a variantes de proteínas, por meio de diferentes processamentos do RNA. Gabarito: D."
+    },
+    {
+      "id": "2009_17",
+      "resolucao": "A aceleração lateral máxima é 0,1g = 1 m/s². A velocidade média indicada é aproximadamente 403 km em 85 minutos, cerca de 80 m/s. Pela aceleração centrípeta, a = v²/R; logo, R = 80²/1 = 6.400 m. Gabarito: E."
+    },
+    {
+      "id": "2009_18",
+      "resolucao": "Para dimensionar o sistema de refrigeração do auditório, é necessário conhecer a capacidade de refrigeração dos aparelhos, que determina quantos equipamentos removem o calor produzido pelas pessoas. Para dimensionar a fiação, é essencial conhecer a corrente elétrica no ciclo frio. Gabarito: E."
+    },
+    {
+      "id": "2009_19",
+      "resolucao": "A potência dos aparelhos soma 4.070 W. As lâmpadas acrescentam 100 W na sala/cozinha, 60 W no banheiro, 60 W no corredor e 100 W no quarto, totalizando 320 W. A potência total é 4.070 + 320 = 4.390 W. Gabarito: D."
+    },
+    {
+      "id": "2009_20",
+      "resolucao": "A usina pode aumentar seu rendimento aproveitando o calor dos gases que saem pela chaminé para acionar outro gerador. Essa energia seria normalmente desperdiçada; sua recuperação eleva a eficiência sem reduzir a capacidade de geração principal. Gabarito: E."
+    },
+    {
+      "id": "2009_21",
+      "resolucao": "Nos seres humanos, o organismo adulto é diploide (2n) e produz gametas haploides (n) por meiose. A fecundação une dois gametas e forma um zigoto diploide (2n), que se desenvolve por mitoses até o adulto. Gabarito: C."
     }
   ]
 }
