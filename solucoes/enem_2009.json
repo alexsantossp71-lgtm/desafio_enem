@@ -599,6 +599,46 @@
     {
       "id": "2009_151",
       "resolucao": "Se c é a cota inicial, a despesa total é 50c + 510. No acerto, cada pessoa paga c + 7, e as 55 pessoas dividem o total: 55(c + 7) = 50c + 510. Resolvendo, c = 25 e a cota final é R$ 32,00. Gabarito: D."
+    },
+    {
+      "id": "2009_152",
+      "resolucao": "O aquífero Guarani armazena 30.000 km³. Como 1 km³ = 10⁹ m³ e 1 m³ = 10³ litros, isso equivale a 3 × 10¹⁶ litros. O reservatório da Sabesp comporta 20 milhões de litros (2 × 10⁷). A razão é (3 × 10¹⁶)/(2 × 10⁷) = 1,5 × 10⁹. Gabarito: E."
+    },
+    {
+      "id": "2009_153",
+      "resolucao": "Um plano paralelo à face indicada do prisma I corta os prismas I e III em seções paralelas às bases triangulares. Como os prismas são retos e têm bases congruentes, a interseção contém dois triângulos congruentes, com lados correspondentes paralelos. Gabarito: A."
+    },
+    {
+      "id": "2009_154",
+      "resolucao": "Por semelhança de triângulos, 3,2 m de percurso correspondem a uma elevação de 0,8 m. Para atingir 2,2 m, o percurso total será 3,2 × (2,2/0,8) = 8,8 m. Como o paciente já caminhou 3,2 m, faltam 8,8 − 3,2 = 5,6 m. Gabarito: D."
+    },
+    {
+      "id": "2009_155",
+      "resolucao": "Com desconto de x centavos, o preço por litro é 1,50 − 0,01x e a quantidade vendida é 10.000 + 100x litros. A arrecadação é V = (1,50 − 0,01x)(10.000 + 100x) = 15.000 + 50x − x². Gabarito: D."
+    },
+    {
+      "id": "2009_156",
+      "resolucao": "Para o primeiro dígito, a soma ponderada é 210; como o resto da divisão por 11 é 1, o primeiro verificador é zero. Para o segundo, usando o primeiro dígito no cálculo, a soma é 244, cujo resto é 2; assim, d₂ = 11 − 2 = 9. Os dígitos são 0 e 9. Gabarito: A."
+    },
+    {
+      "id": "2009_157",
+      "resolucao": "A aresta do cubo é ∛13.824 = 24 cm. Cada esfera tem diâmetro de 12 cm, então cabem duas esferas em cada direção do cubo. O total é 2 × 2 × 2 = 8 esferas. Gabarito: B."
+    },
+    {
+      "id": "2009_158",
+      "resolucao": "Na escala 1:150, o comprimento de 36 m (3.600 cm) fica com 24 cm no desenho, e a envergadura de 28,5 m (2.850 cm) fica com 19 cm. Acrescentando margem de 1 cm em cada lado, a folha precisa medir 26 cm × 21 cm. Gabarito: D."
+    },
+    {
+      "id": "2009_159",
+      "resolucao": "A cada cinco bolas, o nível da água aumenta 0,35 cm, ou seja, 0,07 cm por bola. A função é linear: y = 0,07x + b. Usando o ponto (5; 6,35), obtém-se b = 6. Portanto, y = 0,07x + 6. Gabarito: E."
+    },
+    {
+      "id": "2009_160",
+      "resolucao": "A produção precisa passar de 20 hectares por dia para 30 hectares por dia, pois 180 hectares em seis dias exigem esse ritmo. Mantendo equipe e máquinas, basta aumentar a jornada na mesma proporção: de 6 para 9 horas diárias. O custo total permanece abaixo de R$ 25.000. Gabarito: D."
+    },
+    {
+      "id": "2009_161",
+      "resolucao": "Ordenando as notas da equipe Gama, a mediana inicial é 7. Se o aluno ausente obtiver nota igual ou superior a 8, a mediana passa a (7 + 8)/2 = 7,5; se obtiver menos, a mediana não supera 7. Como 7,5 ainda é inferior aos 7,6 da equipe Delta, a Gama permanece em terceiro lugar qualquer que seja a nota. Gabarito: D."
     }
   ]
 }
