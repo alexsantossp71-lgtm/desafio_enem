@@ -42,7 +42,7 @@ def read_csv(path: Path):
                 delimiter = ";" if sample.count(";") >= sample.count(",") else ","
                 reader = csv.DictReader(f, delimiter=delimiter)
                 rows = list(reader)
-                return {str(k).strip().upper(): (v or "").strip() for k, v in (reader.fieldnames or [])}, rows
+                return [str(name).strip().upper() for name in (reader.fieldnames or [])], rows
         except UnicodeDecodeError:
             continue
     raise ValueError(f"Não foi possível decodificar {path}")
