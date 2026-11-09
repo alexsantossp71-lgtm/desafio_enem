@@ -639,6 +639,46 @@
     {
       "id": "2009_161",
       "resolucao": "Ordenando as notas da equipe Gama, a mediana inicial é 7. Se o aluno ausente obtiver nota igual ou superior a 8, a mediana passa a (7 + 8)/2 = 7,5; se obtiver menos, a mediana não supera 7. Como 7,5 ainda é inferior aos 7,6 da equipe Delta, a Gama permanece em terceiro lugar qualquer que seja a nota. Gabarito: D."
+    },
+    {
+      "id": "2009_162",
+      "resolucao": "Nos primeiros dez dias, 20 alunos trabalharam 3 horas por dia e arrecadaram 12 kg diários, totalizando 120 kg. A produtividade é 12 ÷ (20 × 3) = 0,2 kg por aluno-hora. Nos 20 dias restantes, 50 alunos trabalham 4 horas por dia, produzindo 50 × 4 × 0,2 = 40 kg por dia, ou 800 kg. Total: 120 + 800 = 920 kg. Gabarito: A."
+    },
+    {
+      "id": "2009_163",
+      "resolucao": "O carro percorre 16 × 7 = 112 km. Com consumo de 75 litros a cada 100 km, precisa de 84 litros. Como a gasolina tem densidade de 0,75 kg/L, sua massa é 84 × 0,75 = 63 kg. Somando ao peso mínimo de 605 kg, o carro deve pesar 668 kg. Gabarito: B."
+    },
+    {
+      "id": "2009_164",
+      "resolucao": "Os cortes dividem o quarto de círculo em três setores de 30°. A região de João corresponde ao triângulo acima da reta que forma 60° com a horizontal. Essa reta encontra o lado superior em x = 2/tan 60° = 2√3/3 ≈ 1,16 km. A área é aproximadamente 1,16 km²; como o terreno mede 6 km², a fração é cerca de 19%. Gabarito: E."
+    },
+    {
+      "id": "2009_165",
+      "resolucao": "Para escolher os quatro times do Grupo A, a ordem não importa: usa-se combinação. Para escolher os dois times do jogo de abertura, a ordem importa porque o primeiro é mandante e o segundo visitante: usa-se arranjo. Gabarito: A."
+    },
+    {
+      "id": "2009_166",
+      "resolucao": "A rota Brasília–Belém aponta para o norte. Ao girar 135° no sentido horário, o avião AII segue para sudeste e chega a Belo Horizonte. A partir dessa direção, uma rotação de 90° no sentido anti-horário aponta para nordeste, levando de Belo Horizonte a Salvador. Gabarito: B."
+    },
+    {
+      "id": "2009_167",
+      "resolucao": "A área do Pantanal é 150.355 km², ou 1,50355 × 10¹¹ m². Um campo de futebol mede 120 × 90 = 10.800 m². Dividindo a área do bioma pela área do campo, obtém-se aproximadamente 13,9 milhões, ou 14 milhões de campos. Gabarito: E."
+    },
+    {
+      "id": "2009_168",
+      "resolucao": "Ordenando as sete cotações: R$ 73,10; R$ 81,60; R$ 82,00; R$ 83,00; R$ 84,00; R$ 84,60; R$ 85,30. Como há sete valores, a mediana é o quarto: R$ 83,00. Gabarito: D."
+    },
+    {
+      "id": "2009_169",
+      "resolucao": "Na canaleta original, a área da seção é (30 + 20)/2 × 2,5 = 62,5 m². Como a vazão é 1.050 m³/s, a velocidade é 1.050/62,5 = 16,8 m/s. Na canaleta reformada, a área será (49 + 41)/2 × 2 = 90 m². A nova vazão é 90 × 16,8 = 1.512 m³/s. Gabarito: D."
+    },
+    {
+      "id": "2009_170",
+      "resolucao": "Cada foto tem 2 milhões de pixels e cada pixel ocupa 3 bytes: 6 MB sem compressão. Com redução de 95%, cada imagem ocupa 0,3 MB. Para 150 fotos, são necessários 45 MB. O menor dispositivo com capacidade suficiente é o cartão de 64 MB. Gabarito: E."
+    },
+    {
+      "id": "2009_171",
+      "resolucao": "Com R$ 126,00 é possível fazer 84 apostas simples de seis dezenas ou uma aposta de nove dezenas, pois C(9,6) = 84. As 84 apostas simples geram 27.216 combinações favoráveis à quina; a aposta de nove dezenas gera 6.426. A razão é aproximadamente 4,2, portanto a chance no segundo caso é cerca de quatro vezes menor. Gabarito: C."
     }
   ]
 }
