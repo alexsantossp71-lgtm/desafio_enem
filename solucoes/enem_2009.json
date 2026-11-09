@@ -43,6 +43,678 @@
     {
       "id": "2009_13",
       "resolucao": "A construção de rodovias pode favorecer a integração de comunidades, mas também fragmentar habitats e afetar ecossistemas. Para conciliar desenvolvimento e conservação, a obra deve ser justificada por sua necessidade e precedida de estudos de impacto, que indiquem medidas para evitar, reduzir ou compensar os danos ambientais. Gabarito: D."
+    },
+    {
+      "id": "2009_2",
+      "resolucao": "O gráfico apresenta a concentração de álcool no sangue ao longo do tempo para diferentes quantidades ingeridas. Cada curva sobe, atinge um pico e depois retorna a zero; doses maiores levam mais tempo para serem metabolizadas. Portanto, o título adequado é “Estimativa de tempo necessário para metabolizar diferentes quantidades de álcool”. Gabarito: D."
+    },
+    {
+      "id": "2009_12",
+      "resolucao": "A hidrólise do ânion do sabão forma o ácido carboxílico, que é pouco solúvel em água e menos eficiente na remoção de gorduras. Para evitar esse deslocamento do equilíbrio para a direita, deve-se aumentar a concentração de OH⁻, mantendo o ânion do sabão em solução. Isso ocorre em meio básico. Gabarito: A."
+    },
+    {
+      "id": "2009_14",
+      "resolucao": "A eficiência global aumenta quando se reduzem as perdas nas etapas de geração, transmissão e consumo. Cabos com melhor condutividade diminuem a resistência e as perdas por efeito Joule; lâmpadas fluorescentes convertem melhor a energia elétrica em luz do que as incandescentes. Gabarito: E."
+    },
+    {
+      "id": "2009_15",
+      "resolucao": "Na refinação eletrolítica do cobre, os metais mais nobres que o cobre não se oxidam facilmente no ânodo e se acumulam como lodo anódico. Pela série eletroquímica, ouro (Au), platina (Pt) e prata (Ag) são mais nobres que o cobre. Gabarito: B."
+    },
+    {
+      "id": "2009_16",
+      "resolucao": "O modelo mostra que um mesmo RNA produzido na transcrição pode originar três formas proteicas diferentes (a, b e c). Assim, um único produto de transcrição pode dar origem a variantes de proteínas, por meio de diferentes processamentos do RNA. Gabarito: D."
+    },
+    {
+      "id": "2009_17",
+      "resolucao": "A aceleração lateral máxima é 0,1g = 1 m/s². A velocidade média indicada é aproximadamente 403 km em 85 minutos, cerca de 80 m/s. Pela aceleração centrípeta, a = v²/R; logo, R = 80²/1 = 6.400 m. Gabarito: E."
+    },
+    {
+      "id": "2009_18",
+      "resolucao": "Para dimensionar o sistema de refrigeração do auditório, é necessário conhecer a capacidade de refrigeração dos aparelhos, que determina quantos equipamentos removem o calor produzido pelas pessoas. Para dimensionar a fiação, é essencial conhecer a corrente elétrica no ciclo frio. Gabarito: E."
+    },
+    {
+      "id": "2009_19",
+      "resolucao": "A potência dos aparelhos soma 4.070 W. As lâmpadas acrescentam 100 W na sala/cozinha, 60 W no banheiro, 60 W no corredor e 100 W no quarto, totalizando 320 W. A potência total é 4.070 + 320 = 4.390 W. Gabarito: D."
+    },
+    {
+      "id": "2009_20",
+      "resolucao": "A usina pode aumentar seu rendimento aproveitando o calor dos gases que saem pela chaminé para acionar outro gerador. Essa energia seria normalmente desperdiçada; sua recuperação eleva a eficiência sem reduzir a capacidade de geração principal. Gabarito: E."
+    },
+    {
+      "id": "2009_21",
+      "resolucao": "Nos seres humanos, o organismo adulto é diploide (2n) e produz gametas haploides (n) por meiose. A fecundação une dois gametas e forma um zigoto diploide (2n), que se desenvolve por mitoses até o adulto. Gabarito: C."
+    },
+    {
+      "id": "2009_22",
+      "resolucao": "A iontoforese utiliza uma corrente elétrica fraca para conduzir o medicamento através da pele e direcioná-lo ao local de ação. Isso reduz a dispersão do fármaco pelo organismo em comparação com a ingestão oral e, consequentemente, diminui a ocorrência de efeitos colaterais. Gabarito: D."
+    },
+    {
+      "id": "2009_23",
+      "resolucao": "Cádmio, chumbo e mercúrio são metais tóxicos, persistentes e bioacumulativos. A coleta de pilhas reduz o descarte inadequado, mas a solução definitiva indicada é substituir esses metais por substâncias menos nocivas e que não se acumulem na cadeia alimentar. Gabarito: E."
+    },
+    {
+      "id": "2009_24",
+      "resolucao": "A insolação aquece o ar durante o dia e aumenta sua capacidade de armazenar vapor de água. Se a quantidade absoluta de vapor permanecer semelhante, a umidade relativa diminui; à noite, com o resfriamento, ela aumenta. Assim, a insolação provoca a variação diária observada. Gabarito: A."
+    },
+    {
+      "id": "2009_25",
+      "resolucao": "Sensibilidade é a probabilidade de um teste identificar como positivo um animal realmente infectado. Com sensibilidade de 90%, a cada 100 animais infectados, 90 serão classificados como positivos e 10 como falsos negativos. Gabarito: B."
+    },
+    {
+      "id": "2009_26",
+      "resolucao": "Em concentrações iguais, os ácidos mais fortes liberam maior quantidade de íons H⁺ e produzem maior acidez. Entre os ácidos citados, H₂SO₄ e HNO₃ são fortes; por isso, conferem maior acidez à água da chuva. Gabarito: D."
+    },
+    {
+      "id": "2009_27",
+      "resolucao": "A gravidade continua atuando sobre o telescópio em órbita: é justamente a força gravitacional que fornece a aceleração centrípeta e mantém sua trajetória orbital. O que é muito pequeno é o peso aparente, pois o telescópio e os astronautas estão em queda livre. Gabarito: D."
+    },
+    {
+      "id": "2009_28",
+      "resolucao": "A área está quase totalmente desmatada e, portanto, recebe muita luz. O reflorestamento deve começar com espécies pioneiras capazes de crescer sob alta luminosidade; no quadro, essa característica é apresentada pelas espécies 2, 3 e 5. Gabarito: B."
+    },
+    {
+      "id": "2009_29",
+      "resolucao": "O antimônio possui 50 prótons. Pelo gráfico, seus isótopos estáveis apresentam aproximadamente 60 a 75 nêutrons, ou seja, entre 12 e 24 nêutrons a mais que o número de prótons. Gabarito: D."
+    },
+    {
+      "id": "2009_30",
+      "resolucao": "Para aquecer 200 litros de água em 35 °C, são necessários aproximadamente 29,3 MJ. O resistor fornece P = U²/R = 110²/11 = 1.100 W; para fornecer essa energia, o gerador funciona por cerca de 7,4 horas. Como consome 1 litro de gasolina por hora, utiliza aproximadamente 7 vezes mais gasolina que a combustão direta. Gabarito: D."
+    },
+    {
+      "id": "2009_31",
+      "resolucao": "O enunciado considera iguais a intensidade de transmissão e o nível de recepção para os dois sistemas. Sob essa condição, a intensidade diminui com a distância segundo a mesma relação, independentemente da frequência; portanto, o número de antenas necessário para a mesma cobertura é equivalente. Gabarito: E."
+    },
+    {
+      "id": "2009_32",
+      "resolucao": "A imagem é uma radiografia obtida com raios X. Os ossos contêm cálcio, cujo número atômico é maior que o dos elementos predominantes nos tecidos moles; por isso, absorvem mais radiação e produzem o contraste que permite visualizar a estrutura óssea. Gabarito: B."
+    },
+    {
+      "id": "2009_33",
+      "resolucao": "As populações de roedores apresentam pelagens semelhantes à cor do solo local. Indivíduos mais camuflados ficam menos expostos aos predadores, sobrevivem e se reproduzem mais. A seleção natural favorece, ao longo das gerações, a coloração adaptada a cada ambiente. Gabarito: C."
+    },
+    {
+      "id": "2009_34",
+      "resolucao": "A compostagem depende da atividade de bactérias e fungos decompositores, que precisam de umidade para realizar seu metabolismo. Sem o umedecimento periódico, esses organismos não conseguem atuar adequadamente e a decomposição da matéria orgânica fica impedida. Gabarito: C."
+    },
+    {
+      "id": "2009_35",
+      "resolucao": "A água precisa receber Q = mcΔT = 1.000 × 4.200 × 80 = 336 milhões de joules. Em uma hora, isso exige potência de aproximadamente 93.333 W. Com insolação de 800 W/m², a área coletora é 116,7 m²; dividindo pela largura de 6 m, o comprimento é cerca de 19,4 m. Gabarito: A."
+    },
+    {
+      "id": "2009_36",
+      "resolucao": "A molécula deve reunir três características: anel aromático, sistema conjugado com grupo carbonila para absorver radiação ultravioleta e uma extremidade apolar para reduzir a solubilidade em água. A alternativa E apresenta essa combinação. Gabarito: E."
+    },
+    {
+      "id": "2009_37",
+      "resolucao": "Os cones permitem distinguir cores, enquanto os bastonetes detectam apenas a intensidade luminosa. Sem a informação dos cones, a pessoa não identifica o vermelho: percebe somente a luminosidade refletida pelo objeto, como um tom de cinza. Gabarito: D."
+    },
+    {
+      "id": "2009_38",
+      "resolucao": "O aquecimento de 5 °C para 35 °C provoca dilatação de ΔV = V₀γΔT = 20.000 × 0,001 × 30 = 600 litros por dia. Esses 600 litros adicionais são vendidos a R$ 1,60 por litro, gerando R$ 960 extras por dia. Em sete dias: 960 × 7 = R$ 6.720, valor entre R$ 6.000 e R$ 6.900. Gabarito: D."
+    },
+    {
+      "id": "2009_39",
+      "resolucao": "A geladeira transfere calor do interior frio para o ambiente externo mais quente. Esse fluxo não é espontâneo e exige trabalho realizado pelo compressor, conforme a Segunda Lei da Termodinâmica. Além disso, o calor liberado fora é a soma do calor retirado de dentro com o trabalho fornecido. Gabarito: B."
+    },
+    {
+      "id": "2009_40",
+      "resolucao": "As nanopartículas têm dimensões muito pequenas e podem atravessar membranas e barreiras celulares. Como seus efeitos nos organismos e nos ecossistemas ainda podem ser desconhecidos, seu uso na indústria e na medicina exige estudos de segurança mais detalhados. Gabarito: D."
+    },
+    {
+      "id": "2009_41",
+      "resolucao": "O DNA mitocondrial é a melhor opção para identificar parentesco em material muito degradado pelo calor. Cada célula contém muitas cópias dessa molécula, aumentando a chance de recuperar material analisável, e sua herança ocorre pela linhagem materna. Gabarito: A."
+    },
+    {
+      "id": "2009_42",
+      "resolucao": "Os efluentes da carcinicultura podem carregar partículas em suspensão que reduzem a penetração da luz na água. Com menos luz, o fitoplâncton realiza menos fotossíntese, comprometendo a produtividade primária e a base da cadeia alimentar marinha. Gabarito: E."
+    },
+    {
+      "id": "2009_43",
+      "resolucao": "Para comparar os combustíveis, divide-se o calor liberado na combustão pelo número de mols de CO₂ produzido: metano gera 1 mol de CO₂ por mol de combustível, butano gera 4 e octano gera 8. Com os valores de entalpia da tabela, a ordem crescente de calor por mol de CO₂ é gasolina (octano), GLP (butano) e gás natural (metano). Gabarito: A."
+    },
+    {
+      "id": "2009_44",
+      "resolucao": "Na mistura inicial, 800 kg a 20% contêm 160 kg de etanol. O destilado de 100 kg a 96% contém 96 kg de etanol. Restam 700 kg de resíduo com 160 − 96 = 64 kg de etanol. A concentração no resíduo é 64/700 ≈ 9,14%, entre 9,0% e 9,2%. Gabarito: D."
+    },
+    {
+      "id": "2009_45",
+      "resolucao": "Como as lâmpadas têm a mesma resistência, as que recebem a mesma corrente apresentam o mesmo brilho. Pela associação do circuito, L2, L3 e L4 recebem corrente I/2; os demais ramos recebem I/4, enquanto L1 recebe a corrente total. Gabarito: B."
+    },
+    {
+      "id": "2009_46",
+      "resolucao": "As pirâmides e os templos do Egito Antigo eram manifestações do poder faraônico. Além de sua função religiosa, as grandes obras demonstravam a capacidade do Estado de mobilizar e submeter grandes contingentes de trabalhadores para a construção de monumentos que exaltavam o governante. Gabarito: A."
+    },
+    {
+      "id": "2009_47",
+      "resolucao": "O texto descreve a corte como residência do rei e centro da vida política do Antigo Regime. O Palácio de Versalhes, residência de Luís XIV e símbolo do absolutismo francês, é o exemplo que se transformou em patrimônio artístico e cultural. Gabarito: A."
+    },
+    {
+      "id": "2009_48",
+      "resolucao": "No Brasil Colônia, os sepultamentos realizados dentro das igrejas reproduziam a hierarquia social. Pessoas de maior prestígio ocupavam espaços próximos ao altar, enquanto pobres e escravizados eram enterrados em locais periféricos ou fora do templo. Gabarito: C."
+    },
+    {
+      "id": "2009_49",
+      "resolucao": "O nazismo apropriou-se da memória do Sacro Império Romano-Germânico para construir uma narrativa histórica que legitimasse o III Reich. É um exemplo de como cada época reinterpretou o passado de acordo com seus interesses políticos. Gabarito: A."
+    },
+    {
+      "id": "2009_50",
+      "resolucao": "Entre as causas dos conflitos da primeira metade do século XX estavam a crise do colonialismo europeu, a ascensão de nacionalismos exacerbados e a consolidação de regimes totalitários, como o fascismo e o nazismo. Gabarito: A."
+    },
+    {
+      "id": "2009_51",
+      "resolucao": "Os movimentos juvenis ligados ao nazismo e ao fascismo eram instrumentos de doutrinação e submissão ao líder. Sua atuação se caracterizava pelo sectarismo e pelo enfrentamento violento e radical dos opositores do regime. Gabarito: A."
+    },
+    {
+      "id": "2009_52",
+      "resolucao": "A divisão geopolítica da Europa durante a Guerra Fria entre o bloco ocidental capitalista, liderado pelos Estados Unidos, e o bloco oriental socialista, liderado pela União Soviética, ficou conhecida como Cortina de Ferro. A OTAN e o Pacto de Varsóvia representavam as alianças militares opostas. Gabarito: A."
+    },
+    {
+      "id": "2009_53",
+      "resolucao": "Os movimentos de 1968 questionaram estruturas autoritárias e reivindicaram participação política, autonomia e mudanças sociais. Eles inspiraram mobilizações posteriores em defesa da paz, do meio ambiente, da igualdade de gênero e dos direitos das minorias. Gabarito: E."
+    },
+    {
+      "id": "2009_54",
+      "resolucao": "Na cosmologia Yanomami, a floresta (urihi) é um sistema vivo, sustentado por relações e processos vitais. O wixia, seu sopro vital e úmido, representa essa capacidade de manter a vida e permitir o crescimento das plantas. Gabarito: E."
+    },
+    {
+      "id": "2009_55",
+      "resolucao": "O fim da bipolaridade não eliminou os conflitos internacionais. No cenário pós-Guerra Fria aumentaram conflitos internos ligados a nacionalismos, disputas étnicas, extremismo religioso e ameaças transnacionais, como terrorismo, tráfico de drogas e crime organizado. Gabarito: A."
+    },
+    {
+      "id": "2009_56",
+      "resolucao": "O texto relaciona cidadania ao exercício dos direitos políticos e à garantia do direito à propriedade privada. Mesmo quem possui pequena propriedade sente-se incluído como cidadão, mostrando a ligação entre democracia e possibilidades econômicas individuais. Gabarito: D."
+    },
+    {
+      "id": "2009_57",
+      "resolucao": "Tocqueville observa que, nos Estados Unidos do século XIX, a moralidade era associada à harmonia doméstica, considerada essencial ao sucesso dos negócios. Assim, a conduta moral individual era relacionada ao progresso econômico. Gabarito: D."
+    },
+    {
+      "id": "2009_58",
+      "resolucao": "Para Aristóteles, o exercício da cidadania exigia tempo livre para participar da política e desenvolver virtudes. Trabalhadores e agricultores eram excluídos dessa condição, revelando uma concepção hierarquizada em que a cidadania era privilégio dos grupos sociais superiores. Gabarito: B."
+    },
+    {
+      "id": "2009_59",
+      "resolucao": "Caio Prado Jr., Sérgio Buarque de Holanda e Celso Furtado apresentam a formação do Brasil como um processo ainda inacabado, dependente de transformações futuras para superar heranças coloniais, autoritárias e a dependência econômica. A síntese é “Brasil, a eterna esperança”. Gabarito: B."
+    },
+    {
+      "id": "2009_60",
+      "resolucao": "A Constituição de 1891 definia eleitores como cidadãos maiores de 21 anos, sem reconhecer às mulheres o direito político ao voto. A Constituição de 1934 passou a mencionar expressamente brasileiros de ambos os sexos e reduziu a idade mínima para 18 anos. Gabarito: E."
+    },
+    {
+      "id": "2009_61",
+      "resolucao": "Francisco Campos defendia a concentração do poder no Executivo e apresentava Getúlio Vargas como líder dotado de inteligência, intuição e capacidade para governar de forma racional e correta. Gabarito: E."
+    },
+    {
+      "id": "2009_62",
+      "resolucao": "O programa “Hora do Brasil” divulgava as leis trabalhistas como realizações do governo, associando os direitos sociais diretamente à figura de Getúlio Vargas. A propaganda ajudava a consolidar a imagem do presidente como protetor dos trabalhadores e das massas. Gabarito: D."
+    },
+    {
+      "id": "2009_63",
+      "resolucao": "A Inquisição condenava práticas mágicas consideradas diabólicas porque elas concorriam com a autoridade espiritual da Igreja. Para questões como o casamento e a vida religiosa, os cristãos deveriam recorrer aos sacramentos e aos ensinamentos eclesiásticos. Gabarito: E."
+    },
+    {
+      "id": "2009_64",
+      "resolucao": "O texto compara a formação dos Estados em diferentes continentes e destaca a relação desigual entre colonizadores europeus e sociedades colonizadas. Na América Latina houve transplante de instituições europeias; na África, fronteiras coloniais dividiram povos; e na Ásia, estruturas locais foram parcialmente preservadas. Gabarito: B."
+    },
+    {
+      "id": "2009_65",
+      "resolucao": "A trova que circulava no Recife durante a Independência mostra que notícias sobre a Revolução Haitiana alcançavam escravizados e mestiços pobres. O exemplo do Haiti alimentava expectativas de transformação social e de ruptura com a ordem racial e escravista. Gabarito: A."
+    },
+    {
+      "id": "2009_66",
+      "resolucao": "O texto destaca que o Brasil formulou conceitos próprios de política externa e buscou autonomia decisória ao longo do século XX. Mesmo diante de limites e pressões internacionais, o país demonstrou capacidade de tomar decisões próprias. Gabarito: E."
+    },
+    {
+      "id": "2009_67",
+      "resolucao": "Antes da mecanização, muitos artesãos e pequenos fazendeiros combinavam a tecelagem com o cultivo de subsistência. Com a expansão dos teares mecânicos, os trabalhadores passaram a depender das máquinas e dos fornecedores de matéria-prima, concentrando-se na atividade de tecer. Gabarito: D."
+    },
+    {
+      "id": "2009_68",
+      "resolucao": "O desenvolvimento tecnológico da agropecuária e da indústria ampliou a produção, mas também elevou a demanda por recursos naturais, especialmente fontes de energia necessárias ao funcionamento das máquinas e dos processos produtivos. Gabarito: C."
+    },
+    {
+      "id": "2009_69",
+      "resolucao": "A casa da família Meneses conserva móveis e objetos que remetem a um passado de riqueza, mas aparece marcada por desordem, poeira e perda de esplendor. A decadência da residência simboliza a desagregação social, econômica e política de uma época. Gabarito: E."
+    },
+    {
+      "id": "2009_70",
+      "resolucao": "As estradas precárias dificultavam o deslocamento entre Santos e o interior paulista. A expansão das ferrovias permitiu transportar imigrantes para cafezais cada vez mais distantes do porto, viabilizando novos projetos de colonização e a expansão da cafeicultura. Gabarito: B."
+    },
+    {
+      "id": "2009_71",
+      "resolucao": "As cidades globais consolidaram-se com a internacionalização da economia a partir do final da década de 1970. Fluxos mundiais de capital, informação, serviços e pessoas passaram a se concentrar em centros urbanos estratégicos, integrados às redes econômicas internacionais. Gabarito: D."
+    },
+    {
+      "id": "2009_72",
+      "resolucao": "A difusão das tecnologias de informação aproxima culturas e formas de conhecimento tradicionais e digitais, tanto nas cidades quanto no meio rural. Por isso, o texto defende a integração da alfabetização letrada com a alfabetização eletrônica e a revisão das práticas educacionais. Gabarito: A."
+    },
+    {
+      "id": "2009_73",
+      "resolucao": "O avanço da fronteira econômica sobre o Norte e o Centro-Oeste introduziu novas atividades nos setores primário, secundário e terciário. A expansão agropecuária e mineral estimulou agroindústrias, comércio e serviços, alterando a distribuição da população e da produção no território. Gabarito: D."
+    },
+    {
+      "id": "2009_74",
+      "resolucao": "A semelhança apresentada entre a Grécia Antiga e as sociedades do Xingu está na organização em múltiplas cidades autônomas e independentes entre si. O texto não afirma que as cidades amazônicas tinham democracia ou compartilhavam a mesma língua. Gabarito: C."
+    },
+    {
+      "id": "2009_75",
+      "resolucao": "O fluxo de nordestinos para o Sudeste nas décadas de 1980 e 1990 foi intenso, e muitos migrantes ocuparam postos de trabalho pouco qualificados. A chegada de grandes contingentes populacionais às metrópoles contribuiu para o crescimento urbano acelerado e o chamado inchaço urbano. Gabarito: C."
+    },
+    {
+      "id": "2009_76",
+      "resolucao": "A subalimentação sul-americana não decorre simplesmente da falta de produção agrícola, mas também da concentração da terra. A existência de grandes latifúndios improdutivos limita o acesso à terra e à produção por parte de agricultores e populações de baixa renda. Gabarito: C."
+    },
+    {
+      "id": "2009_77",
+      "resolucao": "O mapa dos conflitos agrários entre 1985 e 1996 destaca o Bico do Papagaio, na região de encontro entre Tocantins, Pará e Maranhão, como área com números expressivos de conflitos e mortes relacionados à disputa pela terra. Gabarito: B."
+    },
+    {
+      "id": "2009_78",
+      "resolucao": "O gráfico indica que os imóveis improdutivos representam parcela expressiva da área rural brasileira e predominam em âmbito nacional e na maioria das regiões. O dado evidencia a concentração de terras que permanecem sem uso produtivo. Gabarito: A."
+    },
+    {
+      "id": "2009_79",
+      "resolucao": "O texto destaca a atuação de organizações não governamentais e grupos como a Pastoral da Terra no combate ao trabalho escravo. Essas entidades encaminham denúncias às autoridades e conscientizam os trabalhadores sobre seus direitos sociais e trabalhistas. Gabarito: D."
+    },
+    {
+      "id": "2009_80",
+      "resolucao": "A intensificação da exploração dos recursos naturais, facilitada pelo desenvolvimento tecnológico, pode provocar acidentes ambientais de grande escala. Um exemplo é o derramamento de petróleo por navios petroleiros, que contamina águas e ecossistemas. Gabarito: B."
+    },
+    {
+      "id": "2009_81",
+      "resolucao": "Desenvolvimento sustentável significa atender às necessidades da geração atual sem comprometer a capacidade das gerações futuras de atender às próprias necessidades. O conceito integra as dimensões econômica, social e ambiental. Gabarito: E."
+    },
+    {
+      "id": "2009_82",
+      "resolucao": "Com o derretimento das geleiras, jazidas de petróleo e minérios no Ártico tornam-se acessíveis. Além do potencial econômico, sua exploração atrai potências porque a região é considerada geopoliticamente mais estável que áreas como o Oriente Médio, permitindo diversificar fornecedores estratégicos de energia. Gabarito: A."
+    },
+    {
+      "id": "2009_83",
+      "resolucao": "A Venezuela aparece entre os países com maiores reservas comprovadas tanto de petróleo quanto de gás natural. A presença nas duas classificações demonstra sua grande importância e potência no cenário energético mundial. Gabarito: E."
+    },
+    {
+      "id": "2009_84",
+      "resolucao": "O Tratado de Tordesilhas estabeleceu uma linha de demarcação entre as áreas de Portugal e Espanha. O Tratado de Madri, em 1750, reconheceu a expansão da ocupação portuguesa para além dessa linha, especialmente na região amazônica. Gabarito: C."
+    },
+    {
+      "id": "2009_85",
+      "resolucao": "A restrição climática mostrada é a aridez do deserto. Na Arábia Saudita, a irrigação por aspersão com pivô central permite levar água às lavouras e viabilizar a produção agrícola em uma região de chuvas muito escassas. Gabarito: D."
+    },
+    {
+      "id": "2009_86",
+      "resolucao": "As charges relacionam queimadas e destruição de florestas tropicais ao aumento da temperatura em regiões distantes, como os polos. Elas mostram que alterações ambientais localizadas podem produzir efeitos climáticos em escala global. Gabarito: D."
+    },
+    {
+      "id": "2009_87",
+      "resolucao": "As técnicas modernas de irrigação permitem ampliar a agricultura em áreas semiáridas, onde a precipitação é insuficiente. Com a irrigação, determinadas regiões passaram a produzir em escala comercial e a integrar-se ao comércio internacional. Gabarito: B."
+    },
+    {
+      "id": "2009_88",
+      "resolucao": "A temperatura do ar interfere nos processos de evaporação e condensação que formam as chuvas. Como as atividades humanas podem alterar a temperatura e o ciclo hidrológico, seus efeitos podem modificar os padrões de precipitação em escalas local e global. Gabarito: E."
+    },
+    {
+      "id": "2009_89",
+      "resolucao": "O texto contrapõe a ideia de que uma cidade deve surgir espontaneamente à constatação de que sociedades podem construir cidades planejadas. A formação histórica da América, descrita como criação humana, é usada para questionar a objeção à construção de Brasília. Gabarito: E."
+    },
+    {
+      "id": "2009_90",
+      "resolucao": "A manutenção das águas do Pantanal durante a estiagem depende das nascentes e dos lençóis freáticos das áreas mais elevadas do Cerrado. Por isso, a medida mais eficaz é controlar o desmatamento e a erosão nas cabeceiras dos rios que abastecem a planície. Gabarito: D."
+    },
+    {
+      "id": "2009_91",
+      "resolucao": "A obra de Rubem Valentim utiliza signos geométricos inspirados em símbolos da religiosidade afro-brasileira, especialmente emblemas associados aos orixás do candomblé. Por isso, é a representação artística de matriz negro-africana indicada no enunciado. Gabarito: A."
+    },
+    {
+      "id": "2009_92",
+      "resolucao": "A gerente inicia a conversa usando linguagem formal, mas muda repentinamente o registro ao reconhecer o cliente como um amigo. Passa a usar apelido, expressões coloquiais e formas reduzidas, adequando a fala à intimidade entre eles. Gabarito: A."
+    },
+    {
+      "id": "2009_93",
+      "resolucao": "O teste classifica o usuário como pragmático, fanático ou aprendiz. A recomendação de mudança aparece para o perfil “fanático”, cuja presença na internet predomina sobre a vida real; a orientação é dedicar mais tempo ao convívio presencial com os amigos. Gabarito: D."
+    },
+    {
+      "id": "2009_94",
+      "resolucao": "A figura 1 mostra um grupo com violão, cavaquinho e flauta, formação típica de um regional de choro. O chorinho é um gênero musical característico da cultura brasileira. Gabarito: A."
+    },
+    {
+      "id": "2009_95",
+      "resolucao": "O balé Parade combinou cenários e figurinos de Picasso, música de Erik Satie com jazz, sons cotidianos e uma coreografia construída por colagens de movimentos. O espetáculo refletiu inovações tecnológicas e estéticas em diferentes componentes da cena. Gabarito: D."
+    },
+    {
+      "id": "2009_96",
+      "resolucao": "A campanha dirige-se diretamente ao leitor com pronomes como “você” e “sua” e utiliza verbos no imperativo, como “evite”, “cubra” e “lave”. Esses recursos procuram envolver o público e estimular a adoção das medidas preventivas. Gabarito: C."
+    },
+    {
+      "id": "2009_97",
+      "resolucao": "O cartaz do Ministério da Saúde informa os sintomas da gripe A, indica o canal de contato com os serviços de epidemiologia e orienta sobre atitudes para evitar a transmissão. Sua finalidade é orientar a população sobre sintomas e prevenção. Gabarito: D."
+    },
+    {
+      "id": "2009_98",
+      "resolucao": "No trecho “lobo-bolo / tipo pra rimar com ouro de tolo”, o compositor explora a sonoridade e a rima entre as palavras, além de empregar formas coloquiais como “tipo” e “pra”. Gabarito: D."
+    },
+    {
+      "id": "2009_99",
+      "resolucao": "O poema de Cruz e Sousa apresenta a forma rigorosa do soneto, com métrica e rimas, e aborda temas metafísicos e universais, como a alma aprisionada, a transcendência, a dor e o mistério. Essas características são próprias do Simbolismo. Gabarito: C."
+    },
+    {
+      "id": "2009_100",
+      "resolucao": "O personagem responde de maneira exaltada e descreve repetidamente o cansaço de escrever, revisar, acrescentar e suprimir trechos. A fala não é uma explicação objetiva: seu propósito é expressar o sentimento do escritor diante do processo de produção de um livro. Gabarito: E."
+    },
+    {
+      "id": "2009_102",
+      "resolucao": "O espetáculo teatral é uma criação coletiva, que integra texto, atuação, cenário, iluminação e som. O texto cênico pode partir de diferentes gêneros e materiais, como contos, lendas, romances, poesias, crônicas, notícias, imagens e fragmentos textuais. Gabarito: C."
+    },
+    {
+      "id": "2009_103",
+      "resolucao": "A aptidão física é a capacidade de utilizar o corpo de forma eficiente nas atividades cotidianas. Uma pessoa apresenta boa aptidão quando consegue realizar essas tarefas no dia a dia, independentemente da idade. Gabarito: C."
+    },
+    {
+      "id": "2009_104",
+      "resolucao": "No hipertexto, o leitor escolhe caminhos de leitura, navega entre blocos e pode inserir novas informações. Assim, participa ativamente da construção do percurso e da versão final do texto que lê. Gabarito: A."
+    },
+    {
+      "id": "2009_105",
+      "resolucao": "A tirinha representa um diálogo entre personagens, com cumprimento, pergunta e resposta. Mesmo em forma escrita, a linguagem dos quadrinhos reproduz características de uma conversa face a face. Gabarito: D."
+    },
+    {
+      "id": "2009_106",
+      "resolucao": "O texto destaca que informática e internet ampliam as trocas de informação e cultura e aceleram a globalização. Essas tecnologias contribuem para o desenvolvimento social ao permitir o registro e a disseminação do conhecimento de forma mais democrática e interativa. Gabarito: D."
+    },
+    {
+      "id": "2009_107",
+      "resolucao": "O segundo texto apresenta consequências concretas do descarte de sacolas plásticas, como entupimento de bueiros, enchentes e morte de animais. Utiliza essas constatações para convencer o leitor a evitar o uso de sacolas descartáveis. Gabarito: E."
+    },
+    {
+      "id": "2009_108",
+      "resolucao": "O Texto I destaca a versatilidade e as vantagens do plástico, como leveza, atoxicidade e possibilidade de reciclagem, embora ressalte que pouco é reciclado. O Texto II alerta para os danos ambientais causados pelo descarte de sacolas plásticas. Gabarito: B."
+    },
+    {
+      "id": "2009_109",
+      "resolucao": "Na tirinha, Hagar utiliza a forma “tinha consertado”, comum na linguagem coloquial, em vez da forma mais formal “consertara”. Esse uso do tempo verbal evidencia o registro informal da fala. Gabarito: C."
+    },
+    {
+      "id": "2009_110",
+      "resolucao": "O Portal Domínio Público disponibiliza gratuitamente obras literárias, artísticas e científicas em diferentes formatos para toda a população. Sua função social é democratizar o acesso à informação e ao conhecimento. Gabarito: C."
+    },
+    {
+      "id": "2009_111",
+      "resolucao": "A canção “Cuitelinho” preserva marcas da fala caipira e registra referências históricas transmitidas oralmente entre gerações. Sua importância está em contribuir para a formação da identidade nacional por meio da tradição oral. Gabarito: C."
+    },
+    {
+      "id": "2009_112",
+      "resolucao": "A pintura de Albert Eckhout e o trecho da carta de Pero Vaz de Caminha representam o indígena que habitava as terras que seriam colonizadas pelos europeus. Embora produzidas em épocas e linguagens diferentes, ambas registram o habitante do território sob o olhar europeu. Gabarito: C."
+    },
+    {
+      "id": "2009_113",
+      "resolucao": "A expressão “Divisão Digital” designa a desigualdade de acesso às tecnologias de informação e comunicação e às habilidades necessárias para utilizá-las. Essa exclusão aprofunda diferenças sociais, pois grupos menos favorecidos têm mais dificuldade para adquirir conhecimentos exigidos pelos novos meios produtivos. Gabarito: D."
+    },
+    {
+      "id": "2009_114",
+      "resolucao": "O texto e a imagem incentivam o consumidor a procurar selos de certificação nos produtos que utilizam recursos naturais da Amazônia. A certificação indica que a fabricação respeitou princípios éticos, incluindo a legislação ambiental e os direitos das populações locais. Gabarito: D."
+    },
+    {
+      "id": "2009_115",
+      "resolucao": "A dança Xavante mantém gestos e práticas transmitidos pelos antepassados, mas incorpora cantos novos, sonhados e planejados pelos padrinhos. A tradição cultural é preservada justamente pela continuidade da gestualidade ancestral junto à renovação dos cantos. Gabarito: E."
+    },
+    {
+      "id": "2009_116",
+      "resolucao": "O poema de Manuel Bandeira chama atenção para sua construção artística, com repetições, paralelismos e organização sonora dos versos. Por isso, predomina a função poética da linguagem, centrada na elaboração da mensagem. Gabarito: E."
+    },
+    {
+      "id": "2009_117",
+      "resolucao": "A estrutura do poema é marcada pela repetição de “O vento varria...” e de construções como “E a minha vida ficava / Cada vez mais cheia”. A recorrência de sons e estruturas sintáticas semelhantes organiza o texto. Gabarito: D."
+    },
+    {
+      "id": "2009_118",
+      "resolucao": "O Teatro do Oprimido democratiza os meios de produção teatral: qualquer pessoa pode participar, e o espectador pode substituir o protagonista e alterar o rumo da história. A prática amplia a expressão e a autonomia crítica do cidadão para interpretar o mundo. Gabarito: C."
+    },
+    {
+      "id": "2009_119",
+      "resolucao": "O Texto I defende rigor gramatical e rejeita formas próprias do português brasileiro. O Texto II, ao contrário, explica que a gramática deve aproximar-se do padrão brasileiro atual, inclusive incorporando construções presentes nos textos técnicos e jornalísticos. Gabarito: E."
+    },
+    {
+      "id": "2009_120",
+      "resolucao": "O romance regionalista nordestino valoriza a linguagem e os temas locais, retratando a vida do homem diante da natureza agreste, especialmente a seca. Muitas obras também assumem o ponto de vista de personagens socialmente desfavorecidos. Gabarito: C."
+    },
+    {
+      "id": "2009_121",
+      "resolucao": "O emissor utiliza expressões como “o código de vocês” e pergunta aos interlocutores qual seria o “pedaço de índio” que possuem. Ele se dirige a pessoas que não são indígenas, defendendo o reconhecimento e o compartilhamento do Brasil sem paternalismo. Gabarito: B."
+    },
+    {
+      "id": "2009_122",
+      "resolucao": "O entrevistado afirma que utiliza o “código de vocês” para estabelecer diálogo com pessoas de outra realidade cultural. O emprego da norma padrão busca colocar os interlocutores em posição simétrica, sem paternalismo ou privilégios. Gabarito: B."
+    },
+    {
+      "id": "2009_123",
+      "resolucao": "Bertolt Brecht utiliza os tubarões e os peixes como alegoria de sociedades em que os mais fortes exploram os mais fracos. A educação para a obediência, o sacrifício e a guerra revela como relações de opressão podem ser justificadas por discursos de proteção e felicidade. Gabarito: D."
+    },
+    {
+      "id": "2009_124",
+      "resolucao": "O oximoro combina ideias que parecem contraditórias. No fragmento, a oposição entre “matança” e “vida”, assim como entre “viver” e “morre”, reforça o sentido poético do trecho. Gabarito: D."
+    },
+    {
+      "id": "2009_125",
+      "resolucao": "O bilhete critica a ideia de escrever exatamente como se fala. A mensagem evidencia que, na modalidade escrita, é necessário empregar vocabulário adequado e respeitar as regras da norma padrão, considerando as diferenças entre fala e escrita. Gabarito: D."
+    },
+    {
+      "id": "2009_126",
+      "resolucao": "O texto é dirigido aos prefeitos e apresenta um site com informações e materiais de uso livre para download. A combinação de carta, publicidade oficial e recurso digital amplia o alcance da campanha e permite atingir públicos distintos. Gabarito: D."
+    },
+    {
+      "id": "2009_127",
+      "resolucao": "O texto dirige-se explicitamente ao prefeito e solicita que ele organize mutirões com líderes comunitários para combater a dengue. O destinatário é, portanto, o conjunto de prefeitos, convocados a tomar iniciativas locais. Gabarito: C."
+    },
+    {
+      "id": "2009_128",
+      "resolucao": "O narrador deseja partir sem acordar a avó, mas questiona se deveria fugir ou conversar com ela e despedir-se. A dúvida entre ir embora e falar com a avó expressa claramente seu sentimento contraditório. Gabarito: E."
+    },
+    {
+      "id": "2009_129",
+      "resolucao": "Serafim da Silva Neto considera pouco marcadas as divisões dialetais geográficas no Brasil. Paul Teyssier também reconhece que as diferenças são menos geográficas, embora destaque a influência dos fatores socioculturais. Os dois convergem quanto à fraca delimitação geográfica. Gabarito: E."
+    },
+    {
+      "id": "2009_130",
+      "resolucao": "A autora descreve um Brasil culturalmente polifônico, no qual diferentes regiões desenvolvem tradições próprias e o eixo Rio-São Paulo deixa de ser determinante. O país passa a reconhecer sua identidade cultural tanto em seus aspectos positivos quanto negativos. Gabarito: C."
+    },
+    {
+      "id": "2009_131",
+      "resolucao": "João de Barros chama de “barbarismo” as formas de português utilizadas por povos de outras regiões do império, revelando uma visão de língua homogênea e invariável, centrada no padrão de Portugal e que desconsidera a legitimidade das variedades linguísticas de outros povos. Gabarito: D."
+    },
+    {
+      "id": "2009_132",
+      "resolucao": "O narrador de Um Copo de Cólera apresenta um fluxo verbal contínuo e agressivo para criticar valores e instituições sociais, como amor, amizade, família, igreja e humanidade. A forma intensa do discurso evidencia a crítica à sociedade e às convenções que a sustentam. Gabarito: D."
+    },
+    {
+      "id": "2009_133",
+      "resolucao": "O narrador rejeita os valores e instituições que considera falsos ou opressivos, utilizando linguagem rápida, contundente e agressiva. Seu discurso é desmistificador, pois questiona os princípios humanitários defendidos pela interlocutora. Gabarito: C."
+    },
+    {
+      "id": "2009_134",
+      "resolucao": "O texto compara o culto contemporâneo ao corpo a uma religião. A alternativa correta apresenta essa inversão: enquanto antigas concepções religiosas associavam a felicidade eterna à renúncia do prazer, a corpolatria transforma o prazer e a aparência corporal em objetos de culto. Gabarito: A."
+    },
+    {
+      "id": "2009_135",
+      "resolucao": "O eu lírico mostra como Itabira e sua comunidade marcaram sua personalidade: ele se define como “de ferro” e associa seus sentimentos à cidade natal. O poema evidencia a tensão entre o indivíduo e o lugar e a sociedade que contribuíram para formá-lo. Gabarito: C."
+    },
+    {
+      "id": "2009_136",
+      "resolucao": "Com a frota de veículos mantida no mesmo tamanho, o total de passageiros é proporcional ao índice de produtividade. Em abril de 2001, o índice era 400 e o total mensal 321,9 milhões; em outubro de 2008, o índice era 441. Assim, 321,9 × 441/400 ≈ 354,9 milhões, ou aproximadamente 355 milhões. Gabarito: A."
+    },
+    {
+      "id": "2009_137",
+      "resolucao": "O menor trajeto permitido pelas mãos de trânsito percorre cinco lados de quadra. Cada lado mede 200 m, então a distância é 1.000 m ou 1 km. A 40 km/h, o tempo é 1/40 de hora, equivalente a 1,5 minuto. Gabarito: D."
+    },
+    {
+      "id": "2009_138",
+      "resolucao": "Em 2030, x = 30. Substituindo no modelo: y = 363e^(0,03×30) = 363e^0,9. Como e^0,3 = 1,35, temos y = 363 × 1,35³ ≈ 893 milhões de pessoas. O resultado fica entre 870 e 910 milhões. Gabarito: E."
+    },
+    {
+      "id": "2009_139",
+      "resolucao": "O gráfico indica que, em 2050, cerca de 32% da população dos países desenvolvidos terá 60 anos ou mais. Convertendo 32% em fração: 0,32 = 32/100 = 8/25. Gabarito: C."
+    },
+    {
+      "id": "2009_140",
+      "resolucao": "Se AB = a, então BC = 2a e a área do terreno retangular é 2a². O quadrado construído tem lado a/5 e área a²/25, equivalente a 2% do terreno. Como apenas 6% podem ser ocupados pela construção, a área do quadrado precisa triplicar. Gabarito: C."
+    },
+    {
+      "id": "2009_141",
+      "resolucao": "Se 925 milhões de litros correspondem a 4% da mistura final, o volume total é 925 ÷ 0,04 = 23.125 milhões de litros. Com a proporção de 3%, o consumo de biodiesel seria 0,03 × 23.125 = 693,75 milhões de litros. Gabarito: D."
+    },
+    {
+      "id": "2009_142",
+      "resolucao": "O gráfico mostra que o número de casos de câncer pulmonar aumenta conforme cresce o consumo diário de cigarros, mas não em proporção constante: há intervalos em que os valores permanecem estáveis e depois saltam. Portanto, existe relação entre as grandezas, mas sem proporcionalidade. Gabarito: E."
+    },
+    {
+      "id": "2009_143",
+      "resolucao": "Em maio de 2009, a população economicamente ativa era de 23.020 mil pessoas. Com crescimento de 4%: 23.020 × 1,04 = 23.940,8 mil. Convertendo milhares para pessoas, o resultado é 23.940.800. Gabarito: D."
+    },
+    {
+      "id": "2009_144",
+      "resolucao": "Oito compassos com fórmula 3/4 totalizam 8 × 3/4 = 6 unidades de semibreve. A alternativa D soma 24 colcheias (24 × 1/8 = 3) e 12 semínimas (12 × 1/4 = 3), totalizando 6. Gabarito: D."
+    },
+    {
+      "id": "2009_145",
+      "resolucao": "Para obter exatamente dois aparelhos defeituosos entre quatro, escolhem-se duas posições entre as quatro: C(4,2) = 6. Multiplica-se essa quantidade pela probabilidade de dois defeituosos e dois sem defeito: 6 × (0,2%)² × (99,8%)². Gabarito: C."
+    },
+    {
+      "id": "2009_146",
+      "resolucao": "Fora da promoção, sete diárias custariam 7 × R$ 150 = R$ 1.050. No pacote de oito dias, as diárias são R$ 150, R$ 150, R$ 150, R$ 130, R$ 110, R$ 90, R$ 90 e R$ 90, totalizando R$ 960. A economia é R$ 1.050 − R$ 960 = R$ 90. Gabarito: A."
+    },
+    {
+      "id": "2009_147",
+      "resolucao": "Para completar a figura, os desenhos nas bordas da peça devem coincidir com os padrões das peças vizinhas. A peça 2, girada 90° no sentido anti-horário, apresenta o encaixe correto. Gabarito: C."
+    },
+    {
+      "id": "2009_148",
+      "resolucao": "A taxa média de variação é a diferença das emissões dividida pela diferença da produção: (4,00 − 2,14) ÷ (2,0 − 1,1) = 1,86/0,9 ≈ 2,07 ppm por tonelada. O valor fica entre 1,50 e 2,80. Gabarito: D."
+    },
+    {
+      "id": "2009_149",
+      "resolucao": "Os anéis de Borromeo ficam presos como conjunto, mas nenhum par isolado permanece enlaçado: se um anel for retirado, os outros dois se soltam. O esboço que representa esse padrão cíclico de cruzamentos é a alternativa E. Gabarito: E."
+    },
+    {
+      "id": "2009_150",
+      "resolucao": "A média dos investimentos da França no Brasil é (825 + 485 + 1.458 + 744 + 1.214)/5 = 945,2 milhões de dólares. A média do Brasil na França é (367 + 357 + 354 + 539 + 280)/5 = 379,4 milhões. A diferença é 565,8 milhões, entre 500 e 600 milhões. Gabarito: D."
+    },
+    {
+      "id": "2009_151",
+      "resolucao": "Se c é a cota inicial, a despesa total é 50c + 510. No acerto, cada pessoa paga c + 7, e as 55 pessoas dividem o total: 55(c + 7) = 50c + 510. Resolvendo, c = 25 e a cota final é R$ 32,00. Gabarito: D."
+    },
+    {
+      "id": "2009_152",
+      "resolucao": "O aquífero Guarani armazena 30.000 km³. Como 1 km³ = 10⁹ m³ e 1 m³ = 10³ litros, isso equivale a 3 × 10¹⁶ litros. O reservatório da Sabesp comporta 20 milhões de litros (2 × 10⁷). A razão é (3 × 10¹⁶)/(2 × 10⁷) = 1,5 × 10⁹. Gabarito: E."
+    },
+    {
+      "id": "2009_153",
+      "resolucao": "Um plano paralelo à face indicada do prisma I corta os prismas I e III em seções paralelas às bases triangulares. Como os prismas são retos e têm bases congruentes, a interseção contém dois triângulos congruentes, com lados correspondentes paralelos. Gabarito: A."
+    },
+    {
+      "id": "2009_154",
+      "resolucao": "Por semelhança de triângulos, 3,2 m de percurso correspondem a uma elevação de 0,8 m. Para atingir 2,2 m, o percurso total será 3,2 × (2,2/0,8) = 8,8 m. Como o paciente já caminhou 3,2 m, faltam 8,8 − 3,2 = 5,6 m. Gabarito: D."
+    },
+    {
+      "id": "2009_155",
+      "resolucao": "Com desconto de x centavos, o preço por litro é 1,50 − 0,01x e a quantidade vendida é 10.000 + 100x litros. A arrecadação é V = (1,50 − 0,01x)(10.000 + 100x) = 15.000 + 50x − x². Gabarito: D."
+    },
+    {
+      "id": "2009_156",
+      "resolucao": "Para o primeiro dígito, a soma ponderada é 210; como o resto da divisão por 11 é 1, o primeiro verificador é zero. Para o segundo, usando o primeiro dígito no cálculo, a soma é 244, cujo resto é 2; assim, d₂ = 11 − 2 = 9. Os dígitos são 0 e 9. Gabarito: A."
+    },
+    {
+      "id": "2009_157",
+      "resolucao": "A aresta do cubo é ∛13.824 = 24 cm. Cada esfera tem diâmetro de 12 cm, então cabem duas esferas em cada direção do cubo. O total é 2 × 2 × 2 = 8 esferas. Gabarito: B."
+    },
+    {
+      "id": "2009_158",
+      "resolucao": "Na escala 1:150, o comprimento de 36 m (3.600 cm) fica com 24 cm no desenho, e a envergadura de 28,5 m (2.850 cm) fica com 19 cm. Acrescentando margem de 1 cm em cada lado, a folha precisa medir 26 cm × 21 cm. Gabarito: D."
+    },
+    {
+      "id": "2009_159",
+      "resolucao": "A cada cinco bolas, o nível da água aumenta 0,35 cm, ou seja, 0,07 cm por bola. A função é linear: y = 0,07x + b. Usando o ponto (5; 6,35), obtém-se b = 6. Portanto, y = 0,07x + 6. Gabarito: E."
+    },
+    {
+      "id": "2009_160",
+      "resolucao": "A produção precisa passar de 20 hectares por dia para 30 hectares por dia, pois 180 hectares em seis dias exigem esse ritmo. Mantendo equipe e máquinas, basta aumentar a jornada na mesma proporção: de 6 para 9 horas diárias. O custo total permanece abaixo de R$ 25.000. Gabarito: D."
+    },
+    {
+      "id": "2009_161",
+      "resolucao": "Ordenando as notas da equipe Gama, a mediana inicial é 7. Se o aluno ausente obtiver nota igual ou superior a 8, a mediana passa a (7 + 8)/2 = 7,5; se obtiver menos, a mediana não supera 7. Como 7,5 ainda é inferior aos 7,6 da equipe Delta, a Gama permanece em terceiro lugar qualquer que seja a nota. Gabarito: D."
+    },
+    {
+      "id": "2009_162",
+      "resolucao": "Nos primeiros dez dias, 20 alunos trabalharam 3 horas por dia e arrecadaram 12 kg diários, totalizando 120 kg. A produtividade é 12 ÷ (20 × 3) = 0,2 kg por aluno-hora. Nos 20 dias restantes, 50 alunos trabalham 4 horas por dia, produzindo 50 × 4 × 0,2 = 40 kg por dia, ou 800 kg. Total: 120 + 800 = 920 kg. Gabarito: A."
+    },
+    {
+      "id": "2009_163",
+      "resolucao": "O carro percorre 16 × 7 = 112 km. Com consumo de 75 litros a cada 100 km, precisa de 84 litros. Como a gasolina tem densidade de 0,75 kg/L, sua massa é 84 × 0,75 = 63 kg. Somando ao peso mínimo de 605 kg, o carro deve pesar 668 kg. Gabarito: B."
+    },
+    {
+      "id": "2009_164",
+      "resolucao": "Os cortes dividem o quarto de círculo em três setores de 30°. A região de João corresponde ao triângulo acima da reta que forma 60° com a horizontal. Essa reta encontra o lado superior em x = 2/tan 60° = 2√3/3 ≈ 1,16 km. A área é aproximadamente 1,16 km²; como o terreno mede 6 km², a fração é cerca de 19%. Gabarito: E."
+    },
+    {
+      "id": "2009_165",
+      "resolucao": "Para escolher os quatro times do Grupo A, a ordem não importa: usa-se combinação. Para escolher os dois times do jogo de abertura, a ordem importa porque o primeiro é mandante e o segundo visitante: usa-se arranjo. Gabarito: A."
+    },
+    {
+      "id": "2009_166",
+      "resolucao": "A rota Brasília–Belém aponta para o norte. Ao girar 135° no sentido horário, o avião AII segue para sudeste e chega a Belo Horizonte. A partir dessa direção, uma rotação de 90° no sentido anti-horário aponta para nordeste, levando de Belo Horizonte a Salvador. Gabarito: B."
+    },
+    {
+      "id": "2009_167",
+      "resolucao": "A área do Pantanal é 150.355 km², ou 1,50355 × 10¹¹ m². Um campo de futebol mede 120 × 90 = 10.800 m². Dividindo a área do bioma pela área do campo, obtém-se aproximadamente 13,9 milhões, ou 14 milhões de campos. Gabarito: E."
+    },
+    {
+      "id": "2009_168",
+      "resolucao": "Ordenando as sete cotações: R$ 73,10; R$ 81,60; R$ 82,00; R$ 83,00; R$ 84,00; R$ 84,60; R$ 85,30. Como há sete valores, a mediana é o quarto: R$ 83,00. Gabarito: D."
+    },
+    {
+      "id": "2009_169",
+      "resolucao": "Na canaleta original, a área da seção é (30 + 20)/2 × 2,5 = 62,5 m². Como a vazão é 1.050 m³/s, a velocidade é 1.050/62,5 = 16,8 m/s. Na canaleta reformada, a área será (49 + 41)/2 × 2 = 90 m². A nova vazão é 90 × 16,8 = 1.512 m³/s. Gabarito: D."
+    },
+    {
+      "id": "2009_170",
+      "resolucao": "Cada foto tem 2 milhões de pixels e cada pixel ocupa 3 bytes: 6 MB sem compressão. Com redução de 95%, cada imagem ocupa 0,3 MB. Para 150 fotos, são necessários 45 MB. O menor dispositivo com capacidade suficiente é o cartão de 64 MB. Gabarito: E."
+    },
+    {
+      "id": "2009_171",
+      "resolucao": "Com R$ 126,00 é possível fazer 84 apostas simples de seis dezenas ou uma aposta de nove dezenas, pois C(9,6) = 84. As 84 apostas simples geram 27.216 combinações favoráveis à quina; a aposta de nove dezenas gera 6.426. A razão é aproximadamente 4,2, portanto a chance no segundo caso é cerca de quatro vezes menor. Gabarito: C."
+    },
+    {
+      "id": "2009_172",
+      "resolucao": "De janeiro a maio, foram importados 9 milhões de m³ e exportados 11 milhões de m³. De junho a dezembro, os volumes serão 7/5 desses valores: 12,6 milhões de m³ importados e 15,4 milhões exportados. Aplicando os preços, as despesas totais com importação serão US$ 7,124 bilhões e as receitas de exportação US$ 5,782 bilhões. A diferença é aproximadamente US$ 1,34 bilhão. Gabarito: C."
+    },
+    {
+      "id": "2009_173",
+      "resolucao": "A vela completa tem altura total de 19 cm, mas há três espaços de 1 cm entre os quatro blocos. Assim, a altura de parafina é 16 cm e o volume da pirâmide inteira é (1/3) × 6² × 16 = 192 cm³. A pirâmide do topo tem base de lado 1,5 cm e altura 4 cm, com volume (1/3) × 1,5² × 4 = 3 cm³. Retirando-a, restam 189 cm³. Gabarito: B."
+    },
+    {
+      "id": "2009_174",
+      "resolucao": "O ponto percorre um arco de comprimento d em uma circunferência de raio r, formando ângulo central θ = d/r. Partindo do ponto mais à esquerda, a projeção Q desloca-se horizontalmente de −r até −r cos(θ). A distância percorrida é r − r cos(d/r) = r[1 − cos(d/r)]. Gabarito: B."
+    },
+    {
+      "id": "2009_175",
+      "resolucao": "O indicador é a média entre TC e TA: (TC + TA)/2 = 0,6. Ao dobrar NF, TC cai pela metade e o indicador passa a 0,5: (TC/2 + TA)/2 = 0,5. Subtraindo as equações, TC = 0,4; então TA = 0,8. Como TA = NA/NV, temos NA = 0,8NV. Com NA + NV = 3.600, resulta NV = 2.000. Como TC = NV/NF = 0,4, NF = 5.000. Gabarito: C."
+    },
+    {
+      "id": "2009_176",
+      "resolucao": "O aquecimento dura 10 minutos e há mais 1 minuto de descanso antes do primeiro aparelho. São 6 aparelhos × 3 séries = 18 séries de 30 segundos, totalizando 9 minutos de exercício. Entre as 18 séries e mudanças de aparelho há 17 intervalos de 1 minuto. O total é 10 + 1 + 9 + 17 = 37 minutos, exatamente o tempo disponível. Joana consegue cumprir todo o programa. Gabarito: B."
+    },
+    {
+      "id": "2009_177",
+      "resolucao": "A pirâmide de base quadrada possui cinco faces: quatro triangulares e uma quadrada. Um plano que intercepte todas as faces produz cinco segmentos que formam um polígono de cinco lados. Portanto, é possível obter uma seção pentagonal. Gabarito: C."
+    },
+    {
+      "id": "2009_178",
+      "resolucao": "Quitando o cheque especial, o valor com desconto é R$ 1.500; quitando o cartão, com 25% de desconto, o valor é R$ 300. Se João pegar emprestado apenas para quitar o cartão, pagará R$ 300 × 1,25 = R$ 375 pelo empréstimo e manterá as parcelas do cheque especial (R$ 1.800), totalizando R$ 2.175. Esse é o menor gasto entre as opções. Gabarito: E."
+    },
+    {
+      "id": "2009_179",
+      "resolucao": "A demanda para 15 dias é 2.000 × 15 = 30.000 litros. Acrescentando 10% para compensar a evaporação, a cisterna precisa armazenar 33.000 litros. Com precipitação de 110 mm, cada metro quadrado capta 110 litros; a área necessária é 33.000/110 = 300 m², que pode corresponder a um telhado de 15 m por 20 m. Gabarito: B."
+    },
+    {
+      "id": "2009_180",
+      "resolucao": "A probabilidade de não ocorrer efeito colateral em uma dose é 0,9. Em n doses, a probabilidade de nenhum efeito é 0,9ⁿ, então o risco acumulado é 1 − 0,9ⁿ. Para quatro doses, o risco é 1 − 0,9⁴ ≈ 34,4%, abaixo do limite de 35%. Para seis doses, o risco já ultrapassa o limite. Portanto, o máximo admissível é quatro doses. Gabarito: B."
     }
   ]
 }
