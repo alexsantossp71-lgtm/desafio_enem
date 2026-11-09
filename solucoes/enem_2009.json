@@ -679,6 +679,42 @@
     {
       "id": "2009_171",
       "resolucao": "Com R$ 126,00 é possível fazer 84 apostas simples de seis dezenas ou uma aposta de nove dezenas, pois C(9,6) = 84. As 84 apostas simples geram 27.216 combinações favoráveis à quina; a aposta de nove dezenas gera 6.426. A razão é aproximadamente 4,2, portanto a chance no segundo caso é cerca de quatro vezes menor. Gabarito: C."
+    },
+    {
+      "id": "2009_172",
+      "resolucao": "De janeiro a maio, foram importados 9 milhões de m³ e exportados 11 milhões de m³. De junho a dezembro, os volumes serão 7/5 desses valores: 12,6 milhões de m³ importados e 15,4 milhões exportados. Aplicando os preços, as despesas totais com importação serão US$ 7,124 bilhões e as receitas de exportação US$ 5,782 bilhões. A diferença é aproximadamente US$ 1,34 bilhão. Gabarito: C."
+    },
+    {
+      "id": "2009_173",
+      "resolucao": "A vela completa tem altura total de 19 cm, mas há três espaços de 1 cm entre os quatro blocos. Assim, a altura de parafina é 16 cm e o volume da pirâmide inteira é (1/3) × 6² × 16 = 192 cm³. A pirâmide do topo tem base de lado 1,5 cm e altura 4 cm, com volume (1/3) × 1,5² × 4 = 3 cm³. Retirando-a, restam 189 cm³. Gabarito: B."
+    },
+    {
+      "id": "2009_174",
+      "resolucao": "O ponto percorre um arco de comprimento d em uma circunferência de raio r, formando ângulo central θ = d/r. Partindo do ponto mais à esquerda, a projeção Q desloca-se horizontalmente de −r até −r cos(θ). A distância percorrida é r − r cos(d/r) = r[1 − cos(d/r)]. Gabarito: B."
+    },
+    {
+      "id": "2009_175",
+      "resolucao": "O indicador é a média entre TC e TA: (TC + TA)/2 = 0,6. Ao dobrar NF, TC cai pela metade e o indicador passa a 0,5: (TC/2 + TA)/2 = 0,5. Subtraindo as equações, TC = 0,4; então TA = 0,8. Como TA = NA/NV, temos NA = 0,8NV. Com NA + NV = 3.600, resulta NV = 2.000. Como TC = NV/NF = 0,4, NF = 5.000. Gabarito: C."
+    },
+    {
+      "id": "2009_176",
+      "resolucao": "O aquecimento dura 10 minutos e há mais 1 minuto de descanso antes do primeiro aparelho. São 6 aparelhos × 3 séries = 18 séries de 30 segundos, totalizando 9 minutos de exercício. Entre as 18 séries e mudanças de aparelho há 17 intervalos de 1 minuto. O total é 10 + 1 + 9 + 17 = 37 minutos, exatamente o tempo disponível. Joana consegue cumprir todo o programa. Gabarito: B."
+    },
+    {
+      "id": "2009_177",
+      "resolucao": "A pirâmide de base quadrada possui cinco faces: quatro triangulares e uma quadrada. Um plano que intercepte todas as faces produz cinco segmentos que formam um polígono de cinco lados. Portanto, é possível obter uma seção pentagonal. Gabarito: C."
+    },
+    {
+      "id": "2009_178",
+      "resolucao": "Quitando o cheque especial, o valor com desconto é R$ 1.500; quitando o cartão, com 25% de desconto, o valor é R$ 300. Se João pegar emprestado apenas para quitar o cartão, pagará R$ 300 × 1,25 = R$ 375 pelo empréstimo e manterá as parcelas do cheque especial (R$ 1.800), totalizando R$ 2.175. Esse é o menor gasto entre as opções. Gabarito: E."
+    },
+    {
+      "id": "2009_179",
+      "resolucao": "A demanda para 15 dias é 2.000 × 15 = 30.000 litros. Acrescentando 10% para compensar a evaporação, a cisterna precisa armazenar 33.000 litros. Com precipitação de 110 mm, cada metro quadrado capta 110 litros; a área necessária é 33.000/110 = 300 m², que pode corresponder a um telhado de 15 m por 20 m. Gabarito: B."
+    },
+    {
+      "id": "2009_180",
+      "resolucao": "A probabilidade de não ocorrer efeito colateral em uma dose é 0,9. Em n doses, a probabilidade de nenhum efeito é 0,9ⁿ, então o risco acumulado é 1 − 0,9ⁿ. Para quatro doses, o risco é 1 − 0,9⁴ ≈ 34,4%, abaixo do limite de 35%. Para seis doses, o risco já ultrapassa o limite. Portanto, o máximo admissível é quatro doses. Gabarito: B."
     }
   ]
 }
