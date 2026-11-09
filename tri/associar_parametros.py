@@ -121,6 +121,15 @@ def main():
             errors.append(f"{qid}: chave oficial encontrada {len(candidates)} vezes; esperado 1")
             continue
         item = candidates[0]
+        try:
+            mapped_position = int(r["co_posicao"])
+            official_position = int(float(item["CO_POSICAO"]))
+        except (TypeError, ValueError):
+            errors.append(f"{qid}: posição inválida no mapeamento ou no CSV oficial")
+            continue
+        if mapped_position != official_position:
+            errors.append(f"{qid}: posição informada ({mapped_position}) diverge da oficial ({official_position})")
+            continue
         if AREA_MAP.get(norm(item["SG_AREA"])) != next(
             (q.get("materia") for q in questoes if str(q.get("id")) == qid), None
         ):
