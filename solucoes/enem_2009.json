@@ -83,6 +83,46 @@
     {
       "id": "2009_21",
       "resolucao": "Nos seres humanos, o organismo adulto é diploide (2n) e produz gametas haploides (n) por meiose. A fecundação une dois gametas e forma um zigoto diploide (2n), que se desenvolve por mitoses até o adulto. Gabarito: C."
+    },
+    {
+      "id": "2009_22",
+      "resolucao": "A iontoforese utiliza uma corrente elétrica fraca para conduzir o medicamento através da pele e direcioná-lo ao local de ação. Isso reduz a dispersão do fármaco pelo organismo em comparação com a ingestão oral e, consequentemente, diminui a ocorrência de efeitos colaterais. Gabarito: D."
+    },
+    {
+      "id": "2009_23",
+      "resolucao": "Cádmio, chumbo e mercúrio são metais tóxicos, persistentes e bioacumulativos. A coleta de pilhas reduz o descarte inadequado, mas a solução definitiva indicada é substituir esses metais por substâncias menos nocivas e que não se acumulem na cadeia alimentar. Gabarito: E."
+    },
+    {
+      "id": "2009_24",
+      "resolucao": "A insolação aquece o ar durante o dia e aumenta sua capacidade de armazenar vapor de água. Se a quantidade absoluta de vapor permanecer semelhante, a umidade relativa diminui; à noite, com o resfriamento, ela aumenta. Assim, a insolação provoca a variação diária observada. Gabarito: A."
+    },
+    {
+      "id": "2009_25",
+      "resolucao": "Sensibilidade é a probabilidade de um teste identificar como positivo um animal realmente infectado. Com sensibilidade de 90%, a cada 100 animais infectados, 90 serão classificados como positivos e 10 como falsos negativos. Gabarito: B."
+    },
+    {
+      "id": "2009_26",
+      "resolucao": "Em concentrações iguais, os ácidos mais fortes liberam maior quantidade de íons H⁺ e produzem maior acidez. Entre os ácidos citados, H₂SO₄ e HNO₃ são fortes; por isso, conferem maior acidez à água da chuva. Gabarito: D."
+    },
+    {
+      "id": "2009_27",
+      "resolucao": "A gravidade continua atuando sobre o telescópio em órbita: é justamente a força gravitacional que fornece a aceleração centrípeta e mantém sua trajetória orbital. O que é muito pequeno é o peso aparente, pois o telescópio e os astronautas estão em queda livre. Gabarito: D."
+    },
+    {
+      "id": "2009_28",
+      "resolucao": "A área está quase totalmente desmatada e, portanto, recebe muita luz. O reflorestamento deve começar com espécies pioneiras capazes de crescer sob alta luminosidade; no quadro, essa característica é apresentada pelas espécies 2, 3 e 5. Gabarito: B."
+    },
+    {
+      "id": "2009_29",
+      "resolucao": "O antimônio possui 50 prótons. Pelo gráfico, seus isótopos estáveis apresentam aproximadamente 60 a 75 nêutrons, ou seja, entre 12 e 24 nêutrons a mais que o número de prótons. Gabarito: D."
+    },
+    {
+      "id": "2009_30",
+      "resolucao": "Para aquecer 200 litros de água em 35 °C, são necessários aproximadamente 29,3 MJ. O resistor fornece P = U²/R = 110²/11 = 1.100 W; para fornecer essa energia, o gerador funciona por cerca de 7,4 horas. Como consome 1 litro de gasolina por hora, utiliza aproximadamente 7 vezes mais gasolina que a combustão direta. Gabarito: D."
+    },
+    {
+      "id": "2009_31",
+      "resolucao": "O enunciado considera iguais a intensidade de transmissão e o nível de recepção para os dois sistemas. Sob essa condição, a intensidade diminui com a distância segundo a mesma relação, independentemente da frequência; portanto, o número de antenas necessário para a mesma cobertura é equivalente. Gabarito: E."
     }
   ]
 }
