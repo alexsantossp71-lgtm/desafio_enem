@@ -103,3 +103,21 @@ Todas as questões inspecionadas possuem cinco alternativas e gabarito interno. 
 **Situação desta etapa:** o inventário do banco foi concluído, mas ainda não há parâmetros A/B/C associados às 173 questões. O mapeamento explícito continua vazio até que cada ID seja ligado, sem ambiguidade, ao item oficial e ao caderno correspondente. Nenhum valor TRI foi estimado ou copiado de outra questão.
 
 Fonte oficial dos microdados: https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
+
+## Fonte de parâmetros obtida — ENEM 2020
+
+O arquivo completo `tri/fontes/ITENS_PROVA_2020.csv` foi incorporado à branch de trabalho a partir de uma cópia espelhada do arquivo oficial do Inep. O manifesto da cópia registra o caminho original `microdados_enem_2020/DADOS/ITENS_PROVA_2020.csv` e o SHA-256 da fonte `57c9eea2a56d45271d036da38f1219bdedf4a6295a9b6829690fe6b8db96444b`.
+
+Inventário do CSV incorporado:
+- 4.415 linhas de registros de caderno/item.
+- Áreas: LC 1.310; CH 1.035; CN 1.035; MT 1.035 linhas.
+- Itens distintos por área: LC 150; CN 150; CH 135; MT 147.
+- 42 registros marcados como itens abandonados.
+- 360 registros com `TP_VERSAO_DIGITAL` preenchido.
+- Campos A/B/C presentes no arquivo.
+
+**Atenção:** as linhas representam aparições dos itens em cadernos e versões, não 4.415 questões diferentes. O mesmo `CO_ITEM` aparece em mais de um caderno, com posição e cor diferentes. A edição digital de Linguagens também exige considerar `TP_VERSAO_DIGITAL`; por isso o validador agora inclui `TP_LINGUA` e `TP_VERSAO_DIGITAL` na chave composta. O modelo `tri/mapeamento_modelo.csv` foi atualizado.
+
+Origem pública da cópia e manifesto de integridade: https://github.com/HenriqueLindemann/analise-enem (manifesto em `src/tri_enem/data/itens/manifest.json`). A fonte primária continua sendo o Inep: https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
+
+**Resultado:** os parâmetros oficiais de 2020 agora estão disponíveis localmente na branch. Ainda não foram ligados aos IDs `2020_N` do Desafio ENEM; essa etapa depende de identificar o `CO_ITEM` correto para cada questão do banco e selecionar a linha do caderno/versão correspondente.
