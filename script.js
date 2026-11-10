@@ -277,7 +277,7 @@ async function carregarAno(ano, btnElement) {
         try {
             const respostaTri = await fetch(`tri/dados/enem_${ano}.json`, {
                 headers: { Accept: 'application/json' },
-                cache: 'default'
+                cache: 'no-store'
             });
             if (respostaTri.ok) {
                 const dadosTri = await respostaTri.json();
