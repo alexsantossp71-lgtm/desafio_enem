@@ -6,21 +6,18 @@ Este diretório organiza os parâmetros psicométricos oficiais do ENEM e o vín
 
 | Edições | Situação | Evidência |
 |---|---|---|
-| 2009–2012 | Não confirmados em download público aberto | A adoção da TRI começou em 2009, mas os parâmetros históricos eram acessíveis por canal restrito/Sedap; não preencher por estimativa. |
-| 2013–2021 | Confirmados nos microdados públicos | O Inep confirmou à CMRI que os microdados dessas edições contêm A, B e C para itens das aplicações regular, PPL e digital. |
-| 2022–2024 | Campos confirmados nos dicionários; falta validar os CSVs integrais | Dicionários dessas edições descrevem NU_PARAM_A, NU_PARAM_B e NU_PARAM_C na tabela de itens. |
-| 2025 | Pendente de validação do arquivo de itens | A página oficial já publica os microdados 2025; verificar o dicionário e a tabela ITENS_PROVA_2025 antes de declarar cobertura. |
+| 2009–2012 | Não confirmados em download público aberto | Não há base pública aberta validada para esses parâmetros históricos; não preencher por estimativa. |
+| 2013–2021 | Campos A/B/C confirmados nos microdados públicos e associações concluídas | Declaração do Inep à CMRI e cruzamentos por caderno/posição ou texto e alternativas. |
+| 2022–2025 | CSVs oficiais de itens localizados e associações concluídas | Campos A/B/C presentes nos arquivos `ITENS_PROVA_AAAA.csv` incorporados à branch. |
 
-**Atenção:** a página “Outros Documentos” do Inep lista uma planilha separada intitulada “Parâmetros dos itens | Enem 2020”. Isso não significa que 2020 seja o único ano com parâmetros: o Inep confirmou os campos também nos microdados públicos de 2013–2021.
+**Atenção:** a planilha separada “Parâmetros dos itens | Enem 2020” não significa que 2020 seja a única edição com parâmetros. Os microdados de 2013–2025 contêm os campos A/B/C utilizados neste trabalho.
 
 ## Fontes
 
-- Provas e gabaritos oficiais do ENEM 2020 (Inep), com cadernos regulares, digitais e reaplicação/PPL: https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020
-
 - Página oficial dos microdados: https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
+- Provas e gabaritos oficiais: páginas anuais do Inep, por exemplo https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020
 - Outros documentos do ENEM: https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/outros-documentos
-- Decisão CMRI nº 113/2022 (transcreve a confirmação do Inep sobre A, B e C nos microdados 2013–2021): https://www.gov.br/casacivil/pt-br/assuntos/colegiados/comissao-mista-de-reavaliacao-de-informacoes-cmri/decisoes-de-recurso-de-4a-instancia/2022/decisao-113-2022-nup-23546-022178-2022-63.pdf
-- Dicionários de variáveis das edições 2022, 2023 e 2024, que descrevem os três parâmetros na tabela de itens.
+- Decisão CMRI nº 113/2022 (confirmação do Inep sobre A, B e C nos microdados 2013–2021): https://www.gov.br/casacivil/pt-br/assuntos/colegiados/comissao-mista-de-reavaliacao-de-informacoes-cmri/decisoes-de-recurso-de-4a-instancia/2022/decisao-113-2022-nup-23546-022178-2022-63.pdf
 
 ## Campos oficiais relevantes
 
@@ -46,17 +43,17 @@ Os IDs internos, como `2020_136`, **não serão presumidos iguais** a `CO_ITEM` 
 
 Só aceitar associação inequívoca. Uma mesma questão pode ter mais de uma linha na tabela de itens quando aparece em aplicações/cadernos diferentes; a chave precisa preservar ano, aplicação, prova/caderno e código do item. Não colapsar versões diferentes sem justificativa.
 
-## Próxima sequência técnica
+## Procedimento de associação aplicado
 
-1. Baixar o ZIP oficial de cada edição e extrair somente o arquivo `ITENS_PROVA_AAAA.csv` (não é necessário carregar o arquivo de milhões de participantes).
-2. Validar se os campos A/B/C existem e quantos registros possuem valores.
-3. Filtrar aplicação regular e áreas do banco do projeto; preservar PPL/digital em fontes separadas quando houver.
-4. Construir uma tabela de correspondência auditável entre `id` interno e `CO_ITEM`.
-5. Conferir os casos ambíguos no caderno oficial antes de gerar os arquivos JSON do site.
+1. Preservar os arquivos oficiais `ITENS_PROVA_AAAA.csv` e os códigos de caderno da aplicação regular.
+2. Relacionar cada questão ao `CO_ITEM` usando posição e área quando a sequência coincide; usar enunciado e alternativas quando a numeração interna não coincide.
+3. Preservar `TP_LINGUA` e `TP_VERSAO_DIGITAL` quando existirem.
+4. Registrar divergências de área, gabarito, itens abandonados e itens anulados, sem inventar parâmetros.
+5. Gerar `tri/mapeamento_AAAA.csv` e `tri/dados/enem_AAAA.json` para o carregamento na tela da questão.
 
-## Formato final planejado
+## Formato dos arquivos gerados
 
-Um arquivo por ano, por exemplo `tri/enem_2020.json`:
+Um arquivo de dados por ano, por exemplo `tri/dados/enem_2020.json`:
 
 ```json
 {
@@ -73,7 +70,8 @@ Um arquivo por ano, por exemplo `tri/enem_2020.json`:
       "area": "MT",
       "parametros": {"a": 0.0, "b": 0.0, "c": 0.0},
       "item_abandonado": false,
-      "status_associacao": "validada"
+      "anulada_inep": false,
+      "status": "associado"
     }
   ]
 }
@@ -102,7 +100,7 @@ Todas as questões inspecionadas possuem cinco alternativas e gabarito interno. 
 - Há uma particularidade nos cadernos digitais de Linguagens: os códigos de prova 691, 692, 693 e 694 podem conter dois conjuntos de itens sob o mesmo código, separados por `TP_VERSAO_DIGITAL`. Um cruzamento que ignore essa variável pode gerar mais de um candidato para a mesma chave.
 - Uma análise independente do arquivo oficial de 2020 documenta os códigos de prova regulares e a necessidade de relacionar cada posição ao caderno efetivamente aplicado. Isso reforça que o sufixo do ID interno não é chave oficial.
 
-**Situação desta etapa:** o inventário do banco foi concluído, mas ainda não há parâmetros A/B/C associados às 173 questões. O mapeamento explícito continua vazio até que cada ID seja ligado, sem ambiguidade, ao item oficial e ao caderno correspondente. Nenhum valor TRI foi estimado ou copiado de outra questão.
+**Situação atual:** as 173 questões de 2020 foram associadas aos itens oficiais. O mapeamento e os parâmetros estão em `tri/mapeamento_2020.csv` e `tri/dados/enem_2020.json`.
 
 Fonte oficial dos microdados: https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
 
@@ -142,6 +140,24 @@ Exemplos observados:
 - A sequência global do banco também não coincide de forma inequívoca com uma única sequência de caderno, pois o banco tem quantidades diferentes de questões por área e pode não representar a mesma seleção/ordem do caderno.
 
 **Próximo passo necessário:** obter o caderno oficial de referência de 2020 (PDF) e fazer correspondência pelo conteúdo do enunciado e das alternativas, usando a tabela de itens para recuperar `CO_ITEM` e os parâmetros. O gabarito será uma validação auxiliar, nunca a chave principal. Até essa conferência, o arquivo de mapeamento permanece vazio e nenhum A/B/C é atribuído aos IDs internos.
+
+
+### Associações concluídas — 2013 a 2019
+
+| Ano | Questões associadas | Com A/B/C | Sem parâmetros | Anuladas |
+|---:|---:|---:|---:|---:|
+| 2013 | 175 | 175 | 0 | 0 |
+| 2014 | 175 | 171 | 4 | 0 |
+| 2015 | 175 | 175 | 0 | 0 |
+| 2016 | 176 | 173 | 3 | 0 |
+| 2017 | 175 | 175 | 0 | 0 |
+| 2018 | 174 | 173 | 1 | 1 |
+| 2019 | 172 | 167 | 5 | 0 |
+
+- Em 2015, a questão `2015_95` foi identificada como Linguagens em inglês (`TP_LINGUA=0.0`), apesar da matéria divergente no banco.
+- Em 2016, a questão `2016_93` também exige preservar a variante inglesa (`TP_LINGUA=0.0`).
+- Em 2017, as 40 questões de Linguagens foram associadas por comparação do enunciado e das cinco alternativas; o número interno não coincide com a posição impressa no caderno azul. As demais áreas foram associadas por posição.
+- Em 2018, a questão `2018_163` foi anulada pelo Inep e fica sem parâmetros. A questão `2018_15` apresenta divergência de gabarito entre o banco (C) e o Inep (D), sinalizada no JSON e na tela.
 
 ### Associação concluída — banco de questões 2020
 
@@ -197,4 +213,22 @@ Os 12 itens sem parâmetros que não foram anulados estão marcados pelo Inep co
 - O painel da questão carrega automaticamente `tri/dados/enem_AAAA.json`. A ausência de um arquivo TRI em outra edição não impede o carregamento do simulado.
 
 Os parâmetros A/B/C são os valores originais do Inep, sem classificação didática automática de dificuldade. Para 2009–2012, não foi confirmado acesso público aos parâmetros históricos; não são estimados nem inventados.
+
+### Cobertura consolidada — 2013 a 2025
+
+| Indicador | Total |
+|---|---:|
+| Questões associadas | **2.264** |
+| Questões com A/B/C disponíveis | **2.236** |
+| Sem parâmetros A/B/C | 28 |
+| Anuladas pelo Inep entre as anteriores | 4 |
+| Abandonadas na calibração, mas não anuladas | 24 |
+
+Foram identificadas 66 divergências de área entre o campo `materia` original do banco e a área oficial do item. Também foram identificadas 8 divergências de gabarito entre o banco e o Inep: `2018_15`, `2020_140`, `2021_15`, `2021_25`, `2021_38`, `2021_53`, `2025_23` e `2025_33`. Esses dados ficam sinalizados; não houve correção silenciosa dos campos originais.
+
+Os arquivos por edição são:
+- `tri/fontes/ITENS_PROVA_AAAA.csv`: fonte de parâmetros do Inep.
+- `tri/mapeamento_AAAA.csv`: vínculo auditável entre ID do projeto e `CO_ITEM`.
+- `tri/dados/enem_AAAA.json`: parâmetros e alertas usados pela tela da questão.
+
 
