@@ -61,8 +61,8 @@ function classificarDificuldadeTRI(valorB) {
     if (!Number.isFinite(valorB)) return null;
     // Faixas didáticas de apresentação; não são categorias oficiais do Inep.
     if (valorB < -1) return { texto: 'FÁCIL', classe: 'easy' };
-    if (valorB > 1) return { texto: 'DIFÍCIL', classe: 'hard' };
-    return { texto: 'MÉDIA', classe: 'medium' };
+    if (valorB > 1) return { texto: 'DIFÍCIL · estimativa', classe: 'hard' };
+    return { texto: 'MÉDIA · estimativa', classe: 'medium' };
 }
 
 function renderizarIndicadoresTRI(questao) {
@@ -96,6 +96,7 @@ function renderizarIndicadoresTRI(questao) {
         const etiqueta = document.createElement('span');
         etiqueta.className = 'difficulty-tag ' + dificuldade.classe;
         etiqueta.textContent = dificuldade.texto;
+        etiqueta.title = 'Classificação didática estimada a partir do parâmetro B; não é uma categoria oficial do Inep.';
         indicadoresTriQuestao.appendChild(etiqueta);
     }
 }
@@ -269,7 +270,8 @@ async function carregarAno(ano, btnElement) {
             throw new Error('O arquivo da prova não contém uma lista válida de questões.');
         }
 
-        // Os parâmetros TRI são opcionais por edição; ausência do arquivo não impede o simulado.
+        // Carrega uma única fonte TRI por ano. O formato do projeto é
+        // tri/dados/enem_AAAA.json; a situação do vínculo fica no campo "status".
         let triPorId = new Map();
         try {
             const respostaTri = await fetch(`tri/dados/enem_${ano}.json`, {
@@ -279,15 +281,23 @@ async function carregarAno(ano, btnElement) {
             if (respostaTri.ok) {
                 const dadosTri = await respostaTri.json();
                 if (Array.isArray(dadosTri.questoes)) {
-                    triPorId = new Map(dadosTri.questoes.map(item => [item.id, item]));
+                    dadosTri.questoes.forEach(registro => {
+                        if (registro && registro.id) {
+                            triPorId.set(String(registro.id), registro);
+                        }
+                    });
                 }
+            } else if (respostaTri.status !== 404) {
+                console.warn(`Falha HTTP ao carregar TRI de ${ano}: ${respostaTri.status}`);
             }
         } catch (erroTri) {
             console.warn(`Parâmetros TRI de ${ano} indisponíveis:`, erroTri);
         }
 
+        // O mesmo registro alimenta o cabeçalho e o cartão detalhado da questão.
+        parametrosTriPorId = triPorId;
         const validas = json.itens.filter(validarQuestao).map(questao => {
-            const tri = triPorId.get(questao.id);
+            const tri = triPorId.get(String(questao.id));
             return tri ? { ...questao, parametrosTRI: tri } : questao;
         });
         if (validas.length === 0) {
@@ -296,26 +306,6 @@ async function carregarAno(ano, btnElement) {
 
         // Uma resposta antiga nunca pode sobrescrever a seleção mais recente.
         if (idDestaRequisicao !== carregamentoId) return;
-
-        // Carrega os parâmetros TRI do ano, quando o arquivo validado estiver disponível.
-        // A ausência do arquivo não bloqueia a prova nem exibe valores estimados.
-        parametrosTriPorId = new Map();
-        try {
-            const respostaTri = await fetch(`tri/enem_${ano}.json`, {
-                headers: { Accept: 'application/json' },
-                cache: 'default'
-            });
-            if (respostaTri.ok) {
-                const dadosTri = await respostaTri.json();
-                (Array.isArray(dadosTri.questoes) ? dadosTri.questoes : []).forEach(registro => {
-                    if (registro && registro.id && registro.status_associacao === 'validada') {
-                        parametrosTriPorId.set(String(registro.id), registro);
-                    }
-                });
-            }
-        } catch (erroTri) {
-            console.warn('Parâmetros TRI não disponíveis para', ano, erroTri);
-        }
 
         dadosCompletosAno = validas;
         gerarBotoesMateria();
