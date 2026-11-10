@@ -215,7 +215,27 @@ async function carregarAno(ano, btnElement) {
             throw new Error('O arquivo da prova não contém uma lista válida de questões.');
         }
 
-        const validas = json.itens.filter(validarQuestao);
+        // Os parâmetros TRI são opcionais por edição; ausência do arquivo não impede o simulado.
+        let triPorId = new Map();
+        try {
+            const respostaTri = await fetch(`tri/dados/enem_${ano}.json`, {
+                headers: { Accept: 'application/json' },
+                cache: 'default'
+            });
+            if (respostaTri.ok) {
+                const dadosTri = await respostaTri.json();
+                if (Array.isArray(dadosTri.questoes)) {
+                    triPorId = new Map(dadosTri.questoes.map(item => [item.id, item]));
+                }
+            }
+        } catch (erroTri) {
+            console.warn(`Parâmetros TRI de ${ano} indisponíveis:`, erroTri);
+        }
+
+        const validas = json.itens.filter(validarQuestao).map(questao => {
+            const tri = triPorId.get(questao.id);
+            return tri ? { ...questao, parametrosTRI: tri } : questao;
+        });
         if (validas.length === 0) {
             throw new Error('Nenhuma questão válida foi encontrada neste arquivo.');
         }
@@ -367,6 +387,81 @@ window.repetirSimulado = function () {
     carregarQuestao(0);
 };
 
+function adicionarCardTRI(container, questao) {
+    const tri = questao?.parametrosTRI;
+    if (!tri) return;
+
+    const card = document.createElement('section');
+    card.className = 'tri-card';
+    card.setAttribute('aria-label', 'Parâmetros TRI oficiais da questão');
+
+    const topo = document.createElement('div');
+    topo.className = 'tri-card-header';
+    const titulo = document.createElement('strong');
+    titulo.textContent = 'Parâmetros TRI do Inep';
+    const identificacao = document.createElement('span');
+    identificacao.textContent = `Item ${tri.co_item} · Área ${tri.area_oficial}`;
+    topo.append(titulo, identificacao);
+    card.appendChild(topo);
+
+    if (tri.item_abandonado) {
+        const anulado = document.createElement('p');
+        anulado.className = 'tri-status tri-status-warning';
+        anulado.textContent = 'Questão anulada pelo Inep. Não há parâmetros A, B e C utilizáveis para este item.';
+        card.appendChild(anulado);
+    } else {
+        const grade = document.createElement('div');
+        grade.className = 'tri-grid';
+        [
+            ['A', 'Discriminação', tri.parametros?.a],
+            ['B', 'Dificuldade', tri.parametros?.b],
+            ['C', 'Acerto ao acaso', tri.parametros?.c]
+        ].forEach(([letra, nome, valor]) => {
+            const celula = document.createElement('div');
+            celula.className = 'tri-metric';
+            const rotulo = document.createElement('span');
+            rotulo.textContent = `${letra} · ${nome}`;
+            const numero = document.createElement('strong');
+            numero.textContent = Number.isFinite(valor) ? Number(valor).toFixed(5) : '—';
+            celula.append(rotulo, numero);
+            grade.appendChild(celula);
+        });
+        card.appendChild(grade);
+        const nota = document.createElement('p');
+        nota.className = 'tri-explanation';
+        nota.textContent = 'O parâmetro B representa a dificuldade na escala do item: valores maiores indicam maior dificuldade. Os parâmetros descrevem a questão, não a nota individual do estudante.';
+        card.appendChild(nota);
+    }
+
+    if (tri.divergencia_area) {
+        const aviso = document.createElement('p');
+        aviso.className = 'tri-status tri-status-warning';
+        const nomes = { LC: 'Linguagens', CH: 'Ciências Humanas', CN: 'Ciências da Natureza', MT: 'Matemática' };
+        aviso.textContent = `Atenção: o Inep identifica esta questão como ${nomes[tri.area_oficial] || tri.area_oficial}; o cadastro atual do banco indica ${tri.area_banco}.`;
+        card.appendChild(aviso);
+    }
+
+    if (tri.divergencia_gabarito) {
+        const aviso = document.createElement('p');
+        aviso.className = 'tri-status tri-status-warning';
+        aviso.textContent = `Atenção: o gabarito oficial do Inep é ${tri.gabarito_inep}; o banco atual está cadastrado como ${tri.gabarito_banco}.`;
+        card.appendChild(aviso);
+    }
+
+    const fonte = document.createElement('p');
+    fonte.className = 'tri-source';
+    fonte.textContent = 'Fonte: Microdados ENEM 2020 · Caderno azul · CO_PROVA ' + tri.co_prova;
+    const link = document.createElement('a');
+    link.href = 'https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020';
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.textContent = 'Consultar prova e gabarito oficiais';
+    fonte.append(' · ', link);
+    card.appendChild(fonte);
+
+    container.appendChild(card);
+}
+
 function carregarQuestao(indice) {
     clearInterval(timerInterval);
     avancando = false;
@@ -420,6 +515,7 @@ function carregarQuestao(indice) {
     // As alternativas, ao contrário, são inseridas somente como texto abaixo.
     enunciado.innerHTML = sanitizarEnunciado(questao.enunciado);
     caixa.appendChild(enunciado);
+    adicionarCardTRI(caixa, questao);
 
     const opcoes = document.createElement('div');
     opcoes.className = 'options-list';
