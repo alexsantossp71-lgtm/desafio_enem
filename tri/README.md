@@ -167,3 +167,34 @@ Foi possível associar **as 173 questões existentes no arquivo `questoes/enem_2
 - `tri/associar_parametros.py`: agora registra divergências de área e gabarito; para executar este ano com as divergências conhecidas, use `--permitir-divergencia-area`.
 
 Os valores A/B/C foram copiados sem arredondamento adicional dos campos `NU_PARAM_A`, `NU_PARAM_B` e `NU_PARAM_C` do CSV oficial. Itens anulados ficam com parâmetros nulos, nunca estimados.
+
+### Associações TRI concluídas — 2020 a 2025
+
+As associações foram realizadas para todas as questões cadastradas nesses seis anos, usando o caderno azul da aplicação regular e o CSV de itens oficial do Inep. A numeração impressa foi cruzada com área, `CO_PROVA`, cor do caderno e posição; os códigos de item são únicos dentro de cada edição.
+
+| Ano | Questões associadas | Com A/B/C | Sem parâmetros | Anuladas pelo Inep |
+|---:|---:|---:|---:|---:|
+| 2020 | 173 | 171 | 2 | 2 |
+| 2021 | 175 | 171 | 4 | 1 |
+| 2022 | 174 | 168 | 6 | 0 |
+| 2023 | 174 | 173 | 1 | 0 |
+| 2024 | 174 | 174 | 0 | 0 |
+| 2025 | 172 | 170 | 2 | 0 |
+| **Total** | **1.042** | **1.027** | **15** | **3** |
+
+Os 12 itens sem parâmetros que não foram anulados estão marcados pelo Inep como abandonados na calibração TRI (`IN_ITEM_ABAN`); esse sinal não equivale a anulação da questão. O painel diferencia os dois casos.
+
+**Alertas encontrados e preservados**
+- Divergência de área entre o banco e a área oficial: 2020 (6 questões) e 2021 (11 questões).
+- Divergência de gabarito entre o banco e o Inep: 2020 (1), 2021 (4) e 2025 (2). Os valores oficiais aparecem no painel como alerta; não foram alterados silenciosamente.
+- Itens anulados: 2020_135, 2020_157 e 2021_138.
+- Itens abandonados na calibração, sem A/B/C: 2021_24, 2021_43, 2021_118; 2022_64, 2022_112, 2022_113, 2022_119, 2022_134, 2022_141; 2023_161; 2025_125, 2025_172.
+
+**Fontes e reprodutibilidade**
+- Cada ano tem um mapeamento explícito em `tri/mapeamento_AAAA.csv`, uma exportação em `tri/dados/enem_AAAA.json` e a cópia do CSV de itens em `tri/fontes/ITENS_PROVA_AAAA.csv`.
+- Códigos `CO_PROVA` usados para os cadernos azuis regulares: 2021 LC 889 / CH 879 / CN 909 / MT 899; 2022 LC 1065 / CH 1055 / CN 1085 / MT 1075; 2023 LC 1201 / CH 1191 / CN 1221 / MT 1211; 2024 LC 1395 / CH 1383 / CN 1419 / MT 1407; 2025 LC 1459 / CH 1447 / CN 1483 / MT 1471. Para 2020, ver a seção acima.
+- Os anos 2021 e 2022 têm códigos azuis alternativos com o mesmo conjunto de itens e gabaritos; foi escolhido o código da aplicação regular.
+- O painel da questão carrega automaticamente `tri/dados/enem_AAAA.json`. A ausência de um arquivo TRI em outra edição não impede o carregamento do simulado.
+
+Os parâmetros A/B/C são os valores originais do Inep, sem classificação didática automática de dificuldade. Para 2009–2012, não foi confirmado acesso público aos parâmetros históricos; não são estimados nem inventados.
+
