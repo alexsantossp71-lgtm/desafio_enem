@@ -23,8 +23,9 @@ from pathlib import Path
 REQUIRED_ITEM_FIELDS = {
     "CO_ITEM", "CO_POSICAO", "SG_AREA", "CO_PROVA", "TX_COR",
     "NU_PARAM_A", "NU_PARAM_B", "NU_PARAM_C", "IN_ITEM_ABAN",
+    "TP_LINGUA", "TP_VERSAO_DIGITAL",
 }
-REQUIRED_MAP_FIELDS = {"id", "co_item", "co_prova", "co_posicao", "tx_cor", "sg_area"}
+REQUIRED_MAP_FIELDS = {"id", "co_item", "co_prova", "co_posicao", "tx_cor", "sg_area", "tp_lingua", "tp_versao_digital"}
 AREA_MAP = {
     "CH": "ciencias-humanas",
     "CN": "ciencias-natureza",
@@ -89,7 +90,7 @@ def main():
     official = {}
     for row in raw_items:
         r = {norm(k): (v or "").strip() for k, v in row.items()}
-        key = (norm(r["CO_ITEM"]), norm(r["CO_PROVA"]), norm(r["SG_AREA"]), norm(r["TX_COR"]))
+        key = (norm(r["CO_ITEM"]), norm(r["CO_PROVA"]), norm(r["SG_AREA"]), norm(r["TX_COR"]), norm(r["TP_LINGUA"]), norm(r["TP_VERSAO_DIGITAL"]))
         official.setdefault(key, []).append(r)
 
     _, mapping_rows = read_csv(args.mapeamento)
@@ -106,7 +107,7 @@ def main():
     for row in mapping_rows:
         r = {str(k).strip().lower(): (v or "").strip() for k, v in row.items()}
         qid = r["id"]
-        key = (norm(r["co_item"]), norm(r["co_prova"]), norm(r["sg_area"]), norm(r["tx_cor"]))
+        key = (norm(r["co_item"]), norm(r["co_prova"]), norm(r["sg_area"]), norm(r["tx_cor"]), norm(r["tp_lingua"]), norm(r["tp_versao_digital"]))
         if qid not in ids:
             errors.append(f"{qid}: ID não existe no banco")
             continue
@@ -152,6 +153,8 @@ def main():
             "co_prova": item["CO_PROVA"],
             "co_posicao": int(item["CO_POSICAO"]),
             "cor_caderno": item["TX_COR"],
+            "lingua": item["TP_LINGUA"],
+            "versao_digital": item["TP_VERSAO_DIGITAL"],
             "area": item["SG_AREA"],
             "parametros": params,
             "item_abandonado": abandoned,
@@ -166,7 +169,7 @@ def main():
         "ano": args.ano,
         "fonte": f"INEP — Microdados do ENEM {args.ano}",
         "arquivo_fonte": args.itens.name,
-        "metodo": "cruzamento explícito por CO_ITEM, CO_PROVA, SG_AREA e TX_COR; conferência externa do caderno oficial",
+        "metodo": "cruzamento explícito por CO_ITEM, CO_PROVA, SG_AREA, TX_COR, TP_LINGUA e TP_VERSAO_DIGITAL; conferência externa do caderno oficial",
         "questoes": output,
     }
     args.saida.parent.mkdir(parents=True, exist_ok=True)
