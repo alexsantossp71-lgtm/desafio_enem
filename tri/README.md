@@ -6,8 +6,8 @@ Este diretório organiza os parâmetros psicométricos oficiais do ENEM e o vín
 
 | Edições | Situação | Evidência |
 |---|---|---|
-| 2009–2012 | Não confirmados em download público aberto | Não há base pública aberta validada para esses parâmetros históricos; não preencher por estimativa. |
-| 2013–2021 | Campos A/B/C confirmados nos microdados públicos e associações concluídas | Declaração do Inep à CMRI e cruzamentos por caderno/posição ou texto e alternativas. |
+| 2009–2012 | Arquivos de itens com A/B/C localizados em espelho público; associações concluídas | CSVs preservados em `tri/fontes`; o manifesto registra os hashes SHA-256 das fontes oficiais. |
+| 2013–2021 | Campos A/B/C confirmados nos microdados e associações concluídas | Declaração do Inep à CMRI e cruzamentos por caderno/posição ou texto e alternativas. |
 | 2022–2025 | CSVs oficiais de itens localizados e associações concluídas | Campos A/B/C presentes nos arquivos `ITENS_PROVA_AAAA.csv` incorporados à branch. |
 
 **Atenção:** a planilha separada “Parâmetros dos itens | Enem 2020” não significa que 2020 seja a única edição com parâmetros. Os microdados de 2013–2025 contêm os campos A/B/C utilizados neste trabalho.
@@ -142,6 +142,26 @@ Exemplos observados:
 **Próximo passo necessário:** obter o caderno oficial de referência de 2020 (PDF) e fazer correspondência pelo conteúdo do enunciado e das alternativas, usando a tabela de itens para recuperar `CO_ITEM` e os parâmetros. O gabarito será uma validação auxiliar, nunca a chave principal. Até essa conferência, o arquivo de mapeamento permanece vazio e nenhum A/B/C é atribuído aos IDs internos.
 
 
+### Associações concluídas — 2009 a 2012
+
+| Ano | Questões associadas | Com A/B/C | Sem parâmetros | Anuladas |
+|---:|---:|---:|---:|---:|
+| 2009 | 179 | 175 | 4 | 0 |
+| 2010 | 175 | 162 | 13 | 0 |
+| 2011 | 180 | 179 | 1 | 0 |
+| 2012 | 176 | 176 | 0 | 0 |
+
+Em 2009, a ordem do caderno azul é CN (1–45), CH (46–90), LC (91–135) e MT (136–180). De 2010 a 2012, a ordem é CH, CN, LC e MT, em blocos de 45 questões. As variantes de língua foram preservadas em 2011 (inglês/espanhol) e 2012 (espanhol na questão 94).
+
+**Códigos dos cadernos azuis regulares usados (2009–2012)**
+
+| Ano | LC | CH | CN | MT |
+|---:|---:|---:|---:|---:|
+| 2009 | 59 | 53 | 49 | 63 |
+| 2010 | 95 | 85 | 89 | 99 |
+| 2011 | 127 | 117 | 121 | 131 |
+| 2012 | 147 | 137 | 141 | 151 |
+
 ### Associações concluídas — 2013 a 2019
 
 | Ano | Questões associadas | Com A/B/C | Sem parâmetros | Anuladas |
@@ -229,19 +249,21 @@ Os 12 itens sem parâmetros que não foram anulados estão marcados pelo Inep co
 - Os anos 2021 e 2022 têm códigos azuis alternativos com o mesmo conjunto de itens e gabaritos; foi escolhido o código da aplicação regular.
 - O painel da questão carrega automaticamente `tri/dados/enem_AAAA.json`. A ausência de um arquivo TRI em outra edição não impede o carregamento do simulado.
 
-Os parâmetros A/B/C são os valores originais do Inep, sem classificação didática automática de dificuldade. Para 2009–2012, não foi confirmado acesso público aos parâmetros históricos; não são estimados nem inventados.
+Os parâmetros A/B/C são os valores originais dos arquivos de itens do Inep, sem classificação didática automática de dificuldade. Não foram estimados nem inventados.
 
-### Cobertura consolidada — 2013 a 2025
+### Cobertura consolidada — 2009 a 2025
 
 | Indicador | Total |
 |---|---:|
-| Questões associadas | **2.264** |
-| Questões com A/B/C disponíveis | **2.236** |
-| Sem parâmetros A/B/C | 28 |
+| Questões associadas | **2.974** |
+| Questões com A/B/C disponíveis | **2.928** |
+| Sem parâmetros A/B/C | 46 |
 | Anuladas pelo Inep entre as anteriores | 4 |
-| Abandonadas na calibração, mas não anuladas | 24 |
+| Abandonadas na calibração, mas não anuladas | 42 |
 
-Foram identificadas 66 divergências de área entre o campo `materia` original do banco e a área oficial do item. Também foram identificadas 8 divergências de gabarito entre o banco e o Inep: `2018_15`, `2020_140`, `2021_15`, `2021_25`, `2021_38`, `2021_53`, `2025_23` e `2025_33`. Esses dados ficam sinalizados; não houve correção silenciosa dos campos originais.
+Foram identificadas 126 divergências de área entre o campo `materia` original do banco e a área oficial do item. Também foram identificadas 13 divergências de gabarito entre o banco e o Inep: `2009_120`, `2010_112`, `2010_139`, `2011_81`, `2018_15`, `2020_140`, `2021_15`, `2021_25`, `2021_38`, `2021_53`, `2025_23`, `2025_33` e `2012_165`. Esses dados ficam sinalizados; não houve correção silenciosa dos campos originais.
+
+Os CSVs de 2009–2025 foram preservados a partir do espelho público `HenriqueLindemann/analise-enem`, no commit `be01112ebaae1cded4b585021dec917f0fe0a5af`. O arquivo `tri/fontes/manifest_origem.json` registra os hashes SHA-256 das fontes originais. A origem declarada para os arquivos é a tabela de itens dos microdados do Inep. Para a correspondência textual de Linguagens 2017, foi usado o conjunto de itens do repositório `ben-domingue/irw`, commit `56948ec32f18563a160f0e0a27e622422dc46040`.
 
 Os arquivos por edição são:
 - `tri/fontes/ITENS_PROVA_AAAA.csv`: fonte de parâmetros do Inep.
