@@ -389,7 +389,26 @@ window.repetirSimulado = function () {
 
 function adicionarCardTRI(container, questao) {
     const tri = questao?.parametrosTRI;
-    if (!tri) return;
+    if (!tri) {
+        if (Number(anoAtual) >= 2013) return;
+        const indisponivel = document.createElement('section');
+        indisponivel.className = 'tri-card';
+        indisponivel.setAttribute('aria-label', 'Disponibilidade dos parâmetros TRI');
+        const tituloIndisponivel = document.createElement('strong');
+        tituloIndisponivel.textContent = 'Parâmetros TRI do Inep';
+        const textoIndisponivel = document.createElement('p');
+        textoIndisponivel.className = 'tri-status';
+        textoIndisponivel.textContent = 'Não foi localizada uma publicação pública verificável dos parâmetros A, B e C para esta edição. O Desafio ENEM não estima nem atribui valores por aproximação.';
+        const linkIndisponivel = document.createElement('a');
+        linkIndisponivel.href = 'https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem';
+        linkIndisponivel.target = '_blank';
+        linkIndisponivel.rel = 'noopener noreferrer';
+        linkIndisponivel.textContent = 'Consultar microdados do Inep';
+        textoIndisponivel.append(' ', linkIndisponivel);
+        indisponivel.append(tituloIndisponivel, textoIndisponivel);
+        container.appendChild(indisponivel);
+        return;
+    }
 
     const card = document.createElement('section');
     card.className = 'tri-card';
