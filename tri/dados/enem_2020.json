@@ -27,7 +27,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado_com_alerta",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_6",
@@ -49,7 +51,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_7",
@@ -71,7 +75,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_8",
@@ -93,7 +99,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_9",
@@ -115,7 +123,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_10",
@@ -137,7 +147,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_11",
@@ -159,7 +171,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_12",
@@ -181,7 +195,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_13",
@@ -203,7 +219,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_14",
@@ -225,7 +243,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_15",
@@ -247,7 +267,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_16",
@@ -269,7 +291,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_17",
@@ -291,7 +315,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_18",
@@ -313,7 +339,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_19",
@@ -335,7 +363,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_20",
@@ -357,7 +387,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado_com_alerta",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_21",
@@ -379,7 +411,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_22",
@@ -401,7 +435,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_23",
@@ -423,7 +459,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_24",
@@ -445,7 +483,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_25",
@@ -467,7 +507,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_26",
@@ -489,7 +531,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_27",
@@ -511,7 +555,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_28",
@@ -533,7 +579,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_29",
@@ -555,7 +603,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_30",
@@ -577,7 +627,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_31",
@@ -599,7 +651,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_32",
@@ -621,7 +675,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_33",
@@ -643,7 +699,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_34",
@@ -665,7 +723,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_35",
@@ -687,7 +747,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_36",
@@ -709,7 +771,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_37",
@@ -731,7 +795,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_38",
@@ -753,7 +819,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_39",
@@ -775,7 +843,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_40",
@@ -797,7 +867,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_41",
@@ -819,7 +891,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_42",
@@ -841,7 +915,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_43",
@@ -863,7 +939,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_44",
@@ -885,7 +963,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_45",
@@ -907,7 +987,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_46",
@@ -929,7 +1011,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_47",
@@ -951,7 +1035,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_48",
@@ -973,7 +1059,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_49",
@@ -995,7 +1083,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_50",
@@ -1017,7 +1107,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_51",
@@ -1039,7 +1131,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_52",
@@ -1061,7 +1155,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_53",
@@ -1083,7 +1179,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_54",
@@ -1105,7 +1203,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_55",
@@ -1127,7 +1227,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_56",
@@ -1149,7 +1251,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_57",
@@ -1171,7 +1275,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_58",
@@ -1193,7 +1299,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_59",
@@ -1215,7 +1323,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_60",
@@ -1237,7 +1347,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_61",
@@ -1259,7 +1371,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_62",
@@ -1281,7 +1395,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_63",
@@ -1303,7 +1419,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_64",
@@ -1325,7 +1443,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_65",
@@ -1347,7 +1467,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_66",
@@ -1369,7 +1491,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_67",
@@ -1391,7 +1515,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_68",
@@ -1413,7 +1539,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_69",
@@ -1435,7 +1563,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_70",
@@ -1457,7 +1587,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_71",
@@ -1479,7 +1611,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_72",
@@ -1501,7 +1635,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_73",
@@ -1523,7 +1659,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_74",
@@ -1545,7 +1683,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_75",
@@ -1567,7 +1707,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_76",
@@ -1589,7 +1731,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_77",
@@ -1611,7 +1755,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_78",
@@ -1633,7 +1779,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_79",
@@ -1655,7 +1803,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_80",
@@ -1677,7 +1827,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_81",
@@ -1699,7 +1851,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_82",
@@ -1721,7 +1875,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_83",
@@ -1743,7 +1899,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_84",
@@ -1765,7 +1923,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_85",
@@ -1787,7 +1947,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_86",
@@ -1809,7 +1971,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_87",
@@ -1831,7 +1995,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_88",
@@ -1853,7 +2019,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_89",
@@ -1875,7 +2043,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_90",
@@ -1897,7 +2067,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_91",
@@ -1919,7 +2091,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_92",
@@ -1941,7 +2115,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_93",
@@ -1963,7 +2139,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_94",
@@ -1985,7 +2163,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_95",
@@ -2007,7 +2187,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_96",
@@ -2029,7 +2211,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_97",
@@ -2051,7 +2235,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_98",
@@ -2073,7 +2259,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_99",
@@ -2095,7 +2283,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_100",
@@ -2117,7 +2307,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_101",
@@ -2139,7 +2331,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_102",
@@ -2161,7 +2355,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado_com_alerta",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_103",
@@ -2183,7 +2379,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_104",
@@ -2205,7 +2403,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_105",
@@ -2227,7 +2427,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_106",
@@ -2249,7 +2451,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_107",
@@ -2271,7 +2475,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_108",
@@ -2293,7 +2499,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_109",
@@ -2315,7 +2523,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_110",
@@ -2337,7 +2547,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_111",
@@ -2359,7 +2571,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_112",
@@ -2381,7 +2595,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_113",
@@ -2403,7 +2619,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_114",
@@ -2425,7 +2643,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_115",
@@ -2447,7 +2667,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_116",
@@ -2469,7 +2691,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_117",
@@ -2491,7 +2715,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_118",
@@ -2513,7 +2739,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_119",
@@ -2535,7 +2763,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_120",
@@ -2557,7 +2787,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_121",
@@ -2579,7 +2811,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_122",
@@ -2601,7 +2835,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_123",
@@ -2623,7 +2859,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_124",
@@ -2645,7 +2883,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado_com_alerta",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_125",
@@ -2667,7 +2907,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_126",
@@ -2689,7 +2931,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_127",
@@ -2711,7 +2955,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_128",
@@ -2733,7 +2979,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_129",
@@ -2755,7 +3003,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_130",
@@ -2777,7 +3027,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_131",
@@ -2799,7 +3051,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_132",
@@ -2821,7 +3075,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_133",
@@ -2843,7 +3099,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_134",
@@ -2865,7 +3123,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_135",
@@ -2887,7 +3147,9 @@
       "gabarito_inep": "X",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "anulado"
+      "status": "anulado_inep",
+      "gabarito_banco_original": "A",
+      "anulada_inep": true
     },
     {
       "id": "2020_136",
@@ -2909,7 +3171,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_137",
@@ -2931,7 +3195,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_138",
@@ -2953,7 +3219,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_139",
@@ -2975,7 +3243,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_140",
@@ -2997,7 +3267,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "E",
       "divergencia_gabarito": true,
-      "status": "associado_com_divergencia_de_gabarito"
+      "status": "associado_com_alerta",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_141",
@@ -3019,7 +3291,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_142",
@@ -3041,7 +3315,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_143",
@@ -3063,7 +3339,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_145",
@@ -3085,7 +3363,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_146",
@@ -3107,7 +3387,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_147",
@@ -3129,7 +3411,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_148",
@@ -3151,7 +3435,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_149",
@@ -3173,7 +3459,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_150",
@@ -3195,7 +3483,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado_com_alerta",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_151",
@@ -3217,7 +3507,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_152",
@@ -3239,7 +3531,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado_com_alerta",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_153",
@@ -3261,7 +3555,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_154",
@@ -3283,7 +3579,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_155",
@@ -3305,7 +3603,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_156",
@@ -3327,7 +3627,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_157",
@@ -3349,7 +3651,9 @@
       "gabarito_inep": "X",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "anulado"
+      "status": "anulado_inep",
+      "gabarito_banco_original": "B",
+      "anulada_inep": true
     },
     {
       "id": "2020_158",
@@ -3371,7 +3675,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_159",
@@ -3393,7 +3699,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_160",
@@ -3415,7 +3723,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_161",
@@ -3437,7 +3747,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_162",
@@ -3459,7 +3771,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_163",
@@ -3481,7 +3795,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_164",
@@ -3503,7 +3819,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_165",
@@ -3525,7 +3843,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_166",
@@ -3547,7 +3867,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_167",
@@ -3569,7 +3891,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_169",
@@ -3591,7 +3915,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_170",
@@ -3613,7 +3939,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_171",
@@ -3635,7 +3963,9 @@
       "gabarito_inep": "D",
       "gabarito_banco": "D",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "D",
+      "anulada_inep": false
     },
     {
       "id": "2020_172",
@@ -3657,7 +3987,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_173",
@@ -3679,7 +4011,9 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     },
     {
       "id": "2020_174",
@@ -3701,7 +4035,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_175",
@@ -3723,7 +4059,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_176",
@@ -3745,7 +4083,9 @@
       "gabarito_inep": "E",
       "gabarito_banco": "E",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "E",
+      "anulada_inep": false
     },
     {
       "id": "2020_177",
@@ -3767,7 +4107,9 @@
       "gabarito_inep": "B",
       "gabarito_banco": "B",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "B",
+      "anulada_inep": false
     },
     {
       "id": "2020_178",
@@ -3789,7 +4131,9 @@
       "gabarito_inep": "A",
       "gabarito_banco": "A",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "A",
+      "anulada_inep": false
     },
     {
       "id": "2020_180",
@@ -3811,7 +4155,11 @@
       "gabarito_inep": "C",
       "gabarito_banco": "C",
       "divergencia_gabarito": false,
-      "status": "associado"
+      "status": "associado",
+      "gabarito_banco_original": "C",
+      "anulada_inep": false
     }
-  ]
+  ],
+  "total_sem_parametros": 2,
+  "total_anulados_inep": 2
 }
