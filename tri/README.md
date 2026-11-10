@@ -143,3 +143,27 @@ Exemplos observados:
 
 **Próximo passo necessário:** obter o caderno oficial de referência de 2020 (PDF) e fazer correspondência pelo conteúdo do enunciado e das alternativas, usando a tabela de itens para recuperar `CO_ITEM` e os parâmetros. O gabarito será uma validação auxiliar, nunca a chave principal. Até essa conferência, o arquivo de mapeamento permanece vazio e nenhum A/B/C é atribuído aos IDs internos.
 
+### Associação concluída — banco de questões 2020
+
+Foi possível associar **as 173 questões existentes no arquivo `questoes/enem_2020.json`** aos itens oficiais do caderno azul da aplicação regular.
+
+**Método aplicado**
+- Numeração impressa e área do caderno azul: LC posições 1–45, CH 46–90, CN 91–135 e MT 136–180.
+- Códigos oficiais usados: `CO_PROVA 577` (LC), `567` (CH), `597` (CN) e `587` (MT).
+- Na questão 5 de Linguagens, foi preservado `TP_LINGUA=1.0` (espanhol).
+- Cada associação foi conferida por posição, área, código do caderno e registro oficial; os 173 `CO_ITEM` são únicos.
+- O caderno azul regular é identificado na página oficial do Inep: https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020
+
+**Resultado**
+- 173 associações feitas.
+- 171 questões com parâmetros A, B e C.
+- 2 questões anuladas pelo Inep, sem parâmetros utilizáveis: `2020_135` e `2020_157`.
+- 1 divergência entre o gabarito interno e o oficial: `2020_140` — banco indica E; tabela oficial indica C. Os parâmetros foram associados ao item identificado pelo enunciado, mas a divergência fica sinalizada e não foi corrigida automaticamente.
+- 6 registros têm divergência entre `materia` no JSON do projeto e a área oficial identificada pelo número/caderno: `2020_5`, `2020_20`, `2020_102`, `2020_124`, `2020_150` e `2020_152`. A associação TRI usa a área oficial; o campo `materia` original foi preservado para não alterar silenciosamente a classificação existente.
+
+**Arquivos**
+- `tri/mapeamento_2020.csv`: 173 linhas de associação explícita.
+- `tri/dados/enem_2020.json`: parâmetros e metadados associados por questão.
+- `tri/associar_parametros.py`: agora registra divergências de área e gabarito; para executar este ano com as divergências conhecidas, use `--permitir-divergencia-area`.
+
+Os valores A/B/C foram copiados sem arredondamento adicional dos campos `NU_PARAM_A`, `NU_PARAM_B` e `NU_PARAM_C` do CSV oficial. Itens anulados ficam com parâmetros nulos, nunca estimados.
