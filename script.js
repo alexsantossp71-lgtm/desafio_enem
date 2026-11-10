@@ -67,7 +67,8 @@ function classificarDificuldadeTRI(valorB) {
 
 function renderizarIndicadoresTRI(questao) {
     indicadoresTriQuestao.replaceChildren();
-    const registro = parametrosTriPorId.get(String(questao.id)) ||
+    const registro = questao.parametrosTRI ||
+        parametrosTriPorId.get(String(questao.id)) ||
         questao.parametrosTri || questao.tri || null;
     if (!registro) return;
 
