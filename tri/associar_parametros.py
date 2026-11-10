@@ -23,7 +23,6 @@ from pathlib import Path
 REQUIRED_ITEM_FIELDS = {
     "CO_ITEM", "CO_POSICAO", "SG_AREA", "CO_PROVA", "TX_COR",
     "NU_PARAM_A", "NU_PARAM_B", "NU_PARAM_C", "IN_ITEM_ABAN",
-    "TP_LINGUA",
 }
 REQUIRED_MAP_FIELDS = {"id", "co_item", "co_prova", "co_posicao", "tx_cor", "sg_area", "tp_lingua", "tp_versao_digital"}
 AREA_MAP = {
