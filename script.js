@@ -672,13 +672,24 @@ function avancar(acertou, tempoEsgotado) {
 
     const questaoAtual = questoesFiltradas[indiceAtual];
     const marcada = document.querySelector('input[name="resp"]:checked');
+    const respostaMarcada = marcada ? Number(marcada.value) : null;
     respostasUsuario.push({
         questao: indiceAtual + 1,
         acertou,
         tempoEsgotado,
-        respostaMarcada: marcada ? Number(marcada.value) : null,
+        respostaMarcada,
         dadosQuestao: questaoAtual
     });
+    window.dispatchEvent(new CustomEvent('desafio:questaoRespondida', {
+        detail: {
+            id: questaoAtual.id,
+            year: questaoAtual.__ano || anoAtual,
+            subject: questaoAtual.materia || 'Geral',
+            ok: Boolean(acertou),
+            respostaMarcada,
+            enunciado: questaoAtual.enunciado
+        }
+    }));
 
     if (acertou) pontuacao += 1;
     indiceAtual += 1;
@@ -702,6 +713,13 @@ function finalizar() {
         (percentual >= 70 ? 'Mandou bem! 👏' : 'Continue treinando! 💪');
 
     gerarCardsResultado();
+    window.dispatchEvent(new CustomEvent('desafio:simuladoFinalizado', {
+        detail: {
+            year: anoAtual,
+            total: questoesFiltradas.length,
+            correct: pontuacao
+        }
+    }));
 }
 
 function gerarCardsResultado() {
