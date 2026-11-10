@@ -127,3 +127,17 @@ Origem pública da cópia e manifesto de integridade: https://github.com/Henriqu
 Também foi gerado `tri/fontes/ITENS_2020_UNICOS.csv`, com uma linha por combinação área + `CO_ITEM` (582 itens). A consolidação foi conferida: os valores de gabarito, indicador de anulação e parâmetros A/B/C são consistentes entre as diferentes aparições do mesmo item nos cadernos; não foram encontrados conflitos. O arquivo mantém a contagem de registros de caderno de cada item.
 
 Distribuição do índice: CH 135; CN 150; LC 150; MT 147. Esse índice facilita a consulta dos parâmetros, mas não resolve a identificação dos IDs internos do site.
+
+### Teste de cruzamento por sequência de gabaritos — 2020
+
+Foi feito um teste adicional comparando as letras corretas cadastradas no banco com as sequências de `TX_GABARITO` dos cadernos presentes em `ITENS_PROVA_2020.csv`.
+
+**Conclusão: o gabarito, sozinho, não identifica os itens.** Há muitas repetições de letras e diferentes cadernos/versões. Em uma consulta por área e posição, o mesmo número de posição pode retornar vários `CO_ITEM` de diferentes provas; alguns compartilham a mesma letra correta. Portanto, não é seguro escolher um candidato apenas porque o gabarito coincide.
+
+Exemplos observados:
+- Linguagens, ID interno `2020_6`: há vários registros na posição 6 em provas/cadernos diferentes; a letra C coincide em mais de um contexto.
+- Matemática, ID interno `2020_136`: a posição 136 não deve ser interpretada diretamente como `CO_POSICAO` sem primeiro determinar a convenção de numeração usada no banco; os registros oficiais exibem candidatos de várias provas.
+- A sequência global do banco também não coincide de forma inequívoca com uma única sequência de caderno, pois o banco tem quantidades diferentes de questões por área e pode não representar a mesma seleção/ordem do caderno.
+
+**Próximo passo necessário:** obter o caderno oficial de referência de 2020 (PDF) e fazer correspondência pelo conteúdo do enunciado e das alternativas, usando a tabela de itens para recuperar `CO_ITEM` e os parâmetros. O gabarito será uma validação auxiliar, nunca a chave principal. Até essa conferência, o arquivo de mapeamento permanece vazio e nenhum A/B/C é atribuído aos IDs internos.
+
