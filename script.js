@@ -467,7 +467,7 @@ function adicionarCardTRI(container, questao) {
     fonte.className = 'tri-source';
     fonte.textContent = 'Fonte: Microdados ENEM ' + anoAtual + ' · Caderno azul · CO_PROVA ' + tri.co_prova;
     const link = document.createElement('a');
-    link.href = 'https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020';
+    link.href = 'https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/' + anoAtual;
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
     link.textContent = 'Consultar prova e gabarito oficiais';
