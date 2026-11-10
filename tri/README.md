@@ -121,3 +121,9 @@ Inventário do CSV incorporado:
 Origem pública da cópia e manifesto de integridade: https://github.com/HenriqueLindemann/analise-enem (manifesto em `src/tri_enem/data/itens/manifest.json`). A fonte primária continua sendo o Inep: https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
 
 **Resultado:** os parâmetros oficiais de 2020 agora estão disponíveis localmente na branch. Ainda não foram ligados aos IDs `2020_N` do Desafio ENEM; essa etapa depende de identificar o `CO_ITEM` correto para cada questão do banco e selecionar a linha do caderno/versão correspondente.
+
+### Índice normalizado por item
+
+Também foi gerado `tri/fontes/ITENS_2020_UNICOS.csv`, com uma linha por combinação área + `CO_ITEM` (582 itens). A consolidação foi conferida: os valores de gabarito, indicador de anulação e parâmetros A/B/C são consistentes entre as diferentes aparições do mesmo item nos cadernos; não foram encontrados conflitos. O arquivo mantém a contagem de registros de caderno de cada item.
+
+Distribuição do índice: CH 135; CN 150; LC 150; MT 147. Esse índice facilita a consulta dos parâmetros, mas não resolve a identificação dos IDs internos do site.
