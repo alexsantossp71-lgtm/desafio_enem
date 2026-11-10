@@ -159,6 +159,23 @@ Exemplos observados:
 - Em 2017, as 40 questões de Linguagens foram associadas por comparação do enunciado e das cinco alternativas; o número interno não coincide com a posição impressa no caderno azul. As demais áreas foram associadas por posição.
 - Em 2018, a questão `2018_163` foi anulada pelo Inep e fica sem parâmetros. A questão `2018_15` apresenta divergência de gabarito entre o banco (C) e o Inep (D), sinalizada no JSON e na tela.
 
+**Códigos dos cadernos azuis regulares usados (2013–2019)**
+
+| Ano | LC | CH | CN | MT |
+|---:|---:|---:|---:|---:|
+| 2013 | 177 | 167 | 171 | 181 |
+| 2014 | 205 | 195 | 199 | 209 |
+| 2015 | 241 | 231 | 235 | 245 |
+| 2016 | 299 | 295 | 291 | 303 |
+| 2017 | 399 | 395 | 391 | 403 |
+| 2018 | 455 | 451 | 447 | 459 |
+| 2019 | 511 | 507 | 503 | 515 |
+
+**Exceções de numeração tratadas explicitamente**
+- 2016: o ID interno segue a ordem CH, CN, LC, MT, enquanto a posição oficial foi ajustada por área: CH e CN +45; LC −90; MT sem deslocamento.
+- 2017: o CSV oficial usa posição local em CH, CN e MT; as 40 questões de Linguagens foram ligadas por texto do enunciado e alternativas, pois a ordem interna não coincide com a posição do caderno.
+- 2015_95 e 2016_93: foi preservada a variante de língua inglesa por `TP_LINGUA=0.0`.
+
 ### Associação concluída — banco de questões 2020
 
 Foi possível associar **as 173 questões existentes no arquivo `questoes/enem_2020.json`** aos itens oficiais do caderno azul da aplicação regular.
