@@ -177,16 +177,31 @@ if(typeof atualizarBotaoOriginal==='function')window.atualizarBotaoStart=functio
  atualizarInicioRevisao();
  return resultado;
 };
-const originalAdvance=window.avancar;
-if(typeof originalAdvance==='function')window.avancar=function(ok,timeout){
- const q=questoesFiltradas[indiceAtual];if(q){history.push({id:q.id||('Questão '+(indiceAtual+1)),year:q.__ano||anoAtual,subject:q.materia||'Geral',preview:primeirasCincoPalavras(q.enunciado),ok:!!ok,date:new Date().toISOString()});if(history.length>2000)history=history.slice(-2000);save(KEY,history)}
- const result=originalAdvance.call(this,ok,timeout);refresh();return result;
-};
-const originalFinish=window.finalizar;
-if(typeof originalFinish==='function')window.finalizar=function(){
- if(!sessionSaved){sessionSaved=true;const sessions=read(SESS,[]);sessions.push({year:anoAtual,total:questoesFiltradas.length,correct:pontuacao,date:new Date().toISOString()});save(SESS,sessions.slice(-300))}
- const result=originalFinish.apply(this,arguments);refresh();return result;
-};
+window.addEventListener('desafio:questaoRespondida', event => {
+ const item=event.detail||{};
+ if(!item.id)return;
+ history.push({
+  id:item.id,
+  year:item.year,
+  subject:item.subject||'Geral',
+  preview:primeirasCincoPalavras(item.enunciado),
+  ok:Boolean(item.ok),
+  respostaMarcada:item.respostaMarcada,
+  date:new Date().toISOString()
+ });
+ if(history.length>2000)history=history.slice(-2000);
+ save(KEY,history);
+ refresh();
+});
+window.addEventListener('desafio:simuladoFinalizado', event => {
+ if(sessionSaved)return;
+ sessionSaved=true;
+ const item=event.detail||{};
+ const sessions=read(SESS,[]);
+ sessions.push({year:item.year,total:item.total,correct:item.correct,date:new Date().toISOString()});
+ save(SESS,sessions.slice(-300));
+ refresh();
+});
 const originalLoad=window.carregarAno;
 if(typeof originalLoad==='function')window.carregarAno=async function(){const r=await originalLoad.apply(this,arguments);return r};
 const originalStart=window.irParaQuiz;
