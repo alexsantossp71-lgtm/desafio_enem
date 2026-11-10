@@ -341,3 +341,101 @@ body{background:radial-gradient(ellipse at 12% 0%,#e8efff 0,transparent 34%),var
 :root[data-theme="dark"] .difficulty-tag.hard{background:#48252b;color:#fca5a5}
 @media(max-width:560px){.question-meta-row{align-items:flex-start;gap:7px}.question-tri-indicators{justify-content:flex-start;margin-left:0}.tri-values{font-size:.7rem;padding:4px 7px}.difficulty-tag{font-size:.64rem;padding:4px 7px}}
 
+
+
+/* Cartão com parâmetros TRI oficiais da questão */
+.tri-card {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 18px 0;
+    padding: 16px;
+    border: 1px solid var(--border-color, #d8dee8);
+    border-left: 4px solid #3978c5;
+    border-radius: 12px;
+    background: var(--card-secondary, rgba(100, 130, 170, 0.07));
+    color: inherit;
+}
+
+.tri-card-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px 14px;
+    margin-bottom: 14px;
+}
+
+.tri-card-header strong {
+    font-size: 0.98rem;
+}
+
+.tri-card-header span {
+    font-size: 0.82rem;
+    opacity: 0.78;
+}
+
+.tri-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.tri-metric {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid var(--border-color, #d8dee8);
+    border-radius: 9px;
+    background: var(--card-bg, rgba(255, 255, 255, 0.55));
+}
+
+.tri-metric span {
+    font-size: 0.78rem;
+    line-height: 1.35;
+    opacity: 0.8;
+}
+
+.tri-metric strong {
+    font-size: 1.18rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.tri-explanation,
+.tri-status {
+    margin: 12px 0 0;
+    font-size: 0.84rem;
+    line-height: 1.5;
+}
+
+.tri-status-warning {
+    padding: 9px 11px;
+    border-radius: 8px;
+    background: rgba(220, 150, 35, 0.12);
+}
+
+.tri-card a {
+    color: var(--link-color, #3978c5);
+    text-decoration: underline;
+}
+
+@media (max-width: 520px) {
+    .tri-card {
+        padding: 12px;
+    }
+
+    .tri-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tri-metric {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tri-metric strong {
+        font-size: 1rem;
+    }
+}
