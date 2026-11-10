@@ -54,6 +54,15 @@ async function abrirRevisao(registro){
   if(!solucoes){const resposta=await fetch('solucoes/enem_'+ano+'.json?v=20261102-resolucoes',{cache:'no-store'});if(resposta.ok){const dados=await resposta.json();solucoes=new Map((dados.questoes||[]).map(item=>[item.id,item]));arquivosSolucoes.set(ano,solucoes)}}
   const q=questoes.find(item=>item.id===id);
   if(!q)throw new Error('A questão não foi encontrada no arquivo da prova.');
+  // Busca os parâmetros TRI para que o nível também apareça na revisão.
+  try{
+   const triResponse=await fetch('tri/dados/enem_'+ano+'.json',{headers:{Accept:'application/json'},cache:'no-store'});
+   if(triResponse.ok){
+    const triData=await triResponse.json();
+    const triItem=(Array.isArray(triData.questoes)?triData.questoes:[]).find(item=>String(item.id)===id);
+    if(triItem)q.parametrosTRI=triItem;
+   }
+  }catch(triError){console.warn('Nível TRI indisponível na revisão de '+id,triError)}
   mostrarRevisao(q,registro,solucoes?.get(id)||null);
  }catch(e){console.error('Falha ao abrir revisão:',e);alert(e.message||'Não foi possível abrir a questão.')}
 }
@@ -63,7 +72,17 @@ function mostrarRevisao(q,registro,solucao=null){
  const modal=document.createElement('section');modal.className='review-modal';modal.setAttribute('role','dialog');modal.setAttribute('aria-modal','true');modal.setAttribute('aria-labelledby','review-title');
  const header=document.createElement('div');header.className='review-header';
  const title=document.createElement('h2');title.id='review-title';title.textContent='Revisão · '+q.id;
- const close=document.createElement('button');close.type='button';close.className='review-close';close.textContent='Fechar';close.setAttribute('aria-label','Fechar revisão');close.addEventListener('click',()=>overlay.remove());header.append(title,close);
+ let levelBadge=null;
+ const triRecord=q.parametrosTRI||q.parametrosTri||q.tri||null;
+ const triParams=triRecord?.parametros||triRecord;
+ const bValue=Number(triParams?.b??triParams?.B);
+ if(Number.isFinite(bValue)){
+  const level=bValue < -1 ? 'FÁCIL' : bValue > 1 ? 'DIFÍCIL' : 'MÉDIA';
+  levelBadge=document.createElement('span');levelBadge.className='review-difficulty-badge';
+  levelBadge.textContent='Nível estimado: '+level;
+  levelBadge.style.cssText='display:inline-flex;align-items:center;padding:5px 10px;border-radius:999px;background:'+(level==='FÁCIL'?'#dcfce7':level==='DIFÍCIL'?'#fee2e2':'#fef3c7')+';color:'+(level==='FÁCIL'?'#166534':level==='DIFÍCIL'?'#991b1b':'#92400e')+';font-size:.78rem;font-weight:800;white-space:nowrap;';
+ }
+ const close=document.createElement('button');close.type='button';close.className='review-close';close.textContent='Fechar';close.setAttribute('aria-label','Fechar revisão');close.addEventListener('click',()=>overlay.remove());header.append(title);if(levelBadge)header.appendChild(levelBadge);header.append(close);
  const body=document.createElement('div');body.className='review-body';
  const imageUrl=typeof caminhoImagemSeguro==='function'?caminhoImagemSeguro(q.imagem):null;
  if(imageUrl){const imageBox=document.createElement('div');imageBox.className='review-image';const image=document.createElement('img');image.src=imageUrl;image.alt='Imagem de apoio da questão';image.loading='lazy';image.onerror=()=>imageBox.remove();imageBox.appendChild(image);body.appendChild(imageBox)}
