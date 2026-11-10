@@ -250,8 +250,22 @@ async function carregarAnosCombinados(){
  if(start){start.disabled=true;start.textContent='CARREGANDO PROVAS…'}
  const results=await Promise.all(selected.map(async year=>{
   if(multiYearData.has(year))return [year,multiYearData.get(year)];
-  try{const response=await fetch('questoes/enem_'+year+'.json',{headers:{Accept:'application/json'},cache:'default'});if(!response.ok)throw new Error('HTTP '+response.status);const json=await response.json();const items=Array.isArray(json.itens)?json.itens.filter(q=>typeof validarQuestao!=='undefined'?validarQuestao(q):q&&Array.isArray(q.alternativas)):[];multiYearData.set(year,items);return [year,items]}
-  catch(error){console.warn('Falha ao carregar '+year,error);return [year,[]]}
+  try{
+   const response=await fetch('questoes/enem_'+year+'.json',{headers:{Accept:'application/json'},cache:'default'});
+   if(!response.ok)throw new Error('HTTP '+response.status);
+   const json=await response.json();
+   const items=Array.isArray(json.itens)?json.itens.filter(q=>typeof validarQuestao!=='undefined'?validarQuestao(q):q&&Array.isArray(q.alternativas)):[];
+   try{
+    const triResponse=await fetch('tri/dados/enem_'+year+'.json',{headers:{Accept:'application/json'},cache:'default'});
+    if(triResponse.ok){
+     const triData=await triResponse.json();
+     const triById=new Map((Array.isArray(triData.questoes)?triData.questoes:[]).filter(item=>item&&item.id).map(item=>[String(item.id),item]));
+     items.forEach(question=>{const tri=triById.get(String(question.id));if(tri)question.parametrosTRI=tri});
+    }
+   }catch(triError){console.warn('Parâmetros TRI indisponíveis para '+year,triError)}
+   multiYearData.set(year,items);
+   return [year,items]
+  }catch(error){console.warn('Falha ao carregar '+year,error);return [year,[]]}
  }));
  if(token!==multiLoadToken)return;
  const failed=results.filter(([,items])=>!items.length).map(([year])=>year);
