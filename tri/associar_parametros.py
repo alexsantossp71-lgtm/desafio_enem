@@ -146,7 +146,7 @@ def main():
             "b": number(item["NU_PARAM_B"]),
             "c": number(item["NU_PARAM_C"]),
         }
-        if not abandoned and any(v is None for v in params.values()):
+        if not abandoned and not annulled and any(v is None for v in params.values()):
             errors.append(f"{qid}: item não abandonado com parâmetro ausente")
             continue
 
