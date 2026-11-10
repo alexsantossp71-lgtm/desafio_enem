@@ -256,7 +256,7 @@ async function carregarAnosCombinados(){
    const json=await response.json();
    const items=Array.isArray(json.itens)?json.itens.filter(q=>typeof validarQuestao!=='undefined'?validarQuestao(q):q&&Array.isArray(q.alternativas)):[];
    try{
-    const triResponse=await fetch('tri/dados/enem_'+year+'.json',{headers:{Accept:'application/json'},cache:'default'});
+    const triResponse=await fetch('tri/dados/enem_'+year+'.json',{headers:{Accept:'application/json'},cache:'no-store'});
     if(triResponse.ok){
      const triData=await triResponse.json();
      const triById=new Map((Array.isArray(triData.questoes)?triData.questoes:[]).filter(item=>item&&item.id).map(item=>[String(item.id),item]));
