@@ -404,25 +404,28 @@ function adicionarCardTRI(container, questao) {
     topo.append(titulo, identificacao);
     card.appendChild(topo);
 
-    if (tri.item_abandonado) {
+    const valoresTRI = [tri.parametros?.a, tri.parametros?.b, tri.parametros?.c];
+    const temParametros = valoresTRI.every(Number.isFinite);
+
+    if (tri.anulada_inep) {
         const anulado = document.createElement('p');
         anulado.className = 'tri-status tri-status-warning';
         anulado.textContent = 'Questão anulada pelo Inep. Não há parâmetros A, B e C utilizáveis para este item.';
         card.appendChild(anulado);
-    } else {
+    } else if (temParametros) {
         const grade = document.createElement('div');
         grade.className = 'tri-grid';
         [
-            ['A', 'Discriminação', tri.parametros?.a],
-            ['B', 'Dificuldade', tri.parametros?.b],
-            ['C', 'Acerto ao acaso', tri.parametros?.c]
+            ['A', 'Discriminação', tri.parametros.a],
+            ['B', 'Dificuldade', tri.parametros.b],
+            ['C', 'Acerto ao acaso', tri.parametros.c]
         ].forEach(([letra, nome, valor]) => {
             const celula = document.createElement('div');
             celula.className = 'tri-metric';
             const rotulo = document.createElement('span');
             rotulo.textContent = `${letra} · ${nome}`;
             const numero = document.createElement('strong');
-            numero.textContent = Number.isFinite(valor) ? Number(valor).toFixed(5) : '—';
+            numero.textContent = Number(valor).toFixed(5);
             celula.append(rotulo, numero);
             grade.appendChild(celula);
         });
@@ -431,6 +434,18 @@ function adicionarCardTRI(container, questao) {
         nota.className = 'tri-explanation';
         nota.textContent = 'O parâmetro B representa a dificuldade na escala do item: valores maiores indicam maior dificuldade. Os parâmetros descrevem a questão, não a nota individual do estudante.';
         card.appendChild(nota);
+    } else {
+        const indisponivel = document.createElement('p');
+        indisponivel.className = 'tri-status';
+        indisponivel.textContent = 'Parâmetros A, B e C não disponíveis para este item nos microdados do Inep.';
+        card.appendChild(indisponivel);
+    }
+
+    if (tri.item_abandonado && !tri.anulada_inep) {
+        const aviso = document.createElement('p');
+        aviso.className = 'tri-status tri-status-warning';
+        aviso.textContent = 'O Inep marcou este item como abandonado na calibração TRI; por isso, os parâmetros podem não estar disponíveis. Isso não significa que a questão tenha sido anulada.';
+        card.appendChild(aviso);
     }
 
     if (tri.divergencia_area) {
@@ -444,13 +459,13 @@ function adicionarCardTRI(container, questao) {
     if (tri.divergencia_gabarito) {
         const aviso = document.createElement('p');
         aviso.className = 'tri-status tri-status-warning';
-        aviso.textContent = `Atenção: o gabarito oficial do Inep é ${tri.gabarito_inep}; o banco atual está cadastrado como ${tri.gabarito_banco}.`;
+        aviso.textContent = `Atenção: o gabarito oficial do Inep é ${tri.gabarito_inep}; o banco atual está cadastrado como ${(tri.gabarito_banco_original || tri.gabarito_banco)}.`;
         card.appendChild(aviso);
     }
 
     const fonte = document.createElement('p');
     fonte.className = 'tri-source';
-    fonte.textContent = 'Fonte: Microdados ENEM 2020 · Caderno azul · CO_PROVA ' + tri.co_prova;
+    fonte.textContent = 'Fonte: Microdados ENEM ' + anoAtual + ' · Caderno azul · CO_PROVA ' + tri.co_prova;
     const link = document.createElement('a');
     link.href = 'https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020';
     link.target = '_blank';
