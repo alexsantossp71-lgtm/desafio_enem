@@ -70,6 +70,7 @@ def main():
     ap.add_argument("--itens", type=Path, required=True)
     ap.add_argument("--mapeamento", type=Path, required=True)
     ap.add_argument("--saida", type=Path, required=True)
+    ap.add_argument("--permitir-divergencia-area", action="store_true", help="Permite que a área oficial difira de materia no banco; registra o alerta no JSON.")
     args = ap.parse_args()
 
     banco = json.loads(args.questoes.read_text(encoding="utf-8"))
@@ -131,10 +132,12 @@ def main():
         if mapped_position != official_position:
             errors.append(f"{qid}: posição informada ({mapped_position}) diverge da oficial ({official_position})")
             continue
-        if AREA_MAP.get(norm(item["SG_AREA"])) != next(
-            (q.get("materia") for q in questoes if str(q.get("id")) == qid), None
-        ):
-            errors.append(f"{qid}: área do item oficial diverge da área do banco")
+        bank_question = next(q for q in questoes if str(q.get("id")) == qid)
+        bank_area = bank_question.get("materia")
+        official_area = AREA_MAP.get(norm(item["SG_AREA"]))
+        area_divergente = official_area != bank_area
+        if area_divergente and not args.permitir_divergencia_area:
+            errors.append(f"{qid}: área oficial ({official_area}) diverge da área do banco ({bank_area}); use --permitir-divergencia-area somente após conferir o caderno")
             continue
 
         abandoned = norm(item["IN_ITEM_ABAN"]) in {"1", "SIM", "S"}
@@ -147,8 +150,16 @@ def main():
             errors.append(f"{qid}: item não abandonado com parâmetro ausente")
             continue
 
+        bank_letter = "ABCDE"[int(bank_question["correta"])] if isinstance(bank_question.get("correta"), int) and 0 <= bank_question["correta"] <= 4 else None
+        official_letter = norm(item.get("TX_GABARITO")) or None
+        answer_divergent = bool(not abandoned and bank_letter and official_letter and official_letter != bank_letter)
         output.append({
             "id": qid,
+            "area_banco": bank_area,
+            "area_divergente": area_divergente,
+            "gabarito_banco": bank_letter,
+            "gabarito_inep": official_letter,
+            "divergencia_gabarito": answer_divergent,
             "co_item": item["CO_ITEM"],
             "co_prova": item["CO_PROVA"],
             "co_posicao": int(item["CO_POSICAO"]),
@@ -158,7 +169,7 @@ def main():
             "area": item["SG_AREA"],
             "parametros": params,
             "item_abandonado": abandoned,
-            "status_associacao": "validada",
+            "status_associacao": ("anulado" if abandoned else ("validada_com_alerta" if area_divergente or answer_divergent else "validada")),
         })
         used_ids.add(qid)
         used_keys.add(key)
