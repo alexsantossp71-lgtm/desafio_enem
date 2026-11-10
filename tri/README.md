@@ -261,7 +261,7 @@ Os parâmetros A/B/C são os valores originais dos arquivos de itens do Inep, se
 | Anuladas pelo Inep entre as anteriores | 4 |
 | Abandonadas na calibração, mas não anuladas | 42 |
 
-Foram identificadas 126 divergências de área entre o campo `materia` original do banco e a área oficial do item. Também foram identificadas 13 divergências de gabarito entre o banco e o Inep: `2009_120`, `2010_112`, `2010_139`, `2011_81`, `2018_15`, `2020_140`, `2021_15`, `2021_25`, `2021_38`, `2021_53`, `2025_23`, `2025_33` e `2012_165`. Esses dados ficam sinalizados; não houve correção silenciosa dos campos originais.
+Foram identificadas 126 divergências de área entre o campo `materia` original do banco e a área oficial do item. Também foram identificadas 13 divergências de gabarito entre o banco e o Inep: `2009_120`, `2010_112`, `2010_139`, `2011_81`, `2012_165`, `2018_15`, `2020_140`, `2021_15`, `2021_25`, `2021_38`, `2021_53`, `2025_23` e `2025_33`. Esses dados ficam sinalizados; não houve correção silenciosa dos campos originais.
 
 Os CSVs de 2009–2025 foram preservados a partir do espelho público `HenriqueLindemann/analise-enem`, no commit `be01112ebaae1cded4b585021dec917f0fe0a5af`. O arquivo `tri/fontes/manifest_origem.json` registra os hashes SHA-256 das fontes originais. A origem declarada para os arquivos é a tabela de itens dos microdados do Inep. Para a correspondência textual de Linguagens 2017, foi usado o conjunto de itens do repositório `ben-domingue/irw`, commit `56948ec32f18563a160f0e0a27e622422dc46040`.
 
