@@ -452,118 +452,6 @@ window.repetirSimulado = function () {
     carregarQuestao(0);
 };
 
-function adicionarCardTRI(container, questao) {
-    // Em simulados combinados, anoAtual recebe o texto "Múltiplos anos".
-    // A disponibilidade deve ser decidida pelo ano da própria questão.
-    const anoDaQuestao = Number(questao?.__ano || anoAtual);
-    const tri = questao?.parametrosTRI || parametrosTriPorId.get(String(questao?.id));
-    if (!tri) {
-        if (!Number.isFinite(anoDaQuestao) || anoDaQuestao >= 2013) return;
-        const indisponivel = document.createElement('section');
-        indisponivel.className = 'tri-card';
-        indisponivel.setAttribute('aria-label', 'Disponibilidade dos parâmetros TRI');
-        const tituloIndisponivel = document.createElement('strong');
-        tituloIndisponivel.textContent = 'Parâmetros TRI do Inep';
-        const textoIndisponivel = document.createElement('p');
-        textoIndisponivel.className = 'tri-status';
-        textoIndisponivel.textContent = 'Não foi localizada uma publicação pública verificável dos parâmetros A, B e C para esta edição. O Desafio ENEM não estima nem atribui valores por aproximação.';
-        const linkIndisponivel = document.createElement('a');
-        linkIndisponivel.href = 'https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem';
-        linkIndisponivel.target = '_blank';
-        linkIndisponivel.rel = 'noopener noreferrer';
-        linkIndisponivel.textContent = 'Consultar microdados do Inep';
-        textoIndisponivel.append(' ', linkIndisponivel);
-        indisponivel.append(tituloIndisponivel, textoIndisponivel);
-        container.appendChild(indisponivel);
-        return;
-    }
-
-    const card = document.createElement('section');
-    card.className = 'tri-card';
-    card.setAttribute('aria-label', 'Parâmetros TRI oficiais da questão');
-
-    const topo = document.createElement('div');
-    topo.className = 'tri-card-header';
-    const titulo = document.createElement('strong');
-    titulo.textContent = 'Parâmetros TRI do Inep';
-    const identificacao = document.createElement('span');
-    identificacao.textContent = `Item ${tri.co_item} · Área ${tri.area_oficial}`;
-    topo.append(titulo, identificacao);
-    card.appendChild(topo);
-
-    const valoresTRI = [tri.parametros?.a, tri.parametros?.b, tri.parametros?.c];
-    const temParametros = valoresTRI.every(Number.isFinite);
-
-    if (tri.anulada_inep) {
-        const anulado = document.createElement('p');
-        anulado.className = 'tri-status tri-status-warning';
-        anulado.textContent = 'Questão anulada pelo Inep. Não há parâmetros A, B e C utilizáveis para este item.';
-        card.appendChild(anulado);
-    } else if (temParametros) {
-        const grade = document.createElement('div');
-        grade.className = 'tri-grid';
-        [
-            ['A', 'Discriminação', tri.parametros.a],
-            ['B', 'Dificuldade', tri.parametros.b],
-            ['C', 'Acerto ao acaso', tri.parametros.c]
-        ].forEach(([letra, nome, valor]) => {
-            const celula = document.createElement('div');
-            celula.className = 'tri-metric';
-            const rotulo = document.createElement('span');
-            rotulo.textContent = `${letra} · ${nome}`;
-            const numero = document.createElement('strong');
-            numero.textContent = Number(valor).toFixed(5);
-            celula.append(rotulo, numero);
-            grade.appendChild(celula);
-        });
-        card.appendChild(grade);
-        const nota = document.createElement('p');
-        nota.className = 'tri-explanation';
-        nota.textContent = 'O parâmetro B representa a dificuldade na escala do item: valores maiores indicam maior dificuldade. Os parâmetros descrevem a questão, não a nota individual do estudante.';
-        card.appendChild(nota);
-    } else {
-        const indisponivel = document.createElement('p');
-        indisponivel.className = 'tri-status';
-        indisponivel.textContent = 'Parâmetros A, B e C não disponíveis para este item nos microdados do Inep.';
-        card.appendChild(indisponivel);
-    }
-
-    if (tri.item_abandonado && !tri.anulada_inep) {
-        const aviso = document.createElement('p');
-        aviso.className = 'tri-status tri-status-warning';
-        aviso.textContent = 'O Inep marcou este item como abandonado na calibração TRI; por isso, os parâmetros podem não estar disponíveis. Isso não significa que a questão tenha sido anulada.';
-        card.appendChild(aviso);
-    }
-
-    if (tri.divergencia_area) {
-        const aviso = document.createElement('p');
-        aviso.className = 'tri-status tri-status-warning';
-        const nomes = { LC: 'Linguagens', CH: 'Ciências Humanas', CN: 'Ciências da Natureza', MT: 'Matemática' };
-        aviso.textContent = `Atenção: o Inep identifica esta questão como ${nomes[tri.area_oficial] || tri.area_oficial}; o cadastro atual do banco indica ${tri.area_banco}.`;
-        card.appendChild(aviso);
-    }
-
-    if (tri.divergencia_gabarito) {
-        const aviso = document.createElement('p');
-        aviso.className = 'tri-status tri-status-warning';
-        aviso.textContent = `Atenção: o gabarito oficial do Inep é ${tri.gabarito_inep}; o banco atual está cadastrado como ${(tri.gabarito_banco_original || tri.gabarito_banco)}.`;
-        card.appendChild(aviso);
-    }
-
-    const fonte = document.createElement('p');
-    fonte.className = 'tri-source';
-    fonte.textContent = 'Fonte: Microdados ENEM ' + anoAtual + ' · Caderno azul · CO_PROVA ' + tri.co_prova;
-    const link = document.createElement('a');
-    link.href = 'https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/' + anoAtual;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-    link.textContent = 'Consultar prova e gabarito oficiais';
-    fonte.append(' · ', link);
-    card.appendChild(fonte);
-
-    container.appendChild(card);
-}
-
 function carregarQuestao(indice) {
     clearInterval(timerInterval);
     avancando = false;
@@ -618,7 +506,6 @@ function carregarQuestao(indice) {
     // As alternativas, ao contrário, são inseridas somente como texto abaixo.
     enunciado.innerHTML = sanitizarEnunciado(questao.enunciado);
     caixa.appendChild(enunciado);
-    adicionarCardTRI(caixa, questao);
 
     const opcoes = document.createElement('div');
     opcoes.className = 'options-list';
