@@ -324,3 +324,19 @@ body{background:radial-gradient(ellipse at 12% 0%,#e8efff 0,transparent 34%),var
 .multi-all-btn{background:#475569;border-color:#475569}
 .multi-all-btn.selected{background:#2563eb;border-color:#1d4ed8}
 @media(max-width:560px){.multi-year-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.multi-subject-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+
+/* Parâmetros TRI oficiais exibidos junto ao enunciado. */
+.tri-card{margin:18px 0 20px;padding:15px;border:1px solid var(--border);border-radius:12px;background:var(--surface-soft);color:var(--ink)}
+.tri-card-header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:6px 12px;margin-bottom:12px}
+.tri-card-header strong{font-size:.95rem;color:var(--ink)}
+.tri-card-header span,.tri-source{font-size:.76rem;color:var(--muted)}
+.tri-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+.tri-metric{display:flex;flex-direction:column;gap:5px;min-width:0;padding:10px;border:1px solid var(--border);border-radius:9px;background:var(--surface)}
+.tri-metric span{font-size:.73rem;color:var(--muted)}
+.tri-metric strong{font-size:1.12rem;font-variant-numeric:tabular-nums;color:var(--ink)}
+.tri-explanation,.tri-status{margin:10px 0 0;font-size:.8rem;line-height:1.5;color:var(--muted)}
+.tri-status-warning{padding:8px 10px;border-radius:8px;background:rgba(217,119,6,.10);color:var(--ink);border:1px solid rgba(217,119,6,.35)}
+.tri-source{margin:12px 0 0}
+.tri-source a{color:var(--primary);font-weight:650}
+@media(max-width:480px){.tri-card{padding:12px}.tri-grid{gap:6px}.tri-metric{padding:8px 6px}.tri-metric span{font-size:.66rem}.tri-metric strong{font-size:1rem}}
