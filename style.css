@@ -324,3 +324,19 @@ body{background:radial-gradient(ellipse at 12% 0%,#e8efff 0,transparent 34%),var
 .multi-all-btn{background:#475569;border-color:#475569}
 .multi-all-btn.selected{background:#2563eb;border-color:#1d4ed8}
 @media(max-width:560px){.multi-year-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.multi-subject-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+
+/* Parâmetros TRI e dificuldade no mesmo cabeçalho do contador da questão */
+.question-meta-row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:12px 0 8px}
+.question-meta-row .progress-text{margin:0;flex:0 0 auto;font-weight:800;color:var(--ink)}
+.question-tri-indicators{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap;margin-left:auto}
+.tri-values{display:inline-flex;align-items:center;gap:4px;padding:5px 9px;border:1px solid var(--border);border-radius:8px;background:var(--surface-soft);color:var(--muted);font-size:.76rem;font-weight:750;font-variant-numeric:tabular-nums;white-space:nowrap}
+.difficulty-tag{display:inline-flex;align-items:center;justify-content:center;padding:5px 9px;border-radius:8px;font-size:.68rem;font-weight:850;letter-spacing:.035em;white-space:nowrap}
+.difficulty-tag.easy{background:#dcfce7;color:#166534}
+.difficulty-tag.medium{background:#fef3c7;color:#92400e}
+.difficulty-tag.hard{background:#fee2e2;color:#991b1b}
+:root[data-theme="dark"] .tri-values{background:#182840;color:#d3deef;border-color:#3b506e}
+:root[data-theme="dark"] .difficulty-tag.easy{background:#173629;color:#9ae6b4}
+:root[data-theme="dark"] .difficulty-tag.medium{background:#453719;color:#fcd98b}
+:root[data-theme="dark"] .difficulty-tag.hard{background:#48252b;color:#fca5a5}
+@media(max-width:560px){.question-meta-row{align-items:flex-start;gap:7px}.question-tri-indicators{justify-content:flex-start;margin-left:0}.tri-values{font-size:.7rem;padding:4px 7px}.difficulty-tag{font-size:.64rem;padding:4px 7px}}
