@@ -152,12 +152,14 @@ def main():
 
         bank_letter = "ABCDE"[int(bank_question["correta"])] if isinstance(bank_question.get("correta"), int) and 0 <= bank_question["correta"] <= 4 else None
         official_letter = norm(item.get("TX_GABARITO")) or None
-        answer_divergent = bool(not abandoned and bank_letter and official_letter and official_letter != bank_letter)
+        annulled = official_letter == "X"
+        answer_divergent = bool(not annulled and bank_letter and official_letter and official_letter != bank_letter)
         output.append({
             "id": qid,
             "area_banco": bank_area,
             "area_divergente": area_divergente,
             "gabarito_banco": bank_letter,
+            "gabarito_banco_original": bank_letter,
             "gabarito_inep": official_letter,
             "divergencia_gabarito": answer_divergent,
             "co_item": item["CO_ITEM"],
@@ -169,7 +171,8 @@ def main():
             "area": item["SG_AREA"],
             "parametros": params,
             "item_abandonado": abandoned,
-            "status_associacao": ("anulado" if abandoned else ("validada_com_alerta" if area_divergente or answer_divergent else "validada")),
+            "anulada_inep": annulled,
+            "status_associacao": ("anulado_inep" if annulled else ("sem_parametros_calibracao" if any(v is None for v in params.values()) else ("validada_com_alerta" if area_divergente or answer_divergent else "validada"))),
         })
         used_ids.add(qid)
         used_keys.add(key)
