@@ -15,6 +15,8 @@ Este diretório organiza os parâmetros psicométricos oficiais do ENEM e o vín
 
 ## Fontes
 
+- Provas e gabaritos oficiais do ENEM 2020 (Inep), com cadernos regulares, digitais e reaplicação/PPL: https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020
+
 - Página oficial dos microdados: https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
 - Outros documentos do ENEM: https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/outros-documentos
 - Decisão CMRI nº 113/2022 (transcreve a confirmação do Inep sobre A, B e C nos microdados 2013–2021): https://www.gov.br/casacivil/pt-br/assuntos/colegiados/comissao-mista-de-reavaliacao-de-informacoes-cmri/decisoes-de-recurso-de-4a-instancia/2022/decisao-113-2022-nup-23546-022178-2022-63.pdf
