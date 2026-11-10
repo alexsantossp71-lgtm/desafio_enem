@@ -46,6 +46,60 @@ const nomesMateria = {
     geral: 'Geral'
 };
 
+let parametrosTriPorId = new Map();
+const linhaCabecalhoQuestao = document.createElement('div');
+linhaCabecalhoQuestao.className = 'question-meta-row';
+const indicadoresTriQuestao = document.createElement('div');
+indicadoresTriQuestao.className = 'question-tri-indicators';
+if (els.progress && els.progress.parentNode) {
+    els.progress.parentNode.insertBefore(linhaCabecalhoQuestao, els.progress);
+    linhaCabecalhoQuestao.appendChild(els.progress);
+    linhaCabecalhoQuestao.appendChild(indicadoresTriQuestao);
+}
+
+function classificarDificuldadeTRI(valorB) {
+    if (!Number.isFinite(valorB)) return null;
+    // Faixas didáticas de apresentação; não são categorias oficiais do Inep.
+    if (valorB < -1) return { texto: 'FÁCIL', classe: 'easy' };
+    if (valorB > 1) return { texto: 'DIFÍCIL', classe: 'hard' };
+    return { texto: 'MÉDIA', classe: 'medium' };
+}
+
+function renderizarIndicadoresTRI(questao) {
+    indicadoresTriQuestao.replaceChildren();
+    const registro = parametrosTriPorId.get(String(questao.id)) ||
+        questao.parametrosTri || questao.tri || null;
+    if (!registro) return;
+
+    const parametros = registro.parametros || registro;
+    const valores = [
+        ['A', parametros.a ?? parametros.A],
+        ['B', parametros.b ?? parametros.B],
+        ['C', parametros.c ?? parametros.C]
+    ];
+    const disponiveis = valores.filter(([, valor]) => valor !== null && valor !== undefined && valor !== '' && Number.isFinite(Number(valor)));
+    if (!disponiveis.length) return;
+
+    const grupo = document.createElement('span');
+    grupo.className = 'tri-values';
+    grupo.setAttribute('aria-label', 'Parâmetros da Teoria de Resposta ao Item');
+    disponiveis.forEach(([nome, valor], indice) => {
+        if (indice) grupo.appendChild(document.createTextNode(' · '));
+        const item = document.createElement('span');
+        item.textContent = nome + ' ' + Number(valor).toFixed(2);
+        grupo.appendChild(item);
+    });
+    indicadoresTriQuestao.appendChild(grupo);
+
+    const dificuldade = classificarDificuldadeTRI(Number(parametros.b ?? parametros.B));
+    if (dificuldade) {
+        const etiqueta = document.createElement('span');
+        etiqueta.className = 'difficulty-tag ' + dificuldade.classe;
+        etiqueta.textContent = dificuldade.texto;
+        indicadoresTriQuestao.appendChild(etiqueta);
+    }
+}
+
 function definirCarregamento(ativo, mensagem = '🔄 Carregando questões...') {
     els.loading.textContent = mensagem;
     els.loading.style.display = ativo ? 'block' : 'none';
@@ -223,6 +277,26 @@ async function carregarAno(ano, btnElement) {
         // Uma resposta antiga nunca pode sobrescrever a seleção mais recente.
         if (idDestaRequisicao !== carregamentoId) return;
 
+        // Carrega os parâmetros TRI do ano, quando o arquivo validado estiver disponível.
+        // A ausência do arquivo não bloqueia a prova nem exibe valores estimados.
+        parametrosTriPorId = new Map();
+        try {
+            const respostaTri = await fetch(`tri/enem_${ano}.json`, {
+                headers: { Accept: 'application/json' },
+                cache: 'default'
+            });
+            if (respostaTri.ok) {
+                const dadosTri = await respostaTri.json();
+                (Array.isArray(dadosTri.questoes) ? dadosTri.questoes : []).forEach(registro => {
+                    if (registro && registro.id && registro.status_associacao === 'validada') {
+                        parametrosTriPorId.set(String(registro.id), registro);
+                    }
+                });
+            }
+        } catch (erroTri) {
+            console.warn('Parâmetros TRI não disponíveis para', ano, erroTri);
+        }
+
         dadosCompletosAno = validas;
         gerarBotoesMateria();
 
@@ -383,6 +457,7 @@ function carregarQuestao(indice) {
         atualizarTimer(tempoRestante);
     }
     els.progress.textContent = `Questão ${indice + 1} de ${questoesFiltradas.length}`;
+    renderizarIndicadoresTRI(questao);
 
     const caixa = document.createElement('div');
     caixa.className = 'question-box';
