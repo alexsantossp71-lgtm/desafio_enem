@@ -24,7 +24,7 @@ REQUIRED_ITEM_FIELDS = {
     "CO_ITEM", "CO_POSICAO", "SG_AREA", "CO_PROVA", "TX_COR",
     "NU_PARAM_A", "NU_PARAM_B", "NU_PARAM_C", "IN_ITEM_ABAN",
 }
-REQUIRED_MAP_FIELDS = {"id", "co_item", "co_prova", "co_posicao", "tx_cor", "sg_area"}
+REQUIRED_MAP_FIELDS = {"id", "co_item", "co_prova", "co_posicao", "tx_cor", "sg_area", "tp_lingua", "tp_versao_digital"}
 AREA_MAP = {
     "CH": "ciencias-humanas",
     "CN": "ciencias-natureza",
@@ -69,6 +69,7 @@ def main():
     ap.add_argument("--itens", type=Path, required=True)
     ap.add_argument("--mapeamento", type=Path, required=True)
     ap.add_argument("--saida", type=Path, required=True)
+    ap.add_argument("--permitir-divergencia-area", action="store_true", help="Permite que a área oficial difira de materia no banco; registra o alerta no JSON.")
     args = ap.parse_args()
 
     banco = json.loads(args.questoes.read_text(encoding="utf-8"))
@@ -89,7 +90,7 @@ def main():
     official = {}
     for row in raw_items:
         r = {norm(k): (v or "").strip() for k, v in row.items()}
-        key = (norm(r["CO_ITEM"]), norm(r["CO_PROVA"]), norm(r["SG_AREA"]), norm(r["TX_COR"]))
+        key = (norm(r["CO_ITEM"]), norm(r["CO_PROVA"]), norm(r["SG_AREA"]), norm(r["TX_COR"]), norm(r.get("TP_LINGUA", "")), norm(r.get("TP_VERSAO_DIGITAL", "")))
         official.setdefault(key, []).append(r)
 
     _, mapping_rows = read_csv(args.mapeamento)
@@ -106,7 +107,7 @@ def main():
     for row in mapping_rows:
         r = {str(k).strip().lower(): (v or "").strip() for k, v in row.items()}
         qid = r["id"]
-        key = (norm(r["co_item"]), norm(r["co_prova"]), norm(r["sg_area"]), norm(r["tx_cor"]))
+        key = (norm(r["co_item"]), norm(r["co_prova"]), norm(r["sg_area"]), norm(r["tx_cor"]), norm(r["tp_lingua"]), norm(r["tp_versao_digital"]))
         if qid not in ids:
             errors.append(f"{qid}: ID não existe no banco")
             continue
@@ -130,10 +131,12 @@ def main():
         if mapped_position != official_position:
             errors.append(f"{qid}: posição informada ({mapped_position}) diverge da oficial ({official_position})")
             continue
-        if AREA_MAP.get(norm(item["SG_AREA"])) != next(
-            (q.get("materia") for q in questoes if str(q.get("id")) == qid), None
-        ):
-            errors.append(f"{qid}: área do item oficial diverge da área do banco")
+        bank_question = next(q for q in questoes if str(q.get("id")) == qid)
+        bank_area = bank_question.get("materia")
+        official_area = AREA_MAP.get(norm(item["SG_AREA"]))
+        area_divergente = official_area != bank_area
+        if area_divergente and not args.permitir_divergencia_area:
+            errors.append(f"{qid}: área oficial ({official_area}) diverge da área do banco ({bank_area}); use --permitir-divergencia-area somente após conferir o caderno")
             continue
 
         abandoned = norm(item["IN_ITEM_ABAN"]) in {"1", "SIM", "S"}
@@ -142,20 +145,33 @@ def main():
             "b": number(item["NU_PARAM_B"]),
             "c": number(item["NU_PARAM_C"]),
         }
-        if not abandoned and any(v is None for v in params.values()):
+        if not abandoned and not annulled and any(v is None for v in params.values()):
             errors.append(f"{qid}: item não abandonado com parâmetro ausente")
             continue
 
+        bank_letter = "ABCDE"[int(bank_question["correta"])] if isinstance(bank_question.get("correta"), int) and 0 <= bank_question["correta"] <= 4 else None
+        official_letter = norm(item.get("TX_GABARITO")) or None
+        annulled = official_letter == "X"
+        answer_divergent = bool(not annulled and bank_letter and official_letter and official_letter != bank_letter)
         output.append({
             "id": qid,
+            "area_banco": bank_area,
+            "area_divergente": area_divergente,
+            "gabarito_banco": bank_letter,
+            "gabarito_banco_original": bank_letter,
+            "gabarito_inep": official_letter,
+            "divergencia_gabarito": answer_divergent,
             "co_item": item["CO_ITEM"],
             "co_prova": item["CO_PROVA"],
             "co_posicao": int(item["CO_POSICAO"]),
             "cor_caderno": item["TX_COR"],
+            "lingua": item.get("TP_LINGUA", ""),
+            "versao_digital": item.get("TP_VERSAO_DIGITAL", ""),
             "area": item["SG_AREA"],
             "parametros": params,
             "item_abandonado": abandoned,
-            "status_associacao": "validada",
+            "anulada_inep": annulled,
+            "status_associacao": ("anulado_inep" if annulled else ("sem_parametros_calibracao" if any(v is None for v in params.values()) else ("validada_com_alerta" if area_divergente or answer_divergent else "validada"))),
         })
         used_ids.add(qid)
         used_keys.add(key)
@@ -166,7 +182,7 @@ def main():
         "ano": args.ano,
         "fonte": f"INEP — Microdados do ENEM {args.ano}",
         "arquivo_fonte": args.itens.name,
-        "metodo": "cruzamento explícito por CO_ITEM, CO_PROVA, SG_AREA e TX_COR; conferência externa do caderno oficial",
+        "metodo": "cruzamento explícito por CO_ITEM, CO_PROVA, SG_AREA, TX_COR, TP_LINGUA e TP_VERSAO_DIGITAL; conferência externa do caderno oficial",
         "questoes": output,
     }
     args.saida.parent.mkdir(parents=True, exist_ok=True)

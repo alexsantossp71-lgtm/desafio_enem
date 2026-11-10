@@ -340,3 +340,4 @@ body{background:radial-gradient(ellipse at 12% 0%,#e8efff 0,transparent 34%),var
 :root[data-theme="dark"] .difficulty-tag.medium{background:#453719;color:#fcd98b}
 :root[data-theme="dark"] .difficulty-tag.hard{background:#48252b;color:#fca5a5}
 @media(max-width:560px){.question-meta-row{align-items:flex-start;gap:7px}.question-tri-indicators{justify-content:flex-start;margin-left:0}.tri-values{font-size:.7rem;padding:4px 7px}.difficulty-tag{font-size:.64rem;padding:4px 7px}}
+
