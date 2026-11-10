@@ -159,7 +159,7 @@ function sanitizarEnunciado(html) {
     // O banco do ENEM pode trazer imagens em Markdown dentro do próprio enunciado.
     // Converte esse formato para HTML antes da sanitização.
     const convertido = String(html || '').replace(
-        /!\[([^\]]*)\]\((https?:\/\/[^\s)]+)(?:\s+["'][^"']*["'])?\)/g,
+        /!\[([^\]]*)\]\((https?:\/\/[^\s)]+|(?:\.\/)?imagens\/[^\s)]+)(?:\s+["'][^"']*["'])?\)/g,
         (_, textoAlternativo, url) => `<img src="${escaparHTML(url)}" alt="${escaparHTML(textoAlternativo || 'Imagem de apoio da questão')}">`
     );
     const modelo = document.createElement('template');
@@ -596,7 +596,7 @@ function carregarQuestao(indice) {
 
     // Se o enunciado já contém imagem em Markdown/HTML, ela será exibida
     // no próprio texto e não duplicaremos o campo separado "imagem".
-    const temImagemNoEnunciado = /!\[[^\]]*\]\(https?:\/\//i.test(questao.enunciado) || /<img\b/i.test(questao.enunciado);
+    const temImagemNoEnunciado = /!\[[^\]]*\]\((?:https?:\/\/|(?:\.\/)?imagens\/)/i.test(questao.enunciado) || /<img\b/i.test(questao.enunciado);
     const imagem = temImagemNoEnunciado ? null : caminhoImagemSeguro(questao.imagem);
     if (imagem) {
         const wrapper = document.createElement('div');
