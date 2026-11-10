@@ -23,7 +23,7 @@ from pathlib import Path
 REQUIRED_ITEM_FIELDS = {
     "CO_ITEM", "CO_POSICAO", "SG_AREA", "CO_PROVA", "TX_COR",
     "NU_PARAM_A", "NU_PARAM_B", "NU_PARAM_C", "IN_ITEM_ABAN",
-    "TP_LINGUA", "TP_VERSAO_DIGITAL",
+    "TP_LINGUA",
 }
 REQUIRED_MAP_FIELDS = {"id", "co_item", "co_prova", "co_posicao", "tx_cor", "sg_area", "tp_lingua", "tp_versao_digital"}
 AREA_MAP = {
@@ -91,7 +91,7 @@ def main():
     official = {}
     for row in raw_items:
         r = {norm(k): (v or "").strip() for k, v in row.items()}
-        key = (norm(r["CO_ITEM"]), norm(r["CO_PROVA"]), norm(r["SG_AREA"]), norm(r["TX_COR"]), norm(r["TP_LINGUA"]), norm(r["TP_VERSAO_DIGITAL"]))
+        key = (norm(r["CO_ITEM"]), norm(r["CO_PROVA"]), norm(r["SG_AREA"]), norm(r["TX_COR"]), norm(r.get("TP_LINGUA", "")), norm(r.get("TP_VERSAO_DIGITAL", "")))
         official.setdefault(key, []).append(r)
 
     _, mapping_rows = read_csv(args.mapeamento)
@@ -166,8 +166,8 @@ def main():
             "co_prova": item["CO_PROVA"],
             "co_posicao": int(item["CO_POSICAO"]),
             "cor_caderno": item["TX_COR"],
-            "lingua": item["TP_LINGUA"],
-            "versao_digital": item["TP_VERSAO_DIGITAL"],
+            "lingua": item.get("TP_LINGUA", ""),
+            "versao_digital": item.get("TP_VERSAO_DIGITAL", ""),
             "area": item["SG_AREA"],
             "parametros": params,
             "item_abandonado": abandoned,
