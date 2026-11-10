@@ -452,9 +452,12 @@ window.repetirSimulado = function () {
 };
 
 function adicionarCardTRI(container, questao) {
-    const tri = questao?.parametrosTRI;
+    // Em simulados combinados, anoAtual recebe o texto "Múltiplos anos".
+    // A disponibilidade deve ser decidida pelo ano da própria questão.
+    const anoDaQuestao = Number(questao?.__ano || anoAtual);
+    const tri = questao?.parametrosTRI || parametrosTriPorId.get(String(questao?.id));
     if (!tri) {
-        if (Number(anoAtual) >= 2013) return;
+        if (!Number.isFinite(anoDaQuestao) || anoDaQuestao >= 2013) return;
         const indisponivel = document.createElement('section');
         indisponivel.className = 'tri-card';
         indisponivel.setAttribute('aria-label', 'Disponibilidade dos parâmetros TRI');
