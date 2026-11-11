@@ -187,13 +187,13 @@ function advanced(){
 }
 
 function atualizarInicioRevisao(){
- if(!reviewOnly)return;
  const botao=document.getElementById('start-btn');if(!botao)return;
  const idsErrados=new Set(history.filter(item=>!item.ok).map(item=>item.id));
- const disponiveis=dadosCompletosAno.filter(q=>idsErrados.has(q.id)&&(materiaAtual==='all'||q.materia===materiaAtual));
+ let disponiveis=filtrarDificuldade(dadosCompletosAno).filter(q=>materiaAtual==='all'||q.materia===materiaAtual);
+ if(reviewOnly)disponiveis=disponiveis.filter(q=>idsErrados.has(q.id));
  const quantidade=qtdAtual==='all'?disponiveis.length:Math.min(Number(qtdAtual),disponiveis.length);
  botao.disabled=!anoAtual||quantidade===0;
- botao.textContent=quantidade?('INICIAR REVISÃO — '+quantidade+' QUESTÕES'):'SEM QUESTÕES ERRADAS NESTE FILTRO';
+ botao.textContent=quantidade?(reviewOnly?'INICIAR REVISÃO — ':'INICIAR SIMULADO — ')+quantidade+' QUESTÕES':'SEM QUESTÕES PARA ESTE FILTRO';
 }
 const atualizarBotaoOriginal=window.atualizarBotaoStart;
 if(typeof atualizarBotaoOriginal==='function')window.atualizarBotaoStart=function(){
