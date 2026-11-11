@@ -3,7 +3,9 @@
 const KEY='desafioEnemHistoricoV1', THEME='desafioEnemTemaV1', GOAL='desafioEnemMetaV1', SESS='desafioEnemSessoesV1';
 const read=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch{return d}};
 const save=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){console.warn(e)}};
-let history=read(KEY,[]), reviewOnly=false, sessionSaved=false;
+let history=read(KEY,[]), reviewOnly=false, sessionSaved=false, difficultyFilter='all';
+function nivelQuestao(q){const p=q?.parametrosTRI?.parametros||q?.parametrosTri?.parametros||q?.tri?.parametros||q?.parametrosTRI||q?.parametrosTri||q?.tri;const b=Number(p?.b??p?.B);if(!Number.isFinite(b))return null;return b < -1?'facil':b > 1?'dificil':'media'}
+function filtrarDificuldade(lista){return difficultyFilter==='all'?lista:lista.filter(q=>nivelQuestao(q)===difficultyFilter)}
 window.addEventListener('simulado:repetido',()=>{sessionSaved=false});
 function theme(t){document.documentElement.dataset.theme=t;const b=document.getElementById('theme-toggle');if(b){b.textContent=t==='dark'?'☀️ Modo claro':'🌙 Modo escuro';b.setAttribute('aria-pressed',String(t==='dark'))}save(THEME,t)}
 function panel(){
@@ -177,8 +179,11 @@ function refresh(){
 }
 function advanced(){
  const q=document.getElementById('box-qtd');if(!q||document.getElementById('advanced-filters'))return;
- const a=document.createElement('div');a.id='advanced-filters';a.className='advanced-filters';a.innerHTML='<label class="filter-check"><input id="filter-errors" type="checkbox"> Revisar somente questões que já errei</label><p class="muted filter-help">Combine com ano, matéria e quantidade para uma revisão direcionada.</p>';q.after(a);
- a.querySelector('input').addEventListener('change',e=>{reviewOnly=e.target.checked;atualizarBotaoStart()});
+ const a=document.createElement('div');a.id='advanced-filters';a.className='advanced-filters';
+ a.innerHTML='<div class="difficulty-filter"><p class="section-title">5. Nível de dificuldade:</p><div class="difficulty-options" role="group" aria-label="Filtrar questões por dificuldade"><button type="button" class="mode-btn active" data-difficulty="all" aria-pressed="true">Todas</button><button type="button" class="mode-btn" data-difficulty="facil" aria-pressed="false">Fácil</button><button type="button" class="mode-btn" data-difficulty="media" aria-pressed="false">Média</button><button type="button" class="mode-btn" data-difficulty="dificil" aria-pressed="false">Difícil</button></div><p class="muted filter-help">O nível é estimado pelo parâmetro B da TRI. Questões sem parâmetros não entram nos filtros de dificuldade.</p></div><label class="filter-check"><input id="filter-errors" type="checkbox"> Revisar somente questões que já errei</label><p class="muted filter-help">Combine os filtros para montar um treino direcionado.</p>';
+ q.after(a);
+ a.querySelectorAll('[data-difficulty]').forEach(btn=>btn.addEventListener('click',()=>{difficultyFilter=btn.dataset.difficulty;a.querySelectorAll('[data-difficulty]').forEach(x=>{const active=x===btn;x.classList.toggle('active',active);x.setAttribute('aria-pressed',String(active))});if(typeof window.atualizarBotaoStart==='function')window.atualizarBotaoStart();atualizarInicioCombinado()}));
+ a.querySelector('#filter-errors').addEventListener('change',e=>{reviewOnly=e.target.checked;atualizarBotaoStart();atualizarInicioCombinado()});
 }
 
 function atualizarInicioRevisao(){
@@ -226,8 +231,7 @@ if(typeof originalLoad==='function')window.carregarAno=async function(){const r=
 const originalStart=window.irParaQuiz;
 if(typeof originalStart==='function')window.irParaQuiz=function(){
  sessionSaved=false;
- if(reviewOnly){const wrong=new Set(history.filter(x=>!x.ok).map(x=>x.id));const filtered=dadosCompletosAno.filter(q=>wrong.has(q.id));if(!filtered.length){alert('Ainda não há questões erradas registradas para este ano e matéria.');return}const previous=dadosCompletosAno;dadosCompletosAno=filtered;originalStart.apply(this,arguments);dadosCompletosAno=previous;return}
- const r=originalStart.apply(this,arguments);
+ const wrong=new Set(history.filter(x=>!x.ok).map(x=>x.id));let filtered=filtrarDificuldade(dadosCompletosAno);if(reviewOnly)filtered=filtered.filter(q=>wrong.has(q.id));if(!filtered.length){alert('Não há questões disponíveis para os filtros selecionados.');return}const previous=dadosCompletosAno;dadosCompletosAno=filtered;const r=originalStart.apply(this,arguments);dadosCompletosAno=previous;
  let bar=document.getElementById('quiz-progress-track');if(!bar){bar=document.createElement('div');bar.id='quiz-progress-track';bar.className='quiz-progress-track';bar.innerHTML='<span id="quiz-progress-fill"></span>';document.querySelector('.quiz-header').after(bar)}
  return r;
 };
@@ -314,7 +318,7 @@ function atualizarInicioCombinado(){
  const qtyBox=document.getElementById('box-qtd');
  const quantityEnabled=multiYearSelected.size>0&&multiSubjectSelected.size>0;
  if(qtyBox){qtyBox.style.opacity=quantityEnabled?'1':'0.5';qtyBox.style.pointerEvents=quantityEnabled?'auto':'none';}
- const total=questoesCombinadas().length;
+ const total=filtrarDificuldade(questoesCombinadas()).filter(q=>!reviewOnly||history.some(x=>x.id===q.id&&!x.ok)).length;
  const amount=qtdAtual==='all'?total:Math.min(Number(qtdAtual),total);
  const ready=multiYearSelected.size>0&&multiSubjectSelected.size>0&&amount>0;
  start.disabled=!ready;
@@ -323,7 +327,7 @@ function atualizarInicioCombinado(){
 const selecionarQtdOriginal=window.selecionarQtd;
 window.selecionarQtd=function(quantidade,btn){selecionarQtdOriginal(quantidade,btn);atualizarInicioCombinado()};
 window.irParaQuiz=function(){
- let lista=questoesCombinadas();
+ let lista=filtrarDificuldade(questoesCombinadas());
  if(reviewOnly){const wrong=new Set(history.filter(x=>!x.ok).map(x=>x.id));lista=lista.filter(q=>wrong.has(q.id))}
  if(!lista.length){alert(reviewOnly?'Não há questões erradas nos anos e matérias selecionados.':'Não há questões para os filtros selecionados.');return}
  dadosCompletosAno=lista;anoAtual='Múltiplos anos';materiaAtual='all';
