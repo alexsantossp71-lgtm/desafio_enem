@@ -238,7 +238,7 @@ if(typeof originalStart==='function')window.irParaQuiz=function(){
 
 /* Seleção combinada: permite reunir anos e matérias em um único simulado. */
 const multiYearData=new Map();
-let multiYearSelected=new Set(), multiSubjectSelected=new Set(), multiLoadToken=0;
+let multiYearSelected=new Set(Array.from({length:17},(_,i)=>2025-i)), multiSubjectSelected=new Set(), multiLoadToken=0, initialDefaultsApplied=false;
 function prepararSelecaoCombinada(){
  const yearBox=document.querySelector('#menu-screen .config-box');
  const yearGrid=document.getElementById('year-buttons');
@@ -253,11 +253,11 @@ function prepararSelecaoCombinada(){
  selector.innerHTML='<div class="multi-year-grid" id="multi-year-options"></div><p class="multi-selection-help">Você pode combinar provas de anos diferentes.</p><section class="multi-subject-section"><p class="section-title">2. Escolha uma ou mais matérias:</p><div class="multi-subject-grid" id="multi-subject-options"><span class="muted">Selecione os anos para carregar as matérias.</span></div></section>';
  yearBox.appendChild(selector);
  const options=selector.querySelector('#multi-year-options');
- const yearsButton=document.createElement('button');yearsButton.type='button';yearsButton.className='year-btn multi-all-btn';yearsButton.textContent='Todos';yearsButton.setAttribute('aria-pressed','false');
+ const yearsButton=document.createElement('button');yearsButton.type='button';yearsButton.className='year-btn multi-all-btn selected';yearsButton.textContent='Todos';yearsButton.setAttribute('aria-pressed','true');
  yearsButton.addEventListener('click',()=>{const all=[...Array(17)].map((_,i)=>2025-i);const selecting=multiYearSelected.size!==all.length;multiYearSelected=selecting?new Set(all):new Set();options.querySelectorAll('[data-year]').forEach(btn=>{const active=multiYearSelected.has(Number(btn.dataset.year));btn.classList.toggle('selected',active);btn.setAttribute('aria-pressed',String(active))});yearsButton.classList.toggle('selected',selecting);yearsButton.setAttribute('aria-pressed',String(selecting));carregarAnosCombinados()});
  options.appendChild(yearsButton);
  for(let year=2025;year>=2009;year--){
-  const button=document.createElement('button');button.type='button';button.className='year-btn';button.textContent=year;button.dataset.year=String(year);button.setAttribute('aria-pressed','false');
+  const button=document.createElement('button');button.type='button';button.className='year-btn selected';button.textContent=year;button.dataset.year=String(year);button.setAttribute('aria-pressed','true');
   button.addEventListener('click',()=>{if(multiYearSelected.has(year))multiYearSelected.delete(year);else multiYearSelected.add(year);const active=multiYearSelected.has(year);button.classList.toggle('selected',active);button.setAttribute('aria-pressed',String(active));const all=multiYearSelected.size===17;yearsButton.classList.toggle('selected',all);yearsButton.setAttribute('aria-pressed',String(all));carregarAnosCombinados()});
   options.appendChild(button);
  }
@@ -294,7 +294,8 @@ async function carregarAnosCombinados(){
  const failed=results.filter(([,items])=>!items.length).map(([year])=>year);
  const available=new Set(results.flatMap(([,items])=>items.map(q=>q.materia||'geral')));
  const previous=multiSubjectSelected;
- multiSubjectSelected=new Set([...previous].filter(subject=>available.has(subject)));
+ multiSubjectSelected=initialDefaultsApplied?new Set([...previous].filter(subject=>available.has(subject))):new Set(available);
+ initialDefaultsApplied=true;
  subjectBox.replaceChildren();
  const subjects=[...available].sort((a,b)=>(AREA_LABELS[a]||a).localeCompare(AREA_LABELS[b]||b,'pt-BR'));
  const allSubjectsButton=document.createElement('button');allSubjectsButton.type='button';allSubjectsButton.className='year-btn multi-all-btn multi-subject-all-btn';allSubjectsButton.textContent='Todas';allSubjectsButton.setAttribute('aria-pressed',String(subjects.length>0&&multiSubjectSelected.size===subjects.length));
@@ -343,7 +344,7 @@ if(typeof originalQuestion==='function')window.carregarQuestao=function(){
  document.querySelectorAll('.option-label input').forEach(input=>input.addEventListener('change',()=>{document.querySelectorAll('.option-label').forEach(x=>x.classList.remove('is-selected'));input.closest('.option-label').classList.add('is-selected')}));
  return r;
 };
-panel();advanced();prepararSelecaoCombinada();refresh();
-document.addEventListener('DOMContentLoaded',()=>{panel();advanced();prepararSelecaoCombinada();refresh()});
+panel();advanced();prepararSelecaoCombinada();carregarAnosCombinados();refresh();
+document.addEventListener('DOMContentLoaded',()=>{panel();advanced();prepararSelecaoCombinada();carregarAnosCombinados();refresh()});
 window.addEventListener('storage',e=>{if(e.key===KEY){history=read(KEY,[]);refresh()}});
 })();
